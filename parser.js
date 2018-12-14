@@ -162,20 +162,32 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
       isBoss: !!file['0 MonoBehaviour Base']['1 UInt8 IsBoss'],
       isElite: !!file['0 MonoBehaviour Base']['1 UInt8 IsElite'],
       isSetPieceMonster: !!file['0 MonoBehaviour Base']['1 UInt8 IsSetPieceMonster'],
-      stats: require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
+      data: require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
         if (!fs.existsSync(path.join(__dirname, 'Other', v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) return undefined
         var f = require(path.join(__dirname, 'Other', v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
         if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array stat'] && f['0 MonoBehaviour Base']['0 Array stat'].length > 0) {
-          return f['0 MonoBehaviour Base']['0 Array stat'].map(v => {
-            return {
-              key: Object.keys(statEnum).map(f => {
-                if (statEnum[f] === v['0 Deity.Shared.Stat data']['0 int key']) return f
-                else return undefined
-              }).filter(Boolean).join(''),
-              equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-              value: v['0 Deity.Shared.Stat data']['0 float value']
-            }
-          })
+          return {
+            stats: f['0 MonoBehaviour Base']['0 Array stat'].map(v => {
+              return {
+                key: Object.keys(statEnum).map(f => {
+                  if (statEnum[f] === v['0 Deity.Shared.Stat data']['0 int key']) return f
+                  else return undefined
+                }).filter(Boolean).join(''),
+                equation: v['0 Deity.Shared.Stat data']['1 string equation'],
+                value: v['0 Deity.Shared.Stat data']['0 float value']
+              }
+            })
+          }
+        } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Deity.Shared.CollisionShape shape']) {
+          return {
+            bSlide: !!f['0 MonoBehaviour Base']['1 UInt8 bSlide'],
+            bPlayer: !!f['0 MonoBehaviour Base']['1 UInt8 bPlayer'],
+            bEnemy: !!f['0 MonoBehaviour Base']['1 UInt8 bEnemy'],
+            bSkipWorld: !!f['0 MonoBehaviour Base']['1 UInt8 bSkipWorld'],
+            bSlowedDownByWater: !!f['0 MonoBehaviour Base']['1 UInt8 bSlowedDownByWater'],
+            bBlockedByLava: !!f['0 MonoBehaviour Base']['1 UInt8 bBlockedByLava'],
+            bFlying: !!f['0 MonoBehaviour Base']['1 UInt8 bFlying']
+          }
         } else return undefined
       }).filter(Boolean),
       zenithEffects: file['0 MonoBehaviour Base']['0 Array ZenithEffects'].map(v => {
