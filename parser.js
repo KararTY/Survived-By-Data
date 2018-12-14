@@ -24,6 +24,7 @@ const path = require('path')
  * - AICategoryEnum.json
  * - ElementalEnum.json
  * - ItemClassEnum.json
+ * - ClassEnum.json
  * - english.json
  */
 
@@ -31,6 +32,7 @@ var statEnum = require(path.join(__dirname, 'StatEnum.json'))
 var categoryEnum = require(path.join(__dirname, 'AICategoryEnum.json'))
 var elementEnum = require(path.join(__dirname, 'ElementalEnum.json'))
 var itemClassEnum = require(path.join(__dirname, 'ItemClassEnum.json'))
+var classEnum = require(path.join(__dirname, 'ClassEnum.json'))
 var english = require(path.join(__dirname, 'english.json'))
 
 if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
@@ -50,13 +52,13 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
       sellPrice: file['0 MonoBehaviour Base']['0 int SellPrice'],
       consumable: !!file['0 MonoBehaviour Base']['1 UInt8 bConsumable'],
       requiredLevel: file['0 MonoBehaviour Base']['0 int RequiredLevel'],
-      class: Object.keys(itemClassEnum).map(f => {
+      type: Object.keys(itemClassEnum).map(f => {
         if (itemClassEnum[f] === file['0 MonoBehaviour Base']['0 int Class']) return f
         else return undefined
       }).filter(Boolean).join(''),
       maxStack: file['0 MonoBehaviour Base']['0 int MaxStackAmount'],
       tier: file['0 MonoBehaviour Base']['0 int Tier'],
-      stats: file['0 MonoBehaviour Base']['0 Array stat'].map(v => {
+      stats: file['0 MonoBehaviour Base']['0 Array stat'].length > 0 ? file['0 MonoBehaviour Base']['0 Array stat'].map(v => {
         return {
           key: Object.keys(statEnum).map(f => {
              if (statEnum[f] === v['0 Deity.Shared.Stat data']['0 int key']) return f
@@ -65,7 +67,14 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
           equation: v['0 Deity.Shared.Stat data']['1 string equation'],
           value: v['0 Deity.Shared.Stat data']['0 float value']
         }
+      }) : undefined,
+      experiencePerLevel: file['0 MonoBehaviour Base']['0 Array ExperiencePerLevel'].map(v => {
+        return v['0 int data']
       }),
+      class: Object.keys(classEnum).map(f => {
+        if (classEnum[f] === file['0 MonoBehaviour Base']['0 int EquipMask']) return f
+        else return undefined
+      }).filter(Boolean).join(''),
       bonusDismantleLoot: file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] > 0 ? {
         name: require(path.join(__dirname, 'GameObject', require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         lootTable: require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {

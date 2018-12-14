@@ -1,0 +1,9 @@
+{
+  "None": 0,
+  "Alchemist": 1,
+  "Harbinger": 2,
+  "Infiltrator": 4,
+  "Sentinel": 8,
+  "Geomancer": 16,
+  "Druid": 32
+}
