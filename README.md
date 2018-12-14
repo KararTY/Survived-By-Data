@@ -46,6 +46,7 @@ All filenames are changed to just be numerical, just like in the box above. So f
 
 To search the files using Windows search, I use `ren *.json *.txt` and then I search like this:
 ![1.png](1.png)
+
 After I'm done sorting the files based on their content, I do `ren *.txt *.json`.
 
 The file [parser.js](parser.js), a NodeJS script, should show the magic behind the scenes turning data inside the folders into human readable files.
