@@ -1,0 +1,1 @@
+{"name":"Post Button","enabled":true,"isBoss":false,"isElite":true,"isSetPieceMonster":false,"stats":[[{"key":"DamageOverTime","equation":"[DamageOverTime]+([Proc.Counter]*([Proc.Benefit]/100)/5)","value":0}]],"zenithEffects":[],"category":2,"element":0,"monsterDescription":"Description for Elite Crocuta"}

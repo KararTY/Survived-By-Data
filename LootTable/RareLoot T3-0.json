@@ -1,0 +1,1 @@
+{"from":"RareLoot T3","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Burning Sands Key","count":{"dice":0,"faces":0,"add":1},"chance":30},{"item":"Silver","count":{"dice":3,"faces":8,"add":5},"chance":100}]}

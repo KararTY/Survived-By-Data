@@ -1,0 +1,1 @@
+{"name":"Boots Heavy T13 v1","price":340,"sellPrice":170,"consumable":false,"requiredLevel":0,"class":4,"maxStack":1,"tier":13,"stats":[{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}

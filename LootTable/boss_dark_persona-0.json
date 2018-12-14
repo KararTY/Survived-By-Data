@@ -1,0 +1,1 @@
+{"from":"boss_dark_persona","enabled":true,"guaranteeItemCount":2,"maximumItemCount":3,"lootTable":[{"item":"Pristine Iris Mounting","count":{"dice":0,"faces":0,"add":0},"chance":1},{"item":"Silver","count":{"dice":11,"faces":10,"add":40},"chance":100}]}

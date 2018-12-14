@@ -1,0 +1,1 @@
+{"from":"monster_agent_collector_void","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Resin","count":{"dice":1,"faces":4,"add":3},"chance":20}]}
