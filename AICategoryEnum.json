@@ -1,0 +1,16 @@
+{
+  "None": 0,
+  "Beast": 1,
+  "Chimera": 2,
+  "Spirit": 3,
+  "Infernal": 4,
+  "Ashaga": 5,
+  "Undying": 6,
+  "Agent": 7,
+  "Construct": 8,
+  "Well": 9,
+  "Pet": 10,
+  "Plant": 11,
+  "Fauna": 12,
+  "Sin": 13
+}
