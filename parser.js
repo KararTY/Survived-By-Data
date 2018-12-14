@@ -10,10 +10,25 @@ const path = require('path')
 //   })
 // })
 
+/**
+ * Following folders need to exist:
+ * - GameObject
+ * - ItemDefinition
+ * - LootTable
+ * - Monster
+ * - Other
+ * - Parsed^
+ * ^Automatically created by this script.
+ */
+
 var statEnum = require(path.join(__dirname, 'StatEnum.json'))
 var categoryEnum = require(path.join(__dirname, 'AICategoryEnum.json'))
 var elementEnum = require(path.join(__dirname, 'ElementalEnum.json'))
 var english = require(path.join(__dirname, 'english.json'))
+
+if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
+  fs.mkdirSync(path.join(__dirname, 'Parsed'))
+}
 
 let folder1 = 'ItemDefinition'
 fs.readdir(path.join(__dirname, folder1), (err, files) => {
@@ -56,9 +71,6 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
     if (typeof count[itemDefinition.name] === 'number') count[itemDefinition.name]++
     else count[itemDefinition.name] = 0
 
-    if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
-      fs.mkdirSync(path.join(__dirname, 'Parsed'))
-    }
     if (!fs.existsSync(path.join(__dirname, 'Parsed', folder1))) {
       fs.mkdirSync(path.join(__dirname, 'Parsed', folder1))
     }
@@ -94,9 +106,6 @@ fs.readdir(path.join(__dirname, folder2), (err, files) => {
     if (typeof count[lootTable.from] === 'number') count[lootTable.from]++
     else count[lootTable.from] = 0
 
-    if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
-      fs.mkdirSync(path.join(__dirname, 'Parsed'))
-    }
     if (!fs.existsSync(path.join(__dirname, 'Parsed', folder2))) {
       fs.mkdirSync(path.join(__dirname, 'Parsed', folder2))
     }
@@ -173,9 +182,6 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
     if (typeof count[monsterInfo.name] === 'number') count[monsterInfo.name]++
     else count[monsterInfo.name] = 0
 
-    if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
-      fs.mkdirSync(path.join(__dirname, 'Parsed'))
-    }
     if (!fs.existsSync(path.join(__dirname, 'Parsed', folder3))) {
       fs.mkdirSync(path.join(__dirname, 'Parsed', folder3))
     }
