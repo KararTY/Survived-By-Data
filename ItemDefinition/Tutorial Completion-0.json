@@ -1,1 +1,1 @@
-{"name":"Tutorial Completion","price":43,"sellPrice":0,"consumable":false,"requiredLevel":0,"class":32,"maxStack":1,"tier":0,"stats":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0}
+{"name":"Tutorial Completion","price":43,"sellPrice":0,"consumable":false,"requiredLevel":0,"class":"Misc","maxStack":1,"tier":0,"stats":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0}

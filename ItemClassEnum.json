@@ -1,0 +1,12 @@
+{
+	"None": 0,
+	"Weapon": 1,
+	"Armor": 2,
+	"Boots": 4,
+	"Amulet": 8,
+	"Ring": 16,
+	"Misc": 32,
+	"Consumable": 64,
+	"Ancestral": 128,
+	"All": 255
+}

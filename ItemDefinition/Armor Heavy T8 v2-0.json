@@ -1,1 +1,1 @@
-{"name":"Armor Heavy T8 v2","price":82,"sellPrice":41,"consumable":false,"requiredLevel":0,"class":2,"maxStack":1,"tier":8,"stats":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}
+{"name":"Armor Heavy T8 v2","price":82,"sellPrice":41,"consumable":false,"requiredLevel":0,"class":"Armor","maxStack":1,"tier":8,"stats":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}

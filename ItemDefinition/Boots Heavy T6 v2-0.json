@@ -1,1 +1,1 @@
-{"name":"Boots Heavy T6 v2","price":35,"sellPrice":17,"consumable":false,"requiredLevel":0,"class":4,"maxStack":1,"tier":6,"stats":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}
+{"name":"Boots Heavy T6 v2","price":35,"sellPrice":17,"consumable":false,"requiredLevel":0,"class":"Boots","maxStack":1,"tier":6,"stats":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}

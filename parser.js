@@ -19,11 +19,18 @@ const path = require('path')
  * - Other
  * - Parsed^
  * ^Automatically created by this script.
+ * Following files need to exist:
+ * - StatEnum.json
+ * - AICategoryEnum.json
+ * - ElementalEnum.json
+ * - ItemClassEnum.json
+ * - english.json
  */
 
 var statEnum = require(path.join(__dirname, 'StatEnum.json'))
 var categoryEnum = require(path.join(__dirname, 'AICategoryEnum.json'))
 var elementEnum = require(path.join(__dirname, 'ElementalEnum.json'))
+var itemClassEnum = require(path.join(__dirname, 'ItemClassEnum.json'))
 var english = require(path.join(__dirname, 'english.json'))
 
 if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
@@ -43,7 +50,10 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
       sellPrice: file['0 MonoBehaviour Base']['0 int SellPrice'],
       consumable: !!file['0 MonoBehaviour Base']['1 UInt8 bConsumable'],
       requiredLevel: file['0 MonoBehaviour Base']['0 int RequiredLevel'],
-      class: file['0 MonoBehaviour Base']['0 int Class'],
+      class: Object.keys(itemClassEnum).map(f => {
+        if (itemClassEnum[f] === file['0 MonoBehaviour Base']['0 int Class']) return f
+        else return undefined
+      }).filter(Boolean).join(''),
       maxStack: file['0 MonoBehaviour Base']['0 int MaxStackAmount'],
       tier: file['0 MonoBehaviour Base']['0 int Tier'],
       stats: file['0 MonoBehaviour Base']['0 Array stat'].map(v => {

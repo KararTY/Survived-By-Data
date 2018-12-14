@@ -1,1 +1,1 @@
-{"name":"Ring T14 v3","price":434,"sellPrice":217,"consumable":false,"requiredLevel":0,"class":16,"maxStack":1,"tier":14,"stats":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}
+{"name":"Ring T14 v3","price":434,"sellPrice":217,"consumable":false,"requiredLevel":0,"class":"Ring","maxStack":1,"tier":14,"stats":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}
