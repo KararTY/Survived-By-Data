@@ -1,1 +1,1 @@
-{"from":"Text","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Log","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true}]}
+{"from":"Text","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Log","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true}],"reference":"CommonLoot T4"}

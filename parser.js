@@ -25,6 +25,7 @@ const path = require('path')
  * - ElementalEnum.json
  * - ItemClassEnum.json
  * - ClassEnum.json
+ * - CraftingCategory.json
  * - english.json
  */
 
@@ -33,6 +34,7 @@ var categoryEnum = require(path.join(__dirname, 'AICategoryEnum.json'))
 var elementEnum = require(path.join(__dirname, 'ElementalEnum.json'))
 var itemClassEnum = require(path.join(__dirname, 'ItemClassEnum.json'))
 var classEnum = require(path.join(__dirname, 'ClassEnum.json'))
+var craftingCategoryEnum = require(path.join(__dirname, 'CraftingCategoryEnum.json'))
 var english = require(path.join(__dirname, 'english.json'))
 
 if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
@@ -47,21 +49,73 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
     var file = require(path.join(__dirname, folder1, val))
     var itemDefinition = {
       name: english[file['0 MonoBehaviour Base']['1 string Name']] || file['0 MonoBehaviour Base']['1 string Name'].replace(/[\/?<>\\:*|"]/g, ''),
+      alias: (english[file['0 MonoBehaviour Base']['1 string Name']] || file['0 MonoBehaviour Base']['1 string Name']) === require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+        ? undefined
+        : require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
       description: english[file['0 MonoBehaviour Base']['1 string Description']],
       price: file['0 MonoBehaviour Base']['0 int Price'],
       sellPrice: file['0 MonoBehaviour Base']['0 int SellPrice'],
       consumable: !!file['0 MonoBehaviour Base']['1 UInt8 bConsumable'],
       requiredLevel: file['0 MonoBehaviour Base']['0 int RequiredLevel'],
-      type: Object.keys(itemClassEnum).map(f => {
-        if (itemClassEnum[f] === file['0 MonoBehaviour Base']['0 int Class']) return f
+      type: Object.keys(itemClassEnum).map(e => {
+        if (itemClassEnum[e] === file['0 MonoBehaviour Base']['0 int Class']) return e
         else return undefined
       }).filter(Boolean).join(''),
       maxStack: file['0 MonoBehaviour Base']['0 int MaxStackAmount'],
       tier: file['0 MonoBehaviour Base']['0 int Tier'],
+      data: require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
+        if (!fs.existsSync(path.join(__dirname, 'Other', v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) return undefined
+        var f = require(path.join(__dirname, 'Other', v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
+        if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 float CraftingTime'] > 0) {
+          return {
+            crafting: {
+              craftingTime: f['0 MonoBehaviour Base']['0 float CraftingTime'],
+              leveledRecipes: f['0 MonoBehaviour Base']['0 Array LeveledRecipes'].map(v => {
+                return {
+                  level: v['0 Deity.Shared.Recipe data']['0 int Level'],
+                  craftingTime: v['0 Deity.Shared.Recipe data']['0 float CraftingTime'],
+                  requiredItems: v['0 Deity.Shared.Recipe data']['0 Array RequiredItems'].map(v => {
+                    var f = require(path.join(__dirname, 'ItemDefinition', v['0 Deity.Shared.CraftRecipeItem data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))
+                    return {
+                      name: english[f['0 MonoBehaviour Base']['1 string Name']] || f['0 MonoBehaviour Base']['1 string Name'],
+                      count: v['0 Deity.Shared.CraftRecipeItem data']['0 unsigned int count'],
+                      requiredLevel: v['0 Deity.Shared.CraftRecipeItem data']['0 unsigned int requiredLevel']
+                    }
+                  }),
+                  craftCost: v['0 Deity.Shared.Recipe data']['0 int CraftCost'],
+                  craftNowCost: v['0 Deity.Shared.Recipe data']['0 int CraftNowCost'],
+                  craftingStat:  Object.keys(statEnum).map(e => {
+                    if (statEnum[e] === v['0 Deity.Shared.Recipe data']['CraftingStat']) return e
+                    else return undefined
+                  }).filter(Boolean).join('')
+                }
+              }),
+              requiredItems: f['0 MonoBehaviour Base']['0 Array RequiredItems'].map(v => {
+                var f = require(path.join(__dirname, 'ItemDefinition', v['0 Deity.Shared.CraftRecipeItem data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))
+                return {
+                  name: english[f['0 MonoBehaviour Base']['1 string Name']] || f['0 MonoBehaviour Base']['1 string Name'],
+                  count: v['0 Deity.Shared.CraftRecipeItem data']['0 unsigned int count'],
+                  requiredLevel: v['0 Deity.Shared.CraftRecipeItem data']['0 unsigned int requiredLevel']
+                }
+              }),
+              craftCost: f['0 MonoBehaviour Base']['0 int CraftCost'],
+              craftNowCost: f['0 MonoBehaviour Base']['0 int CraftNowCost'],
+              craftingStat: Object.keys(statEnum).map(e => {
+                if (statEnum[e] === f['0 MonoBehaviour Base']['0 int CraftingStat']) return e
+                else return undefined
+              }).filter(Boolean).join(''),
+              craftingCategory: Object.keys(craftingCategoryEnum).map(e => {
+                if (craftingCategoryEnum[e] === f['0 MonoBehaviour Base']['0 int craftingCategory']) return e
+                else return undefined
+              }).filter(Boolean).join('')
+            }
+          }
+        } else return undefined
+      }).filter(Boolean),
       stats: file['0 MonoBehaviour Base']['0 Array stat'].length > 0 ? file['0 MonoBehaviour Base']['0 Array stat'].map(v => {
         return {
-          key: Object.keys(statEnum).map(f => {
-             if (statEnum[f] === v['0 Deity.Shared.Stat data']['0 int key']) return f
+          key: Object.keys(statEnum).map(e => {
+             if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
              else return undefined
            }).filter(Boolean).join(''),
           equation: v['0 Deity.Shared.Stat data']['1 string equation'],
@@ -71,8 +125,8 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
       experiencePerLevel: file['0 MonoBehaviour Base']['0 Array ExperiencePerLevel'].map(v => {
         return v['0 int data']
       }),
-      class: Object.keys(classEnum).map(f => {
-        if (classEnum[f] === file['0 MonoBehaviour Base']['0 int EquipMask']) return f
+      class: Object.keys(classEnum).map(e => {
+        if (classEnum[e] === file['0 MonoBehaviour Base']['0 int EquipMask']) return e
         else return undefined
       }).filter(Boolean).join(''),
       bonusDismantleLoot: file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] > 0 ? {
@@ -136,7 +190,10 @@ fs.readdir(path.join(__dirname, folder2), (err, files) => {
           chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
           allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
         }
-      })
+      }),
+      reference: file['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0
+      ? require(path.join(__dirname, 'GameObject', require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+      : undefined
     }
     if (typeof count[lootTable.from] === 'number') count[lootTable.from]++
     else count[lootTable.from] = 0
@@ -157,7 +214,15 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
   files.forEach(val => {
     var file = require(path.join(__dirname, folder3, val))
     var monsterInfo = {
-      name: require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
+      name: file['0 MonoBehaviour Base']['1 string MonsterName'].length > 0
+        ? english[file['0 MonoBehaviour Base']['1 string MonsterName']] || file['0 MonoBehaviour Base']['1 string MonsterName'].replace(/[\/?<>\\:*|"]/g, '')
+        : require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
+      alias: file['0 MonoBehaviour Base']['1 string MonsterName'].length > 0 
+        ? (english[file['0 MonoBehaviour Base']['1 string MonsterName']] || file['0 MonoBehaviour Base']['1 string MonsterName']) === require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+          ? undefined
+          : require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+        : undefined,
+      description: english[file['0 MonoBehaviour Base']['1 string MonsterDescription']] || file['0 MonoBehaviour Base']['1 string MonsterDescription'],
       enabled: !!file['0 MonoBehaviour Base']['1 UInt8 m_Enabled'],
       isBoss: !!file['0 MonoBehaviour Base']['1 UInt8 IsBoss'],
       isElite: !!file['0 MonoBehaviour Base']['1 UInt8 IsElite'],
@@ -169,8 +234,8 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
           return {
             stats: f['0 MonoBehaviour Base']['0 Array stat'].map(v => {
               return {
-                key: Object.keys(statEnum).map(f => {
-                  if (statEnum[f] === v['0 Deity.Shared.Stat data']['0 int key']) return f
+                key: Object.keys(statEnum).map(e => {
+                  if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
                   else return undefined
                 }).filter(Boolean).join(''),
                 equation: v['0 Deity.Shared.Stat data']['1 string equation'],
@@ -198,8 +263,8 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
           duration: z['0 MonoBehaviour Base']['0 float Duration'],
           stats: z['0 MonoBehaviour Base']['0 Array stat'].map(v => {
             return {
-              key: Object.keys(statEnum).map(f => {
-                if (statEnum[f] === v['0 Deity.Shared.Stat data']['0 int key']) return f
+              key: Object.keys(statEnum).map(e => {
+                if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
                 else return undefined
               }).filter(Boolean).join(''),
               equation: v['0 Deity.Shared.Stat data']['1 string equation'],
@@ -215,16 +280,14 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
           isAccountWide: z['0 MonoBehaviour Base']['1 UInt8 IsAccountWide'],
         }
       }),
-      category: Object.keys(categoryEnum).map(f => {
-        if (categoryEnum[f] === file['0 MonoBehaviour Base']['0 int Category']) return f
+      category: Object.keys(categoryEnum).map(e => {
+        if (categoryEnum[e] === file['0 MonoBehaviour Base']['0 int Category']) return e
         else return undefined
       }).filter(Boolean).join(''),
-      element: Object.keys(elementEnum).map(f => {
-        if (elementEnum[f] === file['0 MonoBehaviour Base']['0 int Element']) return f
+      element: Object.keys(elementEnum).map(e => {
+        if (elementEnum[e] === file['0 MonoBehaviour Base']['0 int Element']) return e
         else return undefined
       }).filter(Boolean).join(''),
-      monsterName: english[file['0 MonoBehaviour Base']['1 string MonsterName'] || file['0 MonoBehaviour Base']['1 string MonsterName']],
-      monsterDescription: english[file['0 MonoBehaviour Base']['1 string MonsterDescription']] || file['0 MonoBehaviour Base']['1 string MonsterDescription'],
     }
     if (typeof count[monsterInfo.name] === 'number') count[monsterInfo.name]++
     else count[monsterInfo.name] = 0

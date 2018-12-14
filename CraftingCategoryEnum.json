@@ -1,0 +1,16 @@
+{
+  "T1_Common": 1,
+  "T2_Rosin": 2,
+  "T3_Jet": 3,
+  "T4_DeepRime": 4,
+  "T5_Mercury": 5,
+  "T6_Void": 6,
+  "T7_Mythril": 7,
+  "T8_Eldritch": 8,
+  "T9_Antecedent": 9,
+  "T10_Master1": 10,
+  "CraftingTierUnlock": 98,
+  "NotCurrentlyCraftable": 99,
+  "Event_Sin": 100,
+  "Event_DeepNight": 101
+}

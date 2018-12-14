@@ -1,0 +1,1 @@
+{"name":"Elite Crocuta","alias":"Post Button","description":"Description for Elite Crocuta","enabled":true,"isBoss":false,"isElite":true,"isSetPieceMonster":false,"data":[{"stats":[{"key":"DamageOverTime","equation":"[DamageOverTime]+([Proc.Counter]*([Proc.Benefit]/100)/5)","value":0}]}],"zenithEffects":[],"category":"Chimera","element":"None"}

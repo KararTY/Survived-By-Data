@@ -1,1 +1,1 @@
-{"from":"LootBox T5","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Bloodstone","count":{"dice":4,"faces":5,"add":5},"chance":100,"allowModifiers":true}]}
+{"from":"LootBox T5","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Bloodstone","count":{"dice":4,"faces":5,"add":5},"chance":100,"allowModifiers":true}],"reference":"RareLoot T5"}

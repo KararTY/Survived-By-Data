@@ -1,1 +1,0 @@
-{"name":"StatsUI","enabled":true,"isBoss":false,"isElite":false,"isSetPieceMonster":false,"data":[{"stats":[{"key":"RateOfAttack","equation":"[RateOfAttack]*0.8","value":0},{"key":"Tier","equation":"","value":0}]}],"zenithEffects":[],"category":"Beast","element":"None","monsterName":"Greater Rattle Snake","monsterDescription":"Description for Greater Rattle Snake"}
