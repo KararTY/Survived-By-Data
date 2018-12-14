@@ -1,1 +1,1 @@
-{"from":"RareLoot T7","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Will-o'-the-Wisp Forest Key","count":{"dice":0,"faces":0,"add":1},"chance":18},{"item":"Silver","count":{"dice":4,"faces":12,"add":16},"chance":100}]}
+{"from":"RareLoot T7","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Will-o'-the-Wisp Forest Key","count":{"dice":0,"faces":0,"add":1},"chance":18,"allowModifiers":true},{"item":"Silver","count":{"dice":4,"faces":12,"add":16},"chance":100,"allowModifiers":true}]}

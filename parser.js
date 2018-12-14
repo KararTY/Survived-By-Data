@@ -66,6 +66,21 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
           value: v['0 Deity.Shared.Stat data']['0 float value']
         }
       }),
+      bonusDismantleLoot: file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] > 0 ? {
+        name: require(path.join(__dirname, 'GameObject', require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
+        lootTable: require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
+          return {
+            item: english[require(path.join(__dirname, 'ItemDefinition', v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID']  + '.json'))['0 MonoBehaviour Base']['1 string Name']] || require(path.join(__dirname, 'ItemDefinition', v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID']  + '.json'))['0 MonoBehaviour Base']['1 string Name'],
+            count: {
+              dice: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int dice'],
+              faces: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int faces'],
+              add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
+            },
+            chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
+            allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
+          }
+        })
+      } : undefined,
       bound: {
         account: !!file['0 MonoBehaviour Base']['1 UInt8 AlwaysSoulbound'],
         soul: !!file['0 MonoBehaviour Base']['1 UInt8 AlwaysAccountbound']
@@ -109,7 +124,8 @@ fs.readdir(path.join(__dirname, folder2), (err, files) => {
             faces: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int faces'],
             add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
           },
-          chance: v['0 Deity.Shared.LootEntry data']['0 double chance']
+          chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
+          allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
         }
       })
     }

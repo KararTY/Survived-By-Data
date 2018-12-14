@@ -1,1 +1,1 @@
-{"from":"monster_chimera_lionmage","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Lion Idol","count":{"dice":0,"faces":0,"add":1},"chance":50}]}
+{"from":"monster_chimera_lionmage","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Lion Idol","count":{"dice":0,"faces":0,"add":1},"chance":50,"allowModifiers":false}]}

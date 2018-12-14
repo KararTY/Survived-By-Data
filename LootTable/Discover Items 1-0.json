@@ -1,1 +1,1 @@
-{"from":"Discover Items 1","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Standard Ancestral Legacy","count":{"dice":0,"faces":0,"add":1},"chance":100}]}
+{"from":"Discover Items 1","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Standard Ancestral Legacy","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false}]}

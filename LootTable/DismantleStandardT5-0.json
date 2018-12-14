@@ -1,1 +1,1 @@
-{"from":"DismantleStandardT5","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Enriched Embers","count":{"dice":1,"faces":2,"add":1},"chance":100}]}
+{"from":"DismantleStandardT5","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Enriched Embers","count":{"dice":1,"faces":2,"add":1},"chance":100,"allowModifiers":false}]}

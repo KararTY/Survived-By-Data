@@ -1,1 +1,1 @@
-{"from":"DeepNightRareLoot T5","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Fifth Gate Stone Fragment","count":{"dice":0,"faces":0,"add":1},"chance":100},{"item":"Silver","count":{"dice":3,"faces":10,"add":12},"chance":100}]}
+{"from":"DeepNightRareLoot T5","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Fifth Gate Stone Fragment","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":true},{"item":"Silver","count":{"dice":3,"faces":10,"add":12},"chance":100,"allowModifiers":true}]}

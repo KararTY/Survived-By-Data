@@ -1,1 +1,1 @@
-{"from":"Sliding Area","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Strands","count":{"dice":0,"faces":0,"add":1},"chance":20}]}
+{"from":"Sliding Area","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Strands","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true}]}
