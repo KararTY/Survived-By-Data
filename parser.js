@@ -143,6 +143,7 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
               allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
             })
           })
+          return table
         })()
       } : undefined,
       bound: {
