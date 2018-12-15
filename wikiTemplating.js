@@ -37,7 +37,7 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
   |focus = ${file.stats ? file.stats.find(s => s.key === 'Focus') ? (`{{Icon|Focus|nolink=1}} ${file.stats.find(s => s.key === 'Focus').equation || file.stats.find(s => s.key === 'Focus').value} ${file.stats.find(s => s.key === 'Focus').equation && file.stats.find(s => s.key === 'Focus').value > 0 ? `<br>'''${file.stats.find(s => s.key === 'Focus').value}'''` : ''}`) : '' : ''}
 
   |materials = ${!!file.data.find(s => s['crafting']) ? file.data.find(s => s['crafting']).crafting.requiredItems.map(i => `x${i.count} {{Icon|${i.name}}}`).join('<br>') : ''}
-  |silver_cost = ${!!file.data.find(s => s['crafting']) ? `${file.data.find(s => s['crafting']).crafting.craftCost} {{Icon|Silver|nolink=1}}` : ''}
+  |silver_cost = ${!!file.data.find(s => s['crafting']) ? file.data.find(s => s['crafting']).crafting.craftCost ? `${file.data.find(s => s['crafting']).crafting.craftCost} {{Icon|Silver|nolink=1}}` : '' : ''}
   |time = ${!!file.data.find(s => s['crafting']) ? moment.duration(Number(file.data.find(s => s['crafting']).crafting.craftingTime), 'seconds').format("h [hours], m [minutes], s [seconds]", { trim: 'both'}) : ''}
 
   |dismantle_chance = ${file['craftingRarity'] ? `${parseFloat(file['craftingRarity'][0] * 100)}%` : ''}
