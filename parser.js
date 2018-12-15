@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-
+const rimraf = require('rimraf')
 // // Rename function
 // var folder = 'Other'
 // fs.readdir(path.join(__dirname, folder), (err, files) => {
@@ -36,12 +36,13 @@ function hasFlag (a, b) {
 
 if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
   fs.mkdirSync(path.join(__dirname, 'Parsed'))
+} else {
+  rimraf.sync(path.join(__dirname, 'Parsed'))
+  fs.mkdirSync(path.join(__dirname, 'Parsed'))
 }
 
 let folder1 = 'ItemDefinition'
-if (!fs.existsSync(path.join(__dirname, 'Parsed', folder1))) {
-  fs.mkdirSync(path.join(__dirname, 'Parsed', folder1))
-}
+fs.mkdirSync(path.join(__dirname, 'Parsed', folder1))
 fs.readdir(path.join(__dirname, folder1), (err, files) => {
   if (err) throw err
   files.forEach(val => {
@@ -178,9 +179,7 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
 })
 
 let folder2 = 'LootTable'
-if (!fs.existsSync(path.join(__dirname, 'Parsed', folder2))) {
-  fs.mkdirSync(path.join(__dirname, 'Parsed', folder2))
-}
+fs.mkdirSync(path.join(__dirname, 'Parsed', folder2))
 fs.readdir(path.join(__dirname, folder2), (err, files) => {
   if (err) throw err
   files.forEach(val => {
@@ -218,9 +217,7 @@ fs.readdir(path.join(__dirname, folder2), (err, files) => {
 })
 
 let folder3 = 'Monster'
-if (!fs.existsSync(path.join(__dirname, 'Parsed', folder3))) {
-  fs.mkdirSync(path.join(__dirname, 'Parsed', folder3))
-}
+fs.mkdirSync(path.join(__dirname, 'Parsed', folder3))
 fs.readdir(path.join(__dirname, folder3), (err, files) => {
   if (err) throw err
   files.forEach(val => {
