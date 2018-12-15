@@ -1,1 +1,0 @@
-{"name":"Armor Heavy T15 v3","description":"[deprecated]","price":540,"sellPrice":270,"consumable":false,"requiredLevel":0,"type":"Armor","maxStack":1,"tier":15,"data":[],"experiencePerLevel":[0],"class":["Sentinel","Geomancer"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}

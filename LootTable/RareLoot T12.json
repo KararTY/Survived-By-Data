@@ -1,0 +1,1 @@
+[{"from":"RareLoot T12","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Silver","count":{"dice":13,"faces":10,"add":55},"chance":100,"allowModifiers":true}]}]

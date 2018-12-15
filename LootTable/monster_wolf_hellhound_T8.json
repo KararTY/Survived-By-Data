@@ -1,0 +1,1 @@
+[{"from":"monster_wolf_hellhound_T8","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Strands","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true},{"item":"Raw Tar Sand","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true}],"reference":"CommonLoot T8"}]

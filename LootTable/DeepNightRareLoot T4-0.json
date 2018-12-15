@@ -1,1 +1,0 @@
-{"from":"DeepNightRareLoot T4","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Fourth Gate Stone Fragment","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":true},{"item":"Silver","count":{"dice":3,"faces":10,"add":8},"chance":100,"allowModifiers":true}],"reference":"ImprintArmorPrefix"}

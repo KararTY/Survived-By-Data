@@ -1,0 +1,1 @@
+[{"from":"RareLoot T8","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Monastery of the Rift Key","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Silver","count":{"dice":4,"faces":12,"add":20},"chance":100,"allowModifiers":true}],"reference":"CharmLoot T8"}]

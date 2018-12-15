@@ -1,1 +1,0 @@
-{"name":"Druid T13 Weapon v2","description":"[deprecated]","price":344,"sellPrice":172,"consumable":false,"requiredLevel":0,"type":"Weapon","maxStack":1,"tier":13,"data":[],"experiencePerLevel":[0],"class":["Druid"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}

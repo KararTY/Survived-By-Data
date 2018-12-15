@@ -1,1 +1,0 @@
-{"name":"Goliath","alias":"Level","description":"Description for Goliath","enabled":true,"isBoss":true,"isElite":false,"isSetPieceMonster":false,"data":[{"bSlide":false,"bPlayer":false,"bEnemy":false,"bSkipWorld":false,"bSlowedDownByWater":false,"bBlockedByLava":false,"bFlying":false}],"zenithEffects":[],"category":"Infernal","element":"Ki"}

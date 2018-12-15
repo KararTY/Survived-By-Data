@@ -1,1 +1,0 @@
-{"name":"Rogue T13 Weapon v3","description":"[Deprecated]","price":346,"sellPrice":173,"consumable":false,"requiredLevel":0,"type":"Weapon","maxStack":1,"tier":13,"data":[],"experiencePerLevel":[0],"class":["Infiltrator"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"coolDown":0,"modifierChance":0.75}

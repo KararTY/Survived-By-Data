@@ -1,0 +1,1 @@
+[{"from":"Quest Druid3","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Silver","count":{"dice":0,"faces":0,"add":70},"chance":100,"allowModifiers":true},{"item":"Bloodstone","count":{"dice":0,"faces":0,"add":4},"chance":100,"allowModifiers":true}]}]

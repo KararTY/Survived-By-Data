@@ -1,0 +1,1 @@
+[{"from":"RareLoot T1","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Abandoned Storage Cave Key","count":{"dice":0,"faces":0,"add":1},"chance":50,"allowModifiers":true},{"item":"Silver","count":{"dice":2,"faces":6,"add":0},"chance":100,"allowModifiers":true}]}]

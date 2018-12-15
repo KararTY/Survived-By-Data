@@ -1,0 +1,1 @@
+[{"from":"LootBox T8","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Bloodstone","count":{"dice":4,"faces":5,"add":8},"chance":100,"allowModifiers":true}],"reference":"RareLoot T8"}]

@@ -1,0 +1,1 @@
+[{"from":"RareLoot T10","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Silver","count":{"dice":12,"faces":10,"add":45},"chance":100,"allowModifiers":true},{"item":"Conduit of Fire Key (I)","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true}],"reference":"CharmLoot T10"}]

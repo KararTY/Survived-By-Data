@@ -39,9 +39,11 @@ if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
 }
 
 let folder1 = 'ItemDefinition'
+if (!fs.existsSync(path.join(__dirname, 'Parsed', folder1))) {
+  fs.mkdirSync(path.join(__dirname, 'Parsed', folder1))
+}
 fs.readdir(path.join(__dirname, folder1), (err, files) => {
   if (err) throw err
-  let count = {}
   files.forEach(val => {
     var file = require(path.join(__dirname, folder1, val))
     var itemDefinition = {
@@ -164,22 +166,23 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
         ]
       : undefined
     }
-    if (typeof count[itemDefinition.name] === 'number') count[itemDefinition.name]++
-    else count[itemDefinition.name] = 0
 
-    if (!fs.existsSync(path.join(__dirname, 'Parsed', folder1))) {
-      fs.mkdirSync(path.join(__dirname, 'Parsed', folder1))
-    }
-
-    fs.writeFileSync(path.join(__dirname, 'Parsed', folder1, `${itemDefinition.name}-${count[itemDefinition.name]}.json`), JSON.stringify(itemDefinition))
+    var filename = path.join(__dirname, 'Parsed', folder1, `${itemDefinition.name}.json`)
+    if (fs.existsSync(filename)) {
+      var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
+      file.push(itemDefinition)
+      fs.writeFileSync(filename, JSON.stringify(file))
+    } else fs.writeFileSync(filename, JSON.stringify([itemDefinition]))
   })
   console.log(folder1, 'Complete.')
 })
 
 let folder2 = 'LootTable'
+if (!fs.existsSync(path.join(__dirname, 'Parsed', folder2))) {
+  fs.mkdirSync(path.join(__dirname, 'Parsed', folder2))
+}
 fs.readdir(path.join(__dirname, folder2), (err, files) => {
   if (err) throw err
-  let count = {}
   files.forEach(val => {
     var file = require(path.join(__dirname, folder2, val))
     var lootTable = {
@@ -203,22 +206,23 @@ fs.readdir(path.join(__dirname, folder2), (err, files) => {
       ? require(path.join(__dirname, 'GameObject', require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
       : undefined
     }
-    if (typeof count[lootTable.from] === 'number') count[lootTable.from]++
-    else count[lootTable.from] = 0
 
-    if (!fs.existsSync(path.join(__dirname, 'Parsed', folder2))) {
-      fs.mkdirSync(path.join(__dirname, 'Parsed', folder2))
-    }
-
-    fs.writeFileSync(path.join(__dirname, 'Parsed', folder2, `${lootTable.from}-${count[lootTable.from]}.json`), JSON.stringify(lootTable))
+    var filename = path.join(__dirname, 'Parsed', folder2, `${lootTable.from}.json`)
+    if (fs.existsSync(filename)) {
+      var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
+      file.push(lootTable)
+      fs.writeFileSync(filename, JSON.stringify(file))
+    } else fs.writeFileSync(filename, JSON.stringify([lootTable]))
   })
   console.log(folder2, 'Complete.')
 })
 
 let folder3 = 'Monster'
+if (!fs.existsSync(path.join(__dirname, 'Parsed', folder3))) {
+  fs.mkdirSync(path.join(__dirname, 'Parsed', folder3))
+}
 fs.readdir(path.join(__dirname, folder3), (err, files) => {
   if (err) throw err
-  let count = {}
   files.forEach(val => {
     var file = require(path.join(__dirname, folder3, val))
     var monsterInfo = {
@@ -297,14 +301,12 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
         else return undefined
       }).filter(Boolean).join(''),
     }
-    if (typeof count[monsterInfo.name] === 'number') count[monsterInfo.name]++
-    else count[monsterInfo.name] = 0
-
-    if (!fs.existsSync(path.join(__dirname, 'Parsed', folder3))) {
-      fs.mkdirSync(path.join(__dirname, 'Parsed', folder3))
-    }
-
-    fs.writeFileSync(path.join(__dirname, 'Parsed', folder3, `${monsterInfo.name}-${count[monsterInfo.name]}.json`), JSON.stringify(monsterInfo))
+    var filename = path.join(__dirname, 'Parsed', folder3, `${monsterInfo.name}.json`)
+    if (fs.existsSync(filename)) {
+      var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
+      file.push(monsterInfo)
+      fs.writeFileSync(filename, JSON.stringify(file))
+    } else fs.writeFileSync(filename, JSON.stringify([monsterInfo]))
   })
   console.log(folder3, 'Complete.')
 })

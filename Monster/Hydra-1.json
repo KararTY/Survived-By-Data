@@ -1,1 +1,0 @@
-{"name":"Hydra","alias":"Content","description":"Description for Hydra","enabled":true,"isBoss":true,"isElite":false,"isSetPieceMonster":false,"data":[{"stats":[{"key":"CriticalScore","equation":"[CriticalScore]+13","value":0},{"key":"Tier","equation":"","value":0}]}],"zenithEffects":[],"category":"Agent","element":"Ur"}

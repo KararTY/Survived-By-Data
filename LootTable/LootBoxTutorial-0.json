@@ -1,1 +1,0 @@
-{"from":"LootBoxTutorial","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Antique Amulet","count":{"dice":1,"faces":1,"add":1},"chance":100,"allowModifiers":true}]}

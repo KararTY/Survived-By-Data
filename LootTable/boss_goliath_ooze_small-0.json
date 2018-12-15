@@ -1,1 +1,0 @@
-{"from":"boss_goliath_ooze_small","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Tar Sand","count":{"dice":0,"faces":0,"add":1},"chance":2,"allowModifiers":true},{"item":"Energy Potion","count":{"dice":0,"faces":0,"add":1},"chance":25,"allowModifiers":true}],"reference":"CommonLoot T8"}
