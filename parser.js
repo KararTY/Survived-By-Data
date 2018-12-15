@@ -19,14 +19,6 @@ const path = require('path')
  * - Other
  * - Parsed^
  * ^Automatically created by this script.
- * Following files need to exist:
- * - StatEnum.json
- * - AICategoryEnum.json
- * - ElementalEnum.json
- * - ItemClassEnum.json
- * - ClassEnum.json
- * - CraftingCategory.json
- * - english.json
  */
 
 var statEnum = require(path.join(__dirname, 'StatEnum.json'))
@@ -35,6 +27,7 @@ var elementEnum = require(path.join(__dirname, 'ElementalEnum.json'))
 var itemClassEnum = require(path.join(__dirname, 'ItemClassEnum.json'))
 var classEnum = require(path.join(__dirname, 'ClassEnum.json'))
 var craftingCategoryEnum = require(path.join(__dirname, 'CraftingCategoryEnum.json'))
+var craftingRarityEnumAndValue = require(path.join(__dirname, 'CraftingRarityEnumAndValue.json'))
 var english = require(path.join(__dirname, 'english.json'))
 
 function hasFlag (a, b) {
@@ -73,11 +66,11 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
         if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 float CraftingTime'] > 0) {
           return {
             crafting: {
-              craftingTime: f['0 MonoBehaviour Base']['0 float CraftingTime'].toFixed(2),
+              craftingTime: parseFloat(f['0 MonoBehaviour Base']['0 float CraftingTime'].toFixed(2)),
               leveledRecipes: f['0 MonoBehaviour Base']['0 Array LeveledRecipes'].map(v => {
                 return {
                   level: v['0 Deity.Shared.Recipe data']['0 int Level'],
-                  craftingTime: v['0 Deity.Shared.Recipe data']['0 float CraftingTime'].toFixed(2),
+                  craftingTime: parseFloat(v['0 Deity.Shared.Recipe data']['0 float CraftingTime'].toFixed(2)),
                   requiredItems: v['0 Deity.Shared.Recipe data']['0 Array RequiredItems'].map(v => {
                     var f = require(path.join(__dirname, 'ItemDefinition', v['0 Deity.Shared.CraftRecipeItem data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))
                     return {
@@ -123,7 +116,7 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
              else return undefined
            }).filter(Boolean).join(''),
           equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-          value: v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2)
+          value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
         }
       }) : undefined,
       experiencePerLevel: file['0 MonoBehaviour Base']['0 Array ExperiencePerLevel'].map(v => {
@@ -136,18 +129,21 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
       }).filter(Boolean),
       bonusDismantleLoot: file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] > 0 ? {
         name: require(path.join(__dirname, 'GameObject', require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-        lootTable: require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
-          return {
-            item: english[require(path.join(__dirname, 'ItemDefinition', v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID']  + '.json'))['0 MonoBehaviour Base']['1 string Name']] || require(path.join(__dirname, 'ItemDefinition', v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID']  + '.json'))['0 MonoBehaviour Base']['1 string Name'],
-            count: {
-              dice: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int dice'],
-              faces: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int faces'],
-              add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
-            },
-            chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
-            allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
-          }
-        })
+        lootTable: (function(){
+          var table = []
+          require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
+            table.push({
+              item: english[require(path.join(__dirname, 'ItemDefinition', v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID']  + '.json'))['0 MonoBehaviour Base']['1 string Name']] || require(path.join(__dirname, 'ItemDefinition', v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID']  + '.json'))['0 MonoBehaviour Base']['1 string Name'],
+              count: {
+                dice: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int dice'],
+                faces: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int faces'],
+                add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
+              },
+              chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
+              allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
+            })
+          })
+        })()
       } : undefined,
       bound: {
         account: !!file['0 MonoBehaviour Base']['1 UInt8 AlwaysSoulbound'],
@@ -158,8 +154,12 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
       recoverCost: file['0 MonoBehaviour Base']['0 int RecoverCost'],
       insureCost: file['0 MonoBehaviour Base']['0 int InsureCost'],
       currency: file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID'] > 0 ? require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'] : undefined,
-      coolDown: file['0 MonoBehaviour Base']['0 float CoolDown'].toFixed(2),
-      modifierChance: file['0 MonoBehaviour Base']['0 float ModifierChance'].toFixed(2)
+      coolDown: parseFloat(file['0 MonoBehaviour Base']['0 float CoolDown'].toFixed(2)),
+      modifierChance: parseFloat(file['0 MonoBehaviour Base']['0 float ModifierChance'].toFixed(2)),
+      craftingRarity: typeof file['0 MonoBehaviour Base']['0 int craftingRarity'] === 'number' ? Object.keys(craftingRarityEnumAndValue).map((e, i) => {
+        if (file['0 MonoBehaviour Base']['0 int craftingRarity'] === i) return [craftingRarityEnumAndValue[e], e]
+        else return undefined
+      }).filter(Boolean) : undefined
     }
     if (typeof count[itemDefinition.name] === 'number') count[itemDefinition.name]++
     else count[itemDefinition.name] = 0
@@ -244,7 +244,7 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
                   else return undefined
                 }).filter(Boolean).join(''),
                 equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-                value: v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2)
+                value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
               }
             })
           }
@@ -265,7 +265,7 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
         return {
           name: z['0 MonoBehaviour Base']['1 string Name'],
           type: z['0 MonoBehaviour Base']['0 int Type'],
-          duration: z['0 MonoBehaviour Base']['0 float Duration'].toFixed(2),
+          duration: parseFloat(z['0 MonoBehaviour Base']['0 float Duration'].toFixed(2)),
           stats: z['0 MonoBehaviour Base']['0 Array stat'].map(v => {
             return {
               key: Object.keys(statEnum).map(e => {
@@ -273,7 +273,7 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
                 else return undefined
               }).filter(Boolean).join(''),
               equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-              value: v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2)
+              value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
             }
           }),
           isBuff: !!z['0 MonoBehaviour Base']['1 UInt8 IsBuff'],
@@ -281,7 +281,7 @@ fs.readdir(path.join(__dirname, folder3), (err, files) => {
           removeOnAttack: !!z['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'],
           floatingText: z['0 MonoBehaviour Base']['1 string floatingText'],
           noTimeOut: !!z['0 MonoBehaviour Base']['1 UInt8 NoTimeOut'],
-          coolDownTime: z['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2),
+          coolDownTime: parseFloat(z['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2)),
           isAccountWide: z['0 MonoBehaviour Base']['1 UInt8 IsAccountWide'],
         }
       }),
