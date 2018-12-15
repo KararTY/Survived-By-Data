@@ -1,0 +1,24 @@
+{
+  "name": "survived-by-data",
+  "version": "1.0.0",
+  "description": "Survived By data.",
+  "main": "wikiTemplating.js",
+  "private": true,
+  "dependencies": {
+    "moment": "^2.23.0",
+    "moment-duration-format": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KararTY/Survived-By-Data.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/KararTY/Survived-By-Data/issues"
+  },
+  "homepage": "https://github.com/KararTY/Survived-By-Data#readme"
+}

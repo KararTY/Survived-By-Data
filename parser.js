@@ -37,6 +37,10 @@ var classEnum = require(path.join(__dirname, 'ClassEnum.json'))
 var craftingCategoryEnum = require(path.join(__dirname, 'CraftingCategoryEnum.json'))
 var english = require(path.join(__dirname, 'english.json'))
 
+function hasFlag (a, b) {
+  return (a & b) === b;
+}
+
 if (!fs.existsSync(path.join(__dirname, 'Parsed'))) {
   fs.mkdirSync(path.join(__dirname, 'Parsed'))
 }
@@ -127,8 +131,9 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
       }),
       class: Object.keys(classEnum).map(e => {
         if (classEnum[e] === file['0 MonoBehaviour Base']['0 int EquipMask']) return e
+        else if (!!classEnum[e] && hasFlag(file['0 MonoBehaviour Base']['0 int EquipMask'], classEnum[e])) return e
         else return undefined
-      }).filter(Boolean).join(''),
+      }).filter(Boolean),
       bonusDismantleLoot: file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] > 0 ? {
         name: require(path.join(__dirname, 'GameObject', require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         lootTable: require(path.join(__dirname, 'LootTable', file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
