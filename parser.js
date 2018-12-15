@@ -156,10 +156,12 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
       currency: file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID'] > 0 ? require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'] : undefined,
       coolDown: parseFloat(file['0 MonoBehaviour Base']['0 float CoolDown'].toFixed(2)),
       modifierChance: parseFloat(file['0 MonoBehaviour Base']['0 float ModifierChance'].toFixed(2)),
-      craftingRarity: typeof file['0 MonoBehaviour Base']['0 int craftingRarity'] === 'number' ? [].concat(...Object.keys(craftingRarityEnumAndValue).map((e, i) => {
-        if (file['0 MonoBehaviour Base']['0 int craftingRarity'] === i) return [craftingRarityEnumAndValue[e], e]
-        else return undefined
-      }).filter(Boolean)) : undefined
+      craftingRarity: file['0 MonoBehaviour Base']['0 int craftingRarity'] 
+        ? [
+          craftingRarityEnumAndValue[Object.keys(craftingRarityEnumAndValue)[file['0 MonoBehaviour Base']['0 int craftingRarity']]],
+          Object.keys(craftingRarityEnumAndValue)[file['0 MonoBehaviour Base']['0 int craftingRarity']]
+        ]
+      : undefined
     }
     if (typeof count[itemDefinition.name] === 'number') count[itemDefinition.name]++
     else count[itemDefinition.name] = 0

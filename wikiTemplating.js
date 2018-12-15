@@ -24,7 +24,7 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
     return file.bound[v] ? v.substr(0, 1).toUpperCase() + v.substr(1)  : undefined
   }).filter(Boolean).join(', ')}
   |max_stack = ${file.maxStack}
-  |buy_cost = ${(file.currency && typeof file.price === 'number' && file.price) ? `${file.price} {{Icon|${file.currency}}}` : ''}
+  |buy_cost = ${(file.currency && typeof file.price === 'number' && file.price) ? `${file.price} {{Icon|${file.currency === 'Gold' ? 'Silver' : file.currency === 'Platinum' ? 'Electrum' : file.currency === 'Fame' ? 'Valr' : file.currency === 'Crystal' ? 'Bloodstone' : file.currency}}}` : ''}
   |sell_cost = ${file.sellPrice ? `${file.sellPrice} {{Icon|Silver}}` : ''}
 
   |class = ${file.class.map(c => `{{Icon|${c}}}`).join('<br>')}
