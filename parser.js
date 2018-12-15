@@ -49,7 +49,7 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
       alias: (english[file['0 MonoBehaviour Base']['1 string Name']] || file['0 MonoBehaviour Base']['1 string Name']) === require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
         ? undefined
         : require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-      description: english[file['0 MonoBehaviour Base']['1 string Description']],
+      description: english[file['0 MonoBehaviour Base']['1 string Description']] || file['0 MonoBehaviour Base']['1 string Description'].startsWith('string') ? file['0 MonoBehaviour Base']['1 string Description'] : '',
       price: file['0 MonoBehaviour Base']['0 int Price'],
       sellPrice: file['0 MonoBehaviour Base']['0 int SellPrice'],
       consumable: !!file['0 MonoBehaviour Base']['1 UInt8 bConsumable'],
@@ -156,10 +156,10 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
       currency: file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID'] > 0 ? require(path.join(__dirname, 'GameObject', file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'] : undefined,
       coolDown: parseFloat(file['0 MonoBehaviour Base']['0 float CoolDown'].toFixed(2)),
       modifierChance: parseFloat(file['0 MonoBehaviour Base']['0 float ModifierChance'].toFixed(2)),
-      craftingRarity: typeof file['0 MonoBehaviour Base']['0 int craftingRarity'] === 'number' ? Object.keys(craftingRarityEnumAndValue).map((e, i) => {
+      craftingRarity: typeof file['0 MonoBehaviour Base']['0 int craftingRarity'] === 'number' ? [].concat(...Object.keys(craftingRarityEnumAndValue).map((e, i) => {
         if (file['0 MonoBehaviour Base']['0 int craftingRarity'] === i) return [craftingRarityEnumAndValue[e], e]
         else return undefined
-      }).filter(Boolean) : undefined
+      }).filter(Boolean)) : undefined
     }
     if (typeof count[itemDefinition.name] === 'number') count[itemDefinition.name]++
     else count[itemDefinition.name] = 0
