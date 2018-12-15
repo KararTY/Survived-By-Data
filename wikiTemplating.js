@@ -52,11 +52,13 @@ ${file.class.length > 0 ? file.class.map(c => `[[Category:${c}]]`).join('\n') : 
 {{stub}}
 '''{{PAGENAME}}'''
 `.replace(/\r?\n+|\r+/g, '\n').trim()
+    if (typeof count[file.name] === 'number') count[file.name]++
+    else count[file.name] = 0
 
     if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder1))) {
       fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder1))
     }
 
-    fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file.name}.txt`), template)
+    fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file.name}${count[file.name] ? `-${count[file.name] + 1}` : ''}.txt`), template)
   })
 })
