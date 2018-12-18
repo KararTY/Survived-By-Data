@@ -1,0 +1,1 @@
+[{"name":"Level Up Rogue 1","title":"Level Infiltrator (I)","description":"Reach level {0} with Infiltrator","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"data":[{"loot":{"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Standard Ancestral Legacy","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false}]}}]}]

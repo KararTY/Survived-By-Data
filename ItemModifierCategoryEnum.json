@@ -1,0 +1,8 @@
+{
+  "None": 0,
+  "Prefix": 1,
+  "Suffix": 2,
+  "Hidden": 4,
+  "SocketItem": 8,
+  "SpecialEffect": 16
+}

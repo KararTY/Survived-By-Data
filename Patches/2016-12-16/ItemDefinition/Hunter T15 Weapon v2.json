@@ -1,0 +1,1 @@
+[{"name":"Hunter T15 Weapon v2","description":"[deprecated]","price":530,"sellPrice":265,"consumable":false,"requiredLevel":0,"type":"Weapon","maxStack":1,"tier":15,"data":[],"experiencePerLevel":[0],"class":["Harbinger"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"modifierChance":0.75}]

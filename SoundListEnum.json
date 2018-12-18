@@ -1,0 +1,11 @@
+{
+  "Impact": 0,
+  "Wake": 1,
+  "Pain": 2,
+  "Death": 3,
+  "Spawn": 4,
+  "Projectile": 5,
+  "VolcanoProjectile": 6,
+  "ParadiseProjectile": 7,
+  "VoidProjectile": 8
+}

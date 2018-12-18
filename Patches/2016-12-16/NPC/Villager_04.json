@@ -1,0 +1,1 @@
+[{"name":"Villager_04","category":"None","weapons":[],"data":[{"sprite":{"name":"villager_04","textureRectangle":{"x":4,"y":"64","width":"25","height":"25"},"textureOffset":{"x":4,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":500}]}]}]

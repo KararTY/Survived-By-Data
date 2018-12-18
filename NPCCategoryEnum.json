@@ -1,0 +1,7 @@
+{
+  "None": 0,
+  "Idle": 1,
+  "Ally": 2,
+  "Scared": 3,
+  "Guard": 4
+}

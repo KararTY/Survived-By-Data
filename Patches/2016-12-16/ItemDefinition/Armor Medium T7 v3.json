@@ -1,0 +1,1 @@
+[{"name":"Armor Medium T7 v3","description":"[deprecated]","price":54,"sellPrice":27,"consumable":false,"requiredLevel":0,"type":"Armor","maxStack":1,"tier":7,"data":[],"experiencePerLevel":[0],"class":["Harbinger","Druid"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"modifierChance":0.75}]

@@ -4,15 +4,31 @@ const moment = require('moment') // npm i moment
 const momentDurationFormatSetup = require('moment-duration-format') // npm i moment-duration-format
 momentDurationFormatSetup(moment)
 
+var folder = {
+  'ItemDefinition': path.join(__dirname, 'Patches', patchDate, 'ItemDefinition'),
+  'Monster': path.join(__dirname, 'Patches', patchDate, 'Monster'),
+  'LootTable': path.join(__dirname, 'Patches', patchDate, 'LootTable'),
+  'Other': path.join(__dirname, 'Patches', patchDate, 'Other'),
+  'Ancestral': path.join(__dirname, 'Patches', patchDate, 'Ancestral'),
+  'CraftingRecipe': path.join(__dirname, 'Patches', patchDate, 'CraftingRecipe'),
+  'ItemModifier': path.join(__dirname, 'Patches', patchDate, 'ItemModifier'),
+  'LootBox': path.join(__dirname, 'Patches', patchDate, 'LootBox'),
+  'NPC': path.join(__dirname, 'Patches', patchDate, 'NPC'),
+  'Player': path.join(__dirname, 'Patches', patchDate, 'Player'),
+  'Challenge': path.join(__dirname, 'Patches', patchDate, 'Challenge')
+}
+
 if (!fs.existsSync(path.join(__dirname, 'Wiki Templates'))) {
   fs.mkdirSync(path.join(__dirname, 'Wiki Templates'))
 }
+
+var patchDate = '2018-12-16'
 
 let folder1 = 'ItemDefinition'
 if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder1))) {
   fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder1))
 }
-fs.readdir(path.join(__dirname, folder1), (err, files) => {
+fs.readdir(folder['ItemDefinition'], (err, files) => {
   if (err) throw err
   let count = {}
   files.forEach(val => {
@@ -24,11 +40,11 @@ fs.readdir(path.join(__dirname, folder1), (err, files) => {
   |image = ${item.name}.png
   |caption = ${item.description || ''}
   |type = ${item.type}
-  |tier = ${item.tier}
+  |tier = ${item.tier || ''}
   |bound = ${Object.keys(item.bound).map(v => {
     return item.bound[v] ? v.substr(0, 1).toUpperCase() + v.substr(1)  : undefined
   }).filter(Boolean).join(', ')}
-  |max_stack = ${item.maxStack}
+  |max_stack = ${item.maxStack || ''}
   |buy_cost = ${(item.currency && typeof item.price === 'number' && item.price) ? `${item.price} {{Icon|${item.currency === 'Gold' ? 'Silver' : item.currency === 'Platinum' ? 'Electrum' : item.currency === 'Fame' ? 'Valr' : item.currency === 'Crystal' ? 'Bloodstone' : item.currency}}}` : ''}
   |sell_cost = ${item.sellPrice ? `${item.sellPrice} {{Icon|Silver}}` : ''}
 

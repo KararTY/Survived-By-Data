@@ -1,1 +1,0 @@
-[{"from":"CommonLoot T11","enabled":true,"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Silver","count":{"dice":2,"faces":10,"add":10},"chance":5,"allowModifiers":true}]}]

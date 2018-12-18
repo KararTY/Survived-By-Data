@@ -1,1 +1,0 @@
-[{"from":"boss_sin","enabled":true,"guaranteeItemCount":0,"maximumItemCount":4,"lootTable":[{"item":"Sin Barb","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false},{"item":"Lapis Fragment","count":{"dice":2,"faces":8,"add":2},"chance":30,"allowModifiers":false},{"item":"Lapis Core","count":{"dice":2,"faces":4,"add":1},"chance":30,"allowModifiers":false}]}]

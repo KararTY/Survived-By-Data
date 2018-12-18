@@ -1,0 +1,15 @@
+{
+  "None": 0,
+  "ApplyStatusEffect": 1,
+  "RemoveStatusEffect": 2,
+  "ApplyStatusEffectToTarget": 3,
+  "IncrementProcCounter": 4,
+  "ResetProcCounter": 5,
+  "ResetTimer": 6,
+  "LaunchProjectiles": 7,
+  "LaunchProjectilesOnTrigger": 8,
+  "SetCounterToValue": 9,
+  "ApplyStatusEffectToAllies": 10,
+  "ApplyStatusEffectToEnemiesNearTarget": 11,
+  "ApplyStatusEffectToYouAndAllies": 12
+}
