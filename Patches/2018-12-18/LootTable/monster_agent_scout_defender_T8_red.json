@@ -1,0 +1,1 @@
+[{"from":"monster_agent_scout_defender_T8_red","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Resin","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true}],"reference":"CommonLoot T8"}]

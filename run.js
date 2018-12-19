@@ -1,14 +1,14 @@
 const path = require('path')
 
-const renamer = require('./renaming.js')()
 const patchDate = require('./patchDate.json')['patchDate']
 
 console.log('Renaming, this will take some time.')
+const renamer = require('./renaming.js')()
 if (renamer.result) {
   console.log('Renamed', renamer.count, 'files in total.')
+  
   console.log('Sorting, this will take some time.')
   const sorter = require('./sorting.js')()
-
   console.log('Sorted', sorter, 'files in total.')
 
   const parser = require('./parsing.js')()

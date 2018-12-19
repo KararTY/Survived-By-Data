@@ -1,16 +1,16 @@
 [
+  "GameObject \t\t*",
   "MonoBehaviour \t\tChallenge",
   "MonoBehaviour \t\tDeity.AudioMessage",
   "MonoBehaviour \t\tDeity.ChatBubble*",
   "MonoBehaviour \t\tDeity.Monster",
   "MonoBehaviour \t\tDeity.NPC",
   "MonoBehaviour \t\tDeity.Player",
-  "MonoBehaviour \t\tDeity.Quest",
+
   "MonoBehaviour \t\tDeity.Shared.*",
   "MonoBehaviour \t\tDeity.Skin",
-  "MonoBehaviour \t\tDeity.Quest",
   "MonoBehaviour \t\tSoundList",
-  "GameObject \t\t*",
+  "MonoBehaviour \t\tUnityEngine.UI.*",
   "Sprite \t\t*",
   "SpriteRenderer \t\t*",
   "Texture2D \t\t*"

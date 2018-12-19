@@ -85,6 +85,7 @@ module.exports = () => {
         data: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
           if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) return undefined
           var f = require(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
+          if (f['0 MonoBehaviour Base'] && typeof f['0 MonoBehaviour Base']['0 int netObjectType'] === 'number') return undefined
           if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 float CraftingTime'] > 0) {
             return {
               crafting: {
@@ -131,15 +132,23 @@ module.exports = () => {
                 }).filter(Boolean).join('')
               }
             }
-          } else if (f['0 SpriteRenderer Base'] && f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID']) {
-            var srd = require(path.join(folder['Other'], fileMap(f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 int m_FileID']) + f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID'] + '.json'))['0 Sprite Base']['1 SpriteRenderData m_RD']
+          } else if (f['0 MonoBehaviour Base'] && typeof f['0 MonoBehaviour Base']['1 string estimatedPrice'] === 'string') {
+            return {
+              sale: {
+                packName: f['0 MonoBehaviour Base']['1 string packName'].length > 0 ? f['0 MonoBehaviour Base']['1 string packName'] : undefined,
+                estimatedPrice: f['0 MonoBehaviour Base']['1 string estimatedPrice'],
+                price: f['0 MonoBehaviour Base']['1 string price']
+              }
+            }
+          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 PPtr<$Sprite> m_Sprite'] && f['0 MonoBehaviour Base']['0 PPtr<$Sprite> m_Sprite']['0 SInt64 m_PathID']) {
+            var srd = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$Sprite> m_Sprite']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$Sprite> m_Sprite']['0 SInt64 m_PathID'] + '.json'))['0 Sprite Base']['1 SpriteRenderData m_RD']
             var s = require(path.join(folder['Other'], fileMap(srd['0 PPtr<Texture2D> texture']['0 int m_FileID']) + srd['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID'] + '.json'))['0 Texture2D Base']
             return {
               sprite: {
                 name: s['1 string m_Name'],
                 textureRectangle: {
                   x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
-                  y: parseFloat(srd['0 Rectf textureRect']['0 float y']).toFixed(0),
+                  y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
                   width: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0),
                   height: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0)
                 },
@@ -148,10 +157,10 @@ module.exports = () => {
                   y: parseFloat(srd['0 Vector2f textureRectOffset']['0 float y'].toFixed(0))
                 },
                 color: {
-                  r: parseFloat(f['0 SpriteRenderer Base']['1 ColorRGBA m_Color']['0 float r'].toFixed(2)),
-                  g: parseFloat(f['0 SpriteRenderer Base']['1 ColorRGBA m_Color']['0 float g'].toFixed(2)),
-                  b: parseFloat(f['0 SpriteRenderer Base']['1 ColorRGBA m_Color']['0 float b'].toFixed(2)),
-                  a: parseFloat(f['0 SpriteRenderer Base']['1 ColorRGBA m_Color']['0 float a'].toFixed(2))
+                  r: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA m_Color']['0 float r'].toFixed(2)),
+                  g: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA m_Color']['0 float g'].toFixed(2)),
+                  b: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA m_Color']['0 float b'].toFixed(2)),
+                  a: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA m_Color']['0 float a'].toFixed(2)),
                 }
               }
             }
@@ -236,29 +245,11 @@ module.exports = () => {
             } else return undefined
           })
           : undefined,
-        bonusDismantleLoot: file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] > 0
-          ? {
-            name: (function () {
-              var lootTable = require(path.join(folder['LootTable'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))
-              return require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
-            })(),
-            lootTable: (function () {
-              var table = []
-              require(path.join(folder['LootTable'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
-                table.push({
-                  item: translate[require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name']] || require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name'],
-                  count: {
-                    dice: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int dice'],
-                    faces: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int faces'],
-                    add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
-                  },
-                  chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
-                  allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
-                })
-              })
-              return table
-            })()
-          }
+        bonusDismantleLoot: file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID']
+          ? (function () {
+            var lootTable = require(path.join(folder['LootTable'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$LootTable> BonusDismantleLoot']['0 SInt64 m_PathID'] + '.json'))
+            return require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+          })()
           : undefined,
         fusionUpgradeItem: file['0 MonoBehaviour Base']['0 PPtr<$ItemDefinition> FusionUpgradeItem']['0 SInt64 m_PathID']
           ? (function () {
@@ -274,7 +265,9 @@ module.exports = () => {
         requiresDiscovery: !!file['0 MonoBehaviour Base']['1 UInt8 RequiresDiscovery'],
         recoverCost: file['0 MonoBehaviour Base']['0 int RecoverCost'],
         insureCost: file['0 MonoBehaviour Base']['0 int InsureCost'],
-        currency: file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID'] > 0 ? require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'] : undefined,
+        currency: file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID']
+          ? require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+          : undefined,
         coolDown: parseFloat(file['0 MonoBehaviour Base']['0 float CoolDown'].toFixed(2)) ? parseFloat(file['0 MonoBehaviour Base']['0 float CoolDown'].toFixed(2)) : undefined,
         modifierChance: parseFloat(file['0 MonoBehaviour Base']['0 float ModifierChance'].toFixed(2)),
         craftingRarity: file['0 MonoBehaviour Base']['0 int craftingRarity']
@@ -426,7 +419,7 @@ module.exports = () => {
                     name: s['1 string m_Name'],
                     textureRectangle: {
                       x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
-                      y: parseFloat(srd['0 Rectf textureRect']['0 float y']).toFixed(0),
+                      y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
                       width: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0)),
                       height: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0))
                     },
@@ -512,7 +505,7 @@ module.exports = () => {
                 name: s['1 string m_Name'],
                 textureRectangle: {
                   x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
-                  y: parseFloat(srd['0 Rectf textureRect']['0 float y']).toFixed(0),
+                  y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
                   width: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0),
                   height: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0)
                 },
@@ -1045,7 +1038,7 @@ module.exports = () => {
                     name: s['1 string m_Name'],
                     textureRectangle: {
                       x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
-                      y: parseFloat(srd['0 Rectf textureRect']['0 float y']).toFixed(0),
+                      y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
                       width: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0)),
                       height: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0))
                     },
@@ -1131,7 +1124,7 @@ module.exports = () => {
                 name: s['1 string m_Name'],
                 textureRectangle: {
                   x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
-                  y: parseFloat(srd['0 Rectf textureRect']['0 float y']).toFixed(0),
+                  y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
                   width: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0),
                   height: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0)
                 },
@@ -1265,7 +1258,7 @@ module.exports = () => {
                 name: s['1 string m_Name'],
                 textureRectangle: {
                   x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
-                  y: parseFloat(srd['0 Rectf textureRect']['0 float y']).toFixed(0),
+                  y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
                   width: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0),
                   height: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0)
                 },

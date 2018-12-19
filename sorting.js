@@ -6,7 +6,7 @@ module.exports = () => {
   var folder = path.join(__dirname, 'Raw data', patchDate, 'Other')
 
   var count = 0
-  var announceAtNextCount = 1000
+  var announceAtNextCount = 500
   fs.readdirSync(folder).forEach(val => {
     var file = require(path.join(folder, val))
     if (file['0 MonoBehaviour Base']) {
@@ -24,12 +24,10 @@ module.exports = () => {
       else if (monoBehaviour['0 Array sets'] && monoBehaviour['0 Array stat']) moveToFolder = 'Ancestral'
       if (moveToFolder.length > 0) {
         if (!fs.existsSync(path.join(__dirname, 'Raw data', patchDate, moveToFolder))) fs.mkdirSync(path.join(__dirname, 'Raw data', patchDate, moveToFolder))
-        fs.renameSync(path.join(folder, val), path.join(__dirname, 'Raw data', patchDate, moveToFolder, val), (err) => {
-          if (err) throw err
-        })
+        fs.renameSync(path.join(folder, val), path.join(__dirname, 'Raw data', patchDate, moveToFolder, val))
         count++
         if (count === announceAtNextCount) {
-          announceAtNextCount += 1000
+          announceAtNextCount += 500
           console.log('Sorted', count, 'files so far...')
         }
       }
