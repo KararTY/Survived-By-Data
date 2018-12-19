@@ -38,13 +38,12 @@ module.exports = () => {
 
   function fileMap(num) {
     /**
-    * 4 = 0 Remove in the future
-    * 0 = 4 Remove in the future
-    * Should only be removed if you select all .assets files properly in UABE.
-    * This was only done because I selected sharedassets2.assets first, and not resources.assets.
+    * 4 = 0 
+    * 0 = 4 
+    * Should only be added if you only selected the one file in UABE named sharedassets2.assets.
+    * if (num === 0) num = 4
+    * else if (num === 4) num = 0
     */
-    if (num === 0) num = 4
-    else if (num === 4) num = 0
     return fileNameMap.files.find(v => v.absFileID === num)['name'] + '-'
   }
 
