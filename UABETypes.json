@@ -11,7 +11,7 @@
   "MonoBehaviour \t\tDeity.Skin",
   "MonoBehaviour \t\tSoundList",
   "MonoBehaviour \t\tUnityEngine.UI.*",
-  "Sprite \t\t*",
+  "Sprite \t\t\t*",
   "SpriteRenderer \t\t*",
   "Texture2D \t\t*"
 ]

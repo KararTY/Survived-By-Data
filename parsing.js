@@ -64,6 +64,8 @@ module.exports = () => {
   let folderName1 = 'ItemDefinition'
   if (folder[folderName1]) {
     fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName1))
+    var count = 0
+    var announceAtNextCount = 500
     fs.readdirSync(folder[folderName1]).forEach(val => {
       var file = require(path.join(folder[folderName1], val))
       var itemDefinition = {
@@ -284,13 +286,20 @@ module.exports = () => {
         file.push(itemDefinition)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([itemDefinition]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName1, 'at', count, '...')
+      }
     })
-    console.log(folderName1, 'Complete.')
+    console.log(folderName1, 'completed', 'at', count)
   }
 
   let folderName2 = 'LootTable'
   if (folder[folderName2]) {
     fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName2))
+    var count = 0
+    var announceAtNextCount = 500
     fs.readdirSync(folder[folderName2]).forEach(val => {
       var file = require(path.join(folder[folderName2], val))
       var lootTable = {
@@ -323,13 +332,20 @@ module.exports = () => {
         file.push(lootTable)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([lootTable]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName2, 'at', count, '...')
+      }
     })
-    console.log(folderName2, 'Complete.')
+    console.log(folderName2, 'completed', 'at', count)
   }
 
   let folderName3 = 'Monster'
   if (folder[folderName3]) {
     fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName3))
+    var count = 0
+    var announceAtNextCount = 500
     fs.readdirSync(folder[folderName3]).forEach(val => {
       var file = require(path.join(folder[folderName3], val))
       var monsterInfo = {
@@ -442,16 +458,17 @@ module.exports = () => {
         data: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
           if (fs.existsSync(path.join(folder['LootTable'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) {
             var f = require(path.join(folder['LootTable'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
-            if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array lootTable']) {
+            if (f['0 MonoBehaviour Base'] && (f['0 MonoBehaviour Base']['0 Array lootTable'].length > 0 || f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0)) {
               return {
-                loot: f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0
+                loot: {
+                  inheritedLootTable: f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0
                   ? (function () {
                     var lootTable = require(path.join(folder['LootTable'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))
                     return {
                       name: require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
                     }
-                  })()
-                  : {
+                  })() : undefined,
+                  ...f['0 MonoBehaviour Base']['0 Array lootTable'].length > 0 ? {
                     guaranteeItemCount: f['0 MonoBehaviour Base']['0 int guaranteeItemCount'],
                     maximumItemCount: f['0 MonoBehaviour Base']['0 int maximumItemCount'],
                     lootTable: f['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
@@ -466,10 +483,12 @@ module.exports = () => {
                         allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
                       }
                     })
-                  }
+                  } : undefined
+                }
               }
             }
-          } else if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) return undefined
+          }
+          if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) return undefined
           var f = require(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
           if (f['0 MonoBehaviour Base'] && typeof f['0 MonoBehaviour Base']['0 int netObjectType'] === 'number') return undefined
           else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array stat'] && f['0 MonoBehaviour Base']['0 Array stat'].length > 0) {
@@ -598,13 +617,20 @@ module.exports = () => {
         file.push(monsterInfo)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([monsterInfo]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName3, 'at', count, '...')
+      }
     })
-    console.log(folderName3, 'Complete.')
+    console.log(folderName3, 'completed', 'at', count)
   }
 
   let folderName4 = 'Ancestral'
   if (folder[folderName4]) {
     fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName4))
+    var count = 0
+    var announceAtNextCount = 500
     fs.readdirSync(folder[folderName4]).forEach(val => {
       var file = require(path.join(folder[folderName4], val))
       var ancestral = {
@@ -766,13 +792,20 @@ module.exports = () => {
         file.push(ancestral)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([ancestral]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName4, 'at', count, '...')
+      }
     })
-    console.log(folderName4, 'Complete.')
+    console.log(folderName4, 'completed', 'at', count)
   }
 
   let folderName5 = 'CraftingRecipe'
   if (folder[folderName5]) {
     fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName5))
+    var count = 0
+    var announceAtNextCount = 500
     fs.readdirSync(folder[folderName5]).forEach(val => {
       var file = require(path.join(folder[folderName5], val))
       var craftingRecipe = {
@@ -817,15 +850,22 @@ module.exports = () => {
         file.push(craftingRecipe)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([craftingRecipe]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName5, 'at', count, '...')
+      }
     })
-    console.log(folderName5, 'Complete.')
+    console.log(folderName5, 'completed', 'at', count)
   }
 
-  let folderName7 = 'ItemModifier'
-  if (folder[folderName7]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName7))
-    fs.readdirSync(folder[folderName7]).forEach(val => {
-      var file = require(path.join(folder[folderName7], val))
+  let folderName6 = 'ItemModifier'
+  if (folder[folderName6]) {
+    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName6))
+    var count = 0
+    var announceAtNextCount = 500
+    fs.readdirSync(folder[folderName6]).forEach(val => {
+      var file = require(path.join(folder[folderName6], val))
       var itemModifier = {
         name: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         alias: '',
@@ -904,21 +944,28 @@ module.exports = () => {
         }
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName7, `${itemModifier.name}.json`)
+      var filename = path.join(__dirname, 'Patches', patchDate, folderName6, `${itemModifier.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(itemModifier)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([itemModifier]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName6, 'at', count, '...')
+      }
     })
-    console.log(folderName7, 'Complete.')
+    console.log(folderName6, 'completed', 'at', count)
   }
 
-  let folderName8 = 'LootBox'
-  if (folder[folderName8]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName8))
-    fs.readdirSync(folder[folderName8]).forEach(val => {
-      var file = require(path.join(folder[folderName8], val))
+  let folderName7 = 'LootBox'
+  if (folder[folderName7]) {
+    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName7))
+    var count = 0
+    var announceAtNextCount = 500
+    fs.readdirSync(folder[folderName7]).forEach(val => {
+      var file = require(path.join(folder[folderName7], val))
       var lootBox = {
         name: translate[file['0 MonoBehaviour Base']['1 string FloatingLabelText']] || require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         key: file['0 MonoBehaviour Base']['0 PPtr<$ItemDefinition> Key']['0 SInt64 m_PathID']
@@ -936,21 +983,28 @@ module.exports = () => {
         containBloodStone: !!file['0 MonoBehaviour Base']['1 UInt8 shouldContainBloodstone']
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName8, `${lootBox.name}.json`)
+      var filename = path.join(__dirname, 'Patches', patchDate, folderName7, `${lootBox.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(lootBox)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([lootBox]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName7, 'at', count, '...')
+      }
     })
-    console.log(folderName8, 'Complete.')
+    console.log(folderName7, 'completed', 'at', count)
   }
 
-  let folderName9 = 'NPC'
-  if (folder[folderName9]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName9))
-    fs.readdirSync(folder[folderName9]).forEach(val => {
-      var file = require(path.join(folder[folderName9], val))
+  let folderName8 = 'NPC'
+  if (folder[folderName8]) {
+    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName8))
+    var count = 0
+    var announceAtNextCount = 500
+    fs.readdirSync(folder[folderName8]).forEach(val => {
+      var file = require(path.join(folder[folderName8], val))
       var npc = {
         name: file['0 MonoBehaviour Base']['1 string NPCName'].length > 0
           ? translate[file['0 MonoBehaviour Base']['1 string NPCName']] || file['0 MonoBehaviour Base']['1 string NPCName']
@@ -1166,21 +1220,28 @@ module.exports = () => {
         }).filter(Boolean)
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName9, `${npc.name}.json`)
+      var filename = path.join(__dirname, 'Patches', patchDate, folderName8, `${npc.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(npc)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([npc]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName8, 'at', count, '...')
+      }
     })
-    console.log(folderName9, 'Complete.')
+    console.log(folderName8, 'completed', 'at', count)
   }
 
-  let folderName10 = 'Player'
-  if (folder[folderName10]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName10))
-    fs.readdirSync(folder[folderName10]).forEach(val => {
-      var file = require(path.join(folder[folderName10], val))
+  let folderName9 = 'Player'
+  if (folder[folderName9]) {
+    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName9))
+    var count = 0
+    var announceAtNextCount = 500
+    fs.readdirSync(folder[folderName9]).forEach(val => {
+      var file = require(path.join(folder[folderName9], val))
       var player = {
         name: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         description: translate[file['0 MonoBehaviour Base']['1 string description']] || file['0 MonoBehaviour Base']['1 string description'],
@@ -1272,21 +1333,28 @@ module.exports = () => {
         })
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName10, `${player.name}.json`)
+      var filename = path.join(__dirname, 'Patches', patchDate, folderName9, `${player.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(player)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([player]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName9, 'at', count, '...')
+      }
     })
-    console.log(folderName10, 'Complete.')
+    console.log(folderName9, 'completed', 'at', count)
   }
 
-  let folderName11 = 'Challenge'
-  if (folder[folderName11]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName11))
-    fs.readdirSync(folder[folderName11]).forEach(val => {
-      var file = require(path.join(folder[folderName11], val))
+  let folderName10 = 'Challenge'
+  if (folder[folderName10]) {
+    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName10))
+    var count = 0
+    var announceAtNextCount = 500
+    fs.readdirSync(folder[folderName10]).forEach(val => {
+      var file = require(path.join(folder[folderName10], val))
       var challenge = {
         name: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         questText: translate[file['0 MonoBehaviour Base']['1 string QuestText']] || file['0 MonoBehaviour Base']['1 string QuestText'],
@@ -1342,13 +1410,18 @@ module.exports = () => {
         }).filter(Boolean)
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName11, `${challenge.name}.json`)
+      var filename = path.join(__dirname, 'Patches', patchDate, folderName10, `${challenge.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(challenge)
         fs.writeFileSync(filename, JSON.stringify(file))
       } else fs.writeFileSync(filename, JSON.stringify([challenge]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName10, 'at', count, '...')
+      }
     })
-    console.log(folderName11, 'Complete.')
+    console.log(folderName10, 'completed', 'at', count)
   }
 }

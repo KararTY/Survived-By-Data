@@ -1,0 +1,1 @@
+[{"name":"Villager_European_02","category":"None","weapons":[],"data":[{"sprite":{"name":"villager_European_02","textureRectangle":{"x":3,"y":64,"width":"26","height":"26"},"textureOffset":{"x":3,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":500}]}]}]

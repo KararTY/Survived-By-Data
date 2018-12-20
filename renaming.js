@@ -6,10 +6,10 @@ module.exports = () => {
 
   // After you're done renaming, move the files to "Other" and then run sorting.js
   var folder = path.join(__dirname, 'Raw data', patchDate, '_Dump Files Here')
-  if (!fs.existsSync(path.join(__dirname, 'Raw data', patchDate, 'Other'))) fs.mkdirSync(path.join(__dirname, 'Raw data', patchDate, 'Other'))
+  if (!fs.existsSync(path.join(__dirname, 'Raw data', patchDate, 'Other'))) fs.mkdirSync(path.join(__dirname, 'Raw data', patchDate, 'Other'), { recursive: true })
   if (!fs.existsSync(folder)) {
     fs.mkdirSync(folder, { recursive: true })
-    return { result: true }
+    return { result: false }
   }
   
   var count = 0
