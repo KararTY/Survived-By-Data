@@ -1,8 +1,8 @@
 {
   "name": "survived-by-data",
   "version": "1.0.0",
-  "description": "Survived By data.",
-  "main": "wikiTemplating.js",
+  "description": "Survived By data parser.",
+  "main": "app.js",
   "private": true,
   "dependencies": {
     "moment": "^2.23.0",
