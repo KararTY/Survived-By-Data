@@ -52,7 +52,7 @@ module.exports = (() => {
   function gWeapons(weapons) {
     return (weapons && weapons.length > 0) ? weapons.map(v => {
       var weaponData = (name) => v.data.find(v => v[name])[name]
-      return `''\n{{{!}}class="wikitable" style="text-align:left;width:100%!important"\n{{!}} colspan="2" {{!}}'''${weaponData('projectile').name.replace(/[_]/g, ' ')}'''\n{{!}}-\n${weaponData('projectile').damage ? `{{!}} Damage {{!}}{{!}} ${weaponData('projectile').damage}\n{{!}}-\n` : ''}{{!}} Speed {{!}}{{!}} ${weaponData('projectile').speed}\n{{!}}-\n${weaponData('projectile').acceleration ? `{{!}} Acceleration {{!}}{{!}} ${weaponData('projectile').acceleration}\n{{!}}-\n` : ''}{{!}} Lifetime {{!}}{{!}} ${weaponData('projectile').maxLifetime}${weaponData('projectile').delayRate ? `\n{{!}}-\n{{!}} Delay rate {{!}}{{!}} ${weaponData('projectile').delayRate}` : ''}${weaponData('projectile').useTargetForRange ? `\n{{!}}-\n{{!}}Use target for range {{!}}{{!}} Yes` : ''}${weaponData('projectile').useRandomRange ? `\n{{!}}-\n{{!}} Use random range {{!}}{{!}} Yes\n{{!}}-\n{{!}} Random range max {{!}} ${weaponData('projectile').randomRangeMax} ` : ''}\n{{!}}-\n{{!}} Range {{!}}{{!}} ${weaponData('projectile').range}\n{{!}}-\n{{!}} Max hits {{!}}{{!}} ${weaponData('projectile').maxHits} ${weaponData('projectile').arcSeparation ? `\n{{!}}-\n{{!}} Arc Separation {{!}}{{!}} ${weaponData('projectile').arcSeparation} ` : ''}${weaponData('projectile').bounceBetweenEnemies ? `\n{{!}}-\n{{!}} Bounce between enemies {{!}}{{!}} Yes` : ''}${weaponData('projectile').pierceWorld ? `\n{{!}}-\n{{!}} Pierce world  {{!}}{{!}} Yes` : ''}\n${weaponData('projectile').statusEffect ? `{{!}}-\n{{!}} colspan="2" {{!}} Status\n{{!}}-\n{{!}} Effect name {{!}}{{!}} '''${weaponData('projectile').statusEffect.name}'''\n{{!}}-\n{{!}} Duration {{!}}{{!}} ${weaponData('projectile').statusEffect.duration} seconds\n{{!}}-\n{{!}} colspan="2" {{!}} Status statistics\n{{!}}-\n${weaponData('projectile').statusEffect.stats.map(v => (v.equation || v.value) ? `{{!}}${v.key} {{!}}{{!}} ${v.equation}${v.value ? ` '''${v.value}'''` : ''}` : '').filter(Boolean).join('\n{{!}}-\n')}\n{{!}}}` : '{{!}}}'}`
+      return `''\n{{{!}}class="wikitable" style="text-align:left;width:100%!important"\n{{!}} ${v.data.find(v => v.sprite) ? `'''${weaponData('projectile').name.replace(/[_]/g, ' ')}''' {{!}}{{!}} <center>${gImageOriginalData(v.data)}</center>\n` : `colspan="2" {{!}}'''${weaponData('projectile').name.replace(/[_]/g, ' ')}'''`}\n{{!}}-\n${weaponData('projectile').damage ? `{{!}} Damage {{!}}{{!}} ${weaponData('projectile').damage}\n{{!}}-\n` : ''}{{!}} Speed {{!}}{{!}} ${weaponData('projectile').speed}\n{{!}}-\n${weaponData('projectile').acceleration ? `{{!}} Acceleration {{!}}{{!}} ${weaponData('projectile').acceleration}\n{{!}}-\n` : ''}{{!}} Lifetime {{!}}{{!}} ${weaponData('projectile').maxLifetime}${weaponData('projectile').delayRate ? `\n{{!}}-\n{{!}} Delay rate {{!}}{{!}} ${weaponData('projectile').delayRate}` : ''}${weaponData('projectile').useTargetForRange ? `\n{{!}}-\n{{!}}Use target for range {{!}}{{!}} Yes` : ''}${weaponData('projectile').useRandomRange ? `\n{{!}}-\n{{!}} Use random range {{!}}{{!}} Yes\n{{!}}-\n{{!}} Random range max {{!}} ${weaponData('projectile').randomRangeMax} ` : ''}\n{{!}}-\n{{!}} Range {{!}}{{!}} ${weaponData('projectile').range}\n{{!}}-\n{{!}} Max hits {{!}}{{!}} ${weaponData('projectile').maxHits} ${weaponData('projectile').arcSeparation ? `\n{{!}}-\n{{!}} Arc Separation {{!}}{{!}} ${weaponData('projectile').arcSeparation} ` : ''}${weaponData('projectile').bounceBetweenEnemies ? `\n{{!}}-\n{{!}} Bounce between enemies {{!}}{{!}} Yes` : ''}${weaponData('projectile').pierceWorld ? `\n{{!}}-\n{{!}} Pierce world  {{!}}{{!}} Yes` : ''}\n${weaponData('projectile').statusEffect ? `{{!}}-\n{{!}} colspan="2" {{!}} Status\n{{!}}-\n{{!}} Effect name {{!}}{{!}} '''${weaponData('projectile').statusEffect.name}'''\n{{!}}-\n{{!}} Duration {{!}}{{!}} ${weaponData('projectile').statusEffect.duration} seconds\n{{!}}-\n{{!}} colspan="2" {{!}} Status statistics\n{{!}}-\n${weaponData('projectile').statusEffect.stats.map(v => (v.equation || v.value) ? `{{!}}${v.key} {{!}}{{!}} ${v.equation}${v.value ? ` '''${v.value}'''` : ''}` : '').filter(Boolean).join('\n{{!}}-\n')}\n{{!}}}` : '{{!}}}'}`
     }).join('\n') : ''
   }
 
@@ -152,25 +152,25 @@ module.exports = (() => {
         template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : '\n'}${item.alias ? item.alias.replace(/[_]/g, ' ') : `${item.name} ${ind + 1}`}= ` : ''
         template += `{{Enemy
   |title = ${item.name}
-  |image = ${/*item.data.find(v => v.sprite) ? item.data.find(v => v.sprite).sprite.name : */item.name}.png
-  |image_original = ${gImageOriginalData(item.data)}
-  |caption = ${item.description || ''}
+${gImageOriginalData(item.data) ? '' : `  |image = ${item.name}.png`}
+${gImageOriginalData(item.data) ? `  |image_original = ${gImageOriginalData(item.data)}` : ''}
+${item.description ? `  |caption = ${item.description}` : ''}
   |location = 
-  |category = ${item.category || ''}
-  |is_boss = ${item.isBoss ? 'Yes' : ''}
-  |is_elite = ${item.isElite ? 'Yes' : ''}
-  |is_set_piece_monster = ${item.isSetPieceMonster ? 'Yes' : ''}
-  |element = ${(!item.element || item.element) === 'None' ? '' : item.element}
-  |tier = ${gStatsData(item.data, 'Tier')}
-  |level = ${gStatsData(item.data, 'Level')}
-  |max_health = ${gStatsData(item.data, 'HealthMax', 'Health')}
-  |experience = ${gStatsData(item.data, 'Experience')}
-  |damage_bonus = ${gStatsData(item.data, 'DamageBonus')}
-  |accuracy = ${gStatsData(item.data, 'Accuracy')}
-  |critical_defense = ${gStatsData(item.data, 'CriticalDefense')}
-  |weapons = ${gWeapons(item.weapons)}
-  |dialogue = ${gData(item.data, 'healthDialogue') ? gData(item.data, 'healthDialogue').map(v => `<u>'''${v.healthPercentage * 100}% health:'''</u> ''${v.message}''`).join('<br>') : gData(item.data, 'dialogue') ? gData(item.data, 'dialogue').map(v => `''${v.message}''`).join('<br>') : ''}
-  |drops = ${gLootData(item.data)}
+${item.category ? `  |category = ${item.category}` : ''}
+${item.isBoss ? '  |is_boss = Yes' : ''}
+${item.isElite ? '  |is_elite = Yes' : ''}
+${item.isSetPieceMonster ? '  |is_set_piece_monster = Yes' : ''}
+${(!item.element || item.element) === 'None' ? '' : `  |element = ${item.element}`}
+${gStatsData(item.data, 'Tier') ? `  |tier = ${gStatsData(item.data, 'Tier')}` : ''}
+${gStatsData(item.data, 'Level') ? `  |level = ${gStatsData(item.data, 'Level')}` : ''}
+${gStatsData(item.data, 'HealthMax', 'Health') ? `  |max_health = ${gStatsData(item.data, 'HealthMax', 'Health')}` : ''}
+${gStatsData(item.data, 'Experience') ? `  |experience = ${gStatsData(item.data, 'Experience')}` : ''}
+${gStatsData(item.data, 'DamageBonus') ? `  |damage_bonus = ${gStatsData(item.data, 'DamageBonus')}` : ''}
+${gStatsData(item.data, 'Accuracy') ? `  |accuracy = ${gStatsData(item.data, 'Accuracy')}` : ''}
+${gStatsData(item.data, 'CriticalDefense') ? `  |critical_defense = ${gStatsData(item.data, 'CriticalDefense')}` : ''}
+${gWeapons(item.weapons) ? `  |weapons = ${gWeapons(item.weapons)}` : ''}
+${(gData(item.data, 'healthDialogue') || gData(item.data, 'dialogue')) ? `  |dialogue = ${gData(item.data, 'healthDialogue') ? gData(item.data, 'healthDialogue').map(v => `<u>'''${v.healthPercentage * 100}% health:'''</u> ''${v.message}''`).join('<br>') : gData(item.data, 'dialogue') ? gData(item.data, 'dialogue').map(v => `''${v.message}''`).join('<br>') : ''}` : ''}
+${gLootData(item.data) ? `  |drops = ${gLootData(item.data)}` : ''}
 }}`.replace(/\r?\n+|\r+/g, '\n').trim()
         template += arr.length > 1 ? `\n|-|` : ''
       })
