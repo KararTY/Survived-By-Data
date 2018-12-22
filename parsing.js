@@ -148,11 +148,15 @@ module.exports = () => {
             return {
               sprite: {
                 name: s['1 string m_Name'],
+                baseSize: {
+                  width: s['0 int m_Width'],
+                  height: s['0 int m_Height']
+                },
                 textureRectangle: {
                   x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
                   y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
-                  width: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0),
-                  height: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0)
+                  width: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0)),
+                  height: parseFloat(srd['0 Rectf textureRect']['0 float height'].toFixed(0))
                 },
                 textureOffset: {
                   x: parseFloat(srd['0 Vector2f textureRectOffset']['0 float x'].toFixed(0)),
@@ -433,11 +437,15 @@ module.exports = () => {
                 return {
                   sprite: {
                     name: s['1 string m_Name'],
+                    baseSize: {
+                      width: s['0 int m_Width'],
+                      height: s['0 int m_Height']
+                    },
                     textureRectangle: {
                       x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
                       y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
                       width: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0)),
-                      height: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0))
+                      height: parseFloat(srd['0 Rectf textureRect']['0 float height'].toFixed(0))
                     },
                     textureOffset: {
                       x: parseFloat(srd['0 Vector2f textureRectOffset']['0 float x'].toFixed(0)),
@@ -522,11 +530,15 @@ module.exports = () => {
             return {
               sprite: {
                 name: s['1 string m_Name'],
+                baseSize: {
+                  width: s['0 int m_Width'],
+                  height: s['0 int m_Height']
+                },
                 textureRectangle: {
                   x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
                   y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
-                  width: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0),
-                  height: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0)
+                  width: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0)),
+                  height: parseFloat(srd['0 Rectf textureRect']['0 float height'].toFixed(0))
                 },
                 textureOffset: {
                   x: parseFloat(srd['0 Vector2f textureRectOffset']['0 float x'].toFixed(0)),
@@ -732,11 +744,15 @@ module.exports = () => {
               return {
                 sprite: {
                   name: s['1 string m_Name'],
+                  baseSize: {
+                    width: s['0 int m_Width'],
+                    height: s['0 int m_Height']
+                  },
                   textureRectangle: {
                     x: parseFloat(f['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float x'].toFixed(0)),
-                    y: parseFloat(f['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float y']).toFixed(0),
-                    width: parseFloat(f['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float width']).toFixed(0),
-                    height: parseFloat(f['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float width']).toFixed(0)
+                    y: parseFloat(f['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float y'].toFixed(0)),
+                    width: parseFloat(f['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float width'].toFixed(0)),
+                    height: parseFloat(f['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float height'].toFixed(0))
                   },
                   textureOffset: {
                     x: parseFloat(f['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Vector2f textureRectOffset']['0 float x'].toFixed(0)),
@@ -1090,11 +1106,15 @@ module.exports = () => {
                 return {
                   sprite: {
                     name: s['1 string m_Name'],
+                    baseSize: {
+                      width: s['0 int m_Width'],
+                      height: s['0 int m_Height']
+                    },
                     textureRectangle: {
                       x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
                       y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
                       width: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0)),
-                      height: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0))
+                      height: parseFloat(srd['0 Rectf textureRect']['0 float height'].toFixed(0))
                     },
                     textureOffset: {
                       x: parseFloat(srd['0 Vector2f textureRectOffset']['0 float x'].toFixed(0)),
@@ -1176,11 +1196,15 @@ module.exports = () => {
             return {
               sprite: {
                 name: s['1 string m_Name'],
+                baseSize: {
+                  width: s['0 int m_Width'],
+                  height: s['0 int m_Height']
+                },
                 textureRectangle: {
                   x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
                   y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
-                  width: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0),
-                  height: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0)
+                  width: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0)),
+                  height: parseFloat(srd['0 Rectf textureRect']['0 float height'].toFixed(0))
                 },
                 textureOffset: {
                   x: parseFloat(srd['0 Vector2f textureRectOffset']['0 float x'].toFixed(0)),
@@ -1317,11 +1341,15 @@ module.exports = () => {
               var s = require(path.join(folder['Other'], fileMap(srd['0 PPtr<Texture2D> texture']['0 int m_FileID']) + srd['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID'] + '.json'))['0 Texture2D Base']
               return {
                 name: s['1 string m_Name'],
+                baseSize: {
+                  width: s['0 int m_Width'],
+                  height: s['0 int m_Height']
+                },
                 textureRectangle: {
                   x: parseFloat(srd['0 Rectf textureRect']['0 float x'].toFixed(0)),
                   y: parseFloat(srd['0 Rectf textureRect']['0 float y'].toFixed(0)),
-                  width: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0),
-                  height: parseFloat(srd['0 Rectf textureRect']['0 float width']).toFixed(0)
+                  width: parseFloat(srd['0 Rectf textureRect']['0 float width'].toFixed(0)),
+                  height: parseFloat(srd['0 Rectf textureRect']['0 float height'].toFixed(0))
                 },
                 textureOffset: {
                   x: parseFloat(srd['0 Vector2f textureRectOffset']['0 float x'].toFixed(0)),
