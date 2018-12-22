@@ -203,6 +203,7 @@ module.exports = () => {
             var f = require(path.join(folder['Other'], fileMap(v['0 PPtr<$ItemModifier> data']['0 int m_FileID']) + v['0 PPtr<$ItemModifier> data']['0 SInt64 m_PathID'] + '.json'))
             if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']) {
               return {
+                nameMod: f['0 MonoBehaviour Base']['1 string nameMod'].length > 0 ? translate[f['0 MonoBehaviour Base']['1 string nameMod']] || f['0 MonoBehaviour Base']['1 string nameMod'] : undefined,
                 equipmentSet: f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID']
                   ? (function () {
                     var e = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID'] + '.json'))
@@ -898,6 +899,7 @@ module.exports = () => {
               var f = require(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
               if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']) {
                 return {
+                  nameMod: f['0 MonoBehaviour Base']['1 string nameMod'].length > 0 ? translate[f['0 MonoBehaviour Base']['1 string nameMod']] || f['0 MonoBehaviour Base']['1 string nameMod'] : undefined,
                   equipmentSet: f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID']
                     ? (function () {
                       var e = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID'] + '.json'))

@@ -79,7 +79,7 @@ module.exports = (() => {
 
   function gImageOriginalData(data) {
     var giod = data.find(v => v.sprite) ? data.find(v => v.sprite).sprite : ''
-    return giod ? `{{CSS image crop|Image=${giod.name}.png|bSize=${giod.baseSize.width}|cWidth=${giod.textureRectangle.width + 1}|cHeight=${giod.textureRectangle.height + 1}|oBottom=${giod.baseSize.height - (giod.textureRectangle.y + giod.textureRectangle.height)}|oLeft=${giod.textureRectangle.x}}}` : ''
+    return giod ? `{{CSS image crop|Image=${giod.name}.png|bSize=${giod.baseSize.width}|cWidth=${giod.textureRectangle.width}|cHeight=${giod.textureRectangle.height}|oBottom=${giod.baseSize.height - (giod.textureRectangle.y + giod.textureRectangle.height)}|oLeft=${giod.textureRectangle.x}}}` : ''
   }
 //  let folder1 = 'ItemDefinition'
 //  if (folder[folder1]) {
