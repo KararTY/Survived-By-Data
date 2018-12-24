@@ -328,6 +328,14 @@ module.exports = () => {
             var lootTable = require(path.join(folder['LootTable'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))
             return require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
           })()
+          : undefined,
+        questLootTable: file['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger'] && file['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] > 0
+          ? (function () {
+            var lootTable = require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
+            return {
+              name: lootTable['1 string m_Name']
+            }
+          })()
           : undefined
       }
 
@@ -471,12 +479,13 @@ module.exports = () => {
               return {
                 loot: {
                   inheritedLootTable: f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0
-                  ? (function () {
-                    var lootTable = require(path.join(folder['LootTable'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))
-                    return {
-                      name: require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
-                    }
-                  })() : undefined,
+                    ? (function () {
+                      var lootTable = require(path.join(folder['LootTable'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))
+                      return {
+                        name: require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+                      }
+                    })()
+                    : undefined,
                   ...f['0 MonoBehaviour Base']['0 Array lootTable'].length > 0 ? {
                     guaranteeItemCount: f['0 MonoBehaviour Base']['0 int guaranteeItemCount'],
                     maximumItemCount: f['0 MonoBehaviour Base']['0 int maximumItemCount'],
@@ -492,7 +501,16 @@ module.exports = () => {
                         allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
                       }
                     })
-                  } : undefined
+                  }
+                    : undefined,
+                  questLootTable: f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger'] && f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] > 0
+                    ? (function () {
+                      var lootTable = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
+                      return {
+                        name: lootTable['1 string m_Name']
+                      }
+                    })()
+                    : undefined
                 }
               }
             }
@@ -583,6 +601,44 @@ module.exports = () => {
                   message: translate[d['1 string message']] || d['1 string message']
                 }
               })
+            }
+          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array lootTable'] && (f['0 MonoBehaviour Base']['0 Array lootTable'].length > 0 || f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0)) {
+            return {
+              loot: {
+                inheritedLootTable: f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0
+                  ? (function () {
+                    var lootTable = require(path.join(folder['LootTable'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))
+                    return {
+                      name: require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+                    }
+                  })()
+                  : undefined,
+                ...f['0 MonoBehaviour Base']['0 Array lootTable'].length > 0 ? {
+                  guaranteeItemCount: f['0 MonoBehaviour Base']['0 int guaranteeItemCount'],
+                  maximumItemCount: f['0 MonoBehaviour Base']['0 int maximumItemCount'],
+                  lootTable: f['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
+                    return {
+                      item: translate[require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name']] || require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name'],
+                      count: {
+                        dice: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int dice'],
+                        faces: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int faces'],
+                        add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
+                      },
+                      chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
+                      allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
+                    }
+                  })
+                }
+                  : undefined,
+                questLootTable: f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger'] && f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] > 0
+                  ? (function () {
+                    var lootTable = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
+                    return {
+                      name: lootTable['1 string m_Name']
+                    }
+                  })()
+                  : undefined
+              }
             }
           } else return undefined
         }).filter(Boolean),
@@ -791,7 +847,31 @@ module.exports = () => {
                       })
                     }
                   })
-                  : undefined
+                  : undefined,
+                sprite: (function () {
+                  if (!fs.existsSync(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$Sprite> icon']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$Sprite> icon']['0 SInt64 m_PathID']) + '.json')) return undefined
+                  var s = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$Sprite> icon']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$Sprite> icon']['0 SInt64 m_PathID']) + '.json')
+                  if (s['0 Sprite Base'] && s['0 Sprite Base']['1 SpriteRenderData m_RD']['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID']) {
+                    var srd = require(path.join(folder['Other'], fileMap(s['0 Sprite Base']['1 SpriteRenderData m_RD']['0 PPtr<Texture2D> texture']['0 int m_FileID']) + s['0 Sprite Base']['1 SpriteRenderData m_RD']['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID'] + '.json'))['0 Texture2D Base']
+                    return {
+                      name: srd['1 string m_Name'],
+                      baseSize: {
+                        width: srd['0 int m_Width'],
+                        height: srd['0 int m_Height']
+                      },
+                      textureRectangle: {
+                        x: parseFloat(s['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float x'].toFixed(0)),
+                        y: parseFloat(s['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float y'].toFixed(0)),
+                        width: parseFloat(s['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float width'].toFixed(0)),
+                        height: parseFloat(s['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']['0 float height'].toFixed(0))
+                      },
+                      textureOffset: {
+                        x: parseFloat(s['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Vector2f textureRectOffset']['0 float x'].toFixed(0)),
+                        y: parseFloat(s['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Vector2f textureRectOffset']['0 float y'].toFixed(0))
+                      }
+                    }
+                  } else return undefined
+                })()
               }
             } else return undefined
           }).filter(Boolean)

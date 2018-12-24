@@ -50,10 +50,53 @@ module.exports = (() => {
   }
   
   function gWeapons(weapons) {
-    return (weapons && weapons.length > 0) ? weapons.map(v => {
+    return (weapons && weapons.length > 0) ? weapons.map((v, ind) => {
       var weaponData = (name) => v.data.find(v => v[name])[name]
-      return `''\n{{{!}}class="wikitable" style="text-align:left;width:100%!important"\n{{!}} ${v.data.find(v => v.sprite) ? `'''${weaponData('projectile').name.replace(/[_]/g, ' ')}''' {{!}}{{!}} <center>${gImageOriginalData(v.data)}</center>\n` : `colspan="2" {{!}}'''${weaponData('projectile').name.replace(/[_]/g, ' ')}'''`}\n{{!}}-\n${weaponData('projectile').damage ? `{{!}} Damage {{!}}{{!}} ${weaponData('projectile').damage}\n{{!}}-\n` : ''}{{!}} Speed {{!}}{{!}} ${weaponData('projectile').speed}\n{{!}}-\n${weaponData('projectile').acceleration ? `{{!}} Acceleration {{!}}{{!}} ${weaponData('projectile').acceleration}\n{{!}}-\n` : ''}{{!}} Lifetime {{!}}{{!}} ${weaponData('projectile').maxLifetime}${weaponData('projectile').delayRate ? `\n{{!}}-\n{{!}} Delay rate {{!}}{{!}} ${weaponData('projectile').delayRate}` : ''}${weaponData('projectile').useTargetForRange ? `\n{{!}}-\n{{!}}Use target for range {{!}}{{!}} Yes` : ''}${weaponData('projectile').useRandomRange ? `\n{{!}}-\n{{!}} Use random range {{!}}{{!}} Yes\n{{!}}-\n{{!}} Random range max {{!}} ${weaponData('projectile').randomRangeMax} ` : ''}\n{{!}}-\n{{!}} Range {{!}}{{!}} ${weaponData('projectile').range}\n{{!}}-\n{{!}} Max hits {{!}}{{!}} ${weaponData('projectile').maxHits} ${weaponData('projectile').arcSeparation ? `\n{{!}}-\n{{!}} Arc Separation {{!}}{{!}} ${weaponData('projectile').arcSeparation} ` : ''}${weaponData('projectile').bounceBetweenEnemies ? `\n{{!}}-\n{{!}} Bounce between enemies {{!}}{{!}} Yes` : ''}${weaponData('projectile').pierceWorld ? `\n{{!}}-\n{{!}} Pierce world  {{!}}{{!}} Yes` : ''}\n${weaponData('projectile').statusEffect ? `{{!}}-\n{{!}} colspan="2" {{!}} Status\n{{!}}-\n{{!}} Effect name {{!}}{{!}} '''${weaponData('projectile').statusEffect.name}'''\n{{!}}-\n{{!}} Duration {{!}}{{!}} ${weaponData('projectile').statusEffect.duration} seconds\n{{!}}-\n{{!}} colspan="2" {{!}} Status statistics\n{{!}}-\n${weaponData('projectile').statusEffect.stats.map(v => (v.equation || v.value) ? `{{!}}${v.key} {{!}}{{!}} ${v.equation}${v.value ? ` '''${v.value}'''` : ''}` : '').filter(Boolean).join('\n{{!}}-\n')}\n{{!}}}` : '{{!}}}'}`
-    }).join('\n') : ''
+      return `${ind > 0 ? `    ''` : `''`}
+    {{{!}}class="wikitable" style="text-align:left;width:100%!important"
+    {{!}}-
+    {{!}} ${v.data.find(v => v.sprite) ? `'''${weaponData('projectile').name.replace(/[_]/g, ' ')}''' {{!!}} <center>${gImageOriginalData(v.data)}</center>
+    ` : `colspan="2" {{!}}'''${weaponData('projectile').name.replace(/[_]/g, ' ')}'''`}
+    {{!}}-
+    ${weaponData('projectile').damage ? `{{!}} Damage {{!!}} ${weaponData('projectile').damage}
+    {{!}}-
+    ` : ''}{{!}} Speed {{!!}} ${weaponData('projectile').speed}
+    {{!}}-
+    ${weaponData('projectile').acceleration ? `{{!}} Acceleration {{!!}} ${weaponData('projectile').acceleration}
+    {{!}}-
+    ` : ''}{{!}} Lifetime {{!!}} ${weaponData('projectile').maxLifetime}
+    ${weaponData('projectile').delayRate ? `{{!}}-
+    {{!}} Delay rate {{!!}} ${weaponData('projectile').delayRate}` : ''}
+    ${weaponData('projectile').useTargetForRange ? `{{!}}-
+    {{!}}Use target for range {{!!}} Yes` : ''}${weaponData('projectile').useRandomRange ? `
+    {{!}}-
+    {{!}} Use random range {{!!}} Yes
+    {{!}}-
+    {{!}} Random range max {{!!}} ${weaponData('projectile').randomRangeMax}` : ''}
+    {{!}}-
+    {{!}} Range {{!!}} ${weaponData('projectile').range}
+    {{!}}-
+    {{!}} Max hits {{!!}} ${weaponData('projectile').maxHits}
+    ${weaponData('projectile').arcSeparation ? `{{!}}-
+    {{!}} Arc Separation {{!!}} ${weaponData('projectile').arcSeparation}` : ''}
+    ${weaponData('projectile').bounceBetweenEnemies ? `{{!}}-
+    {{!}} Bounce between enemies {{!!}} Yes` : ''}
+    ${weaponData('projectile').pierceWorld ? `
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes` : ''}
+    ${weaponData('projectile').statusEffect ? `{{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''${weaponData('projectile').statusEffect.name}'''
+    {{!}}-
+    {{!}} Duration {{!!}} ${weaponData('projectile').statusEffect.duration} seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    ${weaponData('projectile').statusEffect.stats.map(v => (v.equation || v.value) ? `{{!}} ${v.key} {{!!}} ${v.equation}${v.value ? ` '''${v.value}'''` : ''}` : '').filter(Boolean).join(`
+    {{!}}-
+    `)}` : ''}
+    {{!}}}`}).join('\n').replace(/    [\n\r]+/g, '\n') : ''
   }
 
   function gLootData(data) {
@@ -63,14 +106,20 @@ module.exports = (() => {
         return b.chance - a.chance
       })
     }
-    return gld ? `''\n${gld.inheritedLootTable ? `'''Inheriting:''' [[Loot table/${gld.inheritedLootTable.name}|${gld.inheritedLootTable.name}]]<br>` : ''}${gld.guaranteeItemCount ? `Guaranteed drop amount: ${gld.guaranteeItemCount}<br>` : ''}${gld.maximumItemCount ? `Maximum drop amount: ${gld.maximumItemCount}<br>` : ''}${(gld.lootTable && gld.lootTable.length > 0) ? `\n{{{!}} style="width:100%!important"\n{{!}}-\n${gld.lootTable.map(v => `{{!}} x${v.count.add} {{!}}{{!}} {{Icon|${v.item}}} {{!}}{{!}} ${v.chance}%`).join('\n{{!}}-\n')}\n{{!}}}` : ''}`.replace(/Ã¤/g, 'ä') : ''
+    return `${gld.inheritedLootTable ? `'''Inheriting:''' [[Loot table/${gld.inheritedLootTable.name}|${gld.inheritedLootTable.name}]]` : ''}
+    ${gld.questLootTable ? `'''Quest loot table:''' [[Loot table/${gld.questLootTable.name}|${gld.questLootTable.name}]]<br>\n` : ''}
+    ${gld.guaranteeItemCount ? `Guaranteed drop amount: ${gld.guaranteeItemCount}<br>` : ''}${gld.maximumItemCount ? `Maximum drop amount: ${gld.maximumItemCount}` : ''}
+    ${gld ? `${(gld.lootTable && gld.lootTable.length > 0) ? `
+    {{{!}} style="width:100%!important"
+    {{!}}-
+    ${gld.lootTable.map(v => `{{!}} x${v.count.add} {{!}}{{!}} {{Icon|${v.item}}} {{!}}{{!}} ${v.chance}%`).join('\n    {{!}}-\n    ')}\n    {{!}}}` : ''}` : ''}`.replace(/Ã¤/g, 'ä').replace(/    [\n\r]+/g, '\n')
   }
 
   function gLoot(data) {
     var gld = data.lootTable.length > 0 ? data.lootTable.sort((a, b) => {
       return b.chance - a.chance
     }) : ''
-    return gld ? `${data.reference ? `'''Inheriting:''' [[Loot table/${data.reference}|${data.reference}]]<br>\n` : ''}${gld.guaranteeItemCount ? `Guaranteed drop amount: ${gld.guaranteeItemCount}<br>\n` : ''}${gld.maximumItemCount ? `Maximum drop amount: ${gld.maximumItemCount}<br>\n` : ''}{|class="wikitable sortable"\n|-\n${gld.map(v => `| x${v.count.add} || {{Icon|${v.item}}} || ${v.chance}% `).join('\n|-\n')}\n|}`.replace(/Ã¤/g, 'ä') : ''
+    return `${data.reference ? `'''Inheriting:''' [[Loot table/${data.reference}|${data.reference}]]<br>\n` : ''}${data.questLootTable ? `'''Quest loot table:''' [[Loot table/${data.questLootTable.name}|${data.questLootTable.name}]]<br>\n` : ''}${gld ? `${gld.guaranteeItemCount ? `Guaranteed drop amount: ${gld.guaranteeItemCount}<br>\n` : ''}${gld.maximumItemCount ? `Maximum drop amount: ${gld.maximumItemCount}<br>\n` : ''}{|class="wikitable sortable"\n|-\n${gld.map(v => `| x${v.count.add} || {{Icon|${v.item}}} || ${v.chance}% `).join('\n|-\n')}\n|}`.replace(/Ã¤/g, 'ä') : ''}`
   }
 
   function gStats(stats, stat) {
@@ -80,6 +129,62 @@ module.exports = (() => {
   function gImageOriginalData(data) {
     var giod = data.find(v => v.sprite) ? data.find(v => v.sprite).sprite : ''
     return giod ? `{{CSS image crop|Image=${giod.name}.png|bSize=${giod.baseSize.width}|cWidth=${giod.textureRectangle.width}|cHeight=${giod.textureRectangle.height}|oBottom=${giod.baseSize.height - (giod.textureRectangle.y + giod.textureRectangle.height)}|oLeft=${giod.textureRectangle.x}}}` : ''
+  }
+
+  function gAncestralProcData(data) {
+    var gpd = data.find(v => v.proc) ? data.find(v => v.proc).proc : ''
+    return gpd ? `! colspan="3" | Proc
+    |-
+    ${gpd.counterMax ? `| Counter max || colspan="2" | ${gpd.counterMax}
+    |-` : ''}
+    ${gpd.timerValue ? `| Timer value || colspan="2" | ${gpd.timerValue}
+    |-` : ''}
+    ${gpd.projectileDamageMultiplier ? `| Projectile damage multiplier || colspan="2" | ${gpd.projectileDamageMultiplier}
+    |-` : ''}
+    ${gpd.useAncestralBenefitForDamage ? `| Use ancestral benefit for damage || colspan="2" | ${gpd.useAncestralBenefitForDamage}
+    |-` : ''}
+    ${gpd.triggers ? `| Triggers || colspan="2" | 
+    {| class="wikitable"
+      |-
+      ${gpd.triggers.map(t => {
+        return `        | colspan="2" | ${t.trigger}
+        |-
+        | Chance || ${t.chance}
+        |-
+        | Chance source || ${t.chanceSource}
+        |-
+        | Action || ${t.action}`.replace(/      /g, '    ')
+    }).join('\n                  |-\n')}\n                |}` : ''}`.replace(/    [\n\r]+/g, '\n') : ''
+  }
+
+  function gAncestralStats(stats, colspan) {
+    var gas = stats.length > 0 ? stats : ''
+    return gas ? `! colspan="${colspan || 3}" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    ${gas.map(stat => {
+      return `| ${stat.key} || ${stat.equation} || ${stat.value > 0 ? stat.value : ''}`
+    }).join('\n          |-\n    ')}`.replace(/      [\n\r]+/g, '\n') : ''
+  }
+
+  function gAncestralSetsData(sets) {
+    var gasetsd = (sets && sets.length > 0) ? sets : ''
+    return gasetsd ? `! colspan="3" | Sets
+    |-
+    ${gasetsd.map(set => {
+      return `! colspan="3" | [[File:${set.sprite.name}.png|nolink=]] ${set.alias}
+    |-
+      ${set.setBonuses.sort((a, b) => {
+        return a.requiredAmount - b.requiredAmount
+      }).map(bonus => {
+        return `          | colspan="3" style="text-align:center;" | '''${bonus.name}:''' ${bonus.description}
+          |-
+          | Required amount || colspan="2" | '''${bonus.requiredAmount}'''
+          |-
+          ${gAncestralStats(bonus.stats)}`
+      }).join('\n          |-\n          | colspan="3" style="border: none;" | <hr style="background-color:transparent;">\n          |-\n')}`
+    }).join('\n    |-\n    | colspan="3" style="border: none;" | <hr style="height:5px;background-color:transparent;">\n    |-\n    ').replace(/      [\n\r]+/g, '\n')}` : ''
   }
 //  let folder1 = 'ItemDefinition'
 //  if (folder[folder1]) {
@@ -127,7 +232,7 @@ module.exports = (() => {
 //[[Category:Tier ${file[0].tier}]]
 //${file[0].class.length > 0 ? file[0].class.map(c => `[[Category:${c}]]`).join('\n') : ''}
 //{{stub}}
-//'''{{PAGENAME}}'''`.replace(/\r?\n+|\r+/g, '\n').trim()
+//      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, YOU should not ADD OR APPEND TEXT ABOVE;GENERATION DATE:${new Date().toUTCString()} -->
 //      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file[0].name}.txt`), template)
 //    })
 //  }
@@ -137,8 +242,6 @@ module.exports = (() => {
     if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder2))) {
       fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder2))
     }
-
-    let count = {}
     fs.readdirSync(folder[folder2]).forEach((val, ind) => {
       var file = require(path.join(folder[folder2], val))
       var template = `{{stub}}\n\n`
@@ -151,38 +254,38 @@ module.exports = (() => {
         count++
         template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : '\n'}${item.alias ? item.alias.replace(/[_]/g, ' ') : `${item.name} ${ind + 1}`}= ` : ''
         template += `{{Enemy
-  |title = ${item.name}
-${gImageOriginalData(item.data) ? '' : `  |image = ${item.name}.png`}
-${gImageOriginalData(item.data) ? `  |image_original = ${gImageOriginalData(item.data)}` : ''}
-${item.description ? `  |caption = ${item.description}` : ''}
-  |location = 
-${item.category ? `  |category = ${item.category}` : ''}
-${item.isBoss ? '  |is_boss = Yes' : ''}
-${item.isElite ? '  |is_elite = Yes' : ''}
-${item.isSetPieceMonster ? '  |is_set_piece_monster = Yes' : ''}
-${(!item.element || item.element) === 'None' ? '' : `  |element = ${item.element}`}
-${gStatsData(item.data, 'Tier') ? `  |tier = ${gStatsData(item.data, 'Tier')}` : ''}
-${gStatsData(item.data, 'Level') ? `  |level = ${gStatsData(item.data, 'Level')}` : ''}
-${gStatsData(item.data, 'HealthMax', 'Health') ? `  |max_health = ${gStatsData(item.data, 'HealthMax', 'Health')}` : ''}
-${gStatsData(item.data, 'Experience') ? `  |experience = ${gStatsData(item.data, 'Experience')}` : ''}
-${gStatsData(item.data, 'DamageBonus') ? `  |damage_bonus = ${gStatsData(item.data, 'DamageBonus')}` : ''}
-${gStatsData(item.data, 'Accuracy') ? `  |accuracy = ${gStatsData(item.data, 'Accuracy')}` : ''}
-${gStatsData(item.data, 'CriticalDefense') ? `  |critical_defense = ${gStatsData(item.data, 'CriticalDefense')}` : ''}
-${gWeapons(item.weapons) ? `  |weapons = ${gWeapons(item.weapons)}` : ''}
-${(gData(item.data, 'healthDialogue') || gData(item.data, 'dialogue')) ? `  |dialogue = ${gData(item.data, 'healthDialogue') ? gData(item.data, 'healthDialogue').map(v => `<u>'''${v.healthPercentage * 100}% health:'''</u> ''${v.message}''`).join('<br>') : gData(item.data, 'dialogue') ? gData(item.data, 'dialogue').map(v => `''${v.message}''`).join('<br>') : ''}` : ''}
-${gLootData(item.data) ? `  |drops = ${gLootData(item.data)}` : ''}
-}}`.replace(/\r?\n+|\r+/g, '\n').trim()
+        |title = ${item.name}
+        ${gImageOriginalData(item.data) ? '' : `|image = ${item.name}.png`}
+        ${gImageOriginalData(item.data) ? `|image_original = ${gImageOriginalData(item.data)}` : ''}
+        ${item.description ? `|caption = ${item.description}` : ''}
+        |location = 
+        ${item.category ? `|category = ${item.category}` : ''}
+        ${item.isBoss ? '|is_boss = Yes' : ''}
+        ${item.isElite ? '|is_elite = Yes' : ''}
+        ${item.isSetPieceMonster ? '|is_set_piece_monster = Yes' : ''}
+        ${(!item.element || item.element) === 'None' ? '' : `|element = ${item.element}`}
+        ${gStatsData(item.data, 'Tier') ? `|tier = ${gStatsData(item.data, 'Tier')}` : ''}
+        ${gStatsData(item.data, 'Level') ? `|level = ${gStatsData(item.data, 'Level')}` : ''}
+        ${gStatsData(item.data, 'HealthMax', 'Health') ? `|max_health = ${gStatsData(item.data, 'HealthMax', 'Health')}` : ''}
+        ${gStatsData(item.data, 'Experience') ? `|experience = ${gStatsData(item.data, 'Experience')}` : ''}
+        ${gStatsData(item.data, 'DamageBonus') ? `|damage_bonus = ${gStatsData(item.data, 'DamageBonus')}` : ''}
+        ${gStatsData(item.data, 'Accuracy') ? `|accuracy = ${gStatsData(item.data, 'Accuracy')}` : ''}
+        ${gStatsData(item.data, 'CriticalDefense') ? `|critical_defense = ${gStatsData(item.data, 'CriticalDefense')}` : ''}
+        ${gWeapons(item.weapons) ? `|weapons = ${gWeapons(item.weapons)}` : ''}
+        ${(gData(item.data, 'healthDialogue') || gData(item.data, 'dialogue')) ? `|dialogue = ${gData(item.data, 'healthDialogue') ? gData(item.data, 'healthDialogue').map(v => `<u>'''${v.healthPercentage * 100}% health:'''</u> ''${v.message}''`).join('<br>') : gData(item.data, 'dialogue') ? gData(item.data, 'dialogue').map(v => `''${v.message}''`).join('<br>') : ''}` : ''}
+        ${gLootData(item.data) ? `|drops = ${gLootData(item.data)}` : ''}
+        }}`.replace(/        [\n\r]+/g, '\n').replace(/\r?\n+|\r+/g, '\n').replace(/        /g, '  ').trim()
         template += arr.length > 1 ? `\n|-|` : ''
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
-      template += `
-[[Category:Monster]]
+      template += `\n[[Category:Monster]]
 ${file[0].category.length > 0 && file[0].category !== 'None' && file[0].category !== 'All' ? `[[Category:${file[0].category}]]` : ''}
 ${(file[0].element && file[0].element !== 'None' && file[0].element !== 'All') ? `[[Category:${file[0].element}]]` : ''}
 ${file[0].isBoss ? '[[Category:Boss]]' : ''}
 ${file[0].isElite ? '[[Category:Elite]]' : ''}
 ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\r?\n+|\r+/g, '\n').trim()
-      template += `\n\n'''{{PAGENAME}}'''`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, YOU should not ADD OR APPEND TEXT ABOVE;GENERATION DATE:${new Date().toUTCString()} -->`
+      template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder2, `${file[0].name}.txt`), template)
     })
   }
@@ -192,8 +295,6 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder3))) {
       fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder3))
     }
-
-    let count = {}
     fs.readdirSync(folder[folder3]).forEach((val, ind) => {
       var file = require(path.join(folder[folder3], val))
       var template = `{{stub}}\n'''{{PAGENAME}}'''\n\n`
@@ -203,12 +304,86 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       }).forEach((item, ind, arr) => {
         count++
         template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : ''}${item.from} ${ind + 1}= ` : ''
-        template += `${gLoot(item)}`.replace(/\r?\n+|\r+/g, '\n').trim()
+        template += `${gLoot(item)}`
         template += count > 0 ? `\n|-|` : ''
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
       template += `\n{{Special:Whatlinkshere/Loot table/${file[0].from}}}\n[[Category:Loot table]]`.replace(/\r?\n+|\r+/g, '\n').trim()
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, YOU should not ADD OR APPEND TEXT ABOVE;GENERATION DATE:${new Date().toUTCString()} -->`
+      template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder3, `${file[0].from}.txt`), template)
+    })
+  }
+
+  let folder4 = 'Ancestral'
+  if (folder[folder4]) {
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4))
+    }
+    fs.readdirSync(folder[folder4]).forEach((val, ind) => {
+      var file = require(path.join(folder[folder4], val))
+      var template = `{{stub}}\n\n`
+      var count = 0
+      file.sort((a, b) => {
+        return Number(a.alias.replace(/[^0-9]+/g, '')) - Number(b.alias.replace(/[^0-9]+/g, ''))
+      }).forEach((item, ind, arr) => {
+        count++
+        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : ''}${item.alias}${item.rarity ? ` (${item.rarity})` : ''} = ` : ''
+        template += `{| style="float:right;"
+        |-
+        | {{Ancestral Legacy
+          | name = ${item.name}
+          | description = ${item.description ? item.description.replace('#%', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 1)).toFixed(2))}%` : '#%') : ''}
+          | level = 1
+          | rarity = ${item.rarity.toLowerCase()}
+          ${(item.ordinaries && item.ordinaries.length > 0) ? item.ordinaries.map((o, ind) => {
+            return `| ordinary${ind + 1} = ${o.sprite.name}`
+          }).join('\n          ') : ''}
+          ${(item.sets && item.sets.length > 0) ? item.sets.map((o, ind) => {
+            return `| set${ind + 1} = ${o.sprite.name}`
+          }).join('\n          ') : ''}
+          }}
+        |-
+        | {{Ancestral Legacy
+          | name = ${item.name}
+          | description = ${item.description ? item.description.replace('#%', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 50)).toFixed(2))}%` : '#%') : ''}
+          | level = 50
+          | rarity = ${item.rarity.toLowerCase()}
+          ${(item.ordinaries && item.ordinaries.length > 0) ? item.ordinaries.map((o, ind) => {
+            return `| ordinary${ind + 1} = ${o.sprite.name}`
+          }).join('\n          ') : ''}
+          ${(item.sets && item.sets.length > 0) ? item.sets.map((o, ind) => {
+            return `| set${ind + 1} = ${o.sprite.name}`
+          }).join('\n          ') : ''}
+          }}
+        |}
+        {| class="wikitable mw-collapsible"
+          |-
+          ! colspan="3" | ${item.name}
+          |-
+          | Available || colspan="2" | ${!item.doNotAward ? 'Yes' : 'No'}
+          |-
+          | Rarity || colspan="2" | ${item.rarity}
+          |-
+          | Classes || colspan="2" | ${item.validClasses.map(c => `{{Icon|${c}}}`).join('<br>')}
+          |-
+          ${gAncestralStats(item.stats)}
+        |}
+        {| class="wikitable mw-collapsible mw-collapsed"
+          |-
+          ${gAncestralProcData(item.data)}
+        |}
+        {| class="wikitable mw-collapsible mw-collapsed"
+          |-
+          ${gAncestralSetsData(item.sets)}
+        |}`.replace(/\r?\n+|\r+/g, '\n').replace(/        /g, '  ').trim()
+        template += count > 0 ? `\n|-|\n` : ''
+      })
+      template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
+      template += `\n[[Category:Ancestral Legacy]]`.replace(/\r?\n+|\r+/g, '\n').trim()
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, YOU should not ADD OR APPEND TEXT ABOVE;GENERATION DATE:${new Date().toUTCString()} -->`
+      template = template.replace(/\r?\n+|\r+/g, '\n').trim()
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4, `${file[0].name}.txt`), template)
     })
   }
 })()
