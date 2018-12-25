@@ -25,7 +25,8 @@ module.exports = (() => {
     'LootBox': path.join(__dirname, 'Patches', patchDate, 'LootBox'),
     'NPC': path.join(__dirname, 'Patches', patchDate, 'NPC'),
     'Player': path.join(__dirname, 'Patches', patchDate, 'Player'),
-    'Challenge': path.join(__dirname, 'Patches', patchDate, 'Challenge')
+    'Challenge': path.join(__dirname, 'Patches', patchDate, 'Challenge'),
+    'Ancestral/Set bonuses': path.join(__dirname, 'Patches', patchDate, 'Ancestral', 'Set bonuses')
   }
 
   if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate))) {
@@ -169,22 +170,18 @@ module.exports = (() => {
   }
 
   function gAncestralSetsData(sets) {
-    var gasetsd = (sets && sets.length > 0) ? sets : ''
-    return gasetsd ? `! colspan="3" | Sets
+    var set = sets
+    return `! colspan="3" | [[File:${set.sprite.name}.png|nolink=]] ${set.alias}
     |-
-    ${gasetsd.map(set => {
-      return `! colspan="3" | [[File:${set.sprite.name}.png|nolink=]] ${set.alias}
+    ${set.setBonuses.sort((a, b) => {
+      return a.requiredAmount - b.requiredAmount
+    }).map(bonus => {
+      return `| colspan="3" style="text-align:center;" | '''${bonus.name}:''' ${bonus.description}
     |-
-      ${set.setBonuses.sort((a, b) => {
-        return a.requiredAmount - b.requiredAmount
-      }).map(bonus => {
-        return `          | colspan="3" style="text-align:center;" | '''${bonus.name}:''' ${bonus.description}
-          |-
-          | Required amount || colspan="2" | '''${bonus.requiredAmount}'''
-          |-
-          ${gAncestralStats(bonus.stats)}`
-      }).join('\n          |-\n          | colspan="3" style="border: none;" | <hr style="background-color:transparent;">\n          |-\n')}`
-    }).join('\n    |-\n    | colspan="3" style="border: none;" | <hr style="height:5px;background-color:transparent;">\n    |-\n    ').replace(/      [\n\r]+/g, '\n')}` : ''
+    | Required amount || colspan="2" | '''${bonus.requiredAmount}'''
+    |-
+    ${gAncestralStats(bonus.stats)}`
+    }).join('\n  |-\n  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">\n  |-\n  ')}`.replace(/    /g, '  ')
   }
 //  let folder1 = 'ItemDefinition'
 //  if (folder[folder1]) {
@@ -232,7 +229,7 @@ module.exports = (() => {
 //[[Category:Tier ${file[0].tier}]]
 //${file[0].class.length > 0 ? file[0].class.map(c => `[[Category:${c}]]`).join('\n') : ''}
 //{{stub}}
-//      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, YOU should not ADD OR APPEND TEXT ABOVE;GENERATION DATE:${new Date().toUTCString()} -->
+//      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->
 //      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file[0].name}.txt`), template)
 //    })
 //  }
@@ -252,7 +249,7 @@ module.exports = (() => {
         return Number(gStatsData(a.data, 'Tier')) - Number(gStatsData(b.data, 'Tier'))
       }).forEach((item, ind, arr) => {
         count++
-        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : '\n'}${item.alias ? item.alias.replace(/[_]/g, ' ') : `${item.name} ${ind + 1}`}= ` : ''
+        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : '\n'}${item.alias ? item.alias.replace(/[_]/g, ' ') : `${item.name} ${ind + 1}`}=` : ''
         template += `{{Enemy
         |title = ${item.name}
         ${gImageOriginalData(item.data) ? '' : `|image = ${item.name}.png`}
@@ -284,7 +281,7 @@ ${(file[0].element && file[0].element !== 'None' && file[0].element !== 'All') ?
 ${file[0].isBoss ? '[[Category:Boss]]' : ''}
 ${file[0].isElite ? '[[Category:Elite]]' : ''}
 ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\r?\n+|\r+/g, '\n').trim()
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, YOU should not ADD OR APPEND TEXT ABOVE;GENERATION DATE:${new Date().toUTCString()} -->`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder2, `${file[0].name}.txt`), template)
     })
@@ -303,13 +300,13 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
         return a.lootTable.length - b.lootTable.length
       }).forEach((item, ind, arr) => {
         count++
-        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : ''}${item.from} ${ind + 1}= ` : ''
+        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : ''}${item.from} ${ind + 1}=` : ''
         template += `${gLoot(item)}`
         template += count > 0 ? `\n|-|` : ''
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
       template += `\n{{Special:Whatlinkshere/Loot table/${file[0].from}}}\n[[Category:Loot table]]`.replace(/\r?\n+|\r+/g, '\n').trim()
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, YOU should not ADD OR APPEND TEXT ABOVE;GENERATION DATE:${new Date().toUTCString()} -->`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder3, `${file[0].from}.txt`), template)
     })
@@ -321,6 +318,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4))
     }
     fs.readdirSync(folder[folder4]).forEach((val, ind) => {
+      if (val === 'Set bonuses') return
       var file = require(path.join(folder[folder4], val))
       var template = `{{stub}}\n\n`
       var count = 0
@@ -328,40 +326,40 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
         return Number(a.alias.replace(/[^0-9]+/g, '')) - Number(b.alias.replace(/[^0-9]+/g, ''))
       }).forEach((item, ind, arr) => {
         count++
-        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : ''}${item.alias}${item.rarity ? ` (${item.rarity})` : ''} = ` : ''
-        template += `{| style="float:right;"
+        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : ''}${item.alias}${item.rarity ? ` (${item.rarity})` : ''}=` : ''
+        template += `${item.ordinaries && item.ordinaries.length > 0 ? `{| style="float:right;"
         |-
         | {{Ancestral Legacy
           | name = ${item.name}
-          | description = ${item.description ? item.description.replace('#%', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 1)).toFixed(2))}%` : '#%') : ''}
+          | description = ${item.description ? item.description.replace('#', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 1)).toFixed(2))}` : '#') : ''}
           | level = 1
           | rarity = ${item.rarity.toLowerCase()}
           ${(item.ordinaries && item.ordinaries.length > 0) ? item.ordinaries.map((o, ind) => {
             return `| ordinary${ind + 1} = ${o.sprite.name}`
           }).join('\n          ') : ''}
           ${(item.sets && item.sets.length > 0) ? item.sets.map((o, ind) => {
-            return `| set${ind + 1} = ${o.sprite.name}`
+            return `| set${ind + 1} = ${o.sprite}`
           }).join('\n          ') : ''}
           }}
         |-
         | {{Ancestral Legacy
           | name = ${item.name}
-          | description = ${item.description ? item.description.replace('#%', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 50)).toFixed(2))}%` : '#%') : ''}
+          | description = ${item.description ? item.description.replace('#', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 50)).toFixed(2))}` : '#') : ''}
           | level = 50
           | rarity = ${item.rarity.toLowerCase()}
           ${(item.ordinaries && item.ordinaries.length > 0) ? item.ordinaries.map((o, ind) => {
             return `| ordinary${ind + 1} = ${o.sprite.name}`
           }).join('\n          ') : ''}
           ${(item.sets && item.sets.length > 0) ? item.sets.map((o, ind) => {
-            return `| set${ind + 1} = ${o.sprite.name}`
+            return `| set${ind + 1} = ${o.sprite}`
           }).join('\n          ') : ''}
           }}
-        |}
+        |}` : ''}
         {| class="wikitable mw-collapsible"
           |-
-          ! colspan="3" | ${item.name}
+          ! colspan="3" | ${item.name === 'Deprecated' ? item.alias : item.name}
           |-
-          | Available || colspan="2" | ${!item.doNotAward ? 'Yes' : 'No'}
+          | Available || colspan="2" | ${item.doNotAward ? 'No' : 'Yes'}
           |-
           | Rarity || colspan="2" | ${item.rarity}
           |-
@@ -369,21 +367,55 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
           |-
           ${gAncestralStats(item.stats)}
         |}
-        {| class="wikitable mw-collapsible mw-collapsed"
+        ${gAncestralProcData(item.data) ? `{| class="wikitable mw-collapsible mw-collapsed"
           |-
           ${gAncestralProcData(item.data)}
-        |}
-        {| class="wikitable mw-collapsible mw-collapsed"
+        |}` : ''}
+        ${item.sets ? `{| class="wikitable"
           |-
-          ${gAncestralSetsData(item.sets)}
-        |}`.replace(/\r?\n+|\r+/g, '\n').replace(/        /g, '  ').trim()
+          ! Sets
+          |-
+          ${item.sets.map(v => {
+            return `| [[File:${v.sprite}.png]] [[Ancestral_Legacy/Set Bonus#${v.alias.replace(/[ ]+/g,'_')}|${v.alias}]]`
+          }).join('\n          |-\n    ')}
+        |}` : ''}`.replace(/\r?\n+|\r+/g, '\n').replace(/        /g, '  ').replace(/  \n/g, '').trim()
         template += count > 0 ? `\n|-|\n` : ''
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
       template += `\n[[Category:Ancestral Legacy]]`.replace(/\r?\n+|\r+/g, '\n').trim()
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, YOU should not ADD OR APPEND TEXT ABOVE;GENERATION DATE:${new Date().toUTCString()} -->`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4, `${file[0].name}.txt`), template)
     })
+  }
+  // Set bonuses
+  /*
+    {| class="wikitable mw-collapsible mw-collapsed"
+      |-
+      ${gAncestralSetsData(item.sets)}
+    |}
+  */
+  var folder5 = 'Ancestral/Set bonuses'
+  if (folder[folder5]) {
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder5))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder5))
+    }
+    var template = `{{stub}}\n\n`
+    template += `<div class="tabbertab-borderless"><tabber>\n`
+    fs.readdirSync(folder[folder5]).forEach((val, ind) => {
+      if (val === 'Set bonuses') return
+      var file = require(path.join(folder[folder5], val))
+      template += `${file.alias.replace(/[ ]+/g, '_')}= {| class="wikitable mw-collapsible"
+       |-
+       ${gAncestralSetsData(file)}
+      |}
+      |-|\n`.replace(/      /g, ' ')
+    })
+    template += `\n</tabber></div>\n`
+    template += `\n[[Category:Ancestral Legacy]]`
+    template += `\n[[Category:Ancestral Legacy Set Bonus]]`
+    template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
+    template = template.replace(/\r?\n+|\r+/g, '\n').trim()
+    fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder5, `Set Bonus.txt`), template)
   }
 })()

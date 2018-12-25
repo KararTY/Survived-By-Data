@@ -706,6 +706,7 @@ module.exports = () => {
         name: translate[file['0 MonoBehaviour Base']['1 string displayName']] || file['0 MonoBehaviour Base']['1 string displayName'].replace(/[\/?<>\\:*|"]/g, ''),
         alias: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         description: translate[file['0 MonoBehaviour Base']['1 string benefitDescription']],
+        doNotAward: file['0 MonoBehaviour Base']['1 UInt8 DoNotAward'] > 0 ? true : false,
         data: file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID']
           ? require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
             if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) return undefined
@@ -777,7 +778,6 @@ module.exports = () => {
           else if (e !== 'None' && hasFlag(file['0 MonoBehaviour Base']['0 int validArchetypes'], classEnum[e])) return e
           else return undefined
         }).filter(Boolean),
-        doNotAward: !!file['0 MonoBehaviour Base']['0 int DoNotAward'],
         rarity: Object.keys(ancestralRarityEnum).map(e => {
           if (ancestralRarityEnum[e] === file['0 MonoBehaviour Base']['0 int rarity']) return e
           else return undefined
@@ -825,8 +825,9 @@ module.exports = () => {
             if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 PPtr<$AncestralSet> data']['0 int m_FileID']) + v['0 PPtr<$AncestralSet> data']['0 SInt64 m_PathID'] + '.json'))) return undefined
             var f = require(path.join(folder['Other'], fileMap(v['0 PPtr<$AncestralSet> data']['0 int m_FileID']) + v['0 PPtr<$AncestralSet> data']['0 SInt64 m_PathID'] + '.json'))
             if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array setBonuses']) {
-              return {
-                name: translate[f['0 MonoBehaviour Base']['1 string setName']],
+              var filename = path.join(__dirname, 'Patches', patchDate, folderName4, 'Set bonuses', `${translate[f['0 MonoBehaviour Base']['1 string setName']] || f['0 MonoBehaviour Base']['1 string setName']}.json`)
+              var setBonus = {
+                name: translate[f['0 MonoBehaviour Base']['1 string setName']] || f['0 MonoBehaviour Base']['1 string setName'],
                 alias: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
                 setBonuses: f['0 MonoBehaviour Base']['0 Array setBonuses'].length > 0
                   ? f['0 MonoBehaviour Base']['0 Array setBonuses'].map(v => {
@@ -872,6 +873,15 @@ module.exports = () => {
                     }
                   } else return undefined
                 })()
+              }
+              if (!fs.existsSync(path.join(__dirname, 'Patches', patchDate, folderName4, 'Set bonuses'))) fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName4, 'Set bonuses'))
+              if (!fs.existsSync(filename)) {
+                fs.writeFileSync(filename, JSON.stringify(setBonus))
+              }
+              return {
+                name: setBonus.name,
+                alias: setBonus.alias,
+                sprite: setBonus.sprite ? setBonus.sprite.name : undefined
               }
             } else return undefined
           }).filter(Boolean)
