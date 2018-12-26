@@ -915,8 +915,11 @@ module.exports = () => {
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName5]).forEach(val => {
       var file = require(path.join(folder[folderName5], val))
+      var gameObject = require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
       var craftingRecipe = {
-        name: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
+        name: gameObject['1 string m_Name'].split('_').pop(),
+        interpretedType: gameObject['1 string m_Name'].split('_')[1],
+        actualName: gameObject['1 string m_Name'],
         craftingTime: parseFloat(file['0 MonoBehaviour Base']['0 float CraftingTime'].toFixed(2)),
         leveledRecipes: file['0 MonoBehaviour Base']['0 Array LeveledRecipes'].map(v => {
           return {
@@ -989,6 +992,19 @@ module.exports = () => {
               var f = require(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
               if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']) {
                 return {
+                  craftingRecipe: (function () {
+                    var g = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))
+                    var craftingRecipe
+                    for (let i = 0; i < g['0 GameObject Base']['0 vector m_Component']['0 Array Array'].length; i++) {
+                      var v = g['0 GameObject Base']['0 vector m_Component']['0 Array Array'][i]
+                      if (!fs.existsSync(path.join(folder['CraftingRecipe'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) continue
+                      var cr = require(path.join(folder['CraftingRecipe'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
+                      if (cr['0 MonoBehaviour Base']['0 Array LeveledRecipes']) {
+                        craftingRecipe = g['0 GameObject Base']['1 string m_Name'].split('_').pop()
+                      }
+                    }
+                    return craftingRecipe
+                  })(),
                   nameMod: f['0 MonoBehaviour Base']['1 string nameMod'].length > 0 ? translate[f['0 MonoBehaviour Base']['1 string nameMod']] || f['0 MonoBehaviour Base']['1 string nameMod'] : undefined,
                   equipmentSet: f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID']
                     ? (function () {
