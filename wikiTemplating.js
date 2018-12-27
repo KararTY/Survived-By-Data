@@ -34,7 +34,7 @@ module.exports = (() => {
   }
 
   function gData(data, name) {
-    return data.find(v => v[name]) ? data.find(v => v[name])[name] : ''
+    return data.find(v => v[name] || typeof v[name] === 'number') ? data.find(v => v[name] || typeof v[name] === 'number')[name] : ''
   }
 
   function gStatsData(data, stat, icon) {
@@ -53,8 +53,8 @@ module.exports = (() => {
   function gWeapons(weapons) {
     return (weapons && weapons.length > 0) ? weapons.map((v, ind) => {
       var weaponData = (name) => v.data.find(v => v[name])[name]
-      return `${ind > 0 ? `    ''` : `''`}
-    {{{!}}class="wikitable" style="text-align:left;width:100%!important"
+      return `${ind > 0 ? `` : `''`}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
     {{!}} ${v.data.find(v => v.sprite) ? `'''${weaponData('projectile').name.replace(/[_]/g, ' ')}''' {{!!}} <center>${gImageOriginalData(v.data)}</center>
     ` : `colspan="2" {{!}}'''${weaponData('projectile').name.replace(/[_]/g, ' ')}'''`}
@@ -102,18 +102,8 @@ module.exports = (() => {
 
   function gLootData(data) {
     var gld = data.find(v => v.loot) ? data.find(v => v.loot).loot : ''
-    if (gld && gld.lootTable) {
-      data.find(v => v.loot).loot.lootTable = data.find(v => v.loot).loot.lootTable.sort((a, b) => {
-        return b.chance - a.chance
-      })
-    }
-    return `${gld.inheritedLootTable ? `'''Inheriting:''' [[Loot table/${gld.inheritedLootTable.name}|${gld.inheritedLootTable.name}]]` : ''}
-    ${gld.questLootTable ? `'''Quest loot table:''' [[Loot table/${gld.questLootTable.name}|${gld.questLootTable.name}]]<br>\n` : ''}
-    ${gld.guaranteeItemCount ? `Guaranteed drop amount: ${gld.guaranteeItemCount}<br>` : ''}${gld.maximumItemCount ? `Maximum drop amount: ${gld.maximumItemCount}` : ''}
-    ${gld ? `${(gld.lootTable && gld.lootTable.length > 0) ? `
-    {{{!}} style="width:100%!important"
-    {{!}}-
-    ${gld.lootTable.map(v => `{{!}} x${v.count.add} {{!}}{{!}} {{Icon|${v.item}}} {{!}}{{!}} ${v.chance}%`).join('\n    {{!}}-\n    ')}\n    {{!}}}` : ''}` : ''}`.replace(/Ã¤/g, 'ä').replace(/    [\n\r]+/g, '\n')
+    if (!gld) return
+    return `${gld.inheritedLootTable ? `'''Inheriting:''' [[Loot table/${gld.inheritedLootTable.name}|${gld.inheritedLootTable.name}]]<br>` : ''}${gld.questLootTable ? `'''Quest loot table:''' [[Loot table/${gld.questLootTable.name}|${gld.questLootTable.name}]]<br>\n` : ''}'''Loot table:''' [[Loot table/${gld.lootTable.name}|${gld.lootTable.name.replace(/[_]+/g, ' ')}]]`.replace(/Ã¤/g, 'ä').replace(/    [\n\r]+/g, '\n')
   }
 
   function gLoot(data) {
@@ -165,6 +155,25 @@ module.exports = (() => {
     ! Key !! Equation !! Value
     |-
     ${gas.map(stat => {
+      return `| ${stat.key} || ${stat.equation} || ${stat.value > 0 ? stat.value : ''}`
+    }).join('\n          |-\n    ')}`.replace(/      [\n\r]+/g, '\n') : ''
+  }
+
+  function gItemModifierStats(stats, item) {
+    var gims = stats.length > 0 ? stats : ''
+    return gims ? `! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    ${gims.sort((a, b) => {
+      return !!a.equation.includes('[$Tier]') - !!b.equation.includes('[$Tier]')
+    }).map((stat, ind, arr) => {
+      if (stat.equation.includes('[$Tier]')) {
+        var statEquationSign = stat.equation.replace(`[${stat.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+        var statEquation = stat.equation.replace('[$Tier]', arr.find(v => v.key === 'Tier').equation).replace(`[${stat.key}]`, '').replace(/[ ]+/g, '').substr(1)
+        console.log(statEquationSign, statEquation)
+        return `| ${stat.key} || ${stat.equation}<br>('''Min:''' ${statEquationSign === '-' ? '<strong style="color:red;">-' : '<strong style="color:green;">+'}${eval(statEquation.replace('[ItemInstance.Suffix_Level]', gData(item.data, 'minTier')))}${/*statEquation.includes('*') ? '%' :*/ ''}</strong> '''Max:''' ${statEquationSign === '-' ? '<strong style="color:red;">-' : '<strong style="color:green;">+'}${eval(statEquation.replace('[ItemInstance.Suffix_Level]', 10))}${/*statEquation.includes('*') ? '%' :*/ ''}</strong>) || ${stat.value > 0 ? stat.value : ''}`
+      }
       return `| ${stat.key} || ${stat.equation} || ${stat.value > 0 ? stat.value : ''}`
     }).join('\n          |-\n    ')}`.replace(/      [\n\r]+/g, '\n') : ''
   }
@@ -388,13 +397,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4, `${file[0].name}.txt`), template)
     })
   }
-  // Set bonuses
-  /*
-    {| class="wikitable mw-collapsible mw-collapsed"
-      |-
-      ${gAncestralSetsData(item.sets)}
-    |}
-  */
+
   var folder5 = 'Ancestral/Set bonuses'
   if (folder[folder5]) {
     if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder5))) {
@@ -417,5 +420,81 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
     template = template.replace(/\r?\n+|\r+/g, '\n').trim()
     fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder5, `Set Bonus.txt`), template)
+  }
+
+  var folder6 = 'ItemModifier'
+  if (folder[folder6]) {
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder6))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder6))
+    }
+    fs.readdirSync(folder[folder6]).forEach((val, ind) => {
+      var itemModifier = require(path.join(folder[folder6], val))
+      var craftingRecipe = itemModifier[0].data.find(v => v.craftingRecipe) ? require(path.join(__dirname, 'Patches', patchDate, 'CraftingRecipe', itemModifier[0].data.find(v => v.craftingRecipe).craftingRecipe.name)) : undefined
+      var template = `{{stub}}\n\n`
+      template += `\n`
+      itemModifier.forEach(item => {
+        template += `
+          {| class="wikitable"
+          ! colspan="3" | ${item.alias}
+          |-
+          ${gData(item.data, 'minTier') ? `| Min tier || colspan="2" | ${gData(item.data, 'minTier')}\n          |-\n` : ''}
+          | colspan="3" style="text-align:center;" | <i>${item.description || '(No description set.)'}</i>
+          |-
+          | Category || colspan="2" | ${item.category}
+          |-
+          ${gData(item.data, 'nameMod') ? `| Name modification || colspan="2" | ${gData(item.data, 'nameMod').replace(/\{0\}/g, '…')}\n          |-\n` : ''}
+          ${gData(item.data, 'chanceToApply') ? `| Chance to apply || colspan="2" | ${gData(item.data, 'chanceToApply')}%\n          |-\n` : ''}
+          ${gData(item.data, 'expireTime') ? `| Expiration time || colspan="2" | ${gData(item.data, 'expireTime')}\n          |-\n` : ''}
+          ${craftingRecipe ? (function () {
+            var cr = craftingRecipe[0]
+            return `| colspan="3" style="padding:0;" |
+          {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+            ! Crafting
+            |-
+            | colspan="3" style="padding:0;" |
+            ${cr.leveledRecipes.map(v => {
+                return `{| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+                    ! colspan="2" | '''Level:''' ${v.level}
+                    |-
+                    | Crafting cost || ${v.craftCost}
+                    |-
+                    | Craft now cost || ${v.craftNowCost} {{Icon|Electrum}} 
+                    |-
+                    | Crafting time || ${moment.duration(v.craftingTime, 'seconds').format("h [hours], m [minutes], s [seconds]", { trim: 'both' })}
+                    |-
+                    ! colspan="2" | Required items
+                    |-
+                    | colspan="2" | ${v.requiredItems.map(i => `x${i.count} {{Icon|${i.name}}} ${i.requiredLevel ? `<small>Required level: ${i.requiredLevel}</small>` : ''}`).join('<br>')}
+                  |}`.replace(/              /g, '')
+              }).join('\n    ')}
+          |}`})() : ''}
+          |}
+          ${item.data.filter(v => v['validClasses']).sort((a, b) => {
+            return a.validClasses.length - b.validClasses.length
+          }).sort((a, b) => {
+            var typeA = a.type[0].toLowerCase()
+            var typeB = b.type[0].toLowerCase()
+            if (typeA > typeB) return 1
+            else if (typeA < typeB) return -1
+            else return 0 
+          }).map(v => {
+            return `{| class="wikitable mw-collapsible mw-collapsed"
+          ! colspan="3" | ${v.type.join(', ')} ${v.validClasses.map(c => `{{Icon|${c}|nolink=1}}`).join(' ')}
+          |-
+          ${/*v.validClasses ? `| colspan="3" style="padding:0;" |
+          {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+            ! Valid classes
+            |-
+            | ${v.validClasses.map(c => `{{Icon|${c}}}`).join('<br>')}
+          |}\n          |-\n` :*/ ''}
+          ${gItemModifierStats(v.stats, item).replace(/      /g , '').replace(/    /g, '  ')}
+          |}`
+          }).join('\n          ')}`.replace(/        /g, '').replace(/  \n/g, '\n')
+      })
+      template += `\n[[Category:Imprint]]`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
+      template = template.replace(/\r?\n+|\r+/g, '\n').trim()
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder6, itemModifier[0].alias), template)
+    })
   }
 })()

@@ -478,39 +478,37 @@ module.exports = () => {
             if (f['0 MonoBehaviour Base'] && (f['0 MonoBehaviour Base']['0 Array lootTable'].length > 0 || f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0)) {
               return {
                 loot: {
-                  inheritedLootTable: f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0
-                    ? (function () {
-                      var lootTable = require(path.join(folder['LootTable'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))
-                      return {
-                        name: require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
-                      }
-                    })()
-                    : undefined,
-                  ...f['0 MonoBehaviour Base']['0 Array lootTable'].length > 0 ? {
-                    guaranteeItemCount: f['0 MonoBehaviour Base']['0 int guaranteeItemCount'],
-                    maximumItemCount: f['0 MonoBehaviour Base']['0 int maximumItemCount'],
-                    lootTable: f['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
-                      return {
-                        item: translate[require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name']] || require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name'],
-                        count: {
-                          dice: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int dice'],
-                          faces: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int faces'],
-                          add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
-                        },
-                        chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
-                        allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
-                      }
-                    })
-                  }
-                    : undefined,
-                  questLootTable: f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger'] && f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] > 0
-                    ? (function () {
-                      var lootTable = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
-                      return {
-                        name: lootTable['1 string m_Name']
-                      }
-                    })()
-                    : undefined
+                  inheritedLootTable: f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0 ? (function () {
+                    var lootTable = require(path.join(folder['LootTable'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))
+                    return {
+                      name: require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+                    }
+                  })() : undefined,
+                  lootTable: {
+                    name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+                  },
+                  // ...f['0 MonoBehaviour Base']['0 Array lootTable'].length > 0 ? {
+                  // guaranteeItemCount: f['0 MonoBehaviour Base']['0 int guaranteeItemCount'],
+                  // maximumItemCount: f['0 MonoBehaviour Base']['0 int maximumItemCount'],
+                  // lootTable: f['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
+                  //   return {
+                  //     item: translate[require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name']] || require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name'],
+                  //     count: {
+                  //       dice: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int dice'],
+                  //       faces: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int faces'],
+                  //       add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
+                  //     },
+                  //     chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
+                  //     allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
+                  //   }
+                  // })
+                  // } : undefined,
+                  questLootTable: f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger'] && f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] > 0 ? (function () {
+                    var lootTable = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
+                    return {
+                      name: lootTable['1 string m_Name']
+                    }
+                  })() : undefined
                 }
               }
             }
@@ -986,77 +984,84 @@ module.exports = () => {
         }).filter(Boolean).join(''),
         data: (function () {
           if (file['0 MonoBehaviour Base']['0 Array availableModifiers'].length < 1) return undefined
-          var f = require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 Array availableModifiers'][0]['0 PPtr<$GameObject> data']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 Array availableModifiers'][0]['0 PPtr<$GameObject> data']['0 SInt64 m_PathID'] + '.json'))
-          return f['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
-            if (fs.existsSync(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) {
-              var f = require(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
-              if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']) {
-                return {
-                  craftingRecipe: (function () {
-                    var g = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))
-                    var craftingRecipe
-                    for (let i = 0; i < g['0 GameObject Base']['0 vector m_Component']['0 Array Array'].length; i++) {
-                      var v = g['0 GameObject Base']['0 vector m_Component']['0 Array Array'][i]
-                      if (!fs.existsSync(path.join(folder['CraftingRecipe'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) continue
-                      var cr = require(path.join(folder['CraftingRecipe'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
-                      if (cr['0 MonoBehaviour Base']['0 Array LeveledRecipes']) {
-                        craftingRecipe = g['0 GameObject Base']['1 string m_Name'].split('_').pop()
+          var dataObj = []
+          for (let i = 0; i < file['0 MonoBehaviour Base']['0 Array availableModifiers'].length; i++) {
+            var f = require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 Array availableModifiers'][i]['0 PPtr<$GameObject> data']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 Array availableModifiers'][i]['0 PPtr<$GameObject> data']['0 SInt64 m_PathID'] + '.json'))
+            f['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
+              if (fs.existsSync(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) {
+                var f = require(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
+                if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']) {
+                  if (i === 0) dataObj.push({
+                    nameMod: f['0 MonoBehaviour Base']['1 string nameMod'].length > 0 ? translate[f['0 MonoBehaviour Base']['1 string nameMod']] || f['0 MonoBehaviour Base']['1 string nameMod'] : undefined,
+                    expireTime: parseFloat(f['0 MonoBehaviour Base']['0 float expireTime'].toFixed(2)),
+                    chanceToApply: parseFloat(f['0 MonoBehaviour Base']['0 float chanceToApply'].toFixed(2)),
+                    minTier: f['0 MonoBehaviour Base']['0 int minTier'],
+                    maxTier: f['0 MonoBehaviour Base']['0 int maxTier']
+                  })
+                  return dataObj.push({
+                    craftingRecipe: (function () {
+                      var g = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))
+                      var craftingRecipe
+                      for (let i = 0; i < g['0 GameObject Base']['0 vector m_Component']['0 Array Array'].length; i++) {
+                        var v = g['0 GameObject Base']['0 vector m_Component']['0 Array Array'][i]
+                        if (!fs.existsSync(path.join(folder['CraftingRecipe'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) continue
+                        var cr = require(path.join(folder['CraftingRecipe'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
+                        if (cr['0 MonoBehaviour Base']['0 Array LeveledRecipes']) {
+                          craftingRecipe = {}
+                          craftingRecipe.name = g['0 GameObject Base']['1 string m_Name'].split('_').pop()
+                          craftingRecipe.interpretedType = g['0 GameObject Base']['1 string m_Name'].split('_')[1]
+                        }
                       }
-                    }
-                    return craftingRecipe
-                  })(),
-                  nameMod: f['0 MonoBehaviour Base']['1 string nameMod'].length > 0 ? translate[f['0 MonoBehaviour Base']['1 string nameMod']] || f['0 MonoBehaviour Base']['1 string nameMod'] : undefined,
-                  equipmentSet: f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID']
-                    ? (function () {
-                      var e = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID'] + '.json'))
+                      return craftingRecipe
+                    })(),
+                    equipmentSet: f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID']
+                      ? (function () {
+                        var e = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID'] + '.json'))
+                        return {
+                          name: require(path.join(folder['Other'], fileMap(e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
+                          description: e['0 MonoBehaviour Base']['1 string Description'],
+                          minimumRequiredAmount: e['0 MonoBehaviour Base']['0 int minimumNumberOfItemsToEnable'],
+                          stats: e['0 MonoBehaviour Base']['0 Array stat'].map(v => {
+                            return {
+                              key: Object.keys(statEnum).map(e => {
+                                if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
+                                else return undefined
+                              }).filter(Boolean).join(''),
+                              equation: v['0 Deity.Shared.Stat data']['1 string equation'],
+                              value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
+                            }
+                          })
+                        }
+                      })()
+                      : undefined,
+                    validClasses: Object.keys(classEnum).map(e => {
+                      if (e !== 'None' && classEnum[e] === f['0 MonoBehaviour Base']['0 int validEquipMask']) return e
+                      else if (e !== 'None' && hasFlag(f['0 MonoBehaviour Base']['0 int validEquipMask'], classEnum[e])) return e
+                      else return undefined
+                    }).filter(Boolean),
+                    type: Object.keys(itemClassEnum).map(e => {
+                      if (e !== 'None' && itemClassEnum[e] === f['0 MonoBehaviour Base']['0 int validClasses']) return e
+                      else if (e !== 'None' && hasFlag(f['0 MonoBehaviour Base']['0 int validClasses'], itemClassEnum[e])) return e
+                      else return undefined
+                    }).filter(Boolean),
+                    stats: f['0 MonoBehaviour Base']['0 Array stat'].length > 0 ? f['0 MonoBehaviour Base']['0 Array stat'].map(v => {
                       return {
-                        name: require(path.join(folder['Other'], fileMap(e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-                        description: e['0 MonoBehaviour Base']['1 string Description'],
-                        minimumRequiredAmount: e['0 MonoBehaviour Base']['0 int minimumNumberOfItemsToEnable'],
-                        stats: e['0 MonoBehaviour Base']['0 Array stat'].map(v => {
-                          return {
-                            key: Object.keys(statEnum).map(e => {
-                              if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
-                              else return undefined
-                            }).filter(Boolean).join(''),
-                            equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-                            value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
-                          }
-                        })
+                        key: Object.keys(statEnum).map(e => {
+                          if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
+                          else return undefined
+                        }).filter(Boolean).join(''),
+                        equation: v['0 Deity.Shared.Stat data']['1 string equation'],
+                        value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
                       }
-                    })()
-                    : undefined,
-                  expireTime: parseFloat(f['0 MonoBehaviour Base']['0 float expireTime'].toFixed(2)),
-                  validClasses: Object.keys(classEnum).map(e => {
-                    if (e !== 'None' && classEnum[e] === f['0 MonoBehaviour Base']['0 int validEquipMask']) return e
-                    else if (e !== 'None' && hasFlag(f['0 MonoBehaviour Base']['0 int validEquipMask'], classEnum[e])) return e
-                    else return undefined
-                  }).filter(Boolean),
-                  type: Object.keys(itemClassEnum).map(e => {
-                    if (e !== 'None' && itemClassEnum[e] === f['0 MonoBehaviour Base']['0 int validClasses']) return e
-                    else if (e !== 'None' && hasFlag(f['0 MonoBehaviour Base']['0 int validClasses'], itemClassEnum[e])) return e
-                    else return undefined
-                  }).filter(Boolean),
-                  minTier: f['0 MonoBehaviour Base']['0 int minTier'],
-                  maxTier: f['0 MonoBehaviour Base']['0 int maxTier'],
-                  chanceToApply: parseFloat(f['0 MonoBehaviour Base']['0 float chanceToApply'].toFixed(2)),
-                  stats: f['0 MonoBehaviour Base']['0 Array stat'].length > 0 ? f['0 MonoBehaviour Base']['0 Array stat'].map(v => {
-                    return {
-                      key: Object.keys(statEnum).map(e => {
-                        if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
-                        else return undefined
-                      }).filter(Boolean).join(''),
-                      equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-                      value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
-                    }
-                  }) : undefined
-                }
+                    }) : undefined
+                  })
+                } else return undefined
               } else return undefined
-            } else return undefined
-          }).filter(Boolean)
+            }).filter(Boolean)
+          }
+          return dataObj
         })()
       }
-
       var arr = require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array']
       for (let i = 0; i < arr.length; i++) {
         const v = arr[i]
