@@ -39,11 +39,23 @@ module.exports = (() => {
 
   function gStatsData(data, stat, icon) {
     var gsd = data.find(v => v.stats) ? data.find(v => v.stats).stats.find(v => v.key === stat) : ''
+    var calculated 
+    if (gsd && gsd.equation.includes('[$Tier]')) {
+      var arr = data.find(v => v.stats).stats
+      var statEquationSign = gsd.equation.replace(`[${gsd.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+      var statEquation = gsd.equation.replace(/\[\$Tier\]/g, `(${arr.find(v => v.key === 'Tier').equation})`).replace(`[${gsd.key}]`, '').replace(/[ ]+/g, '')
+      calculated = `${/*statEquationSign*/ ''}${parseFloat(eval(statEquation.replace(`[${gsd.key}]`, gsd.value)).toFixed(2))}${/*statEquation.includes('*') ? '%' :*/ ''}<br><small>${gsd.equation.replace(`[${gsd.key}]`, '').replace(`[$${gsd.key}]`, '').replace(/\*/g, 'x')}</small>`
+    } else if (gsd && gsd.equation.includes('[Level]')) {
+      var arr = data.find(v => v.stats).stats
+      var statEquationSign = gsd.equation.replace(/\[Level\]/g, '').replace(/[ ]+/g, '').substr(0, 1)
+      var statEquation = gsd.equation.replace(/\[Level\]/g, `${arr.find(v => v.key === 'Level').value}`).replace(`[${gsd.key}]`, '').replace(/[ ]+/g, '')
+      calculated = `${/*statEquationSign*/ ''}${parseFloat(eval(statEquation.replace(`[${gsd.key}]`, gsd.value)).toFixed(2))}${/*statEquation.includes('*') ? '%' :*/ ''}<br><small>${gsd.equation.replace(`[${gsd.key}]`, '').replace(`[$${gsd.key}]`, '').replace(/\*/g, 'x')}</small>`
+    }
     return gsd
     ? (gsd.equation
-      ? (`${icon ? `{{Icon|${icon}|nolink=1}} ` : ''}${gsd.equation}${gsd.value > 0
+      ? (`${icon ? `{{Icon|${icon}|nolink=1}} ` : ''}${calculated ? `${calculated}`: `${gsd.equation}${gsd.value > 0
         ? (`<br>'''${gsd.value}'''`)
-        : ''}`)
+        : ''}`}`)
       : `${gsd.value > 0
         ? (`${icon ? `{{Icon|${icon}|nolink=1}} ` : ''}${gsd.value}`)
         : ''}`)
@@ -73,7 +85,7 @@ module.exports = (() => {
     {{!}}-
     {{!}} Use random range {{!!}} Yes
     {{!}}-
-    {{!}} Random range max {{!!}} ${weaponData('projectile').randomRangeMax}` : ''}
+    ${weaponData('projectile').randomRangeMax ? `{{!}} Random range max {{!!}} ${weaponData('projectile').randomRangeMax}` : ''}` : ''}
     {{!}}-
     {{!}} Range {{!!}} ${weaponData('projectile').range}
     {{!}}-
@@ -94,7 +106,42 @@ module.exports = (() => {
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    ${weaponData('projectile').statusEffect.stats.map(v => (v.equation || v.value) ? `{{!}} ${v.key} {{!!}} ${v.equation}${v.value ? ` '''${v.value}'''` : ''}` : '').filter(Boolean).join(`
+    ${weaponData('projectile').statusEffect.stats.map(v => {
+      var equation
+      if (v.equation.includes(`[${v.key}]`) && v.value) equation = parseFloat(eval(v.equation.replace(`[${v.key}]`, v.value)).toFixed(2))
+      else if (v.key === 'DamageReduction') {
+        var statEquation = v.equation.replace('[DamageReduction]', '')
+        var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+        var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+        equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Damage ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+      } else if (v.key === 'RateOfAttack') {
+        var statEquation = v.equation.replace('[RateOfAttack]', '')
+        var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+        var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+        equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Rate of attack ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+      } else if (v.key === 'MovementSpeed') {
+        var statEquation = v.equation.replace('[MovementSpeed]', '')
+        var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+        var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+        equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Movement speed ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+      } else if (v.key === 'CriticalChance') {
+        var statEquation = v.equation.replace('[CriticalChance]', '')
+        var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+        var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+        equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Critical chance ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+      } else if (v.key === 'RagePerAttack') {
+        var statEquation = v.equation.replace('[RagePerAttack]', '')
+        var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+        var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+        equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Rage per attack ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+      } else if (v.key === 'HealthRegen') {
+        var statEquation = v.equation.replace('[HealthRegen]', '')
+        var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+        var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+        equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Health regeneration ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+      }
+      return (v.equation || v.value) ? `{{!}} ${v.key} {{!!}} ${equation ? `${equation}<br><small>${v.equation}${v.value ? ` '''${v.value}'''` : ''}</small>` : `${v.equation}${v.value ? ` '''${v.value}'''` : ''}`}` : ''
+    }).filter(Boolean).join(`
     {{!}}-
     `)}` : ''}
     {{!}}}`}).join('\n').replace(/    [\n\r]+/g, '\n') : ''
@@ -103,14 +150,14 @@ module.exports = (() => {
   function gLootData(data) {
     var gld = data.find(v => v.loot) ? data.find(v => v.loot).loot : ''
     if (!gld) return
-    return `${gld.inheritedLootTable ? `'''Inheriting:''' [[Loot table/${gld.inheritedLootTable.name}|${gld.inheritedLootTable.name}]]<br>` : ''}${gld.questLootTable ? `'''Quest loot table:''' [[Loot table/${gld.questLootTable.name}|${gld.questLootTable.name}]]<br>\n` : ''}'''Loot table:''' [[Loot table/${gld.lootTable.name}|${gld.lootTable.name.replace(/[_]+/g, ' ')}]]`.replace(/Ã¤/g, 'ä').replace(/    [\n\r]+/g, '\n')
+    return `${gld.lootTable && gld.lootTable.name ? `{{:Loot table/${gld.lootTable.name}}}` : gld.inheritedLootTable ? `'''Inheriting: ([[Loot table/${gld.inheritedLootTable.name}|${gld.inheritedLootTable.name}]])'''{{:Loot table/${gld.inheritedLootTable.name}}}` : ''}`.replace(/Ã¤/g, 'ä').replace(/    [\n\r]+/g, '\n')
   }
 
   function gLoot(data) {
     var gld = data.lootTable.length > 0 ? data.lootTable.sort((a, b) => {
       return b.chance - a.chance
     }) : ''
-    return `${data.reference ? `'''Inheriting:''' [[Loot table/${data.reference}|${data.reference}]]<br>\n` : ''}${data.questLootTable ? `'''Quest loot table:''' [[Loot table/${data.questLootTable.name}|${data.questLootTable.name}]]<br>\n` : ''}${gld ? `${gld.guaranteeItemCount ? `Guaranteed drop amount: ${gld.guaranteeItemCount}<br>\n` : ''}${gld.maximumItemCount ? `Maximum drop amount: ${gld.maximumItemCount}<br>\n` : ''}{|class="wikitable sortable"\n|-\n${gld.map(v => `| x${v.count.add} || {{Icon|${v.item}}} || ${v.chance}% `).join('\n|-\n')}\n|}`.replace(/Ã¤/g, 'ä') : ''}`
+    return `${data.reference ? `{{:Loot table/${data.reference}}}` : ''}${data.questLootTable ? `('''Quest loot table''') ` : ''}${gld ? `'''Loot table: ([[Loot table/${data.from}|${data.from}]])'''\n{|class="sortable"\n|-\n! Amount || Item || Chance\n|-\n${gld.map(v => `| x${v.count.add} || {{Icon|${v.item}}} || style="text-align:right" | ${v.chance}% `).join('\n|-\n')}\n|}\n${gld.guaranteeItemCount ? `Guaranteed drop amount: ${gld.guaranteeItemCount}<br>\n` : ''}${gld.maximumItemCount ? `Maximum drop amount: ${gld.maximumItemCount}` : ''}`.replace(/Ã¤/g, 'ä') : ''}`
   }
 
   function gStats(stats, stat) {
@@ -155,7 +202,7 @@ module.exports = (() => {
     ! Key !! Equation !! Value
     |-
     ${gas.map(stat => {
-      return `| ${stat.key} || ${stat.equation} || ${stat.value > 0 ? stat.value : ''}`
+      return `| ${stat.key} || ${stat.equation.replace(/\*/g, 'x')} || ${stat.value > 0 ? stat.value : ''}`
     }).join('\n          |-\n    ')}`.replace(/      [\n\r]+/g, '\n') : ''
   }
 
@@ -170,11 +217,24 @@ module.exports = (() => {
     }).map((stat, ind, arr) => {
       if (stat.equation.includes('[$Tier]')) {
         var statEquationSign = stat.equation.replace(`[${stat.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
-        var statEquation = stat.equation.replace('[$Tier]', arr.find(v => v.key === 'Tier').equation).replace(`[${stat.key}]`, '').replace(/[ ]+/g, '').substr(1)
-        console.log(statEquationSign, statEquation)
-        return `| ${stat.key} || ${stat.equation}<br>('''Min:''' ${statEquationSign === '-' ? '<strong style="color:red;">-' : '<strong style="color:green;">+'}${eval(statEquation.replace('[ItemInstance.Suffix_Level]', gData(item.data, 'minTier')))}${/*statEquation.includes('*') ? '%' :*/ ''}</strong> '''Max:''' ${statEquationSign === '-' ? '<strong style="color:red;">-' : '<strong style="color:green;">+'}${eval(statEquation.replace('[ItemInstance.Suffix_Level]', 10))}${/*statEquation.includes('*') ? '%' :*/ ''}</strong>) || ${stat.value > 0 ? stat.value : ''}`
+        var statEquation = stat.equation.replace('[$Tier]', `(${arr.find(v => v.key === 'Tier').equation})`).replace(`[${stat.key}]`, '').replace(/[ ]+/g, '').substr(1)
+        return `| ${stat.key} || ${stat.equation.replace(`[${stat.key}]`, '').replace(`[$${stat.key}]`, '').replace(/\*/g, 'x')}<br>('''Min level:''' ${statEquationSign === '-' ? '<strong style="color:red;">-' : '<strong style="color:green;">+'}${parseFloat(eval(statEquation.replace('[ItemInstance.Suffix_Level]', 0)).toFixed(2))}${/*statEquation.includes('*') ? '%' :*/ ''}</strong> '''Max level:''' ${statEquationSign === '-' ? '<strong style="color:red;">-' : '<strong style="color:green;">+'}${parseFloat(eval(statEquation.replace('[ItemInstance.Suffix_Level]', 9)).toFixed(2))}${/*statEquation.includes('*') ? '%' :*/ ''}</strong>) || ${stat.value > 0 ? stat.value : ''}`
+      } else if (stat.key === 'DamageBonus') {
+        var statEquation = stat.equation.replace('[DamageBonus]', '')
+        var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+        return `| ${stat.key} || ${stat.equation.replace(`[${stat.key}]`, '').replace(`[$${stat.key}]`, '').replace(/\*/g, 'x')}${typeof increaseOrDecrease === 'number' ? `<br>(Damage ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>) ` : '' || stat.equation}|| ${stat.value > 0 ? stat.value : ''}`
+      } else if (stat.key === 'RateOfAttack') {
+        var statEquation = stat.equation.replace('[RateOfAttack]', '')
+        var statEquationSign = stat.equation.replace(`[${stat.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+        var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+        return `| ${stat.key} || ${stat.equation.replace(`[${stat.key}]`, '').replace(`[$${stat.key}]`, '').replace(/\*/g, 'x')}${statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `<br>(Rate of attack ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>) ` : '' : ''}|| ${stat.value > 0 ? stat.value : ''}`
+      } else if (stat.key === 'RagePerAttack') {
+        var statEquation = stat.equation.replace('[RagePerAttack]', '')
+        var statEquationSign = stat.equation.replace(`[${stat.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+        var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+        return `| ${stat.key} || ${stat.equation.replace(`[${stat.key}]`, '').replace(`[$${stat.key}]`, '').replace(/\*/g, 'x')}${statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `<br>(Rage per attack ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>) ` : '' : ''}|| ${stat.value > 0 ? stat.value : ''}`
       }
-      return `| ${stat.key} || ${stat.equation} || ${stat.value > 0 ? stat.value : ''}`
+      return `| ${stat.key} || ${stat.equation.replace(`[${stat.key}]`, '').replace(`[$${stat.key}]`, '').replace(/\*/g, 'x')} || ${stat.value > 0 ? stat.value : ''}`
     }).join('\n          |-\n    ')}`.replace(/      [\n\r]+/g, '\n') : ''
   }
 
@@ -250,7 +310,7 @@ module.exports = (() => {
     }
     fs.readdirSync(folder[folder2]).forEach((val, ind) => {
       var file = require(path.join(folder[folder2], val))
-      var template = `{{stub}}\n\n`
+      var template = ``
       var count = -1
       file.sort((a, b) => {
         return Number(gStatsData(a.data, 'HealthMax')) - Number(gStatsData(b.data, 'HealthMax'))
@@ -284,12 +344,14 @@ module.exports = (() => {
         template += arr.length > 1 ? `\n|-|` : ''
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
+      template += `<includeonly>\n`
       template += `\n[[Category:Monster]]
 ${file[0].category.length > 0 && file[0].category !== 'None' && file[0].category !== 'All' ? `[[Category:${file[0].category}]]` : ''}
 ${(file[0].element && file[0].element !== 'None' && file[0].element !== 'All') ? `[[Category:${file[0].element}]]` : ''}
 ${file[0].isBoss ? '[[Category:Boss]]' : ''}
 ${file[0].isElite ? '[[Category:Elite]]' : ''}
 ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\r?\n+|\r+/g, '\n').trim()
+      template += `\n</includeonly>`
       template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder2, `${file[0].name}.txt`), template)
@@ -303,18 +365,19 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     }
     fs.readdirSync(folder[folder3]).forEach((val, ind) => {
       var file = require(path.join(folder[folder3], val))
-      var template = `{{stub}}\n'''{{PAGENAME}}'''\n\n`
-      var count = -1
+      var template = `<noinclude>\n'''{{PAGENAME}}'''\n\n</noinclude>\n\n`
+      var count = 0
       file.sort((a, b) => {
-        return a.lootTable.length - b.lootTable.length
+        return b.lootTable.length - a.lootTable.length
       }).forEach((item, ind, arr) => {
-        count++
+        if (arr.length > 1) count++
+        if (arr.length > 1 && item.lootTable.length < 0) return
         template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : ''}${item.from} ${ind + 1}=` : ''
         template += `${gLoot(item)}`
-        template += count > 0 ? `\n|-|` : ''
+        template += arr.length > 1 ? `\n|-|\n` : ''
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
-      template += `\n{{Special:Whatlinkshere/Loot table/${file[0].from}}}\n[[Category:Loot table]]`.replace(/\r?\n+|\r+/g, '\n').trim()
+      template += `\n<noinclude>\n<hr>\n{{Special:Whatlinkshere/Loot table/${file[0].from}}}\n[[Category:Loot table]]\n</noinclude>\n`
       template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder3, `${file[0].from}.txt`), template)
@@ -394,6 +457,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       template += `\n[[Category:Ancestral Legacy]]`.replace(/\r?\n+|\r+/g, '\n').trim()
       template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
+      template += `\n<onlyinclude><includeonly>${file[0].description ? file[0].description.replace(/[\n]/g , ' ').replace('#', 'X').trim() : ''}</includeonly></onlyinclude>`
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4, `${file[0].name}.txt`), template)
     })
   }
@@ -430,21 +494,33 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     fs.readdirSync(folder[folder6]).forEach((val, ind) => {
       var itemModifier = require(path.join(folder[folder6], val))
       var craftingRecipe = itemModifier[0].data.find(v => v.craftingRecipe) ? require(path.join(__dirname, 'Patches', patchDate, 'CraftingRecipe', itemModifier[0].data.find(v => v.craftingRecipe).craftingRecipe.name)) : undefined
-      var template = `{{stub}}\n\n`
-      template += `\n`
+      var template = `=== ${itemModifier[0].alias} ===\n\n`
       itemModifier.forEach(item => {
         template += `
           {| class="wikitable"
           ! colspan="3" | ${item.alias}
           |-
           ${gData(item.data, 'minTier') ? `| Min tier || colspan="2" | ${gData(item.data, 'minTier')}\n          |-\n` : ''}
-          | colspan="3" style="text-align:center;" | <i>${item.description || '(No description set.)'}</i>
+          | colspan="3" style="text-align:center;max-width:329px;" | <i>${item.description || '(No description set.)'}</i>
           |-
           | Category || colspan="2" | ${item.category}
           |-
-          ${gData(item.data, 'nameMod') ? `| Name modification || colspan="2" | ${gData(item.data, 'nameMod').replace(/\{0\}/g, '…')}\n          |-\n` : ''}
+          ${gData(item.data, 'nameMod') ? `| Name modification || colspan="2" | ${gData(item.data, 'nameMod').replace(/\{0\}/g, '...')}\n          |-\n` : ''}
           ${gData(item.data, 'chanceToApply') ? `| Chance to apply || colspan="2" | ${gData(item.data, 'chanceToApply')}%\n          |-\n` : ''}
           ${gData(item.data, 'expireTime') ? `| Expiration time || colspan="2" | ${gData(item.data, 'expireTime')}\n          |-\n` : ''}
+          ${gData(item.data, 'equipmentSet') ? (function () {
+            var equipmentSet = gData(item.data, 'equipmentSet')
+            return `| colspan="3" style="padding:0;" |
+            {| style="width:100%;margin:0;" class="wikitable"
+            ! colspan="3" | Equipment set<br>${gData(item.data, 'type').join(', ')}${gData(item.data, 'validClasses').map(c => ` {{Icon|${c}|nolink=1}}`).join('')}
+            |-
+            | colspan="3" style="text-align:center;max-width:329px;" | <i>${equipmentSet.description}</i>
+            |-
+            | Minimum required amount || colspan="2" | ${equipmentSet.minimumRequiredAmount}
+            |-
+            ${gItemModifierStats(equipmentSet.stats, item).replace(/      /g , '').replace(/    /g, '  ')}
+            |}`.replace(/            /g, '  ')
+          })() : ''}
           ${craftingRecipe ? (function () {
             var cr = craftingRecipe[0]
             return `| colspan="3" style="padding:0;" |
@@ -469,7 +545,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
               }).join('\n    ')}
           |}`})() : ''}
           |}
-          ${item.data.filter(v => v['validClasses']).sort((a, b) => {
+          ${gData(item.data, 'equipmentSet') ? '' : item.data.filter(v => v['validClasses']).sort((a, b) => {
             return a.validClasses.length - b.validClasses.length
           }).sort((a, b) => {
             var typeA = a.type[0].toLowerCase()
@@ -479,7 +555,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
             else return 0 
           }).map(v => {
             return `{| class="wikitable mw-collapsible mw-collapsed"
-          ! colspan="3" | ${v.type.join(', ')} ${v.validClasses.map(c => `{{Icon|${c}|nolink=1}}`).join(' ')}
+          ! colspan="3" | ${`${v.type.join(', ')}${v.validClasses.map(c => ` {{Icon|${c}|nolink=1}}`).join('')}` || 'No types & classes defined.'}
           |-
           ${/*v.validClasses ? `| colspan="3" style="padding:0;" |
           {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
@@ -491,10 +567,10 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
           |}`
           }).join('\n          ')}`.replace(/        /g, '').replace(/  \n/g, '\n')
       })
-      template += `\n[[Category:Imprint]]`
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
+      // template += `\n[[Category:Imprint]]`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->\n<hr>\n`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
-      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder6, itemModifier[0].alias), template)
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder6, `${itemModifier[0].category}_${itemModifier[0].name}.txt`), template)
     })
   }
 })()

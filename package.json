@@ -5,8 +5,10 @@
   "main": "app.js",
   "private": true,
   "dependencies": {
+    "jimp": "^0.6.0",
     "moment": "^2.23.0",
     "moment-duration-format": "^2.2.2",
+    "mwbot": "^1.0.10",
     "rimraf": "^2.6.2"
   },
   "devDependencies": {},

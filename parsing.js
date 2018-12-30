@@ -478,12 +478,6 @@ module.exports = () => {
             if (f['0 MonoBehaviour Base'] && (f['0 MonoBehaviour Base']['0 Array lootTable'].length > 0 || f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0)) {
               return {
                 loot: {
-                  inheritedLootTable: f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0 ? (function () {
-                    var lootTable = require(path.join(folder['LootTable'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))
-                    return {
-                      name: require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
-                    }
-                  })() : undefined,
                   lootTable: {
                     name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
                   },
@@ -502,13 +496,7 @@ module.exports = () => {
                   //     allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
                   //   }
                   // })
-                  // } : undefined,
-                  questLootTable: f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger'] && f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] > 0 ? (function () {
-                    var lootTable = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$GameObject> questTargetTrigger']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
-                    return {
-                      name: lootTable['1 string m_Name']
-                    }
-                  })() : undefined
+                  // } : undefined
                 }
               }
             }
