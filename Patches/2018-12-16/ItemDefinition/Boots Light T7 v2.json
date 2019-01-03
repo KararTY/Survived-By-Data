@@ -1,1 +1,0 @@
-[{"name":"Boots Light T7 v2","description":"[deprecated]","price":52,"sellPrice":26,"consumable":false,"requiredLevel":0,"type":"Boots","maxStack":1,"tier":7,"data":[],"experiencePerLevel":[0],"class":["Harbinger","Infiltrator","Geomancer"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"modifierChance":0.75}]

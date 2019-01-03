@@ -29,11 +29,11 @@ module.exports = () => {
     return (a & b) === b;
   }
 
-  if (!fs.existsSync(path.join(__dirname, 'Patches', patchDate))) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate), { recursive: true })
+  if (!fs.existsSync(path.join(__dirname, 'Patch'))) {
+    fs.mkdirSync(path.join(__dirname, 'Patch'), { recursive: true })
   } else {
-    rimraf.sync(path.join(__dirname, 'Patches', patchDate))
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate), { recursive: true })
+    rimraf.sync(path.join(__dirname, 'Patch'))
+    fs.mkdirSync(path.join(__dirname, 'Patch'), { recursive: true })
   }
 
   function fileMap(num) {
@@ -63,7 +63,7 @@ module.exports = () => {
 
   let folderName1 = 'ItemDefinition'
   if (folder[folderName1]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName1))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName1))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName1]).forEach(val => {
@@ -285,7 +285,7 @@ module.exports = () => {
           : undefined
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName1, `${itemDefinition.name}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName1, `${itemDefinition.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(itemDefinition)
@@ -302,7 +302,7 @@ module.exports = () => {
 
   let folderName2 = 'LootTable'
   if (folder[folderName2]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName2))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName2))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName2]).forEach(val => {
@@ -339,7 +339,7 @@ module.exports = () => {
           : undefined
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName2, `${lootTable.from}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName2, `${lootTable.from}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(lootTable)
@@ -356,7 +356,7 @@ module.exports = () => {
 
   let folderName3 = 'Monster'
   if (folder[folderName3]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName3))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName3))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName3]).forEach(val => {
@@ -666,7 +666,7 @@ module.exports = () => {
           else return undefined
         }).filter(Boolean).join('')
       }
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName3, `${monsterInfo.name}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName3, `${monsterInfo.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(monsterInfo)
@@ -683,7 +683,7 @@ module.exports = () => {
 
   let folderName4 = 'Ancestral'
   if (folder[folderName4]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName4))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName4))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName4]).forEach(val => {
@@ -811,7 +811,7 @@ module.exports = () => {
             if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 PPtr<$AncestralSet> data']['0 int m_FileID']) + v['0 PPtr<$AncestralSet> data']['0 SInt64 m_PathID'] + '.json'))) return undefined
             var f = require(path.join(folder['Other'], fileMap(v['0 PPtr<$AncestralSet> data']['0 int m_FileID']) + v['0 PPtr<$AncestralSet> data']['0 SInt64 m_PathID'] + '.json'))
             if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array setBonuses']) {
-              var filename = path.join(__dirname, 'Patches', patchDate, folderName4, 'Set bonuses', `${translate[f['0 MonoBehaviour Base']['1 string setName']] || f['0 MonoBehaviour Base']['1 string setName']}.json`)
+              var filename = path.join(__dirname, 'Patch', folderName4, 'Set bonuses', `${translate[f['0 MonoBehaviour Base']['1 string setName']] || f['0 MonoBehaviour Base']['1 string setName']}.json`)
               var setBonus = {
                 name: translate[f['0 MonoBehaviour Base']['1 string setName']] || f['0 MonoBehaviour Base']['1 string setName'],
                 alias: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
@@ -860,7 +860,7 @@ module.exports = () => {
                   } else return undefined
                 })()
               }
-              if (!fs.existsSync(path.join(__dirname, 'Patches', patchDate, folderName4, 'Set bonuses'))) fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName4, 'Set bonuses'))
+              if (!fs.existsSync(path.join(__dirname, 'Patch', folderName4, 'Set bonuses'))) fs.mkdirSync(path.join(__dirname, 'Patch', folderName4, 'Set bonuses'))
               if (!fs.existsSync(filename)) {
                 fs.writeFileSync(filename, JSON.stringify(setBonus))
               }
@@ -879,7 +879,7 @@ module.exports = () => {
           : undefined
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName4, `${ancestral.name}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName4, `${ancestral.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(ancestral)
@@ -896,7 +896,7 @@ module.exports = () => {
 
   let folderName5 = 'CraftingRecipe'
   if (folder[folderName5]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName5))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName5))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName5]).forEach(val => {
@@ -940,7 +940,7 @@ module.exports = () => {
         }).filter(Boolean).join('')
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName5, `${craftingRecipe.name}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName5, `${craftingRecipe.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(craftingRecipe)
@@ -957,7 +957,7 @@ module.exports = () => {
 
   let folderName6 = 'ItemModifier'
   if (folder[folderName6]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName6))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName6))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName6]).forEach(val => {
@@ -1061,7 +1061,7 @@ module.exports = () => {
         }
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName6, `${itemModifier.name}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName6, `${itemModifier.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(itemModifier)
@@ -1078,7 +1078,7 @@ module.exports = () => {
 
   let folderName7 = 'LootBox'
   if (folder[folderName7]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName7))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName7))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName7]).forEach(val => {
@@ -1100,7 +1100,7 @@ module.exports = () => {
         containBloodStone: !!file['0 MonoBehaviour Base']['1 UInt8 shouldContainBloodstone']
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName7, `${lootBox.name}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName7, `${lootBox.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(lootBox)
@@ -1117,7 +1117,7 @@ module.exports = () => {
 
   let folderName8 = 'NPC'
   if (folder[folderName8]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName8))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName8))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName8]).forEach(val => {
@@ -1345,7 +1345,7 @@ module.exports = () => {
         }).filter(Boolean)
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName8, `${npc.name}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName8, `${npc.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(npc)
@@ -1362,7 +1362,7 @@ module.exports = () => {
 
   let folderName9 = 'Player'
   if (folder[folderName9]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName9))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName9))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName9]).forEach(val => {
@@ -1462,7 +1462,7 @@ module.exports = () => {
         })
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName9, `${player.name}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName9, `${player.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(player)
@@ -1479,7 +1479,7 @@ module.exports = () => {
 
   let folderName10 = 'Challenge'
   if (folder[folderName10]) {
-    fs.mkdirSync(path.join(__dirname, 'Patches', patchDate, folderName10))
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName10))
     var count = 0
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName10]).forEach(val => {
@@ -1539,7 +1539,7 @@ module.exports = () => {
         }).filter(Boolean)
       }
 
-      var filename = path.join(__dirname, 'Patches', patchDate, folderName10, `${challenge.name}.json`)
+      var filename = path.join(__dirname, 'Patch', folderName10, `${challenge.name}.json`)
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(challenge)

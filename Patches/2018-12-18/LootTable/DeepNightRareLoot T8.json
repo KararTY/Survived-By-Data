@@ -1,1 +1,0 @@
-[{"from":"DeepNightRareLoot T8","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Eighth Gate Stone Fragment","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":true},{"item":"Silver","count":{"dice":4,"faces":12,"add":20},"chance":100,"allowModifiers":true}],"reference":"ImprintArmorPrefix"}]

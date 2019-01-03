@@ -1,1 +1,0 @@
-[{"from":"monster_chimera_jackalope_dung_hardmode","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Enriched Cloth","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true},{"item":"Enriched Leather","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true}],"reference":"CommonLoot T9"}]

@@ -1,1 +1,0 @@
-[{"name":"Reach Level 25","title":"Quests","description":"Reach level {0}","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"prerequisites":["Reach Level"],"data":[{"loot":{"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Additional Character Slot","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false}]}}]}]

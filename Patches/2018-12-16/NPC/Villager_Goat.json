@@ -1,1 +1,0 @@
-[{"name":"Villager_Goat","category":"None","weapons":[],"data":[{"sprite":{"name":"beast_mt_goat_Farm","textureRectangle":{"x":0,"y":"48","width":"46","height":"46"},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":500}]}]}]
