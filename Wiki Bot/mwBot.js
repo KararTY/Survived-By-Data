@@ -30,11 +30,11 @@ function askToUpload(array, count, type) {
     let articleText = article.query.pages[Object.keys(article.query.pages)[0]]['revisions'] ? article.query.pages[Object.keys(article.query.pages)[0]]['revisions'][0]['*'] : undefined
     if (articleText) {
       let genString = articleText.match(/<!-- ALL LINES ABOVE ARE AUTOMATED[\w;: ,0-9]+ -->/) ? articleText.match(/<!-- ALL LINES ABOVE ARE AUTOMATED[\w;: ,0-9]+ -->/)[0].split(';').pop().replace('GENERATION DATE:', '').replace(' -->', '') : undefined
-      exec(`git log -1 --format=%cd "${path.join(__dirname, '..', 'Patches', patchDate, 'Monster', filename.split('.')[0])}.json"`, (err, stdout, stderr) => {
+      exec(`git log -1 --format=%cd "${path.join(__dirname, '..', 'Wiki Templates', 'Monster', filename)}"`, (err, stdout, stderr) => {
         if (!genString || (Date.parse(stdout) > Date.parse(genString))) {
           // There's an update, continue.
           console.log(`(${filename.split('.')[0]}) needs update!\tArticle: ${genString}\tLocal git: ${stdout}`)
-          goAhead()
+          goAhead(Date.parse(stdout))
         } else {
           console.log(`(${filename.split('.')[0]}) is already up to date.\tArticle: ${genString}\tLocal git: ${stdout}`)
           count++
@@ -46,12 +46,13 @@ function askToUpload(array, count, type) {
       // goAhead()
     }
   })
-  function goAhead() {
+  function goAhead(date) {
     ask(`Upload ${filename.split('.')[0]}?`, (err, answer) => {
       switch (answer) {
         case 'yes':
         case 'y':
           var file = fs.readFileSync(path.join(__dirname, '..', 'Wiki Templates', patchDate, type, filename), 'utf8')
+          if (date) file += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE: } -->`
           bot.edit(articleName, file, 'Generated with SB-Data bot.').then(response => {
             console.log(response)
             count++

@@ -298,7 +298,6 @@ module.exports = (() => {
 //[[Category:Tier ${file[0].tier}]]
 //${file[0].class.length > 0 ? file[0].class.map(c => `[[Category:${c}]]`).join('\n') : ''}
 //{{stub}}
-//      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
 //      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file[0].name}.txt`), template)
 //    })
 //  }
@@ -352,7 +351,6 @@ ${file[0].isBoss ? '[[Category:Boss]]' : ''}
 ${file[0].isElite ? '[[Category:Elite]]' : ''}
 ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\r?\n+|\r+/g, '\n').trim()
       template += `\n</includeonly>`
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder2, `${file[0].name}.txt`), template)
     })
@@ -378,7 +376,6 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
       template += `\n<noinclude>\n<hr>\n{{Special:Whatlinkshere/Loot table/${file[0].from}}}\n[[Category:Loot table]]\n</noinclude>\n`
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder3, `${file[0].from}.txt`), template)
     })
@@ -455,7 +452,6 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
       template += `\n[[Category:Ancestral Legacy]]`.replace(/\r?\n+|\r+/g, '\n').trim()
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       template += `\n<onlyinclude><includeonly>${file[0].description ? file[0].description.replace(/[\n]/g , ' ').replace('#', 'X').trim() : ''}</includeonly></onlyinclude>`
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder4, `${file[0].name}.txt`), template)
@@ -481,7 +477,6 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     template += `\n</tabber></div>\n`
     template += `\n[[Category:Ancestral Legacy]]`
     template += `\n[[Category:Ancestral Legacy Set Bonus]]`
-    template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
     template = template.replace(/\r?\n+|\r+/g, '\n').trim()
     fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder5, `Set Bonus.txt`), template)
   }
@@ -568,7 +563,6 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
           }).join('\n          ')}`.replace(/        /g, '').replace(/  \n/g, '\n')
       })
       template += `\n<includeonly>\n[[Category:Imprint]]\n[[Category:${itemModifier[0].category}]]\n</includeonly>`
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder6, `${itemModifier[0].category}_${itemModifier[0].name}.txt`), template)
     })
