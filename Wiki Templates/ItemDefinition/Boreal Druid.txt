@@ -1,0 +1,31 @@
+{{Item
+  |title = Boreal Druid
+  |image = Boreal Druid.png
+  |caption = The spirits of the snow covered lands to the East are perhaps the most sociable of those anywhere in the Heartland. Though they are slow to react, they are also slow to anger and a patient Druid can learn much from them.
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 150 {{Icon|Electrum}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

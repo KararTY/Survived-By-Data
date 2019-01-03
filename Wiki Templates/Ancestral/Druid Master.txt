@@ -1,0 +1,124 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Druid Master 3 (Rare)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Druid Master
+    | description = All Druid attributes are increased by 2.16%
+    | level = 1
+    | rarity = rare
+    | ordinary1 = AL_icon_ Druid
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_ Druid
+    | set2 = AL_icon_peace
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Druid Master
+    | description = All Druid attributes are increased by 10%
+    | level = 50
+    | rarity = rare
+    | ordinary1 = AL_icon_ Druid
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_ Druid
+    | set2 = AL_icon_peace
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Druid Master
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Rare
+    |-
+    | Classes || colspan="2" | {{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | AddPotency || [AddPotency] + ([$Benefit]/100) || 
+    |-
+    | AddEndurance || [AddEndurance] + ([$Benefit]/100) || 
+    |-
+    | AddFocus || [AddFocus] + ([$Benefit]/100) || 
+    |-
+    | AddWillpower || [AddWillpower] + ([$Benefit]/100) || 
+    |-
+    | AddSwiftness || [AddSwiftness] + ([$Benefit]/100) || 
+    |-
+    | Benefit || 2+([AncestralData.Ancestral_Level]x0.16) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Druid.png]] [[Ancestral_Legacy/Set Bonus#Druid_Set|Druid Set]]
+    |-
+    | [[File:AL_icon_peace.png]] [[Ancestral_Legacy/Set Bonus#Attribute_Set|Attribute Set]]
+  |}
+|-|
+Druid Master 4 (Legendary)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Druid Master
+    | description = All Druid attributes are increased by 5.4%
+    | level = 1
+    | rarity = legendary
+    | ordinary1 = AL_icon_ Druid
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_ Druid
+    | set2 = AL_icon_peace
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Druid Master
+    | description = All Druid attributes are increased by 25%
+    | level = 50
+    | rarity = legendary
+    | ordinary1 = AL_icon_ Druid
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_ Druid
+    | set2 = AL_icon_peace
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Druid Master
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Legendary
+    |-
+    | Classes || colspan="2" | {{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | AddPotency || [AddPotency] + ([$Benefit]/100) || 
+    |-
+    | AddEndurance || [AddEndurance] + ([$Benefit]/100) || 
+    |-
+    | AddFocus || [AddFocus] + ([$Benefit]/100) || 
+    |-
+    | AddWillpower || [AddWillpower] + ([$Benefit]/100) || 
+    |-
+    | AddSwiftness || [AddSwiftness] + ([$Benefit]/100) || 
+    |-
+    | Benefit || 5+([AncestralData.Ancestral_Level]x0.4) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Druid.png]] [[Ancestral_Legacy/Set Bonus#Druid_Set|Druid Set]]
+    |-
+    | [[File:AL_icon_peace.png]] [[Ancestral_Legacy/Set Bonus#Attribute_Set|Attribute Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>All Druid attributes are increased by X%</includeonly></onlyinclude>

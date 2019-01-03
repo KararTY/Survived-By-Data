@@ -1,0 +1,24 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_goliath3|boss_goliath3]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Pyroclast Catalyst, Grade I}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Potency)}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Focus)}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Willpower)}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Swiftness)}} || style="text-align:right" | 20% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/boss_goliath3}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

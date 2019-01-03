@@ -1,0 +1,29 @@
+<div class="tabbertab-borderless"><tabber>
+monster bramble tree2 quest={{Enemy
+  |title = Bramble Tree
+  |image_original = {{CSS image crop|Image=bramble_trees_druid_quest.png|bSize=192|cWidth=64|cHeight=86|oBottom=10|oLeft=64}}
+  |location = 
+  |category = Plant
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 1
+  |drops = {{:Loot table/monster_bramble_tree2_quest}}
+  }}
+|-|
+monster bramble tree1 quest={{Enemy
+  |title = Bramble Tree
+  |image_original = {{CSS image crop|Image=bramble_trees_druid_quest.png|bSize=192|cWidth=64|cHeight=96|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Plant
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 1
+  |drops = {{:Loot table/monster_bramble_tree1_quest}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Plant]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

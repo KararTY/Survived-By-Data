@@ -1,0 +1,37 @@
+{{Item
+  |title = Relic of the Kraken
+  |image = Relic of the Kraken.png
+  |caption = The Kraken was the first into the breach and stands watch as its guardian. It's relic contains a fragment of that resilience.
+  |type = Misc
+  |tier = 9
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = {{Icon|Health|nolink=1}} [HealthMax]+40 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 9]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,33 @@
+{{Item
+  |title = Antique Plate Armor
+  |image = Antique Plate Armor.png
+  |caption = Perhaps left over from the last war, this hasn't seen active use for generations.
+  |type = Armor
+  |tier = 2
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 30 {{Icon|Silver}}
+  |sell_cost = 20 {{Icon|Silver}}
+  |class = {{Icon|Sentinel}}<br>{{Icon|Geomancer}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*20+[$Item_Level]*4 <br>'''110'''
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 <br>'''110'''
+  |focus = 
+  |materials = x2 {{Icon|Quartz}}
+  |silver_cost = 80 {{Icon|Silver|nolink=1}}
+  |time = 40 seconds
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Embers}} 100%
+  |dismantle_silver_cost = 22 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 1 minute
+}}
+
+[[Category:Armor]]
+[[Category:Tier 2]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,16 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/CommonLoot T5}}'''Loot table: ([[Loot table/plant_grenade|plant_grenade]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Raw Log}} || style="text-align:right" | 20% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/plant_grenade}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

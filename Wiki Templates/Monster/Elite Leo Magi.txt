@@ -1,0 +1,47 @@
+{{Enemy
+  |title = Elite Leo Magi
+  |image_original = {{CSS image crop|Image=chimera_lionmage.png|bSize=256|cWidth=48|cHeight=56|oBottom=6|oLeft=8}}
+  |caption = Description for Elite Leo Magi
+  |location = 
+  |category = Chimera
+  |is_elite = Yes
+  |tier = 3
+  |level = 13
+  |max_health = {{Icon|Health|nolink=1}} 880
+  |experience = 680
+  |damage_bonus = 70
+  |accuracy = 217.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 58.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lionmage elite projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lionmage.png|bSize=256|cWidth=9|cHeight=29|oBottom=65|oLeft=75}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Vulnerable'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageReduction {{!!}} (Damage decrease by <strong style="color:red;">25%</strong>)<br><small>[DamageReduction]*0.75</small>
+    {{!}}}
+  |dialogue = <u>'''90% health:'''</u> ''This was not your fight, but that doesn't mean I won't kill you.''<br><u>'''40% health:'''</u> ''Once the dogs have been put in their place we will come for you and yours.''
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

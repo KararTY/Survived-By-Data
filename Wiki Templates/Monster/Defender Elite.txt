@@ -1,0 +1,69 @@
+<div class="tabbertab-borderless"><tabber>
+monster defender elite minion={{Enemy
+  |title = Defender Elite
+  |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 20
+  |level = 12
+  |max_health = {{Icon|Health|nolink=1}} 670
+  |experience = 30
+  |damage_bonus = 95
+  |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''stag projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster defender elite={{Enemy
+  |title = Defender Elite
+  |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
+  |location = 
+  |category = Agent
+  |is_elite = Yes
+  |element = Ur
+  |tier = 20
+  |level = 12
+  |max_health = {{Icon|Health|nolink=1}} 3500
+  |experience = 30
+  |damage_bonus = 95
+  |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''stag projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

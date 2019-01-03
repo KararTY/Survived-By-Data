@@ -1,0 +1,45 @@
+{{Enemy
+  |title = Fissure Orb
+  |image_original = {{CSS image crop|Image=beast_spider_orb.png|bSize=192|cWidth=45|cHeight=35|oBottom=8|oLeft=2}}
+  |caption = Description for Fissure Orb
+  |location = 
+  |category = Beast
+  |tier = 5
+  |level = 22
+  |max_health = {{Icon|Health|nolink=1}} 1638
+  |experience = 550
+  |damage_bonus = 153
+  |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider orb projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_orb.png|bSize=192|cWidth=11|cHeight=18|oBottom=51|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Drained'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RagePerAttack {{!!}} (Rage per attack decrease by <strong style="color:red;">80%</strong>)<br><small>[RagePerAttack]*0.2</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_orb_fissure}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

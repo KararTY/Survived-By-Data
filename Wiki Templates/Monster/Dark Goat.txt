@@ -1,0 +1,33 @@
+{{Enemy
+  |title = Dark Goat
+  |image_original = {{CSS image crop|Image=beast_mt_goat.png|bSize=192|cWidth=45|cHeight=47|oBottom=1|oLeft=2}}
+  |caption = Description for Mountain Goat
+  |location = 
+  |category = Beast
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9.25
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+  |drops = {{:Loot table/monster_mtgoat_dark}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

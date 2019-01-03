@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Methuselah
+  |image_original = {{CSS image crop|Image=BossProxy.png|bSize=128|cWidth=128|cHeight=128|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Undying
+  |is_boss = Yes
+  |element = Ea
+  |tier = 20
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 500
+  |experience = 10
+  |damage_bonus = 1
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss methuselah projectile''' {{!!}} <center>{{CSS image crop|Image=Mage_01.png|bSize=128|cWidth=15|cHeight=15|oBottom=72|oLeft=8}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Undying]]
+[[Category:Ea]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

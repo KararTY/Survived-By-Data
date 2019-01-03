@@ -1,0 +1,92 @@
+<div class="tabbertab-borderless"><tabber>
+monster burrower cave={{Enemy
+  |title = Nest Vanguard
+  |image_original = {{CSS image crop|Image=beast_burrower_cave.png|bSize=256|cWidth=48|cHeight=20|oBottom=44|oLeft=10}}
+  |caption = Description for Nest Vanguard
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 70
+  |experience = 65
+  |damage_bonus = 45
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''burrower cave projectile''' {{!!}} <center>{{CSS image crop|Image=beast_burrower_cave.png|bSize=256|cWidth=20|cHeight=44|oBottom=202|oLeft=129}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 12
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Vulnerable'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageReduction {{!!}} (Damage decrease by <strong style="color:red;">25%</strong>)<br><small>[DamageReduction]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_burrower_cave}}
+  }}
+|-|
+monster burrower cave dangerous={{Enemy
+  |title = Nest Vanguard
+  |image_original = {{CSS image crop|Image=beast_burrower_cave.png|bSize=256|cWidth=48|cHeight=20|oBottom=44|oLeft=10}}
+  |caption = Description for Nest Vanguard
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 700
+  |experience = 130
+  |damage_bonus = 70
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''burrower cave projectile''' {{!!}} <center>{{CSS image crop|Image=beast_burrower_cave.png|bSize=256|cWidth=20|cHeight=44|oBottom=202|oLeft=129}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 12
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Vulnerable'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageReduction {{!!}} (Damage decrease by <strong style="color:red;">25%</strong>)<br><small>[DamageReduction]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_burrower_cave_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

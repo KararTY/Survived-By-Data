@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Great Feral Sphyrna
+  |image_original = {{CSS image crop|Image=chimera_shark_hammerhead.png|bSize=256|cWidth=42|cHeight=46|oBottom=8|oLeft=22}}
+  |caption = Description for Great Feral Sphyrna
+  |location = 
+  |category = Chimera
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera shark hammer projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_shark_hammerhead.png|bSize=256|cWidth=35|cHeight=35|oBottom=78|oLeft=141}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_shark_hammer_great}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

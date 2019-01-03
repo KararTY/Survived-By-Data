@@ -1,0 +1,31 @@
+{{Item
+  |title = Rampart Guardian Harbinger
+  |image = Rampart Guardian Harbinger.png
+  |caption = Sacrificing mobility to protect a single location can be a difficult task for a Harbinger. In those cases great long bows and heavy chain armor become practical.
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 1000 {{Icon|Electrum}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

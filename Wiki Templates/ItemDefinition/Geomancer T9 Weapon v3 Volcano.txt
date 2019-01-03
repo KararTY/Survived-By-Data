@@ -1,0 +1,32 @@
+{{Item
+  |title = Geomancer T9 Weapon v3 Volcano
+  |image = Geomancer T9 Weapon v3 Volcano.png
+  |caption = [description]
+  |type = Weapon
+  |tier = 10
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 2500 {{Icon|Silver}}
+  |sell_cost = 1250 {{Icon|Silver}}
+  |class = {{Icon|Geomancer}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*15+[$Item_Level]*3 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Embers}} 100%
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 10]]
+[[Category:Geomancer]]
+{{stub}}
+'''{{PAGENAME}}'''

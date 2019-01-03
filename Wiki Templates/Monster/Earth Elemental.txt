@@ -1,0 +1,51 @@
+{{Enemy
+  |title = Earth Elemental
+  |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
+  |caption = Description for Earth Elemental
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 1
+  |level = 2
+  |max_health = {{Icon|Health|nolink=1}} 20
+  |experience = 10
+  |damage_bonus = 15
+  |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''golem stone projectile''' {{!!}} <center>{{CSS image crop|Image=monster_golem_stone_01_projectile_01.png|bSize=128|cWidth=31|cHeight=29|oBottom=67|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''golem stone projectile blast''' {{!!}} <center>{{CSS image crop|Image=monster_golem_stone_01_projectile_01.png|bSize=128|cWidth=22|cHeight=26|oBottom=6|oLeft=5}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_golem_stone}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

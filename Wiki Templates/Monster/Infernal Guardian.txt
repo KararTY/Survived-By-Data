@@ -1,0 +1,65 @@
+{{Enemy
+  |title = Infernal Guardian
+  |image_original = {{CSS image crop|Image=spirit_golem_lava.png|bSize=384|cWidth=79|cHeight=86|oBottom=3|oLeft=7}}
+  |caption = Description for Infernal Guardian
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 7200
+  |experience = 800
+  |damage_bonus = 299
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit golem lava projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_lava.png|bSize=384|cWidth=32|cHeight=35|oBottom=105|oLeft=199}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit golem lava projectile blast''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_lava.png|bSize=384|cWidth=18|cHeight=26|oBottom=156|oLeft=302}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 196<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  |drops = {{:Loot table/monster_golem_lava}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

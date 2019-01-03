@@ -1,0 +1,96 @@
+<div class="tabbertab-borderless"><tabber>
+plant corpseflower hardmode={{Enemy
+  |title = Greater Corpse Flower
+  |image_original = {{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |caption = Description for Greater Corpse Flower
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant corpseflower projectile''' {{!!}} <center>{{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=32|cHeight=29|oBottom=99|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 20
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  |drops = {{:Loot table/plant_corpseflower_hardmode}}
+  }}
+|-|
+plant corpseflower hardmode dangerous={{Enemy
+  |title = Greater Corpse Flower
+  |image_original = {{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |caption = Description for Greater Corpse Flower
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 200000
+  |experience = 900
+  |damage_bonus = 480
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant corpseflower projectile''' {{!!}} <center>{{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=32|cHeight=29|oBottom=99|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 20
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  |drops = {{:Loot table/plant_corpseflower_hardmode_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

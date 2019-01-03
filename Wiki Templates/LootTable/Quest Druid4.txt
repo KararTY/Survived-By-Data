@@ -1,0 +1,20 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/Quest Druid4|Quest Druid4]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x70 || {{Icon|Silver}} || style="text-align:right" | 100% 
+|-
+| x6 || {{Icon|Bloodstone}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Shifter Serum (VII)}} || style="text-align:right" | 100% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/Quest Druid4}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

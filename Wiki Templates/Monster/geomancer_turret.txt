@@ -1,0 +1,27 @@
+{{Enemy
+  |title = geomancer_turret
+  |image_original = {{CSS image crop|Image=geomancer_01.png|bSize=192|cWidth=14|cHeight=32|oBottom=112|oLeft=65}}
+  |location = 
+  |category = None
+  |max_health = {{Icon|Health|nolink=1}} if([@Player.HealthMax]>0,[@Player.HealthMax]*0.1,1)<br>'''15'''
+  |damage_bonus = [@Player.SpecialWeaponDamage]<br>'''1'''
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''geomancer turret projectile''' {{!!}} <center>{{CSS image crop|Image=geomancer_01.png|bSize=192|cWidth=9|cHeight=22|oBottom=162|oLeft=134}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 20
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

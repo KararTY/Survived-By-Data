@@ -1,0 +1,10 @@
+{{Enemy
+  |title = pet_bird
+  |image_original = {{CSS image crop|Image=Falconer_01_Bird.png|bSize=384|cWidth=36|cHeight=93|oBottom=1|oLeft=58}}
+  |location = 
+  |category = None
+  }}
+<includeonly>
+[[Category:Monster]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

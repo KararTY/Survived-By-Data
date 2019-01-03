@@ -1,0 +1,34 @@
+{{Item
+  |title = Sine Boots
+  |image = Sine Boots.png
+  |caption = Wait, Sine? Not Sin? It's a knock off! You can see where the paint is already starting the chip away. You knew that auction house seller's name looked shady...
+  |type = Boots
+  |tier = 9
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 1000 {{Icon|Silver}}
+  |sell_cost = 500 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*10+[$Item_Level]*2 
+  |willpower = 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Boots]]
+[[Category:Tier 9]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+{{stub}}
+'''{{PAGENAME}}'''

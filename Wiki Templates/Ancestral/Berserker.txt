@@ -1,0 +1,120 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Berserker 2 (Uncommon)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Berserker
+    | description = When wearing no equipment, all attributes are increased by 11.8%
+    | level = 1
+    | rarity = uncommon
+    | ordinary1 = Character_menu_Equipment
+    | ordinary2 = AL_icon_circle with line
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_peace
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Berserker
+    | description = When wearing no equipment, all attributes are increased by 100%
+    | level = 50
+    | rarity = uncommon
+    | ordinary1 = Character_menu_Equipment
+    | ordinary2 = AL_icon_circle with line
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_peace
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Berserker
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Uncommon
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | AddPotency || [AddPotency] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | AddEndurance || [AddEndurance] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | AddFocus || [AddFocus] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | AddWillpower || [AddWillpower] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | AddSwiftness || [AddSwiftness] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | Benefit || 10+([AncestralData.Ancestral_Level]x1.8) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_peace.png]] [[Ancestral_Legacy/Set Bonus#Attribute_Set|Attribute Set]]
+  |}
+|-|
+Berserker 3 (Rare)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Berserker
+    | description = When wearing no equipment, all attributes are increased by 28.5%
+    | level = 1
+    | rarity = rare
+    | ordinary1 = Character_menu_Equipment
+    | ordinary2 = AL_icon_circle with line
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_peace
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Berserker
+    | description = When wearing no equipment, all attributes are increased by 200%
+    | level = 50
+    | rarity = rare
+    | ordinary1 = Character_menu_Equipment
+    | ordinary2 = AL_icon_circle with line
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_peace
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Berserker
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Rare
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | AddPotency || [AddPotency] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | AddEndurance || [AddEndurance] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | AddFocus || [AddFocus] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | AddWillpower || [AddWillpower] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | AddSwiftness || [AddSwiftness] + ([$Benefit]/100) x [Naked] || 
+    |-
+    | Benefit || 25+([AncestralData.Ancestral_Level]x3.5) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_peace.png]] [[Ancestral_Legacy/Set Bonus#Attribute_Set|Attribute Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>When wearing no equipment, all attributes are increased by X%</includeonly></onlyinclude>

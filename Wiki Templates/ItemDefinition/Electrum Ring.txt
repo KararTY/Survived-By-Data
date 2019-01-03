@@ -1,0 +1,37 @@
+{{Item
+  |title = Electrum Ring
+  |image = Electrum Ring.png
+  |caption = The rings of Electrum worn by the Witnesses represented their vow to the Great/Terrible Mother
+  |type = Ring
+  |tier = 8
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 75 {{Icon|Silver}}
+  |sell_cost = 5000 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = {{Icon|Energy|nolink=1}} [ManaMax]+[$Tier]*10+[$Item_Level]*2 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = x2 {{Icon|Sable}}<br>x3 {{Icon|Encased Obsidian}}<br>x1 {{Icon|Eldritch Catalyst}}
+  |silver_cost = 22000 {{Icon|Silver|nolink=1}}
+  |time = 5 hours
+  |dismantle_chance = 
+  |dismantle_materials = {{Icon|Composite Smoldering Alloy}} 33%<br>{{Icon|Composite Smoldering Fabric}} 33%<br>{{Icon|Composite Smoldering Grain}} 33%
+  |dismantle_silver_cost = 5500 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 3 hours, 45 minutes
+}}
+
+[[Category:Ring]]
+[[Category:Tier 8]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

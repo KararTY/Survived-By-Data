@@ -1,0 +1,77 @@
+{{Enemy
+  |title = Greater Dryad
+  |image_original = {{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=40|cHeight=48|oBottom=0|oLeft=2}}
+  |caption = Description for Greater Dryad
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad tree projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=12|cHeight=12|oBottom=200|oLeft=55}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad tree projectile vines''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=33|cHeight=20|oBottom=124|oLeft=5}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad tree projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=12|cHeight=12|oBottom=200|oLeft=55}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_dryad_tree_hardmode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

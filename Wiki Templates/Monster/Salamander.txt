@@ -1,0 +1,51 @@
+{{Enemy
+  |title = Salamander
+  |image_original = {{CSS image crop|Image=beast_salamander.png|bSize=256|cWidth=61|cHeight=39|oBottom=25|oLeft=3}}
+  |caption = Description for Lava Lizard
+  |location = 
+  |category = Beast
+  |element = Ki
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 3465
+  |experience = 750
+  |damage_bonus = 215
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''beast salamander projectile''' {{!!}} <center>{{CSS image crop|Image=beast_salamander.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''beast salamander projectile2''' {{!!}} <center>{{CSS image crop|Image=beast_salamander.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_beast_salamander}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

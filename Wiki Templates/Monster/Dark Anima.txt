@@ -1,0 +1,638 @@
+<div class="tabbertab-borderless"><tabber>
+monster anima darkT1={{Enemy
+  |title = Dark Anima
+  |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 340
+  |experience = 5
+  |damage_bonus = 18
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit anima dark projectile oozeT1''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">5%</strong>)<br><small>[MovementSpeed]*0.95</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_anima_darkT1}}
+  }}
+|-|
+monster anima darkT2={{Enemy
+  |title = Dark Anima
+  |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 2
+  |level = 6
+  |max_health = {{Icon|Health|nolink=1}} 850
+  |experience = 20
+  |damage_bonus = 40
+  |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit anima dark projectile oozeT2''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">10%</strong>)<br><small>[MovementSpeed]*0.9</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_anima_darkT2}}
+  }}
+|-|
+monster anima darkT3={{Enemy
+  |title = Dark Anima
+  |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 3
+  |level = 11
+  |max_health = {{Icon|Health|nolink=1}} 900
+  |experience = 140
+  |damage_bonus = 60
+  |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit anima dark projectile oozeT3''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">15%</strong>)<br><small>[MovementSpeed]*0.85</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_anima_darkT3}}
+  }}
+|-|
+monster anima darkT4={{Enemy
+  |title = Dark Anima
+  |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 4
+  |level = 16
+  |max_health = {{Icon|Health|nolink=1}} 5150
+  |experience = 300
+  |damage_bonus = 95
+  |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit anima dark projectile oozeT4''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">20%</strong>)<br><small>[MovementSpeed]*0.8</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_anima_darkT4}}
+  }}
+|-|
+monster anima darkT5={{Enemy
+  |title = Dark Anima
+  |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 5
+  |level = 21
+  |max_health = {{Icon|Health|nolink=1}} 13400
+  |experience = 500
+  |damage_bonus = 140
+  |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 113.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit anima dark projectile oozeT5''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">25%</strong>)<br><small>[MovementSpeed]*0.75</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_anima_darkT5}}
+  }}
+|-|
+monster anima darkT6={{Enemy
+  |title = Dark Anima
+  |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 31500
+  |experience = 750
+  |damage_bonus = 205
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit anima dark projectile oozeT6''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">30%</strong>)<br><small>[MovementSpeed]*0.7</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_anima_darkT6}}
+  }}
+|-|
+monster anima darkT7={{Enemy
+  |title = Dark Anima
+  |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 44000
+  |experience = 775
+  |damage_bonus = 230
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit anima dark projectile oozeT7''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">35%</strong>)<br><small>[MovementSpeed]*0.65</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_anima_darkT7}}
+  }}
+|-|
+monster anima darkT8={{Enemy
+  |title = Dark Anima
+  |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 60000
+  |experience = 860
+  |damage_bonus = 260
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit anima dark projectile oozeT8''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">40%</strong>)<br><small>[MovementSpeed]*0.6</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_anima_darkT8}}
+  }}
+|-|
+monster anima darkT9={{Enemy
+  |title = Dark Anima
+  |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit anima dark projectile oozeT9''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">45%</strong>)<br><small>[MovementSpeed]*0.55</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_anima_darkT9}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

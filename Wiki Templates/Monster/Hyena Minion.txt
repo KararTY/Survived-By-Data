@@ -1,0 +1,34 @@
+{{Enemy
+  |title = Hyena Minion
+  |image_original = {{CSS image crop|Image=beast_hyena.png|bSize=192|cWidth=38|cHeight=48|oBottom=0|oLeft=6}}
+  |caption = Description for Hyena Minion
+  |location = 
+  |category = Beast
+  |tier = 3
+  |level = 13
+  |max_health = {{Icon|Health|nolink=1}} 440
+  |experience = 340
+  |damage_bonus = 70
+  |accuracy = 217.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 58.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''hyena projectile''' {{!!}} <center>{{CSS image crop|Image=beast_hyena.png|bSize=192|cWidth=23|cHeight=28|oBottom=52|oLeft=48}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

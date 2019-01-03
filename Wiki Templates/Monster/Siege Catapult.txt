@@ -1,0 +1,470 @@
+<div class="tabbertab-borderless"><tabber>
+invasion artillery monster T1={{Enemy
+  |title = Siege Catapult
+  |image_original = {{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=160|cHeight=159|oBottom=161|oLeft=0}}
+  |caption = 
+  |location = 
+  |category = None
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 75
+  |damage_bonus = 30
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=27|cHeight=49|oBottom=343|oLeft=540}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 21
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile2''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile3''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_artillery_monster_T1}}
+  }}
+|-|
+invasion artillery monster T2={{Enemy
+  |title = Siege Catapult
+  |image_original = {{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=160|cHeight=159|oBottom=161|oLeft=0}}
+  |caption = 
+  |location = 
+  |category = None
+  |tier = 2
+  |level = 8
+  |max_health = {{Icon|Health|nolink=1}} 240
+  |damage_bonus = 60
+  |accuracy = 175.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 37.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=27|cHeight=49|oBottom=343|oLeft=540}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 21
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile2''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile3''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_artillery_monster_T2}}
+  }}
+|-|
+invasion artillery monster T3={{Enemy
+  |title = Siege Catapult
+  |image_original = {{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=160|cHeight=159|oBottom=161|oLeft=0}}
+  |caption = 
+  |location = 
+  |category = None
+  |tier = 3
+  |level = 13
+  |max_health = {{Icon|Health|nolink=1}} 880
+  |damage_bonus = 80
+  |accuracy = 217.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 58.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=27|cHeight=49|oBottom=343|oLeft=540}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 21
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile2''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile3''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_artillery_monster_T3}}
+  }}
+|-|
+invasion artillery monster T4={{Enemy
+  |title = Siege Catapult
+  |image_original = {{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=160|cHeight=159|oBottom=161|oLeft=0}}
+  |caption = 
+  |location = 
+  |category = None
+  |tier = 4
+  |level = 18
+  |max_health = {{Icon|Health|nolink=1}} 1560
+  |damage_bonus = 110
+  |accuracy = 279.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 89.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=27|cHeight=49|oBottom=343|oLeft=540}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 21
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile2''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile3''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_artillery_monster_T4}}
+  }}
+|-|
+invasion artillery monster T5={{Enemy
+  |title = Siege Catapult
+  |image_original = {{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=160|cHeight=159|oBottom=161|oLeft=0}}
+  |caption = 
+  |location = 
+  |category = None
+  |tier = 5
+  |level = 23
+  |max_health = {{Icon|Health|nolink=1}} 6552
+  |damage_bonus = 160
+  |accuracy = 361.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 130.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=27|cHeight=49|oBottom=343|oLeft=540}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 21
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile2''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile3''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_artillery_monster_T5}}
+  }}
+|-|
+invasion artillery monster T6={{Enemy
+  |title = Siege Catapult
+  |image_original = {{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=160|cHeight=159|oBottom=161|oLeft=0}}
+  |caption = 
+  |location = 
+  |category = None
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 13860
+  |damage_bonus = 215
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=27|cHeight=49|oBottom=343|oLeft=540}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 21
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile2''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile3''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_artillery_monster_T6}}
+  }}
+|-|
+invasion artillery monster T7={{Enemy
+  |title = Siege Catapult
+  |image_original = {{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=160|cHeight=159|oBottom=161|oLeft=0}}
+  |caption = 
+  |location = 
+  |category = None
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 20420
+  |damage_bonus = 250
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=27|cHeight=49|oBottom=343|oLeft=540}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 21
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile2''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile3''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_artillery_monster_T7}}
+  }}
+|-|
+invasion artillery monster T8={{Enemy
+  |title = Siege Catapult
+  |image_original = {{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=160|cHeight=159|oBottom=161|oLeft=0}}
+  |caption = 
+  |location = 
+  |category = None
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 38400
+  |damage_bonus = 300
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=27|cHeight=49|oBottom=343|oLeft=540}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 21
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile2''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''invasion artillery monster projectile3''' {{!!}} <center>{{CSS image crop|Image=Siege Weapon_Catapult.png|bSize=640|cWidth=15|cHeight=33|oBottom=426|oLeft=546}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_artillery_monster_T8}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

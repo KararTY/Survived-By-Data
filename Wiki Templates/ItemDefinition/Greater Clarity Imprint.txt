@@ -1,0 +1,31 @@
+{{Item
+  |title = Greater Clarity Imprint
+  |image = Greater Clarity Imprint.png
+  |caption = This imprint provides a bonus to maximum Energy and Focus. Requires a T7+ ring.
+  |type = Misc
+  |tier = 
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 
+  |sell_cost = 30 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = {{Icon|Composite Amber Sign}} 33%<br>{{Icon|Composite Obsidian Sign}} 33%<br>{{Icon|Composite Timber Sign}} 33%
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

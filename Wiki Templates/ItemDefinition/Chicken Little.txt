@@ -1,0 +1,31 @@
+{{Item
+  |title = Chicken Little
+  |image = Chicken Little.png
+  |caption = You may be chicken, but you’re not afraid of a fight!
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 1500 {{Icon|Electrum}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,32 @@
+{{Enemy
+  |title = Lion King Totem
+  |image_original = {{CSS image crop|Image=Lion God Idol Statue.png|bSize=224|cWidth=54|cHeight=77|oBottom=18|oLeft=74}}
+  |location = 
+  |category = Construct
+  |tier = 4
+  |level = 19
+  |max_health = {{Icon|Health|nolink=1}} 900
+  |damage_bonus = 80
+  |accuracy = 294.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 97.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''monster lionking totem projectile''' {{!!}} <center>{{CSS image crop|Image=Lion God Idol Statue.png|bSize=224|cWidth=13|cHeight=32|oBottom=32|oLeft=202}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Construct]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

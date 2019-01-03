@@ -1,0 +1,34 @@
+{{Item
+  |title = Boots Light T7 v2
+  |image = Boots Light T7 v2.png
+  |caption = [deprecated]
+  |type = Boots
+  |tier = 7
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 26 {{Icon|Silver}}
+  |class = {{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Geomancer}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Boots]]
+[[Category:Tier 7]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Geomancer]]
+{{stub}}
+'''{{PAGENAME}}'''

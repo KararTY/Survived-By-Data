@@ -1,0 +1,269 @@
+<div class="tabbertab-borderless"><tabber>
+tutorial monster agent processor={{Enemy
+  |title = Processor
+  |image_original = {{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=39|cHeight=38|oBottom=54|oLeft=5}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 850
+  |experience = 110
+  |damage_bonus = 175
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent processor projectile''' {{!!}} <center>{{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=10|cHeight=24|oBottom=193|oLeft=4}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent processor projectile dud''' {{!!}} <center>{{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=10|cHeight=24|oBottom=193|oLeft=4}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''agent processor projectile splat'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster agent processor={{Enemy
+  |title = Processor
+  |image_original = {{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=39|cHeight=38|oBottom=54|oLeft=5}}
+  |caption = Description for Processor
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 5
+  |level = 22
+  |max_health = {{Icon|Health|nolink=1}} 1638
+  |experience = 550
+  |damage_bonus = 153
+  |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent processor projectile''' {{!!}} <center>{{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=10|cHeight=24|oBottom=193|oLeft=4}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent processor projectile dud''' {{!!}} <center>{{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=10|cHeight=24|oBottom=193|oLeft=4}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent disabler trail projectile3''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1.25
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_agent_processor}}
+  }}
+|-|
+monster agent processor dangerous={{Enemy
+  |title = Processor
+  |image_original = {{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=39|cHeight=38|oBottom=54|oLeft=5}}
+  |caption = Description for Processor
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 5
+  |level = 22
+  |max_health = {{Icon|Health|nolink=1}} 12000
+  |experience = 1100
+  |damage_bonus = 220
+  |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent processor projectile''' {{!!}} <center>{{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=10|cHeight=24|oBottom=193|oLeft=4}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent processor projectile dud''' {{!!}} <center>{{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=10|cHeight=24|oBottom=193|oLeft=4}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent disabler trail projectile3''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1.25
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_agent_processor_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

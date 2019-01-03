@@ -1,0 +1,46 @@
+{{Enemy
+  |title = Sand Cyclone Minion
+  |image_original = {{CSS image crop|Image=spirit_cyclone_sand.png|bSize=384|cWidth=74|cHeight=85|oBottom=10|oLeft=11}}
+  |caption = Description for Sand Cyclone Minion
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 3
+  |level = 13
+  |max_health = {{Icon|Health|nolink=1}} 440
+  |experience = 340
+  |damage_bonus = 70
+  |accuracy = 217.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 58.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit cyclone sand projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_sand.png|bSize=384|cWidth=23|cHeight=65|oBottom=192|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Slowed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RateOfAttack {{!!}} (Rate of attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RateOfAttack]*0.5</small>
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

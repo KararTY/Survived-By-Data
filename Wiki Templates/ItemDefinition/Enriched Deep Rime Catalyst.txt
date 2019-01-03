@@ -1,0 +1,31 @@
+{{Item
+  |title = Enriched Deep Rime Catalyst
+  |image = Enriched Deep Rime Catalyst.png
+  |caption = In the most frigid depths of the World Tree, any moisture freezes instantly, becoming more like glass than ice. This substance, called deep rime, is both light and exceptionally hard. This is a rare crafting component.
+  |type = Misc
+  |tier = 9
+  |bound = 
+  |max_stack = 10
+  |buy_cost = 30 {{Icon|Bloodstone}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 20%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 9]]
+{{stub}}
+'''{{PAGENAME}}'''

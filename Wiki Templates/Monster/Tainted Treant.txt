@@ -1,0 +1,75 @@
+{{Enemy
+  |title = Tainted Treant
+  |image_original = {{CSS image crop|Image=corrupted_treant.png|bSize=512|cWidth=98|cHeight=128|oBottom=0|oLeft=15}}
+  |caption = Description for Tainted Treant
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 5
+  |level = 22
+  |max_health = {{Icon|Health|nolink=1}} 1638
+  |experience = 550
+  |damage_bonus = 153
+  |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''treant corrupted projectile''' {{!!}} <center>{{CSS image crop|Image=corrupted_treant.png|bSize=512|cWidth=30|cHeight=71|oBottom=271|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 9
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''treant corrupted projectile2''' {{!!}} <center>{{CSS image crop|Image=corrupted_treant.png|bSize=512|cWidth=30|cHeight=71|oBottom=271|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 9
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+  |drops = {{:Loot table/monster_treant_tainted}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

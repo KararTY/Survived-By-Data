@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Elite Jackalope
+  |image_original = {{CSS image crop|Image=chimera_jackalope.png|bSize=256|cWidth=39|cHeight=55|oBottom=38|oLeft=13}}
+  |caption = Description for Elite Jackalope
+  |location = 
+  |category = Chimera
+  |is_elite = Yes
+  |tier = 2
+  |level = 8
+  |max_health = {{Icon|Health|nolink=1}} 275
+  |experience = 260
+  |damage_bonus = 50
+  |accuracy = 175.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 37.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera jackalope elite projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_jackalope.png|bSize=256|cWidth=14|cHeight=23|oBottom=109|oLeft=201}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |dialogue = <u>'''90% health:'''</u> ''Your kind are running out of places to run.''<br><u>'''40% health:'''</u> ''We will cleanse the Tree of your kind!''
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

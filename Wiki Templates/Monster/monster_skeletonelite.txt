@@ -1,0 +1,46 @@
+{{Enemy
+  |title = monster_skeletonelite
+  |image_original = {{CSS image crop|Image=monster_skeletonelite.png|bSize=128|cWidth=28|cHeight=32|oBottom=0|oLeft=32}}
+  |location = 
+  |category = Undying
+  |element = Ea
+  |max_health = {{Icon|Health|nolink=1}} 50
+  |damage_bonus = 1
+  |accuracy = 150<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''lob''' {{!!}} <center>{{CSS image crop|Image=Mage_01.png|bSize=128|cWidth=15|cHeight=15|oBottom=72|oLeft=8}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''lob AOE''' {{!!}} <center>{{CSS image crop|Image=treant_fire_01.png|bSize=256|cWidth=26|cHeight=27|oBottom=128|oLeft=1}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1000
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Undying]]
+[[Category:Ea]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

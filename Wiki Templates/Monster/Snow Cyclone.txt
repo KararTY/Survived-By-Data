@@ -1,0 +1,387 @@
+<div class="tabbertab-borderless"><tabber>
+WinterHoliday Pet1 T1={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 1
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 15
+  |damage_bonus = ((5+([@Player.Potency]*([@Player.Level]/25)))*1.5)*0.1<br>'''1'''
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet1 T2={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 2
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 1760
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet1 T3={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 3
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 3480
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet1 T4={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 4
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 5840
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet1 T5={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 5
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 8320
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet1 T6={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 6
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 9200
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet1 T7={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 10080
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet1 T8={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 8
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 10920
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet1 T9={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 11800
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet1 T10={{Enemy
+  |title = Snow Cyclone
+  |image_original = {{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 12640
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 3 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">50%</strong>)<br><small>[MovementSpeed]*0.5</small>
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

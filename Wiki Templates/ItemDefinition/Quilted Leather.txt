@@ -1,0 +1,31 @@
+{{Item
+  |title = Quilted Leather
+  |image = Quilted Leather.png
+  |caption = Sealing a layer of cloth between two thin, flexible layers of leather creates a light fabric that is far more durable than cloth alone.
+  |type = Misc
+  |tier = 8
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 100 {{Icon|Silver}}
+  |sell_cost = 10 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x5 {{Icon|Enriched Cloth}}<br>x5 {{Icon|Enriched Leather}}
+  |silver_cost = 500 {{Icon|Silver|nolink=1}}
+  |time = 2 minutes
+  |dismantle_chance = 30%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 8]]
+{{stub}}
+'''{{PAGENAME}}'''

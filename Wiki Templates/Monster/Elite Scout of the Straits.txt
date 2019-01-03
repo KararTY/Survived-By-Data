@@ -1,0 +1,48 @@
+{{Enemy
+  |title = Elite Scout of the Straits
+  |image_original = {{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=46|cHeight=93|oBottom=290|oLeft=32}}
+  |caption = Description for Elite Scout of the Straits
+  |location = 
+  |category = Agent
+  |is_elite = Yes
+  |element = Ur
+  |tier = 6
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 13860
+  |experience = 3000
+  |damage_bonus = 215
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent scout projectile''' {{!!}} <center>{{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=20|cHeight=66|oBottom=402|oLeft=207}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 12
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Drained'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RagePerAttack {{!!}} (Rage per attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RagePerAttack]*0.5</small>
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

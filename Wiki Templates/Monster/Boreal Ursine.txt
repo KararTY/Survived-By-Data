@@ -1,0 +1,52 @@
+{{Enemy
+  |title = Boreal Ursine
+  |image_original = {{CSS image crop|Image=boss_bear_shaman_feral.png|bSize=512|cWidth=98|cHeight=89|oBottom=39|oLeft=14}}
+  |caption = Description for Boreal Ursine
+  |location = 
+  |category = Chimera
+  |is_boss = Yes
+  |tier = 4
+  |level = 20
+  |max_health = {{Icon|Health|nolink=1}} 39000
+  |damage_bonus = 200
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss shaman projectile''' {{!!}} <center>{{CSS image crop|Image=boss_bear_shaman 1.png|bSize=512|cWidth=20|cHeight=47|oBottom=681|oLeft=14}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.05
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss shaman enraged projectile''' {{!!}} <center>{{CSS image crop|Image=boss_bear_shaman2.png|bSize=512|cWidth=20|cHeight=47|oBottom=681|oLeft=14}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.05
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |dialogue = ''Mwahahaha!''<br>''There is no escape!''<br>''No one will survive!''<br>''Die!''<br>''You cannot win!''
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,22 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/CommonLoot T8}}'''Loot table: ([[Loot table/monster_spider_dark_fissure_T8|monster_spider_dark_fissure_T8]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Raw Strands}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Sugary Dreams}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Touch of Fire}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Arachnid Nightmare}} || style="text-align:right" | 1% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/monster_spider_dark_fissure_T8}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Greater Feral Capra Bodyguard
+  |image_original = {{CSS image crop|Image=chimera_mt_goatferal.png|bSize=192|cWidth=38|cHeight=48|oBottom=0|oLeft=6}}
+  |caption = Description for Greater Feral Capra Bodyguard
+  |location = 
+  |category = Chimera
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera mtgoat feral projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_mt_goatferal.png|bSize=192|cWidth=24|cHeight=24|oBottom=48|oLeft=48}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 4
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_mtgoat_feral_dung_hardmode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

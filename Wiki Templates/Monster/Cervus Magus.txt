@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Cervus Magus
+  |image_original = {{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=53|cHeight=70|oBottom=18|oLeft=6}}
+  |caption = Description for Cervus Magus
+  |location = 
+  |category = Chimera
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 60
+  |experience = 65
+  |damage_bonus = 35
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''stagmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=24|cHeight=24|oBottom=100|oLeft=196}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_stag_mage}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

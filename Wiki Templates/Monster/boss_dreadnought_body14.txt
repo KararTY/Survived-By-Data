@@ -1,0 +1,32 @@
+{{Enemy
+  |title = boss_dreadnought_body14
+  |image_original = {{CSS image crop|Image=Boss_dreadnought.png|bSize=512|cWidth=84|cHeight=68|oBottom=539|oLeft=25}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |max_health = {{Icon|Health|nolink=1}} 125000
+  |damage_bonus = 1
+  |accuracy = 150<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss dreadnought pod projectile''' {{!!}} <center>{{CSS image crop|Image=Worm_01.png|bSize=128|cWidth=15|cHeight=23|oBottom=102|oLeft=8}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

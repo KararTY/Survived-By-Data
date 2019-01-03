@@ -1,0 +1,65 @@
+{{Enemy
+  |title = Steam Anima
+  |image_original = {{CSS image crop|Image=spirit_nereides_steam.png|bSize=256|cWidth=53|cHeight=48|oBottom=15|oLeft=11}}
+  |caption = Description for Steam Anima
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides steam projectile1''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_steam.png|bSize=256|cWidth=13|cHeight=14|oBottom=151|oLeft=216}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides steam projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_steam.png|bSize=256|cWidth=13|cHeight=14|oBottom=151|oLeft=216}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 17
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides steam projectile3''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_steam.png|bSize=256|cWidth=13|cHeight=14|oBottom=151|oLeft=216}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 17
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_nereides_steam}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

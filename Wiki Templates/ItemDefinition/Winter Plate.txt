@@ -1,0 +1,33 @@
+{{Item
+  |title = Winter Plate
+  |image = Winter Plate.png
+  |caption = Though a human would need to wear padding beneath, limiting its value, if this armor were to be deployed to the Chimera it would likely mean the end of the human species.
+  |type = Armor
+  |tier = 4
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 300 {{Icon|Silver}}
+  |sell_cost = 140 {{Icon|Silver}}
+  |class = {{Icon|Sentinel}}<br>{{Icon|Geomancer}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*20+[$Item_Level]*4 <br>'''130'''
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 <br>'''130'''
+  |focus = 
+  |materials = x8 {{Icon|Metal}}<br>x2 {{Icon|Leather}}<br>x1 {{Icon|Deep Rime Catalyst}}
+  |silver_cost = 600 {{Icon|Silver|nolink=1}}
+  |time = 10 minutes
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
+  |dismantle_silver_cost = 154 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 7 minutes, 30 seconds
+}}
+
+[[Category:Armor]]
+[[Category:Tier 4]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+{{stub}}
+'''{{PAGENAME}}'''

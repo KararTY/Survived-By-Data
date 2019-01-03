@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Mountain Lion
+  |image_original = {{CSS image crop|Image=beast_mt_lion.png|bSize=192|cWidth=47|cHeight=42|oBottom=6|oLeft=1}}
+  |caption = Description for Mountain Lion
+  |location = 
+  |category = Beast
+  |tier = 3
+  |level = 11
+  |max_health = {{Icon|Health|nolink=1}} 180
+  |experience = 140
+  |damage_bonus = 60
+  |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''mtlion projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_mtlion}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

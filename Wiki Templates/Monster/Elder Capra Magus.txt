@@ -1,0 +1,89 @@
+<div class="tabbertab-borderless"><tabber>
+monster chimera mtgoat mage dung={{Enemy
+  |title = Elder Capra Magus
+  |image_original = {{CSS image crop|Image=chimera_mt_goatmage.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=2}}
+  |caption = Description for Elder Capra Magus
+  |location = 
+  |category = Chimera
+  |tier = 4
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 615
+  |experience = 340
+  |damage_bonus = 100
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera mtgoat mage projectile''' {{!!}} <center>{{CSS image crop|Image=Ooze_01.png|bSize=256|cWidth=20|cHeight=26|oBottom=69|oLeft=133}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Sickened'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} HealthRegen {{!!}} (Health regeneration decrease by <strong style="color:red;">25%</strong>)<br><small>[HealthRegen]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_mtgoat_mage_dung}}
+  }}
+|-|
+monster chimera mtgoat mage dung dangerous={{Enemy
+  |title = Elder Capra Magus
+  |image_original = {{CSS image crop|Image=chimera_mt_goatmage.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=2}}
+  |caption = Description for Elder Capra Magus
+  |location = 
+  |category = Chimera
+  |tier = 4
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 4800
+  |experience = 680
+  |damage_bonus = 145
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera mtgoat mage projectile''' {{!!}} <center>{{CSS image crop|Image=Ooze_01.png|bSize=256|cWidth=20|cHeight=26|oBottom=69|oLeft=133}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Sickened'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} HealthRegen {{!!}} (Health regeneration decrease by <strong style="color:red;">25%</strong>)<br><small>[HealthRegen]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_mtgoat_mage_dung_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,128 @@
+<div class="tabbertab-borderless"><tabber>
+monster bat={{Enemy
+  |title = Bat
+  |image_original = {{CSS image crop|Image=Bat_01.png|bSize=128|cWidth=16|cHeight=32|oBottom=0|oLeft=16}}
+  |caption = Description for Bat
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 6
+  |experience = 2
+  |damage_bonus = 11
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''bat projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">15%</strong>)<br><small>[CriticalChance]*0.85</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_bat}}
+  }}
+|-|
+monster batswarm={{Enemy
+  |title = Bat
+  |image = Bat.png
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 6
+  |experience = 5
+  |damage_bonus = 11
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''bat projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">15%</strong>)<br><small>[CriticalChance]*0.85</small>
+    {{!}}}
+  }}
+|-|
+monster bat T7={{Enemy
+  |title = Bat
+  |image_original = {{CSS image crop|Image=Bat_01.png|bSize=128|cWidth=16|cHeight=32|oBottom=0|oLeft=16}}
+  |caption = Description for Bat
+  |location = 
+  |category = Beast
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 3450
+  |experience = 250
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''bat projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">15%</strong>)<br><small>[CriticalChance]*0.85</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_bat_T7}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

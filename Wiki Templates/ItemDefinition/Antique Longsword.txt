@@ -1,0 +1,32 @@
+{{Item
+  |title = Antique Longsword
+  |image = Antique Longsword.png
+  |caption = Perhaps left over from the last war, this weapon has likely hung over a mantle for generations.
+  |type = Weapon
+  |tier = 2
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 30 {{Icon|Silver}}
+  |sell_cost = 20 {{Icon|Silver}}
+  |class = {{Icon|Sentinel}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*15+[$Item_Level]*3 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = x1 {{Icon|Quartz}}<br>x1 {{Icon|Wood}}<br>x1 {{Icon|Rosin Catalyst}}
+  |silver_cost = 80 {{Icon|Silver|nolink=1}}
+  |time = 40 seconds
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Embers}} 100%
+  |dismantle_silver_cost = 22 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 1 minute
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 2]]
+[[Category:Sentinel]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Feral Leucas
+  |image_original = {{CSS image crop|Image=chimera_shark_white.png|bSize=256|cWidth=44|cHeight=46|oBottom=8|oLeft=18}}
+  |caption = Description for Feral Leucas
+  |location = 
+  |category = Beast
+  |tier = 4
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 615
+  |experience = 340
+  |damage_bonus = 100
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera shark white projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_shark_white.png|bSize=256|cWidth=19|cHeight=46|oBottom=76|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_shark_beluga_whale}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

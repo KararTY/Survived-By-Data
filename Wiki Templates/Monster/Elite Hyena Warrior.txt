@@ -1,0 +1,67 @@
+<div class="tabbertab-borderless"><tabber>
+monster hyenawarrior elite={{Enemy
+  |title = Elite Hyena Warrior
+  |image_original = {{CSS image crop|Image=chimera_hyenawarrior.png|bSize=256|cWidth=53|cHeight=44|oBottom=11|oLeft=1}}
+  |location = 
+  |category = Chimera
+  |is_elite = Yes
+  |tier = 20
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 3500
+  |experience = 125
+  |damage_bonus = 100
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera hyenawarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_hyenawarrior.png|bSize=256|cWidth=19|cHeight=37|oBottom=68|oLeft=65}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+  }}
+|-|
+monster hyenawarrior elite minion={{Enemy
+  |title = Elite Hyena Warrior
+  |image_original = {{CSS image crop|Image=chimera_hyenawarrior.png|bSize=256|cWidth=53|cHeight=44|oBottom=11|oLeft=1}}
+  |location = 
+  |category = Chimera
+  |tier = 20
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 3500
+  |experience = 125
+  |damage_bonus = 100
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera hyenawarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_hyenawarrior.png|bSize=256|cWidth=19|cHeight=37|oBottom=68|oLeft=65}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

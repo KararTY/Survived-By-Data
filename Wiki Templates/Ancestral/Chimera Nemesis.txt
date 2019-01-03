@@ -1,0 +1,104 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Chimera Nemesis 1 (Common)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Chimera Nemesis
+    | description = Damage against Chimera is increased by 5.4%
+    | level = 1
+    | rarity = common
+    | ordinary1 = AL_Damage
+    | ordinary2 = AL_icon_Chimera
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage plus
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Chimera Nemesis
+    | description = Damage against Chimera is increased by 25%
+    | level = 50
+    | rarity = common
+    | ordinary1 = AL_Damage
+    | ordinary2 = AL_icon_Chimera
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage plus
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Chimera Nemesis
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Common
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | DamageIncreaseChimera || [DamageIncreaseChimera]+[$Benefit]/100 || 
+    |-
+    | Benefit || 5+([AncestralData.Ancestral_Level]x0.4) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_percentage plus.png]] [[Ancestral_Legacy/Set Bonus#Damage_Bonus_Set|Damage Bonus Set]]
+  |}
+|-|
+Chimera Nemesis 2 (Uncommon)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Chimera Nemesis
+    | description = Damage against Chimera is increased by 10.8%
+    | level = 1
+    | rarity = uncommon
+    | ordinary1 = AL_Damage
+    | ordinary2 = AL_icon_Chimera
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage plus
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Chimera Nemesis
+    | description = Damage against Chimera is increased by 50%
+    | level = 50
+    | rarity = uncommon
+    | ordinary1 = AL_Damage
+    | ordinary2 = AL_icon_Chimera
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage plus
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Chimera Nemesis
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Uncommon
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | DamageIncreaseChimera || [DamageIncreaseChimera]+[$Benefit]/100 || 
+    |-
+    | Benefit || 10+([AncestralData.Ancestral_Level]x0.8) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_percentage plus.png]] [[Ancestral_Legacy/Set Bonus#Damage_Bonus_Set|Damage Bonus Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>Damage against Chimera is increased by X%</includeonly></onlyinclude>

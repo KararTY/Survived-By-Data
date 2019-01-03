@@ -1,11 +1,13 @@
 const MWBot = require('mwbot')
 const readline = require('readline')
+const exec = require('child_process').exec
 
 const path = require('path')
 const fs = require('fs')
 
 const settings = require(path.join(__dirname, 'env.json'))
 const patchDate = require(path.join(__dirname, '..', 'patchDate.json'))['patchDate']
+
 
 let bot = new MWBot()
 
@@ -14,7 +16,7 @@ function ask(question, callback) {
     input: process.stdin,
     output: process.stdout
   })
-  r.question(question + '\n', function (answer) {
+  r.question(question + ': ', function (answer) {
     r.close()
     callback(null, answer)
   })
@@ -24,22 +26,24 @@ function askToUpload(array, count, type) {
   var filename = array[count]
   let articleName = type === 'LootTable' ? `Loot_table/${filename.split('.')[0]}` : `${filename.split('.')[0]}/info`
   bot.read(articleName).then(article => {
-    // Exists, check gen date & compare against patchDate
+    // Exists, check gen date & compare against git latest git commit.
     let articleText = article.query.pages[Object.keys(article.query.pages)[0]]['revisions'] ? article.query.pages[Object.keys(article.query.pages)[0]]['revisions'][0]['*'] : undefined
     if (articleText) {
       let genString = articleText.match(/<!-- ALL LINES ABOVE ARE AUTOMATED[\w;: ,0-9]+ -->/) ? articleText.match(/<!-- ALL LINES ABOVE ARE AUTOMATED[\w;: ,0-9]+ -->/)[0].split(';').pop().replace('GENERATION DATE:', '').replace(' -->', '') : undefined
-      if (!genString || (Date.parse(patchDate) > Date.parse(genString))) {
-        // There's an update, continue.
-        console.log(`${filename.split('.')[0]}\nneeds update:\t${genString}`)
-        goAhead()
-      } else {
-        console.log(`${filename.split('.')[0]}\nis already up to date:\t${genString}`)
-        count++
-        if (count === array.length) return console.log('Completed!')
-        askToUpload(array, count, type)
-      }
+      exec(`git log -1 --format=%cd "${path.join(__dirname, '..', 'Patches', patchDate, 'Monster', filename.split('.')[0])}.json"`, (err, stdout, stderr) => {
+        if (!genString || (Date.parse(stdout) > Date.parse(genString))) {
+          // There's an update, continue.
+          console.log(`(${filename.split('.')[0]}) needs update!\tArticle: ${genString}\tLocal git: ${stdout}`)
+          goAhead()
+        } else {
+          console.log(`(${filename.split('.')[0]}) is already up to date.\tArticle: ${genString}\tLocal git: ${stdout}`)
+          count++
+          if (count === array.length) return console.log('Completed!')
+          askToUpload(array, count, type)
+        }
+      })
     } else {
-      goAhead()
+      // goAhead()
     }
   })
   function goAhead() {

@@ -1,0 +1,37 @@
+{{Item
+  |title = Relic of the Gorgon
+  |image = Relic of the Gorgon.png
+  |caption = The Gorgon is a creature of intelligence and foresight, looking beyond the war for long term power. That clarity of thought infuses those that bear her relic.
+  |type = Misc
+  |tier = 9
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+40 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 9]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

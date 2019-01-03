@@ -1,0 +1,31 @@
+{{Item
+  |title = Estate of the Immortal Key
+  |image = Estate of the Immortal Key.png
+  |caption = Used to gain access to the Estate of the Immortal.
+  |type = Misc
+  |tier = 
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 1 {{Icon|Silver}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

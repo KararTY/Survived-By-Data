@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Greater Lava Lizard
+  |image_original = {{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=60|cHeight=43|oBottom=21|oLeft=3}}
+  |caption = Description for Greater Lava Lizard
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''lavalizard projectile''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_lavalizard_hardmode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

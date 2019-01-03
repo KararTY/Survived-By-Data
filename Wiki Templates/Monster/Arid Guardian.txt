@@ -1,0 +1,61 @@
+{{Enemy
+  |title = Arid Guardian
+  |image_original = {{CSS image crop|Image=spirit_golem_sand.png|bSize=384|cWidth=71|cHeight=78|oBottom=10|oLeft=10}}
+  |caption = Description for Arid Guardian
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 3
+  |level = 11
+  |max_health = {{Icon|Health|nolink=1}} 180
+  |experience = 140
+  |damage_bonus = 55
+  |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit golem sand projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_sand.png|bSize=384|cWidth=32|cHeight=34|oBottom=97|oLeft=195}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit golem sand projectile blast''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_sand.png|bSize=384|cWidth=21|cHeight=22|oBottom=159|oLeft=301}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Slowed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 10 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RateOfAttack {{!!}} (Rate of attack decrease by <strong style="color:red;">15%</strong>)<br><small>[RateOfAttack]*0.85</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_golem_sand}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

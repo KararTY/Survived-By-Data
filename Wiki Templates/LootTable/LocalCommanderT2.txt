@@ -1,0 +1,41 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/LocalCommanderT2|LocalCommanderT2]])'''
+<br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Simple Keepsake}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Antique Plate Armor}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Forester Mantle}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Hunter Leathers}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Logger Sabaton}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Farmer Boots}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Heritage Band}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Unworked Stone Totem}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Chipped Stone Pick}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Huntsman's Bow}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Stone Staff}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Antique Longsword}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Workman's Knife}} || style="text-align:right" | 1% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/LocalCommanderT2}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

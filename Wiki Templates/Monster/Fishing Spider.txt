@@ -1,0 +1,79 @@
+<div class="tabbertab-borderless"><tabber>
+monster piranha fishing spider={{Enemy
+  |title = Fishing Spider
+  |image_original = {{CSS image crop|Image=beast_piranha.png|bSize=192|cWidth=38|cHeight=17|oBottom=31|oLeft=4}}
+  |caption = Description for Piranha
+  |location = 
+  |category = Beast
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 1575
+  |experience = 350
+  |damage_bonus = 205
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''piranha projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 1.5
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_piranha_fishing_spider}}
+  }}
+|-|
+monster spider fishing={{Enemy
+  |title = Fishing Spider
+  |image_original = {{CSS image crop|Image=spider_fishing.png|bSize=192|cWidth=45|cHeight=32|oBottom=10|oLeft=2}}
+  |caption = Description for Fishing Spider
+  |location = 
+  |category = Beast
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 1733
+  |experience = 350
+  |damage_bonus = 215
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider tarantula projectile''' {{!!}} <center>{{CSS image crop|Image=spider_tarantula.png|bSize=192|cWidth=13|cHeight=22|oBottom=49|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Sickened'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} HealthRegen {{!!}} (Health regeneration decrease by <strong style="color:red;">40%</strong>)<br><small>[HealthRegen]*0.6</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_fishing}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

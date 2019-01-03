@@ -1,0 +1,45 @@
+{{Enemy
+  |title = Fissure Ambusher
+  |image_original = {{CSS image crop|Image=beast_spider_trapdoor.png|bSize=192|cWidth=40|cHeight=28|oBottom=12|oLeft=4}}
+  |caption = Description for Fissure Ambusher
+  |location = 
+  |category = Beast
+  |tier = 3
+  |level = 11
+  |max_health = {{Icon|Health|nolink=1}} 180
+  |experience = 140
+  |damage_bonus = 60
+  |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider trapdoor projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_trapdoor.png|bSize=192|cWidth=13|cHeight=22|oBottom=49|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Sickened'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} HealthRegen {{!!}} (Health regeneration decrease by <strong style="color:red;">40%</strong>)<br><small>[HealthRegen]*0.6</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_trapdoor_fissure}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

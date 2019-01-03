@@ -1,0 +1,34 @@
+{{Item
+  |title = Pyroclast Master (I) Boots
+  |image = Pyroclast Master (I) Boots.png
+  |caption = Reforging a fully empowered Boots of the Antecedent with the Pyroclast of a powerful Infernal infuses the boots with unmatched destructive potential.
+  |type = Boots
+  |tier = 10
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 30000 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*10+[$Item_Level]*2 
+  |willpower = 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = x2 {{Icon|Pyroclast Catalyst, Grade I}}<br>x1 {{Icon|Boots of the Antecedent}}<br>x2 {{Icon|Masterwork Smooth Padding}}<br>x2 {{Icon|Masterwork Studded Padding}}
+  |silver_cost = 150000 {{Icon|Silver|nolink=1}}
+  |time = 24 hours
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Composite Smoldering Alloy}} 50%<br>x1 {{Icon|Composite Smoldering Fabric}} 50%<br>x1 {{Icon|Composite Smoldering Grain}} 50%
+  |dismantle_silver_cost = 33000 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 18 hours
+}}
+
+[[Category:Boots]]
+[[Category:Tier 10]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+{{stub}}
+'''{{PAGENAME}}'''

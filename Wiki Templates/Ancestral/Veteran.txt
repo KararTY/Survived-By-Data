@@ -1,0 +1,100 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Veteran 3 (Rare)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Veteran
+    | description = Damage reduction is increased by 2.08%
+    | level = 1
+    | rarity = rare
+    | ordinary1 = AL_Damage reduction
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage minus
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Veteran
+    | description = Damage reduction is increased by 6%
+    | level = 50
+    | rarity = rare
+    | ordinary1 = AL_Damage reduction
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage minus
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Veteran
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Rare
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | DamageReduction || [DamageReduction] + ([DamageReduction] x [$Benefit]/100) || 
+    |-
+    | Benefit || 2+([AncestralData.Ancestral_Level]x0.08) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_percentage minus.png]] [[Ancestral_Legacy/Set Bonus#Damage_Reduction_Set|Damage Reduction Set]]
+  |}
+|-|
+Veteran 4 (Legendary)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Veteran
+    | description = Damage reduction is increased by 3.24%
+    | level = 1
+    | rarity = legendary
+    | ordinary1 = AL_Damage reduction
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage minus
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Veteran
+    | description = Damage reduction is increased by 15%
+    | level = 50
+    | rarity = legendary
+    | ordinary1 = AL_Damage reduction
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage minus
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Veteran
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Legendary
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | DamageReduction || [DamageReduction] + ([DamageReduction] x [$Benefit]/100) || 
+    |-
+    | Benefit || 3+([AncestralData.Ancestral_Level]x0.24) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_percentage minus.png]] [[Ancestral_Legacy/Set Bonus#Damage_Reduction_Set|Damage Reduction Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>Damage reduction is increased by X%</includeonly></onlyinclude>

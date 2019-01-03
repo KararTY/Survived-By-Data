@@ -1,0 +1,93 @@
+<div class="tabbertab-borderless"><tabber>
+tutorial monster chimera hyena={{Enemy
+  |title = Feral Crocuta
+  |image_original = {{CSS image crop|Image=chimera_hyena.png|bSize=192|cWidth=48|cHeight=47|oBottom=1|oLeft=0}}
+  |location = 
+  |category = Chimera
+  |level = 12
+  |max_health = {{Icon|Health|nolink=1}} 220
+  |damage_bonus = 65
+  |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera hyenaferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_hyena.png|bSize=192|cWidth=11|cHeight=33|oBottom=55|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+  }}
+|-|
+monster chimera hyena={{Enemy
+  |title = Feral Crocuta
+  |image_original = {{CSS image crop|Image=chimera_hyena.png|bSize=192|cWidth=48|cHeight=47|oBottom=1|oLeft=0}}
+  |caption = Description for Feral Crocuta
+  |location = 
+  |category = Chimera
+  |tier = 3
+  |level = 12
+  |max_health = {{Icon|Health|nolink=1}} 220
+  |experience = 170
+  |damage_bonus = 64
+  |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera hyenaferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_hyena.png|bSize=192|cWidth=11|cHeight=33|oBottom=55|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera hyenaferal projectile2''' {{!!}} <center>{{CSS image crop|Image=chimera_hyena.png|bSize=192|cWidth=11|cHeight=33|oBottom=55|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera hyenaferal projectile3''' {{!!}} <center>{{CSS image crop|Image=chimera_hyena.png|bSize=192|cWidth=11|cHeight=33|oBottom=55|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_hyena}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

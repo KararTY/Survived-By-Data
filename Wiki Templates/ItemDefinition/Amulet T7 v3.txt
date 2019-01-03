@@ -1,0 +1,37 @@
+{{Item
+  |title = Amulet T7 v3
+  |image = Amulet T7 v3.png
+  |caption = Amulets rest upon heart, granting increased vitality, potency and endurance.
+  |type = Amulet
+  |tier = 7
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 27 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Amulet]]
+[[Category:Tier 7]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

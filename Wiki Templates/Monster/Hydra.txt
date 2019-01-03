@@ -1,0 +1,108 @@
+<div class="tabbertab-borderless"><tabber>
+boss hydra={{Enemy
+  |title = Hydra
+  |image_original = {{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=41|cHeight=23|oBottom=69|oLeft=42}}
+  |caption = Description for Hydra
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 2
+  |level = 10
+  |max_health = {{Icon|Health|nolink=1}} 3400
+  |experience = 3000
+  |damage_bonus = 64
+  |accuracy = 190<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 45<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss hydra projectile''' {{!!}} <center>{{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=28|cHeight=28|oBottom=771|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.05
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss hydra projectile2''' {{!!}} <center>{{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=82|cHeight=43|oBottom=777|oLeft=36}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}}
+  |drops = {{:Loot table/boss_hydra}}
+  }}
+|-|
+boss hydra world={{Enemy
+  |title = Hydra
+  |image_original = {{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=41|cHeight=23|oBottom=69|oLeft=42}}
+  |caption = Description for Hydra
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 2
+  |level = 10
+  |max_health = {{Icon|Health|nolink=1}} 49500
+  |experience = 260
+  |damage_bonus = 60
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss hydra projectile''' {{!!}} <center>{{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=28|cHeight=28|oBottom=771|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.05
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss hydra projectile2''' {{!!}} <center>{{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=82|cHeight=43|oBottom=777|oLeft=36}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

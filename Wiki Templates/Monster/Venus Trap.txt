@@ -1,0 +1,125 @@
+<div class="tabbertab-borderless"><tabber>
+plant venus={{Enemy
+  |title = Venus Trap
+  |image_original = {{CSS image crop|Image=plant_venus.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |caption = Description for Venus Trap
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 2
+  |level = 6
+  |max_health = {{Icon|Health|nolink=1}} 60
+  |experience = 40
+  |damage_bonus = 35
+  |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant venus projectile''' {{!!}} <center>{{CSS image crop|Image=plant_venus.png|bSize=192|cWidth=12|cHeight=24|oBottom=48|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Paralyzed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 2 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}}}
+  |drops = {{:Loot table/plant_venus}}
+  }}
+|-|
+boss elementalspirit venus seed={{Enemy
+  |title = Venus Trap
+  |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 7000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant venus projectile''' {{!!}} <center>{{CSS image crop|Image=plant_venus.png|bSize=192|cWidth=12|cHeight=24|oBottom=48|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Paralyzed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 2 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}}}
+  |drops = {{:Loot table/boss_elementalspirit_venus_seed}}
+  }}
+|-|
+boss elementalspirit venus={{Enemy
+  |title = Venus Trap
+  |image_original = {{CSS image crop|Image=plant_venus_bio.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 13000
+  |damage_bonus = 330
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant venus projectile''' {{!!}} <center>{{CSS image crop|Image=plant_venus.png|bSize=192|cWidth=12|cHeight=24|oBottom=48|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Paralyzed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 2 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

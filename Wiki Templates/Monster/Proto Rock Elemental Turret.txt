@@ -1,0 +1,28 @@
+{{Enemy
+  |title = Proto Rock Elemental Turret
+  |image_original = {{CSS image crop|Image=geomancer_01.png|bSize=192|cWidth=14|cHeight=32|oBottom=112|oLeft=65}}
+  |location = 
+  |category = None
+  |max_health = {{Icon|Health|nolink=1}} 20
+  |accuracy = 150<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''monster stone golem minion projectile''' {{!!}} <center>{{CSS image crop|Image=geomancer_01.png|bSize=192|cWidth=21|cHeight=24|oBottom=162|oLeft=106}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

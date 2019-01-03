@@ -1,0 +1,91 @@
+{{Item
+  |title = Ring of the Antecedent
+  |image = Ring of the Antecedent.png
+  |caption = An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, its true strength lies in being the foundation for an even greater power.
+  |type = Ring
+  |tier = 9
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 150 {{Icon|Silver}}
+  |sell_cost = 10000 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = {{Icon|Energy|nolink=1}} [ManaMax]+[$Tier]*10+[$Item_Level]*2 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = x1 {{Icon|Enriched Jet Catalyst}}<br>x6 {{Icon|Sable}}<br>x6 {{Icon|Encased Obsidian}}
+  |silver_cost = 60000 {{Icon|Silver|nolink=1}}
+  |time = 12 hours
+  |dismantle_chance = 
+  |dismantle_materials = {{Icon|Composite Smoldering Alloy}} 50%<br>{{Icon|Composite Smoldering Fabric}} 50%<br>{{Icon|Composite Smoldering Grain}} 50%
+  |dismantle_silver_cost = 11000 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 9 hours
+}}
+
+{{Item
+  |title = Ring of the Antecedent
+  |image = Ring of the Antecedent.png
+  |caption = An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.
+  |type = Ring
+  |tier = 9
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 1000 {{Icon|Silver}}
+  |sell_cost = 500 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = {{Icon|Energy|nolink=1}} [ManaMax]+[$Tier]*10+[$Item_Level]*2 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+{{Item
+  |title = Ring of the Antecedent
+  |image = Ring of the Antecedent.png
+  |caption = An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.
+  |type = Ring
+  |tier = 9
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 1000 {{Icon|Silver}}
+  |sell_cost = 500 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = {{Icon|Energy|nolink=1}} [ManaMax]+[$Tier]*10+[$Item_Level]*2 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Ring]]
+[[Category:Tier 9]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

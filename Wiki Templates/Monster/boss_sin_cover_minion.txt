@@ -1,0 +1,33 @@
+{{Enemy
+  |title = boss_sin_cover_minion
+  |image_original = {{CSS image crop|Image=Boss_Sin_Blocker Stone.png|bSize=256|cWidth=64|cHeight=95|oBottom=1|oLeft=192}}
+  |location = 
+  |category = Sin
+  |element = An
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 62500
+  |experience = 2200
+  |damage_bonus = 750
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''boss sin coverminion projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 0.5
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 20
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Sin]]
+[[Category:An]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

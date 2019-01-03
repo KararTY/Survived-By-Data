@@ -1,0 +1,32 @@
+{{Item
+  |title = Permafrost Blade
+  |image = Permafrost Blade.png
+  |caption = This preternatural blade is permanently frozen, making it resilient and deadly; and absolutely critical to keep out of the hands of the Chimera on the surface.
+  |type = Weapon
+  |tier = 4
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 270 {{Icon|Silver}}
+  |sell_cost = 140 {{Icon|Silver}}
+  |class = {{Icon|Sentinel}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*15+[$Item_Level]*3 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = x6 {{Icon|Metal}}<br>x2 {{Icon|Timber}}<br>x1 {{Icon|Deep Rime Catalyst}}
+  |silver_cost = 600 {{Icon|Silver|nolink=1}}
+  |time = 10 minutes
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
+  |dismantle_silver_cost = 154 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 7 minutes, 30 seconds
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 4]]
+[[Category:Sentinel]]
+{{stub}}
+'''{{PAGENAME}}'''

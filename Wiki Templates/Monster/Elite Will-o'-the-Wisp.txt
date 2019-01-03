@@ -1,0 +1,49 @@
+{{Enemy
+  |title = Elite Will-o'-the-Wisp
+  |image_original = {{CSS image crop|Image=spirit_wil-o-wisp_large.png|bSize=192|cWidth=30|cHeight=48|oBottom=0|oLeft=11}}
+  |caption = Description for Elite Will-o'-the-Wisp
+  |location = 
+  |category = Spirit
+  |is_elite = Yes
+  |element = Ki
+  |tier = 7
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 20240
+  |experience = 3000
+  |damage_bonus = 253
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit willowisp large elite projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_wil-o-wisp_large.png|bSize=192|cWidth=22|cHeight=30|oBottom=96|oLeft=96}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 9
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">35%</strong>)<br><small>[MovementSpeed]*0.65</small>
+    {{!}}}
+  |dialogue = <u>'''90% health:'''</u> ''We rage... because she rages...''<br><u>'''40% health:'''</u> ''You and yours... will not know peace... until she knows peace...''
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

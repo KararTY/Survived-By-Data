@@ -1,0 +1,69 @@
+<div class="tabbertab-borderless"><tabber>
+monster chimera wolfmage dung={{Enemy
+  |title = Lupus Magus Emissary
+  |image_original = {{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=38|cHeight=58|oBottom=5|oLeft=13}}
+  |caption = Description for Lupus Mahus Emissary
+  |location = 
+  |category = Chimera
+  |tier = 4
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 615
+  |experience = 340
+  |damage_bonus = 102
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=19|cHeight=42|oBottom=76|oLeft=199}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_wolfmage_dung}}
+  }}
+|-|
+monster chimera wolfmage dung dangerous={{Enemy
+  |title = Lupus Magus Emissary
+  |image_original = {{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=38|cHeight=58|oBottom=5|oLeft=13}}
+  |caption = Description for Lupus Mahus Emissary
+  |location = 
+  |category = Chimera
+  |tier = 4
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 4800
+  |experience = 680
+  |damage_bonus = 145
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=19|cHeight=42|oBottom=76|oLeft=199}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_wolfmage_dung_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,37 @@
+{{Item
+  |title = Tempering Oil
+  |image = Tempering Oil.png
+  |caption = Bloodstone is believed to contain the strength of fallen heroes, and an oil that contains fragments of Bloodstone, when applied to a piece of exceptional equipment allows that equipment to become more powerful as it is used in battle. This effect lasts for one hour.
+  |type = Misc
+  |tier = 
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 30 {{Icon|Bloodstone}}
+  |sell_cost = 
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

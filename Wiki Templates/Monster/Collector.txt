@@ -1,0 +1,345 @@
+<div class="tabbertab-borderless"><tabber>
+monster agent collector tutorial={{Enemy
+  |title = Collector
+  |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 2400
+  |damage_bonus = 240
+  |accuracy = 156.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 28.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''collector projectile''' {{!!}} <center>{{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=14|cHeight=27|oBottom=199|oLeft=201}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 4
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">40%</strong>)<br><small>[MovementSpeed]*0.6</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''collector special projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Collector Venom'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} Potency {{!!}} 26.63<br><small>[Potency]*0.5 '''53.25'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+  |drops = {{:Loot table/monster_agent_collector_tutorial}}
+  }}
+|-|
+monster agent collector={{Enemy
+  |title = Collector
+  |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
+  |caption = Description for Collector
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 5
+  |level = 22
+  |max_health = {{Icon|Health|nolink=1}} 1638
+  |experience = 550
+  |damage_bonus = 153
+  |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''collector projectile''' {{!!}} <center>{{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=14|cHeight=27|oBottom=199|oLeft=201}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 4
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">40%</strong>)<br><small>[MovementSpeed]*0.6</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''collector special projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Collector Venom'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} Potency {{!!}} 26.63<br><small>[Potency]*0.5 '''53.25'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+  |drops = {{:Loot table/monster_agent_collector}}
+  }}
+|-|
+monster agent collector elite={{Enemy
+  |title = Collector
+  |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
+  |caption = Description for Collector
+  |location = 
+  |category = Agent
+  |is_elite = Yes
+  |element = Ur
+  |tier = 5
+  |level = 23
+  |max_health = {{Icon|Health|nolink=1}} 6552
+  |experience = 2200
+  |damage_bonus = 163
+  |accuracy = 361.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 130.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''collector projectile''' {{!!}} <center>{{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=14|cHeight=27|oBottom=199|oLeft=201}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 4
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">40%</strong>)<br><small>[MovementSpeed]*0.6</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''collector special projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Collector Venom'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} Potency {{!!}} 26.63<br><small>[Potency]*0.5 '''53.25'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+  }}
+|-|
+monster agent collector dangerous={{Enemy
+  |title = Collector
+  |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
+  |caption = Description for Collector
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 5
+  |level = 22
+  |max_health = {{Icon|Health|nolink=1}} 12000
+  |experience = 1100
+  |damage_bonus = 220
+  |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''collector projectile''' {{!!}} <center>{{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=14|cHeight=27|oBottom=199|oLeft=201}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 4
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">40%</strong>)<br><small>[MovementSpeed]*0.6</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''collector special projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Collector Venom'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} Potency {{!!}} 26.63<br><small>[Potency]*0.5 '''53.25'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+  |drops = {{:Loot table/monster_agent_collector_dangerous}}
+  }}
+|-|
+monster agent collector T7={{Enemy
+  |title = Collector
+  |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
+  |caption = Description for Boreal Collector
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''collector T7 projectile''' {{!!}} <center>{{CSS image crop|Image=agent_collector_T7.png|bSize=256|cWidth=14|cHeight=27|oBottom=199|oLeft=201}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 4
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">40%</strong>)<br><small>[MovementSpeed]*0.6</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''collector T7 special projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Collector Venom'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} Potency {{!!}} 26.63<br><small>[Potency]*0.5 '''53.25'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+  |drops = {{:Loot table/monster_agent_collector_T7}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

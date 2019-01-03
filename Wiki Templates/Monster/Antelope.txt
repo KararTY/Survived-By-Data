@@ -1,0 +1,33 @@
+{{Enemy
+  |title = Antelope
+  |image_original = {{CSS image crop|Image=beast_antelope.png|bSize=192|cWidth=47|cHeight=48|oBottom=0|oLeft=0}}
+  |caption = Description for Antelope
+  |location = 
+  |category = Beast
+  |tier = 3
+  |level = 11
+  |max_health = {{Icon|Health|nolink=1}} 180
+  |experience = 140
+  |damage_bonus = 60
+  |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9.25
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+  |drops = {{:Loot table/monster_antelope}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

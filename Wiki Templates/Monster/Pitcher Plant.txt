@@ -1,0 +1,146 @@
+<div class="tabbertab-borderless"><tabber>
+plant grenade={{Enemy
+  |title = Pitcher Plant
+  |image_original = {{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=38|cHeight=45|oBottom=3|oLeft=6}}
+  |caption = Description for Pitcher Plant
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 5
+  |level = 21
+  |max_health = {{Icon|Health|nolink=1}} 1394
+  |experience = 500
+  |damage_bonus = 143
+  |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 113.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant grenade projectile''' {{!!}} <center>{{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=12|cHeight=27|oBottom=107|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant grenade projectile explode''' {{!!}} <center>{{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=12|cHeight=27|oBottom=107|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/plant_grenade}}
+  }}
+|-|
+boss elementalspirit grenade seed={{Enemy
+  |title = Pitcher Plant
+  |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 7000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant grenade projectile''' {{!!}} <center>{{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=12|cHeight=27|oBottom=107|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant grenade projectile explode''' {{!!}} <center>{{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=12|cHeight=27|oBottom=107|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/boss_elementalspirit_grenade_seed}}
+  }}
+|-|
+boss elementalspirit grenade={{Enemy
+  |title = Pitcher Plant
+  |image_original = {{CSS image crop|Image=plant_grenade_bio.png|bSize=192|cWidth=42|cHeight=45|oBottom=3|oLeft=3}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 13000
+  |damage_bonus = 330
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant grenade projectile''' {{!!}} <center>{{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=12|cHeight=27|oBottom=107|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant grenade projectile explode''' {{!!}} <center>{{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=12|cHeight=27|oBottom=107|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

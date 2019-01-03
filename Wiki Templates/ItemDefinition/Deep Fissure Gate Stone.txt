@@ -1,0 +1,31 @@
+{{Item
+  |title = Deep Fissure Gate Stone
+  |image = Deep Fissure Gate Stone.png
+  |caption = In the deepest depths of the Heartland there is a creature that is the night made manifest. It was sealed away as it slumbered in a time long forgotten. Should one wish to descend and face it, they will need this key.
+  |type = Misc
+  |tier = 1
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 10000 {{Icon|Silver}}
+  |sell_cost = 5000 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|First Gate Stone Fragment}}<br>x1 {{Icon|Second Gate Stone Fragment}}<br>x1 {{Icon|Third Gate Stone Fragment}}<br>x1 {{Icon|Fourth Gate Stone Fragment}}<br>x1 {{Icon|Fifth Gate Stone Fragment}}<br>x1 {{Icon|Sixth Gate Stone Fragment}}<br>x1 {{Icon|Seventh Gate Stone Fragment}}<br>x1 {{Icon|Eighth Gate Stone Fragment}}
+  |silver_cost = 
+  |time = 10 minutes
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 1]]
+{{stub}}
+'''{{PAGENAME}}'''

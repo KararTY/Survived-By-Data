@@ -1,0 +1,28 @@
+{| class="wikitable"
+  ! colspan="3" | Long Shot Imprint
+  |-
+  | colspan="3" style="text-align:center;max-width:329px;" | <i><description></i>
+  |-
+  | Category || colspan="2" | Prefix
+  |-
+  | Name modification || colspan="2" | Long Shot ...
+  |-
+  | Chance to apply || colspan="2" | 5%
+  |-
+|}
+{| class="wikitable mw-collapsible mw-collapsed"
+  ! colspan="3" | Weapon {{Icon|Alchemist|nolink=1}} {{Icon|Harbinger|nolink=1}} {{Icon|Infiltrator|nolink=1}} {{Icon|Sentinel|nolink=1}} {{Icon|Geomancer|nolink=1}} {{Icon|Druid|nolink=1}}
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | WeaponIndex ||  || 1
+  |-
+  | Gear_Score || x1.1 || 1
+|}
+<includeonly>
+[[Category:Imprint]]
+[[Category:Prefix]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

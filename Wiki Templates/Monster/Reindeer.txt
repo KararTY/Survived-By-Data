@@ -1,0 +1,65 @@
+<div class="tabbertab-borderless"><tabber>
+monster stag reindeer={{Enemy
+  |title = Reindeer
+  |image_original = {{CSS image crop|Image=beast_stag.png|bSize=256|cWidth=52|cHeight=64|oBottom=0|oLeft=6}}
+  |caption = Description for Reindeer
+  |location = 
+  |category = Beast
+  |tier = 4
+  |level = 16
+  |max_health = {{Icon|Health|nolink=1}} 515
+  |experience = 300
+  |damage_bonus = 95
+  |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9.25
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+  |drops = {{:Loot table/monster_stag_reindeer}}
+  }}
+|-|
+monster stag reindeer T6={{Enemy
+  |title = Reindeer
+  |image_original = {{CSS image crop|Image=beast_stag.png|bSize=256|cWidth=52|cHeight=64|oBottom=0|oLeft=6}}
+  |caption = Description for Reindeer
+  |location = 
+  |category = Beast
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 3465
+  |experience = 750
+  |damage_bonus = 215
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9.25
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+  |drops = {{:Loot table/monster_stag_reindeer_T6}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

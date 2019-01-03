@@ -1,0 +1,41 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/MountingLoot}}'''Loot table: ([[Loot table/HeirloomLoot|HeirloomLoot]])'''
+<br>Maximum drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Choker of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Breastplate of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Mantle of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Armor of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Boots of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Pattens of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Totem of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Axe of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Bow of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Staff of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Sword of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Circle of Thorns}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Knives of Thorns}} || style="text-align:right" | 0.01% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/HeirloomLoot}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

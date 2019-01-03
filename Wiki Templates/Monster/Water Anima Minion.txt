@@ -1,0 +1,64 @@
+{{Enemy
+  |title = Water Anima Minion
+  |image_original = {{CSS image crop|Image=spirit_nereides_freshwater.png|bSize=256|cWidth=53|cHeight=45|oBottom=19|oLeft=11}}
+  |caption = Description for Water Anima Minion
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 6
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 6930
+  |experience = 1500
+  |damage_bonus = 221
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides freshwater projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_freshwater.png|bSize=256|cWidth=13|cHeight=16|oBottom=156|oLeft=153}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides freshwater projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_freshwater.png|bSize=256|cWidth=13|cHeight=16|oBottom=156|oLeft=153}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 17
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides freshwater projectile3''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_freshwater.png|bSize=256|cWidth=13|cHeight=16|oBottom=156|oLeft=153}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 17
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,18 @@
+{{Enemy
+  |title = boss_director_left_target
+  |image = boss_director_left_target.png
+  |location = 
+  |category = Agent
+  |is_set_piece_monster = Yes
+  |element = Ur
+  |max_health = {{Icon|Health|nolink=1}} 1
+  |accuracy = 150<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+[[Category:Set Piece Monster]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,89 @@
+<div class="tabbertab-borderless"><tabber>
+monster chimera batmage dung hardmode={{Enemy
+  |title = Greater Chiroptera Sorcerer
+  |image_original = {{CSS image crop|Image=chimera_batmage.png|bSize=384|cWidth=88|cHeight=80|oBottom=16|oLeft=98}}
+  |caption = Description for Greater Chiroptera Sorcerer
+  |location = 
+  |category = Chimera
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''batmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_batmage.png|bSize=384|cWidth=18|cHeight=47|oBottom=117|oLeft=208}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">50%</strong>)<br><small>[CriticalChance]*0.5</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_batmage_dung_hardmode}}
+  }}
+|-|
+monster chimera batmage dung hardmode dangerous={{Enemy
+  |title = Greater Chiroptera Sorcerer
+  |image_original = {{CSS image crop|Image=chimera_batmage.png|bSize=384|cWidth=88|cHeight=80|oBottom=16|oLeft=98}}
+  |caption = Description for Greater Chiroptera Sorcerer
+  |location = 
+  |category = Chimera
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 200000
+  |experience = 1800
+  |damage_bonus = 480
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''batmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_batmage.png|bSize=384|cWidth=18|cHeight=47|oBottom=117|oLeft=208}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">50%</strong>)<br><small>[CriticalChance]*0.5</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_batmage_dung_hardmode_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

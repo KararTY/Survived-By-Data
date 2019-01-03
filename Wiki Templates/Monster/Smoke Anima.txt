@@ -1,0 +1,65 @@
+{{Enemy
+  |title = Smoke Anima
+  |image_original = {{CSS image crop|Image=spirit_nereides_smoke.png|bSize=256|cWidth=53|cHeight=48|oBottom=15|oLeft=11}}
+  |caption = Description for Smoke Anima
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 5
+  |level = 22
+  |max_health = {{Icon|Health|nolink=1}} 1638
+  |experience = 550
+  |damage_bonus = 153
+  |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides smoke projectile1''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_smoke.png|bSize=256|cWidth=13|cHeight=14|oBottom=151|oLeft=216}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides smoke projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_smoke.png|bSize=256|cWidth=13|cHeight=14|oBottom=151|oLeft=216}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 17
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides smoke projectile3''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_smoke.png|bSize=256|cWidth=13|cHeight=14|oBottom=151|oLeft=216}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 17
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_nereides_smoke}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

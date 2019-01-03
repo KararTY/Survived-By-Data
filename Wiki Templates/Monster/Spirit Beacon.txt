@@ -1,0 +1,32 @@
+<div class="tabbertab-borderless"><tabber>
+boss shaman torch1={{Enemy
+  |title = Spirit Beacon
+  |image_original = {{CSS image crop|Image=boss_bear_shaman 1.png|bSize=512|cWidth=31|cHeight=84|oBottom=681|oLeft=431}}
+  |location = 
+  |category = Construct
+  |tier = 4
+  |level = 19
+  |max_health = {{Icon|Health|nolink=1}} 900
+  |accuracy = 294.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 97.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+boss shaman torch hardmode={{Enemy
+  |title = Spirit Beacon
+  |image_original = {{CSS image crop|Image=boss_bear_shaman 1.png|bSize=512|cWidth=31|cHeight=84|oBottom=681|oLeft=431}}
+  |location = 
+  |category = Construct
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 60000
+  |damage_bonus = 180
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Construct]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,32 @@
+{{Item
+  |title = Composite Bow
+  |image = Composite Bow.png
+  |caption = Though they took longer to construct that a traditional bow, the composite bow was significantly more effective.
+  |type = Weapon
+  |tier = 5
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 450 {{Icon|Silver}}
+  |sell_cost = 280 {{Icon|Silver}}
+  |class = {{Icon|Harbinger}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*5+[$Item_Level] 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*15+[$Item_Level]*3 
+  |materials = x2 {{Icon|Enriched Timber}}<br>x3 {{Icon|Metal}}<br>x3 {{Icon|Obsidian}}<br>x1 {{Icon|Mercurial Catalyst}}
+  |silver_cost = 1400 {{Icon|Silver|nolink=1}}
+  |time = 15 minutes
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
+  |dismantle_silver_cost = 308 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 11 minutes, 15 seconds
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 5]]
+[[Category:Harbinger]]
+{{stub}}
+'''{{PAGENAME}}'''

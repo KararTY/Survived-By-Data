@@ -1,0 +1,422 @@
+<div class="tabbertab-borderless"><tabber>
+plant vines={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=plant_vines.png|bSize=192|cWidth=48|cHeight=46|oBottom=1|oLeft=0}}
+  |caption = Description for Vines
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 4
+  |level = 16
+  |max_health = {{Icon|Health|nolink=1}} 515
+  |experience = 300
+  |damage_bonus = 95
+  |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile throw''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 30
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile throw off''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 30
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile shadow''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1.5
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile vines''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=33|cHeight=20|oBottom=124|oLeft=5}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">25%</strong>)<br><small>[MovementSpeed]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/plant_vines}}
+  }}
+|-|
+monster bramble bush quest={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=bramble_plant_druid_quest.png|bSize=192|cWidth=48|cHeight=46|oBottom=1|oLeft=0}}
+  |caption = Description for Vines
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 4400
+  |experience = 750
+  |damage_bonus = 230
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant bramble bush''' {{!!}} <center>{{CSS image crop|Image=bramble_plant_druid_quest.png|bSize=192|cWidth=9|cHeight=21|oBottom=51|oLeft=104}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 18
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_bramble_bush_quest}}
+  }}
+|-|
+boss director resin pod hardmode={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=boss_director_pod.png|bSize=288|cWidth=47|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 6250
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''stag projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/boss_director_resin_pod_hardmode}}
+  }}
+|-|
+boss director resin pod={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=boss_director_pod.png|bSize=288|cWidth=47|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 10
+  |level = 20
+  |max_health = {{Icon|Health|nolink=1}} 5000
+  |accuracy = 310<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 105<br><small>([Level]x[Level])x0.2 + 25</small>
+  |drops = {{:Loot table/boss_director_resin_pod}}
+  }}
+|-|
+boss elementalspirit armor3={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=paradise_boss_armor.png|bSize=48|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 7000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+boss elementalspirit armor2={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=paradise_boss_armor.png|bSize=48|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 7000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+boss elementalspirit vines seed={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 7000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile throw''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 30
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile throw off''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 30
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile shadow''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1.5
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile vines''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=33|cHeight=20|oBottom=124|oLeft=5}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">25%</strong>)<br><small>[MovementSpeed]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/boss_elementalspirit_vines_seed}}
+  }}
+|-|
+boss elementalspirit armor seed={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 7000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |drops = {{:Loot table/boss_elementalspirit_armor_seed}}
+  }}
+|-|
+boss elementalspirit armor3 seed={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 13000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |drops = {{:Loot table/boss_elementalspirit_armor3_seed}}
+  }}
+|-|
+boss elementalspirit armor2 seed={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 13000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |drops = {{:Loot table/boss_elementalspirit_armor2_seed}}
+  }}
+|-|
+boss elementalspirit armor={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=paradise_boss_armor.png|bSize=48|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 13000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+boss elementalspirit vines={{Enemy
+  |title = Vines
+  |image_original = {{CSS image crop|Image=plant_vines_bio.png|bSize=192|cWidth=48|cHeight=46|oBottom=1|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 13000
+  |damage_bonus = 330
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile throw''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 30
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile throw off''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 30
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile shadow''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1.5
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant vines projectile vines''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=33|cHeight=20|oBottom=124|oLeft=5}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">25%</strong>)<br><small>[MovementSpeed]*0.75</small>
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

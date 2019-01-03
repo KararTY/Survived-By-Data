@@ -1,0 +1,51 @@
+{{Enemy
+  |title = Greater Water Cyclone
+  |image_original = {{CSS image crop|Image=spirit_cyclone_water.png|bSize=384|cWidth=88|cHeight=85|oBottom=11|oLeft=5}}
+  |caption = Description for Greater Water Cyclone
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit cyclone water projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_water.png|bSize=384|cWidth=49|cHeight=34|oBottom=194|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit cyclone water projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_water.png|bSize=384|cWidth=49|cHeight=34|oBottom=194|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_cyclone_water_hardmode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

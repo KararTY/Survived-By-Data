@@ -1,0 +1,51 @@
+{{Enemy
+  |title = Lesser Wildfire
+  |image_original = {{CSS image crop|Image=treant_fire_01.png|bSize=256|cWidth=44|cHeight=60|oBottom=4|oLeft=77}}
+  |caption = Description for Lesser Wildfire
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 60
+  |experience = 65
+  |damage_bonus = 35
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''treant fire T2 projectile''' {{!!}} <center>{{CSS image crop|Image=treant_fire_01.png|bSize=256|cWidth=26|cHeight=27|oBottom=128|oLeft=1}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''treant fire projectile explode''' {{!!}} <center>{{CSS image crop|Image=treant_fire_01.png|bSize=256|cWidth=26|cHeight=27|oBottom=128|oLeft=1}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 9
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_treant_fire_T2}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

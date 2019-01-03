@@ -1,0 +1,32 @@
+{{Item
+  |title = Rogue T8 Weapon v2 Monastery
+  |image = Rogue T8 Weapon v2 Monastery.png
+  |caption = [Deprecated]
+  |type = Weapon
+  |tier = 8
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 40 {{Icon|Silver}}
+  |class = {{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 8]]
+[[Category:Infiltrator]]
+{{stub}}
+'''{{PAGENAME}}'''

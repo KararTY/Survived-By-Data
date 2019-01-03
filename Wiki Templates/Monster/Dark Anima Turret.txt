@@ -1,0 +1,269 @@
+<div class="tabbertab-borderless"><tabber>
+monster anima dark turretT1={{Enemy
+  |title = Dark Anima Turret
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |damage_bonus = 18
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster anima dark turretT2={{Enemy
+  |title = Dark Anima Turret
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 2
+  |level = 6
+  |max_health = {{Icon|Health|nolink=1}} 24
+  |damage_bonus = 36
+  |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster anima dark turretT3={{Enemy
+  |title = Dark Anima Turret
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 3
+  |level = 11
+  |max_health = {{Icon|Health|nolink=1}} 9
+  |damage_bonus = 60
+  |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster anima dark turretT4={{Enemy
+  |title = Dark Anima Turret
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 4
+  |level = 16
+  |max_health = {{Icon|Health|nolink=1}} 9
+  |damage_bonus = 95
+  |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster anima dark turretT5={{Enemy
+  |title = Dark Anima Turret
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 5
+  |level = 21
+  |max_health = {{Icon|Health|nolink=1}} 9
+  |damage_bonus = 140
+  |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 113.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster anima dark turretT6={{Enemy
+  |title = Dark Anima Turret
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 9
+  |damage_bonus = 205
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster anima dark turretT7={{Enemy
+  |title = Dark Anima Turret
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 9
+  |damage_bonus = 230
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster anima dark turretT8={{Enemy
+  |title = Dark Anima Turret
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 9
+  |damage_bonus = 260
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster anima dark turretT9={{Enemy
+  |title = Dark Anima Turret
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 9
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

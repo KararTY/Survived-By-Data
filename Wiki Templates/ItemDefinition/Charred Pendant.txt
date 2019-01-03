@@ -1,0 +1,37 @@
+{{Item
+  |title = Charred Pendant
+  |image = Charred Pendant.png
+  |caption = Though burned almost beyond recognition, power still churns within it.
+  |type = Amulet
+  |tier = 3
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 70 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = {{Icon|Health|nolink=1}} [HealthMax]+[$Tier]*20+[$Item_Level]*4 <br>'''48'''
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*10+[$Item_Level]*2  <br>'''48'''
+  |swiftness = 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*10+[$Item_Level]*2 <br>'''48'''
+  |willpower = 
+  |focus = 
+  |materials = x2 {{Icon|Metal}}<br>x2 {{Icon|Obsidian}}<br>x2 {{Icon|Amber}}
+  |silver_cost = 280 {{Icon|Silver|nolink=1}}
+  |time = 2 minutes
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
+  |dismantle_silver_cost = 77 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 1 minute, 30 seconds
+}}
+
+[[Category:Amulet]]
+[[Category:Tier 3]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

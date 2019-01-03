@@ -1,0 +1,48 @@
+{{Enemy
+  |title = Volcanic Spider Young
+  |image_original = {{CSS image crop|Image=beast_spider_FIRE_baby.png|bSize=128|cWidth=21|cHeight=19|oBottom=7|oLeft=5}}
+  |caption = Description for Volcanic Spider Young
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 10
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 3500
+  |damage_bonus = 470
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider baby volcano projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_FIRE_baby.png|bSize=128|cWidth=9|cHeight=23|oBottom=38|oLeft=35}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 196<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_volcano_baby}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

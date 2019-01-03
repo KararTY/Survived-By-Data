@@ -1,0 +1,33 @@
+{{Item
+  |title = Tower Mantle
+  |image = Tower Mantle.png
+  |caption = The simple cloth mantle provides some protection from the elements, but will do little to discourage an attacker.
+  |type = Armor
+  |tier = 1
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 15 {{Icon|Silver}}
+  |sell_cost = 8 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 <br>'''92'''
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*20+[$Item_Level]*4 <br>'''92'''
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Thread}}<br>x2 {{Icon|Raw Resin}}
+  |silver_cost = 10 {{Icon|Silver|nolink=1}}
+  |time = 20 seconds
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Embers}} 100%
+  |dismantle_silver_cost = 8 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 1 minute
+}}
+
+[[Category:Armor]]
+[[Category:Tier 1]]
+[[Category:Alchemist]]
+[[Category:Infiltrator]]
+{{stub}}
+'''{{PAGENAME}}'''

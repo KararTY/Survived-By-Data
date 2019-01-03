@@ -1,0 +1,31 @@
+{{Item
+  |title = Toy Parts 2
+  |image = Toy Parts 2.png
+  |caption = The bonfires placed to ward the deepest fissures will not burn forever. It is only though constantly feeding the flames these bundles that they might burn until the Sun rises again.
+  |type = Misc
+  |tier = 1
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 10000 {{Icon|Silver}}
+  |sell_cost = 5000 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x50 {{Icon|Raw Log}}<br>x50 {{Icon|Raw Tar Sand}}
+  |silver_cost = 
+  |time = 6 minutes
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 1]]
+{{stub}}
+'''{{PAGENAME}}'''

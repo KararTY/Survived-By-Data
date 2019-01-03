@@ -1,0 +1,33 @@
+{{Item
+  |title = Armor Heavy T6 v2
+  |image = Armor Heavy T6 v2.png
+  |caption = [description]
+  |type = Armor
+  |tier = 6
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 18 {{Icon|Silver}}
+  |class = {{Icon|Sentinel}}<br>{{Icon|Geomancer}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Armor]]
+[[Category:Tier 6]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+{{stub}}
+'''{{PAGENAME}}'''

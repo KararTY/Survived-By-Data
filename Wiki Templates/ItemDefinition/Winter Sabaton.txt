@@ -1,0 +1,34 @@
+{{Item
+  |title = Winter Sabaton
+  |image = Winter Sabaton.png
+  |caption = The sabatons are not noteworthy except for the cluster of shards of deep rime, letting it find purchase in nearly any environment.
+  |type = Boots
+  |tier = 4
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 270 {{Icon|Silver}}
+  |sell_cost = 140 {{Icon|Silver}}
+  |class = {{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 <br>'''85.6'''
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*10+[$Item_Level]*2 <br>'''85.6'''
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 <br>'''85.6'''
+  |focus = 
+  |materials = x4 {{Icon|Metal}}<br>x4 {{Icon|Leather}}<br>x1 {{Icon|Deep Rime Catalyst}}
+  |silver_cost = 600 {{Icon|Silver|nolink=1}}
+  |time = 10 minutes
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
+  |dismantle_silver_cost = 154 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 7 minutes, 30 seconds
+}}
+
+[[Category:Boots]]
+[[Category:Tier 4]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Burrowing Owl
+  |image_original = {{CSS image crop|Image=beast_owl.png|bSize=384|cWidth=47|cHeight=95|oBottom=0|oLeft=51}}
+  |caption = Description for Burrowing Owl
+  |location = 
+  |category = Beast
+  |tier = 3
+  |level = 11
+  |max_health = {{Icon|Health|nolink=1}} 180
+  |experience = 140
+  |damage_bonus = 60
+  |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''bird projectile''' {{!!}} <center>{{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=18|cHeight=15|oBottom=148|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_owl_burrowing}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

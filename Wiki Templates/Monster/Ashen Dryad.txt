@@ -1,0 +1,75 @@
+{{Enemy
+  |title = Ashen Dryad
+  |image_original = {{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
+  |caption = Description for Sand Anima
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 7200
+  |experience = 860
+  |damage_bonus = 299
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad sand projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=14|cHeight=37|oBottom=150|oLeft=100}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad sand projectile ooze''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Slowed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 10 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RateOfAttack {{!!}} (Rate of attack decrease by <strong style="color:red;">15%</strong>)<br><small>[RateOfAttack]*0.85</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad sand projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=14|cHeight=37|oBottom=150|oLeft=100}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_dryad_ashen}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

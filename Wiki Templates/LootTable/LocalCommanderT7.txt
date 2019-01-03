@@ -1,0 +1,41 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/LocalCommanderT7|LocalCommanderT7]])'''
+<br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Soul of the Forest}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Pickaxe}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Mythril Arrow}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Great Root of the Forest}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Zweihänder}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Hollow Dagger}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Mythril Coil}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Hollow Amulet}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Mythril Plate}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Filament Mantle}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Leather Laminar}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Mythril Plated Sabatons}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Treaded Boots}} || style="text-align:right" | 1% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/LocalCommanderT7}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

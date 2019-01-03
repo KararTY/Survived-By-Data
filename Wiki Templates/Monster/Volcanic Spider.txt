@@ -1,0 +1,96 @@
+<div class="tabbertab-borderless"><tabber>
+monster spider volcano={{Enemy
+  |title = Volcanic Spider
+  |image_original = {{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=48|cHeight=39|oBottom=6|oLeft=0}}
+  |caption = Description for Volcanic Spider
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 10
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 87000
+  |experience = 1000
+  |damage_bonus = 470
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider volcano projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=13|cHeight=20|oBottom=51|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 196<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_volcano}}
+  }}
+|-|
+monster spider volcano dangerous={{Enemy
+  |title = Volcanic Spider
+  |image_original = {{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=48|cHeight=39|oBottom=6|oLeft=0}}
+  |caption = Description for Volcanic Spider
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 675000
+  |experience = 2000
+  |damage_bonus = 610
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider volcano projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=13|cHeight=20|oBottom=51|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 196<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_volcano_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

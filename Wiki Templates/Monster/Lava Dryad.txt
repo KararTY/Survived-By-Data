@@ -1,0 +1,360 @@
+<div class="tabbertab-borderless"><tabber>
+monster spirit dryad lava quest={{Enemy
+  |title = Lava Dryad
+  |image_original = {{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
+  |caption = Description for Lava Dryad
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 5500
+  |experience = 1000
+  |damage_bonus = 185
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''dryad lava projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=14|cHeight=37|oBottom=150|oLeft=100}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''dryad lava projectile1''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=35|cHeight=34|oBottom=821|oLeft=500}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''dryad lava projectile2a''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 125<br><small>[DamageOverTime]+75 '''50'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''6'''
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_dryad_lava_quest}}
+  }}
+|-|
+subboss spirit dryad lava small={{Enemy
+  |title = Lava Dryad
+  |image_original = {{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 280000
+  |experience = 25000
+  |damage_bonus = 530
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss dryad lava projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=14|cHeight=37|oBottom=150|oLeft=100}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss dryad lava projectile1''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=35|cHeight=34|oBottom=821|oLeft=500}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss dryad lava projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+  }}
+|-|
+subboss spirit dryad lava medium={{Enemy
+  |title = Lava Dryad
+  |image_original = {{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 280000
+  |experience = 25000
+  |damage_bonus = 530
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss dryad lava projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=14|cHeight=37|oBottom=150|oLeft=100}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss dryad lava projectile1''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=35|cHeight=34|oBottom=821|oLeft=500}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss dryad lava projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+  |drops = {{:Loot table/subboss_spirit_dryad_lava_medium}}
+  }}
+|-|
+subboss spirit dryad lava={{Enemy
+  |title = Lava Dryad
+  |image_original = {{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
+  |caption = Description for Lava Dryad
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 280000
+  |experience = 25000
+  |damage_bonus = 530
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss dryad lava projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=14|cHeight=37|oBottom=150|oLeft=100}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss dryad lava projectile1''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=35|cHeight=34|oBottom=821|oLeft=500}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss dryad lava projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+  |drops = {{:Loot table/subboss_spirit_dryad_lava}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

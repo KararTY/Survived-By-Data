@@ -1,0 +1,67 @@
+<div class="tabbertab-borderless"><tabber>
+monster beast phoenix={{Enemy
+  |title = Phoenix
+  |image_original = {{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=43|cHeight=95|oBottom=0|oLeft=53}}
+  |caption = Description for Phoenix
+  |location = 
+  |category = Beast
+  |tier = 10
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 87000
+  |experience = 1000
+  |damage_bonus = 470
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''bird projectile''' {{!!}} <center>{{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=18|cHeight=15|oBottom=148|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_beast_phoenix}}
+  }}
+|-|
+monster beast phoenix rebirth={{Enemy
+  |title = Phoenix
+  |image_original = {{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=94|cHeight=96|oBottom=192|oLeft=96}}
+  |location = 
+  |category = Beast
+  |tier = 10
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 87000
+  |experience = 1000
+  |damage_bonus = 470
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''phoenix projectile2''' {{!!}} <center>{{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=19|cHeight=17|oBottom=210|oLeft=14}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

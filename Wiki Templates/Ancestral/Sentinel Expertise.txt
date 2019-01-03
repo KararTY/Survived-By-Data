@@ -1,0 +1,116 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Sentinel Expertise 3 (Rare)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Sentinel Expertise
+    | description = The ongoing Energy cost of the Sentinel's secondary ability is reduced by 3.24%
+    | level = 1
+    | rarity = rare
+    | ordinary1 = AL_icon_ Sentinel
+    | ordinary2 = AL_Icon_Energy
+    | ordinary3 = AL_icon_percentage minus
+    | set1 = AL_icon_ Sentinel
+    | set2 = AL_Icon_Energy
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Sentinel Expertise
+    | description = The ongoing Energy cost of the Sentinel's secondary ability is reduced by 15%
+    | level = 50
+    | rarity = rare
+    | ordinary1 = AL_icon_ Sentinel
+    | ordinary2 = AL_Icon_Energy
+    | ordinary3 = AL_icon_percentage minus
+    | set1 = AL_icon_ Sentinel
+    | set2 = AL_Icon_Energy
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Sentinel Expertise
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Rare
+    |-
+    | Classes || colspan="2" | {{Icon|Sentinel}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x [$Benefit]/100) || 
+    |-
+    | SpecialWeaponBurnRate || [SpecialWeaponBurnRate] - ([SpecialWeaponBurnRate] x [$Benefit]/100) || 
+    |-
+    | Benefit || 3+([AncestralData.Ancestral_Level]x0.24) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Sentinel.png]] [[Ancestral_Legacy/Set Bonus#Sentinel_Set|Sentinel Set]]
+    |-
+    | [[File:AL_Icon_Energy.png]] [[Ancestral_Legacy/Set Bonus#Energy_Set|Energy Set]]
+  |}
+|-|
+Sentinel Expertise 4 (Legendary)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Sentinel Expertise
+    | description = The ongoing Energy cost of the Sentinel's secondary ability is reduced by 5.5%
+    | level = 1
+    | rarity = legendary
+    | ordinary1 = AL_icon_ Sentinel
+    | ordinary2 = AL_Icon_Energy
+    | ordinary3 = AL_icon_percentage minus
+    | set1 = AL_icon_ Sentinel
+    | set2 = AL_Icon_Energy
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Sentinel Expertise
+    | description = The ongoing Energy cost of the Sentinel's secondary ability is reduced by 30%
+    | level = 50
+    | rarity = legendary
+    | ordinary1 = AL_icon_ Sentinel
+    | ordinary2 = AL_Icon_Energy
+    | ordinary3 = AL_icon_percentage minus
+    | set1 = AL_icon_ Sentinel
+    | set2 = AL_Icon_Energy
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Sentinel Expertise
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Legendary
+    |-
+    | Classes || colspan="2" | {{Icon|Sentinel}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x [$Benefit]/100) || 
+    |-
+    | SpecialWeaponBurnRate || [SpecialWeaponBurnRate] - ([SpecialWeaponBurnRate] x [$Benefit]/100) || 
+    |-
+    | Benefit || 5+([AncestralData.Ancestral_Level]x0.5) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Sentinel.png]] [[Ancestral_Legacy/Set Bonus#Sentinel_Set|Sentinel Set]]
+    |-
+    | [[File:AL_Icon_Energy.png]] [[Ancestral_Legacy/Set Bonus#Energy_Set|Energy Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>The ongoing Energy cost of the Sentinel's secondary ability is reduced by X%</includeonly></onlyinclude>

@@ -1,0 +1,29 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/WinterHoliday_GiftGiverTown|WinterHoliday_GiftGiverTown]])'''
+<br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x2 || {{Icon|Candy Cane Missiles}} || style="text-align:right" | 23.3% 
+|-
+| x2 || {{Icon|Ornament Barrage}} || style="text-align:right" | 23.3% 
+|-
+| x2 || {{Icon|Snowball Fight}} || style="text-align:right" | 23.3% 
+|-
+| x2 || {{Icon|Festive Disaster}} || style="text-align:right" | 9% 
+|-
+| x2 || {{Icon|Festive Enforcer}} || style="text-align:right" | 9% 
+|-
+| x2 || {{Icon|Festive Nightmare}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Person Sized, Person Shaped Box}} || style="text-align:right" | 3% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/WinterHoliday_GiftGiverTown}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

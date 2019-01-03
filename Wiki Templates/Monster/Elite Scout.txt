@@ -1,0 +1,89 @@
+<div class="tabbertab-borderless"><tabber>
+monster scout elite minion={{Enemy
+  |title = Elite Scout
+  |image_original = {{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=39|cHeight=39|oBottom=53|oLeft=26}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 20
+  |level = 2
+  |max_health = {{Icon|Health|nolink=1}} 25
+  |experience = 8
+  |damage_bonus = 20
+  |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent scout projectile''' {{!!}} <center>{{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=20|cHeight=66|oBottom=402|oLeft=207}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 12
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Drained'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RagePerAttack {{!!}} (Rage per attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RagePerAttack]*0.5</small>
+    {{!}}}
+  }}
+|-|
+monster scout elite={{Enemy
+  |title = Elite Scout
+  |image_original = {{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=39|cHeight=39|oBottom=53|oLeft=26}}
+  |location = 
+  |category = Agent
+  |is_elite = Yes
+  |element = Ur
+  |tier = 20
+  |level = 2
+  |max_health = {{Icon|Health|nolink=1}} 3500
+  |experience = 8
+  |damage_bonus = 20
+  |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent scout projectile''' {{!!}} <center>{{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=20|cHeight=66|oBottom=402|oLeft=207}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 12
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Drained'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RagePerAttack {{!!}} (Rage per attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RagePerAttack]*0.5</small>
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

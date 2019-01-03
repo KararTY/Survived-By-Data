@@ -1,0 +1,45 @@
+{{Enemy
+  |title = Luna Moth
+  |image_original = {{CSS image crop|Image=beast_luna_moth.png|bSize=128|cWidth=18|cHeight=32|oBottom=0|oLeft=14}}
+  |caption = Description for Luna Moth
+  |location = 
+  |category = Beast
+  |tier = 2
+  |level = 6
+  |max_health = {{Icon|Health|nolink=1}} 30
+  |experience = 20
+  |damage_bonus = 35
+  |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''beast luna moth projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">15%</strong>)<br><small>[CriticalChance]*0.85</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_luna_moth}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

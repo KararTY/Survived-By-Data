@@ -1,0 +1,47 @@
+{{Enemy
+  |title = Water Moccasin
+  |image_original = {{CSS image crop|Image=beast_snake_rattler.png|bSize=256|cWidth=43|cHeight=36|oBottom=18|oLeft=20}}
+  |caption = Description for Water Moccasin
+  |location = 
+  |category = Beast
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 3465
+  |experience = 750
+  |damage_bonus = 215
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''snake rattler projectile''' {{!!}} <center>{{CSS image crop|Image=beast_snake_rattler.png|bSize=256|cWidth=13|cHeight=24|oBottom=68|oLeft=136}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 50<br><small>[DamageOverTime]+22 '''28'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''3'''
+    {{!}}}
+  |drops = {{:Loot table/monster_snake_rattler_water_moccasin}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

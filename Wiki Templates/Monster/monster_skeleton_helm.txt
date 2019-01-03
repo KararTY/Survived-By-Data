@@ -1,0 +1,32 @@
+{{Enemy
+  |title = monster_skeleton_helm
+  |image_original = {{CSS image crop|Image=Skeleton_01_helm.png|bSize=128|cWidth=30|cHeight=32|oBottom=32|oLeft=0}}
+  |location = 
+  |category = Undying
+  |element = Ea
+  |max_health = {{Icon|Health|nolink=1}} 75
+  |damage_bonus = 1
+  |accuracy = 150<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''skeleton projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_hyenawarrior.png|bSize=256|cWidth=19|cHeight=37|oBottom=68|oLeft=65}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Undying]]
+[[Category:Ea]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

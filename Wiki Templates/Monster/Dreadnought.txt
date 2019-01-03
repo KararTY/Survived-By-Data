@@ -1,0 +1,71 @@
+<div class="tabbertab-borderless"><tabber>
+boss dreadnought head2={{Enemy
+  |title = Dreadnought
+  |image_original = {{CSS image crop|Image=Boss_dreadnought.png|bSize=512|cWidth=126|cHeight=108|oBottom=12|oLeft=0}}
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 3200000
+  |experience = 700
+  |damage_bonus = 1080
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss dreadnought projectile''' {{!!}} <center>{{CSS image crop|Image=Worm_01.png|bSize=128|cWidth=15|cHeight=23|oBottom=102|oLeft=8}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+boss dreadnought head={{Enemy
+  |title = Dreadnought
+  |image_original = {{CSS image crop|Image=Boss_dreadnought.png|bSize=512|cWidth=126|cHeight=108|oBottom=12|oLeft=0}}
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 3200000
+  |experience = 700
+  |damage_bonus = 1080
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss dreadnought projectile''' {{!!}} <center>{{CSS image crop|Image=Worm_01.png|bSize=128|cWidth=15|cHeight=23|oBottom=102|oLeft=8}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

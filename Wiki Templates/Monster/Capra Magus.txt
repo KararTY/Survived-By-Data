@@ -1,0 +1,45 @@
+{{Enemy
+  |title = Capra Magus
+  |image_original = {{CSS image crop|Image=chimera_mt_goatmage.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=2}}
+  |caption = Description for Capra Magus
+  |location = 
+  |category = Chimera
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 60
+  |experience = 65
+  |damage_bonus = 35
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera mtgoat mage projectile''' {{!!}} <center>{{CSS image crop|Image=Ooze_01.png|bSize=256|cWidth=20|cHeight=26|oBottom=69|oLeft=133}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Sickened'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} HealthRegen {{!!}} (Health regeneration decrease by <strong style="color:red;">25%</strong>)<br><small>[HealthRegen]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_mtgoat_mage}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,37 @@
+{{Item
+  |title = Amulet of the Fallen
+  |image = Amulet of the Fallen.png
+  |caption = The Fury breached this world at the Straits of the Deep, and that is where humanity's best fell defending the Heartland. The strength of the bloodlines that ended there still wait in the depths.
+  |type = Amulet
+  |tier = 6
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 35 {{Icon|Silver}}
+  |sell_cost = 700 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = {{Icon|Health|nolink=1}} [HealthMax]+[$Tier]*20+[$Item_Level]*4 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*10+[$Item_Level]*2 
+  |swiftness = 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*10+[$Item_Level]*2 
+  |willpower = 
+  |focus = 
+  |materials = x5 {{Icon|Enriched Amber}}<br>x5 {{Icon|Enriched Obsidian}}<br>x1 {{Icon|Void Shard Catalyst}}
+  |silver_cost = 3000 {{Icon|Silver|nolink=1}}
+  |time = 1 hour
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
+  |dismantle_silver_cost = 770 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 45 minutes
+}}
+
+[[Category:Amulet]]
+[[Category:Tier 6]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

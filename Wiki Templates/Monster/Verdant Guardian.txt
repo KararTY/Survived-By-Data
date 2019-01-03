@@ -1,0 +1,63 @@
+{{Enemy
+  |title = Verdant Guardian
+  |image_original = {{CSS image crop|Image=spirit_golem_forest.png|bSize=384|cWidth=71|cHeight=79|oBottom=12|oLeft=18}}
+  |caption = Description for Verdant Guardian
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit golem forest projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_forest.png|bSize=384|cWidth=30|cHeight=32|oBottom=98|oLeft=196}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit golem forest projectile blast''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_forest.png|bSize=384|cWidth=22|cHeight=25|oBottom=108|oLeft=349}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  |drops = {{:Loot table/monster_golem_forest}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

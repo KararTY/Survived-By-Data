@@ -1,0 +1,46 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_miragehunter|boss_miragehunter]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x10 || {{Icon|Silver}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Jet Catalyst}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Frozen Haven Key}} || style="text-align:right" | 32% 
+|-
+| x1 || {{Icon|Charred Pendant}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Bone Ring}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Armor of the Maw}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Crimson Mantle}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Leathers of the Maw}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Sabaton of the Maw}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Leather Boots of the Maw}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Jet Visage}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Sickle}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Bone Bow}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Jet Staff}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Scimitar}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Jet Khanjar}} || style="text-align:right" | 10% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/boss_miragehunter}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

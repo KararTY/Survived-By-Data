@@ -1,0 +1,45 @@
+{{Enemy
+  |title = Recluse Spider
+  |image_original = {{CSS image crop|Image=beast_spider_recluse.png|bSize=192|cWidth=47|cHeight=37|oBottom=8|oLeft=0}}
+  |caption = Description for Recluse Spider
+  |location = 
+  |category = Beast
+  |tier = 2
+  |level = 6
+  |max_health = {{Icon|Health|nolink=1}} 60
+  |experience = 20
+  |damage_bonus = 35
+  |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider recluse projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_recluse.png|bSize=192|cWidth=14|cHeight=31|oBottom=55|oLeft=55}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">5%</strong>)<br><small>[MovementSpeed]*0.95</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_recluse}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

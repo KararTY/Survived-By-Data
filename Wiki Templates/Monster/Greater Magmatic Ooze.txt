@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Greater Magmatic Ooze
+  |image_original = {{CSS image crop|Image=Ooze_01.png|bSize=256|cWidth=56|cHeight=63|oBottom=1|oLeft=8}}
+  |caption = Description for Greater Magmatic Ooze
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 450
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ooze projectile''' {{!!}} <center>{{CSS image crop|Image=Ooze_01.png|bSize=256|cWidth=20|cHeight=26|oBottom=69|oLeft=133}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_ooze_dung_hardmode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

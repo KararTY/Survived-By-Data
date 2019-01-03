@@ -1,0 +1,62 @@
+{{Enemy
+  |title = Fire Cyclone Minion
+  |image_original = {{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=83|cHeight=88|oBottom=8|oLeft=5}}
+  |caption = Description for Fire Cyclone Minion
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 8
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 19200
+  |experience = 1600
+  |damage_bonus = 299
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath trail projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit cyclone fire projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=23|cHeight=59|oBottom=307|oLeft=107}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Deep Fissure Spider
+  |image_original = {{CSS image crop|Image=beast_spider_dark.png|bSize=192|cWidth=47|cHeight=37|oBottom=8|oLeft=0}}
+  |caption = Description for Deep Fissure Spider
+  |location = 
+  |category = Beast
+  |element = Ur
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 52000
+  |experience = 800
+  |damage_bonus = 440
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider dark projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_dark.png|bSize=192|cWidth=14|cHeight=31|oBottom=55|oLeft=55}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_dark_fissure_T9}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

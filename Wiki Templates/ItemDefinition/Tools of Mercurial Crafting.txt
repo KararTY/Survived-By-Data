@@ -1,0 +1,31 @@
+{{Item
+  |title = Tools of Mercurial Crafting
+  |image = Tools of Mercurial Crafting.png
+  |caption = 
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 10
+  |buy_cost = 500 {{Icon|Silver}}
+  |sell_cost = 100 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

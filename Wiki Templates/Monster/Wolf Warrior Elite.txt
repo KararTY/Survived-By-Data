@@ -1,0 +1,99 @@
+<div class="tabbertab-borderless"><tabber>
+monster wolfwarrior elite={{Enemy
+  |title = Wolf Warrior Elite
+  |image_original = {{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=46|cHeight=58|oBottom=5|oLeft=9}}
+  |location = 
+  |category = Chimera
+  |is_elite = Yes
+  |tier = 20
+  |level = 20
+  |max_health = {{Icon|Health|nolink=1}} 7650
+  |experience = 130
+  |damage_bonus = 330
+  |accuracy = 310<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 105<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile ahead''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.4
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster wolfwarrior elite minion={{Enemy
+  |title = Wolf Warrior Elite
+  |image_original = {{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=46|cHeight=58|oBottom=5|oLeft=9}}
+  |location = 
+  |category = Chimera
+  |tier = 20
+  |level = 20
+  |max_health = {{Icon|Health|nolink=1}} 7650
+  |experience = 130
+  |damage_bonus = 330
+  |accuracy = 310<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 105<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile ahead''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.4
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

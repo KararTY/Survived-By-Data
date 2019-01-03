@@ -1,0 +1,49 @@
+{{Enemy
+  |title = Infernal Corpseflower
+  |image_original = {{CSS image crop|Image=plant_corpseflower_infernal.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |caption = Description for Corpse Flower
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant corpseflower projectile''' {{!!}} <center>{{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=32|cHeight=29|oBottom=99|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 20
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  |drops = {{:Loot table/plant_corpseflower_infernal}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

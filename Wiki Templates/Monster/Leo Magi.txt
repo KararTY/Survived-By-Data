@@ -1,0 +1,45 @@
+{{Enemy
+  |title = Leo Magi
+  |image_original = {{CSS image crop|Image=chimera_lionmage.png|bSize=256|cWidth=48|cHeight=56|oBottom=6|oLeft=8}}
+  |caption = Description for Leo Magi
+  |location = 
+  |category = Chimera
+  |tier = 3
+  |level = 12
+  |max_health = {{Icon|Health|nolink=1}} 220
+  |experience = 170
+  |damage_bonus = 65
+  |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lionmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lionmage.png|bSize=256|cWidth=9|cHeight=29|oBottom=65|oLeft=75}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Vulnerable'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageReduction {{!!}} (Damage decrease by <strong style="color:red;">25%</strong>)<br><small>[DamageReduction]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_lionmage}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

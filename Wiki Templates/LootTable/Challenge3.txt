@@ -1,0 +1,21 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/Challenge3|Challenge3]])'''
+<br>Maximum drop amount: 2
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x50 || {{Icon|Valr}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Standard Ancestral Legacy}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Premium Ancestral Legacy}} || style="text-align:right" | 10% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/Challenge3}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

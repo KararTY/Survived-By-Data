@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Lesser Magmatic Ooze Fragment
+  |image_original = {{CSS image crop|Image=Ooze_01.png|bSize=256|cWidth=56|cHeight=63|oBottom=1|oLeft=8}}
+  |caption = Description for Lesser Magmatic Ooze Fragment
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 3
+  |level = 12
+  |max_health = {{Icon|Health|nolink=1}} 44
+  |experience = 20
+  |damage_bonus = 65
+  |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ooze small projectile''' {{!!}} <center>{{CSS image crop|Image=Ooze_01.png|bSize=256|cWidth=20|cHeight=26|oBottom=69|oLeft=133}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_ooze_small_dung}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

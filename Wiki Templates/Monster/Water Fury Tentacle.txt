@@ -1,0 +1,44 @@
+{{Enemy
+  |title = Water Fury Tentacle
+  |image_original = {{CSS image crop|Image=Kraken_Island Fury.png|bSize=512|cWidth=42|cHeight=63|oBottom=65|oLeft=199}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 6
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 12600
+  |damage_bonus = 215
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''krakententacle quest projectile''' {{!!}} <center>{{CSS image crop|Image=Kraken_Island Fury.png|bSize=512|cWidth=20|cHeight=37|oBottom=219|oLeft=455}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Kraken Slow'''
+    {{!}}-
+    {{!}} Duration {{!!}} 4 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">75%</strong>)<br><small>[MovementSpeed] * 0.25</small>
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

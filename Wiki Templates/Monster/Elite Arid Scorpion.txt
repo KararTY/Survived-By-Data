@@ -1,0 +1,90 @@
+<div class="tabbertab-borderless"><tabber>
+monster scorpion elite minion={{Enemy
+  |title = Elite Arid Scorpion
+  |image_original = {{CSS image crop|Image=scorpion_desert.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Beast
+  |tier = 20
+  |level = 5
+  |max_health = {{Icon|Health|nolink=1}} 90
+  |experience = 50
+  |damage_bonus = 35
+  |accuracy = 160<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 30<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''scorpion desert projectile''' {{!!}} <center>{{CSS image crop|Image=scorpion_desert.png|bSize=192|cWidth=12|cHeight=23|oBottom=48|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 50<br><small>[DamageOverTime]+22 '''28'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''3'''
+    {{!}}}
+  }}
+|-|
+monster scorpion elite={{Enemy
+  |title = Elite Arid Scorpion
+  |image_original = {{CSS image crop|Image=scorpion_desert.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Beast
+  |is_elite = Yes
+  |tier = 20
+  |level = 5
+  |max_health = {{Icon|Health|nolink=1}} 3500
+  |experience = 50
+  |damage_bonus = 35
+  |accuracy = 160<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 30<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''scorpion desert projectile''' {{!!}} <center>{{CSS image crop|Image=scorpion_desert.png|bSize=192|cWidth=12|cHeight=23|oBottom=48|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 50<br><small>[DamageOverTime]+22 '''28'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''3'''
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

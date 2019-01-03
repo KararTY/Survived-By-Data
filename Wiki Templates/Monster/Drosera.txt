@@ -1,0 +1,233 @@
+<div class="tabbertab-borderless"><tabber>
+plant mine={{Enemy
+  |title = Drosera
+  |image_original = {{CSS image crop|Image=plant_mine.png|bSize=192|cWidth=46|cHeight=31|oBottom=17|oLeft=1}}
+  |caption = Description for Drosera
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 3465
+  |experience = 750
+  |damage_bonus = 215
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile throw''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 30
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Use random range {{!!}} Yes
+    {{!}}-
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile shadow''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile mine''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_dirt.png|bSize=192|cWidth=48|cHeight=33|oBottom=111|oLeft=48}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 2.5
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile''' {{!!}} <center>{{CSS image crop|Image=plant_mine.png|bSize=192|cWidth=5|cHeight=25|oBottom=60|oLeft=58}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 5
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/plant_mine}}
+  }}
+|-|
+boss elementalspirit mine seed={{Enemy
+  |title = Drosera
+  |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 7000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile throw''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 30
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Use random range {{!!}} Yes
+    {{!}}-
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile shadow''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile mine''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_dirt.png|bSize=192|cWidth=48|cHeight=33|oBottom=111|oLeft=48}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 2.5
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile''' {{!!}} <center>{{CSS image crop|Image=plant_mine.png|bSize=192|cWidth=5|cHeight=25|oBottom=60|oLeft=58}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 5
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/boss_elementalspirit_mine_seed}}
+  }}
+|-|
+boss elementalspirit mine={{Enemy
+  |title = Drosera
+  |image_original = {{CSS image crop|Image=plant_mine_bio.png|bSize=192|cWidth=46|cHeight=31|oBottom=17|oLeft=1}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 13000
+  |damage_bonus = 330
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile throw''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 30
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Use random range {{!!}} Yes
+    {{!}}-
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile shadow''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=124|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile mine''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_dirt.png|bSize=192|cWidth=48|cHeight=33|oBottom=111|oLeft=48}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 2.5
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant mine projectile''' {{!!}} <center>{{CSS image crop|Image=plant_mine.png|bSize=192|cWidth=5|cHeight=25|oBottom=60|oLeft=58}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 5
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

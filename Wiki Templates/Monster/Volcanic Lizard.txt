@@ -1,0 +1,100 @@
+<div class="tabbertab-borderless"><tabber>
+monster lavalizard volcano={{Enemy
+  |title = Volcanic Lizard
+  |image_original = {{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=60|cHeight=43|oBottom=21|oLeft=3}}
+  |caption = Description for Volcanic Lizard
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 10
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 87000
+  |experience = 1000
+  |damage_bonus = 470
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''lavalizard projectile''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''lavalizard projectile2''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_lavalizard_volcano}}
+  }}
+|-|
+monster lavalizard volcano dangerous={{Enemy
+  |title = Volcanic Lizard
+  |image_original = {{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=60|cHeight=43|oBottom=21|oLeft=3}}
+  |caption = Description for Volcanic Lizard
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 675000
+  |experience = 2000
+  |damage_bonus = 610
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''lavalizard projectile''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''lavalizard projectile2''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_lavalizard_volcano_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

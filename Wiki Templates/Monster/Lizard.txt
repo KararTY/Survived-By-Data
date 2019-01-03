@@ -1,0 +1,49 @@
+{{Enemy
+  |title = Lizard
+  |image_original = {{CSS image crop|Image=beast_lizard.png|bSize=256|cWidth=60|cHeight=37|oBottom=26|oLeft=3}}
+  |caption = Description for Lizard
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 10
+  |experience = 5
+  |damage_bonus = 12
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''beastlizard projectile''' {{!!}} <center>{{CSS image crop|Image=beast_lizard.png|bSize=256|cWidth=13|cHeight=27|oBottom=67|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.1
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">25%</strong>)<br><small>[MovementSpeed]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_beastlizard}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

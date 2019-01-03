@@ -1,0 +1,33 @@
+{{Item
+  |title = Armor Medium T15 v1
+  |image = Armor Medium T15 v1.png
+  |caption = [deprecated]
+  |type = Armor
+  |tier = 15
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 262 {{Icon|Silver}}
+  |class = {{Icon|Harbinger}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Armor]]
+[[Category:Tier 15]]
+[[Category:Harbinger]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

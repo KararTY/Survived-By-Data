@@ -1,0 +1,92 @@
+<div class="tabbertab-borderless"><tabber>
+monster spirit cyclone sand hardmode={{Enemy
+  |title = Greater Sand Cyclone
+  |image_original = {{CSS image crop|Image=spirit_cyclone_sand.png|bSize=384|cWidth=74|cHeight=85|oBottom=10|oLeft=11}}
+  |caption = Description for Greater Sand Cyclone
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit cyclone sand projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_sand.png|bSize=384|cWidth=23|cHeight=65|oBottom=192|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Slowed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RateOfAttack {{!!}} (Rate of attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RateOfAttack]*0.5</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_cyclone_sand_hardmode}}
+  }}
+|-|
+monster spirit cyclone sand hardmode dangerous={{Enemy
+  |title = Greater Sand Cyclone
+  |image_original = {{CSS image crop|Image=spirit_cyclone_sand.png|bSize=384|cWidth=74|cHeight=85|oBottom=10|oLeft=11}}
+  |caption = Description for Greater Sand Cyclone
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 200000
+  |experience = 1800
+  |damage_bonus = 480
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit cyclone sand projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_sand.png|bSize=384|cWidth=23|cHeight=65|oBottom=192|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Slowed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RateOfAttack {{!!}} (Rate of attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RateOfAttack]*0.5</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_cyclone_sand_hardmode_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

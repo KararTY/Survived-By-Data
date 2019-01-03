@@ -1,0 +1,31 @@
+{{Item
+  |title = Mythril Catalyst
+  |image = Mythril Catalyst.png
+  |caption = Used in the creation of Mythril, this catalyst burns through the inner structure of an existing material, leaving behind a hollow reinforced lattice that is both strong and light. This is a rare crafting component.
+  |type = Misc
+  |tier = 7
+  |bound = 
+  |max_stack = 10
+  |buy_cost = 11 {{Icon|Bloodstone}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 20%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 7]]
+{{stub}}
+'''{{PAGENAME}}'''

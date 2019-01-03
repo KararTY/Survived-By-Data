@@ -1,0 +1,32 @@
+{{Item
+  |title = Hunter T13 Weapon v1
+  |image = Hunter T13 Weapon v1.png
+  |caption = [deprecated]
+  |type = Weapon
+  |tier = 13
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 170 {{Icon|Silver}}
+  |class = {{Icon|Harbinger}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 13]]
+[[Category:Harbinger]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,104 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Fury Veteran 1 (Common)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Fury Veteran
+    | description = Damage reduction against Fury is increased by 2.16%
+    | level = 1
+    | rarity = common
+    | ordinary1 = AL_Damage reduction
+    | ordinary2 = AL_Icon_Fury_02
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage minus
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Fury Veteran
+    | description = Damage reduction against Fury is increased by 10%
+    | level = 50
+    | rarity = common
+    | ordinary1 = AL_Damage reduction
+    | ordinary2 = AL_Icon_Fury_02
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage minus
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Fury Veteran
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Common
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | DamageReductionFuries || [DamageReductionFuries]+[$Benefit]/100 || 
+    |-
+    | Benefit || 2+([AncestralData.Ancestral_Level]x0.16) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_percentage minus.png]] [[Ancestral_Legacy/Set Bonus#Damage_Reduction_Set|Damage Reduction Set]]
+  |}
+|-|
+Fury Veteran 2 (Uncommon)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Fury Veteran
+    | description = Damage reduction against Fury is increased by 5.4%
+    | level = 1
+    | rarity = uncommon
+    | ordinary1 = AL_Damage reduction
+    | ordinary2 = AL_Icon_Fury_02
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage minus
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Fury Veteran
+    | description = Damage reduction against Fury is increased by 25%
+    | level = 50
+    | rarity = uncommon
+    | ordinary1 = AL_Damage reduction
+    | ordinary2 = AL_Icon_Fury_02
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_percentage minus
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Fury Veteran
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Uncommon
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | DamageReductionFuries || [DamageReductionFuries]+[$Benefit]/100 || 
+    |-
+    | Benefit || 5+([AncestralData.Ancestral_Level]x0.4)	 || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_percentage minus.png]] [[Ancestral_Legacy/Set Bonus#Damage_Reduction_Set|Damage Reduction Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>Damage reduction against Fury is increased by X%</includeonly></onlyinclude>

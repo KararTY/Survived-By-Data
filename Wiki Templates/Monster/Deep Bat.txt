@@ -1,0 +1,87 @@
+<div class="tabbertab-borderless"><tabber>
+monster bat dung={{Enemy
+  |title = Deep Bat
+  |image_original = {{CSS image crop|Image=Bat_01.png|bSize=128|cWidth=16|cHeight=32|oBottom=0|oLeft=16}}
+  |caption = Description for Deep Bat
+  |location = 
+  |category = Beast
+  |tier = 2
+  |level = 6
+  |max_health = {{Icon|Health|nolink=1}} 30
+  |experience = 20
+  |damage_bonus = 28
+  |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''bat projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">15%</strong>)<br><small>[CriticalChance]*0.85</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_bat_dung}}
+  }}
+|-|
+monster batswarm dung={{Enemy
+  |title = Deep Bat
+  |image = Deep Bat.png
+  |location = 
+  |category = Beast
+  |tier = 2
+  |level = 6
+  |max_health = {{Icon|Health|nolink=1}} 30
+  |experience = 40
+  |damage_bonus = 28
+  |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''bat projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">15%</strong>)<br><small>[CriticalChance]*0.85</small>
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

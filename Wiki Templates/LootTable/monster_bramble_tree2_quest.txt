@@ -1,0 +1,21 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+<div class="tabbertab-borderless"><tabber>
+monster_bramble_tree2_quest 1=('''Quest loot table''') '''Loot table: ([[Loot table/monster_bramble_tree2_quest|monster_bramble_tree2_quest]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Clothing Scraps}} || style="text-align:right" | 30% 
+|}
+|-|
+monster_bramble_tree2_quest 2=
+|-|
+</tabber></div>
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/monster_bramble_tree2_quest}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

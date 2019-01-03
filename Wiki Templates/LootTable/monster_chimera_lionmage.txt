@@ -1,0 +1,29 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+<div class="tabbertab-borderless"><tabber>
+monster_chimera_lionmage 1={{:Loot table/CommonLoot T3}}'''Loot table: ([[Loot table/monster_chimera_lionmage|monster_chimera_lionmage]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Raw Quartz Vein}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Raw Strands}} || style="text-align:right" | 10% 
+|}
+|-|
+monster_chimera_lionmage 2=('''Quest loot table''') '''Loot table: ([[Loot table/monster_chimera_lionmage|monster_chimera_lionmage]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Lion Idol}} || style="text-align:right" | 50% 
+|}
+|-|
+</tabber></div>
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/monster_chimera_lionmage}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

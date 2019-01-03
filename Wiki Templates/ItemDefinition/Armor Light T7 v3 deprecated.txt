@@ -1,0 +1,33 @@
+{{Item
+  |title = Armor Light T7 v3 deprecated
+  |image = Armor Light T7 v3 deprecated.png
+  |caption = [deprecated]
+  |type = Armor
+  |tier = 7
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 27 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Armor]]
+[[Category:Tier 7]]
+[[Category:Alchemist]]
+[[Category:Infiltrator]]
+{{stub}}
+'''{{PAGENAME}}'''

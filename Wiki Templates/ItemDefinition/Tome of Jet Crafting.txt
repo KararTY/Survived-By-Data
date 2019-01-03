@@ -1,0 +1,58 @@
+{{Item
+  |title = Tome of Jet Crafting
+  |image = Tome of Jet Crafting.png
+  |caption = Contains the secrets of using a Jet Catalyst to craft exceptional equipment.
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 10
+  |buy_cost = 125 {{Icon|Silver}}
+  |sell_cost = 25 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x2 {{Icon|Resin}}
+  |silver_cost = 200 {{Icon|Silver|nolink=1}}
+  |time = 1 minute
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+{{Item
+  |title = Tome of Jet Crafting
+  |image = Tome of Jet Crafting.png
+  |caption = Contains the secrets of using a Jet Catalyst to craft exceptional equipment.
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 10
+  |buy_cost = 125 {{Icon|Silver}}
+  |sell_cost = 25 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

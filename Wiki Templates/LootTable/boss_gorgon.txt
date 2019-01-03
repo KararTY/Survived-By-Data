@@ -1,0 +1,46 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_gorgon|boss_gorgon]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x50 || {{Icon|Silver}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Skeleton Key}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Eldritch Catalyst}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Electrum Amulet}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Electrum Ring}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Plate of the Witness}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Vestments of the Witness}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Leathers of the Witness}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Boots of the Invader}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Boots of the Suplicant}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Insight of the Witness}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Dedication of the Witness}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Precision of the Witness}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Discipline of the Witness}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Determination of the Witness}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Ambition of the Witness}} || style="text-align:right" | 5% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/boss_gorgon}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

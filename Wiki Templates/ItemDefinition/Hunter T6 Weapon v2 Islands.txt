@@ -1,0 +1,32 @@
+{{Item
+  |title = Hunter T6 Weapon v2 Islands
+  |image = Hunter T6 Weapon v2 Islands.png
+  |caption = [description]
+  |type = Weapon
+  |tier = 6
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 17 {{Icon|Silver}}
+  |class = {{Icon|Harbinger}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 6]]
+[[Category:Harbinger]]
+{{stub}}
+'''{{PAGENAME}}'''

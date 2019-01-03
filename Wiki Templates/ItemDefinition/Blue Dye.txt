@@ -1,0 +1,58 @@
+{{Item
+  |title = Blue Dye
+  |image = Blue Dye.png
+  |caption = Unlock Blue Dye Temporarily
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 50 {{Icon|Bloodstone}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+{{Item
+  |title = Blue Dye
+  |image = Blue Dye.png
+  |caption = Unlock Blue Dye Permanently
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 200 {{Icon|Electrum}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

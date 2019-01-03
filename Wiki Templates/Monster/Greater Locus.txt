@@ -1,0 +1,42 @@
+{{Enemy
+  |title = Greater Locus
+  |image_original = {{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=127|cHeight=128|oBottom=640|oLeft=1}}
+  |caption = Description for Greater Locus
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 445000
+  |experience = 100000
+  |damage_bonus = 320
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss incubator projectile''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=48|cHeight=48|oBottom=934|oLeft=135}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 12
+    {{!}}-
+    {{!}} Acceleration {{!!}} -3
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 25
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |dialogue = <u>'''80% health:'''</u> ''You... have come to see... what has become of them? What will... become of you?''<br><u>'''60% health:'''</u> ''Your ancestors... will be the means of your end. Do you not see... your soul in their eyes?''<br><u>'''40% health:'''</u> ''The tree... bleeds... so that you may die.''<br><u>'''20% health:'''</u> ''We are... as alien as you. Outsiders. But we will leave as we came... once you are extinct.''
+  |drops = {{:Loot table/boss_director_HardMode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

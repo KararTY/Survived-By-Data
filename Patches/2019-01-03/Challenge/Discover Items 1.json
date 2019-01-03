@@ -1,0 +1,1 @@
+[{"name":"Discover Items 1","title":"Discover Gear (I)","description":"Discover {0} items","challengeValueSuffix":"Items","challengeType":"Endurance","achievement":true,"data":[{"loot":{"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Standard Ancestral Legacy","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false}]}}]}]

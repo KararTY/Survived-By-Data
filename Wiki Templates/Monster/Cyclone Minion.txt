@@ -1,0 +1,36 @@
+{{Enemy
+  |title = Cyclone Minion
+  |image_original = {{CSS image crop|Image=spirit_cyclone_dirt.png|bSize=384|cWidth=88|cHeight=85|oBottom=11|oLeft=3}}
+  |caption = Description for Cyclone Minion
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 1
+  |level = 3
+  |max_health = {{Icon|Health|nolink=1}} 22
+  |experience = 20
+  |damage_bonus = 20
+  |accuracy = 153.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 26.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit cyclone dirt projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_dirt.png|bSize=384|cWidth=28|cHeight=56|oBottom=192|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 0.75
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

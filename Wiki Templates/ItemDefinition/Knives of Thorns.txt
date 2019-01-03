@@ -1,0 +1,32 @@
+{{Item
+  |title = Knives of Thorns
+  |image = Knives of Thorns.png
+  |caption = The Ziggurat was not the only ruin in the Cinder Valley to open with the Prophecies of Sin. And before they closed a number of unusual artifacts were recovered. These impliments of war are covered with thorns, meaning their bearer must feed these macabre tools their lifeblood to use them. But in return for this sacrifice these knives gains in power as its bearer does.
+  |type = Weapon
+  |tier = 1
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 750 {{Icon|Electrum}}
+  |sell_cost = 
+  |class = {{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[Level]*4.4+[$Item_Level]*4  <br>'''113'''
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[Level]*3.3+[$Item_Level]*3 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[Level]*1.1+[$Item_Level] <br>'''113'''
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[Level]*2.2+[$Item_Level]*2 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 1]]
+[[Category:Infiltrator]]
+{{stub}}
+'''{{PAGENAME}}'''

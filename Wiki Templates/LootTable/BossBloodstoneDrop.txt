@@ -1,0 +1,16 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/BossBloodstoneDrop|BossBloodstoneDrop]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Bloodstone}} || style="text-align:right" | 1% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/BossBloodstoneDrop}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

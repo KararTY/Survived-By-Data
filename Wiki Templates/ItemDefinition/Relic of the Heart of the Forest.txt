@@ -1,0 +1,37 @@
+{{Item
+  |title = Relic of the Heart of the Forest
+  |image = Relic of the Heart of the Forest.png
+  |caption = The Heart of the Forest is perhaps the oldest living thing in the Heartland. Its relic contains a touch of eternity.
+  |type = Misc
+  |tier = 9
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+40 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 9]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

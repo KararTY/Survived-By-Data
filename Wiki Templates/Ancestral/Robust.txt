@@ -1,0 +1,100 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Robust 3 (Rare)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Robust
+    | description = Health total increased by 1.18%
+    | level = 1
+    | rarity = rare
+    | ordinary1 = AL_Icon_Health 02
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_Icon_Health 02
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Robust
+    | description = Health total increased by 10%
+    | level = 50
+    | rarity = rare
+    | ordinary1 = AL_Icon_Health 02
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_Icon_Health 02
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Robust
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Rare
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | HealthMax || [HealthMax] + ([HealthMax] x [$Benefit]/100) || 
+    |-
+    | Benefit || 1+([AncestralData.Ancestral_Level]x0.18) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_Icon_Health 02.png]] [[Ancestral_Legacy/Set Bonus#Health_Set|Health Set]]
+  |}
+|-|
+Robust 4 (Legendary)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Robust
+    | description = Health total increased by 2.36%
+    | level = 1
+    | rarity = legendary
+    | ordinary1 = AL_Icon_Health 02
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_Icon_Health 02
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Robust
+    | description = Health total increased by 20%
+    | level = 50
+    | rarity = legendary
+    | ordinary1 = AL_Icon_Health 02
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_Icon_Health 02
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Robust
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Legendary
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | HealthMax || [HealthMax] + ([HealthMax] x [$Benefit]/100) || 
+    |-
+    | Benefit || 2+([AncestralData.Ancestral_Level]x0.36) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_Icon_Health 02.png]] [[Ancestral_Legacy/Set Bonus#Health_Set|Health Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>Health total increased by X%</includeonly></onlyinclude>

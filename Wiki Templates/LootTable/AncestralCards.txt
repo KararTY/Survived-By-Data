@@ -1,0 +1,23 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/AncestralCards|AncestralCards]])'''
+<br>Guaranteed drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Random Common Ancestral Legacy}} || style="text-align:right" | 0.7% 
+|-
+| x1 || {{Icon|Random Uncommon Ancestral Legacy}} || style="text-align:right" | 0.289% 
+|-
+| x1 || {{Icon|Random Rare Ancestral Legacy}} || style="text-align:right" | 0.01% 
+|-
+| x1 || {{Icon|Random Legendary Ancestral Legacy}} || style="text-align:right" | 0.001% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/AncestralCards}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

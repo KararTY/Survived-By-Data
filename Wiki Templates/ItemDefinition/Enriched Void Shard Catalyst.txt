@@ -1,0 +1,31 @@
+{{Item
+  |title = Enriched Void Shard Catalyst
+  |image = Enriched Void Shard Catalyst.png
+  |caption = With the breaching of the World Tree, pieces of the bark of the tree now litter the islands near that breach. These Void Shards are a necessary component for working with Fury physiology. This is a rare crafting component.
+  |type = Misc
+  |tier = 9
+  |bound = 
+  |max_stack = 10
+  |buy_cost = 30 {{Icon|Bloodstone}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 20%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 9]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,47 @@
+{{Enemy
+  |title = Arid Scorpion
+  |image_original = {{CSS image crop|Image=scorpion_desert.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |caption = Description for Arid Scorpion
+  |location = 
+  |category = Beast
+  |tier = 3
+  |level = 11
+  |max_health = {{Icon|Health|nolink=1}} 180
+  |experience = 140
+  |damage_bonus = 60
+  |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''scorpion desert projectile''' {{!!}} <center>{{CSS image crop|Image=scorpion_desert.png|bSize=192|cWidth=12|cHeight=23|oBottom=48|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 50<br><small>[DamageOverTime]+22 '''28'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''3'''
+    {{!}}}
+  |drops = {{:Loot table/monster_scorpion_desert}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

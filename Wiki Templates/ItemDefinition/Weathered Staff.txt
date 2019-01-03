@@ -1,0 +1,32 @@
+{{Item
+  |title = Weathered Staff
+  |image = Weathered Staff.png
+  |caption = Little more than a sturdy branch with a shard of amber afixed to the top.
+  |type = Weapon
+  |tier = 1
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 15 {{Icon|Silver}}
+  |sell_cost = 8 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4  <br>'''30.55'''
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*15+[$Item_Level]*3 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 <br>'''30.55'''
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*5+[$Item_Level] 
+  |materials = x1 {{Icon|Wood}}<br>x2 {{Icon|Raw Resin}}
+  |silver_cost = 10 {{Icon|Silver|nolink=1}}
+  |time = 20 seconds
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Embers}} 100%
+  |dismantle_silver_cost = 8 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 1 minute
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 1]]
+[[Category:Alchemist]]
+{{stub}}
+'''{{PAGENAME}}'''

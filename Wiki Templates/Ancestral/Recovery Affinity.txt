@@ -1,0 +1,112 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Recovery Affinity 1 (Common)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Recovery Affinity
+    | description = Energy potions provide 5.4% additional energy
+    | level = 1
+    | rarity = common
+    | ordinary1 = HUD_Potion red
+    | ordinary2 = AL_Icon_Energy
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_green drop with ellipsis
+    | set2 = AL_Icon_Energy
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Recovery Affinity
+    | description = Energy potions provide 25% additional energy
+    | level = 50
+    | rarity = common
+    | ordinary1 = HUD_Potion red
+    | ordinary2 = AL_Icon_Energy
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_green drop with ellipsis
+    | set2 = AL_Icon_Energy
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Recovery Affinity
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Common
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | ManaPotionHealingIncrease || [ManaPotionHealingIncrease]+[$Benefit]/100 || 
+    |-
+    | Benefit || 5+([AncestralData.Ancestral_Level]x0.4) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_green drop with ellipsis.png]] [[Ancestral_Legacy/Set Bonus#Consumable_Set|Consumable Set]]
+    |-
+    | [[File:AL_Icon_Energy.png]] [[Ancestral_Legacy/Set Bonus#Energy_Set|Energy Set]]
+  |}
+|-|
+Recovery Affinity 2 (Uncommon)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Recovery Affinity
+    | description = Energy potions provide 10.8% additional energy
+    | level = 1
+    | rarity = uncommon
+    | ordinary1 = HUD_Potion red
+    | ordinary2 = AL_Icon_Energy
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_green drop with ellipsis
+    | set2 = AL_Icon_Energy
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Recovery Affinity
+    | description = Energy potions provide 50% additional energy
+    | level = 50
+    | rarity = uncommon
+    | ordinary1 = HUD_Potion red
+    | ordinary2 = AL_Icon_Energy
+    | ordinary3 = AL_icon_percentage plus
+    | set1 = AL_icon_green drop with ellipsis
+    | set2 = AL_Icon_Energy
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Recovery Affinity
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Uncommon
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | ManaPotionHealingIncrease || [ManaPotionHealingIncrease]+[$Benefit]/100 || 
+    |-
+    | Benefit || 10+([AncestralData.Ancestral_Level]x0.8) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_green drop with ellipsis.png]] [[Ancestral_Legacy/Set Bonus#Consumable_Set|Consumable Set]]
+    |-
+    | [[File:AL_Icon_Energy.png]] [[Ancestral_Legacy/Set Bonus#Energy_Set|Energy Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>Energy potions provide X% additional energy</includeonly></onlyinclude>

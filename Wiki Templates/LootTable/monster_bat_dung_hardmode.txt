@@ -1,0 +1,18 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/CommonLoot T9}}'''Loot table: ([[Loot table/monster_bat_dung_hardmode|monster_bat_dung_hardmode]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Enriched Cloth}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Enriched Leather}} || style="text-align:right" | 5% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/monster_bat_dung_hardmode}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

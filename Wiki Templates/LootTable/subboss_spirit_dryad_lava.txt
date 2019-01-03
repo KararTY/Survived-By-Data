@@ -1,0 +1,22 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/CommonLoot T10}}'''Loot table: ([[Loot table/subboss_spirit_dryad_lava|subboss_spirit_dryad_lava]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Pyroclast Catalyst, Grade I}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Endurance)}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Health)}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Energy)}} || style="text-align:right" | 10% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/subboss_spirit_dryad_lava}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

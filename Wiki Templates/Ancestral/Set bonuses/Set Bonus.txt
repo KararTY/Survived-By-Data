@@ -1,0 +1,547 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Alchemist_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_ Alchemist.png|nolink=]] Alchemist Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Alchemist Bonus1:''' Reduce the Energy cost of the Alchemist's secondary ability by 15%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.15) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Alchemist Bonus2:''' Reduce the Energy cost of the Alchemist's secondary ability by 30%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.3) || 
+ |}
+ |-|
+Attribute_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_peace.png|nolink=]] Attribute Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Attribute Bonus1:''' Increase all Attributes by 5%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | AddPotency || [AddPotency]+0.05 || 
+ |-
+  | AddEndurance || [AddEndurance]+0.05 || 
+ |-
+  | AddFocus || [AddFocus]+0.05 || 
+ |-
+  | AddWillpower || [AddWillpower]+0.05 || 
+ |-
+  | AddSwiftness || [AddSwiftness]+0.05 || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Attribute Bonus2:''' Increase all Attributes by 10%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | AddPotency || [AddPotency]+0.1 || 
+ |-
+  | AddEndurance || [AddEndurance]+0.1 || 
+ |-
+  | AddFocus || [AddFocus]+0.1 || 
+ |-
+  | AddWillpower || [AddWillpower]+0.1 || 
+ |-
+  | AddSwiftness || [AddSwiftness]+0.1 || 
+ |}
+ |-|
+Consumable_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_green drop with ellipsis.png|nolink=]] Consumable Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Consumable Bonus1:''' Increase the benefit of a consumable by 10%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | HealthPotionHealingIncrease || [HealthPotionHealingIncrease]+([HealthPotionHealingIncrease]x0.1) || 
+ |-
+  | ManaPotionHealingIncrease || [ManaPotionHealingIncrease]+([ManaPotionHealingIncrease]x0.1) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Consumable Bonus2:''' Increase the benefit of a consumable by 20%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | HealthPotionHealingIncrease || [HealthPotionHealingIncrease]+([HealthPotionHealingIncrease]x0.2) || 
+ |-
+  | ManaPotionHealingIncrease || [ManaPotionHealingIncrease]+([ManaPotionHealingIncrease]x0.2) || 
+ |}
+ |-|
+Critical_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_ Dice.png|nolink=]] Critical Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Critical Bonus1:''' Increase Critical Hit and Damage by 5%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | CriticalDamage || [CriticalDamage]+([CriticalDamage]x0.05) || 
+ |-
+  | CriticalScore || [CriticalScore]+([CriticalScore]x0.05) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Critical Bonus2:''' Increase Critical Hit and Damage by 10%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | CriticalDamage || [CriticalDamage]+([CriticalDamage]x0.1) || 
+ |-
+  | CriticalScore || [CriticalScore]+([CriticalScore]x0.1) || 
+ |}
+ |-|
+Damage_Bonus_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_percentage plus.png|nolink=]] Damage Bonus Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Damage Bonus Bonus1:''' Increase Damage Bonus by 10%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | DamageBonus || [DamageBonus]+([DamageBonus]x0.1) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Damage Bonus Bonus2:''' Increase Damage Bonus by 20%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | DamageBonus || [DamageBonus]+([DamageBonus]x0.2) || 
+ |}
+ |-|
+Damage_Reduction_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_percentage minus.png|nolink=]] Damage Reduction Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Damage Reduction Bonus1:''' Increase Damage Reduction by 10%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | DamageReduction || [DamageReduction]+([DamageReduction]x0.1) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Damage Reduction Bonus2:''' Increase Damage Reduction by 20%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | DamageReduction || [DamageReduction]+([DamageReduction]x0.2) || 
+ |}
+ |-|
+Dealing_Damage_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_Damage.png|nolink=]] Dealing Damage Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Dealing Damage Bonus1:''' Increase the proc chance when dealing damage by 5%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | DamageDealtProcChanceIncrease || [DamageDealtProcChanceIncrease]+0.05 || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Dealing Damage Bonus2:''' Increase the proc chance when dealing damage by 10%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | DamageDealtProcChanceIncrease || [DamageDealtProcChanceIncrease]+0.1 || 
+ |}
+ |-|
+Debuff_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_debuff.png|nolink=]] Debuff Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Debuff Bonus1:''' Increase the duration of inflicted debuffs by 20%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | AppliedDebuffDuration || [AppliedDebuffDuration]+([AppliedDebuffDuration]x0.2) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Debuff Bonus2:''' Increase the duration of inflicted debuffs by 40%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | AppliedDebuffDuration || [AppliedDebuffDuration]+([AppliedDebuffDuration]x0.4) || 
+ |}
+ |-|
+Druid_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_ Druid.png|nolink=]] Druid Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Druid Bonus1:''' Reduce the Energy cost of the Druid's secondary ability by 15%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.15) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Druid Bonus2:''' Reduce the Energy cost of the Druid's secondary ability by 30%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.3) || 
+ |}
+ |-|
+Energy_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_Icon_Energy.png|nolink=]] Energy Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Energy Bonus1:''' Increase Energy by 5%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | ManaMax || [ManaMax]+([ManaMax]x0.05) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Energy Bonus2:''' Increase Energy by 10%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | ManaMax || [ManaMax]+([ManaMax]x0.1) || 
+ |}
+ |-|
+Geomancer_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_ Geomancer.png|nolink=]] Geomancer Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Geomancer Bonus1:''' Reduce the Energy cost of the Geomancer's secondary ability by 15%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.15) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Geomancer Bonus2:''' Reduce the Energy cost of the Geomancer's secondary ability by 30%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.3) || 
+ |}
+ |-|
+Harbinger_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_ Harbinger.png|nolink=]] Harbinger Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Harbinger Bonus1:''' Reduce the Energy cost of the Harbinger's secondary ability by 15%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.15) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Harbinger Bonus2:''' Reduce the Energy cost of the Harbinger's secondary ability by 30%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.3) || 
+ |}
+ |-|
+Health_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_Icon_Health 02.png|nolink=]] Health Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Health Bonus1:''' Increase Health by 5%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | HealthMax || [HealthMax]+([HealthMax]x0.05) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Health Bonus2:''' Increase Health by 10%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | HealthMax || [HealthMax]+([HealthMax]x0.1) || 
+ |}
+ |-|
+Infiltrator_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_ Infiltrator.png|nolink=]] Infiltrator Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Infiltrator Bonus1:''' Reduce the Energy cost of the Infiltrator's secondary ability by 15%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.15) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Infiltrator Bonus2:''' Reduce the Energy cost of the Infiltrator's secondary ability by 30%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponRageCost || [SpecialWeaponRageCost] - ([SpecialWeaponRageCost] x0.3) || 
+ |}
+ |-|
+Kill_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_skull.png|nolink=]] Kill Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Kill Bonus1:''' Increase the proc chance when killing by 5%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | KilledEnemyProcChanceIncrease || [KilledEnemyProcChanceIncrease]+0.05 || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Kill Bonus2:''' Increase the proc chance when killing by 10%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | KilledEnemyProcChanceIncrease || [KilledEnemyProcChanceIncrease]+0.1 || 
+ |}
+ |-|
+Low_Health_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_ plus.png|nolink=]] Low Health Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Low Health Bonus1:''' Increase the low health percentage by 10%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | LowHealthPercent || [LowHealthPercent]+0.1 || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Low Health Bonus2:''' Increase the low health percentage by 20%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | LowHealthPercent || [LowHealthPercent]+0.2 || 
+ |}
+ |-|
+Sentinel_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_ Sentinel.png|nolink=]] Sentinel Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Sentinel Bonus1:''' Reduce the Energy cost of the Sentinel's secondary ability by 15%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponBurnRate || [SpecialWeaponBurnRate] - ([SpecialWeaponBurnRate] x0.15) || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Sentinel Bonus2:''' Reduce the Energy cost of the Sentinel's secondary ability by 30%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | SpecialWeaponBurnRate || [SpecialWeaponBurnRate] - ([SpecialWeaponBurnRate] x0.30) || 
+ |}
+ |-|
+Speed_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_boots with ellipsis.png|nolink=]] Speed Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Speed Bonus1:''' Increase movement and attack speed by 5%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | AddMovementSpeed || [AddMovementSpeed]+0.05 || 
+ |-
+  | AddRateOfAttack || [AddRateOfAttack]+0.05 || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Speed Bonus2:''' Increase movement and attack speed by 10%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | AddMovementSpeed || [AddMovementSpeed]+0.1 || 
+ |-
+  | AddRateOfAttack || [AddRateOfAttack]+0.1 || 
+ |}
+ |-|
+Taking_Damage_Set= {| class="wikitable mw-collapsible"
+  |-
+  ! colspan="3" | [[File:AL_icon_percentage minus.png|nolink=]] Taking Damage Set
+  |-
+  | colspan="3" style="text-align:center;" | '''Taking Damage Bonus1:''' Increase the proc chance when taking damage by 5%
+  |-
+  | Required amount || colspan="2" | '''2'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | DamageTakenProcChanceIncrease || [DamageTakenProcChanceIncrease]+0.05 || 
+  |-
+  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">
+  |-
+  | colspan="3" style="text-align:center;" | '''Taking Damage Bonus2:''' Increase the proc chance when taking damage by 10%
+  |-
+  | Required amount || colspan="2" | '''3'''
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | DamageTakenProcChanceIncrease || [DamageTakenProcChanceIncrease]+0.1 || 
+ |}
+ |-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+[[Category:Ancestral Legacy Set Bonus]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

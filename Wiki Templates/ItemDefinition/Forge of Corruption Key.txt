@@ -1,0 +1,31 @@
+{{Item
+  |title = Forge of Corruption Key
+  |image = Forge of Corruption Key.png
+  |caption = Used to gain access to the Forge of Corruption. This dungeon is appropriate for characters level 21 through 25.
+  |type = Misc
+  |tier = 
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 750 {{Icon|Silver}}
+  |sell_cost = 1 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

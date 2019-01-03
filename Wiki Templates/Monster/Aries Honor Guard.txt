@@ -1,0 +1,51 @@
+{{Enemy
+  |title = Aries Honor Guard
+  |image_original = {{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=0}}
+  |caption = Description for Aries Honor Guard
+  |location = 
+  |category = Chimera
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 7200
+  |experience = 800
+  |damage_bonus = 299
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile ahead''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.4
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera ram warrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=13|cHeight=31|oBottom=55|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_ram_dung}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

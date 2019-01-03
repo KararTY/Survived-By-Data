@@ -1,0 +1,39 @@
+{{Enemy
+  |title = Lion King
+  |image_original = {{CSS image crop|Image=lion_shaman2.png|bSize=512|cWidth=97|cHeight=89|oBottom=167|oLeft=8}}
+  |caption = Description for Lion King
+  |location = 
+  |category = Chimera
+  |is_boss = Yes
+  |tier = 4
+  |level = 20
+  |max_health = {{Icon|Health|nolink=1}} 39000
+  |experience = 20000
+  |damage_bonus = 158
+  |accuracy = 310<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 105<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''monster lionking projectile''' {{!!}} <center>{{CSS image crop|Image=lion_shaman2.png|bSize=512|cWidth=61|cHeight=65|oBottom=672|oLeft=2}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.05
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 3
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 14
+    {{!}}}
+  |dialogue = <u>'''90% health:'''</u> ''It was too much to hope that you would not follow us here.''<br><u>'''75% health:'''</u> ''Of course your kind would be fixated on enacting vengeance for your ancestors.''<br><u>'''50% health:'''</u> ''Fool! The Fury do not serve us, they enslave us!''<br><u>'''30% health:'''</u> ''Within the Forge of Corruption they turned us into weapons to kill you!''<br><u>'''10% health:'''</u> ''Clever bugs... ''<br><u>'''6% health:'''</u> ''They knew they could count on you...''<br><u>'''3% health:'''</u> ''To cut those of us down... that broke free...''
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

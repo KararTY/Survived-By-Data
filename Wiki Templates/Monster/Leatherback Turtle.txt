@@ -1,0 +1,69 @@
+<div class="tabbertab-borderless"><tabber>
+monster beast leatherback={{Enemy
+  |title = Leatherback Turtle
+  |image_original = {{CSS image crop|Image=beast_Leatherback.png|bSize=256|cWidth=56|cHeight=43|oBottom=19|oLeft=6}}
+  |caption = Description for Leatherback Turtle
+  |location = 
+  |category = Beast
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 3308
+  |experience = 750
+  |damage_bonus = 215
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''turtlesnap projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_beast_leatherback}}
+  }}
+|-|
+monster turtlesnap leatherback={{Enemy
+  |title = Leatherback Turtle
+  |image_original = {{CSS image crop|Image=beast_turtlesnap.png|bSize=256|cWidth=53|cHeight=45|oBottom=17|oLeft=7}}
+  |caption = Description for Leatherback Turtle
+  |location = 
+  |category = Beast
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 3465
+  |experience = 750
+  |damage_bonus = 215
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''turtlesnap projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_turtlesnap_leatherback}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

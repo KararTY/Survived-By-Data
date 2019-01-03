@@ -1,0 +1,86 @@
+<div class="tabbertab-borderless"><tabber>
+monster krakententacle={{Enemy
+  |title = Kraken Tentacle
+  |image_original = {{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=46|cHeight=64|oBottom=0|oLeft=453}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 6
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 14000
+  |damage_bonus = 220
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''krakententacle projectile''' {{!!}} <center>{{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=16|cHeight=32|oBottom=224|oLeft=456}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Kraken Slow'''
+    {{!}}-
+    {{!}} Duration {{!!}} 4 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">75%</strong>)<br><small>[MovementSpeed] * 0.25</small>
+    {{!}}}
+  }}
+|-|
+monster krakententacle hardmode={{Enemy
+  |title = Kraken Tentacle
+  |image_original = {{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=46|cHeight=64|oBottom=0|oLeft=453}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 62500
+  |damage_bonus = 320
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''krakententacle projectile''' {{!!}} <center>{{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=16|cHeight=32|oBottom=224|oLeft=456}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Kraken Slow'''
+    {{!}}-
+    {{!}} Duration {{!!}} 4 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">75%</strong>)<br><small>[MovementSpeed] * 0.25</small>
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

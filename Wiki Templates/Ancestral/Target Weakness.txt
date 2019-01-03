@@ -1,0 +1,165 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Target Weakness 2 (Uncommon)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Target Weakness
+    | description = Harbinger special attack deals 3.06% additional damage
+    | level = 1
+    | rarity = uncommon
+    | ordinary1 = AL_icon_ Harbinger
+    | ordinary2 = AL_Hunters_Mark
+    | ordinary3 = AL_Damage
+    | set1 = AL_icon_ Harbinger
+    | set2 = AL_icon_percentage plus
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Target Weakness
+    | description = Harbinger special attack deals 6% additional damage
+    | level = 50
+    | rarity = uncommon
+    | ordinary1 = AL_icon_ Harbinger
+    | ordinary2 = AL_Hunters_Mark
+    | ordinary3 = AL_Damage
+    | set1 = AL_icon_ Harbinger
+    | set2 = AL_icon_percentage plus
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Target Weakness
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Uncommon
+    |-
+    | Classes || colspan="2" | {{Icon|Harbinger}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | SpecialWeaponDamage || [SpecialWeaponDamage]+([SpecialWeaponDamage]x[$Benefit]/100) || 
+    |-
+    | Benefit || 3+([AncestralData.Ancestral_Level]x0.06) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Harbinger.png]] [[Ancestral_Legacy/Set Bonus#Harbinger_Set|Harbinger Set]]
+    |-
+    | [[File:AL_icon_percentage plus.png]] [[Ancestral_Legacy/Set Bonus#Damage_Bonus_Set|Damage Bonus Set]]
+  |}
+|-|
+Target Weakness 3 (Rare)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Target Weakness
+    | description = Harbinger special attack deals 3.24% additional damage
+    | level = 1
+    | rarity = rare
+    | ordinary1 = AL_icon_ Harbinger
+    | ordinary2 = AL_Hunters_Mark
+    | ordinary3 = AL_Damage
+    | set1 = AL_icon_ Harbinger
+    | set2 = AL_icon_percentage plus
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Target Weakness
+    | description = Harbinger special attack deals 15% additional damage
+    | level = 50
+    | rarity = rare
+    | ordinary1 = AL_icon_ Harbinger
+    | ordinary2 = AL_Hunters_Mark
+    | ordinary3 = AL_Damage
+    | set1 = AL_icon_ Harbinger
+    | set2 = AL_icon_percentage plus
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Target Weakness
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Rare
+    |-
+    | Classes || colspan="2" | {{Icon|Harbinger}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | SpecialWeaponDamage || [SpecialWeaponDamage]+([SpecialWeaponDamage]x[$Benefit]/100) || 
+    |-
+    | Benefit || 3+([AncestralData.Ancestral_Level]x0.24) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Harbinger.png]] [[Ancestral_Legacy/Set Bonus#Harbinger_Set|Harbinger Set]]
+    |-
+    | [[File:AL_icon_percentage plus.png]] [[Ancestral_Legacy/Set Bonus#Damage_Bonus_Set|Damage Bonus Set]]
+  |}
+|-|
+Target Weakness 4 (Legendary)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Target Weakness
+    | description = Harbinger special attack deals 5.4% additional damage
+    | level = 1
+    | rarity = legendary
+    | ordinary1 = AL_icon_ Harbinger
+    | ordinary2 = AL_Hunters_Mark
+    | ordinary3 = AL_Damage
+    | set1 = AL_icon_ Harbinger
+    | set2 = AL_icon_percentage plus
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Target Weakness
+    | description = Harbinger special attack deals 25% additional damage
+    | level = 50
+    | rarity = legendary
+    | ordinary1 = AL_icon_ Harbinger
+    | ordinary2 = AL_Hunters_Mark
+    | ordinary3 = AL_Damage
+    | set1 = AL_icon_ Harbinger
+    | set2 = AL_icon_percentage plus
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Target Weakness
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Legendary
+    |-
+    | Classes || colspan="2" | {{Icon|Harbinger}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | SpecialWeaponDamage || [SpecialWeaponDamage]+([SpecialWeaponDamage]x[$Benefit]/100) || 
+    |-
+    | Benefit || 5+([AncestralData.Ancestral_Level]x0.4) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Harbinger.png]] [[Ancestral_Legacy/Set Bonus#Harbinger_Set|Harbinger Set]]
+    |-
+    | [[File:AL_icon_percentage plus.png]] [[Ancestral_Legacy/Set Bonus#Damage_Bonus_Set|Damage Bonus Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>Harbinger special attack deals X% additional damage</includeonly></onlyinclude>

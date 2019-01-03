@@ -1,0 +1,128 @@
+<div class="tabbertab-borderless"><tabber>
+boss miragehunter ghost hardmode={{Enemy
+  |title = Greater Mirage Hunter
+  |image_original = {{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
+  |caption = Description for Greater Mirage Hunter
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 220000
+  |damage_bonus = 380
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss miragehunter projectile''' {{!!}} <center>{{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=61|cHeight=61|oBottom=258|oLeft=385}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss miragehunter projectile2''' {{!!}} <center>{{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=64|cHeight=64|oBottom=256|oLeft=448}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''boss miragehunter projectile2 particle'''
+    {{!}}-
+    {{!}} Speed {{!!}} 2
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 1
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+boss miragehunter hardmode={{Enemy
+  |title = Greater Mirage Hunter
+  |image_original = {{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
+  |caption = Description for Greater Mirage Hunter
+  |location = 
+  |category = Infernal
+  |is_boss = Yes
+  |element = Ki
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 2225000
+  |experience = 100000
+  |damage_bonus = 380
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss miragehunter projectile''' {{!!}} <center>{{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=61|cHeight=61|oBottom=258|oLeft=385}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss miragehunter projectile2''' {{!!}} <center>{{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=64|cHeight=64|oBottom=256|oLeft=448}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''boss miragehunter projectile2 particle'''
+    {{!}}-
+    {{!}} Speed {{!!}} 2
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 1
+    {{!}}-
+    {{!}} Max hits {{!!}} 5
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |dialogue = <u>'''80% health:'''</u> ''You should not have returned here.''<br><u>'''60% health:'''</u> ''All contamination will be burned away.''<br><u>'''40% health:'''</u> ''As the World Tree lives, so do we.''<br><u>'''20% health:'''</u> ''Leave the secrets of this charnel with its dead.''
+  |drops = {{:Loot table/boss_miragehunter_hardmode}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

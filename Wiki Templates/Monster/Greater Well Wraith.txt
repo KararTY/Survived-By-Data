@@ -1,0 +1,32 @@
+{{Enemy
+  |title = Greater Well Wraith
+  |image_original = {{CSS image crop|Image=Boss_Well Wraith Greater.png|bSize=512|cWidth=98|cHeight=103|oBottom=276|oLeft=19}}
+  |caption = Description for Greater Well Wraith
+  |location = 
+  |category = None
+  |tier = 20
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 3600<br><small>3000+([Level]x600)</small>
+  |damage_bonus = 290<br><small>275+([Level]x15)</small>
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''greater well wraith projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Well Wraith Greater.png|bSize=512|cWidth=48|cHeight=50|oBottom=389|oLeft=390}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

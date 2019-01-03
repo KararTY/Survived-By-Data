@@ -1,0 +1,75 @@
+{{Enemy
+  |title = Ice Anima
+  |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=44|cHeight=48|oBottom=0|oLeft=4}}
+  |caption = Description for Ice Anima
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 4
+  |level = 16
+  |max_health = {{Icon|Health|nolink=1}} 515
+  |experience = 300
+  |damage_bonus = 95
+  |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile ooze''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_snow.png|bSize=384|cWidth=32|cHeight=34|oBottom=103|oLeft=200}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">35%</strong>)<br><small>[MovementSpeed]*0.65</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_dryad_ice}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

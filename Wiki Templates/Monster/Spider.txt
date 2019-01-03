@@ -1,0 +1,45 @@
+{{Enemy
+  |title = Spider
+  |image_original = {{CSS image crop|Image=spider_black.png|bSize=192|cWidth=37|cHeight=32|oBottom=8|oLeft=5}}
+  |caption = Description for Spider
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 20
+  |experience = 5
+  |damage_bonus = 15
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider black projectile''' {{!!}} <center>{{CSS image crop|Image=spider_black.png|bSize=192|cWidth=16|cHeight=27|oBottom=58|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">5%</strong>)<br><small>[MovementSpeed]*0.95</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_black}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,32 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/DeepNightShards T9|DeepNightShards T9]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x9 || {{Icon|Silver}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|First Gate Stone Fragment}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Second Gate Stone Fragment}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Third Gate Stone Fragment}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Fourth Gate Stone Fragment}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Fifth Gate Stone Fragment}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Sixth Gate Stone Fragment}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Seventh Gate Stone Fragment}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Eighth Gate Stone Fragment}} || style="text-align:right" | 1% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/DeepNightShards T9}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

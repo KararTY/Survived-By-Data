@@ -1,0 +1,32 @@
+{{Item
+  |title = Sin Infused Longsword
+  |image = Sin Infused Longsword.png
+  |caption = As the Sin Barb was used as a weapon against you, so to does it make an exceptional weapon for you to wield. 
+  |type = Weapon
+  |tier = 5
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 50 {{Icon|Silver}}
+  |sell_cost = 12 {{Icon|Silver}}
+  |class = {{Icon|Sentinel}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*6 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*3 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*15+[$Item_Level]*4 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*3 
+  |materials = x1 {{Icon|Metal}}<br>x3 {{Icon|Raw Tar Sand}}<br>x4 {{Icon|Lapis Core}}<br>x2 {{Icon|Raw Log}}
+  |silver_cost = 25 {{Icon|Silver|nolink=1}}
+  |time = 10 minutes
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 5]]
+[[Category:Sentinel]]
+{{stub}}
+'''{{PAGENAME}}'''

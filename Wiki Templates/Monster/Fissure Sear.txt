@@ -1,0 +1,47 @@
+{{Enemy
+  |title = Fissure Sear
+  |image_original = {{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=48|cHeight=39|oBottom=6|oLeft=0}}
+  |caption = Description for Fissure Sear
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 8
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 42000
+  |experience = 800
+  |damage_bonus = 368
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider fire projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=13|cHeight=20|oBottom=51|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Drained'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RagePerAttack {{!!}} (Rage per attack decrease by <strong style="color:red;">80%</strong>)<br><small>[RagePerAttack]*0.2</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_fire_fissure}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

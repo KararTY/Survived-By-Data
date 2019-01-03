@@ -1,0 +1,58 @@
+{{Item
+  |title = Obsidian
+  |image = Obsidian.png
+  |caption = Shards of Obsidian, a critical component of all offensive magic, are gathered from the dangerous Fire Sands.
+  |type = Misc
+  |tier = 3
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 10 {{Icon|Silver}}
+  |sell_cost = 1 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x5 {{Icon|Raw Tar Sand}}
+  |silver_cost = 20 {{Icon|Silver|nolink=1}}
+  |time = 40 seconds
+  |dismantle_chance = 40%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+{{Item
+  |title = Obsidian
+  |image = Obsidian.png
+  |caption = Shards of Obsidian, a critical component of all offensive magic, are gathered from the dangerous Fire Sands.
+  |type = Misc
+  |tier = 
+  |bound = 
+  |max_stack = 100
+  |buy_cost = 
+  |sell_cost = 16 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x12 {{Icon|Raw Tar Sand}}
+  |silver_cost = 
+  |time = 6 minutes
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 3]]
+{{stub}}
+'''{{PAGENAME}}'''

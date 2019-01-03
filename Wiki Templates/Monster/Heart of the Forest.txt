@@ -1,0 +1,74 @@
+<div class="tabbertab-borderless"><tabber>
+boss heartoftheforest={{Enemy
+  |title = Heart of the Forest
+  |image_original = {{CSS image crop|Image=HOM_Boss_Face Glow.png|bSize=406|cWidth=328|cHeight=223|oBottom=139|oLeft=50}}
+  |caption = Description for Heart of the Forest
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 7
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 363000
+  |experience = 77500
+  |damage_bonus = 385
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss spirit projectile''' {{!!}} <center>{{CSS image crop|Image=Heart of Forest Projectile.png|bSize=32|cWidth=25|cHeight=32|oBottom=0|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |dialogue = <u>'''80% health:'''</u> ''Bound... ''<br><u>'''60% health:'''</u> ''A thousand needles pierce...''<br><u>'''40% health:'''</u> ''Fed upon...''<br><u>'''20% health:'''</u> ''A vault of stone... where this world ends...''
+  |drops = {{:Loot table/boss_heartoftheforest}}
+  }}
+|-|
+boss heartoftheforest world={{Enemy
+  |title = Heart of the Forest
+  |image_original = {{CSS image crop|Image=HOM_Boss_Face Glow.png|bSize=406|cWidth=328|cHeight=223|oBottom=139|oLeft=50}}
+  |caption = Description for Heart of the Forest
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 7
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 5450000
+  |experience = 3000
+  |damage_bonus = 385
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss spirit projectile world''' {{!!}} <center>{{CSS image crop|Image=Heart of Forest Projectile.png|bSize=32|cWidth=25|cHeight=32|oBottom=0|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 8
+    {{!}}}
+  |dialogue = <u>'''80% health:'''</u> ''Bound... ''<br><u>'''60% health:'''</u> ''A thousand needles pierce...''<br><u>'''40% health:'''</u> ''Fed upon...''<br><u>'''20% health:'''</u> ''A vault of stone... where this world ends...''
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

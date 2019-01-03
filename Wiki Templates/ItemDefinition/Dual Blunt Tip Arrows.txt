@@ -1,0 +1,32 @@
+{{Item
+  |title = Dual Blunt Tip Arrows
+  |image = Dual Blunt Tip Arrows.png
+  |caption = Though firing two shots at once has higher overall damage potential, there is also a loss of accuracy and force.
+  |type = Weapon
+  |tier = 4
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 6 {{Icon|Silver}}
+  |class = {{Icon|Harbinger}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 4]]
+[[Category:Harbinger]]
+{{stub}}
+'''{{PAGENAME}}'''

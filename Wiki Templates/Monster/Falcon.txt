@@ -1,0 +1,33 @@
+{{Enemy
+  |title = Falcon
+  |image_original = {{CSS image crop|Image=Falconer_01_Bird.png|bSize=384|cWidth=36|cHeight=93|oBottom=1|oLeft=58}}
+  |caption = Description for Falcon
+  |location = 
+  |category = Beast
+  |tier = 5
+  |level = 21
+  |max_health = {{Icon|Health|nolink=1}} 260
+  |damage_bonus = 143
+  |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 113.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''bird projectile''' {{!!}} <center>{{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=18|cHeight=15|oBottom=148|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

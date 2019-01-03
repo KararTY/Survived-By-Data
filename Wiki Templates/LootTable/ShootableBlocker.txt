@@ -1,0 +1,16 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/ShootableBlocker|ShootableBlocker]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Raw Quartz Vein}} || style="text-align:right" | 100% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/ShootableBlocker}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Hellhound
+  |image_original = {{CSS image crop|Image=beast_wolf_hellhound.png|bSize=192|cWidth=45|cHeight=41|oBottom=7|oLeft=3}}
+  |caption = Description for Hellhound
+  |location = 
+  |category = Beast
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 7200
+  |experience = 800
+  |damage_bonus = 299
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolf projectile''' {{!!}} <center>{{CSS image crop|Image=beast_wolf.png|bSize=192|cWidth=17|cHeight=19|oBottom=98|oLeft=99}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_wolf_hellhound_T8}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

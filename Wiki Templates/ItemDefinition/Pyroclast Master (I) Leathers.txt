@@ -1,0 +1,33 @@
+{{Item
+  |title = Pyroclast Master (I) Leathers
+  |image = Pyroclast Master (I) Leathers.png
+  |caption = Reforging a fully empowered Leathers of the Antecedent with the Pyroclast of a powerful Infernal infuses the leathers with unmatched destructive potential.
+  |type = Armor
+  |tier = 10
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 30000 {{Icon|Silver}}
+  |class = {{Icon|Harbinger}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*20+[$Item_Level]*4 
+  |willpower = 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = x2 {{Icon|Pyroclast Catalyst, Grade I}}<br>x1 {{Icon|Leathers of the Antecedent}}<br>x4 {{Icon|Masterwork Studded Padding}}
+  |silver_cost = 150000 {{Icon|Silver|nolink=1}}
+  |time = 24 hours
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Composite Smoldering Alloy}} 50%<br>x1 {{Icon|Composite Smoldering Fabric}} 50%<br>x1 {{Icon|Composite Smoldering Grain}} 50%
+  |dismantle_silver_cost = 33000 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 18 hours
+}}
+
+[[Category:Armor]]
+[[Category:Tier 10]]
+[[Category:Harbinger]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

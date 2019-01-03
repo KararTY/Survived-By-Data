@@ -1,0 +1,110 @@
+<div class="tabbertab-borderless"><tabber>
+monster treant corrupted T7={{Enemy
+  |title = Infernal Treant
+  |image_original = {{CSS image crop|Image=Treant_01.png|bSize=256|cWidth=45|cHeight=64|oBottom=64|oLeft=138}}
+  |caption = Description for Treant
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 4400
+  |experience = 775
+  |damage_bonus = 230
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''treant projectile''' {{!!}} <center>{{CSS image crop|Image=Treant_01.png|bSize=256|cWidth=31|cHeight=32|oBottom=128|oLeft=128}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 9
+    {{!}}}
+  |drops = {{:Loot table/monster_treant_corrupted_T7}}
+  }}
+|-|
+monster treant fire T8={{Enemy
+  |title = Infernal Treant
+  |image_original = {{CSS image crop|Image=corrupted_treant.png|bSize=512|cWidth=98|cHeight=128|oBottom=0|oLeft=15}}
+  |caption = Description for Infernal Treant
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 7200
+  |experience = 800
+  |damage_bonus = 299
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''treant infernal projectile''' {{!!}} <center>{{CSS image crop|Image=infernal_treant.png|bSize=512|cWidth=30|cHeight=71|oBottom=271|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 9
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''treant infernal projectile2''' {{!!}} <center>{{CSS image crop|Image=infernal_treant.png|bSize=512|cWidth=30|cHeight=71|oBottom=271|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 9
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''5'''
+    {{!}}}
+  |drops = {{:Loot table/monster_treant_fire_T8}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

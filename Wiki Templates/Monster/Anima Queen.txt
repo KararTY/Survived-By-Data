@@ -1,0 +1,76 @@
+{{Enemy
+  |title = Anima Queen
+  |image_original = {{CSS image crop|Image=heartlandhorror4.png|bSize=256|cWidth=64|cHeight=64|oBottom=0|oLeft=0}}
+  |caption = Description for Anima Queen
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 6
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 3740000
+  |experience = 3000
+  |damage_bonus = 330
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad queen projectile''' {{!!}} <center>{{CSS image crop|Image=heartlandhorror4.png|bSize=256|cWidth=14|cHeight=36|oBottom=153|oLeft=153}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad queen projectile ooze''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_snow.png|bSize=384|cWidth=32|cHeight=34|oBottom=103|oLeft=200}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Slowed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 10 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RateOfAttack {{!!}} (Rate of attack decrease by <strong style="color:red;">15%</strong>)<br><small>[RateOfAttack]*0.85</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad queen projectile wave''' {{!!}} <center>{{CSS image crop|Image=heartlandhorror4.png|bSize=256|cWidth=14|cHeight=36|oBottom=153|oLeft=153}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

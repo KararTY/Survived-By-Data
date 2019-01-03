@@ -1,0 +1,32 @@
+{{Item
+  |title = Rogue T14 Weapon v1
+  |image = Rogue T14 Weapon v1.png
+  |caption = [Deprecated]
+  |type = Weapon
+  |tier = 14
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 213 {{Icon|Silver}}
+  |class = {{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 14]]
+[[Category:Infiltrator]]
+{{stub}}
+'''{{PAGENAME}}'''

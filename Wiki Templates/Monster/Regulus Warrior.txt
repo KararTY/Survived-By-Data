@@ -1,0 +1,49 @@
+{{Enemy
+  |title = Regulus Warrior
+  |image_original = {{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=54|cHeight=46|oBottom=9|oLeft=10}}
+  |caption = Description for Regulus Warrior
+  |location = 
+  |category = Chimera
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lizardwarrior arrow projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=9|cHeight=45|oBottom=134|oLeft=5}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lizardwarrior melee projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=35|cHeight=31|oBottom=135|oLeft=24}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_lizardwarrior}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

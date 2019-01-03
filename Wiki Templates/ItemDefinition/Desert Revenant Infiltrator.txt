@@ -1,0 +1,31 @@
+{{Item
+  |title = Desert Revenant Infiltrator
+  |image = Desert Revenant Infiltrator.png
+  |caption = A once great civilization used to occupy the Cinder Valley. And though there is nothing left of the people, the wreckage of their garb and armor remains. Though the common belief is that the valley was not a desert during that time, the gear of the infiltrators would have been well suited to such an environment.
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 725 {{Icon|Electrum}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

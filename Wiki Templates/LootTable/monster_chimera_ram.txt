@@ -1,0 +1,18 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/CommonLoot T2}}'''Loot table: ([[Loot table/monster_chimera_ram|monster_chimera_ram]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Raw Quartz Vein}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Raw Strands}} || style="text-align:right" | 10% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/monster_chimera_ram}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

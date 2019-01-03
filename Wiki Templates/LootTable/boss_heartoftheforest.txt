@@ -1,0 +1,46 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_heartoftheforest|boss_heartoftheforest]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x35 || {{Icon|Silver}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Mythril Catalyst}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Monastery of the Rift Key}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Hollow Amulet}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Mythril Coil}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Mythril Plate}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Filament Mantle}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Leather Laminar}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Mythril Plated Sabatons}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Treaded Boots}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Soul of the Forest}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Pickaxe}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Mythril Arrow}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Great Root of the Forest}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Zweihänder}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Hollow Dagger}} || style="text-align:right" | 5% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/boss_heartoftheforest}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

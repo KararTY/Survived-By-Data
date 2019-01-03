@@ -1,0 +1,68 @@
+{{Enemy
+  |title = Sin
+  |image_original = {{CSS image crop|Image=Boss_Sin.png|bSize=512|cWidth=82|cHeight=111|oBottom=269|oLeft=37}}
+  |location = 
+  |category = Sin
+  |is_boss = Yes
+  |element = An
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 6675000
+  |experience = 3200
+  |damage_bonus = 375
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss sin projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Sin.png|bSize=512|cWidth=61|cHeight=37|oBottom=788|oLeft=2}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 13
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 22
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss sin projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Sin.png|bSize=512|cWidth=23|cHeight=25|oBottom=802|oLeft=131}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 14
+    {{!}}-
+    {{!}} Acceleration {{!!}} -7.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 15
+    {{!}}-
+    {{!}} Range {{!!}} 22
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss sin laser''' {{!!}} <center>{{CSS image crop|Image=Boss_Sin.png|bSize=512|cWidth=8|cHeight=14|oBottom=808|oLeft=108}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 25
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/boss_sin}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Sin]]
+[[Category:An]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

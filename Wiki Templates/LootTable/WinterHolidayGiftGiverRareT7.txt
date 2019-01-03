@@ -1,0 +1,23 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/WinterHolidayGiftGiverRareT7|WinterHolidayGiftGiverRareT7]])'''
+<br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Snow Cyclone}} || style="text-align:right" | 30% 
+|-
+| x1 || {{Icon|Frosty the Golem}} || style="text-align:right" | 30% 
+|-
+| x1 || {{Icon|Ice Dryad}} || style="text-align:right" | 30% 
+|-
+| x1 || {{Icon|Arachnid Nightmare}} || style="text-align:right" | 10% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/WinterHolidayGiftGiverRareT7}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,69 @@
+<div class="tabbertab-borderless"><tabber>
+monster ashaga elite minion={{Enemy
+  |title = Elite Ashaga
+  |image_original = {{CSS image crop|Image=Ashaga_Flying01.png|bSize=192|cWidth=46|cHeight=47|oBottom=1|oLeft=1}}
+  |location = 
+  |category = Ashaga
+  |element = An
+  |tier = 20
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 60
+  |experience = 10
+  |damage_bonus = 2
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ashaga flying projectile1''' {{!!}} <center>{{CSS image crop|Image=Ashaga_01.png|bSize=128|cWidth=7|cHeight=19|oBottom=41|oLeft=44}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster ashaga elite={{Enemy
+  |title = Elite Ashaga
+  |image_original = {{CSS image crop|Image=Ashaga_Flying01.png|bSize=192|cWidth=46|cHeight=47|oBottom=1|oLeft=1}}
+  |location = 
+  |category = Ashaga
+  |is_elite = Yes
+  |element = An
+  |tier = 20
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 3500
+  |experience = 10
+  |damage_bonus = 2
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ashaga flying projectile1''' {{!!}} <center>{{CSS image crop|Image=Ashaga_01.png|bSize=128|cWidth=7|cHeight=19|oBottom=41|oLeft=44}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Ashaga]]
+[[Category:An]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

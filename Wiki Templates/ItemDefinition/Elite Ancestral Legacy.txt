@@ -1,0 +1,58 @@
+{{Item
+  |title = Elite Ancestral Legacy
+  |image = Elite Ancestral Legacy.png
+  |caption = One Ancestral Legacy with a rarity of Rare or Legendary
+  |type = Misc
+  |tier = 1
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 1400 {{Icon|Electrum}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+{{Item
+  |title = Elite Ancestral Legacy
+  |image = Elite Ancestral Legacy.png
+  |caption = One Ancestral Legacy with a rarity of Rare or Legendary
+  |type = Misc
+  |tier = 1
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 14000 {{Icon|Valr}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 1]]
+{{stub}}
+'''{{PAGENAME}}'''

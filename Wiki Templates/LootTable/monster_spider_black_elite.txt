@@ -1,0 +1,16 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+('''Quest loot table''') '''Loot table: ([[Loot table/monster_spider_black_elite|monster_spider_black_elite]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Abandoned Storage Cave Key}} || style="text-align:right" | 100% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/monster_spider_black_elite}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,287 @@
+<div class="tabbertab-borderless"><tabber>
+WinterHoliday Pet3 T1={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 1
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 15
+  |damage_bonus = ((5+([@Player.Potency]*([@Player.Level]/25)))*1.5)*0.15<br>'''1'''
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet3 T2={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 2
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 1760
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet3 T3={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 3
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 3480
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet3 T4={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 4
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 5840
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet3 T5={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 5
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 8320
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet3 T6={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 6
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 9200
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet3 T7={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 10080
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet3 T8={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 8
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 10920
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet3 T9={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 9
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 11800
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+WinterHoliday Pet3 T10={{Enemy
+  |title = Ice Dryad
+  |image_original = {{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=30|cHeight=32|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 4
+  |max_health = {{Icon|Health|nolink=1}} 37
+  |experience = 40
+  |damage_bonus = 12640
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

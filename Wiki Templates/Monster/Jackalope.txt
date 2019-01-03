@@ -1,0 +1,65 @@
+<div class="tabbertab-borderless"><tabber>
+tutorial monster chimera jackalope={{Enemy
+  |title = Jackalope
+  |image_original = {{CSS image crop|Image=chimera_jackalope.png|bSize=256|cWidth=39|cHeight=55|oBottom=38|oLeft=13}}
+  |location = 
+  |category = Chimera
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 73
+  |damage_bonus = 45
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera jackalope projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_jackalope.png|bSize=256|cWidth=14|cHeight=23|oBottom=109|oLeft=201}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster chimera jackalope dung={{Enemy
+  |title = Jackalope
+  |image_original = {{CSS image crop|Image=chimera_jackalope.png|bSize=256|cWidth=39|cHeight=55|oBottom=38|oLeft=13}}
+  |caption = Description for Jackalope
+  |location = 
+  |category = Chimera
+  |tier = 4
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 615
+  |experience = 340
+  |damage_bonus = 102
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera jackalope projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_jackalope.png|bSize=256|cWidth=14|cHeight=23|oBottom=109|oLeft=201}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_jackalope_dung}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

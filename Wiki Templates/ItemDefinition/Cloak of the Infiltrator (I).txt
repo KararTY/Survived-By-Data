@@ -1,0 +1,37 @@
+{{Item
+  |title = Cloak of the Infiltrator (I)
+  |image = Cloak of the Infiltrator (I).png
+  |caption = Because there are times when even non-Infiltrators need to run away like a coward.
+  |type = Consumable
+  |tier = 1
+  |bound = 
+  |max_stack = 
+  |buy_cost = 3 {{Icon|Silver}}
+  |sell_cost = 1 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Consumable]]
+[[Category:Tier 1]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

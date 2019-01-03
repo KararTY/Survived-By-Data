@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Elite Orcin
+  |image_original = {{CSS image crop|Image=chimera_shark_white.png|bSize=256|cWidth=44|cHeight=46|oBottom=8|oLeft=18}}
+  |caption = Description for Elite Orcin
+  |location = 
+  |category = Chimera
+  |is_elite = Yes
+  |tier = 4
+  |level = 18
+  |max_health = {{Icon|Health|nolink=1}} 1560
+  |experience = 1560
+  |damage_bonus = 110
+  |accuracy = 279.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 89.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera shark white projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_shark_white.png|bSize=256|cWidth=19|cHeight=46|oBottom=76|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+  |dialogue = <u>'''90% health:'''</u> ''For your trespass your life is forfeit.''<br><u>'''40% health:'''</u> ''You have never claimed these waters and we will not allow you to now.''
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,18 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/CommonLoot T8}}'''Loot table: ([[Loot table/monster_treant_fire|monster_treant_fire]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Raw Tar Sand}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Raw Log}} || style="text-align:right" | 6% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/monster_treant_fire}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

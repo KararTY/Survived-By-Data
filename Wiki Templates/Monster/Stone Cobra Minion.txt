@@ -1,0 +1,46 @@
+{{Enemy
+  |title = Stone Cobra Minion
+  |image_original = {{CSS image crop|Image=beast_snake_cobra_stone.png|bSize=256|cWidth=43|cHeight=45|oBottom=75|oLeft=12}}
+  |caption = Description for Stone Cobra Minion
+  |location = 
+  |category = Beast
+  |tier = 8
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 14490
+  |experience = 1600
+  |damage_bonus = 299
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''snakecobra stone projectile''' {{!!}} <center>{{CSS image crop|Image=beast_snake_cobra_stone.png|bSize=256|cWidth=13|cHeight=33|oBottom=134|oLeft=137}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 196<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

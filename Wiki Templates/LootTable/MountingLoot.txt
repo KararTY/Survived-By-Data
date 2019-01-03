@@ -1,0 +1,17 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/MountingLoot|MountingLoot]])'''
+<br>Maximum drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Pristine Iris Mounting}} || style="text-align:right" | 0.1% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/MountingLoot}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

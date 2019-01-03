@@ -1,0 +1,31 @@
+{{Item
+  |title = Desert Revenant Geomancer
+  |image = Desert Revenant Geomancer.png
+  |caption = A once great civilization used to occupy the Cinder Valley. And though there is nothing left of the people, the wreckage of their garb and armor remains. The helmets of their geomancers were adorned with false beards of raw gems.
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 725 {{Icon|Electrum}}
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

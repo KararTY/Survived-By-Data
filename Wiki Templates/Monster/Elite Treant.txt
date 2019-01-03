@@ -1,0 +1,53 @@
+{{Enemy
+  |title = Elite Treant
+  |image_original = {{CSS image crop|Image=Treant_01.png|bSize=256|cWidth=45|cHeight=64|oBottom=64|oLeft=138}}
+  |caption = Description for Elite Treant
+  |location = 
+  |category = Spirit
+  |is_elite = Yes
+  |element = Ki
+  |tier = 2
+  |level = 8
+  |max_health = {{Icon|Health|nolink=1}} 375
+  |experience = 260
+  |damage_bonus = 50
+  |accuracy = 175.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 37.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''treant elite projectile''' {{!!}} <center>{{CSS image crop|Image=Treant_01.png|bSize=256|cWidth=31|cHeight=32|oBottom=128|oLeft=128}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 9
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''treant projectile2''' {{!!}} <center>{{CSS image crop|Image=Treant_01.png|bSize=256|cWidth=31|cHeight=32|oBottom=128|oLeft=128}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 9
+    {{!}}}
+  |dialogue = <u>'''90% health:'''</u> ''The Tree is forever changed. There is no going back now.''<br><u>'''40% health:'''</u> ''Though killing you will not bring me peace, I will do so anyway.''
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

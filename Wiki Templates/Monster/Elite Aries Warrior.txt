@@ -1,0 +1,67 @@
+<div class="tabbertab-borderless"><tabber>
+monster ram elite={{Enemy
+  |title = Elite Aries Warrior
+  |image_original = {{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Chimera
+  |is_elite = Yes
+  |tier = 20
+  |level = 20
+  |max_health = {{Icon|Health|nolink=1}} 7650
+  |experience = 130
+  |damage_bonus = 330
+  |accuracy = 310<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 105<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera ram warrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=13|cHeight=31|oBottom=55|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster ram elite minion={{Enemy
+  |title = Elite Aries Warrior
+  |image_original = {{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=0}}
+  |location = 
+  |category = Chimera
+  |tier = 20
+  |level = 20
+  |max_health = {{Icon|Health|nolink=1}} 7650
+  |experience = 130
+  |damage_bonus = 330
+  |accuracy = 310<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 105<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera ram warrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=13|cHeight=31|oBottom=55|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

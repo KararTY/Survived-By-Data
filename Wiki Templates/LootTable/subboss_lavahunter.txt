@@ -1,0 +1,22 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/subboss_lavahunter|subboss_lavahunter]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Pyroclast Catalyst, Grade I}} || style="text-align:right" | 40% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Endurance)}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Health)}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Eye of Obsidian (Energy)}} || style="text-align:right" | 20% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/subboss_lavahunter}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

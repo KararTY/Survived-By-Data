@@ -1,0 +1,31 @@
+{{Item
+  |title = Raw Quartz Vein
+  |image = Raw Quartz Vein.png
+  |caption = A rock with more quartz than stone; potentially valuable is one is willing to extract the quartz.
+  |type = Misc
+  |tier = 1
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 50%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 1]]
+{{stub}}
+'''{{PAGENAME}}'''

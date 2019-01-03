@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Boreowl Shaman
+  |image_original = {{CSS image crop|Image=heartlandhorror.png|bSize=384|cWidth=62|cHeight=86|oBottom=9|oLeft=33}}
+  |caption = Terrorizes the Heartlands with its punchy arms. 
+  |location = 
+  |category = Chimera
+  |is_boss = Yes
+  |tier = 4
+  |level = 20
+  |max_health = {{Icon|Health|nolink=1}} 585000
+  |experience = 1560
+  |damage_bonus = 160
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''owl projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |dialogue = <u>'''90% health:'''</u> ''It was too much to hope that you would not follow us here.''<br><u>'''75% health:'''</u> ''Of course your kind would be fixated on enacting vengeance for your ancestors.''<br><u>'''50% health:'''</u> ''Fool! The Fury do not serve us, they enslave us!''<br><u>'''30% health:'''</u> ''Within the Forge of Corruption they turned us into weapons to kill you!''<br><u>'''10% health:'''</u> ''Clever bugs... ''<br><u>'''6% health:'''</u> ''They knew they could count on you...''<br><u>'''3% health:'''</u> ''To cut those of us down... that broke free...''
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

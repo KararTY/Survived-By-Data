@@ -1,0 +1,33 @@
+{{Item
+  |title = Winter Mantle
+  |image = Winter Mantle.png
+  |caption = Thick and heavy, this mantle both protects from the cold as well as some light physical attacks.
+  |type = Armor
+  |tier = 4
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 300 {{Icon|Silver}}
+  |sell_cost = 140 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 <br>'''98'''
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*20+[$Item_Level]*4 <br>'''98'''
+  |willpower = 
+  |focus = 
+  |materials = x8 {{Icon|Cloth}}<br>x2 {{Icon|Leather}}<br>x1 {{Icon|Deep Rime Catalyst}}
+  |silver_cost = 600 {{Icon|Silver|nolink=1}}
+  |time = 10 minutes
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
+  |dismantle_silver_cost = 154 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 7 minutes, 30 seconds
+}}
+
+[[Category:Armor]]
+[[Category:Tier 4]]
+[[Category:Alchemist]]
+[[Category:Infiltrator]]
+{{stub}}
+'''{{PAGENAME}}'''

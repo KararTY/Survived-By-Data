@@ -1,0 +1,34 @@
+{{Enemy
+  |title = Reptilia Minion
+  |image_original = {{CSS image crop|Image=chimera_lizardferal.png|bSize=192|cWidth=41|cHeight=48|oBottom=0|oLeft=6}}
+  |caption = Description for Reptilia Minion
+  |location = 
+  |category = Chimera
+  |tier = 1
+  |level = 3
+  |max_health = {{Icon|Health|nolink=1}} 24
+  |experience = 20
+  |damage_bonus = 21
+  |accuracy = 153.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 26.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lizardferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardferal.png|bSize=192|cWidth=13|cHeight=35|oBottom=54|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,46 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_director|boss_director]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x20 || {{Icon|Silver}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Mercurial Catalyst}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Straits of the Deep Key}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Ancestry Amulet}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|War Ring}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Articulated Plate Armor}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Steel Threaded Mantle}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Lamellar Armor}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Articulated Sabaton}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Treated Leather Boots}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Idol}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Lucerne Hammer}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Composite Bow}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Scepter}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Claymore}} || style="text-align:right" | 6% 
+|-
+| x1 || {{Icon|Kukri}} || style="text-align:right" | 6% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/boss_director}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

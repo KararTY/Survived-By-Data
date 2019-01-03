@@ -1,0 +1,93 @@
+{{Enemy
+  |title = Elite Swamp Anima
+  |image_original = {{CSS image crop|Image=spirit_nereides_swampwater.png|bSize=256|cWidth=50|cHeight=46|oBottom=18|oLeft=11}}
+  |caption = Description for Elite Swamp Anima
+  |location = 
+  |category = Spirit
+  |is_elite = Yes
+  |element = Ki
+  |tier = 6
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 13860
+  |experience = 3000
+  |damage_bonus = 221
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides swamp elite projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_swampwater.png|bSize=256|cWidth=16|cHeight=22|oBottom=135|oLeft=197}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides swamp projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_swampwater.png|bSize=256|cWidth=16|cHeight=22|oBottom=135|oLeft=197}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 17
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 125<br><small>[DamageOverTime]+75 '''50'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''6'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit nereides swamp projectile3''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_swampwater.png|bSize=256|cWidth=16|cHeight=22|oBottom=135|oLeft=197}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 17
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 125<br><small>[DamageOverTime]+75 '''50'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''6'''
+    {{!}}}
+  |dialogue = <u>'''90% health:'''</u> ''After I kill you the swamp will claim your body and your existence will finally have value.''<br><u>'''40% health:'''</u> ''Why must you close your eyes to the truth all around you?''
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

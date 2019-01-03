@@ -1,0 +1,47 @@
+{{Enemy
+  |title = Dark Persona
+  |image_original = {{CSS image crop|Image=Boss_Dark Persona.png|bSize=640|cWidth=117|cHeight=112|oBottom=333|oLeft=28}}
+  |location = 
+  |category = None
+  |is_boss = Yes
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 2450000
+  |experience = 1000
+  |damage_bonus = 720
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss darkpersona projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Dark Persona.png|bSize=640|cWidth=36|cHeight=35|oBottom=821|oLeft=500}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss darkpersona projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Dark Persona.png|bSize=640|cWidth=29|cHeight=49|oBottom=811|oLeft=584}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+  |drops = {{:Loot table/boss_dark_persona}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

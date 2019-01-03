@@ -1,0 +1,69 @@
+<div class="tabbertab-borderless"><tabber>
+monster snowleopard={{Enemy
+  |title = Snow Leopard
+  |image_original = {{CSS image crop|Image=beast_snow_leopard.png|bSize=192|cWidth=47|cHeight=41|oBottom=7|oLeft=1}}
+  |caption = Description for Snow Leopard
+  |location = 
+  |category = Beast
+  |tier = 4
+  |level = 16
+  |max_health = {{Icon|Health|nolink=1}} 515
+  |experience = 300
+  |damage_bonus = 95
+  |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''snowleopard projectile''' {{!!}} <center>{{CSS image crop|Image=beast_snow_leopard.png|bSize=192|cWidth=24|cHeight=24|oBottom=48|oLeft=144}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_snowleopard}}
+  }}
+|-|
+monster snowleopard2={{Enemy
+  |title = Snow Leopard
+  |image_original = {{CSS image crop|Image=beast_snow_leopard2.png|bSize=192|cWidth=47|cHeight=41|oBottom=7|oLeft=1}}
+  |caption = Description for Snow Leopard
+  |location = 
+  |category = Beast
+  |tier = 4
+  |level = 16
+  |max_health = {{Icon|Health|nolink=1}} 515
+  |experience = 300
+  |damage_bonus = 95
+  |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''snowleopard2 projectile''' {{!!}} <center>{{CSS image crop|Image=beast_snow_leopard2.png|bSize=192|cWidth=23|cHeight=33|oBottom=51|oLeft=48}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_snowleopard2}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

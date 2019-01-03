@@ -1,0 +1,46 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_hydra|boss_hydra]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x5 || {{Icon|Silver}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Rosin Catalyst}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Burning Sands Key}} || style="text-align:right" | 40% 
+|-
+| x1 || {{Icon|Simple Keepsake}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Heritage Band}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Antique Plate Armor}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Forester Mantle}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Hunter Leathers}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Logger Sabaton}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Farmer Boots}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Unworked Stone Totem}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Chipped Stone Pick}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Huntsman's Bow}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Stone Staff}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Antique Longsword}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Workman's Knife}} || style="text-align:right" | 12% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/boss_hydra}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

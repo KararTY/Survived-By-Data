@@ -1,0 +1,32 @@
+{{Item
+  |title = Permafrost Arrows
+  |image = Permafrost Arrows.png
+  |caption = Though the bow is simply functional, the arrows it fire have heads of perpetually frozen ice, which tear flesh easily and leave wounds open to bleed.
+  |type = Weapon
+  |tier = 4
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 270 {{Icon|Silver}}
+  |sell_cost = 140 {{Icon|Silver}}
+  |class = {{Icon|Harbinger}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*5+[$Item_Level] 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*15+[$Item_Level]*3 
+  |materials = x4 {{Icon|Timber}}<br>x2 {{Icon|Metal}}<br>x2 {{Icon|Obsidian}}<br>x1 {{Icon|Deep Rime Catalyst}}
+  |silver_cost = 600 {{Icon|Silver|nolink=1}}
+  |time = 10 minutes
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
+  |dismantle_silver_cost = 154 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 7 minutes, 30 seconds
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 4]]
+[[Category:Harbinger]]
+{{stub}}
+'''{{PAGENAME}}'''

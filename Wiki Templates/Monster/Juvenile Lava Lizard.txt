@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Juvenile Lava Lizard
+  |image_original = {{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=60|cHeight=43|oBottom=21|oLeft=3}}
+  |caption = Description for Juvenile Lava Lizard
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 1
+  |level = 2
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |experience = 10
+  |damage_bonus = 13
+  |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''lavalizard projectile T1''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_lavalizard_T1}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

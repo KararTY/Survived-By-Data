@@ -1,0 +1,18 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/Challenge1|Challenge1]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x5 || {{Icon|Valr}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Standard Ancestral Legacy}} || style="text-align:right" | 10% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/Challenge1}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,58 @@
+<div class="tabbertab-borderless"><tabber>
+boss director right arm={{Enemy
+  |title = Incubator Boss Arm
+  |image_original = {{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=128|cHeight=192|oBottom=192|oLeft=0}}
+  |location = 
+  |category = None
+  |tier = 5
+  |level = 25
+  |max_health = {{Icon|Health|nolink=1}} 42000
+  |damage_bonus = 170
+  |accuracy = 400<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 150<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+boss director left arm={{Enemy
+  |title = Incubator Boss Arm
+  |image_original = {{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=128|cHeight=192|oBottom=0|oLeft=0}}
+  |location = 
+  |category = None
+  |tier = 5
+  |level = 25
+  |max_health = {{Icon|Health|nolink=1}} 42000
+  |damage_bonus = 170
+  |accuracy = 400<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 150<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+boss director left arm hardmode={{Enemy
+  |title = Incubator Boss Arm
+  |image_original = {{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=128|cHeight=192|oBottom=0|oLeft=0}}
+  |location = 
+  |category = None
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 890000
+  |damage_bonus = 320
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+boss director right arm hardmode={{Enemy
+  |title = Incubator Boss Arm
+  |image_original = {{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=128|cHeight=192|oBottom=192|oLeft=0}}
+  |location = 
+  |category = None
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 890000
+  |damage_bonus = 320
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

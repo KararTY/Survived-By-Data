@@ -1,0 +1,32 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/RareLoot T8}}'''Loot table: ([[Loot table/MonasteryChestSpawner|MonasteryChestSpawner]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+|  || {{Icon|Health Potion}} || style="text-align:right" | 100% 
+|-
+|  || {{Icon|Energy Potion}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Eldritch Catalyst}} || style="text-align:right" | 30% 
+|-
+| x1 || {{Icon|Enriched Amber}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Enriched Cloth}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Enriched Leather}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Enriched Metal}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Enriched Obsidian}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Enriched Timber}} || style="text-align:right" | 5% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/MonasteryChestSpawner}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

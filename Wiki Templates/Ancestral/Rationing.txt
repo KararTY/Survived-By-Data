@@ -1,0 +1,153 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Rationing 1 (Common)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Rationing
+    | description = 2.16% chance when activating a consumable buff item that the item is not consumed (but the buff is still applied)
+    | level = 1
+    | rarity = common
+    | ordinary1 = AL_icon_ Dice
+    | ordinary2 = Equipment_Consumables
+    | ordinary3 = AL_icon_ plus 1
+    | set1 = AL_icon_green drop with ellipsis
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Rationing
+    | description = 10% chance when activating a consumable buff item that the item is not consumed (but the buff is still applied)
+    | level = 50
+    | rarity = common
+    | ordinary1 = AL_icon_ Dice
+    | ordinary2 = Equipment_Consumables
+    | ordinary3 = AL_icon_ plus 1
+    | set1 = AL_icon_green drop with ellipsis
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Rationing
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Common
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | ChanceToNotConsumeBuffItem || [ChanceToNotConsumeBuffItem]+[$Benefit]/100 || 
+    |-
+    | Benefit || 2+([AncestralData.Ancestral_Level]x0.16) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_green drop with ellipsis.png]] [[Ancestral_Legacy/Set Bonus#Consumable_Set|Consumable Set]]
+  |}
+|-|
+Rationing 2 (Uncommon)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Rationing
+    | description = 3.24% chance when activating a consumable buff item that the item is not consumed (but the buff is still applied)
+    | level = 1
+    | rarity = uncommon
+    | ordinary1 = AL_icon_ Dice
+    | ordinary2 = Equipment_Consumables
+    | ordinary3 = AL_icon_ plus 1
+    | set1 = AL_icon_green drop with ellipsis
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Rationing
+    | description = 15% chance when activating a consumable buff item that the item is not consumed (but the buff is still applied)
+    | level = 50
+    | rarity = uncommon
+    | ordinary1 = AL_icon_ Dice
+    | ordinary2 = Equipment_Consumables
+    | ordinary3 = AL_icon_ plus 1
+    | set1 = AL_icon_green drop with ellipsis
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Rationing
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Uncommon
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | ChanceToNotConsumeBuffItem || [ChanceToNotConsumeBuffItem]+[$Benefit]/100 || 
+    |-
+    | Benefit || 3+([AncestralData.Ancestral_Level]x0.24) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_green drop with ellipsis.png]] [[Ancestral_Legacy/Set Bonus#Consumable_Set|Consumable Set]]
+  |}
+|-|
+Rationing 3 (Rare)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Rationing
+    | description = 5.5% chance when activating a consumable buff item that the item is not consumed (but the buff is still applied)
+    | level = 1
+    | rarity = rare
+    | ordinary1 = AL_icon_ Dice
+    | ordinary2 = Equipment_Consumables
+    | ordinary3 = AL_icon_ plus 1
+    | set1 = AL_icon_green drop with ellipsis
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Rationing
+    | description = 30% chance when activating a consumable buff item that the item is not consumed (but the buff is still applied)
+    | level = 50
+    | rarity = rare
+    | ordinary1 = AL_icon_ Dice
+    | ordinary2 = Equipment_Consumables
+    | ordinary3 = AL_icon_ plus 1
+    | set1 = AL_icon_green drop with ellipsis
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Rationing
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Rare
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | ChanceToNotConsumeBuffItem || [ChanceToNotConsumeBuffItem]+[$Benefit]/100 || 
+    |-
+    | Benefit || 5+([AncestralData.Ancestral_Level]x0.5) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_green drop with ellipsis.png]] [[Ancestral_Legacy/Set Bonus#Consumable_Set|Consumable Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>X% chance when activating a consumable buff item that the item is not consumed (but the buff is still applied)</includeonly></onlyinclude>

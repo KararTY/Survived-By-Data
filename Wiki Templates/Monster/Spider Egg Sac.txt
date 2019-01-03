@@ -1,0 +1,18 @@
+{{Enemy
+  |title = Spider Egg Sac
+  |image_original = {{CSS image crop|Image=beast_spider_black_spawner.png|bSize=192|cWidth=34|cHeight=36|oBottom=12|oLeft=6}}
+  |caption = Description for Spider Egg Sac
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 25
+  |damage_bonus = 10
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

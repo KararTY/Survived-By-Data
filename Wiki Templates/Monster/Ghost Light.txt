@@ -1,0 +1,92 @@
+<div class="tabbertab-borderless"><tabber>
+monster spirit willowisp small={{Enemy
+  |title = Ghost Light
+  |image_original = {{CSS image crop|Image=spirit_wil-o-wisp_small.png|bSize=128|cWidth=21|cHeight=32|oBottom=0|oLeft=4}}
+  |caption = Description for Ghost Light
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit willowisp small projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_wil-o-wisp_small.png|bSize=128|cWidth=13|cHeight=18|oBottom=68|oLeft=64}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Slowed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RateOfAttack {{!!}} (Rate of attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RateOfAttack]*0.5</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_willowisp_small}}
+  }}
+|-|
+monster spirit willowisp small dangerous={{Enemy
+  |title = Ghost Light
+  |image_original = {{CSS image crop|Image=spirit_wil-o-wisp_small.png|bSize=128|cWidth=21|cHeight=32|oBottom=0|oLeft=4}}
+  |caption = Description for Ghost Light
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 35000
+  |experience = 1550
+  |damage_bonus = 330
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit willowisp small projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_wil-o-wisp_small.png|bSize=128|cWidth=13|cHeight=18|oBottom=68|oLeft=64}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Slowed'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RateOfAttack {{!!}} (Rate of attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RateOfAttack]*0.5</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_willowisp_small_dangerous}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

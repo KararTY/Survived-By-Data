@@ -1,0 +1,31 @@
+{{Item
+  |title = Core Embers
+  |image = Core Embers.png
+  |caption = The chaotic nature of the creation of Embers leads to a high variability in their quality. Core Embers are those that hold sufficient power to be used in a branding
+  |type = Misc
+  |tier = 3
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 10 {{Icon|Silver}}
+  |sell_cost = 1 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x5 {{Icon|Embers}}
+  |silver_cost = 20 {{Icon|Silver|nolink=1}}
+  |time = 40 seconds
+  |dismantle_chance = 40%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 3]]
+{{stub}}
+'''{{PAGENAME}}'''

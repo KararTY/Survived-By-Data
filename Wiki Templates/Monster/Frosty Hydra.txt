@@ -1,0 +1,54 @@
+{{Enemy
+  |title = Frosty Hydra
+  |image_original = {{CSS image crop|Image=HeartlandHorror2.png|bSize=512|cWidth=41|cHeight=23|oBottom=69|oLeft=42}}
+  |caption = Description for Frosty Hydra
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 2
+  |level = 10
+  |max_health = {{Icon|Health|nolink=1}} 49500
+  |experience = 260
+  |damage_bonus = 60
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''frosty hydra projectile''' {{!!}} <center>{{CSS image crop|Image=HeartlandHorror2.png|bSize=512|cWidth=32|cHeight=32|oBottom=769|oLeft=1}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.05
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''frosty hydra projectile2''' {{!!}} <center>{{CSS image crop|Image=HeartlandHorror2.png|bSize=512|cWidth=85|cHeight=47|oBottom=775|oLeft=35}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

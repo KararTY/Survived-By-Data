@@ -1,0 +1,32 @@
+{{Item
+  |title = Reliqua - Druid
+  |image = Reliqua - Druid.png
+  |caption = Reliqua - Druid
+  |type = Consumable
+  |tier = 
+  |bound = Soul
+  |max_stack = 
+  |buy_cost = 1 {{Icon|Bloodstone}}
+  |sell_cost = 
+  |class = {{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Consumable]]
+[[Category:Tier 0]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

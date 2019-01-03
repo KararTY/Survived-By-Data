@@ -1,0 +1,32 @@
+{{Item
+  |title = Reliqua - Infiltrator
+  |image = Reliqua - Infiltrator.png
+  |caption = Reliqua - Infiltrator
+  |type = Consumable
+  |tier = 
+  |bound = Soul
+  |max_stack = 
+  |buy_cost = 1 {{Icon|Bloodstone}}
+  |sell_cost = 
+  |class = {{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Consumable]]
+[[Category:Tier 0]]
+[[Category:Infiltrator]]
+{{stub}}
+'''{{PAGENAME}}'''

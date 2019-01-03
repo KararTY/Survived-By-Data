@@ -1,0 +1,196 @@
+<div class="tabbertab-borderless"><tabber>
+tutorial monster agent scout={{Enemy
+  |title = Scout
+  |image_original = {{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=46|cHeight=93|oBottom=290|oLeft=32}}
+  |location = 
+  |category = Agent
+  |element = Ur
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 73
+  |damage_bonus = 45
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent scout projectile''' {{!!}} <center>{{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=20|cHeight=66|oBottom=402|oLeft=207}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 12
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Drained'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RagePerAttack {{!!}} (Rage per attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RagePerAttack]*0.5</small>
+    {{!}}}
+  }}
+|-|
+monster agent scout={{Enemy
+  |title = Scout
+  |image_original = {{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=46|cHeight=93|oBottom=290|oLeft=32}}
+  |caption = Description for Scout
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 60
+  |experience = 65
+  |damage_bonus = 36
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent scout projectile''' {{!!}} <center>{{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=20|cHeight=66|oBottom=402|oLeft=207}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 12
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Drained'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} RagePerAttack {{!!}} (Rage per attack decrease by <strong style="color:red;">50%</strong>)<br><small>[RagePerAttack]*0.5</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_agent_scout}}
+  }}
+|-|
+monster agent scout defender T8 black={{Enemy
+  |title = Scout
+  |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
+  |caption = Description for Nest Defender
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 7200
+  |experience = 800
+  |damage_bonus = 299
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile''' {{!!}} <center>{{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=10|cHeight=24|oBottom=193|oLeft=4}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">25%</strong>)<br><small>[MovementSpeed]*0.75</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9.25
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+  |drops = {{:Loot table/monster_agent_scout_defender_T8_black}}
+  }}
+|-|
+monster agent scout defender T8 red={{Enemy
+  |title = Scout
+  |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
+  |caption = Description for Nest Defender
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 7200
+  |experience = 800
+  |damage_bonus = 299
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile''' {{!!}} <center>{{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=10|cHeight=24|oBottom=193|oLeft=4}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">25%</strong>)<br><small>[MovementSpeed]*0.75</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9.25
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+  |drops = {{:Loot table/monster_agent_scout_defender_T8_red}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

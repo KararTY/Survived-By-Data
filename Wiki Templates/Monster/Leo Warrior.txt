@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Leo Warrior
+  |image_original = {{CSS image crop|Image=chimera_lionwarrior.png|bSize=256|cWidth=59|cHeight=58|oBottom=4|oLeft=5}}
+  |caption = Description for Leo Warrior
+  |location = 
+  |category = Chimera
+  |tier = 3
+  |level = 12
+  |max_health = {{Icon|Health|nolink=1}} 220
+  |experience = 170
+  |damage_bonus = 65
+  |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lionwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lionwarrior.png|bSize=256|cWidth=11|cHeight=46|oBottom=73|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_lionwarrior}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

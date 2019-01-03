@@ -1,0 +1,96 @@
+<div class="tabbertab-borderless"><tabber>
+plant venus T2={{Enemy
+  |title = Infernal Venus
+  |image_original = {{CSS image crop|Image=plant_venus.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |caption = Description for Infernal Venus
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 60
+  |experience = 65
+  |damage_bonus = 35
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant venus infernal T2 projectile''' {{!!}} <center>{{CSS image crop|Image=plant_venus_infernal.png|bSize=192|cWidth=12|cHeight=24|oBottom=48|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 4 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 36<br><small>[DamageOverTime]+15 '''21'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''2'''
+    {{!}}}
+  |drops = {{:Loot table/plant_venus_T2}}
+  }}
+|-|
+plant venus infernal={{Enemy
+  |title = Infernal Venus
+  |image_original = {{CSS image crop|Image=plant_venus_infernal.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |caption = Description for Venus Trap
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant venus infernal projectile''' {{!!}} <center>{{CSS image crop|Image=plant_venus_infernal.png|bSize=192|cWidth=12|cHeight=24|oBottom=48|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 196<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  |drops = {{:Loot table/plant_venus_infernal}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

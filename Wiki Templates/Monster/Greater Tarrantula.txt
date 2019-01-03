@@ -1,0 +1,45 @@
+{{Enemy
+  |title = Greater Tarrantula
+  |image_original = {{CSS image crop|Image=spider_tarantula.png|bSize=192|cWidth=45|cHeight=32|oBottom=10|oLeft=2}}
+  |caption = Description for Greater Tarrantula
+  |location = 
+  |category = Beast
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider tarantula projectile''' {{!!}} <center>{{CSS image crop|Image=spider_tarantula.png|bSize=192|cWidth=13|cHeight=22|oBottom=49|oLeft=54}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Sickened'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} HealthRegen {{!!}} (Health regeneration decrease by <strong style="color:red;">40%</strong>)<br><small>[HealthRegen]*0.6</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_tarrantula_hardmode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

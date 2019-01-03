@@ -1,0 +1,32 @@
+{{Item
+  |title = String of Fingers
+  |image = String of Fingers.png
+  |caption = The warped skeletal digits allow for energy channeled through this totem to split and fracture.
+  |type = Weapon
+  |tier = 4
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 6 {{Icon|Silver}}
+  |class = {{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 4]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

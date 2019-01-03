@@ -1,0 +1,48 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_shaman|boss_shaman]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x15 || {{Icon|Silver}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Deep Rime Catalyst}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Deep Rime Catalyst}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Forge of Corruption Key}} || style="text-align:right" | 26% 
+|-
+| x1 || {{Icon|Tribal Amulet}} || style="text-align:right" | 14% 
+|-
+| x1 || {{Icon|Touch of Ice}} || style="text-align:right" | 14% 
+|-
+| x1 || {{Icon|Winter Plate}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Winter Mantle}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Winter Leathers}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Winter Sabaton}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Winter Boots}} || style="text-align:right" | 9% 
+|-
+| x1 || {{Icon|Permafrost Totem}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Permafrost Pick}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Permafrost Arrows}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Permafrost Spear}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Permafrost Blade}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Permafrost Knives}} || style="text-align:right" | 8% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/boss_shaman}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

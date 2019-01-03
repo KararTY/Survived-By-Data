@@ -1,0 +1,46 @@
+{{Enemy
+  |title = Verdant Scorpion Minion
+  |image_original = {{CSS image crop|Image=scorpion_forest.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |caption = Description for Verdant Scorpion Minion
+  |location = 
+  |category = Beast
+  |tier = 7
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 10560
+  |experience = 1500
+  |damage_bonus = 253
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''scorpion forest projectile''' {{!!}} <center>{{CSS image crop|Image=scorpion_forest.png|bSize=192|cWidth=5|cHeight=16|oBottom=52|oLeft=57}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

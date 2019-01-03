@@ -1,0 +1,33 @@
+{{Enemy
+  |title = Musk Ox
+  |image_original = {{CSS image crop|Image=beast_muskox.png|bSize=192|cWidth=44|cHeight=45|oBottom=1|oLeft=4}}
+  |caption = Description for Musk Ox
+  |location = 
+  |category = Beast
+  |tier = 4
+  |level = 16
+  |max_health = {{Icon|Health|nolink=1}} 515
+  |experience = 300
+  |damage_bonus = 95
+  |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9.25
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+  |drops = {{:Loot table/monster_muskox}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

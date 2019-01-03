@@ -1,0 +1,26 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/DeepNightProjectilesBoss}}'''Loot table: ([[Loot table/ImprintArmorPrefix|ImprintArmorPrefix]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Regenerative Imprint}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Retributive Imprint}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Sidestep Imprint}} || style="text-align:right" | 12% 
+|-
+| x1 || {{Icon|Protective Imprint}} || style="text-align:right" | 4% 
+|-
+| x1 || {{Icon|Energetic Imprint}} || style="text-align:right" | 4% 
+|-
+| x1 || {{Icon|Protective Imprint}} || style="text-align:right" | 4% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/ImprintArmorPrefix}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

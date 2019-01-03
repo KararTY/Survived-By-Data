@@ -1,0 +1,30 @@
+{{Enemy
+  |title = Hound
+  |image_original = {{CSS image crop|Image=Hound_01.png|bSize=192|cWidth=48|cHeight=47|oBottom=48|oLeft=48}}
+  |location = 
+  |category = Chimera
+  |max_health = {{Icon|Health|nolink=1}} 90
+  |damage_bonus = 37
+  |accuracy = 150<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''hound projectile''' {{!!}} <center>{{CSS image crop|Image=Hound_01.png|bSize=192|cWidth=24|cHeight=24|oBottom=48|oLeft=96}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

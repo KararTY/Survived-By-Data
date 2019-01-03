@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Boiling Ooze Fragment
+  |image_original = {{CSS image crop|Image=Ooze_steaming.png|bSize=256|cWidth=56|cHeight=63|oBottom=1|oLeft=8}}
+  |caption = Description for Boiling Ooze Fragment
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 4
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 110
+  |experience = 40
+  |damage_bonus = 100
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ooze small T4 projectile''' {{!!}} <center>{{CSS image crop|Image=Ooze_steaming.png|bSize=256|cWidth=22|cHeight=29|oBottom=67|oLeft=132}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_ooze_small_T4}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Infernal]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

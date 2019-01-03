@@ -1,0 +1,178 @@
+<div class="tabbertab-borderless"><tabber>
+plant corpseflower={{Enemy
+  |title = Corpse Flower
+  |image_original = {{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |caption = Description for Corpse Flower
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 5060
+  |experience = 775
+  |damage_bonus = 253
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant corpseflower projectile''' {{!!}} <center>{{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=32|cHeight=29|oBottom=99|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 20
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  |drops = {{:Loot table/plant_corpseflower}}
+  }}
+|-|
+plant corpseflower dangerous={{Enemy
+  |title = Corpse Flower
+  |image_original = {{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |caption = Description for Corpse Flower
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 7
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 35000
+  |experience = 1550
+  |damage_bonus = 330
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant corpseflower projectile''' {{!!}} <center>{{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=32|cHeight=29|oBottom=99|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 20
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  |drops = {{:Loot table/plant_corpseflower_dangerous}}
+  }}
+|-|
+boss elementalspirit corpseflower seed={{Enemy
+  |title = Corpse Flower
+  |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 7000
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant corpseflower projectile''' {{!!}} <center>{{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=32|cHeight=29|oBottom=99|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 20
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  |drops = {{:Loot table/boss_elementalspirit_corpseflower_seed}}
+  }}
+|-|
+boss elementalspirit corpseflower={{Enemy
+  |title = Corpse Flower
+  |image_original = {{CSS image crop|Image=plant_corpseflower_bio.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 13000
+  |damage_bonus = 330
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''plant corpseflower projectile''' {{!!}} <center>{{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=32|cHeight=29|oBottom=99|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 20
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

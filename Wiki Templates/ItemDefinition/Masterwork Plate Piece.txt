@@ -1,0 +1,31 @@
+{{Item
+  |title = Masterwork Plate Piece
+  |image = Masterwork Plate Piece.png
+  |caption = The primary component of all masterwork heavy armor and heavy boots.
+  |type = Misc
+  |tier = 10
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 1000 {{Icon|Silver}}
+  |sell_cost = 100 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x3 {{Icon|Sable}}<br>x1 {{Icon|Quilted Leather}}<br>x1 {{Icon|Encased Obsidian}}
+  |silver_cost = 2000 {{Icon|Silver|nolink=1}}
+  |time = 10 minutes
+  |dismantle_chance = 30%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 10]]
+{{stub}}
+'''{{PAGENAME}}'''

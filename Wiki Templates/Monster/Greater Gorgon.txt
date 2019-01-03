@@ -1,0 +1,68 @@
+{{Enemy
+  |title = Greater Gorgon
+  |image_original = {{CSS image crop|Image=boss_gorgon.png|bSize=384|cWidth=91|cHeight=79|oBottom=10|oLeft=5}}
+  |caption = Description for Greater Gorgon
+  |location = 
+  |category = Chimera
+  |is_boss = Yes
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 2225000
+  |experience = 100000
+  |damage_bonus = 510
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss gorgon beam''' {{!!}} <center>{{CSS image crop|Image=eyebeam.png|bSize=10|cWidth=10|cHeight=64|oBottom=0|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Petrify'''
+    {{!}}-
+    {{!}} Duration {{!!}} 2 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} 0
+    {{!}}-
+    {{!}} RateOfAttack {{!!}} 0
+    {{!}}-
+    {{!}} ThreatDecay {{!!}} 10000 '''10000'''
+    {{!}}-
+    {{!}} DamageReduction {{!!}} 400 '''400'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss gorgon hardmode projectile''' {{!!}} <center>{{CSS image crop|Image=boss_gorgon.png|bSize=384|cWidth=13|cHeight=30|oBottom=108|oLeft=306}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |dialogue = <u>'''80% health:'''</u> ''It is pitiful that only the broken among you could see the truth.''<br><u>'''60% health:'''</u> ''Even now you have no idea that this, all of this, is your fault.''<br><u>'''40% health:'''</u> ''She slumbered until your kind awoke her!''<br><u>'''20% health:'''</u> ''And in her rage she will end this world!''
+  |drops = {{:Loot table/boss_gorgon_hardmode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

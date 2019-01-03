@@ -1,0 +1,37 @@
+{{Item
+  |title = Hollow Amulet
+  |image = Hollow Amulet.png
+  |caption = All that was weak and impure has been devoured, leaving a cage to rest upon and protect the heart.
+  |type = Amulet
+  |tier = 7
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 55 {{Icon|Silver}}
+  |sell_cost = 2000 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = {{Icon|Health|nolink=1}} [HealthMax]+[$Tier]*20+[$Item_Level]*4 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*10+[$Item_Level]*2 
+  |swiftness = 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*10+[$Item_Level]*2 
+  |willpower = 
+  |focus = 
+  |materials = x6 {{Icon|Enriched Amber}}<br>x6 {{Icon|Enriched Obsidian}}<br>x4 {{Icon|Enriched Cloth}}<br>x1 {{Icon|Mythril Catalyst}}
+  |silver_cost = 9000 {{Icon|Silver|nolink=1}}
+  |time = 2 hours
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
+  |dismantle_silver_cost = 2200 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 1 hour, 30 minutes
+}}
+
+[[Category:Amulet]]
+[[Category:Tier 7]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

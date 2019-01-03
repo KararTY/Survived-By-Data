@@ -1,0 +1,39 @@
+<div class="tabbertab-borderless"><tabber>
+boss undying master world={{Enemy
+  |title = Immortal Heroes
+  |image = Immortal Heroes.png
+  |location = 
+  |category = Undying
+  |is_boss = Yes
+  |element = Ea
+  |tier = 5
+  |level = 25
+  |max_health = {{Icon|Health|nolink=1}} 6
+  |experience = 2200
+  |damage_bonus = 1
+  }}
+|-|
+boss undying master={{Enemy
+  |title = Immortal Heroes
+  |image = Immortal Heroes.png
+  |location = 
+  |category = Undying
+  |is_boss = Yes
+  |element = Ea
+  |tier = 20
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 6
+  |experience = 10
+  |damage_bonus = 1
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Undying]]
+[[Category:Ea]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

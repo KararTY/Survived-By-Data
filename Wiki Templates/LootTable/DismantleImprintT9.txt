@@ -1,0 +1,21 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/DismantleImprintT9|DismantleImprintT9]])'''
+<br>Guaranteed drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+|  || {{Icon|Composite Amber Sign}} || style="text-align:right" | 50% 
+|-
+|  || {{Icon|Composite Obsidian Sign}} || style="text-align:right" | 50% 
+|-
+|  || {{Icon|Composite Timber Sign}} || style="text-align:right" | 50% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/DismantleImprintT9}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

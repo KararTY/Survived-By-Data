@@ -1,0 +1,32 @@
+{{Item
+  |title = Jet Witching Rod
+  |image = Jet Witching Rod.png
+  |caption = A split rod of worked jet allows the channeler to launch fire at multiple targets.
+  |type = Weapon
+  |tier = 5
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 11 {{Icon|Silver}}
+  |class = {{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 5]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,85 @@
+{{Item
+  |title = Grave of the Deep Night
+  |image = Grave of the Deep Night.png
+  |caption = Description of Grave of Deep Night
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 
+  |buy_cost = 
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x4 {{Icon|Amber Effigy}}
+  |silver_cost = 100 {{Icon|Silver|nolink=1}}
+  |time = 24 hours
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+{{Item
+  |title = Grave of the Deep Night
+  |image = Grave of the Deep Night.png
+  |caption = Description of Grave of Deep Night
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 
+  |buy_cost = 
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x4 {{Icon|Bonfire Bundle}}
+  |silver_cost = 100 {{Icon|Silver|nolink=1}}
+  |time = 24 hours
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+{{Item
+  |title = Grave of the Deep Night
+  |image = Grave of the Deep Night.png
+  |caption = Description of Grave of Deep Night
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 
+  |buy_cost = 
+  |sell_cost = 
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x4 {{Icon|Bundle of Candles}}
+  |silver_cost = 100 {{Icon|Silver|nolink=1}}
+  |time = 24 hours
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,34 @@
+{{Enemy
+  |title = Lupus Warrior Guard
+  |image_original = {{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=46|cHeight=58|oBottom=5|oLeft=9}}
+  |caption = Description for Lupus Warrior Guard
+  |location = 
+  |category = Chimera
+  |tier = 5
+  |level = 23
+  |max_health = {{Icon|Health|nolink=1}} 3276
+  |experience = 1100
+  |damage_bonus = 163
+  |accuracy = 361.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 130.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

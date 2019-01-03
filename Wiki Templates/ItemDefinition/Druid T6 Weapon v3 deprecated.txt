@@ -1,0 +1,32 @@
+{{Item
+  |title = Druid T6 Weapon v3 deprecated
+  |image = Druid T6 Weapon v3 deprecated.png
+  |caption = [deprecated]
+  |type = Weapon
+  |tier = 6
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 
+  |sell_cost = 17 {{Icon|Silver}}
+  |class = {{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 6]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

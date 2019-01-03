@@ -29,8 +29,8 @@ module.exports = (() => {
     'Ancestral/Set bonuses': path.join(__dirname, 'Patches', patchDate, 'Ancestral', 'Set bonuses')
   }
 
-  if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate))) {
-    fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate), { recursive: true })
+  if (!fs.existsSync(path.join(__dirname, 'Wiki Templates'))) {
+    fs.mkdirSync(path.join(__dirname, 'Wiki Templates'), { recursive: true })
   }
 
   function gData(data, name) {
@@ -157,7 +157,7 @@ module.exports = (() => {
     var gld = data.lootTable.length > 0 ? data.lootTable.sort((a, b) => {
       return b.chance - a.chance
     }) : ''
-    return `${data.reference ? `{{:Loot table/${data.reference}}}` : ''}${data.questLootTable ? `('''Quest loot table''') ` : ''}${gld ? `'''Loot table: ([[Loot table/${data.from}|${data.from}]])'''\n{|class="sortable"\n|-\n! Amount || Item || Chance\n|-\n${gld.map(v => `| x${v.count.add} || {{Icon|${v.item}}} || style="text-align:right" | ${v.chance}% `).join('\n|-\n')}\n|}\n${gld.guaranteeItemCount ? `Guaranteed drop amount: ${gld.guaranteeItemCount}<br>\n` : ''}${gld.maximumItemCount ? `Maximum drop amount: ${gld.maximumItemCount}` : ''}`.replace(/Ã¤/g, 'ä') : ''}`
+    return `${data.reference ? `{{:Loot table/${data.reference}}}` : ''}${data.questLootTable ? `('''Quest loot table''') ` : ''}${gld ? `'''Loot table: ([[Loot table/${data.from}|${data.from}]])'''\n${data.guaranteeItemCount ? `<br>Guaranteed drop amount: ${data.guaranteeItemCount}` : ''}${data.maximumItemCount ? `<br>Maximum drop amount: ${data.maximumItemCount}` : ''}\n{|class="sortable"\n|-\n! Amount || Item || Chance\n|-\n${gld.map(v => `| ${v.count.add ? `x${v.count.add}` : ''} || {{Icon|${v.item}}} || style="text-align:right" | ${v.chance}% `).join('\n|-\n')}\n|}`.replace(/Ã¤/g, 'ä') : ''}`
   }
 
   function gStats(stats, stat) {
@@ -298,15 +298,15 @@ module.exports = (() => {
 //[[Category:Tier ${file[0].tier}]]
 //${file[0].class.length > 0 ? file[0].class.map(c => `[[Category:${c}]]`).join('\n') : ''}
 //{{stub}}
-//      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->
+//      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
 //      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file[0].name}.txt`), template)
 //    })
 //  }
 
   let folder2 = 'Monster'
   if (folder[folder2]) {
-    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder2))) {
-      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder2))
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder2))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder2))
     }
     fs.readdirSync(folder[folder2]).forEach((val, ind) => {
       var file = require(path.join(folder[folder2], val))
@@ -352,16 +352,16 @@ ${file[0].isBoss ? '[[Category:Boss]]' : ''}
 ${file[0].isElite ? '[[Category:Elite]]' : ''}
 ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\r?\n+|\r+/g, '\n').trim()
       template += `\n</includeonly>`
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
-      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder2, `${file[0].name}.txt`), template)
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder2, `${file[0].name}.txt`), template)
     })
   }
 
   let folder3 = 'LootTable'
   if (folder[folder3]) {
-    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder3))) {
-      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder3))
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder3))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder3))
     }
     fs.readdirSync(folder[folder3]).forEach((val, ind) => {
       var file = require(path.join(folder[folder3], val))
@@ -378,16 +378,16 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
       template += `\n<noinclude>\n<hr>\n{{Special:Whatlinkshere/Loot table/${file[0].from}}}\n[[Category:Loot table]]\n</noinclude>\n`
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
-      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder3, `${file[0].from}.txt`), template)
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder3, `${file[0].from}.txt`), template)
     })
   }
 
   let folder4 = 'Ancestral'
   if (folder[folder4]) {
-    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4))) {
-      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4))
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder4))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder4))
     }
     fs.readdirSync(folder[folder4]).forEach((val, ind) => {
       if (val === 'Set bonuses') return
@@ -455,17 +455,17 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
       template += `\n[[Category:Ancestral Legacy]]`.replace(/\r?\n+|\r+/g, '\n').trim()
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       template += `\n<onlyinclude><includeonly>${file[0].description ? file[0].description.replace(/[\n]/g , ' ').replace('#', 'X').trim() : ''}</includeonly></onlyinclude>`
-      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder4, `${file[0].name}.txt`), template)
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder4, `${file[0].name}.txt`), template)
     })
   }
 
   var folder5 = 'Ancestral/Set bonuses'
   if (folder[folder5]) {
-    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder5))) {
-      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder5))
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder5))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder5))
     }
     var template = `{{stub}}\n\n`
     template += `<div class="tabbertab-borderless"><tabber>\n`
@@ -481,20 +481,20 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     template += `\n</tabber></div>\n`
     template += `\n[[Category:Ancestral Legacy]]`
     template += `\n[[Category:Ancestral Legacy Set Bonus]]`
-    template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->`
+    template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
     template = template.replace(/\r?\n+|\r+/g, '\n').trim()
-    fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder5, `Set Bonus.txt`), template)
+    fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder5, `Set Bonus.txt`), template)
   }
 
   var folder6 = 'ItemModifier'
   if (folder[folder6]) {
-    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder6))) {
-      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder6))
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder6))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder6))
     }
     fs.readdirSync(folder[folder6]).forEach((val, ind) => {
       var itemModifier = require(path.join(folder[folder6], val))
       var craftingRecipe = itemModifier[0].data.find(v => v.craftingRecipe) ? require(path.join(__dirname, 'Patches', patchDate, 'CraftingRecipe', itemModifier[0].data.find(v => v.craftingRecipe).craftingRecipe.name)) : undefined
-      var template = `=== ${itemModifier[0].alias} ===\n\n`
+      var template = ``
       itemModifier.forEach(item => {
         template += `
           {| class="wikitable"
@@ -544,8 +544,8 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
                   |}`.replace(/              /g, '')
               }).join('\n    ')}
           |}`})() : ''}
-          |}
-          ${gData(item.data, 'equipmentSet') ? '' : item.data.filter(v => v['validClasses']).sort((a, b) => {
+        |}
+        ${gData(item.data, 'equipmentSet') ? '' : item.data.filter(v => v['validClasses']).sort((a, b) => {
             return a.validClasses.length - b.validClasses.length
           }).sort((a, b) => {
             var typeA = a.type[0].toLowerCase()
@@ -564,13 +564,13 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
             | ${v.validClasses.map(c => `{{Icon|${c}}}`).join('<br>')}
           |}\n          |-\n` :*/ ''}
           ${gItemModifierStats(v.stats, item).replace(/      /g , '').replace(/    /g, '  ')}
-          |}`
+        |}`
           }).join('\n          ')}`.replace(/        /g, '').replace(/  \n/g, '\n')
       })
-      // template += `\n[[Category:Imprint]]`
-      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${new Date().toUTCString()} -->\n<hr>\n`
+      template += `\n<includeonly>\n[[Category:Imprint]]\n[[Category:${itemModifier[0].category}]]\n</includeonly>`
+      template += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
-      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', patchDate, folder6, `${itemModifier[0].category}_${itemModifier[0].name}.txt`), template)
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder6, `${itemModifier[0].category}_${itemModifier[0].name}.txt`), template)
     })
   }
 })()

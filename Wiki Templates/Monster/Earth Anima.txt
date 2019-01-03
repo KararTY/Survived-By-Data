@@ -1,0 +1,67 @@
+{{Enemy
+  |title = Earth Anima
+  |image_original = {{CSS image crop|Image=spirit_dryad_dirt.png|bSize=192|cWidth=37|cHeight=48|oBottom=0|oLeft=6}}
+  |caption = Description for Earth Anima
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 5
+  |level = 21
+  |max_health = {{Icon|Health|nolink=1}} 1393
+  |experience = 500
+  |damage_bonus = 143
+  |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 113.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dirt projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_dirt.png|bSize=192|cWidth=22|cHeight=48|oBottom=144|oLeft=96}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.1
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dirt trap''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_dirt.png|bSize=192|cWidth=48|cHeight=33|oBottom=111|oLeft=48}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit dryad dirt projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_dirt.png|bSize=192|cWidth=22|cHeight=48|oBottom=144|oLeft=96}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 20
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_dryad_dirt}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

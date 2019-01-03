@@ -1,0 +1,213 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Enfeebling Brew 2 (Uncommon)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Enfeebling Brew
+    | description = Alchemist special attack applies a debuff to enemies hit that increases damage taken by 2.16% for 3 seconds
+    | level = 1
+    | rarity = uncommon
+    | ordinary1 = AL_icon_ Alchemist
+    | ordinary2 = Vial
+    | ordinary3 = AL_Damage reduction
+    | set1 = AL_icon_ Alchemist
+    | set2 = AL_icon_debuff
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Enfeebling Brew
+    | description = Alchemist special attack applies a debuff to enemies hit that increases damage taken by 10% for 3 seconds
+    | level = 50
+    | rarity = uncommon
+    | ordinary1 = AL_icon_ Alchemist
+    | ordinary2 = Vial
+    | ordinary3 = AL_Damage reduction
+    | set1 = AL_icon_ Alchemist
+    | set2 = AL_icon_debuff
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Enfeebling Brew
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Uncommon
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | Benefit || 2+([AncestralData.Ancestral_Level]x0.16) || 
+  |}
+  {| class="wikitable mw-collapsible mw-collapsed"
+    |-
+    ! colspan="3" | Proc
+    |-
+    | Projectile damage multiplier || colspan="2" | 1
+    |-
+    | Triggers || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | SpecialWeaponHit
+      |-
+      | Chance || 1
+      |-
+      | Chance source || ChanceValue
+      |-
+      | Action || ApplyStatusEffectToTarget
+    |}
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Alchemist.png]] [[Ancestral_Legacy/Set Bonus#Alchemist_Set|Alchemist Set]]
+    |-
+    | [[File:AL_icon_debuff.png]] [[Ancestral_Legacy/Set Bonus#Debuff_Set|Debuff Set]]
+  |}
+|-|
+Enfeebling Brew 3 (Rare)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Enfeebling Brew
+    | description = Alchemist special attack applies a debuff to enemies hit that increases damage taken by 3.24% for 3 seconds
+    | level = 1
+    | rarity = rare
+    | ordinary1 = AL_icon_ Alchemist
+    | ordinary2 = Vial
+    | ordinary3 = AL_Damage reduction
+    | set1 = AL_icon_ Alchemist
+    | set2 = AL_icon_debuff
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Enfeebling Brew
+    | description = Alchemist special attack applies a debuff to enemies hit that increases damage taken by 15% for 3 seconds
+    | level = 50
+    | rarity = rare
+    | ordinary1 = AL_icon_ Alchemist
+    | ordinary2 = Vial
+    | ordinary3 = AL_Damage reduction
+    | set1 = AL_icon_ Alchemist
+    | set2 = AL_icon_debuff
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Enfeebling Brew
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Rare
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | Benefit || 3+([AncestralData.Ancestral_Level]x0.24) || 
+  |}
+  {| class="wikitable mw-collapsible mw-collapsed"
+    |-
+    ! colspan="3" | Proc
+    |-
+    | Projectile damage multiplier || colspan="2" | 1
+    |-
+    | Triggers || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | SpecialWeaponHit
+      |-
+      | Chance || 1
+      |-
+      | Chance source || ChanceValue
+      |-
+      | Action || ApplyStatusEffectToTarget
+    |}
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Alchemist.png]] [[Ancestral_Legacy/Set Bonus#Alchemist_Set|Alchemist Set]]
+    |-
+    | [[File:AL_icon_debuff.png]] [[Ancestral_Legacy/Set Bonus#Debuff_Set|Debuff Set]]
+  |}
+|-|
+Enfeebling Brew 4 (Legendary)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Enfeebling Brew
+    | description = Alchemist special attack applies a debuff to enemies hit that increases damage taken by 5.5% for 3 seconds
+    | level = 1
+    | rarity = legendary
+    | ordinary1 = AL_icon_ Alchemist
+    | ordinary2 = Vial
+    | ordinary3 = AL_Damage reduction
+    | set1 = AL_icon_ Alchemist
+    | set2 = AL_icon_debuff
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Enfeebling Brew
+    | description = Alchemist special attack applies a debuff to enemies hit that increases damage taken by 30% for 3 seconds
+    | level = 50
+    | rarity = legendary
+    | ordinary1 = AL_icon_ Alchemist
+    | ordinary2 = Vial
+    | ordinary3 = AL_Damage reduction
+    | set1 = AL_icon_ Alchemist
+    | set2 = AL_icon_debuff
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Enfeebling Brew
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Legendary
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | Benefit || 5+([AncestralData.Ancestral_Level]x0.5) || 
+  |}
+  {| class="wikitable mw-collapsible mw-collapsed"
+    |-
+    ! colspan="3" | Proc
+    |-
+    | Projectile damage multiplier || colspan="2" | 1
+    |-
+    | Triggers || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | SpecialWeaponHit
+      |-
+      | Chance || 1
+      |-
+      | Chance source || ChanceValue
+      |-
+      | Action || ApplyStatusEffectToTarget
+    |}
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Alchemist.png]] [[Ancestral_Legacy/Set Bonus#Alchemist_Set|Alchemist Set]]
+    |-
+    | [[File:AL_icon_debuff.png]] [[Ancestral_Legacy/Set Bonus#Debuff_Set|Debuff Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>Alchemist special attack applies a debuff to enemies hit that increases damage taken by X% for 3 seconds</includeonly></onlyinclude>

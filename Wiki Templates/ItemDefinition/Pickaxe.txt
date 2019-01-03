@@ -1,0 +1,32 @@
+{{Item
+  |title = Pickaxe
+  |image = Pickaxe.png
+  |caption = The use of lightweight mythril allows for the addition of a bladed end opposite the traditional pick without making the weapon too cumbersome to use effectively.
+  |type = Weapon
+  |tier = 7
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 75 {{Icon|Silver}}
+  |sell_cost = 2000 {{Icon|Silver}}
+  |class = {{Icon|Geomancer}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*15+[$Item_Level]*3 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = x4 {{Icon|Enriched Metal}}<br>x4 {{Icon|Enriched Obsidian}}<br>x2 {{Icon|Enriched Timber}}<br>x2 {{Icon|Enriched Leather}}<br>x1 {{Icon|Mythril Catalyst}}
+  |silver_cost = 9000 {{Icon|Silver|nolink=1}}
+  |time = 2 hours
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
+  |dismantle_silver_cost = 2200 {{Icon|Silver|nolink=1}}
+  |dismantle_time = 1 hour, 30 minutes
+}}
+
+[[Category:Weapon]]
+[[Category:Tier 7]]
+[[Category:Geomancer]]
+{{stub}}
+'''{{PAGENAME}}'''

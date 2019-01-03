@@ -1,0 +1,45 @@
+{{Enemy
+  |title = Greater Spider Young
+  |image_original = {{CSS image crop|Image=beast_spider_black_baby.png|bSize=128|cWidth=17|cHeight=15|oBottom=9|oLeft=7}}
+  |caption = Description for Greater Spider Young
+  |location = 
+  |category = Beast
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 4375
+  |experience = 300
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider baby projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_black_baby.png|bSize=128|cWidth=9|cHeight=23|oBottom=38|oLeft=35}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Vulnerable'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageReduction {{!!}} (Damage decrease by <strong style="color:red;">15%</strong>)<br><small>[DamageReduction]*0.85</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_black_baby_hardmode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

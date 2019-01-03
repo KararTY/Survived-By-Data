@@ -1,0 +1,31 @@
+{{Item
+  |title = Lapis Orb
+  |image = Lapis Orb.png
+  |caption = A pure sample of Lapis Lazuli, harvested from Manifestations of Sin and then polished to a perfect sphere, is a powerful source of the element An (Umbra).
+  |type = Misc
+  |tier = 
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 
+  |sell_cost = 10 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x20 {{Icon|Lapis Core}}
+  |silver_cost = 
+  |time = 2 hours
+  |dismantle_chance = 30%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

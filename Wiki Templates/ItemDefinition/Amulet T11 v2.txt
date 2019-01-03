@@ -1,0 +1,37 @@
+{{Item
+  |title = Amulet T11 v2
+  |image = Amulet T11 v2.png
+  |caption = [description]
+  |type = Amulet
+  |tier = 12
+  |bound = 
+  |max_stack = 1
+  |buy_cost = 10000 {{Icon|Silver}}
+  |sell_cost = 5000 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = {{Icon|Health|nolink=1}} [HealthMax]+[$Tier]*20+[$Item_Level]*4 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*10+[$Item_Level]*2 
+  |swiftness = 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*10+[$Item_Level]*2 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = x1 {{Icon|Embers}} 100%
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Amulet]]
+[[Category:Tier 12]]
+[[Category:Alchemist]]
+[[Category:Harbinger]]
+[[Category:Infiltrator]]
+[[Category:Sentinel]]
+[[Category:Geomancer]]
+[[Category:Druid]]
+{{stub}}
+'''{{PAGENAME}}'''

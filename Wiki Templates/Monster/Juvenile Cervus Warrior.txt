@@ -1,0 +1,51 @@
+{{Enemy
+  |title = Juvenile Cervus Warrior
+  |image_original = {{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=57|cHeight=74|oBottom=14|oLeft=7}}
+  |caption = Description for Juvenile Cervus Warrior
+  |location = 
+  |category = Chimera
+  |tier = 1
+  |level = 2
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |experience = 10
+  |damage_bonus = 15
+  |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile ahead''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.4
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_stag_feral_T1}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

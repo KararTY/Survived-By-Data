@@ -1,0 +1,100 @@
+{{stub}}
+<div class="tabbertab-borderless"><tabber>
+Vital Damage 3 (Rare)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Vital Damage
+    | description = Critical damage is increased by 4.08%
+    | level = 1
+    | rarity = rare
+    | ordinary1 = AL_Critical_Hit
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_ Dice
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Vital Damage
+    | description = Critical damage is increased by 8%
+    | level = 50
+    | rarity = rare
+    | ordinary1 = AL_Critical_Hit
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_ Dice
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Vital Damage
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Rare
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | CriticalDamage || [CriticalDamage] + ([CriticalDamage] x [$Benefit]/100) || 
+    |-
+    | Benefit || 4+([AncestralData.Ancestral_Level]x0.08) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Dice.png]] [[Ancestral_Legacy/Set Bonus#Critical_Set|Critical Set]]
+  |}
+|-|
+Vital Damage 4 (Legendary)={| style="float:right;"
+  |-
+  | {{Ancestral Legacy
+    | name = Vital Damage
+    | description = Critical damage is increased by 3.24%
+    | level = 1
+    | rarity = legendary
+    | ordinary1 = AL_Critical_Hit
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_ Dice
+    }}
+  |-
+  | {{Ancestral Legacy
+    | name = Vital Damage
+    | description = Critical damage is increased by 15%
+    | level = 50
+    | rarity = legendary
+    | ordinary1 = AL_Critical_Hit
+    | ordinary2 = AL_icon_percentage plus
+    | set1 = AL_icon_ Dice
+    }}
+  |}
+  {| class="wikitable mw-collapsible"
+    |-
+    ! colspan="3" | Vital Damage
+    |-
+    | Available || colspan="2" | Yes
+    |-
+    | Rarity || colspan="2" | Legendary
+    |-
+    | Classes || colspan="2" | {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+    |-
+    ! colspan="3" | Stats
+    |-
+    ! Key !! Equation !! Value
+    |-
+    | CriticalDamage || [CriticalDamage] + ([CriticalDamage] x [$Benefit]/100) || 
+    |-
+    | Benefit || 3+([AncestralData.Ancestral_Level]x0.24) || 
+  |}
+  {| class="wikitable"
+    |-
+    ! Sets
+    |-
+    | [[File:AL_icon_ Dice.png]] [[Ancestral_Legacy/Set Bonus#Critical_Set|Critical Set]]
+  |}
+|-|
+</tabber></div>
+[[Category:Ancestral Legacy]]
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
+<onlyinclude><includeonly>Critical damage is increased by X%</includeonly></onlyinclude>

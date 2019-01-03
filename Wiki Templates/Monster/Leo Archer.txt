@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Leo Archer
+  |image_original = {{CSS image crop|Image=chimera_mt_lion_archer.png|bSize=256|cWidth=40|cHeight=54|oBottom=3|oLeft=15}}
+  |caption = Description for Leo Archer
+  |location = 
+  |category = Chimera
+  |tier = 3
+  |level = 12
+  |max_health = {{Icon|Health|nolink=1}} 220
+  |experience = 170
+  |damage_bonus = 65
+  |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera mtlionarcher projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_mt_lion_archer.png|bSize=256|cWidth=9|cHeight=38|oBottom=77|oLeft=78}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_lionarcher}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

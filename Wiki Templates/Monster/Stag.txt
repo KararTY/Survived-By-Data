@@ -1,0 +1,222 @@
+<div class="tabbertab-borderless"><tabber>
+monster combo 1={{Enemy
+  |title = Stag
+  |image_original = {{CSS image crop|Image=beast_stag.png|bSize=256|cWidth=52|cHeight=64|oBottom=0|oLeft=6}}
+  |caption = Description for Stag
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |experience = 5
+  |damage_bonus = 15
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''stag projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_combo_1}}
+  }}
+|-|
+monster combo 2={{Enemy
+  |title = Stag
+  |image_original = {{CSS image crop|Image=beast_wolf.png|bSize=192|cWidth=45|cHeight=41|oBottom=7|oLeft=3}}
+  |caption = Description for Stag
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |experience = 5
+  |damage_bonus = 15
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''stag projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 3
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_combo_2}}
+  }}
+|-|
+monster combo 3={{Enemy
+  |title = Stag
+  |image_original = {{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=45|cHeight=47|oBottom=1|oLeft=3}}
+  |caption = Description for Stag
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |experience = 5
+  |damage_bonus = 15
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ram projectile''' {{!!}} <center>{{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=18|cHeight=15|oBottom=148|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_combo_3}}
+  }}
+|-|
+monster combo 4={{Enemy
+  |title = Stag
+  |image_original = {{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=45|cHeight=47|oBottom=1|oLeft=3}}
+  |caption = Description for Stag
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |experience = 5
+  |damage_bonus = 15
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ram projectile''' {{!!}} <center>{{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=18|cHeight=15|oBottom=148|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_combo_4}}
+  }}
+|-|
+monster combo 5={{Enemy
+  |title = Stag
+  |image_original = {{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=45|cHeight=47|oBottom=1|oLeft=3}}
+  |caption = Description for Stag
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |experience = 5
+  |damage_bonus = 15
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ram projectile''' {{!!}} <center>{{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=18|cHeight=15|oBottom=148|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_combo_5}}
+  }}
+|-|
+monster combo 6={{Enemy
+  |title = Stag
+  |image_original = {{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=45|cHeight=47|oBottom=1|oLeft=3}}
+  |caption = Description for Stag
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |experience = 5
+  |damage_bonus = 15
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ram projectile''' {{!!}} <center>{{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=18|cHeight=15|oBottom=148|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_combo_6}}
+  }}
+|-|
+monster stag={{Enemy
+  |title = Stag
+  |image_original = {{CSS image crop|Image=beast_stag.png|bSize=256|cWidth=52|cHeight=64|oBottom=0|oLeft=6}}
+  |caption = Description for Stag
+  |location = 
+  |category = Beast
+  |tier = 1
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 12
+  |experience = 5
+  |damage_bonus = 15
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9.25
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 13
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}}
+  |drops = {{:Loot table/monster_stag}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,19 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/Card Pack Premium|Card Pack Premium]])'''
+<br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Random Uncommon Ancestral Legacy}} || style="text-align:right" | 0.75% 
+|-
+| x1 || {{Icon|Random Rare Ancestral Legacy}} || style="text-align:right" | 0.25% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/Card Pack Premium}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,41 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+'''Loot table: ([[Loot table/LocalCommanderT3|LocalCommanderT3]])'''
+<br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Charred Pendant}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Armor of the Maw}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Crimson Mantle}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Leathers of the Maw}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Sabaton of the Maw}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Leather Boots of the Maw}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Bone Ring}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Jet Visage}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Jet Staff}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Sickle}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Bone Bow}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Scimitar}} || style="text-align:right" | 1% 
+|-
+| x1 || {{Icon|Jet Khanjar}} || style="text-align:right" | 1% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/LocalCommanderT3}}
+[[Category:Loot table]]
+</noinclude>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

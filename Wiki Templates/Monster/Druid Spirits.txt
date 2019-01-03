@@ -1,0 +1,82 @@
+<div class="tabbertab-borderless"><tabber>
+monster ghost druid master quest={{Enemy
+  |title = Druid Spirits
+  |image = Druid Spirits.png
+  |location = 
+  |category = Undying
+  |is_boss = Yes
+  |element = Ea
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 6
+  |experience = 1500
+  |damage_bonus = 1
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+|-|
+monster ghost druid quest={{Enemy
+  |title = Druid Spirits
+  |image_original = {{CSS image crop|Image=druid_jungle_spirit.png|bSize=192|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
+  |location = 
+  |category = Undying
+  |element = Ea
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 6600
+  |damage_bonus = 275
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''undying druid projectile''' {{!!}} <center>{{CSS image crop|Image=undying_druid.png|bSize=128|cWidth=16|cHeight=18|oBottom=64|oLeft=32}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''undying druid projectile2''' {{!!}} <center>{{CSS image crop|Image=undying_druid.png|bSize=128|cWidth=16|cHeight=18|oBottom=64|oLeft=32}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''undying druid projectile3''' {{!!}} <center>{{CSS image crop|Image=undying_druid.png|bSize=128|cWidth=16|cHeight=18|oBottom=64|oLeft=32}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Undying]]
+[[Category:Ea]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

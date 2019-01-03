@@ -1,0 +1,31 @@
+{{Item
+  |title = Tools of Master (III) Crafting
+  |image = Tools of Master (III) Crafting.png
+  |caption = 
+  |type = Misc
+  |tier = 
+  |bound = Soul
+  |max_stack = 10
+  |buy_cost = 50000 {{Icon|Silver}}
+  |sell_cost = 10000 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_chance = 
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 0]]
+{{stub}}
+'''{{PAGENAME}}'''

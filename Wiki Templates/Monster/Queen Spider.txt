@@ -1,0 +1,47 @@
+{{Enemy
+  |title = Queen Spider
+  |image_original = {{CSS image crop|Image=spider_black.png|bSize=192|cWidth=37|cHeight=32|oBottom=8|oLeft=5}}
+  |caption = Description for Queen Spider
+  |location = 
+  |category = Beast
+  |is_elite = Yes
+  |tier = 1
+  |level = 3
+  |max_health = {{Icon|Health|nolink=1}} 45
+  |experience = 40
+  |damage_bonus = 22
+  |accuracy = 153.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 26.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider black elite projectile''' {{!!}} <center>{{CSS image crop|Image=spider_black.png|bSize=192|cWidth=16|cHeight=27|oBottom=58|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">5%</strong>)<br><small>[MovementSpeed]*0.95</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_black_elite}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+[[Category:Elite]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

@@ -1,0 +1,34 @@
+{{Enemy
+  |title = Cylinder Man
+  |image_original = {{CSS image crop|Image=cylinder.png|bSize=96|cWidth=32|cHeight=64|oBottom=0|oLeft=0}}
+  |caption = Description for Cylinder Man
+  |location = 
+  |category = Construct
+  |tier = 15
+  |level = 2
+  |max_health = {{Icon|Health|nolink=1}} 25
+  |experience = 8
+  |damage_bonus = 20
+  |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''construct cylinder projectile 1''' {{!!}} <center>{{CSS image crop|Image=cylinder.png|bSize=96|cWidth=12|cHeight=17|oBottom=42|oLeft=34}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Construct]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

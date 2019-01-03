@@ -1,0 +1,78 @@
+<div class="tabbertab-borderless"><tabber>
+monster kraken={{Enemy
+  |title = Deepwater Kraken
+  |image_original = {{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=45|cHeight=44|oBottom=204|oLeft=141}}
+  |caption = Description for Deepwater Kraken
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 6
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 175000
+  |experience = 75000
+  |damage_bonus = 330
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''kraken projectile''' {{!!}} <center>{{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=40|cHeight=19|oBottom=195|oLeft=460}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}}
+  |dialogue = <u>'''80% health:'''</u> ''You... have fought and died... for nothing.''<br><u>'''60% health:'''</u> ''This breach... is but one of many... and many to come.''<br><u>'''40% health:'''</u> ''She rages... and the tree convulses... because of you. ''<br><u>'''20% health:'''</u> ''You... will be exterminated... She... will sleep.''
+  |drops = {{:Loot table/monster_kraken}}
+  }}
+|-|
+monster kraken world={{Enemy
+  |title = Deepwater Kraken
+  |image_original = {{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=45|cHeight=44|oBottom=204|oLeft=141}}
+  |caption = Description for Deepwater Kraken
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 6
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 3740000
+  |experience = 3000
+  |damage_bonus = 330
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''kraken projectile''' {{!!}} <center>{{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=40|cHeight=19|oBottom=195|oLeft=460}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}}
+  |dialogue = <u>'''80% health:'''</u> ''You... have fought and died... for nothing.''<br><u>'''60% health:'''</u> ''This breach... is but one of many... and many to come.''<br><u>'''40% health:'''</u> ''She rages... and the tree convulses... because of you. ''<br><u>'''20% health:'''</u> ''You... will be exterminated... She... will sleep.''
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

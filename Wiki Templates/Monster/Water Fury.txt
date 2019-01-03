@@ -1,0 +1,40 @@
+{{Enemy
+  |title = Water Fury
+  |image_original = {{CSS image crop|Image=Kraken_Island Fury.png|bSize=512|cWidth=55|cHeight=59|oBottom=195|oLeft=135}}
+  |caption = Description for Water Fury
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 6
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 250000
+  |experience = 7500
+  |damage_bonus = 210
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''kraken quest projectile''' {{!!}} <center>{{CSS image crop|Image=Kraken_Island Fury.png|bSize=512|cWidth=36|cHeight=20|oBottom=196|oLeft=462}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} Pierce world  {{!!}} Yes
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+[[Category:Boss]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

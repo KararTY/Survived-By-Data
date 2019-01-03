@@ -1,0 +1,65 @@
+<div class="tabbertab-borderless"><tabber>
+boss undying hunter world={{Enemy
+  |title = Undying Harbinger
+  |image_original = {{CSS image crop|Image=undying_hunter.png|bSize=128|cWidth=32|cHeight=32|oBottom=32|oLeft=0}}
+  |location = 
+  |category = Undying
+  |element = Ea
+  |tier = 5
+  |level = 25
+  |max_health = {{Icon|Health|nolink=1}} 262500
+  |damage_bonus = 200
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''undying hunter projectile''' {{!!}} <center>{{CSS image crop|Image=undying_hunter.png|bSize=128|cWidth=11|cHeight=28|oBottom=66|oLeft=11}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+boss undying hunter={{Enemy
+  |title = Undying Harbinger
+  |image_original = {{CSS image crop|Image=undying_hunter.png|bSize=128|cWidth=32|cHeight=32|oBottom=32|oLeft=0}}
+  |location = 
+  |category = Undying
+  |element = Ea
+  |tier = 20
+  |level = 1
+  |max_health = {{Icon|Health|nolink=1}} 300
+  |experience = 10
+  |damage_bonus = 1
+  |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''undying hunter projectile''' {{!!}} <center>{{CSS image crop|Image=undying_hunter.png|bSize=128|cWidth=11|cHeight=28|oBottom=66|oLeft=11}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Undying]]
+[[Category:Ea]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->

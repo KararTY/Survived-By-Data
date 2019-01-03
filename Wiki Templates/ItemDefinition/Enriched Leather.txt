@@ -1,0 +1,31 @@
+{{Item
+  |title = Enriched Leather
+  |image = Enriched Leather.png
+  |caption = Constructed from scraps of Hide, Leather provides a balance between protection and flexibility.
+  |type = Misc
+  |tier = 5
+  |bound = 
+  |max_stack = 99
+  |buy_cost = 20 {{Icon|Silver}}
+  |sell_cost = 2 {{Icon|Silver}}
+  |class = 
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x5 {{Icon|Leather}}
+  |silver_cost = 80 {{Icon|Silver|nolink=1}}
+  |time = 1 minute
+  |dismantle_chance = 30%
+  |dismantle_materials = 
+  |dismantle_silver_cost = 
+  |dismantle_time = 
+}}
+
+[[Category:Misc]]
+[[Category:Tier 5]]
+{{stub}}
+'''{{PAGENAME}}'''

@@ -1,0 +1,53 @@
+{{Enemy
+  |title = Greater Manifestation of Sin
+  |image_original = {{CSS image crop|Image=Sin_Enemy_Greater.png|bSize=256|cWidth=51|cHeight=55|oBottom=73|oLeft=10}}
+  |caption = Description of Greater Manifestation of Sin
+  |location = 
+  |category = Sin
+  |element = An
+  |tier = 9
+  |level = 30
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''manifestation of sin laser''' {{!!}} <center>{{CSS image crop|Image=Sin_Enemy_Greater.png|bSize=256|cWidth=8|cHeight=14|oBottom=167|oLeft=204}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 23
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''manifestation of sin projectile2''' {{!!}} <center>{{CSS image crop|Image=Sin_Enemy_Greater.png|bSize=256|cWidth=16|cHeight=15|oBottom=166|oLeft=231}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 14
+    {{!}}-
+    {{!}} Acceleration {{!!}} -7.5
+    {{!}}-
+    {{!}} Lifetime {{!!}} 15
+    {{!}}-
+    {{!}} Range {{!!}} 22
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/manifestation_of_sin_greater}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Sin]]
+[[Category:An]]
+</includeonly>
+<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:} -->
