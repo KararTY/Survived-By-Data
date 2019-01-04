@@ -1,0 +1,149 @@
+{
+    "0 GameObject Base": 
+    {
+        "0 vector m_Component": 
+        {
+            "0 Array Array": [
+                {"0 pair data": 
+                {
+                    "0 int first": 4,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 15465
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 212,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 22030
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 46869
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 52843
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 54757
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 42363
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 82,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 20674
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 36073
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 36411
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 36698
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 33997
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 31799
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 56910
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 43887
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 40200
+                    }
+                }}
+            ]
+        },
+        "0 unsigned int m_Layer": 10,
+        "1 string m_Name": "monster_spirit_nereides_swamp_elite",
+        "0 UInt16 m_Tag": 0,
+        "0 bool m_IsActive": true
+    }
+}

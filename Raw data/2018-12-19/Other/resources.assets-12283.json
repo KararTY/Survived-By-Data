@@ -1,0 +1,95 @@
+{
+    "0 GameObject Base": 
+    {
+        "0 vector m_Component": 
+        {
+            "0 Array Array": [
+                {"0 pair data": 
+                {
+                    "0 int first": 4,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 17871
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 212,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 23166
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 42878
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 48617
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 37069
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 33142
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 96,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 21286
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 37456
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 29444
+                    }
+                }}
+            ]
+        },
+        "0 unsigned int m_Layer": 9,
+        "1 string m_Name": "Druid Weapon 16 Piercing-Wave Shot",
+        "0 UInt16 m_Tag": 0,
+        "0 bool m_IsActive": true
+    }
+}

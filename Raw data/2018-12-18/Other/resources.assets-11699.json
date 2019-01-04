@@ -1,0 +1,95 @@
+{
+    "0 GameObject Base": 
+    {
+        "0 vector m_Component": 
+        {
+            "0 Array Array": [
+                {"0 pair data": 
+                {
+                    "0 int first": 4,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 18181
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 212,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 22695
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 35884
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 36231
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 45355
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 41559
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 48337
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 44528
+                    }
+                }},
+                {"0 pair data": 
+                {
+                    "0 int first": 114,
+                    "0 PPtr<Component> second": 
+                    {
+                        "0 int m_FileID": 0,
+                        "0 SInt64 m_PathID": 43376
+                    }
+                }}
+            ]
+        },
+        "0 unsigned int m_Layer": 0,
+        "1 string m_Name": "LootBox T12",
+        "0 UInt16 m_Tag": 0,
+        "0 bool m_IsActive": true
+    }
+}

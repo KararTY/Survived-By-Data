@@ -1,0 +1,114 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 2784
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1296
+        },
+        "1 string m_Name": "",
+        "0 UnityEngine.UI.Navigation m_Navigation": 
+        {
+            "0 int m_Mode": 3,
+            "0 PPtr<$Selectable> m_SelectOnUp": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            },
+            "0 PPtr<$Selectable> m_SelectOnDown": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            },
+            "0 PPtr<$Selectable> m_SelectOnLeft": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            },
+            "0 PPtr<$Selectable> m_SelectOnRight": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            }
+        },
+        "0 int m_Transition": 2,
+        "0 UnityEngine.UI.ColorBlock m_Colors": 
+        {
+            "0 ColorRGBA m_NormalColor": 
+            {
+                "0 float r": 1,
+                "0 float g": 1,
+                "0 float b": 1,
+                "0 float a": 1
+            },
+            "0 ColorRGBA m_HighlightedColor": 
+            {
+                "0 float r": 0.960784316,
+                "0 float g": 0.960784316,
+                "0 float b": 0.960784316,
+                "0 float a": 1
+            },
+            "0 ColorRGBA m_PressedColor": 
+            {
+                "0 float r": 0.784313738,
+                "0 float g": 0.784313738,
+                "0 float b": 0.784313738,
+                "0 float a": 1
+            },
+            "0 ColorRGBA m_DisabledColor": 
+            {
+                "0 float r": 0.784313738,
+                "0 float g": 0.784313738,
+                "0 float b": 0.784313738,
+                "0 float a": 0.501960814
+            },
+            "0 float m_ColorMultiplier": 1,
+            "0 float m_FadeDuration": 0.100000001
+        },
+        "0 UnityEngine.UI.SpriteState m_SpriteState": 
+        {
+            "0 PPtr<$Sprite> m_HighlightedSprite": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            },
+            "0 PPtr<$Sprite> m_PressedSprite": 
+            {
+                "0 int m_FileID": 6,
+                "0 SInt64 m_PathID": 2378
+            },
+            "0 PPtr<$Sprite> m_DisabledSprite": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            }
+        },
+        "0 UnityEngine.UI.AnimationTriggers m_AnimationTriggers": 
+        {
+            "1 string m_NormalTrigger": "Normal",
+            "1 string m_HighlightedTrigger": "Highlighted",
+            "1 string m_PressedTrigger": "Pressed",
+            "1 string m_DisabledTrigger": "Disabled"
+        },
+        "1 UInt8 m_Interactable": 1,
+        "0 PPtr<$Graphic> m_TargetGraphic": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 34897
+        },
+        "0 ButtonClickedEvent m_OnClick": 
+        {
+            "0 UnityEngine.Events.PersistentCallGroup m_PersistentCalls": 
+            {
+                "0 Array m_Calls": []
+            },
+            "1 string m_TypeName": "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+    }
+}

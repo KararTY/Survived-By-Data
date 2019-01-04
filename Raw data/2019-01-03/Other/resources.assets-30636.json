@@ -1,0 +1,48 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 15248
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 919
+        },
+        "1 string m_Name": "",
+        "0 int type": 6,
+        "0 int EventID": -1,
+        "0 int EventObjectIndex": -1,
+        "1 string FloatingLabelText": "string20156",
+        "1 string FloatingLabelMini": "string20208",
+        "1 string ShowUI": "ShrineUI",
+        "0 float UseRange": 3,
+        "1 UInt8 PreventInteraction": 0,
+        "1 UInt8 CollideToInteract": 0,
+        "1 UInt8 CanGlow": 0,
+        "0 PPtr<$NPCInteractDialogue> interactDialogue": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 ShowInteractionBar": 0,
+        "0 PPtr<$GameObject> questChain": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$GameObject> gameEvent": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$FloatingObject> interactFloatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

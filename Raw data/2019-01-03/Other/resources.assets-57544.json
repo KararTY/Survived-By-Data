@@ -1,0 +1,20 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 15204
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 878
+        },
+        "1 string m_Name": "",
+        "1 string emojiCode": "down",
+        "1 string displayName": "string30003",
+        "1 UInt8 requiresDiscovery": 0
+    }
+}

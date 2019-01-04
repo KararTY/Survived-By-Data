@@ -1,0 +1,27 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13853
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 539
+        },
+        "1 string m_Name": "",
+        "0 int soundListType": 0,
+        "0 Array snds": [
+            {"1 string data": "EnemyImpactGeneral1"},
+            {"1 string data": "EnemyImpactGeneral2"},
+            {"1 string data": "EnemyImpactGeneral3"},
+            {"1 string data": "EnemyImpactGeneral4"},
+            {"1 string data": "EnemyImpactGeneral5"}
+        ],
+        "0 Array soundIndices": [],
+        "1 UInt8 PreserveOnRunningTool": 0
+    }
+}

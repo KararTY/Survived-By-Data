@@ -1,0 +1,56 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13315
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 878
+        },
+        "1 string m_Name": "",
+        "0 int type": 0,
+        "0 int EventID": -1,
+        "0 int EventObjectIndex": -1,
+        "1 string FloatingLabelText": "Druid Circle",
+        "1 string FloatingLabelMini": "",
+        "1 string ShowUI": "",
+        "0 float UseRange": 6,
+        "1 UInt8 PreventInteraction": 0,
+        "1 UInt8 CollideToInteract": 1,
+        "1 UInt8 CanGlow": 0,
+        "0 PPtr<$NPCInteractDialogue> interactDialogue": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 ShowInteractionBar": 1,
+        "0 PPtr<$GameObject> questChain": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$GameObject> gameEvent": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$FloatingObject> interactFloatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$StatusEffect> StatusEffect": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 38318
+        },
+        "0 float QuestProximityRange": 14,
+        "0 float QuestCooldownTime": 600,
+        "1 UInt8 IsActive": 1
+    }
+}

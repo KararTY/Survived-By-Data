@@ -1,0 +1,62 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 9202
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 496
+        },
+        "1 string m_Name": "",
+        "0 float randomMin": 5,
+        "0 float randomMax": 35,
+        "0 Array dialogue": [
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 38325
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 47149
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35366
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 29040
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 30835
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 56789
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 49119
+            }}
+        ],
+        "1 UInt8 doRangeCheck": 1,
+        "0 PPtr<$FloatingObject> floatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

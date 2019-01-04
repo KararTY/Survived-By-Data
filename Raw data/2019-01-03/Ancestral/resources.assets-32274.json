@@ -1,0 +1,86 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 12865
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 362
+        },
+        "1 string m_Name": "",
+        "0 Array stat": [
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 102,
+                "1 string equation": "1+([AncestralData.Ancestral_Level]*0.04)",
+                "0 float value": 0
+            }}
+        ],
+        "0 Array ordinaries": [
+            {"0 PPtr<$Sprite> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 2950
+            }},
+            {"0 PPtr<$Sprite> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 3091
+            }}
+        ],
+        "0 ColorRGBA color": 
+        {
+            "0 float r": 1,
+            "0 float g": 1,
+            "0 float b": 1,
+            "0 float a": 1
+        },
+        "0 ColorRGBA hsl": 
+        {
+            "0 float r": 0,
+            "0 float g": 0,
+            "0 float b": 0,
+            "0 float a": 0
+        },
+        "0 float hslShift": 0,
+        "1 string displayName": "string70267",
+        "1 string benefitDescription": "string70268",
+        "1 UInt8 DoNotAward": 0,
+        "0 Array BlockedBy": [
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12865
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12866
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12867
+            }}
+        ],
+        "0 int rarity": 0,
+        "0 int validArchetypes": -1,
+        "0 Array sets": [
+            {"0 PPtr<$AncestralSet> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 31330
+            }},
+            {"0 PPtr<$AncestralSet> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 51376
+            }}
+        ]
+    }
+}

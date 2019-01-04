@@ -1,0 +1,37 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 183
+        },
+        "1 string m_Name": "OW_Jungle_6",
+        "0 int subType": 206024,
+        "0 int biome": 15,
+        "0 float difficultyMin": 0.5,
+        "0 float difficultyMax": 0.600000024,
+        "0 float spawnRadius": 16,
+        "1 UInt8 spawnDelayed": 0,
+        "0 float quotaRadius": 30,
+        "0 float rechargeTime": 0.349999994,
+        "1 UInt8 isBoss": 0,
+        "1 UInt8 autoPopulate": 1,
+        "1 UInt8 manuallyPlaced": 0,
+        "0 int multipleType": 2,
+        "1 UInt8 floraOrFaunaSpawner": 0,
+        "0 Array spawnList": [],
+        "0 Array comboSpawnList": [],
+        "1 UInt8 oneTimeTrigger": 0,
+        "1 UInt8 overrideNearbyPlayerCheck": 0,
+        "0 int areaMax": 0,
+        "0 int areaRadius": 0,
+        "0 Array comboArrangement": []
+    }
+}

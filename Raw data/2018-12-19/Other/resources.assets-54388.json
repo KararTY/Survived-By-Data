@@ -1,0 +1,29 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14205
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 486
+        },
+        "1 string m_Name": "",
+        "0 Array networkIds": [
+            {"0 unsigned int data": 206118},
+            {"0 unsigned int data": 206102}
+        ],
+        "1 string DyeName": "string31464",
+        "0 ColorRGBA Colour": 
+        {
+            "0 float r": 0.603921592,
+            "0 float g": 0.603921592,
+            "0 float b": 0.160784319,
+            "0 float a": 1
+        }
+    }
+}

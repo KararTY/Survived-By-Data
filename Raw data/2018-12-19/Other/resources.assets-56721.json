@@ -1,0 +1,41 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 8875
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 565
+        },
+        "1 string m_Name": "",
+        "0 Array healthDialogue": [
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.899999976,
+                "1 string dialogue": "There will be no mercy for those that defile the Mother.",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.400000006,
+                "1 string dialogue": "The blight will be burned away, and in the ashes she will live again.",
+                "1 UInt8 seen": 0
+            }}
+        ],
+        "0 PPtr<$SoundList> soundList": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$FloatingObject> floatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

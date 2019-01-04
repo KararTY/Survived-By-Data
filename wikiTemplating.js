@@ -15,18 +15,18 @@ var patchDate = require(path.join(__dirname, 'patchDate.json'))['patchDate']
 
 module.exports = (() => {
   var folder = {
-    'ItemDefinition': path.join(__dirname, 'Patches', patchDate, 'ItemDefinition'),
-    'Monster': path.join(__dirname, 'Patches', patchDate, 'Monster'),
-    'LootTable': path.join(__dirname, 'Patches', patchDate, 'LootTable'),
-    'Other': path.join(__dirname, 'Patches', patchDate, 'Other'),
-    'Ancestral': path.join(__dirname, 'Patches', patchDate, 'Ancestral'),
-    'CraftingRecipe': path.join(__dirname, 'Patches', patchDate, 'CraftingRecipe'),
-    'ItemModifier': path.join(__dirname, 'Patches', patchDate, 'ItemModifier'),
-    'LootBox': path.join(__dirname, 'Patches', patchDate, 'LootBox'),
-    'NPC': path.join(__dirname, 'Patches', patchDate, 'NPC'),
-    'Player': path.join(__dirname, 'Patches', patchDate, 'Player'),
-    'Challenge': path.join(__dirname, 'Patches', patchDate, 'Challenge'),
-    'Ancestral/Set bonuses': path.join(__dirname, 'Patches', patchDate, 'Ancestral', 'Set bonuses')
+    'ItemDefinition': path.join(__dirname, 'Patch', 'ItemDefinition'),
+    'Monster': path.join(__dirname, 'Patch', 'Monster'),
+    'LootTable': path.join(__dirname, 'Patch', 'LootTable'),
+    'Other': path.join(__dirname, 'Patch', 'Other'),
+    'Ancestral': path.join(__dirname, 'Patch', 'Ancestral'),
+    'CraftingRecipe': path.join(__dirname, 'Patch', 'CraftingRecipe'),
+    'ItemModifier': path.join(__dirname, 'Patch', 'ItemModifier'),
+    'LootBox': path.join(__dirname, 'Patch', 'LootBox'),
+    'NPC': path.join(__dirname, 'Patch', 'NPC'),
+    'Player': path.join(__dirname, 'Patch', 'Player'),
+    'Challenge': path.join(__dirname, 'Patch', 'Challenge'),
+    'Ancestral/Set bonuses': path.join(__dirname, 'Patch', 'Ancestral', 'Set bonuses')
   }
 
   if (!fs.existsSync(path.join(__dirname, 'Wiki Templates'))) {
@@ -488,7 +488,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     }
     fs.readdirSync(folder[folder6]).forEach((val, ind) => {
       var itemModifier = require(path.join(folder[folder6], val))
-      var craftingRecipe = itemModifier[0].data.find(v => v.craftingRecipe) ? require(path.join(__dirname, 'Patches', patchDate, 'CraftingRecipe', itemModifier[0].data.find(v => v.craftingRecipe).craftingRecipe.name)) : undefined
+      var craftingRecipe = itemModifier[0].data.find(v => v.craftingRecipe) ? require(path.join(__dirname, 'Patch', 'CraftingRecipe', itemModifier[0].data.find(v => v.craftingRecipe).craftingRecipe.name)) : undefined
       var template = ``
       itemModifier.forEach(item => {
         template += `

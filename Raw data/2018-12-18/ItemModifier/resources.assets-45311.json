@@ -1,0 +1,50 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13922
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1048
+        },
+        "1 string m_Name": "",
+        "0 Array availableModifiers": [
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14888
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14904
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14919
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14934
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14949
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14975
+            }}
+        ],
+        "0 int category": 2
+    }
+}

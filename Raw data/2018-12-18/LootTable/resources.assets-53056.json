@@ -1,0 +1,346 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 10997
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 771
+        },
+        "1 string m_Name": "",
+        "0 PPtr<$LootTable> ReferenceObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 int guaranteeItemCount": 0,
+        "0 int maximumItemCount": 1,
+        "0 Array lootTable": [
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37330
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37340
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37350
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37360
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37332
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37342
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37352
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37362
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37300
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37302
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37310
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37312
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37320
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37322
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37371
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37373
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37381
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37362
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37392
+                },
+                "0 double chance": 5,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }},
+            {"0 Deity.Shared.LootEntry data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 37394
+                },
+                "0 double chance": 4,
+                "0 Deity.Shared.DiceParm count": 
+                {
+                    "0 int dice": 0,
+                    "0 int faces": 0,
+                    "0 int add": 1
+                },
+                "1 UInt8 allowModifiers": 1
+            }}
+        ]
+    }
+}

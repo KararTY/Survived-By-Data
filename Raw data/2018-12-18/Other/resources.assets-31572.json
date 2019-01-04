@@ -1,0 +1,25 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14769
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 145
+        },
+        "1 string m_Name": "",
+        "1 UInt8 VisualizeBroadphase": 0,
+        "1 UInt8 VisualizeBroadphaseBounds": 0,
+        "1 UInt8 VisualizeSweepsBoxBox": 0,
+        "1 UInt8 VisualizeSuperCircles": 0,
+        "1 UInt8 VisualizePathTests": 0,
+        "1 UInt8 VisualizeRoomFlags": 0,
+        "1 UInt8 VisualizeRoomAssets": 0,
+        "1 UInt8 ShowSimplifiedCorridors": 0
+    }
+}

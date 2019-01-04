@@ -1,0 +1,716 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 12571
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 838
+        },
+        "1 string m_Name": "",
+        "0 PPtr<$StatManager> StatMan": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 unsigned int skinId": 0,
+        "1 UInt8 animationPaused": 0,
+        "1 UInt8 IgnoreProjectiles": 0,
+        "1 UInt8 TargetableBySpecials": 1,
+        "0 float DeathAnimDelay": 0,
+        "0 PPtr<$Stats> TopStats": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 55266
+        },
+        "0 PPtr<$SpriteAnimator> animator": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 44038
+        },
+        "0 PPtr<$GameObject> LightPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14386
+        },
+        "0 ColorRGBA LightColor": 
+        {
+            "0 float r": 0,
+            "0 float g": 0,
+            "0 float b": 0,
+            "0 float a": 0
+        },
+        "0 float LightScale": 1,
+        "0 PPtr<$GameObject> DeathParticlePrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 Array GibSprites": [],
+        "0 float GibScale": 1,
+        "0 int NumSoundVariations": 5,
+        "0 PPtr<$SoundList> ImpactSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 29129
+        },
+        "0 PPtr<$SoundList> WakeSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 29567
+        },
+        "0 PPtr<$SoundList> PainSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 31296
+        },
+        "0 PPtr<$SoundList> DeathSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 30723
+        },
+        "0 PPtr<$SoundList> SpawnSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> VolcanoProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 36519
+        },
+        "0 PPtr<$SoundList> ParadiseProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 31074
+        },
+        "0 PPtr<$SoundList> VoidProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 32212
+        },
+        "0 PPtr<$SoundListCollection> ProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 30660
+        },
+        "0 Array ProjectileVisuals": [
+            {"0 ProjectileVisual data": 
+            {
+                "0 PPtr<$Sprite> sprite": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 5642
+                },
+                "0 PPtr<$GameObject> particleEffect": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 ProjectileVisual data": 
+            {
+                "0 PPtr<$Sprite> sprite": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 3027
+                },
+                "0 PPtr<$GameObject> particleEffect": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 ProjectileVisual data": 
+            {
+                "0 PPtr<$Sprite> sprite": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 3027
+                },
+                "0 PPtr<$GameObject> particleEffect": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 13075
+                }
+            }},
+            {"0 ProjectileVisual data": 
+            {
+                "0 PPtr<$Sprite> sprite": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 3448
+                },
+                "0 PPtr<$GameObject> particleEffect": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 ProjectileVisual data": 
+            {
+                "0 PPtr<$Sprite> sprite": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 2844
+                },
+                "0 PPtr<$GameObject> particleEffect": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 ProjectileVisual data": 
+            {
+                "0 PPtr<$Sprite> sprite": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 3374
+                },
+                "0 PPtr<$GameObject> particleEffect": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 ProjectileVisual data": 
+            {
+                "0 PPtr<$Sprite> sprite": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 3156
+                },
+                "0 PPtr<$GameObject> particleEffect": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 ProjectileVisual data": 
+            {
+                "0 PPtr<$Sprite> sprite": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 3270
+                },
+                "0 PPtr<$GameObject> particleEffect": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 ProjectileVisual data": 
+            {
+                "0 PPtr<$Sprite> sprite": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 2853
+                },
+                "0 PPtr<$GameObject> particleEffect": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }}
+        ],
+        "0 Array WeaponPrefabs": [
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12422
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12423
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12434
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12445
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12446
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12447
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12448
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12449
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 10919
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12421
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12424
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12425
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12426
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12427
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12428
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12429
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12430
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12431
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12432
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 10900
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12433
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12435
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12436
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12437
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12438
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12307
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12308
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12439
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12440
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12441
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12442
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12443
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12444
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12439
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12439
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12439
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12439
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12439
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12439
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12439
+            }}
+        ],
+        "0 int Archetype": 4,
+        "0 PPtr<$Inventory> inventory": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 57199
+        },
+        "0 PPtr<$ItemContainer> tradeContainer": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 37522
+        },
+        "0 PPtr<$ItemContainer> craftIngredientContainer": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 49966
+        },
+        "0 PPtr<$Vault> vaultContainer": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 43453
+        },
+        "0 PPtr<$ItemContainer> dyeContainer": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 32188
+        },
+        "0 PPtr<$BaseSpecialAbility> ability": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 30701
+        },
+        "0 PPtr<$GameObject> essencePrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13917
+        },
+        "0 Array skins": [
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "default",
+                "1 string OfferId": "",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51753
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockSkinrogueGold",
+                "1 string OfferId": "unlockSkinrogueGold",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51748
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorAltSkin2",
+                "1 string OfferId": "unlockInfiltratorAltSkin2",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51749
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorAltSkin3",
+                "1 string OfferId": "unlockInfiltratorAltSkin3",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51750
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorSkinSpirit",
+                "1 string OfferId": "unlockInfiltratorSkinSpirit",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51758
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorSkinElectrum",
+                "1 string OfferId": "unlockInfiltratorSkinElectrum",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51754
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorSkinMeat",
+                "1 string OfferId": "unlockInfiltratorSkinMeat",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51756
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorSkinSin",
+                "1 string OfferId": "unlockInfiltratorSkinSin",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51757
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorAltSkin4",
+                "1 string OfferId": "unlockInfiltratorAltSkin4",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51751
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorSkinHalloween",
+                "1 string OfferId": "unlockInfiltratorSkinHalloween",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51755
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorAltSkin5",
+                "1 string OfferId": "unlockInfiltratorAltSkin5",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51752
+                }
+            }},
+            {"0 Deity.Shared.PlayerSkin data": 
+            {
+                "1 string Name": "unlockInfiltratorSkinWinter",
+                "1 string OfferId": "unlockInfiltratorSkinWinter",
+                "0 PPtr<$Skin> Skin": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51759
+                }
+            }}
+        ],
+        "1 UInt8 EssenceEnabled": 0,
+        "1 string description": "Infiltrators are masters of guerrilla tactics; focusing on techniques of disruption and misdirection passed down by the warriors of the Southern Expanse. \r",
+        "1 string PlayerName": "",
+        "0 unsigned int CharacterSuffix": 0,
+        "1 string UserName": "",
+        "1 string UserId": "",
+        "0 int UserFlags": 0,
+        "0 unsigned int TitleId": 0,
+        "0 Array _AttachmentIds": [
+            {"0 unsigned int data": 0},
+            {"0 unsigned int data": 0},
+            {"0 unsigned int data": 0}
+        ],
+        "0 Array ActiveAttachments": [
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            }}
+        ],
+        "0 unsigned int GravestoneId": 666,
+        "0 unsigned int lastWorldSubtype": 0,
+        "0 unsigned int lastWorldSeed": 0,
+        "0 Vector2f lastWorldLocation": 
+        {
+            "0 float x": 0,
+            "0 float y": 0
+        },
+        "0 Vector2f lastOverworldLocation": 
+        {
+            "0 float x": 0,
+            "0 float y": 0
+        },
+        "0 PPtr<$Actor> lastDamageInstigator": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 string HouseName": "",
+        "0 float timeLastFire": 0,
+        "0 float timeLastAutoFire": 0,
+        "1 UInt8 isCharging": 0,
+        "1 UInt8 isPausingAfterCharge": 0,
+        "0 Vector3f chargeTarget": 
+        {
+            "0 float x": 0,
+            "0 float y": 0,
+            "0 float y": 0
+        },
+        "0 float chargeAimAngle": 0,
+        "0 float chargeEndTime": 0,
+        "0 int chargeAnimType": 10,
+        "0 Array ExperiencePerLevel": [
+            {"0 int data": 0},
+            {"0 int data": 150},
+            {"0 int data": 550},
+            {"0 int data": 1300},
+            {"0 int data": 2500},
+            {"0 int data": 5300},
+            {"0 int data": 10300},
+            {"0 int data": 18300},
+            {"0 int data": 32700},
+            {"0 int data": 55800},
+            {"0 int data": 91800},
+            {"0 int data": 136800},
+            {"0 int data": 192800},
+            {"0 int data": 263800},
+            {"0 int data": 349300},
+            {"0 int data": 450300},
+            {"0 int data": 569300},
+            {"0 int data": 708300},
+            {"0 int data": 868300},
+            {"0 int data": 1052300},
+            {"0 int data": 1261300},
+            {"0 int data": 1498300},
+            {"0 int data": 1765300},
+            {"0 int data": 2065300},
+            {"0 int data": 2400300}
+        ],
+        "1 UInt8 IsFastTravelCooling": 0,
+        "0 float fastTravelCoolTimer": 0,
+        "0 PPtr<$GameObject> lightPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14386
+        },
+        "0 PPtr<$GameObject> levelupPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 15035
+        },
+        "0 PPtr<$GameObject> criticalHitPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 15034
+        },
+        "0 PPtr<$GameObject> warpPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 11594
+        },
+        "0 int PrimaryStat": 5,
+        "0 float MoveRate": 8,
+        "0 float InteractionRange": 3,
+        "0 float ProximityCheckInterval": 0.100000001,
+        "0 float DropBagRange": 2,
+        "0 float ThumbstickShootThreshold": 0.5,
+        "0 float MovementDeadZone": 0.0500000007,
+        "0 float AntiDirectionTwitch": 0.100000001,
+        "0 float ReplicatedMoveThreshold": 0.00999999978,
+        "0 float ReplicatedStatusChangeInterval": 0.0399999991,
+        "0 ColorRGBA spawnProtectionColor": 
+        {
+            "0 float r": 1,
+            "0 float g": 1,
+            "0 float b": 1,
+            "0 float a": 1
+        },
+        "0 PPtr<$AudioSource> audioSource": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 cameraIsShaking": 0
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14708
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 218
+        },
+        "1 string m_Name": "",
+        "0 Array projectiles": [
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12421
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12306
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12341
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12373
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12405
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12406
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 10918
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 10919
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 10875
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12454
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12273
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14571
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14996
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 11528
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 13388
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 12238
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14576
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 13459
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 10464
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14148
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 11642
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14801
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 15202
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 10450
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 11493
+            }}
+        ],
+        "0 PPtr<$GameObject> InvulnerableExplosion": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13857
+        }
+    }
+}

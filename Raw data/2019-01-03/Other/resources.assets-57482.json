@@ -1,0 +1,40 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 9311
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1112
+        },
+        "1 string m_Name": "",
+        "1 string tbmFileName": "Overworld1",
+        "0 Array tilesets": [
+            {"0 PPtr<$TileSystemTileset> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 34902
+            }},
+            {"0 PPtr<$TileSystemTileset> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35605
+            }},
+            {"0 PPtr<$TileSystemTileset> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 56068
+            }},
+            {"0 PPtr<$TileSystemTileset> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 50302
+            }}
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13753
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 565
+        },
+        "1 string m_Name": "",
+        "0 Array healthDialogue": [
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.800000012,
+                "1 string dialogue": "It is pitiful that only the broken among you could see the truth.",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.600000024,
+                "1 string dialogue": "Even now you have no idea that this, all of this, is your fault.",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.400000006,
+                "1 string dialogue": "She slumbered until your kind awoke her!",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.200000003,
+                "1 string dialogue": "And in her rage she will end this world!",
+                "1 UInt8 seen": 0
+            }}
+        ],
+        "0 PPtr<$SoundList> soundList": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$FloatingObject> floatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

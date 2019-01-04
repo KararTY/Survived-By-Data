@@ -1,0 +1,51 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14969
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 698
+        },
+        "1 string m_Name": "",
+        "0 Array stat": [
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 2,
+                "1 string equation": "[Endurance]+[$Tier]*4",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 100,
+                "1 string equation": "[ItemInstance.Suffix_Level]+1",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 112,
+                "1 string equation": "[Gear_Score]*1.1",
+                "0 float value": 0
+            }}
+        ],
+        "0 int minTier": 7,
+        "0 int maxTier": 100,
+        "0 float chanceToApply": 5,
+        "0 int validClasses": 2,
+        "0 int validEquipMask": 226,
+        "0 int category": 2,
+        "0 int craftLevelDeduction": 0,
+        "0 float expireTime": 0,
+        "0 PPtr<$EquipmentSet> Set": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 string nameMod": "string31540"
+    }
+}

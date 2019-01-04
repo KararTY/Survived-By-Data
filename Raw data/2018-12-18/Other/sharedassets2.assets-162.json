@@ -1,0 +1,245 @@
+{
+    "0 Sprite Base": 
+    {
+        "1 string m_Name": "Geo_Atlas Region_15_Sea of Crags",
+        "0 Rectf m_Rect": 
+        {
+            "0 float x": 0,
+            "0 float y": 0,
+            "0 float width": 840,
+            "0 float height": 840
+        },
+        "0 Vector2f m_Offset": 
+        {
+            "0 float x": 0,
+            "0 float y": 0
+        },
+        "0 Vector4f m_Border": 
+        {
+            "0 float x": 0,
+            "0 float y": 0,
+            "0 float z": 0,
+            "0 float w": 0
+        },
+        "0 float m_PixelsToUnits": 100,
+        "0 unsigned int m_Extrude": 1,
+        "1 bool m_IsPolygon": false,
+        "1 SpriteRenderData m_RD": 
+        {
+            "0 PPtr<Texture2D> texture": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 18
+            },
+            "0 PPtr<Texture2D> alphaTexture": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 0
+            },
+            "0 vector vertices": 
+            {
+                "0 Array Array": [
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -0.769999981,
+                            "0 float y": 4.05000019,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -0.779999971,
+                            "0 float y": 3.88000011,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -0.769999981,
+                            "0 float y": 3.8900001,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -1.12,
+                            "0 float y": 4.11000013,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -2.01999998,
+                            "0 float y": 4.11000013,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -2.28999996,
+                            "0 float y": 4.05000019,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -2.32999992,
+                            "0 float y": 2.75999999,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -2.8599999,
+                            "0 float y": 1.58000004,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -3.08999991,
+                            "0 float y": 3.56999993,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -3.08999991,
+                            "0 float y": 1.42999995,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -3.58999991,
+                            "0 float y": 1.42999995,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -3.77999997,
+                            "0 float y": 2.92000008,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -3.8499999,
+                            "0 float y": 1.48000002,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -3.86999989,
+                            "0 float y": 2.36999989,
+                            "0 float z": 0
+                        }
+                    }},
+                    {"0 SpriteVertex data": 
+                    {
+                        "0 Vector3f pos": 
+                        {
+                            "0 float x": -3.86999989,
+                            "0 float y": 1.50999999,
+                            "0 float z": 0
+                        }
+                    }}
+                ]
+            },
+            "1 vector indices": 
+            {
+                "0 Array Array": [
+                    {"0 UInt16 data": 14},
+                    {"0 UInt16 data": 13},
+                    {"0 UInt16 data": 12},
+                    {"0 UInt16 data": 11},
+                    {"0 UInt16 data": 12},
+                    {"0 UInt16 data": 13},
+                    {"0 UInt16 data": 10},
+                    {"0 UInt16 data": 12},
+                    {"0 UInt16 data": 11},
+                    {"0 UInt16 data": 8},
+                    {"0 UInt16 data": 10},
+                    {"0 UInt16 data": 11},
+                    {"0 UInt16 data": 9},
+                    {"0 UInt16 data": 10},
+                    {"0 UInt16 data": 8},
+                    {"0 UInt16 data": 7},
+                    {"0 UInt16 data": 9},
+                    {"0 UInt16 data": 8},
+                    {"0 UInt16 data": 5},
+                    {"0 UInt16 data": 7},
+                    {"0 UInt16 data": 8},
+                    {"0 UInt16 data": 6},
+                    {"0 UInt16 data": 7},
+                    {"0 UInt16 data": 5},
+                    {"0 UInt16 data": 1},
+                    {"0 UInt16 data": 6},
+                    {"0 UInt16 data": 5},
+                    {"0 UInt16 data": 4},
+                    {"0 UInt16 data": 1},
+                    {"0 UInt16 data": 5},
+                    {"0 UInt16 data": 3},
+                    {"0 UInt16 data": 1},
+                    {"0 UInt16 data": 4},
+                    {"0 UInt16 data": 0},
+                    {"0 UInt16 data": 1},
+                    {"0 UInt16 data": 3},
+                    {"0 UInt16 data": 2},
+                    {"0 UInt16 data": 1},
+                    {"0 UInt16 data": 0}
+                ]
+            },
+            "0 Rectf textureRect": 
+            {
+                "0 float x": 33.0429077,
+                "0 float y": 563.020081,
+                "0 float width": 309.880981,
+                "0 float height": 267.903809
+            },
+            "0 Vector2f textureRectOffset": 
+            {
+                "0 float x": 33.0429077,
+                "0 float y": 563.020081
+            },
+            "0 unsigned int settingsRaw": 64,
+            "0 Vector4f uvTransform": 
+            {
+                "0 float x": 100,
+                "0 float y": 420,
+                "0 float z": 100,
+                "0 float w": 420
+            }
+        }
+    }
+}

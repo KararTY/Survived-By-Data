@@ -1,0 +1,27 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 9310
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 437
+        },
+        "1 string m_Name": "",
+        "0 Array stat": [
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 48,
+                "1 string equation": "[SpecialWeaponRageCost] - ([SpecialWeaponRageCost] *0.15)",
+                "0 float value": 0
+            }}
+        ],
+        "0 int requiredAmount": 2,
+        "1 string bonusText": "string70201"
+    }
+}

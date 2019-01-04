@@ -1,0 +1,71 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13493
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 308
+        },
+        "1 string m_Name": "",
+        "0 Array LeveledRecipes": [],
+        "0 float CraftingTime": 7200,
+        "0 Array RequiredItems": [
+            {"0 Deity.Shared.CraftRecipeItem data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 29156
+                },
+                "0 unsigned int count": 8,
+                "0 unsigned int requiredLevel": 0
+            }},
+            {"0 Deity.Shared.CraftRecipeItem data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 29149
+                },
+                "0 unsigned int count": 2,
+                "0 unsigned int requiredLevel": 0
+            }},
+            {"0 Deity.Shared.CraftRecipeItem data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 29152
+                },
+                "0 unsigned int count": 2,
+                "0 unsigned int requiredLevel": 0
+            }},
+            {"0 Deity.Shared.CraftRecipeItem data": 
+            {
+                "0 PPtr<$ItemDefinition> item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 29187
+                },
+                "0 unsigned int count": 1,
+                "0 unsigned int requiredLevel": 0
+            }}
+        ],
+        "1 UInt8 TutorialOnly": 0,
+        "0 PPtr<$GameObject> Currency": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 int CraftCost": 9000,
+        "0 int CraftNowCost": 160,
+        "0 int CraftingStat": 0,
+        "0 int craftingCategory": 7
+    }
+}

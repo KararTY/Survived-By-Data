@@ -1,0 +1,48 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 12465
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1117
+        },
+        "1 string m_Name": "",
+        "0 Array rareSpawnChanceModifiers": [
+            {"0 float data": 0.75},
+            {"0 float data": 1},
+            {"0 float data": 2},
+            {"0 float data": 3},
+            {"0 float data": 5}
+        ],
+        "0 int rareSpawnChanceIndex": 0,
+        "0 Array spawnChanceModifiers": [
+            {"0 float data": 0.0500000007},
+            {"0 float data": 0.100000001},
+            {"0 float data": 0.150000006},
+            {"0 float data": 0.200000003},
+            {"0 float data": 0.300000012}
+        ],
+        "0 int spawnChanceIndex": 0,
+        "0 Array numTreesCanSpawnModifiers": [
+            {"0 float data": 1},
+            {"0 float data": 2},
+            {"0 float data": 3},
+            {"0 float data": 4},
+            {"0 float data": 5}
+        ],
+        "0 int numTreesCanSpawnIndex": 0,
+        "0 PPtr<$ScalingInteractable> toymaker": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 31392
+        },
+        "0 float checkArea": 10,
+        "1 UInt8 averageAllSources": 0
+    }
+}

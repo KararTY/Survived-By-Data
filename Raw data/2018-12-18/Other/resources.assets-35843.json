@@ -1,0 +1,26 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 11681
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 761
+        },
+        "1 string m_Name": "",
+        "0 int AuctionHouseId": 2,
+        "0 PPtr<$ItemDefinition> AuctionCurrency": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 56378
+        },
+        "1 string AuctionHouseName": "string20597",
+        "0 int ListFee": 100,
+        "0 int AvailableItemClasses": 31
+    }
+}

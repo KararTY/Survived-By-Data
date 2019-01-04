@@ -1,0 +1,71 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 8794
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 565
+        },
+        "1 string m_Name": "",
+        "0 Array healthDialogue": [
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.899999976,
+                "1 string dialogue": "It was too much to hope that you would not follow us here.",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.75,
+                "1 string dialogue": "Of course your kind would be fixated on enacting vengeance for your ancestors.",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.5,
+                "1 string dialogue": "Fool! The Fury do not serve us, they enslave us!",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.300000012,
+                "1 string dialogue": "Within the Forge of Corruption they turned us into weapons to kill you!",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.100000001,
+                "1 string dialogue": "Clever bugs... ",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.0599999987,
+                "1 string dialogue": "They knew they could count on you...",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.0299999993,
+                "1 string dialogue": "To cut those of us down... that broke free...",
+                "1 UInt8 seen": 0
+            }}
+        ],
+        "0 PPtr<$SoundList> soundList": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$FloatingObject> floatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

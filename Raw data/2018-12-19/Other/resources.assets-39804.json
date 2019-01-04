@@ -1,0 +1,52 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 9218
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 496
+        },
+        "1 string m_Name": "",
+        "0 float randomMin": 5,
+        "0 float randomMax": 10,
+        "0 Array dialogue": [
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 33568
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 39473
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35352
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 42689
+            }},
+            {"0 PPtr<$AudioMessage> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 49867
+            }}
+        ],
+        "1 UInt8 doRangeCheck": 0,
+        "0 PPtr<$FloatingObject> floatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

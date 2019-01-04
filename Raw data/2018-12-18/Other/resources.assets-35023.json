@@ -1,0 +1,55 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 11320
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 962
+        },
+        "1 string m_Name": "",
+        "0 unsigned int group": 3,
+        "0 Array prequisites": [
+            {"0 PPtr<$Relic> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35013
+            }},
+            {"0 PPtr<$Relic> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35014
+            }},
+            {"0 PPtr<$Relic> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35015
+            }},
+            {"0 PPtr<$Relic> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35016
+            }},
+            {"0 PPtr<$Relic> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35017
+            }},
+            {"0 PPtr<$Relic> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35018
+            }},
+            {"0 PPtr<$Relic> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 35019
+            }}
+        ]
+    }
+}

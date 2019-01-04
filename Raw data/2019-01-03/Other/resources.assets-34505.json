@@ -1,0 +1,31 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 12548
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1193
+        },
+        "1 string m_Name": "",
+        "0 PPtr<$ItemDefinition> ItemDefinition": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 43627
+        },
+        "1 UInt8 IsAnimated": 0,
+        "0 PPtr<$Sprite> Icon": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 3443
+        },
+        "1 string price": "$4.99",
+        "1 string estimatedPrice": "$15.99",
+        "1 string packName": ""
+    }
+}

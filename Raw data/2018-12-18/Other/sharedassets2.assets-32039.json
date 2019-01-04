@@ -1,0 +1,39 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 5852
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 3
+        },
+        "1 string m_Name": "",
+        "0 RectOffset m_Padding": 
+        {
+            "0 int m_Left": 5,
+            "0 int m_Right": 0,
+            "0 int m_Top": -1,
+            "0 int m_Bottom": 0
+        },
+        "0 int m_ChildAlignment": 4,
+        "0 int m_StartCorner": 0,
+        "0 int m_StartAxis": 0,
+        "0 Vector2f m_CellSize": 
+        {
+            "0 float x": 16,
+            "0 float y": 16
+        },
+        "0 Vector2f m_Spacing": 
+        {
+            "0 float x": 2,
+            "0 float y": 0
+        },
+        "0 int m_Constraint": 2,
+        "0 int m_ConstraintCount": 1
+    }
+}

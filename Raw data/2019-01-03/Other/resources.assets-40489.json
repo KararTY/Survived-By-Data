@@ -1,0 +1,481 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 12663
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 210
+        },
+        "1 string m_Name": "",
+        "0 Array stat": [
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 1,
+                "1 string equation": "10+([Level]*4)",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 2,
+                "1 string equation": "13+([Level]*4.85)",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 3,
+                "1 string equation": "10+([Level]*4)",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 4,
+                "1 string equation": "16+([level]*6)",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 5,
+                "1 string equation": "7+([level]*3.33)",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 6,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 7,
+                "1 string equation": "",
+                "0 float value": 1
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 8,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 9,
+                "1 string equation": "",
+                "0 float value": 120
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 52,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 11,
+                "1 string equation": "",
+                "0 float value": 103
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 109,
+                "1 string equation": "21.5+([Focus]*0.51)*([Level]/25)",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 13,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 14,
+                "1 string equation": "2+(([Willpower]*0.2)*([Level]/25))",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 15,
+                "1 string equation": "2+([Level]*0.4)",
+                "0 float value": 2
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 108,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 50,
+                "1 string equation": "",
+                "0 float value": 5
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 49,
+                "1 string equation": "(5+([Potency]*([Level]/25)))*1.5",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 48,
+                "1 string equation": "",
+                "0 float value": 3.5
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 104,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 32,
+                "1 string equation": "(100+[Level]*24)",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 33,
+                "1 string equation": "(100+[Level]*3) ",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 34,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 35,
+                "1 string equation": "(([CriticalScore] - 20) / [TargetCriticalDefense]) * 100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 36,
+                "1 string equation": "2+(([Willpower]*0.015)*([Level]/25))",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 37,
+                "1 string equation": "6.5*(1+(([Swiftness]*0.0015)*([Level]/25)))",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 38,
+                "1 string equation": "(2+(([Swiftness]*0.0065)*([Level]/25)))",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 39,
+                "1 string equation": "(5+([Potency]*([Level]/25)))*1.5",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 40,
+                "1 string equation": "5+([Endurance]*0.3*([Level]/25))",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 41,
+                "1 string equation": "1+(([Focus]*0.0035)*([Level]/25))",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 42,
+                "1 string equation": "1",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 43,
+                "1 string equation": "6 + ([Potency]*([Level]/25)) * 0.04",
+                "0 float value": 7
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 44,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 46,
+                "1 string equation": "",
+                "0 float value": 30
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 45,
+                "1 string equation": "",
+                "0 float value": 1
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 47,
+                "1 string equation": "",
+                "0 float value": 10
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 53,
+                "1 string equation": "",
+                "0 float value": 1
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 54,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 55,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 277,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 56,
+                "1 string equation": "",
+                "0 float value": 0.200000003
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 57,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 58,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 59,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 60,
+                "1 string equation": "",
+                "0 float value": 1
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 61,
+                "1 string equation": "[CriticalChance]",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 62,
+                "1 string equation": "[CriticalDamage]",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 63,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 64,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 65,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 66,
+                "1 string equation": "(LOG([ElementalAffinityKi]+1,1.3))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 67,
+                "1 string equation": "(LOG([ElementalAffinityKi]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 68,
+                "1 string equation": "(LOG([ElementalAffinityKi]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 69,
+                "1 string equation": "(LOG([ElementalAffinityKi]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 70,
+                "1 string equation": "(LOG([ElementalAffinityKi]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 71,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 72,
+                "1 string equation": "(LOG([ElementalAffinityEa]+1,1.3))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 73,
+                "1 string equation": "(LOG([ElementalAffinityEa]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 74,
+                "1 string equation": "(LOG([ElementalAffinityEa]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 75,
+                "1 string equation": "(LOG([ElementalAffinityEa]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 76,
+                "1 string equation": "(LOG([ElementalAffinityEa]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 77,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 78,
+                "1 string equation": "(LOG([ElementalAffinityAn]+1,1.3))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 79,
+                "1 string equation": "(LOG([ElementalAffinityAn]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 80,
+                "1 string equation": "(LOG([ElementalAffinityAn]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 81,
+                "1 string equation": "(LOG([ElementalAffinityAn]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 82,
+                "1 string equation": "(LOG([ElementalAffinityAn]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 83,
+                "1 string equation": "",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 84,
+                "1 string equation": "(LOG([ElementalAffinityUr]+1,1.3))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 85,
+                "1 string equation": "(LOG([ElementalAffinityUr]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 86,
+                "1 string equation": "(LOG([ElementalAffinityUr]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 87,
+                "1 string equation": "(LOG([ElementalAffinityUr]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 88,
+                "1 string equation": "(LOG([ElementalAffinityUr]+1,1.1))/100",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 113,
+                "1 string equation": "5 + ([Endurance] * 0.13) * ([Level] / 25)",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 115,
+                "1 string equation": "If([@Monster.CriticalDefense] <= 0, ([Level] * [Level] * 1.07)+ 84, [@Monster.CriticalDefense])",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 117,
+                "1 string equation": "If([@Monster.Accuracy] <= 0, ([Level] * [Level] * 0.4)+ 150, [@Monster.Accuracy])",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 118,
+                "1 string equation": "[Avoidance]/[TargetAccuracy]",
+                "0 float value": 0
+            }}
+        ]
+    }
+}

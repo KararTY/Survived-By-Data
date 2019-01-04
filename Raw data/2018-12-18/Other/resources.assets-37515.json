@@ -1,0 +1,35 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 15054
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 679
+        },
+        "1 string m_Name": "",
+        "1 string setName": "string70210",
+        "0 Array setBonuses": [
+            {"0 PPtr<$AncestralSetBonus> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 38197
+            }},
+            {"0 PPtr<$AncestralSetBonus> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 38195
+            }}
+        ],
+        "0 PPtr<$Sprite> icon": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 3800
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 9115
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 539
+        },
+        "1 string m_Name": "",
+        "0 int soundListType": 1,
+        "0 Array snds": [
+            {"1 string data": "LoaderWake1"},
+            {"1 string data": "LoaderWake2"},
+            {"1 string data": "LoaderWake3"},
+            {"1 string data": "LoaderWake4"},
+            {"1 string data": "LoaderWake5"}
+        ],
+        "0 Array soundIndices": [],
+        "1 UInt8 PreserveOnRunningTool": 0
+    }
+}

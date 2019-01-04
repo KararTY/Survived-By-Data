@@ -1,0 +1,129 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13844
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1019
+        },
+        "1 string m_Name": "",
+        "0 int type": 0,
+        "0 int EventID": -1,
+        "0 int EventObjectIndex": -1,
+        "1 string FloatingLabelText": "Toymaker",
+        "1 string FloatingLabelMini": "Press [Interact] to interact",
+        "1 string ShowUI": "ScalingInteractableUI_WinterEvent",
+        "0 float UseRange": 3,
+        "1 UInt8 PreventInteraction": 1,
+        "1 UInt8 CollideToInteract": 0,
+        "1 UInt8 CanGlow": 1,
+        "0 PPtr<$NPCInteractDialogue> interactDialogue": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 ShowInteractionBar": 0,
+        "0 PPtr<$GameObject> questChain": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$GameObject> gameEvent": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 9999
+        },
+        "0 PPtr<$FloatingObject> interactFloatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 int startingLevel": 2,
+        "0 int incrementsPerLevel": 100,
+        "0 int maxLevel": 5,
+        "0 int decrementTimeRate": 720,
+        "0 Array skins": [],
+        "0 Array Levels": [
+            {"0 int data": 0},
+            {"0 int data": 0},
+            {"0 int data": 0}
+        ],
+        "0 Array currentIncrements": [
+            {"0 int data": 0},
+            {"0 int data": 0},
+            {"0 int data": 0}
+        ],
+        "0 Array incrementItems": [
+            {"0 Deity.Shared.InteractableTradeItem data": 
+            {
+                "0 PPtr<$ItemDefinition> itemDefinition": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 53371
+                },
+                "0 int requiredCount": 0,
+                "0 int currentCount": 0,
+                "0 int Level": 0,
+                "0 int startingLevel": 2,
+                "0 int incrementsPerLevel": 100,
+                "0 int maxLevel": 5,
+                "0 int decrementTimeRate": 720
+            }},
+            {"0 Deity.Shared.InteractableTradeItem data": 
+            {
+                "0 PPtr<$ItemDefinition> itemDefinition": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 53372
+                },
+                "0 int requiredCount": 0,
+                "0 int currentCount": 0,
+                "0 int Level": 0,
+                "0 int startingLevel": 2,
+                "0 int incrementsPerLevel": 100,
+                "0 int maxLevel": 5,
+                "0 int decrementTimeRate": 720
+            }},
+            {"0 Deity.Shared.InteractableTradeItem data": 
+            {
+                "0 PPtr<$ItemDefinition> itemDefinition": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 53373
+                },
+                "0 int requiredCount": 0,
+                "0 int currentCount": 0,
+                "0 int Level": 0,
+                "0 int startingLevel": 2,
+                "0 int incrementsPerLevel": 100,
+                "0 int maxLevel": 5,
+                "0 int decrementTimeRate": 720
+            }}
+        ],
+        "0 PPtr<$ItemDefinition> incrementItem": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 int incrementStat": 0,
+        "0 PPtr<$ItemDefinition> buffItem": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 int buffStat": 0,
+        "0 Array buffs": [],
+        "0 PPtr<$GameObject> interactableGameEvent": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 9999
+        },
+        "0 unsigned int skinId": 0
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14035
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 821
+        },
+        "1 string m_Name": "",
+        "0 int Priority": 0,
+        "1 string DisplayName": "Deep Night Week IV",
+        "1 string Description": "Are you prepared to face the denizens of the deep when the clock strikes Midnight... and stops? Feed the flames and fight back the creatures that live in the darkest depths of the Heartland until the sun rises again to earn new gravestones, new projectile cosmetics and new armor imprints! \r\n\r\nThe Deep Night has fallen, Ancestors ",
+        "0 Array ObjectReplacements": [],
+        "0 float stageStartMin": 0,
+        "0 float stageStartMax": 0,
+        "0 Array stageObjectIds": [],
+        "1 UInt8 displayInNewContentUI": 1,
+        "0 PPtr<$Sprite> EventGraphic": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 3060
+        }
+    }
+}

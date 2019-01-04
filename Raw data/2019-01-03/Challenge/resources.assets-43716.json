@@ -1,0 +1,49 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 10311
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 532
+        },
+        "1 string m_Name": "",
+        "1 string ChallengeTitle": "string10039",
+        "1 string ChallengeDescription": "string10017",
+        "1 string ChallengeValueSuffix": "string10018",
+        "1 UInt8 accountAchievement": 0,
+        "0 int challengeType": 0,
+        "0 PPtr<$NetworkID> DiscoverTrophy": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 Array DiscoverTrophies": [],
+        "0 Array RequiredAttachments": [],
+        "0 int TrophyType": 0,
+        "0 int challenge": 151,
+        "0 PPtr<$GameObject> challengeTarget": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 int challengeValue": 36,
+        "0 Array prerequisites": [
+            {"0 PPtr<$Challenge> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 43715
+            }}
+        ],
+        "0 PPtr<$GameObject> gameEvent": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

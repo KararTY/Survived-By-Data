@@ -1,0 +1,97 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 11030
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 788
+        },
+        "1 string m_Name": "",
+        "1 string ProjectileName": "MirageHunterProjectile",
+        "0 float Speed": 4,
+        "0 float Range": 30,
+        "0 float ArcSeparation": 5,
+        "0 Vector2f launchOffset": 
+        {
+            "0 float x": 0,
+            "0 float y": 0
+        },
+        "0 float launchOffsetDistance": 3.75,
+        "1 UInt8 maintainOrbitRange": 0,
+        "0 float orbitSpeed": 0,
+        "1 UInt8 OwnerRelative": 0,
+        "0 float DelayRate": 0,
+        "0 float RageMultiplier": 1,
+        "0 float Acceleration": 0,
+        "1 UInt8 UseTargetForRange": 0,
+        "1 UInt8 UseRandomRange": 0,
+        "0 float RandomRangeMax": 0,
+        "0 float MaxLifetime": 8,
+        "0 int Damage": 0,
+        "0 float DamageMultiplier": 1.5,
+        "0 float EssenceDamageMultiplier": 2,
+        "1 UInt8 IsNextProjectileGlobal": 0,
+        "0 int NextProjectileIndex": -1,
+        "0 int TangentProjectileIndex": 2,
+        "0 float TangentProjectileFireRate": 0.0500000007,
+        "1 UInt8 IsTangentProjectileGlobal": 0,
+        "0 int MaxHits": 1,
+        "0 float RepeatHitTime": 0,
+        "1 UInt8 PierceWorld": 0,
+        "1 UInt8 BounceBetweenEnemies": 0,
+        "1 UInt8 SineWaveMotion": 0,
+        "0 float WaveFrequency": 0,
+        "0 PPtr<$StatusEffect> statusEffect": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$TileSystemBody2D> body": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 41975
+        },
+        "1 UInt16 DefIndex": 0,
+        "0 PPtr<$GameObject> EssenceParticlesPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13510
+        },
+        "0 PPtr<$GameObject> Explosion": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 15289
+        },
+        "0 PPtr<$GameObject> Fizzle": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 15294
+        },
+        "1 UInt8 AlignToDirection": 0,
+        "0 float RotationSpeed": 500,
+        "0 PPtr<$GameObject> LightPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13626
+        },
+        "0 ColorRGBA LightColor": 
+        {
+            "0 float r": 1,
+            "0 float g": 0.764705956,
+            "0 float b": 0.517647088,
+            "0 float a": 0.125490203
+        },
+        "0 float LightScale": 1,
+        "0 PPtr<$SoundList> ProjectileSpawnSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

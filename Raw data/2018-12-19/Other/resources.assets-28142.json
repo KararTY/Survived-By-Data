@@ -1,0 +1,37 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 183
+        },
+        "1 string m_Name": "DarkPersona_Pit",
+        "0 int subType": 206045,
+        "0 int biome": 104,
+        "0 float difficultyMin": 0,
+        "0 float difficultyMax": 0,
+        "0 float spawnRadius": 0,
+        "1 UInt8 spawnDelayed": 0,
+        "0 float quotaRadius": 30,
+        "0 float rechargeTime": 1,
+        "1 UInt8 isBoss": 1,
+        "1 UInt8 autoPopulate": 0,
+        "1 UInt8 manuallyPlaced": 1,
+        "0 int multipleType": 0,
+        "1 UInt8 floraOrFaunaSpawner": 0,
+        "0 Array spawnList": [],
+        "0 Array comboSpawnList": [],
+        "1 UInt8 oneTimeTrigger": 0,
+        "1 UInt8 overrideNearbyPlayerCheck": 0,
+        "0 int areaMax": 0,
+        "0 int areaRadius": 0,
+        "0 Array comboArrangement": []
+    }
+}

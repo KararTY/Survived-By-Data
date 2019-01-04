@@ -1,0 +1,28 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 1740
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 38
+        },
+        "1 string m_Name": "",
+        "0 RectOffset m_Padding": 
+        {
+            "0 int m_Left": 0,
+            "0 int m_Right": 0,
+            "0 int m_Top": 0,
+            "0 int m_Bottom": 0
+        },
+        "0 int m_ChildAlignment": 4,
+        "0 float m_Spacing": 0,
+        "1 UInt8 m_ChildForceExpandWidth": 0,
+        "1 UInt8 m_ChildForceExpandHeight": 1
+    }
+}

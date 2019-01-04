@@ -1,0 +1,27 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 8986
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 539
+        },
+        "1 string m_Name": "",
+        "0 int soundListType": 3,
+        "0 Array snds": [
+            {"1 string data": "RabbitTypeDeath1"},
+            {"1 string data": "RabbitTypeDeath2"},
+            {"1 string data": "RabbitTypeDeath3"},
+            {"1 string data": "RabbitTypeDeath4"},
+            {"1 string data": "RabbitTypeDeath5"}
+        ],
+        "0 Array soundIndices": [],
+        "1 UInt8 PreserveOnRunningTool": 0
+    }
+}

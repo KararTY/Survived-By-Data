@@ -1,0 +1,58 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 10038
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 988
+        },
+        "1 string m_Name": "",
+        "1 string QuestTitle": "string75000",
+        "1 string QuestCompleteText": "string75001",
+        "0 int recommendedLevel": 1,
+        "0 PPtr<$GameObject> gameEvent": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14039
+        },
+        "0 PPtr<$GameObject> towerNPCDialogue": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13291
+        },
+        "0 PPtr<$Sprite> questGiverSprite": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 2999
+        },
+        "0 Array subQuests": [
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 13843
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14003
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 9352
+            }},
+            {"0 PPtr<$GameObject> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 14725
+            }}
+        ],
+        "0 int cooldownTime": 1080
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 12231
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 522
+        },
+        "1 string m_Name": "",
+        "0 Array stat": [
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 37,
+                "1 string equation": "[MovementSpeed]*0.2",
+                "0 float value": 0
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 100,
+                "1 string equation": "",
+                "0 float value": 0
+            }}
+        ],
+        "0 int Type": 17,
+        "0 int Priority": 0,
+        "0 float Duration": 3,
+        "1 UInt8 IsBuff": 0,
+        "1 UInt8 IsZenith": 0,
+        "1 UInt8 TrackedForChallenge": 1,
+        "1 UInt8 NoTimeOut": 0,
+        "1 UInt8 IgnoreDurrationModifiers": 0,
+        "1 UInt8 DoNotRefresh": 0,
+        "0 float CoolDownTime": 0,
+        "1 UInt8 IsAccountWide": 0,
+        "1 string Name": "Hindered",
+        "0 PPtr<$Skin> Skin": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 int Projectile": -1,
+        "0 PPtr<$StatusEffect> NextStackingStatusEffect": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$StatusEffect> StatusEffectOnExpire": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 RemoveOnAttack": 0,
+        "1 UInt8 DisableSpecialAbility": 0,
+        "1 UInt8 HasLevels": 0,
+        "0 int RelatedLevelStat": 0,
+        "0 PPtr<$GameObject> CharacterEffectPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 11724
+        },
+        "1 string floatingText": "",
+        "1 UInt8 fullscreenFlash": 0,
+        "0 float flashDuration": 2
+    }
+}

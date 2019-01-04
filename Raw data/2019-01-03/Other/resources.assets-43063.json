@@ -1,0 +1,30 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14138
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 821
+        },
+        "1 string m_Name": "",
+        "0 int Priority": 3,
+        "1 string DisplayName": "Deprecated Skins",
+        "1 string Description": "This event should never show up anywhere!",
+        "0 Array ObjectReplacements": [],
+        "0 float stageStartMin": 0,
+        "0 float stageStartMax": 0,
+        "0 Array stageObjectIds": [],
+        "1 UInt8 displayInNewContentUI": 0,
+        "0 PPtr<$Sprite> EventGraphic": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 5501
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1295
+        },
+        "1 string m_Name": "",
+        "0 PPtr<$RectTransform> m_Content": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 18806
+        },
+        "1 UInt8 m_Horizontal": 1,
+        "1 UInt8 m_Vertical": 1,
+        "0 int m_MovementType": 2,
+        "0 float m_Elasticity": 0.100000001,
+        "1 UInt8 m_Inertia": 1,
+        "0 float m_DecelerationRate": 0.135000005,
+        "0 float m_ScrollSensitivity": 60,
+        "0 PPtr<$RectTransform> m_Viewport": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 22485
+        },
+        "0 PPtr<$Scrollbar> m_HorizontalScrollbar": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 30429
+        },
+        "0 PPtr<$Scrollbar> m_VerticalScrollbar": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 int m_HorizontalScrollbarVisibility": 2,
+        "0 int m_VerticalScrollbarVisibility": 2,
+        "0 float m_HorizontalScrollbarSpacing": 0,
+        "0 float m_VerticalScrollbarSpacing": 0,
+        "0 ScrollRectEvent m_OnValueChanged": 
+        {
+            "0 UnityEngine.Events.PersistentCallGroup m_PersistentCalls": 
+            {
+                "0 Array m_Calls": []
+            },
+            "1 string m_TypeName": "UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+    }
+}

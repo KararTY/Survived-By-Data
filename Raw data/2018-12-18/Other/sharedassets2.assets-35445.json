@@ -1,0 +1,23 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 6696
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1293
+        },
+        "1 string m_Name": "",
+        "1 UInt8 m_IgnoreReversedGraphics": 1,
+        "0 int m_BlockingObjects": 0,
+        "0 BitField m_BlockingMask": 
+        {
+            "0 unsigned int m_Bits": 4294967295
+        }
+    }
+}

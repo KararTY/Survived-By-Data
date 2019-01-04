@@ -1,0 +1,1288 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 11691
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1087
+        },
+        "1 string m_Name": "",
+        "0 PPtr<$StatManager> StatMan": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 unsigned int skinId": 0,
+        "1 UInt8 animationPaused": 0,
+        "1 UInt8 IgnoreProjectiles": 0,
+        "1 UInt8 TargetableBySpecials": 1,
+        "0 float DeathAnimDelay": 0,
+        "0 PPtr<$Stats> TopStats": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SpriteAnimator> animator": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$GameObject> LightPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 ColorRGBA LightColor": 
+        {
+            "0 float r": 0,
+            "0 float g": 0,
+            "0 float b": 0,
+            "0 float a": 0
+        },
+        "0 float LightScale": 1,
+        "0 PPtr<$GameObject> DeathParticlePrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 Array GibSprites": [],
+        "0 float GibScale": 1,
+        "0 int NumSoundVariations": 5,
+        "0 PPtr<$SoundList> ImpactSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> WakeSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> PainSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> DeathSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> SpawnSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> VolcanoProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> ParadiseProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> VoidProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundListCollection> ProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 Array ProjectileVisuals": [],
+        "0 Array WeaponPrefabs": [],
+        "0 Deity.Shared.VendorData vendorData": 
+        {
+            "0 int vendorType": 4,
+            "1 string vendorName": "string20105",
+            "0 PPtr<$Sprite> venderIcon": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 3543
+            }
+        },
+        "0 Array itemsForSale": [
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 48812
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 0,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 48813
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 1,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 48814
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 2,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 32397
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 3,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 1,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56379
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 4,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56380
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 5,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56382
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 6,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56386
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 7,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56388
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 8,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56390
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 9,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56384
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 10,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56392
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 11,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56381
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 12,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56383
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 13,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56387
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 14,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56389
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 15,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56391
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 16,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56385
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 17,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56393
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 18,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 56400
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 19,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 43689
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 20,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 31237
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 21,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 43688
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 22,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 1,
+                "1 string premiumOfferOverride": "freePotionHealth",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 10522
+                },
+                "0 float cooldownSeconds": 64800,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 31236
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 23,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 1,
+                "1 string premiumOfferOverride": "freePotionMana",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 10522
+                },
+                "0 float cooldownSeconds": 64800,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 43690
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 24,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 50789
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 25,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 53873
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 26,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 51449
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 27,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 39497
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 28,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 43237
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 29,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 41291
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 30,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 41878
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 31,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 55678
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 32,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 48600
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 33,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 38563
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 34,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 34503
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 35,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 52023
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 36,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 36932
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 37,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 28527
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 38,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 32288
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 39,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 40894
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 40,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 34294
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 41,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 30908
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 42,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 38404
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 43,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }},
+            {"0 Deity.Shared.VendorItem data": 
+            {
+                "0 PPtr<$ItemDefinition> Item": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 34468
+                },
+                "0 unsigned int Count": 1,
+                "0 int Position": 44,
+                "0 float currentCooldownTime": 0,
+                "1 UInt8 specialOverride": 0,
+                "1 string premiumOfferOverride": "",
+                "0 int priceOverride": 0,
+                "0 PPtr<$GameObject> currencyOverride": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                },
+                "0 float cooldownSeconds": 0,
+                "1 UInt8 useOfferLimit": 0,
+                "0 PPtr<$ItemUI> itemUI": 
+                {
+                    "0 int m_FileID": 0,
+                    "0 SInt64 m_PathID": 0
+                }
+            }}
+        ],
+        "0 Array VendorItemGuid": []
+    }
+}

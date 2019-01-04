@@ -1,0 +1,49 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14685
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 210
+        },
+        "1 string m_Name": "",
+        "0 Array stat": [
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 7,
+                "1 string equation": "",
+                "0 float value": 25
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 32,
+                "1 string equation": "",
+                "0 float value": 6
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 39,
+                "1 string equation": "",
+                "0 float value": 1
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 100,
+                "1 string equation": "",
+                "0 float value": 5
+            }},
+            {"0 Deity.Shared.Stat data": 
+            {
+                "0 int key": 8,
+                "1 string equation": "",
+                "0 float value": 2200
+            }}
+        ]
+    }
+}

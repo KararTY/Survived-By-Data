@@ -1,0 +1,20 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 11871
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 196
+        },
+        "1 string m_Name": "",
+        "0 float craftTime": 750,
+        "0 int costToApply": 500,
+        "0 float timeToFuse": 150
+    }
+}

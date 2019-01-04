@@ -1,0 +1,53 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 8806
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 565
+        },
+        "1 string m_Name": "",
+        "0 Array healthDialogue": [
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.800000012,
+                "1 string dialogue": "You... have fought and died... for nothing.",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.600000024,
+                "1 string dialogue": "This breach... is but one of many... and many to come.",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.400000006,
+                "1 string dialogue": "She rages... and the tree convulses... because of you. ",
+                "1 UInt8 seen": 0
+            }},
+            {"0 Deity.HealthDialogue data": 
+            {
+                "0 float percentage": 0.200000003,
+                "1 string dialogue": "You... will be exterminated... She... will sleep.",
+                "1 UInt8 seen": 0
+            }}
+        ],
+        "0 PPtr<$SoundList> soundList": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$FloatingObject> floatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        }
+    }
+}

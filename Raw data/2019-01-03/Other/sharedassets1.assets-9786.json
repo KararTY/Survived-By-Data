@@ -1,0 +1,30 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 3448
+        },
+        "1 UInt8 m_Enabled": 0,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1300
+        },
+        "1 string m_Name": "",
+        "0 ColorRGBA m_EffectColor": 
+        {
+            "0 float r": 0,
+            "0 float g": 0,
+            "0 float b": 0,
+            "0 float a": 0.597000003
+        },
+        "0 Vector2f m_EffectDistance": 
+        {
+            "0 float x": 1,
+            "0 float y": -7.5
+        },
+        "1 UInt8 m_UseGraphicAlpha": 1
+    }
+}

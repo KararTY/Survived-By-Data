@@ -1,0 +1,51 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 15119
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 576
+        },
+        "1 string m_Name": "",
+        "0 int type": 0,
+        "0 int EventID": -1,
+        "0 int EventObjectIndex": -1,
+        "1 string FloatingLabelText": "string20157",
+        "1 string FloatingLabelMini": "string20158",
+        "1 string ShowUI": "",
+        "0 float UseRange": 3,
+        "1 UInt8 PreventInteraction": 0,
+        "1 UInt8 CollideToInteract": 0,
+        "1 UInt8 CanGlow": 1,
+        "0 PPtr<$NPCInteractDialogue> interactDialogue": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 UInt8 ShowInteractionBar": 0,
+        "0 PPtr<$GameObject> questChain": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$GameObject> gameEvent": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$FloatingObject> interactFloatingMessage": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 unsigned int GravestoneId": 672,
+        "1 string OfferId": "UnlockGravestoneController",
+        "1 string GravestoneName": "Controller"
+    }
+}

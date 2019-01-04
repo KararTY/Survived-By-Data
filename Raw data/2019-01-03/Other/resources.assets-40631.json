@@ -1,0 +1,27 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 12658
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 539
+        },
+        "1 string m_Name": "",
+        "0 int soundListType": 7,
+        "0 Array snds": [
+            {"1 string data": "AlchemistProjectileParadise1"},
+            {"1 string data": "AlchemistProjectileParadise2"},
+            {"1 string data": "AlchemistProjectileParadise3"},
+            {"1 string data": "AlchemistProjectileParadise4"},
+            {"1 string data": "AlchemistProjectileParadise5"}
+        ],
+        "0 Array soundIndices": [],
+        "1 UInt8 PreserveOnRunningTool": 0
+    }
+}

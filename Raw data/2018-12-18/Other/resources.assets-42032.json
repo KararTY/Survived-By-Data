@@ -1,0 +1,49 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 8788
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 143
+        },
+        "1 string m_Name": "",
+        "0 Deity.Shared.CollisionShape shape": 
+        {
+            "0 int shapeType": 1,
+            "0 float shapeWidth": 2,
+            "0 float shapeHeight": 1.5,
+            "0 Vector2f shapeOffset": 
+            {
+                "0 float x": 0.125,
+                "0 float y": -1.37662494
+            }
+        },
+        "0 Deity.Shared.CollisionShape combatShape": 
+        {
+            "0 int shapeType": 1,
+            "0 float shapeWidth": 4.98750019,
+            "0 float shapeHeight": 4.23750019,
+            "0 Vector2f shapeOffset": 
+            {
+                "0 float x": 0.125,
+                "0 float y": -0.40625
+            }
+        },
+        "1 UInt8 bSlide": 0,
+        "1 UInt8 bPlayerProjectile": 0,
+        "1 UInt8 bEnemyProjectile": 0,
+        "1 UInt8 bPlayer": 0,
+        "1 UInt8 bEnemy": 1,
+        "1 UInt8 bSkipWorld": 0,
+        "1 UInt8 bSlowedDownByWater": 1,
+        "1 UInt8 bBlockedByLava": 0,
+        "1 UInt8 bMonsterPath": 1,
+        "1 UInt8 bFlying": 0
+    }
+}

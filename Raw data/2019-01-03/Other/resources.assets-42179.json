@@ -1,0 +1,30 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 15197
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1114
+        },
+        "1 string m_Name": "",
+        "0 PPtr<$ItemDefinition> ItemDefinition": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 47832
+        },
+        "1 UInt8 IsAnimated": 1,
+        "0 PPtr<$CharacterEffect> effect": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 55180
+        },
+        "1 UInt8 IsAccountBound": 1,
+        "0 int Category": 2
+    }
+}

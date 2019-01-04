@@ -1,0 +1,45 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 14745
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 1113
+        },
+        "1 string m_Name": "",
+        "1 string tbmFileName": "",
+        "0 Array tilesets": [
+            {"0 PPtr<$TileSystemTileset> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 50779
+            }},
+            {"0 PPtr<$TileSystemTileset> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 41584
+            }},
+            {"0 PPtr<$TileSystemTileset> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 57366
+            }},
+            {"0 PPtr<$TileSystemTileset> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 41700
+            }},
+            {"0 PPtr<$TileSystemTileset> data": 
+            {
+                "0 int m_FileID": 0,
+                "0 SInt64 m_PathID": 43948
+            }}
+        ]
+    }
+}

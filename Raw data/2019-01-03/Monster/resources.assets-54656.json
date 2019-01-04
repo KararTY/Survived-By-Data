@@ -1,0 +1,156 @@
+{
+    "0 MonoBehaviour Base": 
+    {
+        "0 PPtr<GameObject> m_GameObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 8879
+        },
+        "1 UInt8 m_Enabled": 1,
+        "0 PPtr<MonoScript> m_Script": 
+        {
+            "0 int m_FileID": 1,
+            "0 SInt64 m_PathID": 180
+        },
+        "1 string m_Name": "",
+        "0 PPtr<$StatManager> StatMan": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 unsigned int skinId": 0,
+        "1 UInt8 animationPaused": 0,
+        "1 UInt8 IgnoreProjectiles": 0,
+        "1 UInt8 TargetableBySpecials": 0,
+        "0 float DeathAnimDelay": 0,
+        "0 PPtr<$Stats> TopStats": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SpriteAnimator> animator": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 52744
+        },
+        "0 PPtr<$SpriteRenderer> spriteRenderer": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$GameObject> LightPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 13623
+        },
+        "0 ColorRGBA LightColor": 
+        {
+            "0 float r": 0.219401985,
+            "0 float g": 0.270626366,
+            "0 float b": 0.458999991,
+            "0 float a": 0.360000014
+        },
+        "0 float LightScale": 2,
+        "0 PPtr<$GameObject> DeathParticlePrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 Array GibSprites": [],
+        "0 float GibScale": 1,
+        "0 int NumSoundVariations": 5,
+        "0 PPtr<$SoundList> ImpactSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 44089
+        },
+        "0 PPtr<$SoundList> WakeSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 31855
+        },
+        "0 PPtr<$SoundList> PainSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 56067
+        },
+        "0 PPtr<$SoundList> DeathSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 31955
+        },
+        "0 PPtr<$SoundList> SpawnSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> VolcanoProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> ParadiseProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundList> VoidProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$SoundListCollection> ProjectileSounds": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 Array ProjectileVisuals": [],
+        "0 Array WeaponPrefabs": [],
+        "1 UInt8 IsBoss": 0,
+        "1 UInt8 IsElite": 0,
+        "1 UInt8 HideBossUI": 0,
+        "1 UInt8 IsTutorialNPC": 0,
+        "1 UInt8 IsSetPieceMonster": 0,
+        "1 UInt8 RandomlyFlipped": 1,
+        "1 UInt8 PlayedWakeSound": 0,
+        "1 UInt8 shouldOutline": 0,
+        "1 string MonsterName": "string50024",
+        "0 PPtr<$GameObject> MasterObject": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "0 PPtr<$Teleporter> CustomExitPortal": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 0
+        },
+        "1 string MonsterDescription": "",
+        "0 int Category": 8,
+        "0 int Element": 0,
+        "0 int DeathStat": 0,
+        "0 Array ZenithEffects": [],
+        "0 Array WeaponAnimationType": [],
+        "1 UInt8 ShowHealthBar": 0,
+        "0 PPtr<$FloatingObject> LevelWarningPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 41909
+        },
+        "0 PPtr<$FloatingObject> HealthBarPrefab": 
+        {
+            "0 int m_FileID": 0,
+            "0 SInt64 m_PathID": 52236
+        },
+        "0 Vector2f HunterMarkOffset": 
+        {
+            "0 float x": 0,
+            "0 float y": 0
+        },
+        "0 Vector2f HunterMarkAttackOffset": 
+        {
+            "0 float x": 0,
+            "0 float y": 0
+        }
+    }
+}
