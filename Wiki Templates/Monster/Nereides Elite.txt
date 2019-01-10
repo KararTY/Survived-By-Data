@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster nereides elite minion={{Enemy
+monster_nereides_elite_minion={{Enemy
   |title = Nereides Elite
   |image_original = {{CSS image crop|Image=spirit_nereides_freshwater.png|bSize=256|cWidth=53|cHeight=45|oBottom=19|oLeft=11}}
   |location = 
@@ -57,7 +57,7 @@ monster nereides elite minion={{Enemy
     {{!}}}
   }}
 |-|
-monster nereides elite={{Enemy
+monster_nereides_elite={{Enemy
   |title = Nereides Elite
   |image_original = {{CSS image crop|Image=spirit_nereides_freshwater.png|bSize=256|cWidth=53|cHeight=45|oBottom=19|oLeft=11}}
   |location = 

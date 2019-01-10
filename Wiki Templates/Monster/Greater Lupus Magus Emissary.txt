@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera wolfmage dung hardmode={{Enemy
+monster_chimera_wolfmage_dung_hardmode={{Enemy
   |title = Greater Lupus Magus Emissary
   |image_original = {{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=38|cHeight=58|oBottom=5|oLeft=13}}
   |caption = Description for Greater Lupus Magus Emissary
@@ -30,7 +30,7 @@ monster chimera wolfmage dung hardmode={{Enemy
   |drops = {{:Loot table/monster_chimera_wolfmage_dung_hardmode}}
   }}
 |-|
-monster chimera wolfmage dung hardmode dangerous={{Enemy
+monster_chimera_wolfmage_dung_hardmode_dangerous={{Enemy
   |title = Greater Lupus Magus Emissary
   |image_original = {{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=38|cHeight=58|oBottom=5|oLeft=13}}
   |caption = Description for Greater Lupus Magus Emissary

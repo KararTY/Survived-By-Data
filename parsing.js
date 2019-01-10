@@ -22,6 +22,7 @@ module.exports = () => {
   var procTriggerEnum = require(path.join(__dirname, 'ProcTriggerEnum.json'))
   var procTriggerActionEnum = require(path.join(__dirname, 'ProcTriggerActionEnum.json'))
   var procTriggerChanceSourceEnum = require(path.join(__dirname, 'ProcTriggerChanceSourceEnum.json'))
+  var biomeTypeEnum = require(path.join(__dirname, 'BiomeTypeEnum.json'))
 
   var translate = require(path.join(__dirname, `${language}.json`))
 
@@ -58,7 +59,8 @@ module.exports = () => {
     'LootBox': path.join(__dirname, 'Raw data', patchDate, 'LootBox'),
     'NPC': path.join(__dirname, 'Raw data', patchDate, 'NPC'),
     'Player': path.join(__dirname, 'Raw data', patchDate, 'Player'),
-    'Challenge': path.join(__dirname, 'Raw data', patchDate, 'Challenge')
+    'Challenge': path.join(__dirname, 'Raw data', patchDate, 'Challenge'),
+    'SpawnerDef': path.join(__dirname, 'Raw data', patchDate, 'SpawnerDef')
   }
 
   let folderName1 = 'ItemDefinition'
@@ -1552,5 +1554,110 @@ module.exports = () => {
       }
     })
     console.log(folderName10, 'completed', 'at', count)
+  }
+
+  let folderName11 = 'SpawnerDef'
+  if (folder[folderName11]) {
+    var timeOfDayEnum = {
+      "All": 0,
+	    "Day": 1,
+	    "Night": 2
+    }
+    fs.mkdirSync(path.join(__dirname, 'Patch', folderName11))
+    var count = 0
+    var announceAtNextCount = 500
+    fs.readdirSync(folder[folderName11]).forEach(val => {
+      var file = require(path.join(folder[folderName11], val))
+      var m = '0 MonoBehaviour Base'
+      var spawnerDef = {
+        name: file[m]['1 string m_Name'],
+        biome: Object.keys(biomeTypeEnum).map(e => {
+          if (biomeTypeEnum[e] === file[m]['0 int biome']) return e
+          else return undefined
+        }).filter(Boolean).join(''),
+        difficulty: {
+          min: parseFloat(file[m]['0 float difficultyMin'].toFixed(2)),
+          max: parseFloat(file[m]['0 float difficultyMax'].toFixed(2))
+        },
+        spawnRadius: parseFloat(file[m]['0 float spawnRadius'].toFixed(2)),
+        spawnDelayed: !!file[m]['1 UInt8 spawnDelayed'],
+        quotaRadius: parseFloat(file[m]['0 float quotaRadius'].toFixed(2)),
+        rechargeTime: parseFloat(file[m]['0 float rechargeTime'].toFixed(2)),
+        isBoss: !!file[m]['1 UInt8 isBoss'],
+        autoPopulate: !!file[m]['1 UInt8 autoPopulate'],
+        manuallyPlaced: !!file[m]['1 UInt8 manuallyPlaced'],
+        floraOrFaunaSpawner: !!file[m]['1 UInt8 floraOrFaunaSpawner'],
+        spawnList: file[m]['0 Array spawnList'].length > 0 ? file[m]['0 Array spawnList'].map(v => {
+          var monster = v['0 Deity.Shared.MonsterToSpawn data']
+          if (!fs.existsSync(path.join(folder['Other'], fileMap(monster['0 PPtr<$GameObject> MonsterPrefab']['0 int m_FileID']) + monster['0 PPtr<$GameObject> MonsterPrefab']['0 SInt64 m_PathID'] + '.json'))) return undefined
+          var f = require(path.join(folder['Other'], fileMap(monster['0 PPtr<$GameObject> MonsterPrefab']['0 int m_FileID']) + monster['0 PPtr<$GameObject> MonsterPrefab']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
+          return {
+            monsterName: (function () {
+              var monData
+              for (let i = 0; i < f['0 vector m_Component']['0 Array Array'].length; i++) {
+                const entry = f['0 vector m_Component']['0 Array Array'][i]['0 pair data']
+                if (fs.existsSync(path.join(folder['Monster'], fileMap(entry['0 PPtr<Component> second']['0 int m_FileID']) + entry['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) {
+                  monData = require(path.join(folder['Monster'], fileMap(entry['0 PPtr<Component> second']['0 int m_FileID']) + entry['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
+                  break
+                }
+              }
+              return translate[monData['0 MonoBehaviour Base']['1 string MonsterName']] || monData['0 MonoBehaviour Base']['1 string MonsterName']
+            })(),
+            monsterAlias: f['1 string m_Name'],
+            spawnChance: parseFloat(monster['0 float spawnChance'].toFixed(2)),
+            spawnQuota: monster['0 int spawnQuota'],
+            timeOfDay: Object.keys(timeOfDayEnum).map(e => {
+              if (timeOfDayEnum[e] === monster['0 int timeOfDay']) return e
+              else return undefined
+            }).filter(Boolean).join('')
+          }
+        }).filter(Boolean) : undefined,
+        comboSpawnList: file[m]['0 Array comboSpawnList'].length > 0 ? file[m]['0 Array comboSpawnList'].map(v => {
+          var monsterArray = v['0 Deity.Shared.MonsterComboPack data']['0 Array Monsters']
+          return monsterArray.map(v => {
+            var monster = v['0 Deity.Shared.MonsterToSpawn data']
+            if (!fs.existsSync(path.join(folder['Other'], fileMap(monster['0 PPtr<$GameObject> MonsterPrefab']['0 int m_FileID']) + monster['0 PPtr<$GameObject> MonsterPrefab']['0 SInt64 m_PathID'] + '.json'))) return undefined
+            var f = require(path.join( folder['Other'], fileMap(monster['0 PPtr<$GameObject> MonsterPrefab']['0 int m_FileID']) + monster['0 PPtr<$GameObject> MonsterPrefab']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
+            return {
+              monsterName: (function () {
+                var monData
+                for (let i = 0; i < f['0 vector m_Component']['0 Array Array'].length; i++) {
+                  const entry = f['0 vector m_Component']['0 Array Array'][i]['0 pair data']
+                  if (fs.existsSync(path.join(folder['Monster'], fileMap(entry['0 PPtr<Component> second']['0 int m_FileID']) + entry['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) {
+                    monData = require(path.join(folder['Monster'], fileMap(entry['0 PPtr<Component> second']['0 int m_FileID']) + entry['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
+                    break
+                  }
+                }
+                return translate[monData['0 MonoBehaviour Base']['1 string MonsterName']] || monData['0 MonoBehaviour Base']['1 string MonsterName']
+              })(),
+              monsterAlias: f['1 string m_Name'],
+              spawnChance: parseFloat(monster['0 float spawnChance'].toFixed(2)),
+              spawnQuota: monster['0 int spawnQuota'],
+              timeOfDay: Object.keys(timeOfDayEnum).map(e => {
+                if (timeOfDayEnum[e] === monster['0 int timeOfDay']) return e
+                else return undefined
+              }).filter(Boolean).join('')
+            }
+          }).filter(Boolean)
+        }).filter(Boolean) : undefined,
+        oneTimeTrigger: !!file[m]['1 UInt8 oneTimeTrigger'],
+        areaMax: file[m]['0 int areaMax'],
+        areaRadius: file[m]['0 int areaRadius']/* ,
+        comboArrangement: [] */
+      }
+
+      var filename = path.join(__dirname, 'Patch', folderName11, `${spawnerDef.name}.json`)
+      if (fs.existsSync(filename)) {
+        var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
+        file.push(spawnerDef)
+        fs.writeFileSync(filename, JSON.stringify(file))
+      } else fs.writeFileSync(filename, JSON.stringify([spawnerDef]))
+      count++
+      if (count === announceAtNextCount) {
+        announceAtNextCount += 500
+        console.log(folderName11, 'at', count, '...')
+      }
+    })
+    console.log(folderName11, 'completed', 'at', count)
   }
 }

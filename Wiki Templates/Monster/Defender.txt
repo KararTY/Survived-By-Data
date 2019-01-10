@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster agent defender={{Enemy
+monster_agent_defender={{Enemy
   |title = Defender
   |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
   |caption = Description for Defender
@@ -53,7 +53,7 @@ monster agent defender={{Enemy
   |drops = {{:Loot table/monster_agent_defender}}
   }}
 |-|
-monster agent defender dangerous={{Enemy
+monster_agent_defender_dangerous={{Enemy
   |title = Defender
   |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
   |caption = Description for Defender

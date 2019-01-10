@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss shaman torch1={{Enemy
+boss_shaman_torch1={{Enemy
   |title = Spirit Beacon
   |image_original = {{CSS image crop|Image=boss_bear_shaman 1.png|bSize=512|cWidth=31|cHeight=84|oBottom=681|oLeft=431}}
   |location = 
@@ -11,7 +11,7 @@ boss shaman torch1={{Enemy
   |critical_defense = 97.2<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
-boss shaman torch hardmode={{Enemy
+boss_shaman_torch_hardmode={{Enemy
   |title = Spirit Beacon
   |image_original = {{CSS image crop|Image=boss_bear_shaman 1.png|bSize=512|cWidth=31|cHeight=84|oBottom=681|oLeft=431}}
   |location = 

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster spirit dryad sand={{Enemy
+monster_spirit_dryad_sand={{Enemy
   |title = Sand Anima
   |image_original = {{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
   |caption = Description for Sand Anima
@@ -69,7 +69,7 @@ monster spirit dryad sand={{Enemy
   |drops = {{:Loot table/monster_spirit_dryad_sand}}
   }}
 |-|
-monster spirit dryad sand dangerous={{Enemy
+monster_spirit_dryad_sand_dangerous={{Enemy
   |title = Sand Anima
   |image_original = {{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
   |caption = Description for Sand Anima

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-plant mine={{Enemy
+plant_mine={{Enemy
   |title = Drosera
   |image_original = {{CSS image crop|Image=plant_mine.png|bSize=192|cWidth=46|cHeight=31|oBottom=17|oLeft=1}}
   |caption = Description for Drosera
@@ -76,7 +76,7 @@ plant mine={{Enemy
   |drops = {{:Loot table/plant_mine}}
   }}
 |-|
-boss elementalspirit mine seed={{Enemy
+boss_elementalspirit_mine_seed={{Enemy
   |title = Drosera
   |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -150,7 +150,7 @@ boss elementalspirit mine seed={{Enemy
   |drops = {{:Loot table/boss_elementalspirit_mine_seed}}
   }}
 |-|
-boss elementalspirit mine={{Enemy
+boss_elementalspirit_mine={{Enemy
   |title = Drosera
   |image_original = {{CSS image crop|Image=plant_mine_bio.png|bSize=192|cWidth=46|cHeight=31|oBottom=17|oLeft=1}}
   |location = 

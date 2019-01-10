@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera stag mage dung hardmode={{Enemy
+monster_chimera_stag_mage_dung_hardmode={{Enemy
   |title = Greater Elder Cervus Magus
   |image_original = {{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=53|cHeight=70|oBottom=18|oLeft=6}}
   |caption = Description for Greater Elder Cervus Magus
@@ -30,7 +30,7 @@ monster chimera stag mage dung hardmode={{Enemy
   |drops = {{:Loot table/monster_chimera_stag_mage_dung_hardmode}}
   }}
 |-|
-monster chimera stag mage dung hardmode dangerous={{Enemy
+monster_chimera_stag_mage_dung_hardmode_dangerous={{Enemy
   |title = Greater Elder Cervus Magus
   |image_original = {{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=53|cHeight=70|oBottom=18|oLeft=6}}
   |caption = Description for Greater Elder Cervus Magus

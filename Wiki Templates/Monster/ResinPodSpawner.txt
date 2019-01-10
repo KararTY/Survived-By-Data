@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss director resin pod spawner hardmode={{Enemy
+boss_director_resin_pod_spawner_hardmode={{Enemy
   |title = ResinPodSpawner
   |image = ResinPodSpawner.png
   |location = 
@@ -11,7 +11,7 @@ boss director resin pod spawner hardmode={{Enemy
   |critical_defense = 25<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
-boss director resin pod spawner={{Enemy
+boss_director_resin_pod_spawner={{Enemy
   |title = ResinPodSpawner
   |image = ResinPodSpawner.png
   |location = 

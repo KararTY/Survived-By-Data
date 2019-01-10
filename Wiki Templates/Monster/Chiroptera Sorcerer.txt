@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera batmage dung={{Enemy
+monster_chimera_batmage_dung={{Enemy
   |title = Chiroptera Sorcerer
   |image_original = {{CSS image crop|Image=chimera_batmage.png|bSize=384|cWidth=88|cHeight=80|oBottom=16|oLeft=98}}
   |caption = Description for Chiroptera Sorcerer
@@ -40,7 +40,7 @@ monster chimera batmage dung={{Enemy
   |drops = {{:Loot table/monster_chimera_batmage_dung}}
   }}
 |-|
-monster chimera batmage dung dangerous={{Enemy
+monster_chimera_batmage_dung_dangerous={{Enemy
   |title = Chiroptera Sorcerer
   |image_original = {{CSS image crop|Image=chimera_batmage.png|bSize=384|cWidth=88|cHeight=80|oBottom=16|oLeft=98}}
   |caption = Description for Chiroptera Sorcerer

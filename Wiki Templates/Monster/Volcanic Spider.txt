@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster spider volcano={{Enemy
+monster_spider_volcano={{Enemy
   |title = Volcanic Spider
   |image_original = {{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=48|cHeight=39|oBottom=6|oLeft=0}}
   |caption = Description for Volcanic Spider
@@ -43,7 +43,7 @@ monster spider volcano={{Enemy
   |drops = {{:Loot table/monster_spider_volcano}}
   }}
 |-|
-monster spider volcano dangerous={{Enemy
+monster_spider_volcano_dangerous={{Enemy
   |title = Volcanic Spider
   |image_original = {{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=48|cHeight=39|oBottom=6|oLeft=0}}
   |caption = Description for Volcanic Spider

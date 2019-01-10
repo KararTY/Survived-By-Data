@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster bramble tree2 quest={{Enemy
+monster_bramble_tree2_quest={{Enemy
   |title = Bramble Tree
   |image_original = {{CSS image crop|Image=bramble_trees_druid_quest.png|bSize=192|cWidth=64|cHeight=86|oBottom=10|oLeft=64}}
   |location = 
@@ -10,7 +10,7 @@ monster bramble tree2 quest={{Enemy
   |drops = {{:Loot table/monster_bramble_tree2_quest}}
   }}
 |-|
-monster bramble tree1 quest={{Enemy
+monster_bramble_tree1_quest={{Enemy
   |title = Bramble Tree
   |image_original = {{CSS image crop|Image=bramble_trees_druid_quest.png|bSize=192|cWidth=64|cHeight=96|oBottom=0|oLeft=0}}
   |location = 

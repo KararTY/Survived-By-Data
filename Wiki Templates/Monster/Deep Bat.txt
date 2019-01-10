@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster bat dung={{Enemy
+monster_bat_dung={{Enemy
   |title = Deep Bat
   |image_original = {{CSS image crop|Image=Bat_01.png|bSize=128|cWidth=16|cHeight=32|oBottom=0|oLeft=16}}
   |caption = Description for Deep Bat
@@ -40,7 +40,7 @@ monster bat dung={{Enemy
   |drops = {{:Loot table/monster_bat_dung}}
   }}
 |-|
-monster batswarm dung={{Enemy
+monster_batswarm_dung={{Enemy
   |title = Deep Bat
   |image = Deep Bat.png
   |location = 

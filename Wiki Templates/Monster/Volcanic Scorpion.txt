@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster scorpion lava volcano={{Enemy
+monster_scorpion_lava_volcano={{Enemy
   |title = Volcanic Scorpion
   |image_original = {{CSS image crop|Image=scorpion_lava.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |caption = Description for Volcanic Scorpion
@@ -71,7 +71,7 @@ monster scorpion lava volcano={{Enemy
   |drops = {{:Loot table/monster_scorpion_lava_volcano}}
   }}
 |-|
-monster scorpion lava volcano dangerous={{Enemy
+monster_scorpion_lava_volcano_dangerous={{Enemy
   |title = Volcanic Scorpion
   |image_original = {{CSS image crop|Image=scorpion_lava.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |caption = Description for Volcanic Scorpion

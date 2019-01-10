@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss undying geomancer world={{Enemy
+boss_undying_geomancer_world={{Enemy
   |title = Undying Geomancer
   |image_original = {{CSS image crop|Image=undying_geomancer.png|bSize=128|cWidth=31|cHeight=32|oBottom=32|oLeft=32}}
   |location = 
@@ -26,7 +26,7 @@ boss undying geomancer world={{Enemy
     {{!}}}
   }}
 |-|
-boss undying geomancer={{Enemy
+boss_undying_geomancer={{Enemy
   |title = Undying Geomancer
   |image_original = {{CSS image crop|Image=undying_geomancer.png|bSize=128|cWidth=31|cHeight=32|oBottom=32|oLeft=32}}
   |location = 

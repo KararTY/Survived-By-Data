@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster anima darkT1={{Enemy
+monster_anima_darkT1={{Enemy
   |title = Dark Anima
   |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
   |location = 
@@ -69,7 +69,7 @@ monster anima darkT1={{Enemy
   |drops = {{:Loot table/monster_anima_darkT1}}
   }}
 |-|
-monster anima darkT2={{Enemy
+monster_anima_darkT2={{Enemy
   |title = Dark Anima
   |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
   |location = 
@@ -139,7 +139,7 @@ monster anima darkT2={{Enemy
   |drops = {{:Loot table/monster_anima_darkT2}}
   }}
 |-|
-monster anima darkT3={{Enemy
+monster_anima_darkT3={{Enemy
   |title = Dark Anima
   |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
   |location = 
@@ -209,7 +209,7 @@ monster anima darkT3={{Enemy
   |drops = {{:Loot table/monster_anima_darkT3}}
   }}
 |-|
-monster anima darkT4={{Enemy
+monster_anima_darkT4={{Enemy
   |title = Dark Anima
   |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
   |location = 
@@ -279,7 +279,7 @@ monster anima darkT4={{Enemy
   |drops = {{:Loot table/monster_anima_darkT4}}
   }}
 |-|
-monster anima darkT5={{Enemy
+monster_anima_darkT5={{Enemy
   |title = Dark Anima
   |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
   |location = 
@@ -349,7 +349,7 @@ monster anima darkT5={{Enemy
   |drops = {{:Loot table/monster_anima_darkT5}}
   }}
 |-|
-monster anima darkT6={{Enemy
+monster_anima_darkT6={{Enemy
   |title = Dark Anima
   |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
   |location = 
@@ -419,7 +419,7 @@ monster anima darkT6={{Enemy
   |drops = {{:Loot table/monster_anima_darkT6}}
   }}
 |-|
-monster anima darkT7={{Enemy
+monster_anima_darkT7={{Enemy
   |title = Dark Anima
   |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
   |location = 
@@ -489,7 +489,7 @@ monster anima darkT7={{Enemy
   |drops = {{:Loot table/monster_anima_darkT7}}
   }}
 |-|
-monster anima darkT8={{Enemy
+monster_anima_darkT8={{Enemy
   |title = Dark Anima
   |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
   |location = 
@@ -559,7 +559,7 @@ monster anima darkT8={{Enemy
   |drops = {{:Loot table/monster_anima_darkT8}}
   }}
 |-|
-monster anima darkT9={{Enemy
+monster_anima_darkT9={{Enemy
   |title = Dark Anima
   |image_original = {{CSS image crop|Image=Spirit_Dark_Anima.png|bSize=192|cWidth=41|cHeight=62|oBottom=2|oLeft=4}}
   |location = 

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera wolfmage dung={{Enemy
+monster_chimera_wolfmage_dung={{Enemy
   |title = Lupus Magus Emissary
   |image_original = {{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=38|cHeight=58|oBottom=5|oLeft=13}}
   |caption = Description for Lupus Mahus Emissary
@@ -30,7 +30,7 @@ monster chimera wolfmage dung={{Enemy
   |drops = {{:Loot table/monster_chimera_wolfmage_dung}}
   }}
 |-|
-monster chimera wolfmage dung dangerous={{Enemy
+monster_chimera_wolfmage_dung_dangerous={{Enemy
   |title = Lupus Magus Emissary
   |image_original = {{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=38|cHeight=58|oBottom=5|oLeft=13}}
   |caption = Description for Lupus Mahus Emissary

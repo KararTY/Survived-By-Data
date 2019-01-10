@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster spirit moss ooze launcher={{Enemy
+monster_spirit_moss_ooze_launcher={{Enemy
   |title = Greater Verdant Ooze
   |image = Greater Verdant Ooze.png
   |caption = Description for Greater Verdant Ooze
@@ -59,7 +59,7 @@ monster spirit moss ooze launcher={{Enemy
     {{!}}}
   }}
 |-|
-monster spirit moss ooze hardmode={{Enemy
+monster_spirit_moss_ooze_hardmode={{Enemy
   |title = Greater Verdant Ooze
   |image_original = {{CSS image crop|Image=spirit_moss_ooze.png|bSize=192|cWidth=44|cHeight=35|oBottom=13|oLeft=2}}
   |caption = Description for Greater Verdant Ooze

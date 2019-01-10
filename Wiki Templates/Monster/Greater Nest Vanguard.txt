@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster burrower cave hardmode={{Enemy
+monster_burrower_cave_hardmode={{Enemy
   |title = Greater Nest Vanguard
   |image_original = {{CSS image crop|Image=beast_burrower_cave.png|bSize=256|cWidth=48|cHeight=20|oBottom=44|oLeft=10}}
   |caption = Description for Greater Nest Vanguard
@@ -41,7 +41,7 @@ monster burrower cave hardmode={{Enemy
   |drops = {{:Loot table/monster_burrower_cave_hardmode}}
   }}
 |-|
-monster burrower cave hardmode dangerous={{Enemy
+monster_burrower_cave_hardmode_dangerous={{Enemy
   |title = Greater Nest Vanguard
   |image_original = {{CSS image crop|Image=beast_burrower_cave.png|bSize=256|cWidth=48|cHeight=20|oBottom=44|oLeft=10}}
   |caption = Description for Greater Nest Vanguard

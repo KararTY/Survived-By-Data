@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster hyenawarrior elite={{Enemy
+monster_hyenawarrior_elite={{Enemy
   |title = Elite Hyena Warrior
   |image_original = {{CSS image crop|Image=chimera_hyenawarrior.png|bSize=256|cWidth=53|cHeight=44|oBottom=11|oLeft=1}}
   |location = 
@@ -29,7 +29,7 @@ monster hyenawarrior elite={{Enemy
     {{!}}}
   }}
 |-|
-monster hyenawarrior elite minion={{Enemy
+monster_hyenawarrior_elite_minion={{Enemy
   |title = Elite Hyena Warrior
   |image_original = {{CSS image crop|Image=chimera_hyenawarrior.png|bSize=256|cWidth=53|cHeight=44|oBottom=11|oLeft=1}}
   |location = 

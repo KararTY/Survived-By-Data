@@ -157,7 +157,7 @@ module.exports = (() => {
     var gld = data.lootTable.length > 0 ? data.lootTable.sort((a, b) => {
       return b.chance - a.chance
     }) : ''
-    return `${data.reference ? `{{:Loot table/${data.reference}}}` : ''}${data.questLootTable ? `('''Quest loot table''') ` : ''}${gld ? `'''Loot table: ([[Loot table/${data.from}|${data.from}]])'''\n${data.guaranteeItemCount ? `<br>Guaranteed drop amount: ${data.guaranteeItemCount}` : ''}${data.maximumItemCount ? `<br>Maximum drop amount: ${data.maximumItemCount}` : ''}\n{|class="sortable"\n|-\n! Amount || Item || Chance\n|-\n${gld.map(v => `| ${v.count.add ? `x${v.count.add}` : ''} || {{Icon|${v.item}}} || style="text-align:right" | ${v.chance}% `).join('\n|-\n')}\n|}`.replace(/Ã¤/g, 'ä') : ''}`
+    return `${data.reference ? `{{:Loot table/${data.reference}}}` : ''}${data.questLootTable ? `('''Quest loot table''') ` : ''}${gld ? `'''Loot table: ([[Loot table/${data.from}|${data.from}]])'''\n${data.guaranteeItemCount ? `<br>Guaranteed drop amount: ${data.guaranteeItemCount}` : ''}${data.maximumItemCount ? `<br>Maximum drop amount: ${data.maximumItemCount}` : ''}\n{|class="sortable"\n|-\n! Amount || Item || Chance\n|-\n${gld.map(v => `| ${v.count.add ? `x${v.count.add}${v.count.dice ? `-${v.count.add + (v.count.faces * v.count.dice)}` : ''}` : ''} || {{Icon|${v.item}}} || style="text-align:right" | ${v.chance}% `).join('\n|-\n')}\n|}`.replace(/Ã¤/g, 'ä') : ''}`
   }
 
   function gStats(stats, stat) {
@@ -317,7 +317,7 @@ module.exports = (() => {
         return Number(gStatsData(a.data, 'Tier')) - Number(gStatsData(b.data, 'Tier'))
       }).forEach((item, ind, arr) => {
         count++
-        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : '\n'}${item.alias ? item.alias.replace(/[_]/g, ' ') : `${item.name} ${ind + 1}`}=` : ''
+        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : '\n'}${item.alias ? item.alias : `${item.name}_${ind + 1}`}=` : ''
         template += `{{Enemy
         |title = ${item.name}
         ${gImageOriginalData(item.data) ? '' : `|image = ${item.name}.png`}

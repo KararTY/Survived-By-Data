@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster snake cobra stone hardmode={{Enemy
+monster_snake_cobra_stone_hardmode={{Enemy
   |title = Greater Stone Cobra
   |image_original = {{CSS image crop|Image=beast_snake_cobra_stone.png|bSize=256|cWidth=43|cHeight=45|oBottom=75|oLeft=12}}
   |caption = Description for Greater Stone Cobra
@@ -42,7 +42,7 @@ monster snake cobra stone hardmode={{Enemy
   |drops = {{:Loot table/monster_snake_cobra_stone_hardmode}}
   }}
 |-|
-boss gorgon snake hardmode={{Enemy
+boss_gorgon_snake_hardmode={{Enemy
   |title = Greater Stone Cobra
   |image_original = {{CSS image crop|Image=beast_snake_cobra_stone.png|bSize=256|cWidth=43|cHeight=45|oBottom=75|oLeft=12}}
   |caption = Description for Greater Stone Cobra

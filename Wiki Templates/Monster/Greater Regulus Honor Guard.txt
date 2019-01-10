@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera lizardwarrior dung hardmode={{Enemy
+monster_chimera_lizardwarrior_dung_hardmode={{Enemy
   |title = Greater Regulus Honor Guard
   |image_original = {{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=54|cHeight=46|oBottom=9|oLeft=10}}
   |caption = Description for Greater Regulus Honor Guard
@@ -44,7 +44,7 @@ monster chimera lizardwarrior dung hardmode={{Enemy
   |drops = {{:Loot table/monster_chimera_lizardwarrior_dung_hardmode}}
   }}
 |-|
-monster chimera lizardwarrior dung hardmode dangerous={{Enemy
+monster_chimera_lizardwarrior_dung_hardmode_dangerous={{Enemy
   |title = Greater Regulus Honor Guard
   |image_original = {{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=54|cHeight=46|oBottom=9|oLeft=10}}
   |caption = Description for Greater Regulus Honor Guard

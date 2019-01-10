@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss heartoftheforest={{Enemy
+boss_heartoftheforest={{Enemy
   |title = Heart of the Forest
   |image_original = {{CSS image crop|Image=HOM_Boss_Face Glow.png|bSize=406|cWidth=328|cHeight=223|oBottom=139|oLeft=50}}
   |caption = Description for Heart of the Forest
@@ -33,7 +33,7 @@ boss heartoftheforest={{Enemy
   |drops = {{:Loot table/boss_heartoftheforest}}
   }}
 |-|
-boss heartoftheforest world={{Enemy
+boss_heartoftheforest_world={{Enemy
   |title = Heart of the Forest
   |image_original = {{CSS image crop|Image=HOM_Boss_Face Glow.png|bSize=406|cWidth=328|cHeight=223|oBottom=139|oLeft=50}}
   |caption = Description for Heart of the Forest

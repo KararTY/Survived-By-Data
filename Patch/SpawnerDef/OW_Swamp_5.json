@@ -1,0 +1,1 @@
+[{"name":"OW_Swamp_5","biome":"Swamp","difficulty":{"min":0.4,"max":0.5},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0.35,"isBoss":false,"autoPopulate":true,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster clam={{Enemy
+monster_clam={{Enemy
   |title = Clam
   |image_original = {{CSS image crop|Image=Clam_01.png|bSize=192|cWidth=31|cHeight=30|oBottom=63|oLeft=56}}
   |caption = Description for Clam
@@ -30,7 +30,7 @@ monster clam={{Enemy
   |drops = {{:Loot table/monster_clam}}
   }}
 |-|
-monster clam infernal={{Enemy
+monster_clam_infernal={{Enemy
   |title = Clam
   |image_original = {{CSS image crop|Image=Clam_Infernal.png|bSize=192|cWidth=31|cHeight=30|oBottom=63|oLeft=56}}
   |caption = Description for Clam

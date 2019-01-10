@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-pet minigolemT8={{Enemy
+pet_minigolemT8={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -41,7 +41,7 @@ pet minigolemT8={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolemT5={{Enemy
+pet_minigolemT5={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -83,7 +83,7 @@ pet minigolemT5={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolemT9={{Enemy
+pet_minigolemT9={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -125,7 +125,7 @@ pet minigolemT9={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolemT6={{Enemy
+pet_minigolemT6={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -167,7 +167,7 @@ pet minigolemT6={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolemT3={{Enemy
+pet_minigolemT3={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -209,7 +209,7 @@ pet minigolemT3={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolemT7={{Enemy
+pet_minigolemT7={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -251,7 +251,7 @@ pet minigolemT7={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolemT4={{Enemy
+pet_minigolemT4={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -293,7 +293,7 @@ pet minigolemT4={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolemT1={{Enemy
+pet_minigolemT1={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -335,7 +335,7 @@ pet minigolemT1={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolem={{Enemy
+pet_minigolem={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -377,7 +377,7 @@ pet minigolem={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolemT2={{Enemy
+pet_minigolemT2={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 
@@ -419,7 +419,7 @@ pet minigolemT2={{Enemy
     {{!}}}
   }}
 |-|
-pet minigolemT10={{Enemy
+pet_minigolemT10={{Enemy
   |title = Minigolem
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |location = 

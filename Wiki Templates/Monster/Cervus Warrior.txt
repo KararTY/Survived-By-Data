@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera stag feral={{Enemy
+monster_chimera_stag_feral={{Enemy
   |title = Cervus Warrior
   |image_original = {{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=57|cHeight=74|oBottom=14|oLeft=7}}
   |caption = Description for Cervus Warrior
@@ -46,7 +46,54 @@ monster chimera stag feral={{Enemy
   |drops = {{:Loot table/monster_chimera_stag_feral}}
   }}
 |-|
-monster chimera stag feral tutorial easy={{Enemy
+invasion_T2_stag_feral={{Enemy
+  |title = Cervus Warrior
+  |image_original = {{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=57|cHeight=74|oBottom=14|oLeft=7}}
+  |caption = Description for Cervus Warrior
+  |location = 
+  |category = Chimera
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 360
+  |experience = 65
+  |damage_bonus = 45
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile ahead''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.4
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_T2_stag_feral}}
+  }}
+|-|
+monster_chimera_stag_feral_tutorial_easy={{Enemy
   |title = Cervus Warrior
   |image_original = {{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=57|cHeight=74|oBottom=14|oLeft=7}}
   |location = 
@@ -91,7 +138,7 @@ monster chimera stag feral tutorial easy={{Enemy
   |drops = {{:Loot table/monster_chimera_stag_feral_tutorial_easy}}
   }}
 |-|
-monster chimera stag feral tutorial medium={{Enemy
+monster_chimera_stag_feral_tutorial_medium={{Enemy
   |title = Cervus Warrior
   |image_original = {{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=57|cHeight=74|oBottom=14|oLeft=7}}
   |location = 
@@ -136,7 +183,7 @@ monster chimera stag feral tutorial medium={{Enemy
   |drops = {{:Loot table/monster_chimera_stag_feral_tutorial_medium}}
   }}
 |-|
-monster chimera stag feral tutorial hard={{Enemy
+monster_chimera_stag_feral_tutorial_hard={{Enemy
   |title = Cervus Warrior
   |image_original = {{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=57|cHeight=74|oBottom=14|oLeft=7}}
   |location = 

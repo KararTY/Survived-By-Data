@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster spirit cyclone sand={{Enemy
+monster_spirit_cyclone_sand={{Enemy
   |title = Sand Cyclone
   |image_original = {{CSS image crop|Image=spirit_cyclone_sand.png|bSize=384|cWidth=74|cHeight=85|oBottom=10|oLeft=11}}
   |caption = Description for Sand Cyclone
@@ -41,7 +41,7 @@ monster spirit cyclone sand={{Enemy
   |drops = {{:Loot table/monster_spirit_cyclone_sand}}
   }}
 |-|
-monster spirit cyclone sand dangerous={{Enemy
+monster_spirit_cyclone_sand_dangerous={{Enemy
   |title = Sand Cyclone
   |image_original = {{CSS image crop|Image=spirit_cyclone_sand.png|bSize=384|cWidth=74|cHeight=85|oBottom=10|oLeft=11}}
   |caption = Description for Sand Cyclone

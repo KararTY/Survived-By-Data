@@ -1,4 +1,5 @@
-{{Enemy
+<div class="tabbertab-borderless"><tabber>
+monster_chimera_snowleopard={{Enemy
   |title = Panthera Warrior
   |image_original = {{CSS image crop|Image=chimera_snow_leopard.png|bSize=256|cWidth=49|cHeight=53|oBottom=2|oLeft=11}}
   |caption = Description for Panthera Warrior
@@ -44,6 +45,55 @@
     {{!}}}
   |drops = {{:Loot table/monster_chimera_snowleopard}}
   }}
+|-|
+invasion_T4_snowleopard={{Enemy
+  |title = Panthera Warrior
+  |image_original = {{CSS image crop|Image=chimera_snow_leopard.png|bSize=256|cWidth=49|cHeight=53|oBottom=2|oLeft=11}}
+  |caption = Description for Panthera Warrior
+  |location = 
+  |category = Chimera
+  |tier = 4
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 3690
+  |experience = 340
+  |damage_bonus = 110
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile ahead''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.4
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera snowleopard projectile''' {{!!}} <center>{{CSS image crop|Image=druid_01.png|bSize=192|cWidth=19|cHeight=27|oBottom=97|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_T4_snowleopard}}
+  }}
+|-|
+</tabber></div>
 <includeonly>
 [[Category:Monster]]
 [[Category:Chimera]]

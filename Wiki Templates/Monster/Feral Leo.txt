@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera lionmage feral={{Enemy
+monster_chimera_lionmage_feral={{Enemy
   |title = Feral Leo
   |image_original = {{CSS image crop|Image=chimera_lionmage.png|bSize=256|cWidth=48|cHeight=56|oBottom=6|oLeft=8}}
   |caption = Description for Feral Leo
@@ -40,7 +40,7 @@ monster chimera lionmage feral={{Enemy
   |drops = {{:Loot table/monster_chimera_lionmage_feral}}
   }}
 |-|
-monster chimera lion feral={{Enemy
+monster_chimera_lion_feral={{Enemy
   |title = Feral Leo
   |image_original = {{CSS image crop|Image=chimera_lion_feral.png|bSize=256|cWidth=59|cHeight=58|oBottom=4|oLeft=0}}
   |caption = Description for Feral Leo

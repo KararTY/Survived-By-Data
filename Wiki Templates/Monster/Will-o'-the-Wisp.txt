@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster spirit willowisp large={{Enemy
+monster_spirit_willowisp_large={{Enemy
   |title = Will-o'-the-Wisp
   |image_original = {{CSS image crop|Image=spirit_wil-o-wisp_large.png|bSize=192|cWidth=30|cHeight=48|oBottom=0|oLeft=11}}
   |caption = Description for Will-o'-the-Wisp
@@ -41,7 +41,7 @@ monster spirit willowisp large={{Enemy
   |drops = {{:Loot table/monster_spirit_willowisp_large}}
   }}
 |-|
-monster spirit willowisp large dangerous={{Enemy
+monster_spirit_willowisp_large_dangerous={{Enemy
   |title = Will-o'-the-Wisp
   |image_original = {{CSS image crop|Image=spirit_wil-o-wisp_large.png|bSize=192|cWidth=30|cHeight=48|oBottom=0|oLeft=11}}
   |caption = Description for Will-o'-the-Wisp

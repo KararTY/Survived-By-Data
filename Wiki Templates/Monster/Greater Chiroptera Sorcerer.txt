@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera batmage dung hardmode={{Enemy
+monster_chimera_batmage_dung_hardmode={{Enemy
   |title = Greater Chiroptera Sorcerer
   |image_original = {{CSS image crop|Image=chimera_batmage.png|bSize=384|cWidth=88|cHeight=80|oBottom=16|oLeft=98}}
   |caption = Description for Greater Chiroptera Sorcerer
@@ -40,7 +40,7 @@ monster chimera batmage dung hardmode={{Enemy
   |drops = {{:Loot table/monster_chimera_batmage_dung_hardmode}}
   }}
 |-|
-monster chimera batmage dung hardmode dangerous={{Enemy
+monster_chimera_batmage_dung_hardmode_dangerous={{Enemy
   |title = Greater Chiroptera Sorcerer
   |image_original = {{CSS image crop|Image=chimera_batmage.png|bSize=384|cWidth=88|cHeight=80|oBottom=16|oLeft=98}}
   |caption = Description for Greater Chiroptera Sorcerer

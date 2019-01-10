@@ -1,4 +1,5 @@
-{{Enemy
+<div class="tabbertab-borderless"><tabber>
+monster_chimera_wolfmage={{Enemy
   |title = Lupus Magus
   |image_original = {{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=38|cHeight=58|oBottom=5|oLeft=13}}
   |caption = Description for Lupus Magus
@@ -28,6 +29,39 @@
     {{!}}}
   |drops = {{:Loot table/monster_chimera_wolfmage}}
   }}
+|-|
+invasion_T5_wolfmage={{Enemy
+  |title = Lupus Magus
+  |image_original = {{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=38|cHeight=58|oBottom=5|oLeft=13}}
+  |caption = Description for Lupus Magus
+  |location = 
+  |category = Chimera
+  |tier = 5
+  |level = 22
+  |max_health = {{Icon|Health|nolink=1}} 15000
+  |experience = 550
+  |damage_bonus = 175
+  |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=19|cHeight=42|oBottom=76|oLeft=199}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_T5_wolfmage}}
+  }}
+|-|
+</tabber></div>
 <includeonly>
 [[Category:Monster]]
 [[Category:Chimera]]

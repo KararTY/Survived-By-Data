@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera lizardwarrior dung={{Enemy
+monster_chimera_lizardwarrior_dung={{Enemy
   |title = Regulus Honor Guard
   |image_original = {{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=54|cHeight=46|oBottom=9|oLeft=10}}
   |caption = Description for Regulus Honor Guard
@@ -44,7 +44,7 @@ monster chimera lizardwarrior dung={{Enemy
   |drops = {{:Loot table/monster_chimera_lizardwarrior_dung}}
   }}
 |-|
-monster chimera lizardwarrior dung dangerous={{Enemy
+monster_chimera_lizardwarrior_dung_dangerous={{Enemy
   |title = Regulus Honor Guard
   |image_original = {{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=54|cHeight=46|oBottom=9|oLeft=10}}
   |caption = Description for Regulus Honor Guard
@@ -87,6 +87,96 @@ monster chimera lizardwarrior dung dangerous={{Enemy
     {{!}} Arc Separation {{!!}} 5
     {{!}}}
   |drops = {{:Loot table/monster_chimera_lizardwarrior_dung_dangerous}}
+  }}
+|-|
+invasion_T8_lizardwarrior={{Enemy
+  |title = Regulus Honor Guard
+  |image_original = {{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=54|cHeight=46|oBottom=9|oLeft=10}}
+  |caption = Description for Regulus Honor Guard
+  |location = 
+  |category = Chimera
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 57600
+  |experience = 800
+  |damage_bonus = 310
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lizardwarrior arrow projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=9|cHeight=45|oBottom=134|oLeft=5}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lizardwarrior melee projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=35|cHeight=31|oBottom=135|oLeft=24}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_T8_lizardwarrior}}
+  }}
+|-|
+invasion_T8_lizardmage={{Enemy
+  |title = Regulus Honor Guard
+  |image_original = {{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=54|cHeight=46|oBottom=9|oLeft=10}}
+  |caption = Description for Regulus Honor Guard
+  |location = 
+  |category = Chimera
+  |tier = 8
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 85000
+  |experience = 800
+  |damage_bonus = 330
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lizardwarrior arrow projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=9|cHeight=45|oBottom=134|oLeft=5}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera lizardwarrior melee projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=35|cHeight=31|oBottom=135|oLeft=24}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_T8_lizardmage}}
   }}
 |-|
 </tabber></div>

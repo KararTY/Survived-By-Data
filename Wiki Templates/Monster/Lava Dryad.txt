@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster spirit dryad lava quest={{Enemy
+monster_spirit_dryad_lava_quest={{Enemy
   |title = Lava Dryad
   |image_original = {{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
   |caption = Description for Lava Dryad
@@ -69,7 +69,7 @@ monster spirit dryad lava quest={{Enemy
   |drops = {{:Loot table/monster_spirit_dryad_lava_quest}}
   }}
 |-|
-subboss spirit dryad lava small={{Enemy
+subboss_spirit_dryad_lava_small={{Enemy
   |title = Lava Dryad
   |image_original = {{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
   |location = 
@@ -162,7 +162,7 @@ subboss spirit dryad lava small={{Enemy
     {{!}}}
   }}
 |-|
-subboss spirit dryad lava medium={{Enemy
+subboss_spirit_dryad_lava_medium={{Enemy
   |title = Lava Dryad
   |image_original = {{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
   |location = 
@@ -256,7 +256,7 @@ subboss spirit dryad lava medium={{Enemy
   |drops = {{:Loot table/subboss_spirit_dryad_lava_medium}}
   }}
 |-|
-subboss spirit dryad lava={{Enemy
+subboss_spirit_dryad_lava={{Enemy
   |title = Lava Dryad
   |image_original = {{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=1}}
   |caption = Description for Lava Dryad

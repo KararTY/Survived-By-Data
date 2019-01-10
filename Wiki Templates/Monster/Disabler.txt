@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster agent disabler={{Enemy
+monster_agent_disabler={{Enemy
   |title = Disabler
   |image_original = {{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=38|cHeight=35|oBottom=13|oLeft=5}}
   |caption = Description for Disabler
@@ -83,7 +83,7 @@ monster agent disabler={{Enemy
   |drops = {{:Loot table/monster_agent_disabler}}
   }}
 |-|
-monster agent collector elite minion={{Enemy
+monster_agent_collector_elite_minion={{Enemy
   |title = Disabler
   |image_original = {{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=38|cHeight=35|oBottom=13|oLeft=5}}
   |caption = Description for Disabler
@@ -166,7 +166,7 @@ monster agent collector elite minion={{Enemy
     {{!}}}
   }}
 |-|
-monster agent disabler dangerous={{Enemy
+monster_agent_disabler_dangerous={{Enemy
   |title = Disabler
   |image_original = {{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=38|cHeight=35|oBottom=13|oLeft=5}}
   |caption = Description for Disabler

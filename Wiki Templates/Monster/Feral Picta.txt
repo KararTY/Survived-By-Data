@@ -1,4 +1,5 @@
-{{Enemy
+<div class="tabbertab-borderless"><tabber>
+monster_chimera_turtlepainted={{Enemy
   |title = Feral Picta
   |image_original = {{CSS image crop|Image=chimera_turtlepainted.png|bSize=256|cWidth=62|cHeight=55|oBottom=5|oLeft=2}}
   |caption = Description for Feral Picta
@@ -56,6 +57,126 @@
     {{!}}}
   |drops = {{:Loot table/monster_chimera_turtlepainted}}
   }}
+|-|
+invasion_T6_turtlepainted={{Enemy
+  |title = Feral Picta
+  |image_original = {{CSS image crop|Image=chimera_turtlepainted.png|bSize=256|cWidth=62|cHeight=55|oBottom=5|oLeft=2}}
+  |caption = Description for Feral Picta
+  |location = 
+  |category = Chimera
+  |tier = 6
+  |level = 26
+  |max_health = {{Icon|Health|nolink=1}} 31200
+  |experience = 750
+  |damage_bonus = 230
+  |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera turtlepainted projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_turtlepainted.png|bSize=256|cWidth=35|cHeight=35|oBottom=79|oLeft=79}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera turtlepainted projectile2''' {{!!}} <center>{{CSS image crop|Image=chimera_turtlepainted.png|bSize=256|cWidth=35|cHeight=35|oBottom=79|oLeft=79}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera turtlepainted projectile3''' {{!!}} <center>{{CSS image crop|Image=chimera_turtlepainted.png|bSize=256|cWidth=35|cHeight=35|oBottom=79|oLeft=79}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_T6_turtlepainted}}
+  }}
+|-|
+invasion_T7_turtlepainted={{Enemy
+  |title = Feral Picta
+  |image_original = {{CSS image crop|Image=chimera_turtlepainted.png|bSize=256|cWidth=62|cHeight=55|oBottom=5|oLeft=2}}
+  |caption = Description for Feral Picta
+  |location = 
+  |category = Chimera
+  |tier = 7
+  |level = 27
+  |max_health = {{Icon|Health|nolink=1}} 45000
+  |experience = 750
+  |damage_bonus = 280
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera turtlepainted projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_turtlepainted.png|bSize=256|cWidth=35|cHeight=35|oBottom=79|oLeft=79}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera turtlepainted projectile2''' {{!!}} <center>{{CSS image crop|Image=chimera_turtlepainted.png|bSize=256|cWidth=35|cHeight=35|oBottom=79|oLeft=79}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''chimera turtlepainted projectile3''' {{!!}} <center>{{CSS image crop|Image=chimera_turtlepainted.png|bSize=256|cWidth=35|cHeight=35|oBottom=79|oLeft=79}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_T7_turtlepainted}}
+  }}
+|-|
+</tabber></div>
 <includeonly>
 [[Category:Monster]]
 [[Category:Chimera]]

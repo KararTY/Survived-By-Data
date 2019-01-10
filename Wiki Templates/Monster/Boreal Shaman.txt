@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss shaman={{Enemy
+boss_shaman={{Enemy
   |title = Boreal Shaman
   |image_original = {{CSS image crop|Image=boss_bear_shaman 1.png|bSize=512|cWidth=93|cHeight=89|oBottom=39|oLeft=19}}
   |caption = Description for Boreal Shaman
@@ -50,7 +50,7 @@ boss shaman={{Enemy
   |drops = {{:Loot table/boss_shaman}}
   }}
 |-|
-boss shaman world={{Enemy
+boss_shaman_world={{Enemy
   |title = Boreal Shaman
   |image_original = {{CSS image crop|Image=boss_bear_shaman 1.png|bSize=512|cWidth=93|cHeight=89|oBottom=39|oLeft=19}}
   |caption = Description for Boreal Shaman

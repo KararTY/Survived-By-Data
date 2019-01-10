@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-plant venus T2={{Enemy
+plant_venus_T2={{Enemy
   |title = Infernal Venus
   |image_original = {{CSS image crop|Image=plant_venus.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |caption = Description for Infernal Venus
@@ -43,7 +43,7 @@ plant venus T2={{Enemy
   |drops = {{:Loot table/plant_venus_T2}}
   }}
 |-|
-plant venus infernal={{Enemy
+plant_venus_infernal={{Enemy
   |title = Infernal Venus
   |image_original = {{CSS image crop|Image=plant_venus_infernal.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |caption = Description for Venus Trap

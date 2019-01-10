@@ -1,4 +1,36 @@
-{{Enemy
+<div class="tabbertab-borderless"><tabber>
+invasion_T1_stag_mage={{Enemy
+  |title = Cervus Magus
+  |image_original = {{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=53|cHeight=70|oBottom=18|oLeft=6}}
+  |caption = Description for Cervus Magus
+  |location = 
+  |category = Chimera
+  |tier = 1
+  |level = 2
+  |max_health = {{Icon|Health|nolink=1}} 90
+  |experience = 12
+  |damage_bonus = 20
+  |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''stagmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=24|cHeight=24|oBottom=100|oLeft=196}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_T1_stag_mage}}
+  }}
+|-|
+monster_chimera_stag_mage={{Enemy
   |title = Cervus Magus
   |image_original = {{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=53|cHeight=70|oBottom=18|oLeft=6}}
   |caption = Description for Cervus Magus
@@ -28,6 +60,39 @@
     {{!}}}
   |drops = {{:Loot table/monster_chimera_stag_mage}}
   }}
+|-|
+invasion_T2_stag_mage={{Enemy
+  |title = Cervus Magus
+  |image_original = {{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=53|cHeight=70|oBottom=18|oLeft=6}}
+  |caption = Description for Cervus Magus
+  |location = 
+  |category = Chimera
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 440
+  |experience = 65
+  |damage_bonus = 50
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''stagmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=24|cHeight=24|oBottom=100|oLeft=196}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 9
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/invasion_T2_stag_mage}}
+  }}
+|-|
+</tabber></div>
 <includeonly>
 [[Category:Monster]]
 [[Category:Chimera]]

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-subboss lavahunter ghost={{Enemy
+subboss_lavahunter_ghost={{Enemy
   |title = Lava Hunter
   |image_original = {{CSS image crop|Image=boss_mirage_hunter_FIRE.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
   |location = 
@@ -28,7 +28,7 @@ subboss lavahunter ghost={{Enemy
     {{!}}}
   }}
 |-|
-subboss lavahunter={{Enemy
+subboss_lavahunter={{Enemy
   |title = Lava Hunter
   |image_original = {{CSS image crop|Image=boss_mirage_hunter_FIRE.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
   |caption = Description for Lava Hunter

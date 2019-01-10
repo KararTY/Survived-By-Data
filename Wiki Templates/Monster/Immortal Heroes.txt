@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss undying master world={{Enemy
+boss_undying_master_world={{Enemy
   |title = Immortal Heroes
   |image = Immortal Heroes.png
   |location = 
@@ -13,7 +13,7 @@ boss undying master world={{Enemy
   |damage_bonus = 1
   }}
 |-|
-boss undying master={{Enemy
+boss_undying_master={{Enemy
   |title = Immortal Heroes
   |image = Immortal Heroes.png
   |location = 

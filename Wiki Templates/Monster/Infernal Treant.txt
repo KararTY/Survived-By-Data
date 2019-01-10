@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster treant corrupted T7={{Enemy
+monster_treant_corrupted_T7={{Enemy
   |title = Infernal Treant
   |image_original = {{CSS image crop|Image=Treant_01.png|bSize=256|cWidth=45|cHeight=64|oBottom=64|oLeft=138}}
   |caption = Description for Treant
@@ -31,7 +31,7 @@ monster treant corrupted T7={{Enemy
   |drops = {{:Loot table/monster_treant_corrupted_T7}}
   }}
 |-|
-monster treant fire T8={{Enemy
+monster_treant_fire_T8={{Enemy
   |title = Infernal Treant
   |image_original = {{CSS image crop|Image=corrupted_treant.png|bSize=512|cWidth=98|cHeight=128|oBottom=0|oLeft=15}}
   |caption = Description for Infernal Treant

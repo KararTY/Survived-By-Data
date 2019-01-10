@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss undying hunter world={{Enemy
+boss_undying_hunter_world={{Enemy
   |title = Undying Harbinger
   |image_original = {{CSS image crop|Image=undying_hunter.png|bSize=128|cWidth=32|cHeight=32|oBottom=32|oLeft=0}}
   |location = 
@@ -26,7 +26,7 @@ boss undying hunter world={{Enemy
     {{!}}}
   }}
 |-|
-boss undying hunter={{Enemy
+boss_undying_hunter={{Enemy
   |title = Undying Harbinger
   |image_original = {{CSS image crop|Image=undying_hunter.png|bSize=128|cWidth=32|cHeight=32|oBottom=32|oLeft=0}}
   |location = 

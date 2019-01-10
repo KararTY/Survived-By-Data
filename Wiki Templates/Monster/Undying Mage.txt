@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss undying mage world={{Enemy
+boss_undying_mage_world={{Enemy
   |title = Undying Mage
   |image_original = {{CSS image crop|Image=undying_wizard.png|bSize=128|cWidth=30|cHeight=32|oBottom=32|oLeft=1}}
   |location = 
@@ -26,7 +26,7 @@ boss undying mage world={{Enemy
     {{!}}}
   }}
 |-|
-boss undying mage={{Enemy
+boss_undying_mage={{Enemy
   |title = Undying Mage
   |image_original = {{CSS image crop|Image=undying_wizard.png|bSize=128|cWidth=30|cHeight=32|oBottom=32|oLeft=1}}
   |location = 

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster lavalizard volcano={{Enemy
+monster_lavalizard_volcano={{Enemy
   |title = Volcanic Lizard
   |image_original = {{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=60|cHeight=43|oBottom=21|oLeft=3}}
   |caption = Description for Volcanic Lizard
@@ -45,7 +45,7 @@ monster lavalizard volcano={{Enemy
   |drops = {{:Loot table/monster_lavalizard_volcano}}
   }}
 |-|
-monster lavalizard volcano dangerous={{Enemy
+monster_lavalizard_volcano_dangerous={{Enemy
   |title = Volcanic Lizard
   |image_original = {{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=60|cHeight=43|oBottom=21|oLeft=3}}
   |caption = Description for Volcanic Lizard

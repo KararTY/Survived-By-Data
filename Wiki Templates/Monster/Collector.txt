@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster agent collector tutorial={{Enemy
+monster_agent_collector_tutorial={{Enemy
   |title = Collector
   |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
   |location = 
@@ -64,7 +64,7 @@ monster agent collector tutorial={{Enemy
   |drops = {{:Loot table/monster_agent_collector_tutorial}}
   }}
 |-|
-monster agent collector={{Enemy
+monster_agent_collector={{Enemy
   |title = Collector
   |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
   |caption = Description for Collector
@@ -132,7 +132,7 @@ monster agent collector={{Enemy
   |drops = {{:Loot table/monster_agent_collector}}
   }}
 |-|
-monster agent collector elite={{Enemy
+monster_agent_collector_elite={{Enemy
   |title = Collector
   |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
   |caption = Description for Collector
@@ -200,7 +200,7 @@ monster agent collector elite={{Enemy
     {{!}}}
   }}
 |-|
-monster agent collector dangerous={{Enemy
+monster_agent_collector_dangerous={{Enemy
   |title = Collector
   |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
   |caption = Description for Collector
@@ -268,7 +268,7 @@ monster agent collector dangerous={{Enemy
   |drops = {{:Loot table/monster_agent_collector_dangerous}}
   }}
 |-|
-monster agent collector T7={{Enemy
+monster_agent_collector_T7={{Enemy
   |title = Collector
   |image_original = {{CSS image crop|Image=agent_collector.png|bSize=256|cWidth=52|cHeight=48|oBottom=144|oLeft=3}}
   |caption = Description for Boreal Collector

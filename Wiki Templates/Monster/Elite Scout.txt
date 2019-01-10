@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster scout elite minion={{Enemy
+monster_scout_elite_minion={{Enemy
   |title = Elite Scout
   |image_original = {{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=39|cHeight=39|oBottom=53|oLeft=26}}
   |location = 
@@ -39,7 +39,7 @@ monster scout elite minion={{Enemy
     {{!}}}
   }}
 |-|
-monster scout elite={{Enemy
+monster_scout_elite={{Enemy
   |title = Elite Scout
   |image_original = {{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=39|cHeight=39|oBottom=53|oLeft=26}}
   |location = 

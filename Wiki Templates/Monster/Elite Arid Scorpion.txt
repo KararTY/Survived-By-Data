@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster scorpion elite minion={{Enemy
+monster_scorpion_elite_minion={{Enemy
   |title = Elite Arid Scorpion
   |image_original = {{CSS image crop|Image=scorpion_desert.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |location = 
@@ -40,7 +40,7 @@ monster scorpion elite minion={{Enemy
     {{!}}}
   }}
 |-|
-monster scorpion elite={{Enemy
+monster_scorpion_elite={{Enemy
   |title = Elite Arid Scorpion
   |image_original = {{CSS image crop|Image=scorpion_desert.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |location = 

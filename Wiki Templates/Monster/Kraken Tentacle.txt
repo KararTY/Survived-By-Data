@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster krakententacle={{Enemy
+monster_krakententacle={{Enemy
   |title = Kraken Tentacle
   |image_original = {{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=46|cHeight=64|oBottom=0|oLeft=453}}
   |location = 
@@ -38,7 +38,7 @@ monster krakententacle={{Enemy
     {{!}}}
   }}
 |-|
-monster krakententacle hardmode={{Enemy
+monster_krakententacle_hardmode={{Enemy
   |title = Kraken Tentacle
   |image_original = {{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=46|cHeight=64|oBottom=0|oLeft=453}}
   |location = 

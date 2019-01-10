@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster anima dark turretT1={{Enemy
+monster_anima_dark_turretT1={{Enemy
   |title = Dark Anima Turret
   |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
   |location = 
@@ -28,7 +28,7 @@ monster anima dark turretT1={{Enemy
     {{!}}}
   }}
 |-|
-monster anima dark turretT2={{Enemy
+monster_anima_dark_turretT2={{Enemy
   |title = Dark Anima Turret
   |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
   |location = 
@@ -57,7 +57,7 @@ monster anima dark turretT2={{Enemy
     {{!}}}
   }}
 |-|
-monster anima dark turretT3={{Enemy
+monster_anima_dark_turretT3={{Enemy
   |title = Dark Anima Turret
   |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
   |location = 
@@ -86,7 +86,7 @@ monster anima dark turretT3={{Enemy
     {{!}}}
   }}
 |-|
-monster anima dark turretT4={{Enemy
+monster_anima_dark_turretT4={{Enemy
   |title = Dark Anima Turret
   |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
   |location = 
@@ -115,7 +115,7 @@ monster anima dark turretT4={{Enemy
     {{!}}}
   }}
 |-|
-monster anima dark turretT5={{Enemy
+monster_anima_dark_turretT5={{Enemy
   |title = Dark Anima Turret
   |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
   |location = 
@@ -144,7 +144,7 @@ monster anima dark turretT5={{Enemy
     {{!}}}
   }}
 |-|
-monster anima dark turretT6={{Enemy
+monster_anima_dark_turretT6={{Enemy
   |title = Dark Anima Turret
   |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
   |location = 
@@ -173,7 +173,7 @@ monster anima dark turretT6={{Enemy
     {{!}}}
   }}
 |-|
-monster anima dark turretT7={{Enemy
+monster_anima_dark_turretT7={{Enemy
   |title = Dark Anima Turret
   |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
   |location = 
@@ -202,7 +202,7 @@ monster anima dark turretT7={{Enemy
     {{!}}}
   }}
 |-|
-monster anima dark turretT8={{Enemy
+monster_anima_dark_turretT8={{Enemy
   |title = Dark Anima Turret
   |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
   |location = 
@@ -231,7 +231,7 @@ monster anima dark turretT8={{Enemy
     {{!}}}
   }}
 |-|
-monster anima dark turretT9={{Enemy
+monster_anima_dark_turretT9={{Enemy
   |title = Dark Anima Turret
   |image_original = {{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}
   |location = 

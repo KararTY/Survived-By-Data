@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-tutorial monster chimera hyena={{Enemy
+tutorial_monster_chimera_hyena={{Enemy
   |title = Feral Crocuta
   |image_original = {{CSS image crop|Image=chimera_hyena.png|bSize=192|cWidth=48|cHeight=47|oBottom=1|oLeft=0}}
   |location = 
@@ -26,7 +26,7 @@ tutorial monster chimera hyena={{Enemy
     {{!}}}
   }}
 |-|
-monster chimera hyena={{Enemy
+monster_chimera_hyena={{Enemy
   |title = Feral Crocuta
   |image_original = {{CSS image crop|Image=chimera_hyena.png|bSize=192|cWidth=48|cHeight=47|oBottom=1|oLeft=0}}
   |caption = Description for Feral Crocuta

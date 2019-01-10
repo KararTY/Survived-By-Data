@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster agent processor hardmode={{Enemy
+monster_agent_processor_hardmode={{Enemy
   |title = Greater Processor
   |image_original = {{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=39|cHeight=38|oBottom=54|oLeft=5}}
   |caption = Description for Greater Processor
@@ -87,7 +87,7 @@ monster agent processor hardmode={{Enemy
   |drops = {{:Loot table/monster_agent_processor_hardmode}}
   }}
 |-|
-monster agent processor hardmode dangerous={{Enemy
+monster_agent_processor_hardmode_dangerous={{Enemy
   |title = Greater Processor
   |image_original = {{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=39|cHeight=38|oBottom=54|oLeft=5}}
   |caption = Description for Greater Processor

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-plant corpseflower={{Enemy
+plant_corpseflower={{Enemy
   |title = Corpse Flower
   |image_original = {{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
   |caption = Description for Corpse Flower
@@ -43,7 +43,7 @@ plant corpseflower={{Enemy
   |drops = {{:Loot table/plant_corpseflower}}
   }}
 |-|
-plant corpseflower dangerous={{Enemy
+plant_corpseflower_dangerous={{Enemy
   |title = Corpse Flower
   |image_original = {{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
   |caption = Description for Corpse Flower
@@ -87,7 +87,7 @@ plant corpseflower dangerous={{Enemy
   |drops = {{:Loot table/plant_corpseflower_dangerous}}
   }}
 |-|
-boss elementalspirit corpseflower seed={{Enemy
+boss_elementalspirit_corpseflower_seed={{Enemy
   |title = Corpse Flower
   |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -128,7 +128,7 @@ boss elementalspirit corpseflower seed={{Enemy
   |drops = {{:Loot table/boss_elementalspirit_corpseflower_seed}}
   }}
 |-|
-boss elementalspirit corpseflower={{Enemy
+boss_elementalspirit_corpseflower={{Enemy
   |title = Corpse Flower
   |image_original = {{CSS image crop|Image=plant_corpseflower_bio.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
   |location = 

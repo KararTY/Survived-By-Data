@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss hydra={{Enemy
+boss_hydra={{Enemy
   |title = Hydra
   |image_original = {{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=41|cHeight=23|oBottom=69|oLeft=42}}
   |caption = Description for Hydra
@@ -50,7 +50,7 @@ boss hydra={{Enemy
   |drops = {{:Loot table/boss_hydra}}
   }}
 |-|
-boss hydra world={{Enemy
+boss_hydra_world={{Enemy
   |title = Hydra
   |image_original = {{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=41|cHeight=23|oBottom=69|oLeft=42}}
   |caption = Description for Hydra

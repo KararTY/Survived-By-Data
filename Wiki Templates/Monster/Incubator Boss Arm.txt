@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss director right arm={{Enemy
+boss_director_right_arm={{Enemy
   |title = Incubator Boss Arm
   |image_original = {{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=128|cHeight=192|oBottom=192|oLeft=0}}
   |location = 
@@ -12,7 +12,7 @@ boss director right arm={{Enemy
   |critical_defense = 150<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
-boss director left arm={{Enemy
+boss_director_left_arm={{Enemy
   |title = Incubator Boss Arm
   |image_original = {{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=128|cHeight=192|oBottom=0|oLeft=0}}
   |location = 
@@ -25,7 +25,7 @@ boss director left arm={{Enemy
   |critical_defense = 150<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
-boss director left arm hardmode={{Enemy
+boss_director_left_arm_hardmode={{Enemy
   |title = Incubator Boss Arm
   |image_original = {{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=128|cHeight=192|oBottom=0|oLeft=0}}
   |location = 
@@ -38,7 +38,7 @@ boss director left arm hardmode={{Enemy
   |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
-boss director right arm hardmode={{Enemy
+boss_director_right_arm_hardmode={{Enemy
   |title = Incubator Boss Arm
   |image_original = {{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=128|cHeight=192|oBottom=192|oLeft=0}}
   |location = 

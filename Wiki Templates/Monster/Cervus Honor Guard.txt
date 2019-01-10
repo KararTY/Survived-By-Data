@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera stag feral dung={{Enemy
+monster_chimera_stag_feral_dung={{Enemy
   |title = Cervus Honor Guard
   |image_original = {{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=57|cHeight=74|oBottom=14|oLeft=7}}
   |caption = Description for Cervus Honor Guard
@@ -46,7 +46,7 @@ monster chimera stag feral dung={{Enemy
   |drops = {{:Loot table/monster_chimera_stag_feral_dung}}
   }}
 |-|
-monster chimera stag feral dung hardmode={{Enemy
+monster_chimera_stag_feral_dung_hardmode={{Enemy
   |title = Cervus Honor Guard
   |image_original = {{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=57|cHeight=74|oBottom=14|oLeft=7}}
   |caption = Description for Cervus Honor Guard

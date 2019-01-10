@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster ghost druid master quest={{Enemy
+monster_ghost_druid_master_quest={{Enemy
   |title = Druid Spirits
   |image = Druid Spirits.png
   |location = 
@@ -15,7 +15,7 @@ monster ghost druid master quest={{Enemy
   |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
-monster ghost druid quest={{Enemy
+monster_ghost_druid_quest={{Enemy
   |title = Druid Spirits
   |image_original = {{CSS image crop|Image=druid_jungle_spirit.png|bSize=192|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
   |location = 

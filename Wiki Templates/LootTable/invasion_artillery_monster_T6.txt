@@ -1,13 +1,7 @@
 <noinclude>
 '''{{PAGENAME}}'''
 </noinclude>
-{{:Loot table/CommonLoot T9}}'''Loot table: ([[Loot table/invasion_artillery_monster_T6|invasion_artillery_monster_T6]])'''
-{|class="sortable"
-|-
-! Amount || Item || Chance
-|-
-| x1 || {{Icon|Lapis Core}} || style="text-align:right" | 10% 
-|}
+{{:Loot table/RareLoot T6}}
 <noinclude>
 <hr>
 {{Special:Whatlinkshere/Loot table/invasion_artillery_monster_T6}}

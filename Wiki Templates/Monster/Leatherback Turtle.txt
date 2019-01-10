@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster beast leatherback={{Enemy
+monster_beast_leatherback={{Enemy
   |title = Leatherback Turtle
   |image_original = {{CSS image crop|Image=beast_Leatherback.png|bSize=256|cWidth=56|cHeight=43|oBottom=19|oLeft=6}}
   |caption = Description for Leatherback Turtle
@@ -30,7 +30,7 @@ monster beast leatherback={{Enemy
   |drops = {{:Loot table/monster_beast_leatherback}}
   }}
 |-|
-monster turtlesnap leatherback={{Enemy
+monster_turtlesnap_leatherback={{Enemy
   |title = Leatherback Turtle
   |image_original = {{CSS image crop|Image=beast_turtlesnap.png|bSize=256|cWidth=53|cHeight=45|oBottom=17|oLeft=7}}
   |caption = Description for Leatherback Turtle

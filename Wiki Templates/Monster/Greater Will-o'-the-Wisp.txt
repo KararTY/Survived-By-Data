@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster spirit willowisp large hardmode={{Enemy
+monster_spirit_willowisp_large_hardmode={{Enemy
   |title = Greater Will-o'-the-Wisp
   |image_original = {{CSS image crop|Image=spirit_wil-o-wisp_large.png|bSize=192|cWidth=30|cHeight=48|oBottom=0|oLeft=11}}
   |caption = Description for Greater Will-o'-the-Wisp
@@ -41,7 +41,7 @@ monster spirit willowisp large hardmode={{Enemy
   |drops = {{:Loot table/monster_spirit_willowisp_large_hardmode}}
   }}
 |-|
-monster spirit willowisp large hardmode dangerous={{Enemy
+monster_spirit_willowisp_large_hardmode_dangerous={{Enemy
   |title = Greater Will-o'-the-Wisp
   |image_original = {{CSS image crop|Image=spirit_wil-o-wisp_large.png|bSize=192|cWidth=30|cHeight=48|oBottom=0|oLeft=11}}
   |caption = Description for Greater Will-o'-the-Wisp

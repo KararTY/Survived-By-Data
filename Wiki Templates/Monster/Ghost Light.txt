@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster spirit willowisp small={{Enemy
+monster_spirit_willowisp_small={{Enemy
   |title = Ghost Light
   |image_original = {{CSS image crop|Image=spirit_wil-o-wisp_small.png|bSize=128|cWidth=21|cHeight=32|oBottom=0|oLeft=4}}
   |caption = Description for Ghost Light
@@ -41,7 +41,7 @@ monster spirit willowisp small={{Enemy
   |drops = {{:Loot table/monster_spirit_willowisp_small}}
   }}
 |-|
-monster spirit willowisp small dangerous={{Enemy
+monster_spirit_willowisp_small_dangerous={{Enemy
   |title = Ghost Light
   |image_original = {{CSS image crop|Image=spirit_wil-o-wisp_small.png|bSize=128|cWidth=21|cHeight=32|oBottom=0|oLeft=4}}
   |caption = Description for Ghost Light

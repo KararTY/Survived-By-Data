@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss goliath volcano eggsac death={{Enemy
+boss_goliath_volcano_eggsac_death={{Enemy
   |title = Volcanic Chamber Egg Sac
   |image = Volcanic Chamber Egg Sac.png
   |location = 
@@ -39,7 +39,7 @@ boss goliath volcano eggsac death={{Enemy
     {{!}}}
   }}
 |-|
-boss goliath volcano eggsac={{Enemy
+boss_goliath_volcano_eggsac={{Enemy
   |title = Volcanic Chamber Egg Sac
   |image_original = {{CSS image crop|Image=beast_spider_egg_FIRE.png|bSize=192|cWidth=34|cHeight=36|oBottom=12|oLeft=6}}
   |caption = Description for Volcanic Chamber Egg Sac

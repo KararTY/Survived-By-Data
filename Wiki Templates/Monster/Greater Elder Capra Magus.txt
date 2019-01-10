@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster chimera mtgoat mage dung hardmode={{Enemy
+monster_chimera_mtgoat_mage_dung_hardmode={{Enemy
   |title = Greater Elder Capra Magus
   |image_original = {{CSS image crop|Image=chimera_mt_goatmage.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=2}}
   |caption = Description for Greater Elder Capra Magus
@@ -40,7 +40,7 @@ monster chimera mtgoat mage dung hardmode={{Enemy
   |drops = {{:Loot table/monster_chimera_mtgoat_mage_dung_hardmode}}
   }}
 |-|
-monster chimera mtgoat mage dung hardmode dangerous={{Enemy
+monster_chimera_mtgoat_mage_dung_hardmode_dangerous={{Enemy
   |title = Greater Elder Capra Magus
   |image_original = {{CSS image crop|Image=chimera_mt_goatmage.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=2}}
   |caption = Description for Greater Elder Capra Magus

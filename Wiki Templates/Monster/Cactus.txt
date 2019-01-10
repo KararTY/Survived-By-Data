@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-plant cactus={{Enemy
+plant_cactus={{Enemy
   |title = Cactus
   |image_original = {{CSS image crop|Image=plant_cactus.png|bSize=192|cWidth=47|cHeight=45|oBottom=3|oLeft=1}}
   |caption = Description for Cactus
@@ -31,7 +31,7 @@ plant cactus={{Enemy
   |drops = {{:Loot table/plant_cactus}}
   }}
 |-|
-boss elementalspirit cactus seed={{Enemy
+boss_elementalspirit_cactus_seed={{Enemy
   |title = Cactus
   |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -60,7 +60,7 @@ boss elementalspirit cactus seed={{Enemy
   |drops = {{:Loot table/boss_elementalspirit_cactus_seed}}
   }}
 |-|
-boss elementalspirit cactus={{Enemy
+boss_elementalspirit_cactus={{Enemy
   |title = Cactus
   |image_original = {{CSS image crop|Image=plant_cactus_bio.png|bSize=192|cWidth=47|cHeight=45|oBottom=3|oLeft=1}}
   |location = 

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-tutorial monster agent scout={{Enemy
+tutorial_monster_agent_scout={{Enemy
   |title = Scout
   |image_original = {{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=46|cHeight=93|oBottom=290|oLeft=32}}
   |location = 
@@ -37,7 +37,7 @@ tutorial monster agent scout={{Enemy
     {{!}}}
   }}
 |-|
-monster agent scout={{Enemy
+monster_agent_scout={{Enemy
   |title = Scout
   |image_original = {{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=46|cHeight=93|oBottom=290|oLeft=32}}
   |caption = Description for Scout
@@ -79,7 +79,7 @@ monster agent scout={{Enemy
   |drops = {{:Loot table/monster_agent_scout}}
   }}
 |-|
-monster agent scout defender T8 black={{Enemy
+monster_agent_scout_defender_T8_black={{Enemy
   |title = Scout
   |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
   |caption = Description for Nest Defender
@@ -133,7 +133,7 @@ monster agent scout defender T8 black={{Enemy
   |drops = {{:Loot table/monster_agent_scout_defender_T8_black}}
   }}
 |-|
-monster agent scout defender T8 red={{Enemy
+monster_agent_scout_defender_T8_red={{Enemy
   |title = Scout
   |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
   |caption = Description for Nest Defender

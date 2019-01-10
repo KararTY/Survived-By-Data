@@ -1,0 +1,1 @@
+[{"name":"OWFauna_Mountains_All","biome":"Mountains","difficulty":{"min":0,"max":1},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0.35,"isBoss":false,"autoPopulate":true,"manuallyPlaced":false,"floraOrFaunaSpawner":true,"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]

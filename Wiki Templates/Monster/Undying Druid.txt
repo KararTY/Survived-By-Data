@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss undying druid world={{Enemy
+boss_undying_druid_world={{Enemy
   |title = Undying Druid
   |image_original = {{CSS image crop|Image=undying_druid.png|bSize=128|cWidth=30|cHeight=32|oBottom=32|oLeft=34}}
   |location = 
@@ -26,7 +26,7 @@ boss undying druid world={{Enemy
     {{!}}}
   }}
 |-|
-boss undying druid={{Enemy
+boss_undying_druid={{Enemy
   |title = Undying Druid
   |image_original = {{CSS image crop|Image=undying_druid.png|bSize=128|cWidth=30|cHeight=32|oBottom=32|oLeft=34}}
   |location = 

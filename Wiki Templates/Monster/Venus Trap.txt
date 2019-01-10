@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-plant venus={{Enemy
+plant_venus={{Enemy
   |title = Venus Trap
   |image_original = {{CSS image crop|Image=plant_venus.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |caption = Description for Venus Trap
@@ -40,7 +40,7 @@ plant venus={{Enemy
   |drops = {{:Loot table/plant_venus}}
   }}
 |-|
-boss elementalspirit venus seed={{Enemy
+boss_elementalspirit_venus_seed={{Enemy
   |title = Venus Trap
   |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -78,7 +78,7 @@ boss elementalspirit venus seed={{Enemy
   |drops = {{:Loot table/boss_elementalspirit_venus_seed}}
   }}
 |-|
-boss elementalspirit venus={{Enemy
+boss_elementalspirit_venus={{Enemy
   |title = Venus Trap
   |image_original = {{CSS image crop|Image=plant_venus_bio.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |location = 

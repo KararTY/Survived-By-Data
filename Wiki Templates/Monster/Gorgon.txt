@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss gorgon={{Enemy
+boss_gorgon={{Enemy
   |title = Gorgon
   |image_original = {{CSS image crop|Image=boss_gorgon.png|bSize=384|cWidth=91|cHeight=79|oBottom=10|oLeft=5}}
   |caption = Description for Gorgon
@@ -62,7 +62,7 @@ boss gorgon={{Enemy
   |drops = {{:Loot table/boss_gorgon}}
   }}
 |-|
-boss gorgon world={{Enemy
+boss_gorgon_world={{Enemy
   |title = Gorgon
   |image_original = {{CSS image crop|Image=boss_gorgon.png|bSize=384|cWidth=91|cHeight=79|oBottom=10|oLeft=5}}
   |caption = Description for Gorgon

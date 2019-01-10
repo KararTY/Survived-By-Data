@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-plant vines={{Enemy
+plant_vines={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=plant_vines.png|bSize=192|cWidth=48|cHeight=46|oBottom=1|oLeft=0}}
   |caption = Description for Vines
@@ -87,7 +87,7 @@ plant vines={{Enemy
   |drops = {{:Loot table/plant_vines}}
   }}
 |-|
-monster bramble bush quest={{Enemy
+monster_bramble_bush_quest={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=bramble_plant_druid_quest.png|bSize=192|cWidth=48|cHeight=46|oBottom=1|oLeft=0}}
   |caption = Description for Vines
@@ -119,7 +119,7 @@ monster bramble bush quest={{Enemy
   |drops = {{:Loot table/monster_bramble_bush_quest}}
   }}
 |-|
-boss director resin pod hardmode={{Enemy
+boss_director_resin_pod_hardmode={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=boss_director_pod.png|bSize=288|cWidth=47|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -148,7 +148,7 @@ boss director resin pod hardmode={{Enemy
   |drops = {{:Loot table/boss_director_resin_pod_hardmode}}
   }}
 |-|
-boss director resin pod={{Enemy
+boss_director_resin_pod={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=boss_director_pod.png|bSize=288|cWidth=47|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -162,7 +162,7 @@ boss director resin pod={{Enemy
   |drops = {{:Loot table/boss_director_resin_pod}}
   }}
 |-|
-boss elementalspirit armor3={{Enemy
+boss_elementalspirit_armor3={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=paradise_boss_armor.png|bSize=48|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |location = 
@@ -175,7 +175,7 @@ boss elementalspirit armor3={{Enemy
   |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
-boss elementalspirit armor2={{Enemy
+boss_elementalspirit_armor2={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=paradise_boss_armor.png|bSize=48|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |location = 
@@ -188,7 +188,7 @@ boss elementalspirit armor2={{Enemy
   |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
-boss elementalspirit vines seed={{Enemy
+boss_elementalspirit_vines_seed={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -273,7 +273,7 @@ boss elementalspirit vines seed={{Enemy
   |drops = {{:Loot table/boss_elementalspirit_vines_seed}}
   }}
 |-|
-boss elementalspirit armor seed={{Enemy
+boss_elementalspirit_armor_seed={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -287,7 +287,7 @@ boss elementalspirit armor seed={{Enemy
   |drops = {{:Loot table/boss_elementalspirit_armor_seed}}
   }}
 |-|
-boss elementalspirit armor3 seed={{Enemy
+boss_elementalspirit_armor3_seed={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -301,7 +301,7 @@ boss elementalspirit armor3 seed={{Enemy
   |drops = {{:Loot table/boss_elementalspirit_armor3_seed}}
   }}
 |-|
-boss elementalspirit armor2 seed={{Enemy
+boss_elementalspirit_armor2_seed={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=paradise_boss_seedling_sprout.png|bSize=288|cWidth=48|cHeight=48|oBottom=48|oLeft=0}}
   |location = 
@@ -315,7 +315,7 @@ boss elementalspirit armor2 seed={{Enemy
   |drops = {{:Loot table/boss_elementalspirit_armor2_seed}}
   }}
 |-|
-boss elementalspirit armor={{Enemy
+boss_elementalspirit_armor={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=paradise_boss_armor.png|bSize=48|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
   |location = 
@@ -328,7 +328,7 @@ boss elementalspirit armor={{Enemy
   |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
-boss elementalspirit vines={{Enemy
+boss_elementalspirit_vines={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=plant_vines_bio.png|bSize=192|cWidth=48|cHeight=46|oBottom=1|oLeft=0}}
   |location = 

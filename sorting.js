@@ -22,6 +22,8 @@ module.exports = () => {
       else if (monoBehaviour['0 Array LeveledRecipes'] && monoBehaviour['0 Array LeveledRecipes'].length > 0) moveToFolder = 'CraftingRecipe'
       else if (typeof monoBehaviour['1 UInt8 shouldContainBloodstone'] === 'number') moveToFolder = 'LootBox'
       else if (monoBehaviour['0 Array sets'] && monoBehaviour['0 Array stat']) moveToFolder = 'Ancestral'
+      else if (monoBehaviour['0 Array spawnList']) moveToFolder = 'SpawnerDef'
+      else if (monoBehaviour['0 PPtr<$GameObject> questChain']) moveToFolder = 'QuestGiver'
       if (moveToFolder.length > 0) {
         if (!fs.existsSync(path.join(__dirname, 'Raw data', patchDate, moveToFolder))) fs.mkdirSync(path.join(__dirname, 'Raw data', patchDate, moveToFolder))
         fs.renameSync(path.join(folder, val), path.join(__dirname, 'Raw data', patchDate, moveToFolder, val))

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster bat={{Enemy
+monster_bat={{Enemy
   |title = Bat
   |image_original = {{CSS image crop|Image=Bat_01.png|bSize=128|cWidth=16|cHeight=32|oBottom=0|oLeft=16}}
   |caption = Description for Bat
@@ -40,7 +40,7 @@ monster bat={{Enemy
   |drops = {{:Loot table/monster_bat}}
   }}
 |-|
-monster batswarm={{Enemy
+monster_batswarm={{Enemy
   |title = Bat
   |image = Bat.png
   |location = 
@@ -79,7 +79,7 @@ monster batswarm={{Enemy
     {{!}}}
   }}
 |-|
-monster bat T7={{Enemy
+monster_bat_T7={{Enemy
   |title = Bat
   |image_original = {{CSS image crop|Image=Bat_01.png|bSize=128|cWidth=16|cHeight=32|oBottom=0|oLeft=16}}
   |caption = Description for Bat

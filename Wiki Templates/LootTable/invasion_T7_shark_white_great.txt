@@ -1,0 +1,15 @@
+<noinclude>
+'''{{PAGENAME}}'''
+</noinclude>
+{{:Loot table/CommonLoot T7}}'''Loot table: ([[Loot table/invasion_T7_shark_white_great|invasion_T7_shark_white_great]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Raw Pelt}} || style="text-align:right" | 20% 
+|}
+<noinclude>
+<hr>
+{{Special:Whatlinkshere/Loot table/invasion_T7_shark_white_great}}
+[[Category:Loot table]]
+</noinclude>

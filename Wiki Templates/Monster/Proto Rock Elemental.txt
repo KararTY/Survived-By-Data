@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster golem stone boss={{Enemy
+monster_golem_stone_boss={{Enemy
   |title = Proto Rock Elemental
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |caption = Description for Proto Rock Elemental
@@ -63,7 +63,7 @@ monster golem stone boss={{Enemy
   |drops = {{:Loot table/monster_golem_stone_boss}}
   }}
 |-|
-monster golem stone boss world={{Enemy
+monster_golem_stone_boss_world={{Enemy
   |title = Proto Rock Elemental
   |image_original = {{CSS image crop|Image=monster_golem_stone_01.png|bSize=256|cWidth=60|cHeight=60|oBottom=68|oLeft=3}}
   |caption = Description for Proto Rock Elemental

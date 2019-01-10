@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster wolfwarrior elite={{Enemy
+monster_wolfwarrior_elite={{Enemy
   |title = Wolf Warrior Elite
   |image_original = {{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=46|cHeight=58|oBottom=5|oLeft=9}}
   |location = 
@@ -45,7 +45,7 @@ monster wolfwarrior elite={{Enemy
     {{!}}}
   }}
 |-|
-monster wolfwarrior elite minion={{Enemy
+monster_wolfwarrior_elite_minion={{Enemy
   |title = Wolf Warrior Elite
   |image_original = {{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=46|cHeight=58|oBottom=5|oLeft=9}}
   |location = 

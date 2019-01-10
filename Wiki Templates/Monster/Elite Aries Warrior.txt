@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster ram elite={{Enemy
+monster_ram_elite={{Enemy
   |title = Elite Aries Warrior
   |image_original = {{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=0}}
   |location = 
@@ -29,7 +29,7 @@ monster ram elite={{Enemy
     {{!}}}
   }}
 |-|
-monster ram elite minion={{Enemy
+monster_ram_elite_minion={{Enemy
   |title = Elite Aries Warrior
   |image_original = {{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=46|cHeight=48|oBottom=0|oLeft=0}}
   |location = 

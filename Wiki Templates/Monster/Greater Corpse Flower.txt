@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-plant corpseflower hardmode={{Enemy
+plant_corpseflower_hardmode={{Enemy
   |title = Greater Corpse Flower
   |image_original = {{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
   |caption = Description for Greater Corpse Flower
@@ -43,7 +43,7 @@ plant corpseflower hardmode={{Enemy
   |drops = {{:Loot table/plant_corpseflower_hardmode}}
   }}
 |-|
-plant corpseflower hardmode dangerous={{Enemy
+plant_corpseflower_hardmode_dangerous={{Enemy
   |title = Greater Corpse Flower
   |image_original = {{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=43|cHeight=48|oBottom=0|oLeft=2}}
   |caption = Description for Greater Corpse Flower

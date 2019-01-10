@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster stag moose={{Enemy
+monster_stag_moose={{Enemy
   |title = Moose
   |image_original = {{CSS image crop|Image=beast_stag.png|bSize=256|cWidth=52|cHeight=64|oBottom=0|oLeft=6}}
   |caption = Description for Moose
@@ -28,7 +28,7 @@ monster stag moose={{Enemy
   |drops = {{:Loot table/monster_stag_moose}}
   }}
 |-|
-monster stag moose T6={{Enemy
+monster_stag_moose_T6={{Enemy
   |title = Moose
   |image_original = {{CSS image crop|Image=beast_stag.png|bSize=256|cWidth=52|cHeight=64|oBottom=0|oLeft=6}}
   |caption = Description for Moose

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-tutorial monster agent processor={{Enemy
+tutorial_monster_agent_processor={{Enemy
   |title = Processor
   |image_original = {{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=39|cHeight=38|oBottom=54|oLeft=5}}
   |location = 
@@ -84,7 +84,7 @@ tutorial monster agent processor={{Enemy
     {{!}}}
   }}
 |-|
-monster agent processor={{Enemy
+monster_agent_processor={{Enemy
   |title = Processor
   |image_original = {{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=39|cHeight=38|oBottom=54|oLeft=5}}
   |caption = Description for Processor
@@ -172,7 +172,7 @@ monster agent processor={{Enemy
   |drops = {{:Loot table/monster_agent_processor}}
   }}
 |-|
-monster agent processor dangerous={{Enemy
+monster_agent_processor_dangerous={{Enemy
   |title = Processor
   |image_original = {{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=39|cHeight=38|oBottom=54|oLeft=5}}
   |caption = Description for Processor

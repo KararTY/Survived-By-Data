@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster snowleopard={{Enemy
+monster_snowleopard={{Enemy
   |title = Snow Leopard
   |image_original = {{CSS image crop|Image=beast_snow_leopard.png|bSize=192|cWidth=47|cHeight=41|oBottom=7|oLeft=1}}
   |caption = Description for Snow Leopard
@@ -30,7 +30,7 @@ monster snowleopard={{Enemy
   |drops = {{:Loot table/monster_snowleopard}}
   }}
 |-|
-monster snowleopard2={{Enemy
+monster_snowleopard2={{Enemy
   |title = Snow Leopard
   |image_original = {{CSS image crop|Image=beast_snow_leopard2.png|bSize=192|cWidth=47|cHeight=41|oBottom=7|oLeft=1}}
   |caption = Description for Snow Leopard

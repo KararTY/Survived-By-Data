@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster beast turtlesnap={{Enemy
+monster_beast_turtlesnap={{Enemy
   |title = Snapping Turtle
   |image_original = {{CSS image crop|Image=beast_turtlesnap.png|bSize=256|cWidth=53|cHeight=45|oBottom=17|oLeft=7}}
   |caption = Description for Snapping Turtle
@@ -30,7 +30,7 @@ monster beast turtlesnap={{Enemy
   |drops = {{:Loot table/monster_beast_turtlesnap}}
   }}
 |-|
-monster turtlesnap={{Enemy
+monster_turtlesnap={{Enemy
   |title = Snapping Turtle
   |image_original = {{CSS image crop|Image=beast_turtlesnap.png|bSize=256|cWidth=53|cHeight=45|oBottom=17|oLeft=7}}
   |caption = Description for Snapping Turtle

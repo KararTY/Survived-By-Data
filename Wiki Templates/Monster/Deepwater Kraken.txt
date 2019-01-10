@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster kraken={{Enemy
+monster_kraken={{Enemy
   |title = Deepwater Kraken
   |image_original = {{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=45|cHeight=44|oBottom=204|oLeft=141}}
   |caption = Description for Deepwater Kraken
@@ -35,7 +35,7 @@ monster kraken={{Enemy
   |drops = {{:Loot table/monster_kraken}}
   }}
 |-|
-monster kraken world={{Enemy
+monster_kraken_world={{Enemy
   |title = Deepwater Kraken
   |image_original = {{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=45|cHeight=44|oBottom=204|oLeft=141}}
   |caption = Description for Deepwater Kraken

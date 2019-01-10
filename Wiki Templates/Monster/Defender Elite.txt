@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster defender elite minion={{Enemy
+monster_defender_elite_minion={{Enemy
   |title = Defender Elite
   |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
   |location = 
@@ -29,7 +29,7 @@ monster defender elite minion={{Enemy
     {{!}}}
   }}
 |-|
-monster defender elite={{Enemy
+monster_defender_elite={{Enemy
   |title = Defender Elite
   |image_original = {{CSS image crop|Image=agent_defender.png|bSize=256|cWidth=48|cHeight=45|oBottom=83|oLeft=10}}
   |location = 

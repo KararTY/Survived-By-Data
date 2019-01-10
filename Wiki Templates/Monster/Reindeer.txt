@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster stag reindeer={{Enemy
+monster_stag_reindeer={{Enemy
   |title = Reindeer
   |image_original = {{CSS image crop|Image=beast_stag.png|bSize=256|cWidth=52|cHeight=64|oBottom=0|oLeft=6}}
   |caption = Description for Reindeer
@@ -28,7 +28,7 @@ monster stag reindeer={{Enemy
   |drops = {{:Loot table/monster_stag_reindeer}}
   }}
 |-|
-monster stag reindeer T6={{Enemy
+monster_stag_reindeer_T6={{Enemy
   |title = Reindeer
   |image_original = {{CSS image crop|Image=beast_stag.png|bSize=256|cWidth=52|cHeight=64|oBottom=0|oLeft=6}}
   |caption = Description for Reindeer

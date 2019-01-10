@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster beast phoenix={{Enemy
+monster_beast_phoenix={{Enemy
   |title = Phoenix
   |image_original = {{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=43|cHeight=95|oBottom=0|oLeft=53}}
   |caption = Description for Phoenix
@@ -30,7 +30,7 @@ monster beast phoenix={{Enemy
   |drops = {{:Loot table/monster_beast_phoenix}}
   }}
 |-|
-monster beast phoenix rebirth={{Enemy
+monster_beast_phoenix_rebirth={{Enemy
   |title = Phoenix
   |image_original = {{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=94|cHeight=96|oBottom=192|oLeft=96}}
   |location = 

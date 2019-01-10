@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss undying rogue world={{Enemy
+boss_undying_rogue_world={{Enemy
   |title = Undying Infiltrator
   |image_original = {{CSS image crop|Image=undying_rogue.png|bSize=192|cWidth=34|cHeight=34|oBottom=62|oLeft=148}}
   |location = 
@@ -26,7 +26,7 @@ boss undying rogue world={{Enemy
     {{!}}}
   }}
 |-|
-boss undying rogue={{Enemy
+boss_undying_rogue={{Enemy
   |title = Undying Infiltrator
   |image_original = {{CSS image crop|Image=undying_rogue.png|bSize=192|cWidth=34|cHeight=34|oBottom=62|oLeft=148}}
   |location = 

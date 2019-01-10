@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss dreadnought head2={{Enemy
+boss_dreadnought_head2={{Enemy
   |title = Dreadnought
   |image_original = {{CSS image crop|Image=Boss_dreadnought.png|bSize=512|cWidth=126|cHeight=108|oBottom=12|oLeft=0}}
   |location = 
@@ -30,7 +30,7 @@ boss dreadnought head2={{Enemy
     {{!}}}
   }}
 |-|
-boss dreadnought head={{Enemy
+boss_dreadnought_head={{Enemy
   |title = Dreadnought
   |image_original = {{CSS image crop|Image=Boss_dreadnought.png|bSize=512|cWidth=126|cHeight=108|oBottom=12|oLeft=0}}
   |location = 

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss miragehunter ghost hardmode={{Enemy
+boss_miragehunter_ghost_hardmode={{Enemy
   |title = Greater Mirage Hunter
   |image_original = {{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
   |caption = Description for Greater Mirage Hunter
@@ -57,7 +57,7 @@ boss miragehunter ghost hardmode={{Enemy
     {{!}}}
   }}
 |-|
-boss miragehunter hardmode={{Enemy
+boss_miragehunter_hardmode={{Enemy
   |title = Greater Mirage Hunter
   |image_original = {{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
   |caption = Description for Greater Mirage Hunter

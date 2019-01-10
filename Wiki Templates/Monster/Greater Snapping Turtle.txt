@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster beast turtlesnap hardmode={{Enemy
+monster_beast_turtlesnap_hardmode={{Enemy
   |title = Greater Snapping Turtle
   |image_original = {{CSS image crop|Image=beast_turtlesnap.png|bSize=256|cWidth=53|cHeight=45|oBottom=17|oLeft=7}}
   |caption = Description for Greater Snapping Turtle
@@ -30,7 +30,7 @@ monster beast turtlesnap hardmode={{Enemy
   |drops = {{:Loot table/monster_beast_turtlesnap_hardmode}}
   }}
 |-|
-monster turtlesnap hardmode={{Enemy
+monster_turtlesnap_hardmode={{Enemy
   |title = Greater Snapping Turtle
   |image_original = {{CSS image crop|Image=beast_turtlesnap.png|bSize=256|cWidth=53|cHeight=45|oBottom=17|oLeft=7}}
   |caption = Description for Greater Snapping Turtle

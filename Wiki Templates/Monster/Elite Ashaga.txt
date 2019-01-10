@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster ashaga elite minion={{Enemy
+monster_ashaga_elite_minion={{Enemy
   |title = Elite Ashaga
   |image_original = {{CSS image crop|Image=Ashaga_Flying01.png|bSize=192|cWidth=46|cHeight=47|oBottom=1|oLeft=1}}
   |location = 
@@ -29,7 +29,7 @@ monster ashaga elite minion={{Enemy
     {{!}}}
   }}
 |-|
-monster ashaga elite={{Enemy
+monster_ashaga_elite={{Enemy
   |title = Elite Ashaga
   |image_original = {{CSS image crop|Image=Ashaga_Flying01.png|bSize=192|cWidth=46|cHeight=47|oBottom=1|oLeft=1}}
   |location = 

@@ -1,0 +1,1 @@
+[{"name":"OW_Wasteland_8","biome":"Dirt","difficulty":{"min":0.7,"max":0.8},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0.35,"isBoss":false,"autoPopulate":true,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss undying paladin world={{Enemy
+boss_undying_paladin_world={{Enemy
   |title = Undying Sentinel
   |image_original = {{CSS image crop|Image=undying_paladin.png|bSize=128|cWidth=31|cHeight=32|oBottom=32|oLeft=0}}
   |location = 
@@ -26,7 +26,7 @@ boss undying paladin world={{Enemy
     {{!}}}
   }}
 |-|
-boss undying paladin={{Enemy
+boss_undying_paladin={{Enemy
   |title = Undying Sentinel
   |image_original = {{CSS image crop|Image=undying_paladin.png|bSize=128|cWidth=31|cHeight=32|oBottom=32|oLeft=0}}
   |location = 

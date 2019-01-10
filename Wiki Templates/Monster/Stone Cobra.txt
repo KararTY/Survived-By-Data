@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster snake cobra stone={{Enemy
+monster_snake_cobra_stone={{Enemy
   |title = Stone Cobra
   |image_original = {{CSS image crop|Image=beast_snake_cobra_stone.png|bSize=256|cWidth=43|cHeight=45|oBottom=75|oLeft=12}}
   |caption = Description for Stone Cobra
@@ -42,7 +42,7 @@ monster snake cobra stone={{Enemy
   |drops = {{:Loot table/monster_snake_cobra_stone}}
   }}
 |-|
-monster snake cobra stone gorgon={{Enemy
+monster_snake_cobra_stone_gorgon={{Enemy
   |title = Stone Cobra
   |image_original = {{CSS image crop|Image=beast_snake_cobra_stone.png|bSize=256|cWidth=43|cHeight=45|oBottom=75|oLeft=12}}
   |caption = Description for Stone Cobra

@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-boss goliath3={{Enemy
+boss_goliath3={{Enemy
   |title = Goliath
   |image_original = {{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=123|cHeight=104|oBottom=26|oLeft=21}}
   |location = 
@@ -113,7 +113,7 @@ boss goliath3={{Enemy
   |drops = {{:Loot table/boss_goliath3}}
   }}
 |-|
-boss goliath2={{Enemy
+boss_goliath2={{Enemy
   |title = Goliath
   |image_original = {{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=113|cHeight=92|oBottom=23|oLeft=32}}
   |location = 
@@ -205,7 +205,7 @@ boss goliath2={{Enemy
     {{!}}}
   }}
 |-|
-boss goliath={{Enemy
+boss_goliath={{Enemy
   |title = Goliath
   |image_original = {{CSS image crop|Image=Boss_Goliath phase 1.png|bSize=640|cWidth=137|cHeight=115|oBottom=23|oLeft=16}}
   |caption = Description for Goliath

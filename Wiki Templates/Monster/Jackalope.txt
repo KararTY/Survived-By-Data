@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-tutorial monster chimera jackalope={{Enemy
+tutorial_monster_chimera_jackalope={{Enemy
   |title = Jackalope
   |image_original = {{CSS image crop|Image=chimera_jackalope.png|bSize=256|cWidth=39|cHeight=55|oBottom=38|oLeft=13}}
   |location = 
@@ -26,7 +26,7 @@ tutorial monster chimera jackalope={{Enemy
     {{!}}}
   }}
 |-|
-monster chimera jackalope dung={{Enemy
+monster_chimera_jackalope_dung={{Enemy
   |title = Jackalope
   |image_original = {{CSS image crop|Image=chimera_jackalope.png|bSize=256|cWidth=39|cHeight=55|oBottom=38|oLeft=13}}
   |caption = Description for Jackalope
