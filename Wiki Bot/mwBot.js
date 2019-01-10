@@ -32,7 +32,7 @@ function askToUpload(array, count, type) {
         if (!genString || (Date.parse(stdout) > Date.parse(genString))) {
           // There's an update, continue.
           console.log(`(${filename.split('.')[0]}) needs update!\tArticle: ${genString}\tLocal git: ${stdout}`)
-          goAhead({ type }, new Date(stdout).toUTCString())
+          goAhead({ type }, stdout ? new Date(stdout).toUTCString() : new Date().toUTCString())
         } else {
           console.log(`(${filename.split('.')[0]}) is already up to date.\tArticle: ${genString}\tLocal git: ${stdout}`)
           count++
