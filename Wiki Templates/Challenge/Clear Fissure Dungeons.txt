@@ -1,13 +1,13 @@
 {| class="infoboxtable"
   ! colspan="2" class="infoboxdetails" | <div>Clear Deep Night Fissures</div>
   |-
-  | <div>Achievement</div> || Yes
+  ! colspan="2" class="infoboxdetails" | <div>Achievement</div>
   |-
   | <div>Type</div> || Focus
   |-
   ! colspan="2" class="infoboxdetails" | <div>Rewards</div>
   |-
-  |{{:Loot table/Clear Fissure Dungeons}}
+  | colspan="2" | {{:Loot table/Clear Fissure Dungeons}}
 |}
 <includeonly>
 [[Category:Challenge]]

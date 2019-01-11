@@ -590,7 +590,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       template += `{| class="infoboxtable"
       ! colspan="2" class="infoboxdetails" | <div>${file[0].title}</div>
       |-
-      ${file[0].achievement ? `| <div>Achievement</div> || Yes
+      ${file[0].achievement ? `! colspan="2" class="infoboxdetails" | <div>Achievement</div>
       |-` : ``}
       ${file[0].challengeType && (file[0].challengeType !== '_Unknown') ? `| <div>Type</div> || ${file[0].challengeType}
       |-` : ``}
@@ -600,7 +600,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       |-` : ``}
       ${file.map(v => gLootData(v.data)).filter(Boolean).length > 0 ? `! colspan="2" class="infoboxdetails" | <div>Rewards</div>
       |-
-      |${[...new Set(file.map(v => gLootData(v.data)))].filter(Boolean).join('<br>')}` : ``}`.replace(/      [\n\r]+/g, '\n').replace(/\r?\n+|\r+/g, '\n').replace(/      /g, '  ').trim()
+      | colspan="2" | ${[...new Set(file.map(v => gLootData(v.data)))].filter(Boolean).join('<br>')}` : ``}`.replace(/      [\n\r]+/g, '\n').replace(/\r?\n+|\r+/g, '\n').replace(/      /g, '  ').trim()
       template += `\n|}\n<includeonly>\n`
       template += `\n[[Category:Challenge]]`
       template += file[0].achievement ? `\n[[Category:Achievement]]` : ``

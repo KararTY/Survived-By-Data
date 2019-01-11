@@ -1,7 +1,7 @@
 {| class="infoboxtable"
   ! colspan="2" class="infoboxdetails" | <div>Discover Frozen Haven</div>
   |-
-  | <div>Achievement</div> || Yes
+  ! colspan="2" class="infoboxdetails" | <div>Achievement</div>
   |-
   | <div>Type</div> || Potency
   |-
@@ -9,7 +9,7 @@
   |-
   ! colspan="2" class="infoboxdetails" | <div>Rewards</div>
   |-
-  |{{:Loot table/Discover Dun Haven}}
+  | colspan="2" | {{:Loot table/Discover Dun Haven}}
 |}
 <includeonly>
 [[Category:Challenge]]

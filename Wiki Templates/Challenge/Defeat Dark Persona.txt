@@ -1,13 +1,13 @@
 {| class="infoboxtable"
   ! colspan="2" class="infoboxdetails" | <div>Kill Dark Persona</div>
   |-
-  | <div>Achievement</div> || Yes
+  ! colspan="2" class="infoboxdetails" | <div>Achievement</div>
   |-
   | <div>Type</div> || Potency
   |-
   ! colspan="2" class="infoboxdetails" | <div>Rewards</div>
   |-
-  |{{:Loot table/Defeat Dark Persona}}
+  | colspan="2" | {{:Loot table/Defeat Dark Persona}}
 |}
 <includeonly>
 [[Category:Challenge]]

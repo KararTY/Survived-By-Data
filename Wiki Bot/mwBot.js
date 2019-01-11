@@ -52,6 +52,9 @@ function askToUpload(array, count, type) {
           var file = fs.readFileSync(path.join(__dirname, '..', 'Wiki Templates', obj.type, filename), 'utf8')
           if (date) file += `<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${date} -->`
           bot.edit(articleName, file, 'Generated with SB-Data bot.').then(response => {
+            if (obj.type === 'Challenge') {
+              bot.edit(articleName.replace('/info', ''), `{{/info}}`, 'Generated with SB-Data bot.')
+            }
             console.log(response)
             count++
             if (count === array.length) return console.log('Completed!')

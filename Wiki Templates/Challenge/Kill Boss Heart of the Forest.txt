@@ -1,13 +1,13 @@
 {| class="infoboxtable"
   ! colspan="2" class="infoboxdetails" | <div>Kill Heart of the Forest</div>
   |-
-  | <div>Achievement</div> || Yes
+  ! colspan="2" class="infoboxdetails" | <div>Achievement</div>
   |-
   | <div>Type</div> || Potency
   |-
   ! colspan="2" class="infoboxdetails" | <div>Rewards</div>
   |-
-  |{{:Loot table/Kill Boss Heart of the Forest}}
+  | colspan="2" | {{:Loot table/Kill Boss Heart of the Forest}}
 |}
 <includeonly>
 [[Category:Challenge]]

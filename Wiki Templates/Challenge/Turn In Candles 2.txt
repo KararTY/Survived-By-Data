@@ -1,7 +1,7 @@
 {| class="infoboxtable"
   ! colspan="2" class="infoboxdetails" | <div>Turn in Bundle of Candles (II)</div>
   |-
-  | <div>Achievement</div> || Yes
+  ! colspan="2" class="infoboxdetails" | <div>Achievement</div>
   |-
   | <div>Suffix</div> || Candles
   |-
@@ -9,7 +9,7 @@
   |-
   ! colspan="2" class="infoboxdetails" | <div>Rewards</div>
   |-
-  |{{:Loot table/Turn In Candles 2}}
+  | colspan="2" | {{:Loot table/Turn In Candles 2}}
 |}
 <includeonly>
 [[Category:Challenge]]

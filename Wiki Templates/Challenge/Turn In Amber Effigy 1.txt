@@ -1,13 +1,13 @@
 {| class="infoboxtable"
   ! colspan="2" class="infoboxdetails" | <div>Turn in Amber Effigy (I)</div>
   |-
-  | <div>Achievement</div> || Yes
+  ! colspan="2" class="infoboxdetails" | <div>Achievement</div>
   |-
   | <div>Suffix</div> || Amber Effigies
   |-
   ! colspan="2" class="infoboxdetails" | <div>Rewards</div>
   |-
-  |{{:Loot table/Turn In Amber Effigy 1}}
+  | colspan="2" | {{:Loot table/Turn In Amber Effigy 1}}
 |}
 <includeonly>
 [[Category:Challenge]]
