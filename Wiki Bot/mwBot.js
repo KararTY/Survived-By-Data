@@ -26,7 +26,7 @@ function askToUpload(array, count, type) {
   bot.read(articleName).then(article => {
     // Exists, check gen date & compare against git latest git commit.
     let articleText = article.query.pages[Object.keys(article.query.pages)[0]]['revisions'] ? article.query.pages[Object.keys(article.query.pages)[0]]['revisions'][0]['*'] : undefined
-    exec(`git log -1 --format=%cd "${path.join(__dirname, '..', 'Patch', type, filename.split('.')[0])}.json"`, (err, stdout, stderr) => {
+    exec(`git log -1 --format=%cd "${path.join(__dirname, '..', 'Wiki Templates', type, filename)}"`, (err, stdout, stderr) => {
     if (articleText) {
       let genString = articleText.match(/<!-- ALL LINES ABOVE ARE AUTOMATED[\w;: ,0-9]+ -->/) ? articleText.match(/<!-- ALL LINES ABOVE ARE AUTOMATED[\w;: ,0-9]+ -->/)[0].split(';').pop().replace('GENERATION DATE:', '').replace(' -->', '') : undefined
         if (!genString || genString === 'Invalid Date' || (Date.parse(stdout) > Date.parse(genString))) {
