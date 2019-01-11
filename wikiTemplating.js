@@ -600,7 +600,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       |-` : ``}
       ${file.map(v => gLootData(v.data)).filter(Boolean).length > 0 ? `! colspan="2" class="infoboxdetails" | <div>Rewards</div>
       |-
-      | colspan="2" | ${[...new Set(file.map(v => gLootData(v.data)))].filter(Boolean).join('<br>')}` : ``}`.replace(/      [\n\r]+/g, '\n').replace(/\r?\n+|\r+/g, '\n').replace(/      /g, '  ').trim()
+      ! colspan="2" | ${[...new Set(file.map(v => gLootData(v.data)))].filter(Boolean).join('<br>')}` : ``}`.replace(/      [\n\r]+/g, '\n').replace(/\r?\n+|\r+/g, '\n').replace(/      /g, '  ').trim()
       template += `\n|}\n<includeonly>\n`
       template += `\n[[Category:Challenge]]`
       template += file[0].achievement ? `\n[[Category:Achievement]]` : ``
