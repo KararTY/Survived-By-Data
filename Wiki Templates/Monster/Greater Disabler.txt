@@ -13,6 +13,7 @@ monster_agent_disabler_hardmode={{Enemy
   |damage_bonus = 320
   |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 315
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -97,6 +98,7 @@ monster_agent_disabler_hardmode_dangerous={{Enemy
   |damage_bonus = 480
   |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 325
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

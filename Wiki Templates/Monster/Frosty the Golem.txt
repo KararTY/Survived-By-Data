@@ -9,6 +9,7 @@ WinterHoliday Pet2 T1={{Enemy
   |level = 4
   |max_health = {{Icon|Health|nolink=1}} 15
   |damage_bonus = ((5+([@Player.Potency]*([@Player.Level]/25)))*1.5)*0.05<br>'''1'''
+  |special_weapon_damage = ((5+([@Player.Potency]*([@Player.Level]/25)))*1.5)*0.05<br>'''1'''
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -37,6 +38,7 @@ WinterHoliday Pet2 T2={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 37
   |experience = 40
   |damage_bonus = 1760
+  |special_weapon_damage = 220
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -65,6 +67,7 @@ WinterHoliday Pet2 T3={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 37
   |experience = 40
   |damage_bonus = 3480
+  |special_weapon_damage = 435
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -93,6 +96,7 @@ WinterHoliday Pet2 T4={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 37
   |experience = 40
   |damage_bonus = 5840
+  |special_weapon_damage = 730
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -121,6 +125,7 @@ WinterHoliday Pet2 T5={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 37
   |experience = 40
   |damage_bonus = 8320
+  |special_weapon_damage = 1040
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -149,6 +154,7 @@ WinterHoliday Pet2 T6={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 37
   |experience = 40
   |damage_bonus = 9200
+  |special_weapon_damage = 1150
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -177,6 +183,7 @@ WinterHoliday Pet2 T7={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 37
   |experience = 40
   |damage_bonus = 10080
+  |special_weapon_damage = 1260
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -205,6 +212,7 @@ WinterHoliday Pet2 T8={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 37
   |experience = 40
   |damage_bonus = 10920
+  |special_weapon_damage = 1365
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -233,6 +241,7 @@ WinterHoliday Pet2 T9={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 37
   |experience = 40
   |damage_bonus = 11800
+  |special_weapon_damage = 1475
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -261,6 +270,7 @@ WinterHoliday Pet2 T10={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 37
   |experience = 40
   |damage_bonus = 12640
+  |special_weapon_damage = 1580
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

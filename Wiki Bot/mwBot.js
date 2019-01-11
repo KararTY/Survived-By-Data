@@ -22,14 +22,14 @@ function ask(question, callback) {
 
 function askToUpload(array, count, type) {
   var filename = array[count]
-  let articleName = type === 'LootTable' ? `Loot_table/${filename.split('.')[0]}` : `${filename.split('.')[0]}/info`
+  let articleName = type === 'LootTable' ? `Loot_table/${filename.split('.')[0]}` : type === 'Challenge' ? `Challenge/${filename.split('.')[0]}/info` : `${filename.split('.')[0]}/info`
   bot.read(articleName).then(article => {
     // Exists, check gen date & compare against git latest git commit.
     let articleText = article.query.pages[Object.keys(article.query.pages)[0]]['revisions'] ? article.query.pages[Object.keys(article.query.pages)[0]]['revisions'][0]['*'] : undefined
     exec(`git log -1 --format=%cd "${path.join(__dirname, '..', 'Patch', type, filename.split('.')[0])}.json"`, (err, stdout, stderr) => {
     if (articleText) {
       let genString = articleText.match(/<!-- ALL LINES ABOVE ARE AUTOMATED[\w;: ,0-9]+ -->/) ? articleText.match(/<!-- ALL LINES ABOVE ARE AUTOMATED[\w;: ,0-9]+ -->/)[0].split(';').pop().replace('GENERATION DATE:', '').replace(' -->', '') : undefined
-        if (!genString || (Date.parse(stdout) > Date.parse(genString))) {
+        if (!genString || genString === 'Invalid Date' || (Date.parse(stdout) > Date.parse(genString))) {
           // There's an update, continue.
           console.log(`(${filename.split('.')[0]}) needs update!\tArticle: ${genString}\tLocal git: ${stdout}`)
           goAhead({ type }, stdout ? new Date(stdout).toUTCString() : new Date().toUTCString())
@@ -50,7 +50,7 @@ function askToUpload(array, count, type) {
         case 'yes':
         case 'y':
           var file = fs.readFileSync(path.join(__dirname, '..', 'Wiki Templates', obj.type, filename), 'utf8')
-          if (date) file += `\n\n<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${date} -->`
+          if (date) file += `<!-- ALL LINES ABOVE ARE AUTOMATED, CHANGES DONE ABOVE MAY BE OVERWRITTEN;GENERATION DATE:${date} -->`
           bot.edit(articleName, file, 'Generated with SB-Data bot.').then(response => {
             console.log(response)
             count++
@@ -94,6 +94,12 @@ bot.loginGetEditToken({
         var array = fs.readdirSync(path.join(__dirname, '..', 'Wiki Templates', 'LootTable'))
         var count = 0
         askToUpload(array, count, 'LootTable')
+        break
+      case 'challenge':
+      case 'clg':
+        var array = fs.readdirSync(path.join(__dirname, '..', 'Wiki Templates', 'Challenge'))
+        var count = 0
+        askToUpload(array, count, 'Challenge')
         break
       default:
         process.exit(1)

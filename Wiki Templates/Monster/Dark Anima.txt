@@ -13,6 +13,7 @@ monster_anima_darkT1={{Enemy
   |damage_bonus = 18
   |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 10
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -83,6 +84,7 @@ monster_anima_darkT2={{Enemy
   |damage_bonus = 40
   |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 30
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -153,6 +155,7 @@ monster_anima_darkT3={{Enemy
   |damage_bonus = 60
   |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 55
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -223,6 +226,7 @@ monster_anima_darkT4={{Enemy
   |damage_bonus = 95
   |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 100
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -293,6 +297,7 @@ monster_anima_darkT5={{Enemy
   |damage_bonus = 140
   |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 113.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 150
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -363,6 +368,7 @@ monster_anima_darkT6={{Enemy
   |damage_bonus = 205
   |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 180
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -433,6 +439,7 @@ monster_anima_darkT7={{Enemy
   |damage_bonus = 230
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 210
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -503,6 +510,7 @@ monster_anima_darkT8={{Enemy
   |damage_bonus = 260
   |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 270
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -572,6 +580,7 @@ monster_anima_darkT9={{Enemy
   |damage_bonus = 320
   |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 340
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

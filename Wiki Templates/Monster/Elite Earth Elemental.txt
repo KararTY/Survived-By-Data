@@ -13,6 +13,7 @@
   |damage_bonus = 22
   |accuracy = 153.6<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 26.8<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 15
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

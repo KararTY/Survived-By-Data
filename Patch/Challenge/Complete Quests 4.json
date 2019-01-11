@@ -1,1 +1,1 @@
-[{"name":"Complete Quests 4","title":"Complete Quests (IV)","description":"Complete {0} quests","challengeValueSuffix":"Quests","challengeType":"_Unknown","achievement":false,"prerequisites":["Complete Quests (III)"],"data":[{"loot":{"name":"Challenge4"}}]}]
+[{"name":"Complete Quests 4","title":"Complete Quests (IV)","description":"Complete {0} quests","challengeValueSuffix":"Quests","challengeType":"_Unknown","achievement":false,"prerequisites":[["Complete Quests (III)","Complete Quests 3"]],"data":[{"loot":{"lootTable":{"name":"Complete Quests 4"}}}]}]

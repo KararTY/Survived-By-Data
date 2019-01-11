@@ -1,1 +1,1 @@
-[{"name":"Kill Fury 2","title":"Kill Fury","description":"Kill {0} fury","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":["Reach Level"],"data":[{"loot":{"name":"BountySlot2"}}]}]
+[{"name":"Kill Fury 2","title":"Kill Fury","description":"Kill {0} fury","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Reach Level","Reach Level 1"]],"data":[{"loot":{"lootTable":{"name":"Kill Fury 2"}}}]}]

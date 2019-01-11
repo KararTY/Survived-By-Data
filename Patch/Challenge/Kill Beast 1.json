@@ -1,1 +1,1 @@
-[{"name":"Kill Beast 1","title":"Kill Beasts (I)","description":"Kill {0} beasts","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"name":"Challenge1"}}]}]
+[{"name":"Kill Beast 1","title":"Kill Beasts (I)","description":"Kill {0} beasts","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Kill Beast 1"}}}]}]

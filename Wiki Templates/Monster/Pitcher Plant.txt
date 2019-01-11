@@ -13,6 +13,7 @@ plant_grenade={{Enemy
   |damage_bonus = 143
   |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |critical_defense = 113.2<br><small>([Level]x[Level])x0.2 + 25</small>
+  |special_weapon_damage = 120
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

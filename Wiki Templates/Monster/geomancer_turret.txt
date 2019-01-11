@@ -5,6 +5,7 @@
   |category = None
   |max_health = {{Icon|Health|nolink=1}} if([@Player.HealthMax]>0,[@Player.HealthMax]*0.1,1)<br>'''15'''
   |damage_bonus = [@Player.SpecialWeaponDamage]<br>'''1'''
+  |special_weapon_damage = [@Player.SpecialWeaponDamage]<br>'''1'''
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

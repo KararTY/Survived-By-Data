@@ -1,1 +1,1 @@
-[{"name":"Survive Debuffs 4","title":"Survive Debuffs (IV)","description":"Survive {0} debuffs","challengeValueSuffix":"Debuffs","challengeType":"_Unknown","achievement":false,"prerequisites":["Survive Debuffs (III)"],"data":[{"loot":{"name":"Challenge4"}}]}]
+[{"name":"Survive Debuffs 4","title":"Survive Debuffs (IV)","description":"Survive {0} debuffs","challengeValueSuffix":"Debuffs","challengeType":"_Unknown","achievement":false,"prerequisites":[["Survive Debuffs (III)","Survive Debuffs 3"]],"data":[{"loot":{"lootTable":{"name":"Survive Debuffs 4"}}}]}]

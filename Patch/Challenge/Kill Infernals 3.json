@@ -1,1 +1,1 @@
-[{"name":"Kill Infernals 3","title":"Kill Infernals (III)","description":"Kill {0} infernals","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":["Kill Infernals (II)"],"data":[{"loot":{"name":"Challenge3"}}]}]
+[{"name":"Kill Infernals 3","title":"Kill Infernals (III)","description":"Kill {0} infernals","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Infernals (II)","Kill Infernals 2"]],"data":[{"loot":{"lootTable":{"name":"Kill Infernals 3"}}}]}]

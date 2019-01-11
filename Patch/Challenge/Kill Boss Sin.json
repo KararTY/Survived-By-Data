@@ -1,1 +1,1 @@
-[{"name":"Kill Boss Sin","title":"Kill Sin","description":"Kill Sin","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Premium Ancestral Legacy","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false}]}}]}]
+[{"name":"Kill Boss Sin","title":"Kill Sin","description":"Kill Sin","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Sin"}}}]}]

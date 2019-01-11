@@ -1343,7 +1343,13 @@ module.exports = () => {
                 }
               })
             }
-          } else return undefined
+          } /*else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array dialogues'] && f['0 MonoBehaviour Base']['0 Array dialogues'].length > 0) {
+            return {
+              dialogues: {
+                
+              }
+            }
+          }*/ else return undefined
         }).filter(Boolean)
       }
 
@@ -1504,7 +1510,7 @@ module.exports = () => {
         prerequisites: file['0 MonoBehaviour Base']['0 Array prerequisites'].length > 0
           ? file['0 MonoBehaviour Base']['0 Array prerequisites'].map(v => {
             var p = require(path.join(folder['Challenge'], fileMap(v['0 PPtr<$Challenge> data']['0 int m_FileID']) + v['0 PPtr<$Challenge> data']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']
-            return translate[p['1 string ChallengeTitle']] || p['1 string ChallengeTitle']
+            return [translate[p['1 string ChallengeTitle']] || p['1 string ChallengeTitle'], require(path.join(folder['Other'], fileMap(p['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + p['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']]
           })
           : undefined,
         data: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
@@ -1512,29 +1518,11 @@ module.exports = () => {
             var f = require(path.join(folder['LootTable'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
             if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array lootTable']) {
               return {
-                loot: f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0
-                  ? (function () {
-                    var lootTable = require(path.join(folder['LootTable'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] + '.json'))
-                    return {
-                      name: require(path.join(folder['Other'], fileMap(lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + lootTable['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
-                    }
-                  })()
-                  : {
-                    guaranteeItemCount: f['0 MonoBehaviour Base']['0 int guaranteeItemCount'],
-                    maximumItemCount: f['0 MonoBehaviour Base']['0 int maximumItemCount'],
-                    lootTable: f['0 MonoBehaviour Base']['0 Array lootTable'].map(v => {
-                      return {
-                        item: translate[require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name']] || require(path.join(folder['ItemDefinition'], fileMap(v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 int m_FileID']) + v['0 Deity.Shared.LootEntry data']['0 PPtr<$ItemDefinition> item']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']['1 string Name'],
-                        count: {
-                          dice: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int dice'],
-                          faces: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int faces'],
-                          add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
-                        },
-                        chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
-                        allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
-                      }
-                    })
+                loot: {
+                  lootTable: {
+                    name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
                   }
+                }
               }
             }
           } else return undefined

@@ -1,0 +1,14 @@
+{| class="infoboxtable"
+  ! colspan="2" class="infoboxdetails" | <div>Do Damage</div>
+  |-
+  | <div>Suffix</div> || Damage
+  |-
+  | <div>Prerequisites</div> || [[Challenge/Reach Level 1|Reach Level]]<br>[[Challenge/Points of Damage 1|Deal Points of Damage (I)]]
+  |-
+  ! colspan="2" class="infoboxdetails" | <div>Rewards</div>
+  |-
+  |{{:Loot table/Points of Damage 2}}
+|}
+<includeonly>
+[[Category:Challenge]]
+</includeonly>

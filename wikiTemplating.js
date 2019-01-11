@@ -336,6 +336,7 @@ module.exports = (() => {
         ${gStatsData(item.data, 'DamageBonus') ? `|damage_bonus = ${gStatsData(item.data, 'DamageBonus')}` : ''}
         ${gStatsData(item.data, 'Accuracy') ? `|accuracy = ${gStatsData(item.data, 'Accuracy')}` : ''}
         ${gStatsData(item.data, 'CriticalDefense') ? `|critical_defense = ${gStatsData(item.data, 'CriticalDefense')}` : ''}
+        ${gStatsData(item.data, 'SpecialWeaponDamage') ? `|special_weapon_damage = ${gStatsData(item.data, 'SpecialWeaponDamage')}` : ''}
         ${gWeapons(item.weapons) ? `|weapons = ${gWeapons(item.weapons)}` : ''}
         ${(gData(item.data, 'healthDialogue') || gData(item.data, 'dialogue')) ? `|dialogue = ${gData(item.data, 'healthDialogue') ? gData(item.data, 'healthDialogue').map(v => `<u>'''${v.healthPercentage * 100}% health:'''</u> ''${v.message}''`).join('<br>') : gData(item.data, 'dialogue') ? gData(item.data, 'dialogue').map(v => `''${v.message}''`).join('<br>') : ''}` : ''}
         ${gLootData(item.data) ? `|drops = ${gLootData(item.data)}` : ''}
@@ -565,6 +566,47 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       template += `\n<includeonly>\n[[Category:Imprint]]\n[[Category:${itemModifier[0].category}]]\n</includeonly>`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder6, `${itemModifier[0].category}_${itemModifier[0].name}.txt`), template)
+    })
+  }
+  let folder7 = 'Challenge'
+  /**
+   * {| class="infoboxtable"
+   * ! colspan="2" class="infoboxdetails" | <div>${item.title}</div>
+   * |-
+   * ! colspan="2" class="infoboxdetails" | <div>Loot</div>
+   * |-
+   * |{{:Loot table/Reach Level 1}}
+   * |-
+   * | <div>Prerequisites</div> || [[Complete Daily Challenges (III)]]
+   * |}
+   */
+  if (folder[folder7]) {
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder7))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder7))
+    }
+    fs.readdirSync(folder[folder7]).forEach((val, ind) => {
+      var file = require(path.join(folder[folder7], val))
+      var template = ``
+      template += `{| class="infoboxtable"
+      ! colspan="2" class="infoboxdetails" | <div>${file[0].title}</div>
+      |-
+      ${file[0].achievement ? `| <div>Achievement</div> || Yes
+      |-` : ``}
+      ${file[0].challengeType && (file[0].challengeType !== '_Unknown') ? `| <div>Type</div> || ${file[0].challengeType}
+      |-` : ``}
+      ${file[0].challengeValueSuffix ? `| <div>Suffix</div> || ${file[0].challengeValueSuffix}
+      |-` : ``}
+      ${file[0].prerequisites ? `| <div>Prerequisites</div> || ${file.map(v => v.prerequisites.map(v => `[[Challenge/${v[1]}|${v[0]}]]`).join('<br>')).join('<br>')}
+      |-` : ``}
+      ${file.map(v => gLootData(v.data)).filter(Boolean).length > 0 ? `! colspan="2" class="infoboxdetails" | <div>Rewards</div>
+      |-
+      |${[...new Set(file.map(v => gLootData(v.data)))].filter(Boolean).join('<br>')}` : ``}`.replace(/      [\n\r]+/g, '\n').replace(/\r?\n+|\r+/g, '\n').replace(/      /g, '  ').trim()
+      template += `\n|}\n<includeonly>\n`
+      template += `\n[[Category:Challenge]]`
+      template += file[0].achievement ? `\n[[Category:Achievement]]` : ``
+      template += `\n</includeonly>`
+      template = template.replace(/\r?\n+|\r+/g, '\n').trim()
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder7, `${file[0].name}.txt`), template)
     })
   }
 })()

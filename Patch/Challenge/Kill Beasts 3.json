@@ -1,1 +1,1 @@
-[{"name":"Kill Beasts 3","title":"Kill Beasts","description":"Kill {0} beasts","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":["Reach Level"],"data":[{"loot":{"name":"BountySlot3"}}]}]
+[{"name":"Kill Beasts 3","title":"Kill Beasts","description":"Kill {0} beasts","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Reach Level","Reach Level 2"]],"data":[{"loot":{"lootTable":{"name":"Kill Beasts 3"}}}]}]

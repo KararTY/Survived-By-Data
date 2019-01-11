@@ -1,1 +1,1 @@
-[{"name":"Activate Altars 1","title":"Activate Altars (I)","description":"Activate {0} altars","challengeValueSuffix":"Altars","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"name":"Challenge1"}}]}]
+[{"name":"Activate Altars 1","title":"Activate Altars (I)","description":"Activate {0} altars","challengeValueSuffix":"Altars","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Activate Altars 1"}}}]}]
