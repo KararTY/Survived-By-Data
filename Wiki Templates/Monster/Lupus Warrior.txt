@@ -31,15 +31,17 @@ monster_chimera_wolfwarrior_tutorial_easy={{Enemy
     {{!}}-
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_wolfwarrior_tutorial_easy}}
   }}
@@ -76,15 +78,17 @@ monster_chimera_wolfwarrior_tutorial_medium={{Enemy
     {{!}}-
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_wolfwarrior_tutorial_medium}}
   }}
@@ -121,15 +125,17 @@ monster_chimera_wolfwarrior_tutorial_hard={{Enemy
     {{!}}-
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_wolfwarrior_tutorial_hard}}
   }}
@@ -168,15 +174,17 @@ monster_chimera_wolfwarrior={{Enemy
     {{!}}-
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_wolfwarrior}}
   }}
@@ -189,7 +197,7 @@ invasion_T5_wolfwarrior={{Enemy
   |category = Chimera
   |tier = 5
   |level = 22
-  |max_health = {{Icon|Health|nolink=1}} 9600
+  |max_health = {{Icon|Health|nolink=1}} 19200
   |experience = 550
   |damage_bonus = 163
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
@@ -215,15 +223,17 @@ invasion_T5_wolfwarrior={{Enemy
     {{!}}-
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/invasion_T5_wolfwarrior}}
   }}

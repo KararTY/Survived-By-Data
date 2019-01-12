@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_director|boss_director]])'''
 {|class="sortable"
 |-
@@ -38,8 +36,6 @@
 |-
 | x1 || {{Icon|Kukri}} || style="text-align:right" | 6% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_director}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

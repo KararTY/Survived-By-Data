@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/ImprintArmorPrefix}}'''Loot table: ([[Loot table/boss_dark_persona|boss_dark_persona]])'''
 <br>Guaranteed drop amount: 2<br>Maximum drop amount: 3
 {|class="sortable"
@@ -11,8 +9,6 @@
 |-
 |  || {{Icon|Pristine Iris Mounting}} || style="text-align:right" | 1% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_dark_persona}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

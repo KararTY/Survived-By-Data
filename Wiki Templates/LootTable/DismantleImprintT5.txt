@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/DismantleImprintT5|DismantleImprintT5]])'''
 <br>Guaranteed drop amount: 1
 {|class="sortable"
@@ -9,8 +7,6 @@
 |-
 |  || {{Icon|Enriched Remnant}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/DismantleImprintT5}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

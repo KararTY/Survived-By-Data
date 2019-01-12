@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T2}}'''Loot table: ([[Loot table/monster_chimera_ram|monster_chimera_ram]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Raw Strands}} || style="text-align:right" | 10% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_chimera_ram}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

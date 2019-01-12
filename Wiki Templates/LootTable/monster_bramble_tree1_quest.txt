@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 <div class="tabbertab-borderless"><tabber>
 monster_bramble_tree1_quest 1=('''Quest loot table''') '''Loot table: ([[Loot table/monster_bramble_tree1_quest|monster_bramble_tree1_quest]])'''
 {|class="sortable"
@@ -13,8 +11,6 @@ monster_bramble_tree1_quest 1=('''Quest loot table''') '''Loot table: ([[Loot ta
 monster_bramble_tree1_quest 2=
 |-|
 </tabber></div>
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_bramble_tree1_quest}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

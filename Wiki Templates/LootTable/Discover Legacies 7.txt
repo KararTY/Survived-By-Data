@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/Discover Legacies 7|Discover Legacies 7]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Premium Ancestral Legacy}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Discover Legacies 7}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

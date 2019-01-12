@@ -38,7 +38,7 @@ invasion_T6_turtlesnap={{Enemy
   |category = Chimera
   |tier = 6
   |level = 26
-  |max_health = {{Icon|Health|nolink=1}} 21000
+  |max_health = {{Icon|Health|nolink=1}} 42000
   |experience = 750
   |damage_bonus = 220
   |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>

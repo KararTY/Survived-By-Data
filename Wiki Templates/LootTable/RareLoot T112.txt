@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/RareLoot T112|RareLoot T112]])'''
 {|class="sortable"
 |-
@@ -84,8 +82,6 @@
 |-
 | x1 || {{Icon|Rogue T11 Weapon v3 Volcano}} || style="text-align:right" | 2.5% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/RareLoot T112}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

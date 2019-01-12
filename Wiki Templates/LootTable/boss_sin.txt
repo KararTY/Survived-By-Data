@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/boss_sin|boss_sin]])'''
 <br>Maximum drop amount: 4
 {|class="sortable"
@@ -13,8 +11,6 @@
 |-
 | x1-9 || {{Icon|Lapis Core}} || style="text-align:right" | 30% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_sin}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

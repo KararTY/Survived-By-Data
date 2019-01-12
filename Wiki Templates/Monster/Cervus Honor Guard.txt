@@ -33,15 +33,17 @@ monster_chimera_stag_feral_dung={{Enemy
     {{!}}-
     {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 9
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_stag_feral_dung}}
   }}
@@ -80,15 +82,17 @@ monster_chimera_stag_feral_dung_hardmode={{Enemy
     {{!}}-
     {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 9
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_stag_feral_dung_hardmode}}
   }}

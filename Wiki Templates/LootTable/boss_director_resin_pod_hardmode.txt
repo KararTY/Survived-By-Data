@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/boss_director_resin_pod_hardmode|boss_director_resin_pod_hardmode]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Log}} || style="text-align:right" | 9% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_director_resin_pod_hardmode}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

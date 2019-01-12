@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_director_HardMode|boss_director_HardMode]])'''
 {|class="sortable"
 |-
@@ -42,8 +40,6 @@
 |-
 | x1 || {{Icon|Blades of the Antecedent}} || style="text-align:right" | 2% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_director_HardMode}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

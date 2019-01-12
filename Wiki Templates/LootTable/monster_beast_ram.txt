@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T1}}'''Loot table: ([[Loot table/monster_beast_ram|monster_beast_ram]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Strands}} || style="text-align:right" | 20% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_beast_ram}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

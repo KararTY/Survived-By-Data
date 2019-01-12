@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/Quest Infiltrator4|Quest Infiltrator4]])'''
 {|class="sortable"
 |-
@@ -12,8 +10,6 @@
 |-
 | x1 || {{Icon|Cloak of the Infiltrator (IV)}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Quest Infiltrator4}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

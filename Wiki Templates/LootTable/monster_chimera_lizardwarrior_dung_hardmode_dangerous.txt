@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T9}}'''Loot table: ([[Loot table/monster_chimera_lizardwarrior_dung_hardmode_dangerous|monster_chimera_lizardwarrior_dung_hardmode_dangerous]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Enriched Leather}} || style="text-align:right" | 5% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_chimera_lizardwarrior_dung_hardmode_dangerous}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

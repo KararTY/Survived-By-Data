@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/monster_kraken|monster_kraken]])'''
 {|class="sortable"
 |-
@@ -38,8 +36,6 @@
 |-
 | x1 || {{Icon|Khopesh}} || style="text-align:right" | 6% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_kraken}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/Quest Middle Age Mutant Turtles|Quest Middle Age Mutant Turtles]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x3 || {{Icon|Bloodstone}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Quest Middle Age Mutant Turtles}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

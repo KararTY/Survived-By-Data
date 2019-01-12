@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/boss_elementalspirit_armor_seed|boss_elementalspirit_armor_seed]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Log}} || style="text-align:right" | 9% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_elementalspirit_armor_seed}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

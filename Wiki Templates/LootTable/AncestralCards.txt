@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/AncestralCards|AncestralCards]])'''
 <br>Guaranteed drop amount: 1
 {|class="sortable"
@@ -15,8 +13,6 @@
 |-
 | x1 || {{Icon|Random Legendary Ancestral Legacy}} || style="text-align:right" | 0.001% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/AncestralCards}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

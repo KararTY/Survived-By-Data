@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/subboss_lavahunter|subboss_lavahunter]])'''
 {|class="sortable"
 |-
@@ -14,8 +12,6 @@
 |-
 | x1 || {{Icon|Eye of Obsidian (Energy)}} || style="text-align:right" | 20% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/subboss_lavahunter}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

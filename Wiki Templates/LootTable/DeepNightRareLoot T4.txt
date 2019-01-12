@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/ImprintArmorPrefix}}'''Loot table: ([[Loot table/DeepNightRareLoot T4|DeepNightRareLoot T4]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x8-38 || {{Icon|Silver}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/DeepNightRareLoot T4}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

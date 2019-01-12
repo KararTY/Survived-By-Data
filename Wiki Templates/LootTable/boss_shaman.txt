@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_shaman|boss_shaman]])'''
 {|class="sortable"
 |-
@@ -40,8 +38,6 @@
 |-
 | x1 || {{Icon|Permafrost Knives}} || style="text-align:right" | 8% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_shaman}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

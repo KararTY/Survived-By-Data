@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/CharmLoot T10|CharmLoot T10]])'''
 <br>Maximum drop amount: 1
 {|class="sortable"
@@ -87,8 +85,6 @@
 |-
 | x1 || {{Icon|Rate of Attack Charm V}} || style="text-align:right" | 2% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/CharmLoot T10}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

@@ -38,7 +38,7 @@ invasion_T3_lionwarrior={{Enemy
   |category = Chimera
   |tier = 3
   |level = 12
-  |max_health = {{Icon|Health|nolink=1}} 1320
+  |max_health = {{Icon|Health|nolink=1}} 2640
   |experience = 170
   |damage_bonus = 70
   |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>

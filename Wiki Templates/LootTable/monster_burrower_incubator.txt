@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T5}}'''Loot table: ([[Loot table/monster_burrower_incubator|monster_burrower_incubator]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Resin}} || style="text-align:right" | 20% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_burrower_incubator}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

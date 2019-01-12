@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/RareLoot T4}}'''Loot table: ([[Loot table/HavenChestSpawner|HavenChestSpawner]])'''
 {|class="sortable"
 |-
@@ -12,8 +10,6 @@
 |-
 | x1 || {{Icon|Deep Rime Catalyst}} || style="text-align:right" | 30% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/HavenChestSpawner}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

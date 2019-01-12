@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/RareLoot T7}}'''Loot table: ([[Loot table/LootBox T7|LootBox T7]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x7-27 || {{Icon|Bloodstone}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/LootBox T7}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

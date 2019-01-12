@@ -1,14 +1,10 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 <div class="tabbertab-borderless"><tabber>
 Complete Quests 1 1={{:Loot table/Challenge1}}
 |-|
 Complete Quests 1 2={{:Loot table/BountySlot1}}
 |-|
 </tabber></div>
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Complete Quests 1}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

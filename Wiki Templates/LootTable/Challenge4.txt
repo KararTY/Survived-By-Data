@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/Challenge4|Challenge4]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Premium Ancestral Legacy}} || style="text-align:right" | 25% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Challenge4}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

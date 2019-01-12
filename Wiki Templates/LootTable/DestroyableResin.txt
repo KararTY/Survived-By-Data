@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/DestroyableResin|DestroyableResin]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1-5 || {{Icon|Raw Resin}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/DestroyableResin}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

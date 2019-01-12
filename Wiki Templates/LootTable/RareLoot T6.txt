@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CharmLoot T6}}'''Loot table: ([[Loot table/RareLoot T6|RareLoot T6]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Straits of the Deep Key}} || style="text-align:right" | 21% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/RareLoot T6}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

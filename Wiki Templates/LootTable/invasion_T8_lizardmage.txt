@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T8}}'''Loot table: ([[Loot table/invasion_T8_lizardmage|invasion_T8_lizardmage]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Raw Pelt}} || style="text-align:right" | 10% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/invasion_T8_lizardmage}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

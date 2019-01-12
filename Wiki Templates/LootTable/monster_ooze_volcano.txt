@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T10}}'''Loot table: ([[Loot table/monster_ooze_volcano|monster_ooze_volcano]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Enriched Obsidian}} || style="text-align:right" | 10% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_ooze_volcano}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

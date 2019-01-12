@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/RareLoot T15}}'''Loot table: ([[Loot table/LootBox T15|LootBox T15]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1-13 || {{Icon|Bloodstone}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/LootBox T15}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

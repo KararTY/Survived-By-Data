@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/Kill Boss Shaman Hard|Kill Boss Shaman Hard]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Slayer of the Chimeric Chieftain}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Kill Boss Shaman Hard}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

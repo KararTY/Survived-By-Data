@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T3}}'''Loot table: ([[Loot table/manifestation_of_sin_lesser|manifestation_of_sin_lesser]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Lapis Fragment}} || style="text-align:right" | 50% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/manifestation_of_sin_lesser}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

@@ -33,15 +33,17 @@ monster_wolfwarrior_elite={{Enemy
     {{!}}-
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   }}
 |-|
@@ -78,15 +80,17 @@ monster_wolfwarrior_elite_minion={{Enemy
     {{!}}-
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   }}
 |-|

@@ -364,7 +364,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     }
     fs.readdirSync(folder[folder3]).forEach((val, ind) => {
       var file = require(path.join(folder[folder3], val))
-      var template = `<noinclude>\n'''{{PAGENAME}}'''\n\n</noinclude>\n\n`
+      var template = `<noinclude>'''{{PAGENAME}}'''</noinclude>\n`
       var count = 0
       file.sort((a, b) => {
         return b.lootTable.length - a.lootTable.length
@@ -376,7 +376,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
         template += arr.length > 1 ? `\n|-|\n` : ''
       })
       template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
-      template += `\n<noinclude>\n<hr>\n{{Special:Whatlinkshere/Loot table/${file[0].from}}}\n[[Category:Loot table]]\n</noinclude>\n`
+      template += `\n<noinclude><hr>\n{{Special:Whatlinkshere/Loot table/${file[0].from}}}\n[[Category:Loot table]]</noinclude>`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder3, `${file[0].from}.txt`), template)
     })

@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T6}}'''Loot table: ([[Loot table/monster_piranha_fishing_spider|monster_piranha_fishing_spider]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Pelt}} || style="text-align:right" | 3% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_piranha_fishing_spider}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/DismantleRandomImprint|DismantleRandomImprint]])'''
 <br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
 {|class="sortable"
@@ -113,8 +111,6 @@
 |-
 |  || {{Icon|Emoji Silver}} || style="text-align:right" | 0% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/DismantleRandomImprint}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

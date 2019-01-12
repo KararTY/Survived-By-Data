@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T8}}'''Loot table: ([[Loot table/monster_spider_fire_fissure|monster_spider_fire_fissure]])'''
 {|class="sortable"
 |-
@@ -14,8 +12,6 @@
 |-
 | x1 || {{Icon|Arachnid Nightmare}} || style="text-align:right" | 1% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_spider_fire_fissure}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

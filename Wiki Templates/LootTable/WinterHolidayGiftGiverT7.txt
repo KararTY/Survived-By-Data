@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/WinterHolidayGiftGiverT7|WinterHolidayGiftGiverT7]])'''
 <br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
 {|class="sortable"
@@ -21,8 +19,6 @@
 |-
 | x1 || {{Icon|Arachnid Nightmare}} || style="text-align:right" | 5% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/WinterHolidayGiftGiverT7}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

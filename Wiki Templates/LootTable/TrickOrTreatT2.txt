@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/TrickOrTreatT2|TrickOrTreatT2]])'''
 <br>Guaranteed drop amount: 3
 {|class="sortable"
@@ -19,8 +17,6 @@
 |-
 | x1 || {{Icon|Energy Potion}} || style="text-align:right" | 1% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/TrickOrTreatT2}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

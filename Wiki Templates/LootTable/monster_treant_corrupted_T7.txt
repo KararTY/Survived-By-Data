@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T7}}'''Loot table: ([[Loot table/monster_treant_corrupted_T7|monster_treant_corrupted_T7]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Log}} || style="text-align:right" | 6% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_treant_corrupted_T7}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

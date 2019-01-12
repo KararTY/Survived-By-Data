@@ -31,15 +31,17 @@ monster_chimera_lizardwarrior_dung_hardmode={{Enemy
     {{!}}-
     {{!}} '''chimera lizardwarrior melee projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=35|cHeight=31|oBottom=135|oLeft=24}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_lizardwarrior_dung_hardmode}}
   }}
@@ -76,15 +78,17 @@ monster_chimera_lizardwarrior_dung_hardmode_dangerous={{Enemy
     {{!}}-
     {{!}} '''chimera lizardwarrior melee projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=35|cHeight=31|oBottom=135|oLeft=24}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_lizardwarrior_dung_hardmode_dangerous}}
   }}

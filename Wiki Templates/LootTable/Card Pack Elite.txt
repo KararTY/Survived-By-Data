@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/Card Pack Elite|Card Pack Elite]])'''
 <br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
 {|class="sortable"
@@ -11,8 +9,6 @@
 |-
 | x1 || {{Icon|Random Legendary Ancestral Legacy}} || style="text-align:right" | 0.1% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Card Pack Elite}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

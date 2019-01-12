@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/RareLoot T4|RareLoot T4]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Frozen Haven Key}} || style="text-align:right" | 27% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/RareLoot T4}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

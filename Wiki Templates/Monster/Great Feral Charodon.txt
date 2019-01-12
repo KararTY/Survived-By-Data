@@ -38,7 +38,7 @@ invasion_T7_shark_white_great={{Enemy
   |category = Chimera
   |tier = 7
   |level = 27
-  |max_health = {{Icon|Health|nolink=1}} 31500
+  |max_health = {{Icon|Health|nolink=1}} 63000
   |experience = 775
   |damage_bonus = 253
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>

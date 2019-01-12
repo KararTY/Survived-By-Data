@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/RareLoot T2}}'''Loot table: ([[Loot table/CaveChestSpawner|CaveChestSpawner]])'''
 {|class="sortable"
 |-
@@ -12,8 +10,6 @@
 |-
 | x1 || {{Icon|Rosin Catalyst}} || style="text-align:right" | 30% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/CaveChestSpawner}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

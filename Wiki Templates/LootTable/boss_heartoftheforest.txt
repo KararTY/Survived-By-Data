@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_heartoftheforest|boss_heartoftheforest]])'''
 {|class="sortable"
 |-
@@ -38,8 +36,6 @@
 |-
 | x1 || {{Icon|Hollow Dagger}} || style="text-align:right" | 5% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_heartoftheforest}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

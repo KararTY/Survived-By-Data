@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 <div class="tabbertab-borderless"><tabber>
 invasion_T3_lionmage 1={{:Loot table/CommonLoot T3}}'''Loot table: ([[Loot table/invasion_T3_lionmage|invasion_T3_lionmage]])'''
 {|class="sortable"
@@ -21,8 +19,6 @@ invasion_T3_lionmage 2=('''Quest loot table''') '''Loot table: ([[Loot table/inv
 |}
 |-|
 </tabber></div>
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/invasion_T3_lionmage}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

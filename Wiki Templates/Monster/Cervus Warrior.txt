@@ -33,15 +33,17 @@ monster_chimera_stag_feral={{Enemy
     {{!}}-
     {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 9
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_stag_feral}}
   }}
@@ -54,7 +56,7 @@ invasion_T2_stag_feral={{Enemy
   |category = Chimera
   |tier = 2
   |level = 7
-  |max_health = {{Icon|Health|nolink=1}} 360
+  |max_health = {{Icon|Health|nolink=1}} 720
   |experience = 65
   |damage_bonus = 45
   |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
@@ -80,15 +82,17 @@ invasion_T2_stag_feral={{Enemy
     {{!}}-
     {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 9
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/invasion_T2_stag_feral}}
   }}
@@ -125,15 +129,17 @@ monster_chimera_stag_feral_tutorial_easy={{Enemy
     {{!}}-
     {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 9
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_stag_feral_tutorial_easy}}
   }}
@@ -170,15 +176,17 @@ monster_chimera_stag_feral_tutorial_medium={{Enemy
     {{!}}-
     {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 9
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_stag_feral_tutorial_medium}}
   }}
@@ -215,15 +223,17 @@ monster_chimera_stag_feral_tutorial_hard={{Enemy
     {{!}}-
     {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 9
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_stag_feral_tutorial_hard}}
   }}

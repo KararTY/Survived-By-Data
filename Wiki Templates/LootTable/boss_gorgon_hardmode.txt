@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_gorgon_hardmode|boss_gorgon_hardmode]])'''
 {|class="sortable"
 |-
@@ -42,8 +40,6 @@
 |-
 | x1 || {{Icon|Blades of the Antecedent}} || style="text-align:right" | 2% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_gorgon_hardmode}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

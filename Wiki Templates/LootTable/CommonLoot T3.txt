@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/CommonLoot T3|CommonLoot T3]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x3-9 || {{Icon|Silver}} || style="text-align:right" | 3% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/CommonLoot T3}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

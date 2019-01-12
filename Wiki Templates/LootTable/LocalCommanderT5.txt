@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/LocalCommanderT5|LocalCommanderT5]])'''
 <br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
 {|class="sortable"
@@ -33,8 +31,6 @@
 |-
 | x1 || {{Icon|Kukri}} || style="text-align:right" | 1% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/LocalCommanderT5}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/DeepNightProjectilesBoss}}'''Loot table: ([[Loot table/ImprintArmorPrefix|ImprintArmorPrefix]])'''
 {|class="sortable"
 |-
@@ -18,8 +16,6 @@
 |-
 | x1 || {{Icon|Protective Imprint}} || style="text-align:right" | 4% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/ImprintArmorPrefix}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

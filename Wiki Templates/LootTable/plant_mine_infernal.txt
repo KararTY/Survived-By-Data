@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T6}}'''Loot table: ([[Loot table/plant_mine_infernal|plant_mine_infernal]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Tar Sand}} || style="text-align:right" | 20% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/plant_mine_infernal}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

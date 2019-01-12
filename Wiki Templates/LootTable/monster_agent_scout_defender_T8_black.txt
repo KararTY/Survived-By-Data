@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T8}}'''Loot table: ([[Loot table/monster_agent_scout_defender_T8_black|monster_agent_scout_defender_T8_black]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Resin}} || style="text-align:right" | 20% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_agent_scout_defender_T8_black}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 ('''Quest loot table''') '''Loot table: ([[Loot table/monster_burrower_T1_elite|monster_burrower_T1_elite]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Abandoned Storage Cave Key}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_burrower_T1_elite}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CharmLoot T10}}'''Loot table: ([[Loot table/RareLoot T10|RareLoot T10]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Conduit of Fire Key (I)}} || style="text-align:right" | 5% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/RareLoot T10}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

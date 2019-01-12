@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T7}}'''Loot table: ([[Loot table/monster_snowleopard_panther|monster_snowleopard_panther]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Raw Strands}} || style="text-align:right" | 10% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_snowleopard_panther}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

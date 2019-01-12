@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/Kill Boss Heart of the Forest Hard|Kill Boss Heart of the Forest Hard]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Slayer of the Great Spirit}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Kill Boss Heart of the Forest Hard}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

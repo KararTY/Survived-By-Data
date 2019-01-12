@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/CharmLoot T8|CharmLoot T8]])'''
 <br>Maximum drop amount: 1
 {|class="sortable"
@@ -67,8 +65,6 @@
 |-
 | x1 || {{Icon|Rate of Attack Charm III}} || style="text-align:right" | 3% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/CharmLoot T8}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

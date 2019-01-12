@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/HeirloomLoot}}'''Loot table: ([[Loot table/boss_miragehunter|boss_miragehunter]])'''
 {|class="sortable"
 |-
@@ -38,8 +36,6 @@
 |-
 | x1 || {{Icon|Jet Khanjar}} || style="text-align:right" | 10% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_miragehunter}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/RareLoot T105|RareLoot T105]])'''
 {|class="sortable"
 |-
@@ -32,8 +30,6 @@
 |-
 | x1 || {{Icon|Kukri}} || style="text-align:right" | 2.5% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/RareLoot T105}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/WinterHoliday_GiftGiverTown|WinterHoliday_GiftGiverTown]])'''
 <br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
 {|class="sortable"
@@ -21,8 +19,6 @@
 |-
 | x1 || {{Icon|Person Sized, Person Shaped Box}} || style="text-align:right" | 3% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/WinterHoliday_GiftGiverTown}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

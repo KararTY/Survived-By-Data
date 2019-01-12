@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/RareLoot T10}}'''Loot table: ([[Loot table/VolcanoEasyChestSpawner|VolcanoEasyChestSpawner]])'''
 {|class="sortable"
 |-
@@ -36,8 +34,6 @@
 |-
 | x1 || {{Icon|Wrought Fibers}} || style="text-align:right" | 3% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/VolcanoEasyChestSpawner}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

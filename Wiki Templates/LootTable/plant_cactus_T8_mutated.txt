@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T8}}'''Loot table: ([[Loot table/plant_cactus_T8_mutated|plant_cactus_T8_mutated]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Log}} || style="text-align:right" | 20% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/plant_cactus_T8_mutated}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

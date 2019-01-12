@@ -1,14 +1,10 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 <div class="tabbertab-borderless"><tabber>
 Kill Spirits 3 1={{:Loot table/Challenge3}}
 |-|
 Kill Spirits 3 2={{:Loot table/BountySlot3}}
 |-|
 </tabber></div>
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Kill Spirits 3}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

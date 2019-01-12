@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/DismantleStandardT8|DismantleStandardT8]])'''
 <br>Guaranteed drop amount: 1
 {|class="sortable"
@@ -13,8 +11,6 @@
 |-
 |  || {{Icon|Composite Smoldering Grain}} || style="text-align:right" | 33% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/DismantleStandardT8}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

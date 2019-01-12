@@ -32,15 +32,17 @@
     {{!}}-
     {{!}} '''chimera ram warrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=13|cHeight=31|oBottom=55|oLeft=54}}</center>
     {{!}}-
-    {{!}} Speed {{!!}} 8
+    {{!}} Speed {{!!}} 6
     {{!}}-
     {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
     {{!}}-
-    {{!}} Arc Separation {{!!}} 5
+    {{!}} Arc Separation {{!!}} 15
     {{!}}}
   |drops = {{:Loot table/monster_chimera_ram}}
   }}

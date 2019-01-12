@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/Quest Reach Level 4|Quest Reach Level 4]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x4 || {{Icon|Health Potion}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Quest Reach Level 4}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

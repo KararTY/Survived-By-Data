@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/RareLoot T2}}'''Loot table: ([[Loot table/LootBox T2|LootBox T2]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x2-8 || {{Icon|Bloodstone}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/LootBox T2}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

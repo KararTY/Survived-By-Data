@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/Challenge4}}'''Loot table: ([[Loot table/Defeat Dark Persona 2|Defeat Dark Persona 2]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Scion of the Deep}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Defeat Dark Persona 2}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

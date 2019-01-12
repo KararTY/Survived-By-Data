@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T8}}'''Loot table: ([[Loot table/monster_treant_fire|monster_treant_fire]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x1 || {{Icon|Raw Log}} || style="text-align:right" | 6% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_treant_fire}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

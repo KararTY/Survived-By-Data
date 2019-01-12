@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 '''Loot table: ([[Loot table/Quest Druid2|Quest Druid2]])'''
 {|class="sortable"
 |-
@@ -10,8 +8,6 @@
 |-
 | x3 || {{Icon|Bloodstone}} || style="text-align:right" | 100% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Quest Druid2}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

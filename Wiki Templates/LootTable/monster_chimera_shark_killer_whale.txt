@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T4}}'''Loot table: ([[Loot table/monster_chimera_shark_killer_whale|monster_chimera_shark_killer_whale]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Raw Pelt}} || style="text-align:right" | 20% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_chimera_shark_killer_whale}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>

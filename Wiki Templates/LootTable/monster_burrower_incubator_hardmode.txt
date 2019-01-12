@@ -1,6 +1,4 @@
-<noinclude>
-'''{{PAGENAME}}'''
-</noinclude>
+<noinclude>'''{{PAGENAME}}'''</noinclude>
 {{:Loot table/CommonLoot T9}}'''Loot table: ([[Loot table/monster_burrower_incubator_hardmode|monster_burrower_incubator_hardmode]])'''
 {|class="sortable"
 |-
@@ -8,8 +6,6 @@
 |-
 | x1 || {{Icon|Enriched Amber}} || style="text-align:right" | 10% 
 |}
-<noinclude>
-<hr>
+<noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_burrower_incubator_hardmode}}
-[[Category:Loot table]]
-</noinclude>
+[[Category:Loot table]]</noinclude>
