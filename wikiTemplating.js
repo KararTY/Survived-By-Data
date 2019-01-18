@@ -526,7 +526,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
             | colspan="3" style="padding:0;" |
             ${cr.leveledRecipes.map(v => {
                 return `{| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
-                    ! colspan="2" | '''Level:''' ${v.level}
+                    ! colspan="2" | '''Level:''' ${v.level} (${v.level + 1})
                     |-
                     | Crafting cost || ${v.craftCost}
                     |-

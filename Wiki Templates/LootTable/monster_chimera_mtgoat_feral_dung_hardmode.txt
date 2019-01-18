@@ -4,7 +4,13 @@
 |-
 ! Amount || Item || Chance
 |-
-| x1 || {{Icon|Enriched Amber}} || style="text-align:right" | 10% 
+| x1 || {{Icon|Hide}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Thread}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Leather}} || style="text-align:right" | 2% 
+|-
+| x1 || {{Icon|Cloth}} || style="text-align:right" | 2% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_chimera_mtgoat_feral_dung_hardmode}}

@@ -1,0 +1,27 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+{{:Loot table/RareLoot T2}}'''Loot table: ([[Loot table/DangerousLoot T2|DangerousLoot T2]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+|  || {{Icon|Health Potion}} || style="text-align:right" | 100% 
+|-
+|  || {{Icon|Energy Potion}} || style="text-align:right" | 100% 
+|-
+|  || {{Icon|Rosin Catalyst}} || style="text-align:right" | 30% 
+|-
+|  || {{Icon|Raw Log}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Raw Pelt}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Raw Quartz Vein}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Raw Resin}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Raw Strands}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Raw Tar Sand}} || style="text-align:right" | 10% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/DangerousLoot T2}}
+[[Category:Loot table]]</noinclude>

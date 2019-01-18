@@ -4,7 +4,9 @@
 |-
 ! Amount || Item || Chance
 |-
-| x1 || {{Icon|Enriched Timber}} || style="text-align:right" | 10% 
+| x1 || {{Icon|Wood}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Timber}} || style="text-align:right" | 4% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/plant_vines_hardmode}}

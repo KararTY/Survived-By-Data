@@ -1,1 +1,1 @@
-[{"from":"monster_falconer_dung_hardmode","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Enriched Cloth","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true}],"reference":"CommonLoot T9"}]
+[{"from":"monster_falconer_dung_hardmode","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Thread","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Cloth","count":{"dice":0,"faces":0,"add":1},"chance":4,"allowModifiers":true}],"reference":"CommonLoot T9"}]

@@ -1,0 +1,27 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+{{:Loot table/RareLoot T7}}'''Loot table: ([[Loot table/DangerousLoot T7|DangerousLoot T7]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+|  || {{Icon|Health Potion}} || style="text-align:right" | 100% 
+|-
+|  || {{Icon|Energy Potion}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Mythril Catalyst}} || style="text-align:right" | 30% 
+|-
+|  || {{Icon|Amber}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Cloth}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Leather}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Metal}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Obsidian}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Timber}} || style="text-align:right" | 10% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/DangerousLoot T7}}
+[[Category:Loot table]]</noinclude>

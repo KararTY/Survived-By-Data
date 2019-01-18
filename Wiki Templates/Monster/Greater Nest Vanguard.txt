@@ -50,7 +50,7 @@ monster_burrower_cave_hardmode_dangerous={{Enemy
   |element = Ur
   |tier = 9
   |level = 30
-  |max_health = {{Icon|Health|nolink=1}} 200000
+  |max_health = {{Icon|Health|nolink=1}} 150000
   |experience = 1800
   |damage_bonus = 480
   |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>

@@ -1,0 +1,31 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+{{:Loot table/RareLoot T9}}'''Loot table: ([[Loot table/DangerousLoot T9 Incubator|DangerousLoot T9 Incubator]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1-4 || {{Icon|Health Potion}} || style="text-align:right" | 100% 
+|-
+| x1-4 || {{Icon|Energy Potion}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Enriched Mercurial Catalyst}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Enriched Amber}} || style="text-align:right" | 10% 
+|-
+|  || {{Icon|Enriched Metal}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Health Regeneration Charm V}} || style="text-align:right" | 7% 
+|-
+| x1 || {{Icon|Ki Elemental Affinity Charm V}} || style="text-align:right" | 7% 
+|-
+| x1 || {{Icon|Ur Elemental Affinity Charm V}} || style="text-align:right" | 7% 
+|-
+| x1 || {{Icon|Health Regeneration Charm VI}} || style="text-align:right" | 3% 
+|-
+| x1 || {{Icon|Ki Elemental Affinity Charm VI}} || style="text-align:right" | 3% 
+|-
+| x1 || {{Icon|Ur Elemental Affinity Charm VI}} || style="text-align:right" | 3% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/DangerousLoot T9 Incubator}}
+[[Category:Loot table]]</noinclude>

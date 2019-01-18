@@ -145,7 +145,6 @@ boss_director_resin_pod_hardmode={{Enemy
     {{!}}-
     {{!}} Arc Separation {{!!}} 5
     {{!}}}
-  |drops = {{:Loot table/boss_director_resin_pod_hardmode}}
   }}
 |-|
 boss_director_resin_pod={{Enemy

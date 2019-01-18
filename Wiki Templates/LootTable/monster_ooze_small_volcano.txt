@@ -4,7 +4,9 @@
 |-
 ! Amount || Item || Chance
 |-
-| x1 || {{Icon|Enriched Obsidian}} || style="text-align:right" | 2.5% 
+| x1 || {{Icon|Obsidian}} || style="text-align:right" | 5% 
+|-
+| x1 || {{Icon|Enriched Obsidian}} || style="text-align:right" | 1% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_ooze_small_volcano}}

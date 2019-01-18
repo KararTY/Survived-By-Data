@@ -1,0 +1,27 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+{{:Loot table/RareLoot T10}}'''Loot table: ([[Loot table/DangerousLoot T10|DangerousLoot T10]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+|  || {{Icon|Health Potion}} || style="text-align:right" | 100% 
+|-
+|  || {{Icon|Energy Potion}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Pyroclast Catalyst, Grade I}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Encased Obsidian}} || style="text-align:right" | 4% 
+|-
+| x1 || {{Icon|Molded Leather}} || style="text-align:right" | 4% 
+|-
+| x1 || {{Icon|Quilted Leather}} || style="text-align:right" | 4% 
+|-
+| x1 || {{Icon|Reinfused Hardwood}} || style="text-align:right" | 4% 
+|-
+| x1 || {{Icon|Sable}} || style="text-align:right" | 4% 
+|-
+| x1 || {{Icon|Wrought Fibers}} || style="text-align:right" | 4% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/DangerousLoot T10}}
+[[Category:Loot table]]</noinclude>
