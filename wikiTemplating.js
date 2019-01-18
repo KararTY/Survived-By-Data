@@ -108,7 +108,10 @@ module.exports = (() => {
     {{!}}-
     ${weaponData('projectile').statusEffect.stats.map(v => {
       var equation
-      if (v.equation.includes(`[${v.key}]`) && v.value) equation = parseFloat(eval(v.equation.replace(`[${v.key}]`, v.value)).toFixed(2))
+      if (v.key === 'DamageOverTime') {
+        var statEquation = v.equation.replace('[DamageOverTime]+', '')
+        equation = `(Initial damage: ${v.value} & Damage over time: ${statEquation})`
+      } else if (!equation && v.equation.includes(`[${v.key}]`) && v.value) equation = parseFloat(eval(v.equation.replace(`[${v.key}]`, v.value)).toFixed(2))
       else if (v.key === 'DamageReduction') {
         var statEquation = v.equation.replace('[DamageReduction]', '')
         var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)

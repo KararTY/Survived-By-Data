@@ -36,7 +36,7 @@ plant_venus_T2={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 36<br><small>[DamageOverTime]+15 '''21'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 21 & Damage over time: 15)<br><small>[DamageOverTime]+15 '''21'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''2'''
     {{!}}}
@@ -80,7 +80,7 @@ plant_venus_infernal={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 196<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''8'''
     {{!}}}

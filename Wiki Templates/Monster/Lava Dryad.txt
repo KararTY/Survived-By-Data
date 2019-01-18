@@ -62,7 +62,7 @@ monster_spirit_dryad_lava_quest={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 125<br><small>[DamageOverTime]+75 '''50'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 50 & Damage over time: 75)<br><small>[DamageOverTime]+75 '''50'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''6'''
     {{!}}}
@@ -106,7 +106,7 @@ subboss_spirit_dryad_lava_small={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -130,7 +130,7 @@ subboss_spirit_dryad_lava_small={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -156,7 +156,7 @@ subboss_spirit_dryad_lava_small={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -199,7 +199,7 @@ subboss_spirit_dryad_lava_medium={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -223,7 +223,7 @@ subboss_spirit_dryad_lava_medium={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -249,7 +249,7 @@ subboss_spirit_dryad_lava_medium={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -294,7 +294,7 @@ subboss_spirit_dryad_lava={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -318,7 +318,7 @@ subboss_spirit_dryad_lava={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -344,7 +344,7 @@ subboss_spirit_dryad_lava={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}

@@ -53,7 +53,7 @@
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 269<br><small>[DamageOverTime]+169 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 169)<br><small>[DamageOverTime]+169 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}

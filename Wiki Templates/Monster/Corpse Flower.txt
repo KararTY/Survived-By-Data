@@ -36,7 +36,7 @@ plant_corpseflower={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 58 & Damage over time: 94)<br><small>[DamageOverTime]+94 '''58'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''7'''
     {{!}}}
@@ -80,7 +80,7 @@ plant_corpseflower_dangerous={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 58 & Damage over time: 94)<br><small>[DamageOverTime]+94 '''58'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''7'''
     {{!}}}
@@ -121,7 +121,7 @@ boss_elementalspirit_corpseflower_seed={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 58 & Damage over time: 94)<br><small>[DamageOverTime]+94 '''58'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''7'''
     {{!}}}
@@ -163,7 +163,7 @@ boss_elementalspirit_corpseflower={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 152<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 58 & Damage over time: 94)<br><small>[DamageOverTime]+94 '''58'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''7'''
     {{!}}}

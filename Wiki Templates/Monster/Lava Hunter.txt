@@ -78,7 +78,7 @@ subboss_lavahunter={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -102,7 +102,7 @@ subboss_lavahunter={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
@@ -126,7 +126,7 @@ subboss_lavahunter={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 350<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}

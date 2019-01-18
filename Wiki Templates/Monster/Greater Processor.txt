@@ -38,7 +38,7 @@ monster_agent_processor_hardmode={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 43 & Damage over time: 52)<br><small>[DamageOverTime]+52 '''43'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''5'''
     {{!}}}
@@ -66,7 +66,7 @@ monster_agent_processor_hardmode={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 43 & Damage over time: 52)<br><small>[DamageOverTime]+52 '''43'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''5'''
     {{!}}}
@@ -126,7 +126,7 @@ monster_agent_processor_hardmode_dangerous={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 43 & Damage over time: 52)<br><small>[DamageOverTime]+52 '''43'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''5'''
     {{!}}}
@@ -154,7 +154,7 @@ monster_agent_processor_hardmode_dangerous={{Enemy
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 95<br><small>[DamageOverTime]+52 '''43'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 43 & Damage over time: 52)<br><small>[DamageOverTime]+52 '''43'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''5'''
     {{!}}}

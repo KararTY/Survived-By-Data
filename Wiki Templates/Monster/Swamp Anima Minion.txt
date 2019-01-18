@@ -52,7 +52,7 @@
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 125<br><small>[DamageOverTime]+75 '''50'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 50 & Damage over time: 75)<br><small>[DamageOverTime]+75 '''50'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''6'''
     {{!}}}
@@ -78,7 +78,7 @@
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} 125<br><small>[DamageOverTime]+75 '''50'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 50 & Damage over time: 75)<br><small>[DamageOverTime]+75 '''50'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''6'''
     {{!}}}
