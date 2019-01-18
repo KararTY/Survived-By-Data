@@ -32,7 +32,7 @@
     {{!}}}
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
-    {{!}} '''lava spout pool''' {{!!}} <center>{{CSS image crop|Image=laval puddle.png|bSize=192|cWidth=54|cHeight=56|oBottom=2|oLeft=4}}</center>
+    {{!}} '''lava spout pool quest''' {{!!}} <center>{{CSS image crop|Image=laval puddle.png|bSize=192|cWidth=54|cHeight=56|oBottom=2|oLeft=4}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
@@ -52,7 +52,7 @@
     {{!}}-
     {{!}} colspan="2" {{!}} Status statistics
     {{!}}-
-    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 50)<br><small>[DamageOverTime]+50 '''100'''</small>
     {{!}}-
     {{!}} Tier {{!!}}  '''9'''
     {{!}}}
