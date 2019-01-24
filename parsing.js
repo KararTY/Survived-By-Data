@@ -291,8 +291,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(itemDefinition)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([itemDefinition]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([itemDefinition], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -345,8 +345,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(lootTable)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([lootTable]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([lootTable], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -672,8 +672,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(monsterInfo)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([monsterInfo]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([monsterInfo], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -864,7 +864,7 @@ module.exports = () => {
               }
               if (!fs.existsSync(path.join(__dirname, 'Patch', folderName4, 'Set bonuses'))) fs.mkdirSync(path.join(__dirname, 'Patch', folderName4, 'Set bonuses'))
               if (!fs.existsSync(filename)) {
-                fs.writeFileSync(filename, JSON.stringify(setBonus))
+                fs.writeFileSync(filename, JSON.stringify(setBonus, null, 2))
               }
               return {
                 name: setBonus.name,
@@ -885,8 +885,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(ancestral)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([ancestral]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([ancestral], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -946,8 +946,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(craftingRecipe)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([craftingRecipe]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([craftingRecipe], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -1067,8 +1067,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(itemModifier)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([itemModifier]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([itemModifier], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -1106,8 +1106,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(lootBox)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([lootBox]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([lootBox], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -1357,8 +1357,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(npc)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([npc]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([npc], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -1474,8 +1474,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(player)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([player]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([player], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -1533,8 +1533,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(challenge)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([challenge]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([challenge], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500
@@ -1638,8 +1638,8 @@ module.exports = () => {
       if (fs.existsSync(filename)) {
         var file = JSON.parse(fs.readFileSync(filename, 'utf-8'))
         file.push(spawnerDef)
-        fs.writeFileSync(filename, JSON.stringify(file))
-      } else fs.writeFileSync(filename, JSON.stringify([spawnerDef]))
+        fs.writeFileSync(filename, JSON.stringify(file, null, 2))
+      } else fs.writeFileSync(filename, JSON.stringify([spawnerDef], null, 2))
       count++
       if (count === announceAtNextCount) {
         announceAtNextCount += 500

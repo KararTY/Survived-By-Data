@@ -4,7 +4,7 @@
 |-
 ! Amount || Item || Chance
 |-
-| x20-90 || {{Icon|Silver}} || style="text-align:right" | 100% 
+| x20-70 || {{Icon|Silver}} || style="text-align:right" | 100% 
 |-
 | x1 || {{Icon|Mercurial Catalyst}} || style="text-align:right" | 100% 
 |-
@@ -36,7 +36,7 @@
 |-
 | x1 || {{Icon|Kukri}} || style="text-align:right" | 6% 
 |-
-|  || {{Icon|Blue Jade}} || style="text-align:right" | 5% 
+| x1-2 || {{Icon|Blue Jade}} || style="text-align:right" | 5% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_director}}

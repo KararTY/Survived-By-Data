@@ -5,11 +5,11 @@
 |-
 ! Amount || Item || Chance
 |-
-|  || {{Icon|Composite Smoldering Alloy}} || style="text-align:right" | 33% 
+| x1-2 || {{Icon|Composite Smoldering Alloy}} || style="text-align:right" | 33% 
 |-
-|  || {{Icon|Composite Smoldering Fabric}} || style="text-align:right" | 33% 
+| x1-2 || {{Icon|Composite Smoldering Fabric}} || style="text-align:right" | 33% 
 |-
-|  || {{Icon|Composite Smoldering Grain}} || style="text-align:right" | 33% 
+| x1-2 || {{Icon|Composite Smoldering Grain}} || style="text-align:right" | 33% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/DismantleStandardT8}}

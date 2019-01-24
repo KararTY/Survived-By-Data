@@ -4,15 +4,15 @@
 |-
 ! Amount || Item || Chance
 |-
-| x1-4 || {{Icon|Health Potion}} || style="text-align:right" | 100% 
+| x1-3 || {{Icon|Health Potion}} || style="text-align:right" | 100% 
 |-
-| x1-4 || {{Icon|Energy Potion}} || style="text-align:right" | 100% 
+| x1-3 || {{Icon|Energy Potion}} || style="text-align:right" | 100% 
 |-
 | x1 || {{Icon|Enriched Void Shard Catalyst}} || style="text-align:right" | 10% 
 |-
-|  || {{Icon|Enriched Amber}} || style="text-align:right" | 10% 
+| x1-2 || {{Icon|Enriched Amber}} || style="text-align:right" | 10% 
 |-
-|  || {{Icon|Enriched Cloth}} || style="text-align:right" | 10% 
+| x1-2 || {{Icon|Enriched Cloth}} || style="text-align:right" | 10% 
 |-
 | x1 || {{Icon|Critical Chance Charm V}} || style="text-align:right" | 7% 
 |-

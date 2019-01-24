@@ -160,7 +160,7 @@ module.exports = (() => {
     var gld = data.lootTable.length > 0 ? data.lootTable.sort((a, b) => {
       return b.chance - a.chance
     }) : ''
-    return `${data.reference ? `{{:Loot table/${data.reference}}}` : ''}${data.questLootTable ? `('''Quest loot table''') ` : ''}${gld ? `'''Loot table: ([[Loot table/${data.from}|${data.from}]])'''\n${data.guaranteeItemCount ? `<br>Guaranteed drop amount: ${data.guaranteeItemCount}` : ''}${data.maximumItemCount ? `<br>Maximum drop amount: ${data.maximumItemCount}` : ''}\n{|class="sortable"\n|-\n! Amount || Item || Chance\n|-\n${gld.map(v => `| ${v.count.add ? `x${v.count.add}${v.count.dice ? `-${v.count.add + (v.count.faces * v.count.dice)}` : ''}` : ''} || {{Icon|${v.item}}} || style="text-align:right" | ${v.chance}% `).join('\n|-\n')}\n|}`.replace(/Ã¤/g, 'ä') : ''}`
+    return `${data.reference ? `{{:Loot table/${data.reference}}}` : ''}${data.questLootTable ? `('''Quest loot table''') ` : ''}${gld ? `'''Loot table: ([[Loot table/${data.from}|${data.from}]])'''\n${data.guaranteeItemCount ? `<br>Guaranteed drop amount: ${data.guaranteeItemCount}` : ''}${data.maximumItemCount ? `<br>Maximum drop amount: ${data.maximumItemCount}` : ''}\n{|class="sortable"\n|-\n! Amount || Item || Chance\n|-\n${gld.map(v => `| ${v.count.add ? `x${v.count.add}` : (v.count.faces === 0 && v.count.dice === 0) ? '' : `x1`}${(v.count.faces || v.count.dice) > 1 ? `-${(v.count.faces * (v.count.dice || 1))}` : ''} || {{Icon|${v.item}}} || style="text-align:right" | ${v.chance}% `).join('\n|-\n')}\n|}`.replace(/Ã¤/g, 'ä') : ''}`
   }
 
   function gStats(stats, stat) {
