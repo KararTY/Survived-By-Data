@@ -1,25 +1,27 @@
-let lootTable = {"from":"boss_hydra","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Simple Keepsake","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Antique Plate Armor","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Forester Mantle","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Hunter Leathers","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Logger Sabatons","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Farmer Boots","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Unworked Stone Totem","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Chipped Stone Pick","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Huntsman's Bow","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Stone Staff","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Antique Longsword","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Heritage Band","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Workman's Knife","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Burning Sands Key","count":{"dice":0,"faces":0,"add":1},"chance":40,"allowModifiers":true},{"item":"Silver","count":{"dice":4,"faces":10,"add":5},"chance":100,"allowModifiers":true},{"item":"Rosin Catalyst","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":true},{"item":"Blue Jade","count":{"dice":0,"faces":0,"add":1},"chance":3,"allowModifiers":true}],"reference":"HeirloomLoot"}
+let lootTable = [{"from":"boss_hydra","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Simple Keepsake","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Antique Plate Armor","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Forester Mantle","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Hunter Leathers","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Logger Sabatons","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Farmer Boots","count":{"dice":0,"faces":0,"add":1},"chance":15,"allowModifiers":true},{"item":"Unworked Stone Totem","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Chipped Stone Pick","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Huntsman's Bow","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Stone Staff","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Antique Longsword","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Heritage Band","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Workman's Knife","count":{"dice":0,"faces":0,"add":1},"chance":12,"allowModifiers":true},{"item":"Burning Sands Key","count":{"dice":0,"faces":0,"add":1},"chance":40,"allowModifiers":true},{"item":"Silver","count":{"dice":4,"faces":10,"add":5},"chance":100,"allowModifiers":true},{"item":"Rosin Catalyst","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":true},{"item":"Blue Jade","count":{"dice":0,"faces":0,"add":1},"chance":3,"allowModifiers":true}],"reference":"HeirloomLoot"}]
 
+if (lootTable[0]) lootTable = lootTable[0]
 function GetLootTable() { return lootTable.lootTable }
+
 let DiceParm = {}
 DiceParm.randy = {}
 DiceParm.randy.NextDouble = () => parseFloat(Math.random().toFixed(2))
 DiceParm.randy.Next = (min, max) => {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  min = typeof max === 'number' ? Math.ceil(min) : 0
+  max = typeof max === 'number' ? Math.floor(max) : min
+  return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
 let isCardPack = false
 
 function QJNLPGMKOGAJQ(playerStatistics, lootTableItem) {
   let chance = lootTableItem.chance;
-  let num = 1 + playerStatistics.dropRateIncrease || 0 /* playerStatistics.GetStat(StatEnum.DropRateIncrease, 0) */
+  let num = 1 + playerStatistics.dropRateIncrease || 0; /* playerStatistics.GetStat(StatEnum.DropRateIncrease, 0) */
 
   if (isCardPack /* lootTable.gameObject.GetComponent<CardPack>() */ != null) {
-    num += playerStatistics.cardPackIncrease || 0 /* playerStatistics.GetStat(StatEnum.CardPackIncrease, 0) */
+    num += playerStatistics.cardPackIncrease || 0; /* playerStatistics.GetStat(StatEnum.CardPackIncrease, 0) */
   } else if (lootTableItem.class === "Misc") { // If item is of type "Misc"
-    num += playerStatistics.materialChanceIncrease || 0 /* playerStatistics.GetStat(StatEnum.MaterialChanceIncrease, 0) */
+    num += playerStatistics.materialChanceIncrease || 0; /* playerStatistics.GetStat(StatEnum.MaterialChanceIncrease, 0) */
   }
   return chance * parseFloat(num.toFixed(2))
 }
@@ -59,7 +61,7 @@ function QIOCAMEAGKBFQ(playerStatistics, QCCAGILOFBGPQ) {
       let num = QJNLPGMKOGAJQ(playerStatistics, lootEntry)
       let num2 = DiceParm.randy.NextDouble() * 100.0
       if (num >= 100.0 || num2 < num) {
-        let component = null /* lootEntry.item.gameObject.GetComponent() */ // ?
+        let component = null; /* lootEntry.item.gameObject.GetComponent() */ // ?
         if (component != null) {
           let loot = GetLoot(playerStatistics, QCCAGILOFBGPQ);
           for (let i = 0; i < lootEntry.count.value; i++) {
@@ -89,7 +91,33 @@ function GetLoot(playerStatistics, QCCAGILOFBGPQ = 1) {
   return list
 }
 
-console.log(JSON.stringify(GetLoot({ dropRateIncrease: 0 })))
-//GetLoot({ dropRateIncrease: 1 })
+function QEKOGELIAFKOQ(add, dice, faces) {
+  let num = add
+  for (let i = 1; i < dice; i++) {
+    // num += DiceParm.randy.Next(faces)
+    num += DiceParm.randy.Next(faces)
+  }
+  return num
+}
 
-// Next to figure out, what calls GetLoot()?
+if (document) {
+  document.getElementById('rerun').addEventListener('click', () => {
+    document.getElementById('date').innerText = `Date: ${new Date().toUTCString()}`
+    let loot = GetLoot({ dropRateIncrease: Number(document.getElementById('dropRateIncrease').value) })
+    let result = ``
+    loot.forEach(item => {
+      result += `x${QEKOGELIAFKOQ(item.count)} ${item.name}`
+    })
+    document.getElementById('result').innerText = loot
+  })
+  
+  document.getElementById('rerunWithDropRateIncrease').addEventListener('click', () => {
+    document.getElementById('date').innerText = `Date: ${new Date().toUTCString()}`
+    let loot = GetLoot({ dropRateIncrease: Number(document.getElementById('dropRateIncrease').value) })
+    let result = ``
+    loot.forEach(item => {
+      result += `x${QEKOGELIAFKOQ(item.count)} ${item.item}`
+    })
+    document.getElementById('result').innerText = loot
+  })
+}
