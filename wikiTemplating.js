@@ -255,6 +255,7 @@ module.exports = (() => {
     ${gAncestralStats(bonus.stats)}`
     }).join('\n  |-\n  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">\n  |-\n  ')}`.replace(/    /g, '  ')
   }
+
 //  let folder1 = 'ItemDefinition'
 //  if (folder[folder1]) {
 //    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder1))) {

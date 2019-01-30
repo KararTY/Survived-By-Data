@@ -1,12 +1,19 @@
-function random (N) {
-  return Math.floor(N * Math.random())
+function getRandomInt(max) {
+  let min = 0
+  max = Math.floor(max)
+  return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
-function rollDice(N, S) {
-  // Sum of N dice each of which goes from 0 to S
-  var value = 0
-  for (let i = 0; i < N; i++) {
-    value += random(S + 1)
+function QEKOGELIAFKOQ(add, dice, faces) {
+  let num = add
+  for (let i = 1; i < dice; i++) {
+    // num += randy.Next(faces)
+    num += getRandomInt(faces)
   }
-  return value
+  return num
 }
+
+/**
+ * In-game code uses `System.Random()` from C# which is seeded based on OS time using `Environment.TickCount`.
+ * randy.Next() gives a random number based on faces which is maxValue.
+ */
