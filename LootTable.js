@@ -89,7 +89,7 @@ function GetLoot(playerStatistics, QCCAGILOFBGPQ = 1) {
   return list
 }
 
-console.log(JSON.stringify(GetLoot()))
+console.log(JSON.stringify(GetLoot({ dropRateIncrease: 0 })))
 //GetLoot({ dropRateIncrease: 1 })
 
 // Next to figure out, what calls GetLoot()?
