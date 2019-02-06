@@ -75,7 +75,7 @@ Vicious Backstab 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageOverTime || 0+([Proc.Counter]*([Proc.Benefit]/100)/5)
+      | DamageOverTime || ([DamageOverTime] + 0)+([Proc.Counter]*([Proc.Benefit]/100)/5)
     |}
   |}
   {| class="wikitable"
@@ -162,7 +162,7 @@ Vicious Backstab 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageOverTime || 0+([Proc.Counter]*([Proc.Benefit]/100)/5)
+      | DamageOverTime || ([DamageOverTime] + 0)+([Proc.Counter]*([Proc.Benefit]/100)/5)
     |}
   |}
   {| class="wikitable"
@@ -249,7 +249,7 @@ Vicious Backstab 4 (Legendary)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageOverTime || 0+([Proc.Counter]*([Proc.Benefit]/100)/5)
+      | DamageOverTime || ([DamageOverTime] + 0)+([Proc.Counter]*([Proc.Benefit]/100)/5)
     |}
   |}
   {| class="wikitable"

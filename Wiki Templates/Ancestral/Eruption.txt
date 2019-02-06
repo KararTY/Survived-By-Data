@@ -73,7 +73,7 @@ Eruption 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageOverTime || 40+([Proc.Counter] * ([Proc.Benefit]/100)/5)
+      | DamageOverTime || ([DamageOverTime] + 40)+([Proc.Counter] * ([Proc.Benefit]/100)/5)
     |}
   |}
   {| class="wikitable"
@@ -158,7 +158,7 @@ Eruption 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageOverTime || 40+([Proc.Counter] * ([Proc.Benefit]/100)/5)
+      | DamageOverTime || ([DamageOverTime] + 40)+([Proc.Counter] * ([Proc.Benefit]/100)/5)
     |}
   |}
   {| class="wikitable"
@@ -243,7 +243,7 @@ Eruption 4 (Legendary)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageOverTime || 40+([Proc.Counter] * ([Proc.Benefit]/100)/5)
+      | DamageOverTime || ([DamageOverTime] + 40)+([Proc.Counter] * ([Proc.Benefit]/100)/5)
     |}
   |}
   {| class="wikitable"

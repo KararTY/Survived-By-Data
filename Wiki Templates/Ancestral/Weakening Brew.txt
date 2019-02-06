@@ -67,9 +67,9 @@ Weakeneing Brew 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageBonus || 0  - ([DamageBonus] * [Proc.Benefit]/100)
+      | DamageBonus || ([DamageBonus] + 0)  - ([DamageBonus] * [Proc.Benefit]/100)
       |-
-| SpecialWeaponDamage || 0  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)
+      | SpecialWeaponDamage || ([SpecialWeaponDamage] + 0)  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)
     |}
   |}
   {| class="wikitable"
@@ -148,9 +148,9 @@ Weakeneing Brew 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageBonus || 0  - ([DamageBonus] * [Proc.Benefit]/100)
+      | DamageBonus || ([DamageBonus] + 0)  - ([DamageBonus] * [Proc.Benefit]/100)
       |-
-| SpecialWeaponDamage || 0  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)
+      | SpecialWeaponDamage || ([SpecialWeaponDamage] + 0)  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)
     |}
   |}
   {| class="wikitable"
@@ -229,9 +229,9 @@ Weakeneing Brew 4 (Legendary)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageBonus || 0  - ([DamageBonus] * [Proc.Benefit]/100)
+      | DamageBonus || ([DamageBonus] + 0)  - ([DamageBonus] * [Proc.Benefit]/100)
       |-
-| SpecialWeaponDamage || 0  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)
+      | SpecialWeaponDamage || ([SpecialWeaponDamage] + 0)  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)
     |}
   |}
   {| class="wikitable"

@@ -83,7 +83,7 @@ Energetic Response 1 (Common)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Mana || 204.33+30+([Player.Level]*2)
+      | Mana || ([Mana] + 204.33)+30+([Player.Level]*2)
       |-
     |}
   |}
@@ -179,7 +179,7 @@ Energetic Response 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Mana || 204.33+30+([Player.Level]*2)
+      | Mana || ([Mana] + 204.33)+30+([Player.Level]*2)
       |-
     |}
   |}
@@ -275,7 +275,7 @@ Energetic Response 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Mana || 204.33+30+([Player.Level]*2)
+      | Mana || ([Mana] + 204.33)+30+([Player.Level]*2)
       |-
     |}
   |}

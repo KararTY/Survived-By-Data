@@ -67,7 +67,7 @@ Debilitating Shot 1 (Common)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | MovementSpeed || 6.6-([MovementSpeed]*([Proc.Benefit]/100))
+      | MovementSpeed || ([MovementSpeed] + 6.6)-([MovementSpeed]*([Proc.Benefit]/100))
       |-
     |}
   |}
@@ -147,7 +147,7 @@ Debilitating Shot 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | MovementSpeed || 6.6-([MovementSpeed]*([Proc.Benefit]/100))
+      | MovementSpeed || ([MovementSpeed] + 6.6)-([MovementSpeed]*([Proc.Benefit]/100))
       |-
     |}
   |}
@@ -227,7 +227,7 @@ Debilitating Shot 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | MovementSpeed || 6.6-([MovementSpeed]*([Proc.Benefit]/100))
+      | MovementSpeed || ([MovementSpeed] + 6.6)-([MovementSpeed]*([Proc.Benefit]/100))
       |-
     |}
   |}

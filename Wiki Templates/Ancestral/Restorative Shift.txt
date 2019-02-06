@@ -69,7 +69,7 @@ Restorative Shift 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Health || 0+([HealthMax] * [Proc.Benefit] / 100)
+      | Health || ([Health] + 0)+([HealthMax] * [Proc.Benefit] / 100)
       |-
     |}
   |}
@@ -151,7 +151,7 @@ Restorative Shift 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Health || 0+([HealthMax] * [Proc.Benefit] / 100)
+      | Health || ([Health] + 0)+([HealthMax] * [Proc.Benefit] / 100)
       |-
     |}
   |}
@@ -233,7 +233,7 @@ Restorative Shift 4 (Legendary)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Health || 0+([HealthMax] * [Proc.Benefit] / 100)
+      | Health || ([Health] + 0)+([HealthMax] * [Proc.Benefit] / 100)
       |-
     |}
   |}

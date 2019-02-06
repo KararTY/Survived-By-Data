@@ -69,7 +69,7 @@ Quick Reaction 1 (Common)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageReductionAll || 0 + ([Proc.Benefit]/100)
+      | DamageReductionAll || ([DamageReductionAll] + 0) + ([Proc.Benefit]/100)
       |-
     |}
   |}
@@ -151,7 +151,7 @@ Quick Reaction 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageReductionAll || 0 + ([Proc.Benefit]/100)
+      | DamageReductionAll || ([DamageReductionAll] + 0) + ([Proc.Benefit]/100)
       |-
     |}
   |}
@@ -233,7 +233,7 @@ Quick Reaction 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageReductionAll || 0 + ([Proc.Benefit]/100)
+      | DamageReductionAll || ([DamageReductionAll] + 0) + ([Proc.Benefit]/100)
       |-
     |}
   |}

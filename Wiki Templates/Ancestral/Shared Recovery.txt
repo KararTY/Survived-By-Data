@@ -67,7 +67,7 @@ Shared Recovery 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Health || 121.23+(40+([@SourcePlayer.Level]*8) * [Proc.Benefit]/100)
+      | Health || ([Health] + 121.23)+(40+([@SourcePlayer.Level]*8) * [Proc.Benefit]/100)
       |-
     |}
   |}
@@ -147,7 +147,7 @@ Shared Recovery 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Health || 121.23+(40+([@SourcePlayer.Level]*8) * [Proc.Benefit]/100)
+      | Health || ([Health] + 121.23)+(40+([@SourcePlayer.Level]*8) * [Proc.Benefit]/100)
       |-
     |}
   |}

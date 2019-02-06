@@ -87,8 +87,7 @@ Aim 1 (Common)={| style="float:right;"
       |-
       | Action || SetCounterToValue
     |}
-    |-
-    |}
+  |}
   {| class="wikitable"
     |-
     ! Sets
@@ -183,8 +182,7 @@ Aim 2 (Uncommon)={| style="float:right;"
       |-
       | Action || SetCounterToValue
     |}
-    |-
-    |}
+  |}
   {| class="wikitable"
     |-
     ! Sets
@@ -279,8 +277,7 @@ Aim 3 (Rare)={| style="float:right;"
       |-
       | Action || SetCounterToValue
     |}
-    |-
-    |}
+  |}
   {| class="wikitable"
     |-
     ! Sets

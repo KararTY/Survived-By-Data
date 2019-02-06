@@ -69,7 +69,7 @@ Rapid Escape 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | AddMovementSpeed || 6.6+([Proc.Benefit]/100)
+      | AddMovementSpeed || ([AddMovementSpeed] + 6.6)+([Proc.Benefit]/100)
       |-
     |}
   |}
@@ -151,7 +151,7 @@ Rapid Escape 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | AddMovementSpeed || 6.6+([Proc.Benefit]/100)
+      | AddMovementSpeed || ([AddMovementSpeed] + 6.6)+([Proc.Benefit]/100)
       |-
     |}
   |}
@@ -233,7 +233,7 @@ Rapid Escape 4 (Legendary)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | AddMovementSpeed || 6.6+([Proc.Benefit]/100)
+      | AddMovementSpeed || ([AddMovementSpeed] + 6.6)+([Proc.Benefit]/100)
       |-
     |}
   |}

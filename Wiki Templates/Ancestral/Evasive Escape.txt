@@ -71,7 +71,7 @@ Evasive Escape 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageReduction || 0+([DamageReduction]*[Proc.Benefit]/100)
+      | DamageReduction || ([DamageReduction] + 0)+([DamageReduction]*[Proc.Benefit]/100)
       |-
     |}
   |}
@@ -155,7 +155,7 @@ Evasive Escape 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageReduction || 0+([DamageReduction]*[Proc.Benefit]/100)
+      | DamageReduction || ([DamageReduction] + 0)+([DamageReduction]*[Proc.Benefit]/100)
       |-
     |}
   |}
@@ -239,7 +239,7 @@ Evasive Escape 4 (Legendary)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageReduction || 0+([DamageReduction]*[Proc.Benefit]/100)
+      | DamageReduction || ([DamageReduction] + 0)+([DamageReduction]*[Proc.Benefit]/100)
       |-
     |}
   |}

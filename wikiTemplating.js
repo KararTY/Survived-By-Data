@@ -195,8 +195,7 @@ module.exports = (() => {
         | Chance source || ${t.chanceSource}
         |-
         | Action || ${t.action}`.replace(/      /g, '    ')
-    }).join('\n                  |-\n')}\n                |}\n                |-` : ''}
-    ${gpd.statusEffect ? `| Status Effect || colspan="2" | 
+    }).join('\n                  |-\n')}\n                |}${gpd.statusEffect ? `\n                |-` : ''}` : ''}${gpd.statusEffect ? `\n    | Status Effect || colspan="2" | 
     {| class="wikitable"
       |-
       ${gpd.statusEffect.duration ? `| Duration || ${gpd.statusEffect.duration}
@@ -209,11 +208,11 @@ module.exports = (() => {
       |-` : ''}
       ${!gpd.statusEffect.noTimeout ? `| colspan="2" | Times out
       |-` : ''}
-      ${gpd.statusEffect.stats.map(v => {
+      ${gpd.statusEffect.stats.map((v, i) => {
         var equation
         var noResolution = false
         if (v.equation.includes('[Player.Level]') || v.equation.includes('[Proc.Benefit]')) {
-          equation = v.equation.replace(`[${v.key}]`, v.value)
+          equation = v.equation.replace(`[${v.key}]`, `([${v.key}] + ${v.value})`)
           noResolution = true
         } else if (v.key === 'DamageOverTime') {
           var statEquation = v.equation.replace('[DamageOverTime]+', '')
@@ -250,7 +249,7 @@ module.exports = (() => {
           var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
           equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Health regeneration ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
         }
-        return (v.equation || v.value) ? `| ${v.key} || ${equation ? `${equation}${!noResolution ? `<br><small>${v.equation}${v.value ? ` '''${v.value}'''` : ''}</small>` : ''}` : `${v.equation}${v.value ? ` '''${v.value}'''` : ''}`}` : ''
+        return (v.equation || v.value) ? `${i ? '      ' : ''}| ${v.key} || ${equation ? `${equation}${!noResolution ? `<br><small>${v.equation}${v.value ? ` '''${v.value}'''` : ''}</small>` : ''}` : `${v.equation}${v.value ? ` '''${v.value}'''` : ''}`}` : ''
       }).join('\n                  |-\n')}\n                |}` : ''}`.replace(/    [\n\r]+/g, '\n') : ''
   }
 

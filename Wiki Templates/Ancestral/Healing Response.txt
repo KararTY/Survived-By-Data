@@ -67,7 +67,7 @@ Healing Response 1 (Common)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Health || 121.23+40+([Player.Level]*8)
+      | Health || ([Health] + 121.23)+40+([Player.Level]*8)
       |-
     |}
   |}
@@ -147,7 +147,7 @@ Healing Response 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Health || 121.23+40+([Player.Level]*8)
+      | Health || ([Health] + 121.23)+40+([Player.Level]*8)
       |-
     |}
   |}
@@ -227,7 +227,7 @@ Healing Response 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Health || 121.23+40+([Player.Level]*8)
+      | Health || ([Health] + 121.23)+40+([Player.Level]*8)
       |-
     |}
   |}

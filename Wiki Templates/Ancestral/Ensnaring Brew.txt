@@ -67,7 +67,7 @@ Ensnaring Brew 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageTakenIncrease || 0 + [Proc.Benefit]/100
+      | DamageTakenIncrease || ([DamageTakenIncrease] + 0) + [Proc.Benefit]/100
     |}
   |}
   {| class="wikitable"
@@ -146,7 +146,7 @@ Ensnaring Brew 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageTakenIncrease || 0 + [Proc.Benefit]/100
+      | DamageTakenIncrease || ([DamageTakenIncrease] + 0) + [Proc.Benefit]/100
     |}
   |}
   {| class="wikitable"
@@ -225,7 +225,7 @@ Ensnaring Brew 4 (Legendary)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | DamageTakenIncrease || 0 + [Proc.Benefit]/100
+      | DamageTakenIncrease || ([DamageTakenIncrease] + 0) + [Proc.Benefit]/100
     |}
   |}
   {| class="wikitable"

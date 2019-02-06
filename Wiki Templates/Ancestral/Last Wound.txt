@@ -77,7 +77,7 @@ Last Wound 2 (Uncommon)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Willpower || 0+([Willpower] * ([Proc.Benefit] / 100))
+      | Willpower || ([Willpower] + 0)+([Willpower] * ([Proc.Benefit] / 100))
       |-
     |}
   |}
@@ -167,7 +167,7 @@ Last Wound 3 (Rare)={| style="float:right;"
       |-
       | colspan="2" | Times out
       |-
-      | Willpower || 0+([Willpower] * ([Proc.Benefit] / 100))
+      | Willpower || ([Willpower] + 0)+([Willpower] * ([Proc.Benefit] / 100))
       |-
     |}
   |}
