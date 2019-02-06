@@ -59,6 +59,17 @@ Healing Response 1 (Common)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+40+([Player.Level]*8)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -128,6 +139,17 @@ Healing Response 2 (Uncommon)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+40+([Player.Level]*8)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -196,6 +218,17 @@ Healing Response 3 (Rare)={| style="float:right;"
       | Chance source || Benefit
       |-
       | Action || ApplyStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+40+([Player.Level]*8)
+      |-
     |}
   |}
   {| class="wikitable"

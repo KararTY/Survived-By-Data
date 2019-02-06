@@ -59,6 +59,16 @@ Enfeebling Brew 2 (Uncommon)={| style="float:right;"
       |-
       | Action || ApplyStatusEffectToTarget
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageTakenIncrease || 0 + [Proc.Benefit]/100
+    |}
   |}
   {| class="wikitable"
     |-
@@ -128,6 +138,16 @@ Enfeebling Brew 3 (Rare)={| style="float:right;"
       |-
       | Action || ApplyStatusEffectToTarget
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageTakenIncrease || 0 + [Proc.Benefit]/100
+    |}
   |}
   {| class="wikitable"
     |-
@@ -196,6 +216,16 @@ Enfeebling Brew 4 (Legendary)={| style="float:right;"
       | Chance source || ChanceValue
       |-
       | Action || ApplyStatusEffectToTarget
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageTakenIncrease || 0 + [Proc.Benefit]/100
     |}
   |}
   {| class="wikitable"

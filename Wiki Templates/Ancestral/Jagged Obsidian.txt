@@ -67,6 +67,16 @@ Jagged Obsidian 2 (Uncommon)={| style="float:right;"
       |-
       | Action || ApplyStatusEffectToTarget
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 5
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageOverTime || 0+([@Player.SpecialWeaponDamage]*([Proc.Benefit]/100)/5)
+    |}
   |}
   {| class="wikitable"
     |-
@@ -144,6 +154,16 @@ Jagged Obsidian 3 (Rare)={| style="float:right;"
       |-
       | Action || ApplyStatusEffectToTarget
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 5
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageOverTime || 0+([@Player.SpecialWeaponDamage]*([Proc.Benefit]/100)/5)
+    |}
   |}
   {| class="wikitable"
     |-
@@ -220,6 +240,16 @@ Jagged Obsidian 4 (Legendary)={| style="float:right;"
       | Chance source || ChanceValue
       |-
       | Action || ApplyStatusEffectToTarget
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 5
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageOverTime || 0+([@Player.SpecialWeaponDamage]*([Proc.Benefit]/100)/5)
     |}
   |}
   {| class="wikitable"

@@ -59,6 +59,19 @@ Restorative Response 1 (Common)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | HealthRegen || (Health regeneration increase by <strong style="color:green;">10%</strong>)<br><small>[HealthRegen]*1.10</small>
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -128,6 +141,19 @@ Restorative Response 2 (Uncommon)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | HealthRegen || (Health regeneration increase by <strong style="color:green;">10%</strong>)<br><small>[HealthRegen]*1.10</small>
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -196,6 +222,19 @@ Restorative Response 3 (Rare)={| style="float:right;"
       | Chance source || Benefit
       |-
       | Action || ApplyStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | HealthRegen || (Health regeneration increase by <strong style="color:green;">10%</strong>)<br><small>[HealthRegen]*1.10</small>
+      |-
     |}
   |}
   {| class="wikitable"

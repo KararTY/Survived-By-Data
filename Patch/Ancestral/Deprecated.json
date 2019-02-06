@@ -1,6 +1,6 @@
 [
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Affinity for the Winds",
     "doNotAward": false,
     "data": [],
@@ -9,7 +9,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Attuned",
     "doNotAward": false,
     "data": [],
@@ -18,7 +18,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Binding Immunity",
     "doNotAward": false,
     "data": [],
@@ -27,7 +27,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Bountiful Consumables",
     "doNotAward": false,
     "data": [],
@@ -43,7 +43,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Bountiful Elixers",
     "doNotAward": false,
     "data": [],
@@ -59,7 +59,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Bountiful Essence",
     "doNotAward": false,
     "data": [],
@@ -75,7 +75,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Consumable Journeyman",
     "doNotAward": false,
     "data": [],
@@ -84,7 +84,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Consumable Scavenger",
     "doNotAward": false,
     "data": [],
@@ -93,7 +93,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Efficient Elixers",
     "doNotAward": false,
     "data": [],
@@ -102,7 +102,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Efficient Essence",
     "doNotAward": false,
     "data": [],
@@ -111,7 +111,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Equipment Journeyman",
     "doNotAward": false,
     "data": [],
@@ -120,7 +120,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Equipment Scavenger",
     "doNotAward": false,
     "data": [],
@@ -129,7 +129,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Favors of Chance",
     "doNotAward": false,
     "data": [],
@@ -138,7 +138,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Favors of Victory",
     "doNotAward": false,
     "data": [],
@@ -147,7 +147,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Final Breath",
     "doNotAward": false,
     "data": [],
@@ -156,7 +156,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Flame Immunity",
     "doNotAward": false,
     "data": [],
@@ -165,7 +165,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Honing the Blade",
     "doNotAward": false,
     "data": [],
@@ -174,7 +174,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Honing the Body",
     "doNotAward": false,
     "data": [],
@@ -183,7 +183,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Honing the Legend",
     "doNotAward": false,
     "data": [],
@@ -192,7 +192,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Immunity",
     "doNotAward": false,
     "data": [],
@@ -201,7 +201,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Journeyman",
     "doNotAward": false,
     "data": [],
@@ -210,7 +210,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Key Scavenger",
     "doNotAward": false,
     "data": [],
@@ -219,7 +219,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Legendary Legacy",
     "doNotAward": false,
     "data": [],
@@ -228,7 +228,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Legendary",
     "doNotAward": false,
     "data": [],
@@ -237,7 +237,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Legends of Victory",
     "doNotAward": false,
     "data": [],
@@ -246,7 +246,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Legends of the End",
     "doNotAward": false,
     "data": [],
@@ -255,7 +255,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Long Shot",
     "doNotAward": false,
     "data": [],
@@ -264,7 +264,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Masterwork",
     "doNotAward": false,
     "data": [],
@@ -273,7 +273,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Material Scavenger",
     "doNotAward": false,
     "data": [],
@@ -282,7 +282,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Poison Immunity",
     "doNotAward": false,
     "data": [],
@@ -291,7 +291,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Rally 1",
     "doNotAward": true,
     "data": [
@@ -340,7 +340,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Rally 2",
     "doNotAward": true,
     "data": [
@@ -389,7 +389,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Rally 3",
     "doNotAward": true,
     "data": [
@@ -438,7 +438,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Rare Legacy",
     "doNotAward": false,
     "data": [],
@@ -447,7 +447,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Reach",
     "doNotAward": false,
     "data": [],
@@ -456,7 +456,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Recovery Capacity",
     "doNotAward": false,
     "data": [],
@@ -465,7 +465,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Regeneration Capacity",
     "doNotAward": false,
     "data": [],
@@ -474,7 +474,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Scavenger",
     "doNotAward": false,
     "data": [],
@@ -483,7 +483,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Silver Scavenger",
     "doNotAward": false,
     "data": [],
@@ -492,7 +492,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Uncommon Legacy",
     "doNotAward": false,
     "data": [],
@@ -501,7 +501,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Vampiric 1",
     "doNotAward": true,
     "data": [
@@ -550,7 +550,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Vampiric 2",
     "doNotAward": true,
     "data": [
@@ -599,7 +599,7 @@
     "stats": []
   },
   {
-    "name": "Deprecated",
+    "name": "<Deprecated>",
     "alias": "Vampiric 3",
     "doNotAward": true,
     "data": [

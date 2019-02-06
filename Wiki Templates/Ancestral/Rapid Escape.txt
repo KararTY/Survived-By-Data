@@ -59,6 +59,19 @@ Rapid Escape 2 (Uncommon)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | AddMovementSpeed || 6.6+([Proc.Benefit]/100)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -128,6 +141,19 @@ Rapid Escape 3 (Rare)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | AddMovementSpeed || 6.6+([Proc.Benefit]/100)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -196,6 +222,19 @@ Rapid Escape 4 (Legendary)={| style="float:right;"
       | Chance source || ChanceValue
       |-
       | Action || ApplyStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | AddMovementSpeed || 6.6+([Proc.Benefit]/100)
+      |-
     |}
   |}
   {| class="wikitable"

@@ -67,6 +67,19 @@ Deflective Obsidian 2 (Uncommon)={| style="float:right;"
       |-
       | Action || RemoveStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageReduction || 0+([DamageReduction] * [Proc.Benefit] / 100)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -144,6 +157,19 @@ Deflective Obsidian 3 (Rare)={| style="float:right;"
       |-
       | Action || RemoveStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageReduction || 0+([DamageReduction] * [Proc.Benefit] / 100)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -220,6 +246,19 @@ Deflective Obsidian 4 (Legendary)={| style="float:right;"
       | Chance source || ChanceValue
       |-
       | Action || RemoveStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageReduction || 0+([DamageReduction] * [Proc.Benefit] / 100)
+      |-
     |}
   |}
   {| class="wikitable"

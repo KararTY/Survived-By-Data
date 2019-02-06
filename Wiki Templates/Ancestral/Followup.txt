@@ -59,6 +59,16 @@ Followup 1 (Common)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Mana || 0+[Proc.Benefit]
+    |}
   |}
   {| class="wikitable"
     |-
@@ -128,6 +138,16 @@ Followup 2 (Uncommon)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Mana || 0+[Proc.Benefit]
+    |}
   |}
   {| class="wikitable"
     |-
@@ -196,6 +216,16 @@ Followup 3 (Rare)={| style="float:right;"
       | Chance source || ChanceValue
       |-
       | Action || ApplyStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Mana || 0+[Proc.Benefit]
     |}
   |}
   {| class="wikitable"

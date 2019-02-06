@@ -67,6 +67,17 @@ Thick Hide 2 (Uncommon)={| style="float:right;"
       |-
       | Action || RemoveStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageReduction || 0+([DamageReduction]*[Proc.Benefit]/100)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -144,6 +155,17 @@ Thick Hide 3 (Rare)={| style="float:right;"
       |-
       | Action || RemoveStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageReduction || 0+([DamageReduction]*[Proc.Benefit]/100)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -220,6 +242,17 @@ Thick Hide 4 (Legendary)={| style="float:right;"
       | Chance source || ChanceValue
       |-
       | Action || RemoveStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageReduction || 0+([DamageReduction]*[Proc.Benefit]/100)
+      |-
     |}
   |}
   {| class="wikitable"

@@ -59,6 +59,17 @@ Shared Recovery 2 (Uncommon)={| style="float:right;"
       |-
       | Action || ApplyStatusEffectToAllies
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+(40+([@SourcePlayer.Level]*8) * [Proc.Benefit]/100)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -127,6 +138,17 @@ Shared Recovery 3 (Rare)={| style="float:right;"
       | Chance source || ChanceValue
       |-
       | Action || ApplyStatusEffectToAllies
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+(40+([@SourcePlayer.Level]*8) * [Proc.Benefit]/100)
+      |-
     |}
   |}
   {| class="wikitable"

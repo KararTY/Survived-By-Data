@@ -195,7 +195,63 @@ module.exports = (() => {
         | Chance source || ${t.chanceSource}
         |-
         | Action || ${t.action}`.replace(/      /g, '    ')
-    }).join('\n                  |-\n')}\n                |}` : ''}`.replace(/    [\n\r]+/g, '\n') : ''
+    }).join('\n                  |-\n')}\n                |}\n                |-` : ''}
+    ${gpd.statusEffect ? `| Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      ${gpd.statusEffect.duration ? `| Duration || ${gpd.statusEffect.duration}
+      |-` : ''}
+      ${gpd.statusEffect.isBuff ? `| colspan="2" | Buff
+      |-` : ''}
+      ${gpd.statusEffect.coolDownTime ? `| Cooldown || ${gpd.statusEffect.coolDownTime}
+      |-` : ''}
+      ${gpd.statusEffect.removeOnAttack ? `| colspan="2" | Removed on attack
+      |-` : ''}
+      ${!gpd.statusEffect.noTimeout ? `| colspan="2" | Times out
+      |-` : ''}
+      ${gpd.statusEffect.stats.map(v => {
+        var equation
+        var noResolution = false
+        if (v.equation.includes('[Player.Level]') || v.equation.includes('[Proc.Benefit]')) {
+          equation = v.equation.replace(`[${v.key}]`, v.value)
+          noResolution = true
+        } else if (v.key === 'DamageOverTime') {
+          var statEquation = v.equation.replace('[DamageOverTime]+', '')
+          equation = `(Initial damage: ${v.value} & Damage over time: ${statEquation})`
+        } else if (v.equation.length > 0 && v.equation.includes(`[${v.key}]`) && v.value) equation = parseFloat(eval(v.equation.replace(`[${v.key}]`, v.value)).toFixed(2))
+        else if (v.key === 'DamageReduction') {
+          var statEquation = v.equation.replace('[DamageReduction]', '')
+          var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+          var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+          equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Damage ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+        } else if (v.key === 'RateOfAttack') {
+          var statEquation = v.equation.replace('[RateOfAttack]', '')
+          var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+          var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+          equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Rate of attack ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+        } else if (v.key === 'MovementSpeed') {
+          var statEquation = v.equation.replace('[MovementSpeed]', '')
+          var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+          var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+          equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Movement speed ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+        } else if (v.key === 'CriticalChance') {
+          var statEquation = v.equation.replace('[CriticalChance]', '')
+          var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+          var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+          equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Critical chance ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+        } else if (v.key === 'RagePerAttack') {
+          var statEquation = v.equation.replace('[RagePerAttack]', '')
+          var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+          var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+          equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Rage per attack ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+        } else if (v.key === 'HealthRegen') {
+          var statEquation = v.equation.replace('[HealthRegen]', '')
+          var statEquationSign = v.equation.replace(`[${v.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
+          var increaseOrDecrease = statEquation.length > 0 ? Number(statEquation.split('.')[0].replace('*', '')) : '' // Either a 0 aka reduction, or higher aka increase.
+          equation = statEquationSign === '*' ? typeof increaseOrDecrease === 'number' ? `(Health regeneration ${increaseOrDecrease > 0 ? 'increase' : 'decrease'} by ${increaseOrDecrease > 0 ? `<strong style="color:green;">${parseFloat(eval(`(100${statEquation})-100`).toFixed(2))}` : `<strong style="color:red;">${parseFloat(eval(`100-(100${statEquation})`).toFixed(2))}`}%</strong>)` : '' : ''
+        }
+        return (v.equation || v.value) ? `| ${v.key} || ${equation ? `${equation}${!noResolution ? `<br><small>${v.equation}${v.value ? ` '''${v.value}'''` : ''}</small>` : ''}` : `${v.equation}${v.value ? ` '''${v.value}'''` : ''}`}` : ''
+      }).join('\n                  |-\n')}\n                |}` : ''}`.replace(/    [\n\r]+/g, '\n') : ''
   }
 
   function gAncestralStats(stats, colspan) {
@@ -302,7 +358,7 @@ module.exports = (() => {
 //[[Category:Tier ${file[0].tier}]]
 //${file[0].class.length > 0 ? file[0].class.map(c => `[[Category:${c}]]`).join('\n') : ''}
 //{{stub}}
-//      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file[0].name}.txt`), template)
+//      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file[0].name.replace(/[\/\?\<\>\\\:\*\|\"]/g, '')}.txt`), template)
 //    })
 //  }
 
@@ -431,7 +487,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
         |}` : ''}
         {| class="wikitable mw-collapsible"
           |-
-          ! colspan="3" | ${item.name === 'Deprecated' ? item.alias : item.name}
+          ! colspan="3" | ${item.name === '<Deprecated>' ? item.alias : item.name}
           |-
           | Available || colspan="2" | ${item.doNotAward ? 'No' : 'Yes'}
           |-
@@ -459,7 +515,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       template += `\n[[Category:Ancestral Legacy]]`.replace(/\r?\n+|\r+/g, '\n').trim()
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
       template += `\n<onlyinclude><includeonly>${file[0].description ? file[0].description.replace(/[\n]/g , ' ').replace('#', 'X').trim() : ''}</includeonly></onlyinclude>`
-      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder4, `${file[0].name}.txt`), template)
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder4, `${file[0].name.replace(/[\/\?\<\>\\\:\*\|\"]/g, '')}.txt`), template)
     })
   }
 

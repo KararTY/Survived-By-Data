@@ -59,6 +59,19 @@ Quick Reaction 1 (Common)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 2
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageReductionAll || 0 + ([Proc.Benefit]/100)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -128,6 +141,19 @@ Quick Reaction 2 (Uncommon)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 2
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageReductionAll || 0 + ([Proc.Benefit]/100)
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -196,6 +222,19 @@ Quick Reaction 3 (Rare)={| style="float:right;"
       | Chance source || ChanceValue
       |-
       | Action || ApplyStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 2
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | DamageReductionAll || 0 + ([Proc.Benefit]/100)
+      |-
     |}
   |}
   {| class="wikitable"

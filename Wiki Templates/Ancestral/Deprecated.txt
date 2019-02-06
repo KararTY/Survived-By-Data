@@ -472,6 +472,17 @@ Rally 1 (Common)={| class="wikitable mw-collapsible"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+([HealthMax] * ([Proc.Benefit] / 100))
+      |-
+    |}
   |}
 |-|
 Vampiric 1 (Common)={| class="wikitable mw-collapsible"
@@ -501,6 +512,17 @@ Vampiric 1 (Common)={| class="wikitable mw-collapsible"
       | Chance source || ChanceValue
       |-
       | Action || ApplyStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+([Proc.Benefit])
+      |-
     |}
   |}
 |-|
@@ -532,6 +554,17 @@ Rally 2 (Uncommon)={| class="wikitable mw-collapsible"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+([HealthMax] * ([Proc.Benefit] / 100))
+      |-
+    |}
   |}
 |-|
 Vampiric 2 (Uncommon)={| class="wikitable mw-collapsible"
@@ -561,6 +594,17 @@ Vampiric 2 (Uncommon)={| class="wikitable mw-collapsible"
       | Chance source || ChanceValue
       |-
       | Action || ApplyStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+([Proc.Benefit])
+      |-
     |}
   |}
 |-|
@@ -592,6 +636,17 @@ Rally 3 (Rare)={| class="wikitable mw-collapsible"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+([HealthMax] * ([Proc.Benefit] / 100))
+      |-
+    |}
   |}
 |-|
 Vampiric 3 (Rare)={| class="wikitable mw-collapsible"
@@ -621,6 +676,17 @@ Vampiric 3 (Rare)={| class="wikitable mw-collapsible"
       | Chance source || ChanceValue
       |-
       | Action || ApplyStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | Health || 121.23+([Proc.Benefit])
+      |-
     |}
   |}
 |-|

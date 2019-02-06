@@ -59,6 +59,19 @@ Celerity Response 1 (Common)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | AddMovementSpeed || 6.7<br><small>[AddMovementSpeed]+0.1 '''6.6'''</small>
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -128,6 +141,19 @@ Celerity Response 2 (Uncommon)={| style="float:right;"
       |-
       | Action || ApplyStatusEffect
     |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | AddMovementSpeed || 6.7<br><small>[AddMovementSpeed]+0.1 '''6.6'''</small>
+      |-
+    |}
   |}
   {| class="wikitable"
     |-
@@ -196,6 +222,19 @@ Celerity Response 3 (Rare)={| style="float:right;"
       | Chance source || Benefit
       |-
       | Action || ApplyStatusEffect
+    |}
+    |-
+    | Status Effect || colspan="2" | 
+    {| class="wikitable"
+      |-
+      | Duration || 3
+      |-
+      | colspan="2" | Buff
+      |-
+      | colspan="2" | Times out
+      |-
+      | AddMovementSpeed || 6.7<br><small>[AddMovementSpeed]+0.1 '''6.6'''</small>
+      |-
     |}
   |}
   {| class="wikitable"
