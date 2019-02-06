@@ -10,7 +10,58 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 10,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_I_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Hard Mode 1"
+          },
+          {
+            "alias": "Relic Hard Mode 2"
+          },
+          {
+            "alias": "Relic Hard Mode 3"
+          },
+          {
+            "alias": "Relic Hard Mode 4"
+          },
+          {
+            "alias": "Relic Hard Mode 5"
+          },
+          {
+            "alias": "Relic Hard Mode 6"
+          },
+          {
+            "alias": "Relic Hard Mode 7"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -154,7 +205,58 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 10,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_I_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Hard Mode 1"
+          },
+          {
+            "alias": "Relic Hard Mode 2"
+          },
+          {
+            "alias": "Relic Hard Mode 3"
+          },
+          {
+            "alias": "Relic Hard Mode 4"
+          },
+          {
+            "alias": "Relic Hard Mode 5"
+          },
+          {
+            "alias": "Relic Hard Mode 6"
+          },
+          {
+            "alias": "Relic Hard Mode 7"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -298,7 +400,58 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 10,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_I_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Hard Mode 1"
+          },
+          {
+            "alias": "Relic Hard Mode 2"
+          },
+          {
+            "alias": "Relic Hard Mode 3"
+          },
+          {
+            "alias": "Relic Hard Mode 4"
+          },
+          {
+            "alias": "Relic Hard Mode 5"
+          },
+          {
+            "alias": "Relic Hard Mode 6"
+          },
+          {
+            "alias": "Relic Hard Mode 7"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -442,7 +595,58 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 10,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_I_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Hard Mode 1"
+          },
+          {
+            "alias": "Relic Hard Mode 2"
+          },
+          {
+            "alias": "Relic Hard Mode 3"
+          },
+          {
+            "alias": "Relic Hard Mode 4"
+          },
+          {
+            "alias": "Relic Hard Mode 5"
+          },
+          {
+            "alias": "Relic Hard Mode 6"
+          },
+          {
+            "alias": "Relic Hard Mode 7"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -586,7 +790,58 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 10,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_I_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Hard Mode 1"
+          },
+          {
+            "alias": "Relic Hard Mode 2"
+          },
+          {
+            "alias": "Relic Hard Mode 3"
+          },
+          {
+            "alias": "Relic Hard Mode 4"
+          },
+          {
+            "alias": "Relic Hard Mode 5"
+          },
+          {
+            "alias": "Relic Hard Mode 6"
+          },
+          {
+            "alias": "Relic Hard Mode 7"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -730,7 +985,58 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 10,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_I_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Hard Mode 1"
+          },
+          {
+            "alias": "Relic Hard Mode 2"
+          },
+          {
+            "alias": "Relic Hard Mode 3"
+          },
+          {
+            "alias": "Relic Hard Mode 4"
+          },
+          {
+            "alias": "Relic Hard Mode 5"
+          },
+          {
+            "alias": "Relic Hard Mode 6"
+          },
+          {
+            "alias": "Relic Hard Mode 7"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -874,7 +1180,58 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 10,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_I_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Hard Mode 1"
+          },
+          {
+            "alias": "Relic Hard Mode 2"
+          },
+          {
+            "alias": "Relic Hard Mode 3"
+          },
+          {
+            "alias": "Relic Hard Mode 4"
+          },
+          {
+            "alias": "Relic Hard Mode 5"
+          },
+          {
+            "alias": "Relic Hard Mode 6"
+          },
+          {
+            "alias": "Relic Hard Mode 7"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",

@@ -10,7 +10,40 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "socketableItem": {
+          "craftTime": 3600,
+          "costToApply": 0,
+          "timeToFuse": 0
+        }
+      },
+      {
+        "sprite": {
+          "name": "Icon_socket_attachment",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "stats": [
       {
         "key": "Gear_Score",

@@ -10,7 +10,33 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "infiltrator_meat costume",
+          "baseSize": {
+            "width": 192,
+            "height": 192
+          },
+          "textureRectangle": {
+            "x": 2,
+            "y": 144,
+            "width": 39,
+            "height": 48
+          },
+          "textureOffset": {
+            "x": 2,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

@@ -12,6 +12,31 @@
     "tier": 6,
     "data": [
       {
+        "sprite": {
+          "name": "Armor Mantle 6",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 30,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
         "crafting": {
           "craftingTime": 1800,
           "requiredItems": [
@@ -41,6 +66,12 @@
           "craftingStat": "_Unknown",
           "craftingCategory": "T6_Void"
         }
+      },
+      {
+        "sounds": [
+          "EquipArmorLeather",
+          "DropArmorLeather"
+        ]
       }
     ],
     "stats": [

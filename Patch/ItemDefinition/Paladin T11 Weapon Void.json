@@ -10,7 +10,40 @@
     "type": "Weapon",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "Sentinel 10",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "sounds": [
+          "EquipSword",
+          "DropSword",
+          "UnequipSword"
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",

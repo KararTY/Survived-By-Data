@@ -10,7 +10,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -154,7 +199,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -298,7 +388,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -442,7 +577,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -586,7 +766,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -730,7 +955,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -874,7 +1144,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1018,7 +1333,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1162,7 +1522,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1306,7 +1711,52 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_ashen_chitin",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Void I 1"
+          },
+          {
+            "alias": "Relic Void I 2"
+          },
+          {
+            "alias": "Relic Void I 3"
+          },
+          {
+            "alias": "Relic Void I 4"
+          },
+          {
+            "alias": "Relic Void I 5"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",

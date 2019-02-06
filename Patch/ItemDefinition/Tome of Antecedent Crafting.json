@@ -10,7 +10,39 @@
     "type": "Misc",
     "maxStack": 10,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "Tome of Antecendent Crafting",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 31
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "sounds": [
+          "EquipBook",
+          "DropBook"
+        ]
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

@@ -12,6 +12,37 @@
     "tier": 9,
     "data": [
       {
+        "sprite": {
+          "name": "Boots Light_Sin_Greater",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 2,
+            "width": 31,
+            "height": 28
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 2
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "sounds": [
+          "EquipBootsLeather",
+          "DropBootsLeather"
+        ]
+      },
+      {
         "crafting": {
           "craftingTime": 21600,
           "requiredItems": [

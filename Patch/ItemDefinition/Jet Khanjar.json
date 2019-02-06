@@ -10,7 +10,33 @@
     "type": "Weapon",
     "maxStack": 1,
     "tier": 5,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "Infiltrator 1",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 2,
+            "width": 29,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 2
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "experiencePerLevel": [
       0,
       100,
@@ -44,6 +70,31 @@
     "tier": 3,
     "data": [
       {
+        "sprite": {
+          "name": "Infiltrator 3",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 1,
+            "width": 26,
+            "height": 28
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
         "crafting": {
           "craftingTime": 60,
           "requiredItems": [
@@ -68,6 +119,13 @@
           "craftingStat": "_Unknown",
           "craftingCategory": "T3_Jet"
         }
+      },
+      {
+        "sounds": [
+          "EquipDagger",
+          "DropDagger",
+          "UnequipDagger"
+        ]
       }
     ],
     "stats": [

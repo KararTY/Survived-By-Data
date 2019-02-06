@@ -10,7 +10,33 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "dye_bottle",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 0,
+            "width": 26,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 0
+          },
+          "color": {
+            "r": 0.6,
+            "g": 0.6,
+            "b": 0.16,
+            "a": 1
+          }
+        }
+      }
+    ],
     "experiencePerLevel": [
       0
     ],
@@ -37,7 +63,33 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "dye_bottle",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 0,
+            "width": 26,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 0
+          },
+          "color": {
+            "r": 0.6,
+            "g": 0.6,
+            "b": 0.16,
+            "a": 1
+          }
+        }
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

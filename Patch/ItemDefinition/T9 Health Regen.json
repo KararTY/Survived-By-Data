@@ -10,7 +10,33 @@
     "type": "Consumable",
     "maxStack": 1,
     "tier": 9,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "P_Medicine06",
+          "baseSize": {
+            "width": 34,
+            "height": 34
+          },
+          "textureRectangle": {
+            "x": 8,
+            "y": 1,
+            "width": 17,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 8,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "stats": [
       {
         "key": "Gear_Score",

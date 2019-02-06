@@ -9,7 +9,33 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "grabe",
+          "baseSize": {
+            "width": 2048,
+            "height": 107
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 61,
+            "height": 107
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

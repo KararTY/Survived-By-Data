@@ -10,7 +10,39 @@
     "type": "Armor",
     "maxStack": 1,
     "tier": 6,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "Armor Mantle 1",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 5,
+            "width": 32,
+            "height": 25
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 5
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "sounds": [
+          "EquipArmorLeather",
+          "DropArmorLeather"
+        ]
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

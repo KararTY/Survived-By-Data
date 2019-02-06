@@ -12,6 +12,31 @@
     "tier": 10,
     "data": [
       {
+        "sprite": {
+          "name": "Armor Leather 9",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 2,
+            "width": 32,
+            "height": 29
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 2
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
         "crafting": {
           "craftingTime": 86400,
           "requiredItems": [
@@ -36,6 +61,12 @@
           "craftingStat": "_Unknown",
           "craftingCategory": "T10_Master1"
         }
+      },
+      {
+        "sounds": [
+          "EquipArmorLeather",
+          "DropArmorLeather"
+        ]
       }
     ],
     "stats": [

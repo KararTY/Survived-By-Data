@@ -10,7 +10,33 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "harbinger_valentine_temp",
+          "baseSize": {
+            "width": 48,
+            "height": 48
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 3,
+            "width": 45,
+            "height": 42
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 3
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

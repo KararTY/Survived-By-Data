@@ -10,7 +10,33 @@
     "type": "Consumable",
     "maxStack": 1,
     "tier": 1,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "protoitemsprites",
+          "baseSize": {
+            "width": 476,
+            "height": 1020
+          },
+          "textureRectangle": {
+            "x": 316,
+            "y": 918,
+            "width": 15,
+            "height": 33
+          },
+          "textureOffset": {
+            "x": 10,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "stats": [
       {
         "key": "Gear_Score",

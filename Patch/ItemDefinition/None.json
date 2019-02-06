@@ -9,7 +9,36 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "protoitemsprites",
+          "baseSize": {
+            "width": 476,
+            "height": 1020
+          },
+          "textureRectangle": {
+            "x": 374,
+            "y": 408,
+            "width": 34,
+            "height": 34
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "isAccountBound": true
+      }
+    ],
     "experiencePerLevel": [
       0
     ],
@@ -35,7 +64,11 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "isAccountBound": true
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

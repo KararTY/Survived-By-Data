@@ -10,7 +10,33 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 1,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "Ac_Medal04",
+          "baseSize": {
+            "width": 34,
+            "height": 34
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 32,
+            "height": 34
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "stats": [
       {
         "key": "Gear_Score",

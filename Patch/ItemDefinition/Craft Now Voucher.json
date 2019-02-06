@@ -10,7 +10,33 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "I_Scroll",
+          "baseSize": {
+            "width": 34,
+            "height": 34
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 34,
+            "height": 34
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

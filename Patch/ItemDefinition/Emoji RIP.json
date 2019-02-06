@@ -10,7 +10,39 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "emojis",
+          "baseSize": {
+            "width": 256,
+            "height": 256
+          },
+          "textureRectangle": {
+            "x": 34,
+            "y": 96,
+            "width": 28,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 2,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "emoji": {
+          "displayName": "Emoji RIP",
+          "emojiCode": "rip"
+        }
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

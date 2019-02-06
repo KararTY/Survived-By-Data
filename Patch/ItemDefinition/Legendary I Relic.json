@@ -10,7 +10,33 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 1,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "enhancement_legendary",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 30,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "stats": [
       {
         "key": "ValrLegendIncrease",

@@ -10,7 +10,33 @@
     "type": "Consumable",
     "maxStack": 1,
     "tier": 7,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "P_Red07",
+          "baseSize": {
+            "width": 34,
+            "height": 34
+          },
+          "textureRectangle": {
+            "x": 6,
+            "y": 0,
+            "width": 23,
+            "height": 33
+          },
+          "textureOffset": {
+            "x": 6,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
     "stats": [
       {
         "key": "Gear_Score",

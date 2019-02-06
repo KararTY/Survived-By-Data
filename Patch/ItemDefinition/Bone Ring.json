@@ -12,6 +12,31 @@
     "tier": 3,
     "data": [
       {
+        "sprite": {
+          "name": "Rings 3",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 1,
+            "width": 30,
+            "height": 28
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
         "crafting": {
           "craftingTime": 60,
           "requiredItems": [
@@ -36,6 +61,12 @@
           "craftingStat": "_Unknown",
           "craftingCategory": "T3_Jet"
         }
+      },
+      {
+        "sounds": [
+          "EquipRing",
+          "DropRing"
+        ]
       }
     ],
     "stats": [

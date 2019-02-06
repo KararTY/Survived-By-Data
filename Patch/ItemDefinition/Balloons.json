@@ -10,7 +10,36 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "Attachment_Over head_Balloons_menu image",
+          "baseSize": {
+            "width": 80,
+            "height": 80
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 9,
+            "width": 75,
+            "height": 68
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 9
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "isAccountBound": true
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

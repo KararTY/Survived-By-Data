@@ -9,7 +9,39 @@
     "type": "Boots",
     "maxStack": 1,
     "tier": 11,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boots Light 10",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 29
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "sounds": [
+          "EquipBootsLeather",
+          "DropBootsLeather"
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Endurance",

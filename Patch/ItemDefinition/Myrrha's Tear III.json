@@ -10,7 +10,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -154,7 +214,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -298,7 +418,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -442,7 +622,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -586,7 +826,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -730,7 +1030,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -874,7 +1234,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1018,7 +1438,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1162,7 +1642,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1306,7 +1846,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1450,7 +2050,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1594,7 +2254,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1738,7 +2458,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -1882,7 +2662,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",
@@ -2026,7 +2866,67 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 12,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_III_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise II 1"
+          },
+          {
+            "alias": "Relic Paradise II 2"
+          },
+          {
+            "alias": "Relic Paradise II 3"
+          },
+          {
+            "alias": "Relic Paradise II 4"
+          },
+          {
+            "alias": "Relic Paradise II 5"
+          },
+          {
+            "alias": "Relic Paradise II 6"
+          },
+          {
+            "alias": "Relic Paradise II 7"
+          },
+          {
+            "alias": "Relic Paradise II 8"
+          },
+          {
+            "alias": "Relic Paradise II 9"
+          },
+          {
+            "alias": "Relic Paradise II 10"
+          }
+        ]
+      }
+    ],
     "stats": [
       {
         "key": "Potency",

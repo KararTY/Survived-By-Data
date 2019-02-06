@@ -12,6 +12,31 @@
     "tier": 5,
     "data": [
       {
+        "sprite": {
+          "name": "Geomancer_Sin_Lesser",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
         "crafting": {
           "craftingTime": 600,
           "requiredItems": [
@@ -41,6 +66,13 @@
           "craftingStat": "Sin_Gear_Crafted_Lesser",
           "craftingCategory": "Event_Sin"
         }
+      },
+      {
+        "sounds": [
+          "EquipSickle",
+          "DropSickle",
+          "UnequipSickle"
+        ]
       }
     ],
     "stats": [

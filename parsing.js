@@ -144,6 +144,114 @@ module.exports = () => {
                 price: f['0 MonoBehaviour Base']['1 string price']
               }
             }
+          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['1 UInt8 IsAccountBound']) {
+            return {
+              isAccountBound: !!f['0 MonoBehaviour Base']['1 UInt8 IsAccountBound']
+            }
+          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array snds']) {
+            return {
+              sounds: f['0 MonoBehaviour Base']['0 Array snds'].map(sound => sound['1 string data'])
+            }
+          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['1 UInt8 isCardPack']) {
+            return {
+              isCardPack: !!f['0 MonoBehaviour Base']['1 UInt8 isCardPack']
+            }
+          } else if (f['0 MonoBehaviour Base'] && typeof f['0 MonoBehaviour Base']['0 float timeToFuse'] === 'number') {
+            return {
+              socketableItem: {
+                craftTime: parseFloat(f['0 MonoBehaviour Base']['0 float craftTime'].toFixed(2)),
+                costToApply: f['0 MonoBehaviour Base']['0 int costToApply'],
+                timeToFuse: parseFloat(f['0 MonoBehaviour Base']['0 float timeToFuse'].toFixed(2))
+              }
+            }
+          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array NearbySpawnersToActivate']) {
+            return {
+              nearbySpawnersToActivate: {
+                spawners: f['0 MonoBehaviour Base']['0 Array NearbySpawnersToActivate'].map(v => {
+                  var f = require(path.join(folder['Other'], fileMap(v['0 PPtr<$Spawner> data']['0 int m_FileID']) + v['0 PPtr<$Spawner> data']['0 SInt64 m_PathID'] + '.json'))
+                  return {
+                    name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+                  }
+                }),
+                nearbySpawnerRange: f['0 MonoBehaviour Base']['0 int NearbySpawnerRange']
+              }
+            }
+          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array prequisites']) {
+            return f['0 MonoBehaviour Base']['0 Array prequisites'].length > 0 ? {
+              prequisites: f['0 MonoBehaviour Base']['0 Array prequisites'].map(v => {
+                var f = require(path.join(folder['Other'], fileMap(v['0 PPtr<$Relic> data']['0 int m_FileID']) + v['0 PPtr<$Relic> data']['0 SInt64 m_PathID'] + '.json'))
+                return {
+                  alias: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+                }
+              }) 
+            } : undefined
+          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 PPtr<$ItemModifier> temporaryModifierToApply']) {
+            var f = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$ItemModifier> temporaryModifierToApply']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$ItemModifier> temporaryModifierToApply']['0 SInt64 m_PathID'] + '.json'))
+            return {
+              temporaryModifierToApply: {
+                craftLevelDeduction: f['0 MonoBehaviour Base']['0 int craftLevelDeduction'],
+                nameMod: f['0 MonoBehaviour Base']['1 string nameMod'].length > 0 ? translate[f['0 MonoBehaviour Base']['1 string nameMod']] || f['0 MonoBehaviour Base']['1 string nameMod'] : undefined,
+                equipmentSet: f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID']
+                  ? (function () {
+                    var e = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID'] + '.json'))
+                    return {
+                      name: require(path.join(folder['Other'], fileMap(e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
+                      description: e['0 MonoBehaviour Base']['1 string Description'],
+                      minimumRequiredAmount: e['0 MonoBehaviour Base']['0 int minimumNumberOfItemsToEnable'],
+                      stats: e['0 MonoBehaviour Base']['0 Array stat'].map(v => {
+                        return {
+                          key: Object.keys(statEnum).map(e => {
+                            if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
+                            else return undefined
+                          }).filter(Boolean).join(''),
+                          equation: v['0 Deity.Shared.Stat data']['1 string equation'],
+                          value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
+                        }
+                      })
+                    }
+                  })()
+                  : undefined,
+                expireTime: parseFloat(f['0 MonoBehaviour Base']['0 float expireTime'].toFixed(2)),
+                validClasses: Object.keys(classEnum).map(e => {
+                  if (e !== 'None' && classEnum[e] === f['0 MonoBehaviour Base']['0 int validEquipMask']) return e
+                  else if (e !== 'None' && hasFlag(f['0 MonoBehaviour Base']['0 int validEquipMask'], classEnum[e])) return e
+                  else return undefined
+                }).filter(Boolean),
+                type: Object.keys(itemClassEnum).map(e => {
+                  if (e !== 'None' && itemClassEnum[e] === f['0 MonoBehaviour Base']['0 int validClasses']) return e
+                  else if (e !== 'None' && hasFlag(f['0 MonoBehaviour Base']['0 int validClasses'], itemClassEnum[e])) return e
+                  else return undefined
+                }).filter(Boolean),
+                minTier: f['0 MonoBehaviour Base']['0 int minTier'],
+                maxTier: f['0 MonoBehaviour Base']['0 int maxTier'],
+                chanceToApply: parseFloat(f['0 MonoBehaviour Base']['0 float chanceToApply'].toFixed(2)),
+                stats: f['0 MonoBehaviour Base']['0 Array stat'].length > 0 ? f['0 MonoBehaviour Base']['0 Array stat'].map(v => {
+                  return {
+                    key: Object.keys(statEnum).map(e => {
+                      if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
+                      else return undefined
+                    }).filter(Boolean).join(''),
+                    equation: v['0 Deity.Shared.Stat data']['1 string equation'],
+                    value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
+                  }
+                }) : undefined,
+                category: Object.keys(itemModifierCategoryEnum).map(e => {
+                  if (itemModifierCategoryEnum[e] === f['0 MonoBehaviour Base']['0 int category']) return e
+                  else return undefined
+                }).filter(Boolean).join('')
+              }
+            }
+          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['1 string emojiCode']) {
+            return {
+              emoji: {
+                displayName: translate[f['0 MonoBehaviour Base']['1 string displayName']] || f['0 MonoBehaviour Base']['1 string displayName'],
+                emojiCode: f['0 MonoBehaviour Base']['1 string emojiCode']
+              }
+            }
+          } else if (f['0 MonoBehaviour Base'] && typeof f['0 MonoBehaviour Base']['0 int unlockTier'] === 'number') {
+            return {
+              unlockTier: f['0 MonoBehaviour Base']['0 int unlockTier']
+            }
           } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 PPtr<$Sprite> m_Sprite'] && f['0 MonoBehaviour Base']['0 PPtr<$Sprite> m_Sprite']['0 SInt64 m_PathID']) {
             var srd = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$Sprite> m_Sprite']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$Sprite> m_Sprite']['0 SInt64 m_PathID'] + '.json'))['0 Sprite Base']['1 SpriteRenderData m_RD']
             var s = require(path.join(folder['Other'], fileMap(srd['0 PPtr<Texture2D> texture']['0 int m_FileID']) + srd['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID'] + '.json'))['0 Texture2D Base']
@@ -170,14 +278,6 @@ module.exports = () => {
                   b: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA m_Color']['0 float b'].toFixed(2)),
                   a: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA m_Color']['0 float a'].toFixed(2)),
                 }
-              }
-            }
-          } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 float timeToFuse']) {
-            return {
-              socketableItem: {
-                craftTime: parseFloat(f['0 MonoBehaviour Base']['0 float craftTime'].toFixed(2)),
-                costToApply: f['0 MonoBehaviour Base']['0 int costToApply'],
-                timeToFuse: parseFloat(f['0 MonoBehaviour Base']['0 float timeToFuse'].toFixed(2))
               }
             }
           } else return undefined

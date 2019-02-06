@@ -10,7 +10,36 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "Attachment_Holiday_Overhead_light bulb_menu image",
+          "baseSize": {
+            "width": 80,
+            "height": 80
+          },
+          "textureRectangle": {
+            "x": 18,
+            "y": 24,
+            "width": 43,
+            "height": 45
+          },
+          "textureOffset": {
+            "x": 18,
+            "y": 24
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "isAccountBound": true
+      }
+    ],
     "experiencePerLevel": [
       0
     ],

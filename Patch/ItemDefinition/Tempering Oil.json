@@ -10,7 +10,65 @@
     "type": "Misc",
     "maxStack": 99,
     "tier": 0,
-    "data": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "HUD_Potion black",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "temporaryModifierToApply": {
+          "craftLevelDeduction": 0,
+          "expireTime": 3600,
+          "validClasses": [
+            "Alchemist",
+            "Harbinger",
+            "Infiltrator",
+            "Sentinel",
+            "Geomancer",
+            "Druid"
+          ],
+          "type": [
+            "Weapon",
+            "Armor",
+            "Boots",
+            "Amulet",
+            "Ring"
+          ],
+          "minTier": 0,
+          "maxTier": 100,
+          "chanceToApply": 0,
+          "stats": [
+            {
+              "key": "Item_XPGain",
+              "equation": "1",
+              "value": 0
+            }
+          ],
+          "category": "SpecialEffect"
+        }
+      }
+    ],
     "experiencePerLevel": [
       0
     ],
