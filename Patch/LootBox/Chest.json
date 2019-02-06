@@ -1,1 +1,7 @@
-[{"name":"Chest","lootTable":"LootBoxTutorial","containBloodStone":false}]
+[
+  {
+    "name": "Chest",
+    "lootTable": "LootBoxTutorial",
+    "containBloodStone": false
+  }
+]

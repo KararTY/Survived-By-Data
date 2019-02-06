@@ -1,1 +1,19 @@
-[{"from":"boss_dreadnought_pod","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Resin","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true}]}]
+[
+  {
+    "from": "boss_dreadnought_pod",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Raw Resin",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

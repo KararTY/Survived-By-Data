@@ -1,1 +1,55 @@
-[{"name":"Sentinel Ancestral Spirit Skin","alias":"Unlock Skin Sentinel Spirit","description":"Unlock the Sentinel Ancestral Spirit Skin","price":200,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":1,"tier":0,"data":[{"sprite":{"name":"sentinel_ancestral spirit","baseSize":{"width":192,"height":144},"textureRectangle":{"x":2,"y":96,"width":40,"height":44},"textureOffset":{"x":2,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":[],"bound":{"account":false,"soul":true},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Platinum","modifierChance":0.75}]
+[
+  {
+    "name": "Sentinel Ancestral Spirit Skin",
+    "alias": "Unlock Skin Sentinel Spirit",
+    "description": "Unlock the Sentinel Ancestral Spirit Skin",
+    "price": 200,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "sentinel_ancestral spirit",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 2,
+            "y": 96,
+            "width": 40,
+            "height": 44
+          },
+          "textureOffset": {
+            "x": 2,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Platinum",
+    "modifierChance": 0.75
+  }
+]

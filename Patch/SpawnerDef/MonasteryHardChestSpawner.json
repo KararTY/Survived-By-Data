@@ -1,1 +1,37 @@
-[{"name":"MonasteryHardChestSpawner","biome":"DungeonMonasteryHard","difficulty":{"min":0,"max":0.5},"spawnRadius":10,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":true,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Greater Chiroptera Sorcerer","monsterAlias":"monster_chimera_batmage_dung_hardmode_dangerous","spawnChance":1,"spawnQuota":4,"timeOfDay":"All"},{"monsterName":"Greater Regulus Honor Guard","monsterAlias":"monster_chimera_lizardwarrior_dung_hardmode_dangerous","spawnChance":1,"spawnQuota":4,"timeOfDay":"All"}],"oneTimeTrigger":true,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "MonasteryHardChestSpawner",
+    "biome": "DungeonMonasteryHard",
+    "difficulty": {
+      "min": 0,
+      "max": 0.5
+    },
+    "spawnRadius": 10,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": true,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Greater Chiroptera Sorcerer",
+        "monsterAlias": "monster_chimera_batmage_dung_hardmode_dangerous",
+        "spawnChance": 1,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Regulus Honor Guard",
+        "monsterAlias": "monster_chimera_lizardwarrior_dung_hardmode_dangerous",
+        "spawnChance": 1,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": true,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

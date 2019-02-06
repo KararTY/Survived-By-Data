@@ -1,1 +1,55 @@
-[{"name":"Upgrade Crafting Station To Tier 11","alias":"CraftUnlock10","description":"Upgrade Crafting Station To Tier 11","price":100,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":1,"tier":1000,"data":[{"sprite":{"name":"S_Magic10","baseSize":{"width":34,"height":34},"textureRectangle":{"x":0,"y":0,"width":34,"height":34},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":[],"bound":{"account":false,"soul":true},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Gold","modifierChance":0.05}]
+[
+  {
+    "name": "Upgrade Crafting Station To Tier 11",
+    "alias": "CraftUnlock10",
+    "description": "Upgrade Crafting Station To Tier 11",
+    "price": 100,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 1000,
+    "data": [
+      {
+        "sprite": {
+          "name": "S_Magic10",
+          "baseSize": {
+            "width": 34,
+            "height": 34
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 34,
+            "height": 34
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05
+  }
+]

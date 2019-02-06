@@ -1,1 +1,25 @@
-[{"name":"Complete Bounties 2","title":"Complete Daily Challenges (II)","description":"Complete {0} bounties","challengeValueSuffix":"Bounties","challengeType":"_Unknown","achievement":false,"prerequisites":[["Complete Daily Challenges (I)","Complete Bounties 1"]],"data":[{"loot":{"lootTable":{"name":"Complete Bounties 2"}}}]}]
+[
+  {
+    "name": "Complete Bounties 2",
+    "title": "Complete Daily Challenges (II)",
+    "description": "Complete {0} bounties",
+    "challengeValueSuffix": "Bounties",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Complete Daily Challenges (I)",
+        "Complete Bounties 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Complete Bounties 2"
+          }
+        }
+      }
+    ]
+  }
+]

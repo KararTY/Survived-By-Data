@@ -1,1 +1,9 @@
-[{"from":"Activate Altars 2","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"Challenge2"}]
+[
+  {
+    "from": "Activate Altars 2",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "Challenge2"
+  }
+]

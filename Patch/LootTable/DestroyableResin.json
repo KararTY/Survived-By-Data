@@ -1,1 +1,19 @@
-[{"from":"DestroyableResin","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Resin","count":{"dice":2,"faces":2,"add":1},"chance":100,"allowModifiers":true}]}]
+[
+  {
+    "from": "DestroyableResin",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Raw Resin",
+        "count": {
+          "dice": 2,
+          "faces": 2,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

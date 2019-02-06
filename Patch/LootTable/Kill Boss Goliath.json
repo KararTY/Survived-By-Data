@@ -1,1 +1,29 @@
-[{"from":"Kill Boss Goliath","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Elite Ancestral Legacy","count":{"dice":0,"faces":0,"add":2},"chance":100,"allowModifiers":false},{"item":"Slayer of the Mountain's Flame","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false}]}]
+[
+  {
+    "from": "Kill Boss Goliath",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Elite Ancestral Legacy",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 2
+        },
+        "chance": 100,
+        "allowModifiers": false
+      },
+      {
+        "item": "Slayer of the Mountain's Flame",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ]
+  }
+]

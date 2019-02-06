@@ -1,1 +1,19 @@
-[{"from":"DismantleStandardT1","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Embers","count":{"dice":1,"faces":2,"add":1},"chance":100,"allowModifiers":false}]}]
+[
+  {
+    "from": "DismantleStandardT1",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Embers",
+        "count": {
+          "dice": 1,
+          "faces": 2,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ]
+  }
+]

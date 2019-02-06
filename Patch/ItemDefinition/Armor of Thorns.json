@@ -1,1 +1,76 @@
-[{"name":"Armor of Thorns","alias":"Armor Medium Heirloom","description":"The thorns that cover these implements pierce the flesh of the wearer and feed upon the blood shed. But in return for this sacrifice this artifact gains in power as its bearer does. [This item is also a rare drop]","price":750,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Armor","maxStack":1,"tier":1,"data":[{"sprite":{"name":"Armor Leather 11","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"stats":[{"key":"Endurance","equation":"[Endurance]+[Level]*4.4+[$Item_Level]*4","value":0},{"key":"Focus","equation":"[Focus]+[Level]*2.2+[$Item_Level]*2","value":0},{"key":"Gear_Score","equation":"[Level]*22","value":0}],"experiencePerLevel":[0],"class":["Harbinger","Druid"],"bonusDismantleLoot":"DismantleStandardT1","bound":{"account":false,"soul":true},"isHeirloom":true,"requiresDiscovery":false,"recoverCost":0,"insureCost":0,"currency":"Platinum","modifierChance":0.05}]
+[
+  {
+    "name": "Armor of Thorns",
+    "alias": "Armor Medium Heirloom",
+    "description": "The thorns that cover these implements pierce the flesh of the wearer and feed upon the blood shed. But in return for this sacrifice this artifact gains in power as its bearer does. [This item is also a rare drop]",
+    "price": 750,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Armor",
+    "maxStack": 1,
+    "tier": 1,
+    "data": [
+      {
+        "sprite": {
+          "name": "Armor Leather 11",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Endurance",
+        "equation": "[Endurance]+[Level]*4.4+[$Item_Level]*4",
+        "value": 0
+      },
+      {
+        "key": "Focus",
+        "equation": "[Focus]+[Level]*2.2+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[Level]*22",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Harbinger",
+      "Druid"
+    ],
+    "bonusDismantleLoot": "DismantleStandardT1",
+    "bound": {
+      "account": false,
+      "soul": true
+    },
+    "isHeirloom": true,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "currency": "Platinum",
+    "modifierChance": 0.05
+  }
+]

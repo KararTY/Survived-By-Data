@@ -1,1 +1,36 @@
-[{"name":"Critical Hits 1","title":"Perform Critical Hits","description":"Perform {0} critical hits","challengeValueSuffix":"Critical Hits","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Critical Hits 1"}}}]},{"name":"Critical Hits 1","title":"Perform Critical Hits (I)","description":"Perform {0} critical hits","challengeValueSuffix":"Critical Hits","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Critical Hits 1"}}}]}]
+[
+  {
+    "name": "Critical Hits 1",
+    "title": "Perform Critical Hits",
+    "description": "Perform {0} critical hits",
+    "challengeValueSuffix": "Critical Hits",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Critical Hits 1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Critical Hits 1",
+    "title": "Perform Critical Hits (I)",
+    "description": "Perform {0} critical hits",
+    "challengeValueSuffix": "Critical Hits",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Critical Hits 1"
+          }
+        }
+      }
+    ]
+  }
+]

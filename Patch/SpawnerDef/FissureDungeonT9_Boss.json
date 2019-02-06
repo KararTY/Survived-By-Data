@@ -1,1 +1,30 @@
-[{"name":"FissureDungeonT9_Boss","biome":"DungeonDeepFissureFinaleBoss","difficulty":{"min":0,"max":1},"spawnRadius":0.1,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":true,"autoPopulate":false,"manuallyPlaced":true,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Dark Persona","monsterAlias":"boss_dark_persona","spawnChance":1,"spawnQuota":1,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "FissureDungeonT9_Boss",
+    "biome": "DungeonDeepFissureFinaleBoss",
+    "difficulty": {
+      "min": 0,
+      "max": 1
+    },
+    "spawnRadius": 0.1,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": true,
+    "autoPopulate": false,
+    "manuallyPlaced": true,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Dark Persona",
+        "monsterAlias": "boss_dark_persona",
+        "spawnChance": 1,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

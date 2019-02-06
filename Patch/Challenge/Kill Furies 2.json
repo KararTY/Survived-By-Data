@@ -1,1 +1,25 @@
-[{"name":"Kill Furies 2","title":"Kill Fury (II)","description":"Kill {0} fury","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Fury (I)","Kill Furies 1"]],"data":[{"loot":{"lootTable":{"name":"Kill Furies 2"}}}]}]
+[
+  {
+    "name": "Kill Furies 2",
+    "title": "Kill Fury (II)",
+    "description": "Kill {0} fury",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Kill Fury (I)",
+        "Kill Furies 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Furies 2"
+          }
+        }
+      }
+    ]
+  }
+]

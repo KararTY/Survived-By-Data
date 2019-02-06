@@ -1,1 +1,886 @@
-[{"name":"Harbinger","description":"Harbingers are guides and hunters, survivors of the initial Chimera invasion of Sagila at the border of the Demesne of the Unseen. They travel the Heartland, observing the enemies of humanity from afar and reporting back with what they have learned. This information can turn the tide of a pitched battle, as can their mastery of the bow and arrow.\r","primaryStat":"Focus","moveRate":8,"interactionRange":3,"experiencePerLevel":[0,150,550,1300,2500,5300,10300,18300,32700,55800,91800,136800,192800,263800,349300,450300,569300,708300,868300,1052300,1261300,1498300,1765300,2065300,2400300],"data":[{"bSlide":true,"bPlayer":true,"bSlowedDownByWater":true},{"stats":[{"key":"Potency","equation":"13+([Level]*4.85)","value":0},{"key":"Endurance","equation":"10+([Level]*4)","value":0},{"key":"Focus","equation":"13+([Level]*4.85)","value":0},{"key":"Willpower","equation":"7+([level]*3.33)","value":0},{"key":"Swiftness","equation":"10+([level]*4)","value":0},{"key":"Friction","equation":"","value":0},{"key":"Level","equation":"","value":1},{"key":"Experience","equation":"","value":0},{"key":"Health","equation":"","value":116},{"key":"SpecialWeaponRageCostEnd","equation":"","value":0},{"key":"Mana","equation":"","value":103},{"key":"CriticalScore","equation":"21.5+([Focus]*0.51)*([Level]/25)","value":0},{"key":"Fame","equation":"","value":0},{"key":"HealthRegen","equation":"2+(([Willpower]*0.2)*([Level]/25))","value":0},{"key":"RageDecay","equation":"2+([Level]*0.4)","value":2},{"key":"PickupRadiusExpansion","equation":"","value":0},{"key":"SpecialWeaponBurnRate","equation":"","value":0},{"key":"SpecialWeaponDamage","equation":"(5+([Potency]*([Level]/25)))*4.5","value":0},{"key":"SpecialWeaponRageCost","equation":"","value":15},{"key":"UNUSED1","equation":"","value":0},{"key":"HealthMax","equation":"(100+[Level]*20)","value":0},{"key":"ManaMax","equation":"(100+[Level]*3)","value":0},{"key":"Piercing","equation":"","value":0},{"key":"CriticalChance","equation":"(([CriticalScore] - 20) / [TargetCriticalDefense]) * 100","value":0},{"key":"CriticalDamage","equation":"2+(([Willpower]*0.015)*([Level]/25))","value":0},{"key":"MovementSpeed","equation":"6.5*(1+(([Swiftness]*0.0015)*([Level]/25)))","value":0},{"key":"RateOfAttack","equation":"(2+(([Swiftness]*0.0065)*([Level]/25)))","value":0},{"key":"DamageBonus","equation":"(5+([Potency]*([Level]/25)))*1.5","value":0},{"key":"DamageReduction","equation":"5+([Endurance]*0.3*([Level]/25))","value":0},{"key":"BuffDuration","equation":"1+(([Focus]*0.0035)*([Level]/25))","value":0},{"key":"DebuffDuration","equation":"1","value":0},{"key":"RagePerAttack","equation":"6 + ([Potency]*([Level]/25)) * 0.04","value":7},{"key":"ExperienceBonus","equation":"","value":0},{"key":"ThreatRange","equation":"","value":30},{"key":"ThreatDecay","equation":"","value":1},{"key":"ThreatGeneration","equation":"","value":10},{"key":"EssenceDamageModifier","equation":"","value":1},{"key":"NumHealthPotions","equation":"","value":0},{"key":"NumManaPotions","equation":"","value":0},{"key":"NumIdolsActivated","equation":"","value":0},{"key":"LowHealthPercent","equation":"","value":0.2},{"key":"DamageTakenProcChanceIncrease","equation":"","value":0},{"key":"DamageDealtProcChanceIncrease","equation":"","value":0},{"key":"KilledEnemyProcChanceIncrease","equation":"","value":0},{"key":"AppliedDebuffDuration","equation":"","value":1},{"key":"SpecialWeaponCriticalChance","equation":"[CriticalChance]","value":0},{"key":"SpecialWeaponCriticalDamage","equation":"[CriticalDamage]","value":0},{"key":"ConsumableWeaponDamage","equation":"","value":0},{"key":"ConsumableDamageReduction","equation":"","value":0},{"key":"ElementalAffinityKi","equation":"","value":0},{"key":"KiEffectApplyChance","equation":"(LOG([ElementalAffinityKi]+1,1.3))/100","value":0},{"key":"KiDamageDealtIncrease","equation":"(LOG([ElementalAffinityKi]+1,1.1))/100","value":0},{"key":"KiDamageDealtReduction","equation":"(LOG([ElementalAffinityKi]+1,1.1))/100","value":0},{"key":"KiDamageReductionIncrease","equation":"(LOG([ElementalAffinityKi]+1,1.1))/100","value":0},{"key":"KiDamageReductionDecrease","equation":"(LOG([ElementalAffinityKi]+1,1.1))/100","value":0},{"key":"ElementalAffinityEa","equation":"","value":0},{"key":"EaEffectApplyChance","equation":"(LOG([ElementalAffinityEa]+1,1.3))/100","value":0},{"key":"EaDamageDealtIncrease","equation":"(LOG([ElementalAffinityEa]+1,1.1))/100","value":0},{"key":"EaDamageDealtReduction","equation":"(LOG([ElementalAffinityEa]+1,1.1))/100","value":0},{"key":"EaDamageReductionIncrease","equation":"(LOG([ElementalAffinityEa]+1,1.1))/100","value":0},{"key":"EaDamageReductionDecrease","equation":"(LOG([ElementalAffinityEa]+1,1.1))/100","value":0},{"key":"ElementalAffinityAn","equation":"","value":0},{"key":"AnEffectApplyChance","equation":"(LOG([ElementalAffinityAn]+1,1.3))/100","value":0},{"key":"AnDamageDealtIncrease","equation":"(LOG([ElementalAffinityAn]+1,1.1))/100","value":0},{"key":"AnDamageDealtReduction","equation":"(LOG([ElementalAffinityAn]+1,1.1))/100","value":0},{"key":"AnDamageReductionIncrease","equation":"(LOG([ElementalAffinityAn]+1,1.1))/100","value":0},{"key":"AnDamageReductionDecrease","equation":"(LOG([ElementalAffinityAn]+1,1.1))/100","value":0},{"key":"ElementalAffinityUr","equation":"","value":0},{"key":"UrEffectApplyChance","equation":"(LOG([ElementalAffinityUr]+1,1.3))/100","value":0},{"key":"UrDamageDealtIncrease","equation":"(LOG([ElementalAffinityUr]+1,1.1))/100","value":0},{"key":"UrDamageDealtReduction","equation":"(LOG([ElementalAffinityUr]+1,1.1))/100","value":0},{"key":"UrDamageReductionIncrease","equation":"(LOG([ElementalAffinityUr]+1,1.1))/100","value":0},{"key":"UrDamageReductionDecrease","equation":"(LOG([ElementalAffinityUr]+1,1.1))/100","value":0},{"key":"Avoidance","equation":"5 + ([Endurance] * 0.13) * ([Level] / 25)","value":0},{"key":"TargetCriticalDefense","equation":"If([@Monster.CriticalDefense] <= 0, ([Level] * [Level] * 1.07)+ 84, [@Monster.CriticalDefense])","value":0},{"key":"TargetAccuracy","equation":"If([@Monster.Accuracy] <= 0, ([Level] * [Level] * 0.4)+ 150, [@Monster.Accuracy])","value":0},{"key":"AvoidChance","equation":"[Avoidance]/[TargetAccuracy]","value":0}]},{"sound":{"soundType":"Pain","sounds":["HarbingerPain1","HarbingerPain2","HarbingerPain3","HarbingerPain4","HarbingerPain5","HarbingerPain6"]}},{"sound":{"soundType":"Death","sounds":["HarbingerDeath1"]}},{"sound":{"soundType":"VolcanoProjectile","sounds":["HarbingerProjectileVolcano1","HarbingerProjectileVolcano2","HarbingerProjectileVolcano3","HarbingerProjectileVolcano4","HarbingerProjectileVolcano5"]}},{"sound":{"soundType":"ParadiseProjectile","sounds":["HarbingerProjectileParadise1","HarbingerProjectileParadise2","HarbingerProjectileParadise3","HarbingerProjectileParadise4","HarbingerProjectileParadise5"]}},{"sound":{"soundType":"VoidProjectile","sounds":["HarbingerProjectileVoid1","HarbingerProjectileVoid2","HarbingerProjectileVoid3","HarbingerProjectileVoid4","HarbingerProjectileVoid5"]}},{"sound":{"soundType":"Projectile","sounds":["HarbingerTier1Projectile1","HarbingerTier1Projectile2","HarbingerTier1Projectile3","HarbingerTier1Projectile4","HarbingerTier1Projectile5"]}},{"sound":{"soundType":"Projectile","sounds":["HarbingerTier2Projectile1","HarbingerTier2Projectile2","HarbingerTier2Projectile3","HarbingerTier2Projectile4","HarbingerTier2Projectile5"]}},{"sound":{"soundType":"Projectile","sounds":["HarbingerTier3Projectile1","HarbingerTier3Projectile2","HarbingerTier3Projectile3","HarbingerTier3Projectile4","HarbingerTier3Projectile5"]}},{"sound":{"soundType":"Projectile","sounds":["HarbingerTier4Projectile1","HarbingerTier4Projectile2","HarbingerTier4Projectile3","HarbingerTier4Projectile4","HarbingerTier4Projectile5"]}},{"sound":{"soundType":"Projectile","sounds":["HarbingerTier5Projectile1","HarbingerTier5Projectile2","HarbingerTier5Projectile3","HarbingerTier5Projectile4","HarbingerTier5Projectile5"]}},{"sound":{"soundType":"Projectile","sounds":["HarbingerTier6Projectile1","HarbingerTier6Projectile2","HarbingerTier6Projectile3","HarbingerTier6Projectile4","HarbingerTier6Projectile5"]}},{"sound":{"soundType":"Projectile","sounds":["HarbingerTier7Projectile1","HarbingerTier7Projectile2","HarbingerTier7Projectile3","HarbingerTier7Projectile4","HarbingerTier7Projectile5"]}},{"sound":{"soundType":"Projectile","sounds":["HarbingerTier8Projectile1","HarbingerTier8Projectile2","HarbingerTier8Projectile3","HarbingerTier8Projectile4","HarbingerTier8Projectile5"]}},{"sound":{"soundType":"Projectile","sounds":["HarbingerTier9Projectile1","HarbingerTier9Projectile2","HarbingerTier9Projectile3","HarbingerTier9Projectile4","HarbingerTier9Projectile5"]}}],"topStats":[{"key":"Potency","equation":"[Potency] * (1 + [AddPotency])","value":0},{"key":"Endurance","equation":"[Endurance] * (1 + [AddEndurance])","value":0},{"key":"Focus","equation":"[Focus] * (1 + [AddFocus])","value":0},{"key":"Willpower","equation":"[Willpower] * (1 + [AddWillpower])","value":0},{"key":"Swiftness","equation":"[Swiftness] * (1 + [AddSwiftness])","value":0},{"key":"RateOfAttack","equation":"MIN(10, [RateOfAttack] * (1 + [AddRateOfAttack]))","value":0},{"key":"RagePerAttack","equation":"MIN([ManaMax]*0.2, [RagePerAttack])","value":0},{"key":"MovementSpeed","equation":"MIN(16, [MovementSpeed] * (1 + [AddMovementSpeed]))","value":0},{"key":"HealthMax","equation":"[HealthMax] * (1 + [AddHealth])","value":0}],"skins":[{"offerID":"","sprite":{"name":"harbinger_default","baseSize":{"width":192,"height":144},"textureRectangle":{"x":5,"y":96,"width":38,"height":38},"textureOffset":{"x":5,"y":0}}},{"offerID":"unlockSkinhunterTan","sprite":{"name":"harbinger_alt1","baseSize":{"width":192,"height":144},"textureRectangle":{"x":5,"y":96,"width":38,"height":38},"textureOffset":{"x":5,"y":0}}},{"offerID":"unlockHarbingerAltSkin2","sprite":{"name":"harbinger_alt2","baseSize":{"width":192,"height":144},"textureRectangle":{"x":5,"y":96,"width":38,"height":38},"textureOffset":{"x":5,"y":0}}},{"offerID":"unlockHarbingerAltSkin3","sprite":{"name":"harbinger_alt3","baseSize":{"width":192,"height":144},"textureRectangle":{"x":5,"y":96,"width":38,"height":38},"textureOffset":{"x":5,"y":0}}},{"offerID":"unlockHarbingerSkinSpirit","sprite":{"name":"harbinger_ancestral spirit","baseSize":{"width":192,"height":144},"textureRectangle":{"x":4,"y":96,"width":40,"height":39},"textureOffset":{"x":4,"y":0}}},{"offerID":"unlockHarbingerSkinElectrum","sprite":{"name":"harbinger_electrum","baseSize":{"width":192,"height":144},"textureRectangle":{"x":5,"y":96,"width":38,"height":38},"textureOffset":{"x":5,"y":0}}},{"offerID":"unlockHarbingerSkinMeat","sprite":{"name":"harbinger_meat costume","baseSize":{"width":192,"height":144},"textureRectangle":{"x":5,"y":96,"width":39,"height":45},"textureOffset":{"x":5,"y":0}}},{"offerID":"unlockHarbingerSkinSin","sprite":{"name":"harbinger_sin","baseSize":{"width":192,"height":144},"textureRectangle":{"x":5,"y":96,"width":38,"height":44},"textureOffset":{"x":5,"y":0}}},{"offerID":"unlockHarbingerAltSkin5","sprite":{"name":"harbinger_alt5","baseSize":{"width":192,"height":144},"textureRectangle":{"x":0,"y":96,"width":47,"height":40},"textureOffset":{"x":0,"y":0}}},{"offerID":"unlockHarbingerSkinHalloween","sprite":{"name":"harbinger_halloween","baseSize":{"width":192,"height":144},"textureRectangle":{"x":5,"y":96,"width":38,"height":47},"textureOffset":{"x":5,"y":0}}},{"offerID":"unlockHarbingerAltSkin4","sprite":{"name":"harbinger_alt4","baseSize":{"width":192,"height":144},"textureRectangle":{"x":3,"y":96,"width":45,"height":40},"textureOffset":{"x":3,"y":0}}},{"offerID":"unlockHarbingerSkinWinter","sprite":{"name":"harbinger_Holiday_elf","baseSize":{"width":192,"height":144},"textureRectangle":{"x":5,"y":96,"width":43,"height":42},"textureOffset":{"x":5,"y":0}}}]}]
+[
+  {
+    "name": "Harbinger",
+    "description": "Harbingers are guides and hunters, survivors of the initial Chimera invasion of Sagila at the border of the Demesne of the Unseen. They travel the Heartland, observing the enemies of humanity from afar and reporting back with what they have learned. This information can turn the tide of a pitched battle, as can their mastery of the bow and arrow.\r",
+    "primaryStat": "Focus",
+    "moveRate": 8,
+    "interactionRange": 3,
+    "experiencePerLevel": [
+      0,
+      150,
+      550,
+      1300,
+      2500,
+      5300,
+      10300,
+      18300,
+      32700,
+      55800,
+      91800,
+      136800,
+      192800,
+      263800,
+      349300,
+      450300,
+      569300,
+      708300,
+      868300,
+      1052300,
+      1261300,
+      1498300,
+      1765300,
+      2065300,
+      2400300
+    ],
+    "data": [
+      {
+        "bSlide": true,
+        "bPlayer": true,
+        "bSlowedDownByWater": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Potency",
+            "equation": "13+([Level]*4.85)",
+            "value": 0
+          },
+          {
+            "key": "Endurance",
+            "equation": "10+([Level]*4)",
+            "value": 0
+          },
+          {
+            "key": "Focus",
+            "equation": "13+([Level]*4.85)",
+            "value": 0
+          },
+          {
+            "key": "Willpower",
+            "equation": "7+([level]*3.33)",
+            "value": 0
+          },
+          {
+            "key": "Swiftness",
+            "equation": "10+([level]*4)",
+            "value": 0
+          },
+          {
+            "key": "Friction",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 1
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "Health",
+            "equation": "",
+            "value": 116
+          },
+          {
+            "key": "SpecialWeaponRageCostEnd",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "Mana",
+            "equation": "",
+            "value": 103
+          },
+          {
+            "key": "CriticalScore",
+            "equation": "21.5+([Focus]*0.51)*([Level]/25)",
+            "value": 0
+          },
+          {
+            "key": "Fame",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "HealthRegen",
+            "equation": "2+(([Willpower]*0.2)*([Level]/25))",
+            "value": 0
+          },
+          {
+            "key": "RageDecay",
+            "equation": "2+([Level]*0.4)",
+            "value": 2
+          },
+          {
+            "key": "PickupRadiusExpansion",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "SpecialWeaponBurnRate",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "(5+([Potency]*([Level]/25)))*4.5",
+            "value": 0
+          },
+          {
+            "key": "SpecialWeaponRageCost",
+            "equation": "",
+            "value": 15
+          },
+          {
+            "key": "UNUSED1",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "HealthMax",
+            "equation": "(100+[Level]*20)",
+            "value": 0
+          },
+          {
+            "key": "ManaMax",
+            "equation": "(100+[Level]*3)",
+            "value": 0
+          },
+          {
+            "key": "Piercing",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "CriticalChance",
+            "equation": "(([CriticalScore] - 20) / [TargetCriticalDefense]) * 100",
+            "value": 0
+          },
+          {
+            "key": "CriticalDamage",
+            "equation": "2+(([Willpower]*0.015)*([Level]/25))",
+            "value": 0
+          },
+          {
+            "key": "MovementSpeed",
+            "equation": "6.5*(1+(([Swiftness]*0.0015)*([Level]/25)))",
+            "value": 0
+          },
+          {
+            "key": "RateOfAttack",
+            "equation": "(2+(([Swiftness]*0.0065)*([Level]/25)))",
+            "value": 0
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "(5+([Potency]*([Level]/25)))*1.5",
+            "value": 0
+          },
+          {
+            "key": "DamageReduction",
+            "equation": "5+([Endurance]*0.3*([Level]/25))",
+            "value": 0
+          },
+          {
+            "key": "BuffDuration",
+            "equation": "1+(([Focus]*0.0035)*([Level]/25))",
+            "value": 0
+          },
+          {
+            "key": "DebuffDuration",
+            "equation": "1",
+            "value": 0
+          },
+          {
+            "key": "RagePerAttack",
+            "equation": "6 + ([Potency]*([Level]/25)) * 0.04",
+            "value": 7
+          },
+          {
+            "key": "ExperienceBonus",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "ThreatRange",
+            "equation": "",
+            "value": 30
+          },
+          {
+            "key": "ThreatDecay",
+            "equation": "",
+            "value": 1
+          },
+          {
+            "key": "ThreatGeneration",
+            "equation": "",
+            "value": 10
+          },
+          {
+            "key": "EssenceDamageModifier",
+            "equation": "",
+            "value": 1
+          },
+          {
+            "key": "NumHealthPotions",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "NumManaPotions",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "NumIdolsActivated",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "LowHealthPercent",
+            "equation": "",
+            "value": 0.2
+          },
+          {
+            "key": "DamageTakenProcChanceIncrease",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "DamageDealtProcChanceIncrease",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "KilledEnemyProcChanceIncrease",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "AppliedDebuffDuration",
+            "equation": "",
+            "value": 1
+          },
+          {
+            "key": "SpecialWeaponCriticalChance",
+            "equation": "[CriticalChance]",
+            "value": 0
+          },
+          {
+            "key": "SpecialWeaponCriticalDamage",
+            "equation": "[CriticalDamage]",
+            "value": 0
+          },
+          {
+            "key": "ConsumableWeaponDamage",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "ConsumableDamageReduction",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "ElementalAffinityKi",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "KiEffectApplyChance",
+            "equation": "(LOG([ElementalAffinityKi]+1,1.3))/100",
+            "value": 0
+          },
+          {
+            "key": "KiDamageDealtIncrease",
+            "equation": "(LOG([ElementalAffinityKi]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "KiDamageDealtReduction",
+            "equation": "(LOG([ElementalAffinityKi]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "KiDamageReductionIncrease",
+            "equation": "(LOG([ElementalAffinityKi]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "KiDamageReductionDecrease",
+            "equation": "(LOG([ElementalAffinityKi]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "ElementalAffinityEa",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "EaEffectApplyChance",
+            "equation": "(LOG([ElementalAffinityEa]+1,1.3))/100",
+            "value": 0
+          },
+          {
+            "key": "EaDamageDealtIncrease",
+            "equation": "(LOG([ElementalAffinityEa]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "EaDamageDealtReduction",
+            "equation": "(LOG([ElementalAffinityEa]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "EaDamageReductionIncrease",
+            "equation": "(LOG([ElementalAffinityEa]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "EaDamageReductionDecrease",
+            "equation": "(LOG([ElementalAffinityEa]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "ElementalAffinityAn",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "AnEffectApplyChance",
+            "equation": "(LOG([ElementalAffinityAn]+1,1.3))/100",
+            "value": 0
+          },
+          {
+            "key": "AnDamageDealtIncrease",
+            "equation": "(LOG([ElementalAffinityAn]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "AnDamageDealtReduction",
+            "equation": "(LOG([ElementalAffinityAn]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "AnDamageReductionIncrease",
+            "equation": "(LOG([ElementalAffinityAn]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "AnDamageReductionDecrease",
+            "equation": "(LOG([ElementalAffinityAn]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "ElementalAffinityUr",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "UrEffectApplyChance",
+            "equation": "(LOG([ElementalAffinityUr]+1,1.3))/100",
+            "value": 0
+          },
+          {
+            "key": "UrDamageDealtIncrease",
+            "equation": "(LOG([ElementalAffinityUr]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "UrDamageDealtReduction",
+            "equation": "(LOG([ElementalAffinityUr]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "UrDamageReductionIncrease",
+            "equation": "(LOG([ElementalAffinityUr]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "UrDamageReductionDecrease",
+            "equation": "(LOG([ElementalAffinityUr]+1,1.1))/100",
+            "value": 0
+          },
+          {
+            "key": "Avoidance",
+            "equation": "5 + ([Endurance] * 0.13) * ([Level] / 25)",
+            "value": 0
+          },
+          {
+            "key": "TargetCriticalDefense",
+            "equation": "If([@Monster.CriticalDefense] <= 0, ([Level] * [Level] * 1.07)+ 84, [@Monster.CriticalDefense])",
+            "value": 0
+          },
+          {
+            "key": "TargetAccuracy",
+            "equation": "If([@Monster.Accuracy] <= 0, ([Level] * [Level] * 0.4)+ 150, [@Monster.Accuracy])",
+            "value": 0
+          },
+          {
+            "key": "AvoidChance",
+            "equation": "[Avoidance]/[TargetAccuracy]",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "HarbingerPain1",
+            "HarbingerPain2",
+            "HarbingerPain3",
+            "HarbingerPain4",
+            "HarbingerPain5",
+            "HarbingerPain6"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "HarbingerDeath1"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "VolcanoProjectile",
+          "sounds": [
+            "HarbingerProjectileVolcano1",
+            "HarbingerProjectileVolcano2",
+            "HarbingerProjectileVolcano3",
+            "HarbingerProjectileVolcano4",
+            "HarbingerProjectileVolcano5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "ParadiseProjectile",
+          "sounds": [
+            "HarbingerProjectileParadise1",
+            "HarbingerProjectileParadise2",
+            "HarbingerProjectileParadise3",
+            "HarbingerProjectileParadise4",
+            "HarbingerProjectileParadise5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "VoidProjectile",
+          "sounds": [
+            "HarbingerProjectileVoid1",
+            "HarbingerProjectileVoid2",
+            "HarbingerProjectileVoid3",
+            "HarbingerProjectileVoid4",
+            "HarbingerProjectileVoid5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Projectile",
+          "sounds": [
+            "HarbingerTier1Projectile1",
+            "HarbingerTier1Projectile2",
+            "HarbingerTier1Projectile3",
+            "HarbingerTier1Projectile4",
+            "HarbingerTier1Projectile5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Projectile",
+          "sounds": [
+            "HarbingerTier2Projectile1",
+            "HarbingerTier2Projectile2",
+            "HarbingerTier2Projectile3",
+            "HarbingerTier2Projectile4",
+            "HarbingerTier2Projectile5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Projectile",
+          "sounds": [
+            "HarbingerTier3Projectile1",
+            "HarbingerTier3Projectile2",
+            "HarbingerTier3Projectile3",
+            "HarbingerTier3Projectile4",
+            "HarbingerTier3Projectile5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Projectile",
+          "sounds": [
+            "HarbingerTier4Projectile1",
+            "HarbingerTier4Projectile2",
+            "HarbingerTier4Projectile3",
+            "HarbingerTier4Projectile4",
+            "HarbingerTier4Projectile5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Projectile",
+          "sounds": [
+            "HarbingerTier5Projectile1",
+            "HarbingerTier5Projectile2",
+            "HarbingerTier5Projectile3",
+            "HarbingerTier5Projectile4",
+            "HarbingerTier5Projectile5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Projectile",
+          "sounds": [
+            "HarbingerTier6Projectile1",
+            "HarbingerTier6Projectile2",
+            "HarbingerTier6Projectile3",
+            "HarbingerTier6Projectile4",
+            "HarbingerTier6Projectile5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Projectile",
+          "sounds": [
+            "HarbingerTier7Projectile1",
+            "HarbingerTier7Projectile2",
+            "HarbingerTier7Projectile3",
+            "HarbingerTier7Projectile4",
+            "HarbingerTier7Projectile5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Projectile",
+          "sounds": [
+            "HarbingerTier8Projectile1",
+            "HarbingerTier8Projectile2",
+            "HarbingerTier8Projectile3",
+            "HarbingerTier8Projectile4",
+            "HarbingerTier8Projectile5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Projectile",
+          "sounds": [
+            "HarbingerTier9Projectile1",
+            "HarbingerTier9Projectile2",
+            "HarbingerTier9Projectile3",
+            "HarbingerTier9Projectile4",
+            "HarbingerTier9Projectile5"
+          ]
+        }
+      }
+    ],
+    "topStats": [
+      {
+        "key": "Potency",
+        "equation": "[Potency] * (1 + [AddPotency])",
+        "value": 0
+      },
+      {
+        "key": "Endurance",
+        "equation": "[Endurance] * (1 + [AddEndurance])",
+        "value": 0
+      },
+      {
+        "key": "Focus",
+        "equation": "[Focus] * (1 + [AddFocus])",
+        "value": 0
+      },
+      {
+        "key": "Willpower",
+        "equation": "[Willpower] * (1 + [AddWillpower])",
+        "value": 0
+      },
+      {
+        "key": "Swiftness",
+        "equation": "[Swiftness] * (1 + [AddSwiftness])",
+        "value": 0
+      },
+      {
+        "key": "RateOfAttack",
+        "equation": "MIN(10, [RateOfAttack] * (1 + [AddRateOfAttack]))",
+        "value": 0
+      },
+      {
+        "key": "RagePerAttack",
+        "equation": "MIN([ManaMax]*0.2, [RagePerAttack])",
+        "value": 0
+      },
+      {
+        "key": "MovementSpeed",
+        "equation": "MIN(16, [MovementSpeed] * (1 + [AddMovementSpeed]))",
+        "value": 0
+      },
+      {
+        "key": "HealthMax",
+        "equation": "[HealthMax] * (1 + [AddHealth])",
+        "value": 0
+      }
+    ],
+    "skins": [
+      {
+        "offerID": "",
+        "sprite": {
+          "name": "harbinger_default",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 38,
+            "height": 38
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockSkinhunterTan",
+        "sprite": {
+          "name": "harbinger_alt1",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 38,
+            "height": 38
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerAltSkin2",
+        "sprite": {
+          "name": "harbinger_alt2",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 38,
+            "height": 38
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerAltSkin3",
+        "sprite": {
+          "name": "harbinger_alt3",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 38,
+            "height": 38
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerSkinSpirit",
+        "sprite": {
+          "name": "harbinger_ancestral spirit",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 4,
+            "y": 96,
+            "width": 40,
+            "height": 39
+          },
+          "textureOffset": {
+            "x": 4,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerSkinElectrum",
+        "sprite": {
+          "name": "harbinger_electrum",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 38,
+            "height": 38
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerSkinMeat",
+        "sprite": {
+          "name": "harbinger_meat costume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 39,
+            "height": 45
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerSkinSin",
+        "sprite": {
+          "name": "harbinger_sin",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 38,
+            "height": 44
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerAltSkin5",
+        "sprite": {
+          "name": "harbinger_alt5",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 47,
+            "height": 40
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerSkinHalloween",
+        "sprite": {
+          "name": "harbinger_halloween",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 38,
+            "height": 47
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerAltSkin4",
+        "sprite": {
+          "name": "harbinger_alt4",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 96,
+            "width": 45,
+            "height": 40
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerSkinWinter",
+        "sprite": {
+          "name": "harbinger_Holiday_elf",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 43,
+            "height": 42
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      }
+    ]
+  }
+]

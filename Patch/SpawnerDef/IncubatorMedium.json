@@ -1,1 +1,58 @@
-[{"name":"IncubatorMedium","biome":"DungeonIncubator","difficulty":{"min":0.25,"max":0.75},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Collector","monsterAlias":"monster_agent_collector","spawnChance":0.7,"spawnQuota":3,"timeOfDay":"All"},{"monsterName":"Disabler","monsterAlias":"monster_agent_disabler","spawnChance":0.7,"spawnQuota":4,"timeOfDay":"All"},{"monsterName":"Processor","monsterAlias":"monster_agent_processor","spawnChance":0.8,"spawnQuota":6,"timeOfDay":"All"},{"monsterName":"Forge Defender","monsterAlias":"monster_agent_defender_incubator","spawnChance":0.6,"spawnQuota":4,"timeOfDay":"All"},{"monsterName":"Contaminated Guardian","monsterAlias":"monster_golem_incubator","spawnChance":0.3,"spawnQuota":2,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "IncubatorMedium",
+    "biome": "DungeonIncubator",
+    "difficulty": {
+      "min": 0.25,
+      "max": 0.75
+    },
+    "spawnRadius": 16,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Collector",
+        "monsterAlias": "monster_agent_collector",
+        "spawnChance": 0.7,
+        "spawnQuota": 3,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Disabler",
+        "monsterAlias": "monster_agent_disabler",
+        "spawnChance": 0.7,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Processor",
+        "monsterAlias": "monster_agent_processor",
+        "spawnChance": 0.8,
+        "spawnQuota": 6,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Forge Defender",
+        "monsterAlias": "monster_agent_defender_incubator",
+        "spawnChance": 0.6,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Contaminated Guardian",
+        "monsterAlias": "monster_golem_incubator",
+        "spawnChance": 0.3,
+        "spawnQuota": 2,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

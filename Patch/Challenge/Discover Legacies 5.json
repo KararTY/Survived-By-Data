@@ -1,1 +1,25 @@
-[{"name":"Discover Legacies 5","title":"Discover Legacies (V)","description":"Discover {0} legacies","challengeValueSuffix":"Legacies","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Legacies (IV)","Discover Legacies 4"]],"data":[{"loot":{"lootTable":{"name":"Discover Legacies 5"}}}]}]
+[
+  {
+    "name": "Discover Legacies 5",
+    "title": "Discover Legacies (V)",
+    "description": "Discover {0} legacies",
+    "challengeValueSuffix": "Legacies",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Legacies (IV)",
+        "Discover Legacies 4"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Legacies 5"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,1 +1,47 @@
-{"name":"Dealing Damage","alias":"Dealing Damage Set","setBonuses":[{"name":"Dealing Damage Bonus1","description":"Increase the proc chance when dealing damage by 5%","requiredAmount":2,"stats":[{"key":"DamageDealtProcChanceIncrease","equation":"[DamageDealtProcChanceIncrease]+0.05","value":0}]},{"name":"Dealing Damage Bonus2","description":"Increase the proc chance when dealing damage by 10%","requiredAmount":3,"stats":[{"key":"DamageDealtProcChanceIncrease","equation":"[DamageDealtProcChanceIncrease]+0.1","value":0}]}],"sprite":{"name":"AL_Damage","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}
+{
+  "name": "Dealing Damage",
+  "alias": "Dealing Damage Set",
+  "setBonuses": [
+    {
+      "name": "Dealing Damage Bonus1",
+      "description": "Increase the proc chance when dealing damage by 5%",
+      "requiredAmount": 2,
+      "stats": [
+        {
+          "key": "DamageDealtProcChanceIncrease",
+          "equation": "[DamageDealtProcChanceIncrease]+0.05",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Dealing Damage Bonus2",
+      "description": "Increase the proc chance when dealing damage by 10%",
+      "requiredAmount": 3,
+      "stats": [
+        {
+          "key": "DamageDealtProcChanceIncrease",
+          "equation": "[DamageDealtProcChanceIncrease]+0.1",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "sprite": {
+    "name": "AL_Damage",
+    "baseSize": {
+      "width": 22,
+      "height": 22
+    },
+    "textureRectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 22,
+      "height": 22
+    },
+    "textureOffset": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}

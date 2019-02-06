@@ -1,1 +1,13 @@
-[{"name":"Loot Box T9","key":{"name":"Loot Box Key T9","description":"Loot box key","price":9,"currency":"Platinum"},"lootTable":"LootBox T9","containBloodStone":true}]
+[
+  {
+    "name": "Loot Box T9",
+    "key": {
+      "name": "Loot Box Key T9",
+      "description": "Loot box key",
+      "price": 9,
+      "currency": "Platinum"
+    },
+    "lootTable": "LootBox T9",
+    "containBloodStone": true
+  }
+]

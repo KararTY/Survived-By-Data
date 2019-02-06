@@ -1,1 +1,47 @@
-{"name":"Sentinel","alias":"Sentinel Set","setBonuses":[{"name":"Sentinel Bonus1","description":"Reduce the Energy cost of the Sentinel's secondary ability by 15%","requiredAmount":2,"stats":[{"key":"SpecialWeaponBurnRate","equation":"[SpecialWeaponBurnRate] - ([SpecialWeaponBurnRate] *0.15)","value":0}]},{"name":"Sentinel Bonus2","description":"Reduce the Energy cost of the Sentinel's secondary ability by 30%","requiredAmount":3,"stats":[{"key":"SpecialWeaponBurnRate","equation":"[SpecialWeaponBurnRate] - ([SpecialWeaponBurnRate] *0.30)","value":0}]}],"sprite":{"name":"AL_icon_ Sentinel","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}
+{
+  "name": "Sentinel",
+  "alias": "Sentinel Set",
+  "setBonuses": [
+    {
+      "name": "Sentinel Bonus1",
+      "description": "Reduce the Energy cost of the Sentinel's secondary ability by 15%",
+      "requiredAmount": 2,
+      "stats": [
+        {
+          "key": "SpecialWeaponBurnRate",
+          "equation": "[SpecialWeaponBurnRate] - ([SpecialWeaponBurnRate] *0.15)",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Sentinel Bonus2",
+      "description": "Reduce the Energy cost of the Sentinel's secondary ability by 30%",
+      "requiredAmount": 3,
+      "stats": [
+        {
+          "key": "SpecialWeaponBurnRate",
+          "equation": "[SpecialWeaponBurnRate] - ([SpecialWeaponBurnRate] *0.30)",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "sprite": {
+    "name": "AL_icon_ Sentinel",
+    "baseSize": {
+      "width": 22,
+      "height": 22
+    },
+    "textureRectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 22,
+      "height": 22
+    },
+    "textureOffset": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}

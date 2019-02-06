@@ -1,1 +1,39 @@
-[{"from":"Quest Infiltrator4","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Silver","count":{"dice":0,"faces":0,"add":25},"chance":100,"allowModifiers":true},{"item":"Bloodstone","count":{"dice":0,"faces":0,"add":6},"chance":100,"allowModifiers":true},{"item":"Cloak of the Infiltrator (IV)","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":true}]}]
+[
+  {
+    "from": "Quest Infiltrator4",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 25
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Bloodstone",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 6
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Cloak of the Infiltrator (IV)",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

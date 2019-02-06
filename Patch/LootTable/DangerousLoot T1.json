@@ -1,1 +1,90 @@
-[{"from":"DangerousLoot T1","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Health Potion","count":{"dice":1,"faces":3,"add":0},"chance":100,"allowModifiers":true},{"item":"Energy Potion","count":{"dice":1,"faces":3,"add":0},"chance":100,"allowModifiers":true},{"item":"Raw Log","count":{"dice":1,"faces":3,"add":0},"chance":5,"allowModifiers":true},{"item":"Raw Pelt","count":{"dice":1,"faces":3,"add":0},"chance":5,"allowModifiers":true},{"item":"Raw Quartz Vein","count":{"dice":1,"faces":3,"add":0},"chance":5,"allowModifiers":true},{"item":"Raw Resin","count":{"dice":1,"faces":3,"add":0},"chance":5,"allowModifiers":true},{"item":"Raw Strands","count":{"dice":1,"faces":3,"add":0},"chance":5,"allowModifiers":true},{"item":"Raw Tar Sand","count":{"dice":1,"faces":3,"add":0},"chance":5,"allowModifiers":true}],"reference":"RareLoot T1"}]
+[
+  {
+    "from": "DangerousLoot T1",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Health Potion",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 0
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Energy Potion",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 0
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Log",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 0
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Pelt",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 0
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Quartz Vein",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 0
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Resin",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 0
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Strands",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 0
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Tar Sand",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 0
+        },
+        "chance": 5,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "RareLoot T1"
+  }
+]

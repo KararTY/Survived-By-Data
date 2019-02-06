@@ -1,1 +1,19 @@
-[{"name":"Kill Boss Gorgon","title":"Kill Gorgon","description":"Kill Gorgon","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Gorgon"}}}]}]
+[
+  {
+    "name": "Kill Boss Gorgon",
+    "title": "Kill Gorgon",
+    "description": "Kill Gorgon",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Gorgon"
+          }
+        }
+      }
+    ]
+  }
+]

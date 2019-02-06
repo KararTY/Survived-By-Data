@@ -1,1 +1,103 @@
-[{"name":"Tower Sabatons","alias":"Boots Heavy T1","description":"The thin plates sewn into these boots will do little beyond turn aside the most glancing contact.","price":15,"sellPrice":8,"consumable":false,"requiredLevel":0,"type":"Boots","maxStack":1,"tier":1,"data":[{"sprite":{"name":"Boots Heavy 1","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":31,"height":31},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"crafting":{"craftingTime":20,"requiredItems":[{"name":"Quartz","count":1,"requiredLevel":0},{"name":"Raw Strands","count":2,"requiredLevel":0}],"craftCost":10,"craftNowCost":2,"craftingStat":"_Unknown","craftingCategory":"T1_Common"}}],"stats":[{"key":"Endurance","equation":"[Endurance]+[$Tier]*10+[$Item_Level]*2","value":76.6},{"key":"Swiftness","equation":"[Swiftness]+[$Tier]*10+[$Item_Level]*2","value":76.6},{"key":"Willpower","equation":"[Willpower]+[$Tier]*10+[$Item_Level]*2","value":76.6},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0],"class":["Sentinel","Geomancer","Druid"],"bonusDismantleLoot":"DismantleStandardT1","bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Gold","modifierChance":0.05}]
+[
+  {
+    "name": "Tower Sabatons",
+    "alias": "Boots Heavy T1",
+    "description": "The thin plates sewn into these boots will do little beyond turn aside the most glancing contact.",
+    "price": 15,
+    "sellPrice": 8,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Boots",
+    "maxStack": 1,
+    "tier": 1,
+    "data": [
+      {
+        "sprite": {
+          "name": "Boots Heavy 1",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 31,
+            "height": 31
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 20,
+          "requiredItems": [
+            {
+              "name": "Quartz",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Raw Strands",
+              "count": 2,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 10,
+          "craftNowCost": 2,
+          "craftingStat": "_Unknown",
+          "craftingCategory": "T1_Common"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Endurance",
+        "equation": "[Endurance]+[$Tier]*10+[$Item_Level]*2",
+        "value": 76.6
+      },
+      {
+        "key": "Swiftness",
+        "equation": "[Swiftness]+[$Tier]*10+[$Item_Level]*2",
+        "value": 76.6
+      },
+      {
+        "key": "Willpower",
+        "equation": "[Willpower]+[$Tier]*10+[$Item_Level]*2",
+        "value": 76.6
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "bonusDismantleLoot": "DismantleStandardT1",
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05
+  }
+]

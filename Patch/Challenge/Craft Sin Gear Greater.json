@@ -1,1 +1,19 @@
-[{"name":"Craft Sin Gear Greater","title":"Craft a Full Set of Greater Sin Gear","description":"Craft a Full Set of Greater Sin Gear","challengeValueSuffix":"","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Craft Sin Gear Greater"}}}]}]
+[
+  {
+    "name": "Craft Sin Gear Greater",
+    "title": "Craft a Full Set of Greater Sin Gear",
+    "description": "Craft a Full Set of Greater Sin Gear",
+    "challengeValueSuffix": "",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Craft Sin Gear Greater"
+          }
+        }
+      }
+    ]
+  }
+]

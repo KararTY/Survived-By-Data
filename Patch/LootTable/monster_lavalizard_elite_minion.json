@@ -1,1 +1,8 @@
-[{"from":"monster_lavalizard_elite_minion","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[]}]
+[
+  {
+    "from": "monster_lavalizard_elite_minion",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": []
+  }
+]

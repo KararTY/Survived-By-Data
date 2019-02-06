@@ -1,1 +1,8 @@
-[{"from":"DangerousChestT10","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[]}]
+[
+  {
+    "from": "DangerousChestT10",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": []
+  }
+]

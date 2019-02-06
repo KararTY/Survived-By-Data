@@ -1,1 +1,19 @@
-[{"name":"Activate Dangerous Chests 1","title":"Activate Dangerous Chests (I)","description":"Activate {0} dangerous chests","challengeValueSuffix":"chests","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Activate Dangerous Chests 1"}}}]}]
+[
+  {
+    "name": "Activate Dangerous Chests 1",
+    "title": "Activate Dangerous Chests (I)",
+    "description": "Activate {0} dangerous chests",
+    "challengeValueSuffix": "chests",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Activate Dangerous Chests 1"
+          }
+        }
+      }
+    ]
+  }
+]

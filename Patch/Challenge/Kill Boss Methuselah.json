@@ -1,1 +1,19 @@
-[{"name":"Kill Boss Methuselah","title":"Kill Methuselah","description":"Kill Methuselah","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Methuselah"}}}]}]
+[
+  {
+    "name": "Kill Boss Methuselah",
+    "title": "Kill Methuselah",
+    "description": "Kill Methuselah",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Methuselah"
+          }
+        }
+      }
+    ]
+  }
+]

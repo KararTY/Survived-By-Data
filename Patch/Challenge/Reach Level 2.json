@@ -1,1 +1,25 @@
-[{"name":"Reach Level 2","title":"Reach Level","description":"Reach level {0}","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":false,"prerequisites":[["Reach Level","Reach Level 1"]],"data":[{"loot":{"lootTable":{"name":"Reach Level 2"}}}]}]
+[
+  {
+    "name": "Reach Level 2",
+    "title": "Reach Level",
+    "description": "Reach level {0}",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Reach Level",
+        "Reach Level 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Reach Level 2"
+          }
+        }
+      }
+    ]
+  }
+]

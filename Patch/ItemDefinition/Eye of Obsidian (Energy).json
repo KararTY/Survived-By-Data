@@ -1,1 +1,74 @@
-[{"name":"Eye of Obsidian (Energy)","alias":"Relic Volcano I 7","description":"There is no equal to the obsidian that is formed in the fiery heart of the World Tree.\nAnd though this is but a small piece, the power it contains is still formidable.\n","price":0,"sellPrice":0,"consumable":true,"requiredLevel":0,"type":"Misc","maxStack":10,"tier":10,"data":[{"sprite":{"name":"raid_I_eye_of_obsidian","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"stats":[{"key":"ManaMax","equation":"[ManaMax]+25","value":38},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0],"class":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":0,"insureCost":0,"currency":"Gold","modifierChance":0.75}]
+[
+  {
+    "name": "Eye of Obsidian (Energy)",
+    "alias": "Relic Volcano I 7",
+    "description": "There is no equal to the obsidian that is formed in the fiery heart of the World Tree.\nAnd though this is but a small piece, the power it contains is still formidable.\n",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": true,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 10,
+    "tier": 10,
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_I_eye_of_obsidian",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "ManaMax",
+        "equation": "[ManaMax]+25",
+        "value": 38
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "currency": "Gold",
+    "modifierChance": 0.75
+  }
+]

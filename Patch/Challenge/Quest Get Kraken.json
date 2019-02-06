@@ -1,1 +1,20 @@
-[{"name":"Quest Get Kraken","title":"Get Kraken ","description":"Kill the Water Fury","challengeValueSuffix":"","challengeType":"_Unknown","challengeTarget":"monster_kraken_quest","achievement":false,"data":[{"loot":{"lootTable":{"name":"Quest Get Kraken"}}}]}]
+[
+  {
+    "name": "Quest Get Kraken",
+    "title": "Get Kraken ",
+    "description": "Kill the Water Fury",
+    "challengeValueSuffix": "",
+    "challengeType": "_Unknown",
+    "challengeTarget": "monster_kraken_quest",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Quest Get Kraken"
+          }
+        }
+      }
+    ]
+  }
+]

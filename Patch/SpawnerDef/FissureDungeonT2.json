@@ -1,1 +1,30 @@
-[{"name":"FissureDungeonT2","biome":"DungeonDeepFissure","difficulty":{"min":0.2,"max":0.3},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Fissure Recluse","monsterAlias":"monster_spider_recluse_fissure","spawnChance":1,"spawnQuota":15,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "FissureDungeonT2",
+    "biome": "DungeonDeepFissure",
+    "difficulty": {
+      "min": 0.2,
+      "max": 0.3
+    },
+    "spawnRadius": 16,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Fissure Recluse",
+        "monsterAlias": "monster_spider_recluse_fissure",
+        "spawnChance": 1,
+        "spawnQuota": 15,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

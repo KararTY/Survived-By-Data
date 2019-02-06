@@ -1,1 +1,9 @@
-[{"from":"MonasteryHardChestSpawner","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"DangerousLoot T9 Monastery"}]
+[
+  {
+    "from": "MonasteryHardChestSpawner",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "DangerousLoot T9 Monastery"
+  }
+]

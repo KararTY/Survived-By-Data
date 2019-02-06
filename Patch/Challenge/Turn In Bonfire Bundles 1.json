@@ -1,1 +1,19 @@
-[{"name":"Turn In Bonfire Bundles 1","title":"Turn in Bonfire Bundle (I)","description":"Turn in {0} Bonfire Bundles","challengeValueSuffix":"Bonfire Bundles","challengeType":"_Unknown","achievement":true,"data":[{"loot":{"lootTable":{"name":"Turn In Bonfire Bundles 1"}}}]}]
+[
+  {
+    "name": "Turn In Bonfire Bundles 1",
+    "title": "Turn in Bonfire Bundle (I)",
+    "description": "Turn in {0} Bonfire Bundles",
+    "challengeValueSuffix": "Bonfire Bundles",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Turn In Bonfire Bundles 1"
+          }
+        }
+      }
+    ]
+  }
+]

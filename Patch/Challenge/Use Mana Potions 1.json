@@ -1,1 +1,19 @@
-[{"name":"Use Mana Potions 1","title":"Use Energy Potions (I)","description":"Use {0} energy potions","challengeValueSuffix":"Potions","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Use Mana Potions 1"}}}]}]
+[
+  {
+    "name": "Use Mana Potions 1",
+    "title": "Use Energy Potions (I)",
+    "description": "Use {0} energy potions",
+    "challengeValueSuffix": "Potions",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Use Mana Potions 1"
+          }
+        }
+      }
+    ]
+  }
+]

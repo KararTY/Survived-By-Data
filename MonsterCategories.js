@@ -1,8 +1,10 @@
 let fs = require('fs')
 let path = require('path')
 
-// var category = 'Undying'
-// var element = 'An'
+
+var goForElite = false
+var category = 'Construct'
+var element;
 
 function gImageOriginalData(data, mon) {
   var giod = data.find(v => v.sprite) ? data.find(v => v.sprite).sprite : ''
@@ -24,9 +26,9 @@ for (let i = 0; i < 21; i++) {
       return a.alias.localeCompare(b.alias)
     }).forEach(mon => {
       let data = mon.data.find(v => v.stats) ? mon.data.find(v => v.stats).stats.find(v => v.key === 'Tier') ? mon.data.find(v => v.stats).stats.find(v => v.key === 'Tier').value : undefined : undefined
-      if (mon.isElite && tier === 0 && typeof data === 'number' && data === 0 /*&& category ? mon.category === category : element ? mon.element === element : true*/) {
+      if (goForElite ? (mon.isElite && tier === 0 && typeof data === 'number' && data === 0) : (typeof data === 'number' && data === 0 && (category ? mon.category === category : element ? mon.element === element : true))) {
         monsters.push(`\n| ${gImageOriginalData(mon.data, mon) ? `${gImageOriginalData(mon.data, mon)}` : ''}\n| [[${mon.name}${mon.alias ? `#${mon.alias}` : ''}|${mon.name}${mon.alias ? `${(mon.alias.includes('tutorial_') || mon.alias.includes('_tutorial')) ? ` (Tutorial)` : ''}${mon.alias ? `${mon.isBoss ? ` (Boss)` : ''}${mon.alias.includes('boss_') && !mon.isBoss ? ` (Boss Minion)` : ''}${mon.alias.includes('_hardmode') ? ` (Hardmode)` : ''}${mon.isElite ? ` (Elite)` : ''}${mon.alias.includes('_elite_minion') ? ` (Elite Minion)` : ''}${mon.alias.includes('_world') ? ` (World)` : ''}${mon.alias.includes('_dangerous') ? ` (Dangerous chest)` : ''}${mon.alias.includes('_dung') ? ` (Dungeon)` : ''}${mon.alias.includes('invasion_') ? ` (Invasion)` : ''}${(mon.alias.toLowerCase().includes(' pet') || mon.alias.toLowerCase().includes('pet_')) ? ` (Pet)` : ''}` : ''}` : ''}]]\n|-`)
-      } else if (mon.isElite && data && data === tier /*&& category ? mon.category === category : element ? mon.element === element : true*/) {
+      } else if (goForElite ? (mon.isElite && data && data === tier) : (data === tier && (category ? mon.category === category : element ? mon.element === element : true))) {
         monsters.push(`\n| ${gImageOriginalData(mon.data, mon) ? `${gImageOriginalData(mon.data, mon)}` : ''}\n| [[${mon.name}${mon.alias ? `#${mon.alias}` : ''}|${mon.name}${mon.alias ? `${(mon.alias.includes('tutorial_') || mon.alias.includes('_tutorial')) ? ` (Tutorial)` : ''}${mon.alias ? `${mon.isBoss ? ` (Boss)` : ''}${mon.alias.includes('boss_') && !mon.isBoss ? ` (Boss Minion)` : ''}${mon.alias.includes('_hardmode') ? ` (Hardmode)` : ''}${mon.isElite ? ` (Elite)` : ''}${mon.alias.includes('_elite_minion') ? ` (Elite Minion)` : ''}${mon.alias.includes('_world') ? ` (World)` : ''}${mon.alias.includes('_dangerous') ? ` (Dangerous chest)` : ''}${mon.alias.includes('_dung') ? ` (Dungeon)` : ''}${mon.alias.includes('invasion_') ? ` (Invasion)` : ''}${(mon.alias.toLowerCase().includes(' pet') || mon.alias.toLowerCase().includes('pet_')) ? ` (Pet)` : ''}` : ''}` : ''}]]\n|-`)
       }
     })

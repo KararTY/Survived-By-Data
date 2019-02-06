@@ -1,1 +1,20 @@
-[{"from":"Defeat Dark Persona 2","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Scion of the Deep","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false}],"reference":"Challenge4"}]
+[
+  {
+    "from": "Defeat Dark Persona 2",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Scion of the Deep",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ],
+    "reference": "Challenge4"
+  }
+]

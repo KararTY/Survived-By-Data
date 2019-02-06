@@ -1,1 +1,47 @@
-{"name":"Health","alias":"Health Set","setBonuses":[{"name":"Health Bonus1","description":"Increase Health by 5%","requiredAmount":2,"stats":[{"key":"HealthMax","equation":"[HealthMax]+([HealthMax]*0.05)","value":0}]},{"name":"Health Bonus2","description":"Increase Health by 10%","requiredAmount":3,"stats":[{"key":"HealthMax","equation":"[HealthMax]+([HealthMax]*0.1)","value":0}]}],"sprite":{"name":"AL_Icon_Health 02","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}
+{
+  "name": "Health",
+  "alias": "Health Set",
+  "setBonuses": [
+    {
+      "name": "Health Bonus1",
+      "description": "Increase Health by 5%",
+      "requiredAmount": 2,
+      "stats": [
+        {
+          "key": "HealthMax",
+          "equation": "[HealthMax]+([HealthMax]*0.05)",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Health Bonus2",
+      "description": "Increase Health by 10%",
+      "requiredAmount": 3,
+      "stats": [
+        {
+          "key": "HealthMax",
+          "equation": "[HealthMax]+([HealthMax]*0.1)",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "sprite": {
+    "name": "AL_Icon_Health 02",
+    "baseSize": {
+      "width": 22,
+      "height": 22
+    },
+    "textureRectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 22,
+      "height": 22
+    },
+    "textureOffset": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}

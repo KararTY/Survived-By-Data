@@ -1,1 +1,25 @@
-[{"name":"Kill Infernals 4","title":"Kill Infernals (IV)","description":"Kill {0} infernals","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Infernals (III)","Kill Infernals 3"]],"data":[{"loot":{"lootTable":{"name":"Kill Infernals 4"}}}]}]
+[
+  {
+    "name": "Kill Infernals 4",
+    "title": "Kill Infernals (IV)",
+    "description": "Kill {0} infernals",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Kill Infernals (III)",
+        "Kill Infernals 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Infernals 4"
+          }
+        }
+      }
+    ]
+  }
+]

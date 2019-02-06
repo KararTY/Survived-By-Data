@@ -1,1 +1,25 @@
-[{"name":"Level Up Druid 3","title":"Level Druid (III)","description":"Reach level {0} with Druid","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"prerequisites":[["Level Druid (II)","Level Up Druid 2"]],"data":[{"loot":{"lootTable":{"name":"Level Up Druid 3"}}}]}]
+[
+  {
+    "name": "Level Up Druid 3",
+    "title": "Level Druid (III)",
+    "description": "Reach level {0} with Druid",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Druid (II)",
+        "Level Up Druid 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Druid 3"
+          }
+        }
+      }
+    ]
+  }
+]

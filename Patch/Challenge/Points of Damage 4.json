@@ -1,1 +1,25 @@
-[{"name":"Points of Damage 4","title":"Deal Points of Damage (IV)","description":"Deal {0} points of damage","challengeValueSuffix":"Damage","challengeType":"_Unknown","achievement":false,"prerequisites":[["Deal Points of Damage (III)","Points of Damage 3"]],"data":[{"loot":{"lootTable":{"name":"Points of Damage 4"}}}]}]
+[
+  {
+    "name": "Points of Damage 4",
+    "title": "Deal Points of Damage (IV)",
+    "description": "Deal {0} points of damage",
+    "challengeValueSuffix": "Damage",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Deal Points of Damage (III)",
+        "Points of Damage 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Points of Damage 4"
+          }
+        }
+      }
+    ]
+  }
+]

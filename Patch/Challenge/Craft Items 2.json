@@ -1,1 +1,48 @@
-[{"name":"Craft Items 2","title":"Craft Items (II)","description":"Craft {0} items","challengeValueSuffix":"Items","challengeType":"_Unknown","achievement":false,"prerequisites":[["Craft Items (I)","Craft Items 1"]],"data":[{"loot":{"lootTable":{"name":"Craft Items 2"}}}]},{"name":"Craft Items 2","title":"Craft Items","description":"Craft {0} items","challengeValueSuffix":"Items","challengeType":"_Unknown","achievement":false,"prerequisites":[["Reach Level","Reach Level 1"]],"data":[{"loot":{"lootTable":{"name":"Craft Items 2"}}}]}]
+[
+  {
+    "name": "Craft Items 2",
+    "title": "Craft Items (II)",
+    "description": "Craft {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Craft Items (I)",
+        "Craft Items 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Craft Items 2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Craft Items 2",
+    "title": "Craft Items",
+    "description": "Craft {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Reach Level",
+        "Reach Level 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Craft Items 2"
+          }
+        }
+      }
+    ]
+  }
+]

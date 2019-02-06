@@ -1,1 +1,19 @@
-[{"name":"Kill Boss Gorgon Hard","title":"Kill Gorgon (Hard)","description":"Kill Gorgon (Hard)","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Gorgon Hard"}}}]}]
+[
+  {
+    "name": "Kill Boss Gorgon Hard",
+    "title": "Kill Gorgon (Hard)",
+    "description": "Kill Gorgon (Hard)",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Gorgon Hard"
+          }
+        }
+      }
+    ]
+  }
+]

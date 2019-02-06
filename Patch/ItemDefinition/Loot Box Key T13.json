@@ -1,1 +1,54 @@
-[{"name":"Loot Box Key T13","description":"Loot box key","price":13,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":0,"tier":0,"data":[{"sprite":{"name":"I_Key01","baseSize":{"width":34,"height":34},"textureRectangle":{"x":4,"y":0,"width":25,"height":34},"textureOffset":{"x":4,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Platinum","modifierChance":0.75}]
+[
+  {
+    "name": "Loot Box Key T13",
+    "description": "Loot box key",
+    "price": 13,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 0,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "I_Key01",
+          "baseSize": {
+            "width": 34,
+            "height": 34
+          },
+          "textureRectangle": {
+            "x": 4,
+            "y": 0,
+            "width": 25,
+            "height": 34
+          },
+          "textureOffset": {
+            "x": 4,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Platinum",
+    "modifierChance": 0.75
+  }
+]

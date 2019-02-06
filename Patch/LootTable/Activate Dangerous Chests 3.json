@@ -1,1 +1,9 @@
-[{"from":"Activate Dangerous Chests 3","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"Challenge3"}]
+[
+  {
+    "from": "Activate Dangerous Chests 3",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "Challenge3"
+  }
+]

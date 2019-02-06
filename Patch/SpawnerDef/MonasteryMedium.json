@@ -1,1 +1,51 @@
-[{"name":"MonasteryMedium","biome":"DungeonMonastery","difficulty":{"min":0.25,"max":0.75},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Regulus Honor Guard","monsterAlias":"monster_chimera_lizardwarrior_dung","spawnChance":0.5,"spawnQuota":3,"timeOfDay":"All"},{"monsterName":"Lava Lizard","monsterAlias":"monster_lavalizard","spawnChance":0.75,"spawnQuota":6,"timeOfDay":"All"},{"monsterName":"Aries Honor Guard","monsterAlias":"monster_chimera_ram_dung","spawnChance":0.75,"spawnQuota":4,"timeOfDay":"All"},{"monsterName":"Chiroptera Sorcerer","monsterAlias":"monster_chimera_batmage_dung","spawnChance":0.75,"spawnQuota":4,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "MonasteryMedium",
+    "biome": "DungeonMonastery",
+    "difficulty": {
+      "min": 0.25,
+      "max": 0.75
+    },
+    "spawnRadius": 16,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Regulus Honor Guard",
+        "monsterAlias": "monster_chimera_lizardwarrior_dung",
+        "spawnChance": 0.5,
+        "spawnQuota": 3,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Lava Lizard",
+        "monsterAlias": "monster_lavalizard",
+        "spawnChance": 0.75,
+        "spawnQuota": 6,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Aries Honor Guard",
+        "monsterAlias": "monster_chimera_ram_dung",
+        "spawnChance": 0.75,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Chiroptera Sorcerer",
+        "monsterAlias": "monster_chimera_batmage_dung",
+        "spawnChance": 0.75,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

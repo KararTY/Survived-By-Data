@@ -1,1 +1,19 @@
-[{"name":"Kill Boss Shadow of the Mother","title":"Kill Shadow of the Mother","description":"Kill Shadow of the Mother","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Shadow of the Mother"}}}]}]
+[
+  {
+    "name": "Kill Boss Shadow of the Mother",
+    "title": "Kill Shadow of the Mother",
+    "description": "Kill Shadow of the Mother",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Shadow of the Mother"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,1 +1,111 @@
-[{"name":"Primitive Pick","alias":"Geomancer T1 Weapon","description":"Little more than a heavy stone of roughly the right shape bound to a piece of wood.","price":15,"sellPrice":8,"consumable":false,"requiredLevel":0,"type":"Weapon","maxStack":1,"tier":1,"data":[{"sprite":{"name":"Geomancer 1","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"crafting":{"craftingTime":20,"requiredItems":[{"name":"Fire Sand","count":1,"requiredLevel":0},{"name":"Raw Log","count":1,"requiredLevel":0},{"name":"Raw Quartz Vein","count":1,"requiredLevel":0}],"craftCost":10,"craftNowCost":2,"craftingStat":"_Unknown","craftingCategory":"T1_Common"}}],"stats":[{"key":"Potency","equation":"[Potency]+[$Tier]*20+[$Item_Level]*4","value":30.55},{"key":"Willpower","equation":"[Willpower]+[$Tier]*15+[$Item_Level]*3","value":30.55},{"key":"Swiftness","equation":"[Swiftness]+[$Tier]*10+[$Item_Level]*2","value":30.55},{"key":"Focus","equation":"[Focus]+[$Tier]*10+[$Item_Level]*2","value":30.55},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0],"class":["Geomancer"],"bonusDismantleLoot":"DismantleStandardT1","bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Gold","modifierChance":0.05}]
+[
+  {
+    "name": "Primitive Pick",
+    "alias": "Geomancer T1 Weapon",
+    "description": "Little more than a heavy stone of roughly the right shape bound to a piece of wood.",
+    "price": 15,
+    "sellPrice": 8,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Weapon",
+    "maxStack": 1,
+    "tier": 1,
+    "data": [
+      {
+        "sprite": {
+          "name": "Geomancer 1",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 20,
+          "requiredItems": [
+            {
+              "name": "Fire Sand",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Raw Log",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Raw Quartz Vein",
+              "count": 1,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 10,
+          "craftNowCost": 2,
+          "craftingStat": "_Unknown",
+          "craftingCategory": "T1_Common"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Potency",
+        "equation": "[Potency]+[$Tier]*20+[$Item_Level]*4",
+        "value": 30.55
+      },
+      {
+        "key": "Willpower",
+        "equation": "[Willpower]+[$Tier]*15+[$Item_Level]*3",
+        "value": 30.55
+      },
+      {
+        "key": "Swiftness",
+        "equation": "[Swiftness]+[$Tier]*10+[$Item_Level]*2",
+        "value": 30.55
+      },
+      {
+        "key": "Focus",
+        "equation": "[Focus]+[$Tier]*10+[$Item_Level]*2",
+        "value": 30.55
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Geomancer"
+    ],
+    "bonusDismantleLoot": "DismantleStandardT1",
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05
+  }
+]

@@ -1,1 +1,30 @@
-[{"from":"monster_spirit_cyclone_fire_volcano","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Obsidian","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Enriched Obsidian","count":{"dice":0,"faces":0,"add":1},"chance":4,"allowModifiers":true}],"reference":"CommonLoot T10"}]
+[
+  {
+    "from": "monster_spirit_cyclone_fire_volcano",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Obsidian",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Enriched Obsidian",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CommonLoot T10"
+  }
+]

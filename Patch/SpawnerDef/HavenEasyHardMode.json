@@ -1,1 +1,44 @@
-[{"name":"HavenEasyHardMode","biome":"DungeonHavenHard","difficulty":{"min":0,"max":0.5},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Greater Jackalope","monsterAlias":"monster_chimera_jackalope_dung_hardmode","spawnChance":0.8,"spawnQuota":5,"timeOfDay":"All"},{"monsterName":"Greater Elder Capra Magus","monsterAlias":"monster_chimera_mtgoat_mage_dung_hardmode","spawnChance":0.75,"spawnQuota":3,"timeOfDay":"All"},{"monsterName":"Greater Vines","monsterAlias":"plant_vines_hardmode","spawnChance":0.5,"spawnQuota":4,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "HavenEasyHardMode",
+    "biome": "DungeonHavenHard",
+    "difficulty": {
+      "min": 0,
+      "max": 0.5
+    },
+    "spawnRadius": 16,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Greater Jackalope",
+        "monsterAlias": "monster_chimera_jackalope_dung_hardmode",
+        "spawnChance": 0.8,
+        "spawnQuota": 5,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Elder Capra Magus",
+        "monsterAlias": "monster_chimera_mtgoat_mage_dung_hardmode",
+        "spawnChance": 0.75,
+        "spawnQuota": 3,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Vines",
+        "monsterAlias": "plant_vines_hardmode",
+        "spawnChance": 0.5,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

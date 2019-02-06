@@ -1,1 +1,48 @@
-[{"name":"Kill Chimera 3","title":"Kill Chimeras (III)","description":"Kill {0} chimeras","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Chimeras (II)","Kill Chimera 2"]],"data":[{"loot":{"lootTable":{"name":"Kill Chimera 3"}}}]},{"name":"Kill Chimera 3","title":"Kill Chimera","description":"Kill {0} chimera","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Reach Level","Reach Level 2"]],"data":[{"loot":{"lootTable":{"name":"Kill Chimera 3"}}}]}]
+[
+  {
+    "name": "Kill Chimera 3",
+    "title": "Kill Chimeras (III)",
+    "description": "Kill {0} chimeras",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Kill Chimeras (II)",
+        "Kill Chimera 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Chimera 3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Kill Chimera 3",
+    "title": "Kill Chimera",
+    "description": "Kill {0} chimera",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Reach Level",
+        "Reach Level 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Chimera 3"
+          }
+        }
+      }
+    ]
+  }
+]

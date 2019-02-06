@@ -1,1 +1,74 @@
-[{"name":"Relic of the Gorgon","alias":"Relic Hard Mode 7","description":"The Gorgon is a creature of intelligence and foresight, looking beyond the war for long term power. That clarity of thought infuses those that bear her relic.","price":0,"sellPrice":0,"consumable":true,"requiredLevel":0,"type":"Misc","maxStack":10,"tier":9,"data":[{"sprite":{"name":"hardmode_gorgon","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"stats":[{"key":"Focus","equation":"[Focus]+40","value":0},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0],"class":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":0,"insureCost":0,"currency":"Gold","modifierChance":0.75}]
+[
+  {
+    "name": "Relic of the Gorgon",
+    "alias": "Relic Hard Mode 7",
+    "description": "The Gorgon is a creature of intelligence and foresight, looking beyond the war for long term power. That clarity of thought infuses those that bear her relic.",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": true,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 10,
+    "tier": 9,
+    "data": [
+      {
+        "sprite": {
+          "name": "hardmode_gorgon",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Focus",
+        "equation": "[Focus]+40",
+        "value": 0
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "currency": "Gold",
+    "modifierChance": 0.75
+  }
+]

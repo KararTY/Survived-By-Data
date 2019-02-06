@@ -1,1 +1,25 @@
-[{"name":"Level Up Mage 5","title":"Level Alchemist (V)","description":"Reach level {0} with Alchemist","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"prerequisites":[["Level Alchemist (IV)","Level Up Mage 4"]],"data":[{"loot":{"lootTable":{"name":"Level Up Mage 5"}}}]}]
+[
+  {
+    "name": "Level Up Mage 5",
+    "title": "Level Alchemist (V)",
+    "description": "Reach level {0} with Alchemist",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Alchemist (IV)",
+        "Level Up Mage 4"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Mage 5"
+          }
+        }
+      }
+    ]
+  }
+]

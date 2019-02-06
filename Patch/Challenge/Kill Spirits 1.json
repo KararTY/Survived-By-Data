@@ -1,1 +1,19 @@
-[{"name":"Kill Spirits 1","title":"Kill Spirits (I)","description":"Kill {0} spirits","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Kill Spirits 1"}}}]}]
+[
+  {
+    "name": "Kill Spirits 1",
+    "title": "Kill Spirits (I)",
+    "description": "Kill {0} spirits",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Spirits 1"
+          }
+        }
+      }
+    ]
+  }
+]

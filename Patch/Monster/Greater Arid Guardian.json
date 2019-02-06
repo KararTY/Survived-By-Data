@@ -1,1 +1,242 @@
-[{"name":"Greater Arid Guardian","alias":"monster_golem_sand_hardmode","description":"Description for Greater Arid Guardian","isBoss":false,"isElite":false,"isSetPieceMonster":false,"weapons":[{"name":"spirit_golem_sand_projectile","data":[{"sprite":{"name":"spirit_golem_sand","baseSize":{"width":384,"height":288},"textureRectangle":{"x":195,"y":157,"width":32,"height":34},"textureOffset":{"x":3,"y":2},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"spirit_golem_sand_projectile","projectileName":"Projectile","speed":7,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":1,"g":1,"b":0.19,"a":0.13}}}]},{"name":"spirit_golem_sand_projectile_blast","data":[{"sprite":{"name":"spirit_golem_sand","baseSize":{"width":384,"height":288},"textureRectangle":{"x":301,"y":107,"width":21,"height":22},"textureOffset":{"x":5,"y":7},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"spirit_golem_sand_projectile_blast","projectileName":"Projectile","speed":8,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"statusEffect":{"name":"Slowed","type":"MonsterDebuffRateOfAttack","duration":10,"stats":[{"key":"RateOfAttack","equation":"[RateOfAttack]*0.85","value":0},{"key":"Tier","equation":"","value":0}],"isBuff":false,"removeOnAttack":false,"coolDownTime":0,"noTimeOut":false},"color":{"r":0.06,"g":0.13,"b":0.12,"a":0.13}}}]}],"data":[{"sprite":{"name":"spirit_golem_sand","baseSize":{"width":384,"height":288},"textureRectangle":{"x":10,"y":200,"width":71,"height":78},"textureOffset":{"x":10,"y":8},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true,"bEnemy":true,"bSlowedDownByWater":true,"bBlockedByLava":true},{"stats":[{"key":"Level","equation":"","value":29},{"key":"HealthMax","equation":"","value":30000},{"key":"DamageBonus","equation":"","value":320},{"key":"Tier","equation":"","value":9},{"key":"Experience","equation":"","value":900},{"key":"SpecialWeaponDamage","equation":"","value":320},{"key":"CriticalDefense","equation":"([Level]*[Level])*0.2 + 25","value":0},{"key":"Accuracy","equation":"([Level]*[Level])*0.4 + 150","value":0}]},{"loot":{"lootTable":{"name":"monster_golem_sand_hardmode"}}},{"sound":{"soundType":"Impact","sounds":["EnemyImpactGeneral1","EnemyImpactGeneral2","EnemyImpactGeneral3","EnemyImpactGeneral4","EnemyImpactGeneral5"]}}],"zenithEffects":[],"category":"Spirit","element":"Ki"}]
+[
+  {
+    "name": "Greater Arid Guardian",
+    "alias": "monster_golem_sand_hardmode",
+    "description": "Description for Greater Arid Guardian",
+    "isBoss": false,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "spirit_golem_sand_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_golem_sand",
+              "baseSize": {
+                "width": 384,
+                "height": 288
+              },
+              "textureRectangle": {
+                "x": 195,
+                "y": 157,
+                "width": 32,
+                "height": 34
+              },
+              "textureOffset": {
+                "x": 3,
+                "y": 2
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "spirit_golem_sand_projectile",
+              "projectileName": "Projectile",
+              "speed": 7,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 0.19,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "spirit_golem_sand_projectile_blast",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_golem_sand",
+              "baseSize": {
+                "width": 384,
+                "height": 288
+              },
+              "textureRectangle": {
+                "x": 301,
+                "y": 107,
+                "width": 21,
+                "height": 22
+              },
+              "textureOffset": {
+                "x": 5,
+                "y": 7
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "spirit_golem_sand_projectile_blast",
+              "projectileName": "Projectile",
+              "speed": 8,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "statusEffect": {
+                "name": "Slowed",
+                "type": "MonsterDebuffRateOfAttack",
+                "duration": 10,
+                "stats": [
+                  {
+                    "key": "RateOfAttack",
+                    "equation": "[RateOfAttack]*0.85",
+                    "value": 0
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 0
+                  }
+                ],
+                "isBuff": false,
+                "removeOnAttack": false,
+                "coolDownTime": 0,
+                "noTimeOut": false
+              },
+              "color": {
+                "r": 0.06,
+                "g": 0.13,
+                "b": 0.12,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "spirit_golem_sand",
+          "baseSize": {
+            "width": 384,
+            "height": 288
+          },
+          "textureRectangle": {
+            "x": 10,
+            "y": 200,
+            "width": 71,
+            "height": 78
+          },
+          "textureOffset": {
+            "x": 10,
+            "y": 8
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 29
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 30000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 320
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 9
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 900
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "",
+            "value": 320
+          },
+          {
+            "key": "CriticalDefense",
+            "equation": "([Level]*[Level])*0.2 + 25",
+            "value": 0
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "monster_golem_sand_hardmode"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Spirit",
+    "element": "Ki"
+  }
+]

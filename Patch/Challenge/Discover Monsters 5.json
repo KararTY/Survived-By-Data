@@ -1,1 +1,25 @@
-[{"name":"Discover Monsters 5","title":"Discover Monsters (V)","description":"Discover {0} monsters","challengeValueSuffix":"Monsters","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Monsters (IV)","Discover Monsters 4"]],"data":[{"loot":{"lootTable":{"name":"Discover Monsters 5"}}}]}]
+[
+  {
+    "name": "Discover Monsters 5",
+    "title": "Discover Monsters (V)",
+    "description": "Discover {0} monsters",
+    "challengeValueSuffix": "Monsters",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Monsters (IV)",
+        "Discover Monsters 4"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Monsters 5"
+          }
+        }
+      }
+    ]
+  }
+]

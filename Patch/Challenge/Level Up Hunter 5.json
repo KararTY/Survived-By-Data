@@ -1,1 +1,25 @@
-[{"name":"Level Up Hunter 5","title":"Level Harbinger (V)","description":"Reach level {0} with Harbinger","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"prerequisites":[["Level Harbinger (IV)","Level Up Hunter 4"]],"data":[{"loot":{"lootTable":{"name":"Level Up Hunter 5"}}}]}]
+[
+  {
+    "name": "Level Up Hunter 5",
+    "title": "Level Harbinger (V)",
+    "description": "Reach level {0} with Harbinger",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Harbinger (IV)",
+        "Level Up Hunter 4"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Hunter 5"
+          }
+        }
+      }
+    ]
+  }
+]

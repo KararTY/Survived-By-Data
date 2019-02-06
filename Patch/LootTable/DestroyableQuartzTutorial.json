@@ -1,1 +1,19 @@
-[{"from":"DestroyableQuartzTutorial","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Quartz","count":{"dice":0,"faces":0,"add":2},"chance":100,"allowModifiers":true}]}]
+[
+  {
+    "from": "DestroyableQuartzTutorial",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Quartz",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 2
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

@@ -1,1 +1,25 @@
-[{"name":"Kill Beast 2","title":"Kill Beasts (II)","description":"Kill {0} beasts","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Beasts (I)","Kill Beast 1"]],"data":[{"loot":{"lootTable":{"name":"Kill Beast 2"}}}]}]
+[
+  {
+    "name": "Kill Beast 2",
+    "title": "Kill Beasts (II)",
+    "description": "Kill {0} beasts",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Kill Beasts (I)",
+        "Kill Beast 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Beast 2"
+          }
+        }
+      }
+    ]
+  }
+]

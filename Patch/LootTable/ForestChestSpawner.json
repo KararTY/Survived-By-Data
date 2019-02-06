@@ -1,1 +1,9 @@
-[{"from":"ForestChestSpawner","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"DangerousLoot T7"}]
+[
+  {
+    "from": "ForestChestSpawner",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "DangerousLoot T7"
+  }
+]

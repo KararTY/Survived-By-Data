@@ -1,1 +1,19 @@
-[{"name":"Discover Dun Haven","title":"Discover Frozen Haven","description":"Locate and enter the Frozen Haven dungeon","challengeValueSuffix":"Items","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Discover Dun Haven"}}}]}]
+[
+  {
+    "name": "Discover Dun Haven",
+    "title": "Discover Frozen Haven",
+    "description": "Locate and enter the Frozen Haven dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Dun Haven"
+          }
+        }
+      }
+    ]
+  }
+]

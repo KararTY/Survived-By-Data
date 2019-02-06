@@ -1,1 +1,30 @@
-[{"name":"VolcanoBoss_Ooze","biome":"DungeonVolcanoBoss","difficulty":{"min":0,"max":0},"spawnRadius":2,"spawnDelayed":true,"quotaRadius":4,"rechargeTime":0,"isBoss":true,"autoPopulate":false,"manuallyPlaced":true,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Core Ooze","monsterAlias":"boss_goliath_ooze","spawnChance":1,"spawnQuota":2,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":20,"areaRadius":100}]
+[
+  {
+    "name": "VolcanoBoss_Ooze",
+    "biome": "DungeonVolcanoBoss",
+    "difficulty": {
+      "min": 0,
+      "max": 0
+    },
+    "spawnRadius": 2,
+    "spawnDelayed": true,
+    "quotaRadius": 4,
+    "rechargeTime": 0,
+    "isBoss": true,
+    "autoPopulate": false,
+    "manuallyPlaced": true,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Core Ooze",
+        "monsterAlias": "boss_goliath_ooze",
+        "spawnChance": 1,
+        "spawnQuota": 2,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 20,
+    "areaRadius": 100
+  }
+]

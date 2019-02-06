@@ -1,1 +1,25 @@
-[{"name":"Kill Greater Manifestations of Sin 2","title":"Kill Greater Manifestations of Sin (II)","description":"Kill {0} Greater Manifestations of Sin","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Greater Manifestations of Sin (I)","Kill Greater Manifestations of Sin 1"]],"data":[{"loot":{"lootTable":{"name":"Kill Greater Manifestations of Sin 2"}}}]}]
+[
+  {
+    "name": "Kill Greater Manifestations of Sin 2",
+    "title": "Kill Greater Manifestations of Sin (II)",
+    "description": "Kill {0} Greater Manifestations of Sin",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Kill Greater Manifestations of Sin (I)",
+        "Kill Greater Manifestations of Sin 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Greater Manifestations of Sin 2"
+          }
+        }
+      }
+    ]
+  }
+]

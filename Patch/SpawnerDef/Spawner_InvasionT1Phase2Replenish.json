@@ -1,1 +1,30 @@
-[{"name":"Spawner_InvasionT1Phase2Replenish","biome":"ManuallyPlacedSpawners","difficulty":{"min":0,"max":0},"spawnRadius":0,"spawnDelayed":true,"quotaRadius":3,"rechargeTime":1,"isBoss":false,"autoPopulate":false,"manuallyPlaced":true,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Cervus Magus","monsterAlias":"invasion_T1_stag_mage","spawnChance":1,"spawnQuota":2,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":6,"areaRadius":54}]
+[
+  {
+    "name": "Spawner_InvasionT1Phase2Replenish",
+    "biome": "ManuallyPlacedSpawners",
+    "difficulty": {
+      "min": 0,
+      "max": 0
+    },
+    "spawnRadius": 0,
+    "spawnDelayed": true,
+    "quotaRadius": 3,
+    "rechargeTime": 1,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": true,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Cervus Magus",
+        "monsterAlias": "invasion_T1_stag_mage",
+        "spawnChance": 1,
+        "spawnQuota": 2,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 6,
+    "areaRadius": 54
+  }
+]

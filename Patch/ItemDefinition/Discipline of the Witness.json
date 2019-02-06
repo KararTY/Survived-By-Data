@@ -1,1 +1,120 @@
-[{"name":"Discipline of the Witness","alias":"Mage T8 Weapon v1","description":"The precise facets cut into the amber of this staff allowed it to store vastly more power than a crown without.","price":500000,"sellPrice":5000,"consumable":false,"requiredLevel":25,"type":"Weapon","maxStack":1,"tier":8,"data":[{"sprite":{"name":"Alchemist 8","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"crafting":{"craftingTime":18000,"requiredItems":[{"name":"Reinfused Hardwood","count":1,"requiredLevel":0},{"name":"Molded Leather","count":1,"requiredLevel":0},{"name":"Encased Obsidian","count":1,"requiredLevel":0},{"name":"Eldritch Catalyst","count":1,"requiredLevel":0}],"craftCost":22000,"craftNowCost":300,"craftingStat":"_Unknown","craftingCategory":"T8_Eldritch"}}],"stats":[{"key":"Potency","equation":"[Potency]+[$Tier]*20+[$Item_Level]*4","value":46},{"key":"Willpower","equation":"[Willpower]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Swiftness","equation":"[Swiftness]+[$Tier]*15+[$Item_Level]*3","value":0},{"key":"Focus","equation":"[Focus]+[$Tier]*5+[$Item_Level]","value":0},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0,237000,504000,804000,1139000],"class":["Alchemist"],"bonusDismantleLoot":"DismantleStandardT8","bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Gold","modifierChance":0.05}]
+[
+  {
+    "name": "Discipline of the Witness",
+    "alias": "Mage T8 Weapon v1",
+    "description": "The precise facets cut into the amber of this staff allowed it to store vastly more power than a crown without.",
+    "price": 500000,
+    "sellPrice": 5000,
+    "consumable": false,
+    "requiredLevel": 25,
+    "type": "Weapon",
+    "maxStack": 1,
+    "tier": 8,
+    "data": [
+      {
+        "sprite": {
+          "name": "Alchemist 8",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 18000,
+          "requiredItems": [
+            {
+              "name": "Reinfused Hardwood",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Molded Leather",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Encased Obsidian",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Eldritch Catalyst",
+              "count": 1,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 22000,
+          "craftNowCost": 300,
+          "craftingStat": "_Unknown",
+          "craftingCategory": "T8_Eldritch"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Potency",
+        "equation": "[Potency]+[$Tier]*20+[$Item_Level]*4",
+        "value": 46
+      },
+      {
+        "key": "Willpower",
+        "equation": "[Willpower]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Swiftness",
+        "equation": "[Swiftness]+[$Tier]*15+[$Item_Level]*3",
+        "value": 0
+      },
+      {
+        "key": "Focus",
+        "equation": "[Focus]+[$Tier]*5+[$Item_Level]",
+        "value": 0
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0,
+      237000,
+      504000,
+      804000,
+      1139000
+    ],
+    "class": [
+      "Alchemist"
+    ],
+    "bonusDismantleLoot": "DismantleStandardT8",
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05
+  }
+]

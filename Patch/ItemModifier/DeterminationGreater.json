@@ -1,1 +1,56 @@
-[{"name":"DeterminationGreater","alias":"Greater Determination Imprint","description":"This imprint provides a bonus to maximum Energy and Willpower. Requires a T7+ ring.","category":"Suffix","data":[{"nameMod":"{0} of Greater Determination","expireTime":0,"chanceToApply":5,"minTier":7,"maxTier":100},{"craftingRecipe":{"name":"DeterminationGreater","interpretedType":"Ring"},"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"type":["Ring"],"stats":[{"key":"ManaMax","equation":"[ManaMax]+[$Tier]","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]}]}]
+[
+  {
+    "name": "DeterminationGreater",
+    "alias": "Greater Determination Imprint",
+    "description": "This imprint provides a bonus to maximum Energy and Willpower. Requires a T7+ ring.",
+    "category": "Suffix",
+    "data": [
+      {
+        "nameMod": "{0} of Greater Determination",
+        "expireTime": 0,
+        "chanceToApply": 5,
+        "minTier": 7,
+        "maxTier": 100
+      },
+      {
+        "craftingRecipe": {
+          "name": "DeterminationGreater",
+          "interpretedType": "Ring"
+        },
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Ring"
+        ],
+        "stats": [
+          {
+            "key": "ManaMax",
+            "equation": "[ManaMax]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Willpower",
+            "equation": "[Willpower]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  }
+]

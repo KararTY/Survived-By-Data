@@ -1,1 +1,36 @@
-[{"name":"Craft Items 1","title":"Craft Items","description":"Craft {0} items","challengeValueSuffix":"Items","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Craft Items 1"}}}]},{"name":"Craft Items 1","title":"Craft Items (I)","description":"Craft {0} items","challengeValueSuffix":"Items","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Craft Items 1"}}}]}]
+[
+  {
+    "name": "Craft Items 1",
+    "title": "Craft Items",
+    "description": "Craft {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Craft Items 1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Craft Items 1",
+    "title": "Craft Items (I)",
+    "description": "Craft {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Craft Items 1"
+          }
+        }
+      }
+    ]
+  }
+]

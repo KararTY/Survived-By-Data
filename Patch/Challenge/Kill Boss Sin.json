@@ -1,1 +1,19 @@
-[{"name":"Kill Boss Sin","title":"Kill Sin","description":"Kill Sin","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Sin"}}}]}]
+[
+  {
+    "name": "Kill Boss Sin",
+    "title": "Kill Sin",
+    "description": "Kill Sin",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Sin"
+          }
+        }
+      }
+    ]
+  }
+]

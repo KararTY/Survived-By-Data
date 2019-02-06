@@ -1,1 +1,25 @@
-[{"name":"Discover Items 4","title":"Discover Gear (IV)","description":"Discover {0} items","challengeValueSuffix":"Items","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Gear (III)","Discover Items 3"]],"data":[{"loot":{"lootTable":{"name":"Discover Items 4"}}}]}]
+[
+  {
+    "name": "Discover Items 4",
+    "title": "Discover Gear (IV)",
+    "description": "Discover {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Gear (III)",
+        "Discover Items 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Items 4"
+          }
+        }
+      }
+    ]
+  }
+]

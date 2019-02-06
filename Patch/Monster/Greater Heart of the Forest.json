@@ -1,1 +1,349 @@
-[{"name":"Greater Heart of the Forest","alias":"boss_heartoftheforest_hardmode","description":"Description for Greater Heart of the Forest","isBoss":true,"isElite":false,"isSetPieceMonster":false,"weapons":[{"name":"boss_spirit_projectile2_straight","data":[{"sprite":{"name":"Heart of Forest Projectile","baseSize":{"width":32,"height":32},"textureRectangle":{"x":3,"y":0,"width":25,"height":32},"textureOffset":{"x":3,"y":0},"color":{"r":0.07,"g":0.4,"b":0.03,"a":1}}},{"projectile":{"name":"boss_spirit_projectile2_straight","projectileName":"HOMProjectile","speed":0,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":0.01,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":1,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0.15,"g":0.4,"b":0.08,"a":0.13}}}]},{"name":"boss_spirit_projectile","data":[{"sprite":{"name":"Heart of Forest Projectile","baseSize":{"width":32,"height":32},"textureRectangle":{"x":3,"y":0,"width":25,"height":32},"textureOffset":{"x":3,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"boss_spirit_projectile","projectileName":"HOMProjectile","speed":10,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0.31,"g":0.09,"b":0.11,"a":0.13}}}]},{"name":"boss_spirit_projectile2","data":[{"sprite":{"name":"Heart of Forest Projectile","baseSize":{"width":32,"height":32},"textureRectangle":{"x":3,"y":0,"width":25,"height":32},"textureOffset":{"x":3,"y":0},"color":{"r":0.11,"g":0.5,"b":0.06,"a":1}}},{"projectile":{"name":"boss_spirit_projectile2","projectileName":"HOMProjectile","speed":16,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":20,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0.15,"g":0.4,"b":0.08,"a":0.13}}}]}],"data":[{"sprite":{"name":"HOM_Boss_Face Glow","baseSize":{"width":406,"height":399},"textureRectangle":{"x":50,"y":37,"width":328,"height":223},"textureOffset":{"x":50,"y":37},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true,"bEnemy":true,"bSlowedDownByWater":true,"bBlockedByLava":true,"bFlying":true},{"stats":[{"key":"Level","equation":"","value":30},{"key":"HealthMax","equation":"","value":2225000},{"key":"DamageBonus","equation":"","value":475},{"key":"Tier","equation":"","value":9},{"key":"Experience","equation":"","value":100000},{"key":"SpecialWeaponDamage","equation":"","value":350},{"key":"CriticalDefense","equation":"([Level]*[Level])*0.2 + 25","value":0},{"key":"Accuracy","equation":"([Level]*[Level])*0.4 + 150","value":0}]},{"healthDialogue":[{"healthPercentage":0.8,"message":"Bound... "},{"healthPercentage":0.6,"message":"A thousand needles pierce..."},{"healthPercentage":0.4,"message":"Fed upon..."},{"healthPercentage":0.2,"message":"A vault of stone... where this world ends..."}]},{"loot":{"lootTable":{"name":"boss_heartoftheforest_hardmode"}}},{"sound":{"soundType":"Impact","sounds":["EnemyImpactGeneral1","EnemyImpactGeneral2","EnemyImpactGeneral3","EnemyImpactGeneral4","EnemyImpactGeneral5"]}},{"sound":{"soundType":"Wake","sounds":["BossForestWake1"]}},{"sound":{"soundType":"Pain","sounds":["BossForestPain1","BossForestPain2","BossForestPain3","BossForestPain4","BossForestPain5"]}},{"sound":{"soundType":"Death","sounds":["BossForestDeath1"]}}],"zenithEffects":[{"name":"Socket Chance Buff","type":"Unique","duration":0,"stats":[{"key":"SocketIncrease","equation":"[SocketIncrease]+0.1","value":0},{"key":"Tier","equation":"","value":0}],"isBuff":true,"isZenith":true,"removeOnAttack":false,"noTimeOut":true,"coolDownTime":0,"isAccountWide":0}],"category":"Spirit","element":"Ki"}]
+[
+  {
+    "name": "Greater Heart of the Forest",
+    "alias": "boss_heartoftheforest_hardmode",
+    "description": "Description for Greater Heart of the Forest",
+    "isBoss": true,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "boss_spirit_projectile2_straight",
+        "data": [
+          {
+            "sprite": {
+              "name": "Heart of Forest Projectile",
+              "baseSize": {
+                "width": 32,
+                "height": 32
+              },
+              "textureRectangle": {
+                "x": 3,
+                "y": 0,
+                "width": 25,
+                "height": 32
+              },
+              "textureOffset": {
+                "x": 3,
+                "y": 0
+              },
+              "color": {
+                "r": 0.07,
+                "g": 0.4,
+                "b": 0.03,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_spirit_projectile2_straight",
+              "projectileName": "HOMProjectile",
+              "speed": 0,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 0.01,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 1,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0.15,
+                "g": 0.4,
+                "b": 0.08,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_spirit_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "Heart of Forest Projectile",
+              "baseSize": {
+                "width": 32,
+                "height": 32
+              },
+              "textureRectangle": {
+                "x": 3,
+                "y": 0,
+                "width": 25,
+                "height": 32
+              },
+              "textureOffset": {
+                "x": 3,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_spirit_projectile",
+              "projectileName": "HOMProjectile",
+              "speed": 10,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_spirit_projectile2",
+        "data": [
+          {
+            "sprite": {
+              "name": "Heart of Forest Projectile",
+              "baseSize": {
+                "width": 32,
+                "height": 32
+              },
+              "textureRectangle": {
+                "x": 3,
+                "y": 0,
+                "width": 25,
+                "height": 32
+              },
+              "textureOffset": {
+                "x": 3,
+                "y": 0
+              },
+              "color": {
+                "r": 0.11,
+                "g": 0.5,
+                "b": 0.06,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_spirit_projectile2",
+              "projectileName": "HOMProjectile",
+              "speed": 16,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 20,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0.15,
+                "g": 0.4,
+                "b": 0.08,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "HOM_Boss_Face Glow",
+          "baseSize": {
+            "width": 406,
+            "height": 399
+          },
+          "textureRectangle": {
+            "x": 50,
+            "y": 37,
+            "width": 328,
+            "height": 223
+          },
+          "textureOffset": {
+            "x": 50,
+            "y": 37
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true,
+        "bFlying": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 30
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 2225000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 475
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 9
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 100000
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "",
+            "value": 350
+          },
+          {
+            "key": "CriticalDefense",
+            "equation": "([Level]*[Level])*0.2 + 25",
+            "value": 0
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "healthDialogue": [
+          {
+            "healthPercentage": 0.8,
+            "message": "Bound... "
+          },
+          {
+            "healthPercentage": 0.6,
+            "message": "A thousand needles pierce..."
+          },
+          {
+            "healthPercentage": 0.4,
+            "message": "Fed upon..."
+          },
+          {
+            "healthPercentage": 0.2,
+            "message": "A vault of stone... where this world ends..."
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "boss_heartoftheforest_hardmode"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Wake",
+          "sounds": [
+            "BossForestWake1"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "BossForestPain1",
+            "BossForestPain2",
+            "BossForestPain3",
+            "BossForestPain4",
+            "BossForestPain5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "BossForestDeath1"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [
+      {
+        "name": "Socket Chance Buff",
+        "type": "Unique",
+        "duration": 0,
+        "stats": [
+          {
+            "key": "SocketIncrease",
+            "equation": "[SocketIncrease]+0.1",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 0
+          }
+        ],
+        "isBuff": true,
+        "isZenith": true,
+        "removeOnAttack": false,
+        "noTimeOut": true,
+        "coolDownTime": 0,
+        "isAccountWide": 0
+      }
+    ],
+    "category": "Spirit",
+    "element": "Ki"
+  }
+]

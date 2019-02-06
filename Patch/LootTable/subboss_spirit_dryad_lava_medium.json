@@ -1,1 +1,9 @@
-[{"from":"subboss_spirit_dryad_lava_medium","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"CommonLoot T10"}]
+[
+  {
+    "from": "subboss_spirit_dryad_lava_medium",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "CommonLoot T10"
+  }
+]

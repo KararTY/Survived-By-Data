@@ -1,1 +1,70 @@
-[{"from":"boss_goliath3","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Eye of Obsidian (Potency)","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Eye of Obsidian (Focus)","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Eye of Obsidian (Willpower)","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Eye of Obsidian (Swiftness)","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Pyroclast Catalyst, Grade I","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":true},{"item":"Blue Jade","count":{"dice":1,"faces":5,"add":2},"chance":5,"allowModifiers":true}],"reference":"HeirloomLoot"}]
+[
+  {
+    "from": "boss_goliath3",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Eye of Obsidian (Potency)",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Eye of Obsidian (Focus)",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Eye of Obsidian (Willpower)",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Eye of Obsidian (Swiftness)",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Catalyst, Grade I",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Blue Jade",
+        "count": {
+          "dice": 1,
+          "faces": 5,
+          "add": 2
+        },
+        "chance": 5,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "HeirloomLoot"
+  }
+]

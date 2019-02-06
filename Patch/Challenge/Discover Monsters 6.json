@@ -1,1 +1,25 @@
-[{"name":"Discover Monsters 6","title":"Discover Monsters (VI)","description":"Discover {0} monsters","challengeValueSuffix":"Monsters","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Monsters (V)","Discover Monsters 5"]],"data":[{"loot":{"lootTable":{"name":"Discover Monsters 6"}}}]}]
+[
+  {
+    "name": "Discover Monsters 6",
+    "title": "Discover Monsters (VI)",
+    "description": "Discover {0} monsters",
+    "challengeValueSuffix": "Monsters",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Monsters (V)",
+        "Discover Monsters 5"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Monsters 6"
+          }
+        }
+      }
+    ]
+  }
+]

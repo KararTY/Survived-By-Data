@@ -1,1 +1,197 @@
-[{"name":"Feral Orcin","alias":"monster_chimera_shark_killer_whale","description":"Description for Feral Orcin","isBoss":false,"isElite":false,"isSetPieceMonster":false,"weapons":[{"name":"chimera_shark_white_projectile","data":[{"sprite":{"name":"chimera_shark_white","baseSize":{"width":256,"height":128},"textureRectangle":{"x":69,"y":6,"width":19,"height":46},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"chimera_shark_white_projectile","projectileName":"Projectile","speed":6,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":7,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0.19,"g":0.26,"b":0.27,"a":0.13}}}]}],"data":[{"sprite":{"name":"chimera_shark_white","baseSize":{"width":256,"height":128},"textureRectangle":{"x":18,"y":74,"width":44,"height":46},"textureOffset":{"x":0,"y":0},"color":{"r":0.13,"g":0.13,"b":0.13,"a":1}}},{"bSlide":true,"bEnemy":true,"bSlowedDownByWater":true,"bBlockedByLava":true},{"stats":[{"key":"Level","equation":"","value":17},{"key":"HealthMax","equation":"","value":615},{"key":"DamageBonus","equation":"","value":100},{"key":"Tier","equation":"","value":4},{"key":"Experience","equation":"","value":340},{"key":"CriticalDefense","equation":"([Level]*[Level])*0.2 + 25","value":0},{"key":"Accuracy","equation":"([Level]*[Level])*0.4 + 150","value":0}]},{"loot":{"lootTable":{"name":"monster_chimera_shark_killer_whale"}}},{"sound":{"soundType":"Impact","sounds":["EnemyImpactGeneral1","EnemyImpactGeneral2","EnemyImpactGeneral3","EnemyImpactGeneral4","EnemyImpactGeneral5"]}},{"sound":{"soundType":"Wake","sounds":["SharkTypeWake1","SharkTypeWake2","SharkTypeWake3","SharkTypeWake4","SharkTypeWake5"]}},{"sound":{"soundType":"Pain","sounds":["SharkTypePain1","SharkTypePain2","SharkTypePain3","SharkTypePain4","SharkTypePain5"]}},{"sound":{"soundType":"Death","sounds":["SharkTypeDeath1","SharkTypeDeath2","SharkTypeDeath3","SharkTypeDeath4","SharkTypeDeath5"]}}],"zenithEffects":[],"category":"Beast","element":"None"}]
+[
+  {
+    "name": "Feral Orcin",
+    "alias": "monster_chimera_shark_killer_whale",
+    "description": "Description for Feral Orcin",
+    "isBoss": false,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "chimera_shark_white_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "chimera_shark_white",
+              "baseSize": {
+                "width": 256,
+                "height": 128
+              },
+              "textureRectangle": {
+                "x": 69,
+                "y": 6,
+                "width": 19,
+                "height": 46
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "chimera_shark_white_projectile",
+              "projectileName": "Projectile",
+              "speed": 6,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 7,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0.19,
+                "g": 0.26,
+                "b": 0.27,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "chimera_shark_white",
+          "baseSize": {
+            "width": 256,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 18,
+            "y": 74,
+            "width": 44,
+            "height": 46
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 0.13,
+            "g": 0.13,
+            "b": 0.13,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 17
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 615
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 100
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 4
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 340
+          },
+          {
+            "key": "CriticalDefense",
+            "equation": "([Level]*[Level])*0.2 + 25",
+            "value": 0
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "monster_chimera_shark_killer_whale"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Wake",
+          "sounds": [
+            "SharkTypeWake1",
+            "SharkTypeWake2",
+            "SharkTypeWake3",
+            "SharkTypeWake4",
+            "SharkTypeWake5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "SharkTypePain1",
+            "SharkTypePain2",
+            "SharkTypePain3",
+            "SharkTypePain4",
+            "SharkTypePain5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "SharkTypeDeath1",
+            "SharkTypeDeath2",
+            "SharkTypeDeath3",
+            "SharkTypeDeath4",
+            "SharkTypeDeath5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Beast",
+    "element": "None"
+  }
+]

@@ -1,1 +1,100 @@
-[{"from":"DangerousLoot T9 Forest","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Health Potion","count":{"dice":1,"faces":3,"add":1},"chance":100,"allowModifiers":true},{"item":"Energy Potion","count":{"dice":1,"faces":3,"add":1},"chance":100,"allowModifiers":true},{"item":"Enriched Mythril Catalyst","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true},{"item":"Enriched Timber","count":{"dice":1,"faces":2,"add":0},"chance":10,"allowModifiers":true},{"item":"Enriched Leather","count":{"dice":1,"faces":2,"add":0},"chance":10,"allowModifiers":true},{"item":"Rate of Attack Charm VI","count":{"dice":0,"faces":0,"add":1},"chance":7,"allowModifiers":true},{"item":"Rate of Attack Charm V","count":{"dice":0,"faces":0,"add":1},"chance":3,"allowModifiers":true},{"item":"Health Regeneration Charm V","count":{"dice":0,"faces":0,"add":1},"chance":7,"allowModifiers":true},{"item":"Health Regeneration Charm VI","count":{"dice":0,"faces":0,"add":1},"chance":3,"allowModifiers":true}],"reference":"RareLoot T9"}]
+[
+  {
+    "from": "DangerousLoot T9 Forest",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Health Potion",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Energy Potion",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Enriched Mythril Catalyst",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Enriched Timber",
+        "count": {
+          "dice": 1,
+          "faces": 2,
+          "add": 0
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Enriched Leather",
+        "count": {
+          "dice": 1,
+          "faces": 2,
+          "add": 0
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Rate of Attack Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 7,
+        "allowModifiers": true
+      },
+      {
+        "item": "Rate of Attack Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Health Regeneration Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 7,
+        "allowModifiers": true
+      },
+      {
+        "item": "Health Regeneration Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "RareLoot T9"
+  }
+]

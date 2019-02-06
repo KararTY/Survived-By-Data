@@ -1,1 +1,25 @@
-[{"name":"Discover Legacies 10","title":"Discover Legacies (X)","description":"Discover {0} legacies","challengeValueSuffix":"Legacies","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Legacies (IX)","Discover Legacies 9"]],"data":[{"loot":{"lootTable":{"name":"Discover Legacies 10"}}}]}]
+[
+  {
+    "name": "Discover Legacies 10",
+    "title": "Discover Legacies (X)",
+    "description": "Discover {0} legacies",
+    "challengeValueSuffix": "Legacies",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Legacies (IX)",
+        "Discover Legacies 9"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Legacies 10"
+          }
+        }
+      }
+    ]
+  }
+]

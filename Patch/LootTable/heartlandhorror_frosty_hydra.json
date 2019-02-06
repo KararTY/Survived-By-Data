@@ -1,1 +1,8 @@
-[{"from":"heartlandhorror_frosty_hydra","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[]}]
+[
+  {
+    "from": "heartlandhorror_frosty_hydra",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": []
+  }
+]

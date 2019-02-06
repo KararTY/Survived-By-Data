@@ -1,1 +1,19 @@
-[{"name":"Discover Dun Desert","title":"Discover Burning Sands","description":"Locate and enter the Burning Sands dungeon","challengeValueSuffix":"Items","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Discover Dun Desert"}}}]}]
+[
+  {
+    "name": "Discover Dun Desert",
+    "title": "Discover Burning Sands",
+    "description": "Locate and enter the Burning Sands dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Dun Desert"
+          }
+        }
+      }
+    ]
+  }
+]

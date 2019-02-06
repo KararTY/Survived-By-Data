@@ -1,1 +1,19 @@
-[{"name":"Kill Boss Director","title":"Kill Locus","description":"Kill Locus","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Director"}}}]}]
+[
+  {
+    "name": "Kill Boss Director",
+    "title": "Kill Locus",
+    "description": "Kill Locus",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Director"
+          }
+        }
+      }
+    ]
+  }
+]

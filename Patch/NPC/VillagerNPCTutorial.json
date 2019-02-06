@@ -1,1 +1,46 @@
-[{"name":"VillagerNPCTutorial","category":"None","weapons":[],"data":[{"sprite":{"name":"villager_01","baseSize":{"width":128,"height":96},"textureRectangle":{"x":4,"y":64,"width":26,"height":32},"textureOffset":{"x":4,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":100}]}]}]
+[
+  {
+    "name": "VillagerNPCTutorial",
+    "category": "None",
+    "weapons": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "villager_01",
+          "baseSize": {
+            "width": 128,
+            "height": 96
+          },
+          "textureRectangle": {
+            "x": 4,
+            "y": 64,
+            "width": 26,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 4,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 100
+          }
+        ]
+      }
+    ]
+  }
+]

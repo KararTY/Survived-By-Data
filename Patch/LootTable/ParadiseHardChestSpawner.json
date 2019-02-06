@@ -1,1 +1,8 @@
-[{"from":"ParadiseHardChestSpawner","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[]}]
+[
+  {
+    "from": "ParadiseHardChestSpawner",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": []
+  }
+]

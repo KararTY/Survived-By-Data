@@ -1,1 +1,25 @@
-[{"name":"Discover Monsters 4","title":"Discover Monsters (IV)","description":"Discover {0} monsters","challengeValueSuffix":"Monsters","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Monsters (III)","Discover Monsters 3"]],"data":[{"loot":{"lootTable":{"name":"Discover Monsters 4"}}}]}]
+[
+  {
+    "name": "Discover Monsters 4",
+    "title": "Discover Monsters (IV)",
+    "description": "Discover {0} monsters",
+    "challengeValueSuffix": "Monsters",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Monsters (III)",
+        "Discover Monsters 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Monsters 4"
+          }
+        }
+      }
+    ]
+  }
+]

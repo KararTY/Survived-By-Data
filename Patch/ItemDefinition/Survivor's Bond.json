@@ -1,1 +1,106 @@
-[{"name":"Survivor's Bond","alias":"Ring T1","description":"This simple band represents the vow the survivors have made to those that have come before, and those still to come.","price":15,"sellPrice":8,"consumable":false,"requiredLevel":0,"type":"Ring","maxStack":1,"tier":1,"data":[{"sprite":{"name":"Rings 1","baseSize":{"width":32,"height":32},"textureRectangle":{"x":5,"y":1,"width":23,"height":26},"textureOffset":{"x":5,"y":1},"color":{"r":1,"g":1,"b":1,"a":1}}},{"crafting":{"craftingTime":20,"requiredItems":[{"name":"Fire Sand","count":1,"requiredLevel":0},{"name":"Raw Quartz Vein","count":2,"requiredLevel":0}],"craftCost":10,"craftNowCost":2,"craftingStat":"_Unknown","craftingCategory":"T1_Common"}}],"stats":[{"key":"ManaMax","equation":"[ManaMax]+[$Tier]*10+[$Item_Level]*2","value":3.7},{"key":"Focus","equation":"[Focus]+[$Tier]*10+[$Item_Level]*2","value":3.7},{"key":"Willpower","equation":"[Willpower]+[$Tier]*10+[$Item_Level]*2","value":3.7},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0],"class":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"bonusDismantleLoot":"DismantleStandardT1","bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Gold","modifierChance":0.05}]
+[
+  {
+    "name": "Survivor's Bond",
+    "alias": "Ring T1",
+    "description": "This simple band represents the vow the survivors have made to those that have come before, and those still to come.",
+    "price": 15,
+    "sellPrice": 8,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Ring",
+    "maxStack": 1,
+    "tier": 1,
+    "data": [
+      {
+        "sprite": {
+          "name": "Rings 1",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 1,
+            "width": 23,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 20,
+          "requiredItems": [
+            {
+              "name": "Fire Sand",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Raw Quartz Vein",
+              "count": 2,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 10,
+          "craftNowCost": 2,
+          "craftingStat": "_Unknown",
+          "craftingCategory": "T1_Common"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "ManaMax",
+        "equation": "[ManaMax]+[$Tier]*10+[$Item_Level]*2",
+        "value": 3.7
+      },
+      {
+        "key": "Focus",
+        "equation": "[Focus]+[$Tier]*10+[$Item_Level]*2",
+        "value": 3.7
+      },
+      {
+        "key": "Willpower",
+        "equation": "[Willpower]+[$Tier]*10+[$Item_Level]*2",
+        "value": 3.7
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "bonusDismantleLoot": "DismantleStandardT1",
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05
+  }
+]

@@ -1,1 +1,61 @@
-[{"name":"Elixir Greater T15","alias":"Consumable Elixir Greater T15","description":"[deprecated]","price":50,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Consumable","maxStack":1,"tier":15,"data":[{"sprite":{"name":"P_Pink05","baseSize":{"width":34,"height":34},"textureRectangle":{"x":5,"y":0,"width":23,"height":34},"textureOffset":{"x":5,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":0,"insureCost":0,"modifierChance":0.75}]
+[
+  {
+    "name": "Elixir Greater T15",
+    "alias": "Consumable Elixir Greater T15",
+    "description": "[deprecated]",
+    "price": 50,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Consumable",
+    "maxStack": 1,
+    "tier": 15,
+    "data": [
+      {
+        "sprite": {
+          "name": "P_Pink05",
+          "baseSize": {
+            "width": 34,
+            "height": 34
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 0,
+            "width": 23,
+            "height": 34
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  }
+]

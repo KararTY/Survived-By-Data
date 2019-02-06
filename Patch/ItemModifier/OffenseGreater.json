@@ -1,1 +1,218 @@
-[{"name":"OffenseGreater","alias":"Greater Offense Imprint","description":"This imprint increases all attributes other than Endurance. Requires T7+ equipment.","category":"Suffix","data":[{"nameMod":"{0} of Greater Offense","expireTime":0,"chanceToApply":5,"minTier":7,"maxTier":100},{"craftingRecipe":{"name":"OffenseGreater","interpretedType":"Amulet"},"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"type":["Amulet"],"stats":[{"key":"HealthMax","equation":"[HealthMax]+[$Tier]*2","value":0},{"key":"Potency","equation":"[Potency]+[$Tier]","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]},{"craftingRecipe":{"name":"OffenseGreater","interpretedType":"ArmorHeavy"},"validClasses":["Sentinel","Geomancer"],"type":["Armor"],"stats":[{"key":"Willpower","equation":"[Willpower]+[$Tier]*2","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]},{"craftingRecipe":{"name":"OffenseGreater","interpretedType":"ArmorLight"},"validClasses":["Alchemist","Infiltrator"],"type":["Armor"],"stats":[{"key":"Swiftness","equation":"[Swiftness]+[$Tier]*2","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]},{"craftingRecipe":{"name":"OffenseGreater","interpretedType":"ArmorMedium"},"validClasses":["Harbinger","Druid"],"type":["Armor"],"stats":[{"key":"Focus","equation":"[Focus]+[$Tier]*2","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]},{"craftingRecipe":{"name":"OffenseGreater","interpretedType":"BootsHeavy"},"validClasses":["Sentinel","Geomancer","Druid"],"type":["Boots"],"stats":[{"key":"Swiftness","equation":"[Swiftness]+[$Tier]","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]},{"craftingRecipe":{"name":"OffenseGreater","interpretedType":"BootsLight"},"validClasses":["Alchemist","Harbinger","Infiltrator"],"type":["Boots"],"stats":[{"key":"Swiftness","equation":"[Swiftness]+[$Tier]","value":0},{"key":"Focus","equation":"[Focus]+[$Tier]","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]}]}]
+[
+  {
+    "name": "OffenseGreater",
+    "alias": "Greater Offense Imprint",
+    "description": "This imprint increases all attributes other than Endurance. Requires T7+ equipment.",
+    "category": "Suffix",
+    "data": [
+      {
+        "nameMod": "{0} of Greater Offense",
+        "expireTime": 0,
+        "chanceToApply": 5,
+        "minTier": 7,
+        "maxTier": 100
+      },
+      {
+        "craftingRecipe": {
+          "name": "OffenseGreater",
+          "interpretedType": "Amulet"
+        },
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Amulet"
+        ],
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "[HealthMax]+[$Tier]*2",
+            "value": 0
+          },
+          {
+            "key": "Potency",
+            "equation": "[Potency]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "OffenseGreater",
+          "interpretedType": "ArmorHeavy"
+        },
+        "validClasses": [
+          "Sentinel",
+          "Geomancer"
+        ],
+        "type": [
+          "Armor"
+        ],
+        "stats": [
+          {
+            "key": "Willpower",
+            "equation": "[Willpower]+[$Tier]*2",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "OffenseGreater",
+          "interpretedType": "ArmorLight"
+        },
+        "validClasses": [
+          "Alchemist",
+          "Infiltrator"
+        ],
+        "type": [
+          "Armor"
+        ],
+        "stats": [
+          {
+            "key": "Swiftness",
+            "equation": "[Swiftness]+[$Tier]*2",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "OffenseGreater",
+          "interpretedType": "ArmorMedium"
+        },
+        "validClasses": [
+          "Harbinger",
+          "Druid"
+        ],
+        "type": [
+          "Armor"
+        ],
+        "stats": [
+          {
+            "key": "Focus",
+            "equation": "[Focus]+[$Tier]*2",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "OffenseGreater",
+          "interpretedType": "BootsHeavy"
+        },
+        "validClasses": [
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Boots"
+        ],
+        "stats": [
+          {
+            "key": "Swiftness",
+            "equation": "[Swiftness]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Willpower",
+            "equation": "[Willpower]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "OffenseGreater",
+          "interpretedType": "BootsLight"
+        },
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator"
+        ],
+        "type": [
+          "Boots"
+        ],
+        "stats": [
+          {
+            "key": "Swiftness",
+            "equation": "[Swiftness]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Focus",
+            "equation": "[Focus]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  }
+]

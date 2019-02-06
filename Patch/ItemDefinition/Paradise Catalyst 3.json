@@ -1,1 +1,59 @@
-[{"name":"Paradise Catalyst 3","alias":"Crafting Material Rare T11 v2","description":"The whispers heard by the Witnesses contained more than just madness. The secrets of the Eldritch Catalyst were one such boon, and it allowed the Witnesses to craft the most exceptional items the Heartland had ever seen. This is a rare crafting component.","price":600,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":10,"tier":12,"data":[{"sprite":{"name":"Crafting Eldritch Catalyst","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Crystal","modifierChance":0.05,"craftingRarity":[0.2,"Rare"]}]
+[
+  {
+    "name": "Paradise Catalyst 3",
+    "alias": "Crafting Material Rare T11 v2",
+    "description": "The whispers heard by the Witnesses contained more than just madness. The secrets of the Eldritch Catalyst were one such boon, and it allowed the Witnesses to craft the most exceptional items the Heartland had ever seen. This is a rare crafting component.",
+    "price": 600,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 10,
+    "tier": 12,
+    "data": [
+      {
+        "sprite": {
+          "name": "Crafting Eldritch Catalyst",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Crystal",
+    "modifierChance": 0.05,
+    "craftingRarity": [
+      0.2,
+      "Rare"
+    ]
+  }
+]

@@ -1,1 +1,55 @@
-[{"name":"Tools of Mythril Crafting","alias":"Tools of Crafting 7","description":"","price":1300,"sellPrice":260,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":10,"tier":0,"data":[{"sprite":{"name":"Tools 2","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":[],"bound":{"account":false,"soul":true},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":0,"insureCost":0,"currency":"Gold","modifierChance":0.75}]
+[
+  {
+    "name": "Tools of Mythril Crafting",
+    "alias": "Tools of Crafting 7",
+    "description": "",
+    "price": 1300,
+    "sellPrice": 260,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 10,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Tools 2",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "currency": "Gold",
+    "modifierChance": 0.75
+  }
+]

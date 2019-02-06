@@ -1,1 +1,19 @@
-[{"name":"Kill Boss Hydra","title":"Kill Hydra","description":"Kill Hydra","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Hydra"}}}]}]
+[
+  {
+    "name": "Kill Boss Hydra",
+    "title": "Kill Hydra",
+    "description": "Kill Hydra",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Hydra"
+          }
+        }
+      }
+    ]
+  }
+]

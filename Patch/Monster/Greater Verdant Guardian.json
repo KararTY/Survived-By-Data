@@ -1,1 +1,242 @@
-[{"name":"Greater Verdant Guardian","alias":"monster_golem_forest_hardmode","description":"Description for Greater Verdant Guardian","isBoss":false,"isElite":false,"isSetPieceMonster":false,"weapons":[{"name":"spirit_golem_forest_projectile","data":[{"sprite":{"name":"spirit_golem_forest","baseSize":{"width":384,"height":288},"textureRectangle":{"x":196,"y":158,"width":30,"height":32},"textureOffset":{"x":4,"y":2},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"spirit_golem_forest_projectile","projectileName":"Projectile","speed":7,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0.06,"g":0.13,"b":0.12,"a":0.13}}}]},{"name":"spirit_golem_forest_projectile_blast","data":[{"sprite":{"name":"spirit_golem_forest","baseSize":{"width":384,"height":288},"textureRectangle":{"x":349,"y":155,"width":22,"height":25},"textureOffset":{"x":10,"y":8},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"spirit_golem_forest_projectile_blast","projectileName":"Projectile","speed":8,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"statusEffect":{"name":"Poison","type":"MonsterDebuffDamageOverTime","duration":6,"stats":[{"key":"DamageOverTime","equation":"[DamageOverTime]+94","value":58},{"key":"Tier","equation":"","value":7}],"isBuff":false,"removeOnAttack":false,"coolDownTime":0,"noTimeOut":false},"color":{"r":0.06,"g":0.13,"b":0.12,"a":0.13}}}]}],"data":[{"sprite":{"name":"spirit_golem_forest","baseSize":{"width":384,"height":288},"textureRectangle":{"x":18,"y":197,"width":71,"height":79},"textureOffset":{"x":18,"y":5},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true,"bEnemy":true,"bSlowedDownByWater":true,"bBlockedByLava":true},{"stats":[{"key":"Level","equation":"","value":29},{"key":"HealthMax","equation":"","value":30000},{"key":"DamageBonus","equation":"","value":320},{"key":"Tier","equation":"","value":9},{"key":"Experience","equation":"","value":900},{"key":"SpecialWeaponDamage","equation":"","value":300},{"key":"CriticalDefense","equation":"([Level]*[Level])*0.2 + 25","value":0},{"key":"Accuracy","equation":"([Level]*[Level])*0.4 + 150","value":0}]},{"loot":{"lootTable":{"name":"monster_golem_forest_hardmode"}}},{"sound":{"soundType":"Impact","sounds":["EnemyImpactGeneral1","EnemyImpactGeneral2","EnemyImpactGeneral3","EnemyImpactGeneral4","EnemyImpactGeneral5"]}}],"zenithEffects":[],"category":"Spirit","element":"Ki"}]
+[
+  {
+    "name": "Greater Verdant Guardian",
+    "alias": "monster_golem_forest_hardmode",
+    "description": "Description for Greater Verdant Guardian",
+    "isBoss": false,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "spirit_golem_forest_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_golem_forest",
+              "baseSize": {
+                "width": 384,
+                "height": 288
+              },
+              "textureRectangle": {
+                "x": 196,
+                "y": 158,
+                "width": 30,
+                "height": 32
+              },
+              "textureOffset": {
+                "x": 4,
+                "y": 2
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "spirit_golem_forest_projectile",
+              "projectileName": "Projectile",
+              "speed": 7,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0.06,
+                "g": 0.13,
+                "b": 0.12,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "spirit_golem_forest_projectile_blast",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_golem_forest",
+              "baseSize": {
+                "width": 384,
+                "height": 288
+              },
+              "textureRectangle": {
+                "x": 349,
+                "y": 155,
+                "width": 22,
+                "height": 25
+              },
+              "textureOffset": {
+                "x": 10,
+                "y": 8
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "spirit_golem_forest_projectile_blast",
+              "projectileName": "Projectile",
+              "speed": 8,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "statusEffect": {
+                "name": "Poison",
+                "type": "MonsterDebuffDamageOverTime",
+                "duration": 6,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+94",
+                    "value": 58
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 7
+                  }
+                ],
+                "isBuff": false,
+                "removeOnAttack": false,
+                "coolDownTime": 0,
+                "noTimeOut": false
+              },
+              "color": {
+                "r": 0.06,
+                "g": 0.13,
+                "b": 0.12,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "spirit_golem_forest",
+          "baseSize": {
+            "width": 384,
+            "height": 288
+          },
+          "textureRectangle": {
+            "x": 18,
+            "y": 197,
+            "width": 71,
+            "height": 79
+          },
+          "textureOffset": {
+            "x": 18,
+            "y": 5
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 29
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 30000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 320
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 9
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 900
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "",
+            "value": 300
+          },
+          {
+            "key": "CriticalDefense",
+            "equation": "([Level]*[Level])*0.2 + 25",
+            "value": 0
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "monster_golem_forest_hardmode"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Spirit",
+    "element": "Ki"
+  }
+]

@@ -1,1 +1,50 @@
-[{"from":"monster_chimera_jackalope_dung_hardmode","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Thread","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true},{"item":"Hide","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true},{"item":"Cloth","count":{"dice":0,"faces":0,"add":1},"chance":2,"allowModifiers":true},{"item":"Leather","count":{"dice":0,"faces":0,"add":1},"chance":2,"allowModifiers":true}],"reference":"CommonLoot T9"}]
+[
+  {
+    "from": "monster_chimera_jackalope_dung_hardmode",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Thread",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Hide",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Cloth",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Leather",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CommonLoot T9"
+  }
+]

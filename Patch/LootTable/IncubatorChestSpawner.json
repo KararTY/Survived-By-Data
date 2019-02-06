@@ -1,1 +1,9 @@
-[{"from":"IncubatorChestSpawner","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"DangerousLoot T5"}]
+[
+  {
+    "from": "IncubatorChestSpawner",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "DangerousLoot T5"
+  }
+]

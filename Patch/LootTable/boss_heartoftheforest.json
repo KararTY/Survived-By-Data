@@ -1,1 +1,180 @@
-[{"from":"boss_heartoftheforest","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Hollow Amulet","count":{"dice":0,"faces":0,"add":1},"chance":9,"allowModifiers":true},{"item":"Mythril Plate","count":{"dice":0,"faces":0,"add":1},"chance":8,"allowModifiers":true},{"item":"Filament Mantle","count":{"dice":0,"faces":0,"add":1},"chance":8,"allowModifiers":true},{"item":"Leather Laminar","count":{"dice":0,"faces":0,"add":1},"chance":8,"allowModifiers":true},{"item":"Mythril Plated Sabatons","count":{"dice":0,"faces":0,"add":1},"chance":8,"allowModifiers":true},{"item":"Treaded Boots","count":{"dice":0,"faces":0,"add":1},"chance":8,"allowModifiers":true},{"item":"Soul of the Forest","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true},{"item":"Pickaxe","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true},{"item":"Mythril Arrow","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true},{"item":"Great Root of the Forest","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true},{"item":"Zweihander","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true},{"item":"Mythril Coil","count":{"dice":0,"faces":0,"add":1},"chance":9,"allowModifiers":true},{"item":"Hollow Dagger","count":{"dice":0,"faces":0,"add":1},"chance":5,"allowModifiers":true},{"item":"Silver","count":{"dice":9,"faces":12,"add":35},"chance":100,"allowModifiers":true},{"item":"Monastery of the Rift Key","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true},{"item":"Mythril Catalyst","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":true},{"item":"Blue Jade","count":{"dice":1,"faces":4,"add":0},"chance":5,"allowModifiers":true}],"reference":"HeirloomLoot"}]
+[
+  {
+    "from": "boss_heartoftheforest",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Hollow Amulet",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 9,
+        "allowModifiers": true
+      },
+      {
+        "item": "Mythril Plate",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 8,
+        "allowModifiers": true
+      },
+      {
+        "item": "Filament Mantle",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 8,
+        "allowModifiers": true
+      },
+      {
+        "item": "Leather Laminar",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 8,
+        "allowModifiers": true
+      },
+      {
+        "item": "Mythril Plated Sabatons",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 8,
+        "allowModifiers": true
+      },
+      {
+        "item": "Treaded Boots",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 8,
+        "allowModifiers": true
+      },
+      {
+        "item": "Soul of the Forest",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pickaxe",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Mythril Arrow",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Great Root of the Forest",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Zweihander",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Mythril Coil",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 9,
+        "allowModifiers": true
+      },
+      {
+        "item": "Hollow Dagger",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 9,
+          "faces": 12,
+          "add": 35
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Monastery of the Rift Key",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Mythril Catalyst",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Blue Jade",
+        "count": {
+          "dice": 1,
+          "faces": 4,
+          "add": 0
+        },
+        "chance": 5,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "HeirloomLoot"
+  }
+]

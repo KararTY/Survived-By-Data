@@ -1,1 +1,40 @@
-[{"from":"RareLoot T9","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Silver","count":{"dice":11,"faces":10,"add":40},"chance":100,"allowModifiers":true},{"item":"Skeleton Key","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true},{"item":"Blue Jade","count":{"dice":1,"faces":5,"add":1},"chance":5,"allowModifiers":true}],"reference":"CharmLoot T9"}]
+[
+  {
+    "from": "RareLoot T9",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 11,
+          "faces": 10,
+          "add": 40
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Skeleton Key",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Blue Jade",
+        "count": {
+          "dice": 1,
+          "faces": 5,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CharmLoot T9"
+  }
+]

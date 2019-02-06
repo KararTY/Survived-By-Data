@@ -1,1 +1,9 @@
-[{"from":"Kill Fury 2","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"BountySlot2"}]
+[
+  {
+    "from": "Kill Fury 2",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "BountySlot2"
+  }
+]

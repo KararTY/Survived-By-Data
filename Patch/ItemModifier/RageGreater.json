@@ -1,1 +1,221 @@
-[{"name":"RageGreater","alias":"Greater Rage Imprint","description":"This imprint provides a bonus to Willpower and Swiftness. Requires a T7+ weapon.","category":"Suffix","data":[{"nameMod":"{0} of Greater Rage","expireTime":0,"chanceToApply":5,"minTier":7,"maxTier":100},{"craftingRecipe":{"name":"RageGreater","interpretedType":"DruidWeapon"},"validClasses":["Druid"],"type":["Weapon"],"stats":[{"key":"Swiftness","equation":"[Swiftness]+[$Tier]","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score] + [$Tier]*10","value":0}]},{"craftingRecipe":{"name":"RageGreater","interpretedType":"GeomancerWeapon"},"validClasses":["Geomancer"],"type":["Weapon"],"stats":[{"key":"Swiftness","equation":"[Swiftness]+[$Tier]*1.2","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]*1.5","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score] + [$Tier]*10","value":0}]},{"craftingRecipe":{"name":"RageGreater","interpretedType":"HunterWeapon"},"validClasses":["Harbinger"],"type":["Weapon"],"stats":[{"key":"Swiftness","equation":"[Swiftness]+[$Tier]","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score] + [$Tier]*10","value":0}]},{"craftingRecipe":{"name":"RageGreater","interpretedType":"MageWeapon"},"validClasses":["Alchemist"],"type":["Weapon"],"stats":[{"key":"Swiftness","equation":"[Swiftness]+[$Tier]","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score] + [$Tier]*10","value":0}]},{"craftingRecipe":{"name":"RageGreater","interpretedType":"PaladinWeapon"},"validClasses":["Sentinel"],"type":["Weapon"],"stats":[{"key":"Swiftness","equation":"[Swiftness]+[$Tier]*1.5","value":0},{"key":"Willpower","equation":"[Willpower]-[$Tier]","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score] + [$Tier]*10","value":0}]},{"craftingRecipe":{"name":"RageGreater","interpretedType":"RogueWeapon"},"validClasses":["Infiltrator"],"type":["Weapon"],"stats":[{"key":"Swiftness","equation":"[Swiftness]+[$Tier]*1.5","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]*0.5","value":0},{"key":"Tier","equation":"[ItemInstance.Suffix_Level]+1","value":0},{"key":"Gear_Score","equation":"[Gear_Score] + [$Tier]*10","value":0}]}]}]
+[
+  {
+    "name": "RageGreater",
+    "alias": "Greater Rage Imprint",
+    "description": "This imprint provides a bonus to Willpower and Swiftness. Requires a T7+ weapon.",
+    "category": "Suffix",
+    "data": [
+      {
+        "nameMod": "{0} of Greater Rage",
+        "expireTime": 0,
+        "chanceToApply": 5,
+        "minTier": 7,
+        "maxTier": 100
+      },
+      {
+        "craftingRecipe": {
+          "name": "RageGreater",
+          "interpretedType": "DruidWeapon"
+        },
+        "validClasses": [
+          "Druid"
+        ],
+        "type": [
+          "Weapon"
+        ],
+        "stats": [
+          {
+            "key": "Swiftness",
+            "equation": "[Swiftness]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Willpower",
+            "equation": "[Willpower]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score] + [$Tier]*10",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "RageGreater",
+          "interpretedType": "GeomancerWeapon"
+        },
+        "validClasses": [
+          "Geomancer"
+        ],
+        "type": [
+          "Weapon"
+        ],
+        "stats": [
+          {
+            "key": "Swiftness",
+            "equation": "[Swiftness]+[$Tier]*1.2",
+            "value": 0
+          },
+          {
+            "key": "Willpower",
+            "equation": "[Willpower]+[$Tier]*1.5",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score] + [$Tier]*10",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "RageGreater",
+          "interpretedType": "HunterWeapon"
+        },
+        "validClasses": [
+          "Harbinger"
+        ],
+        "type": [
+          "Weapon"
+        ],
+        "stats": [
+          {
+            "key": "Swiftness",
+            "equation": "[Swiftness]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Willpower",
+            "equation": "[Willpower]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score] + [$Tier]*10",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "RageGreater",
+          "interpretedType": "MageWeapon"
+        },
+        "validClasses": [
+          "Alchemist"
+        ],
+        "type": [
+          "Weapon"
+        ],
+        "stats": [
+          {
+            "key": "Swiftness",
+            "equation": "[Swiftness]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Willpower",
+            "equation": "[Willpower]+[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score] + [$Tier]*10",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "RageGreater",
+          "interpretedType": "PaladinWeapon"
+        },
+        "validClasses": [
+          "Sentinel"
+        ],
+        "type": [
+          "Weapon"
+        ],
+        "stats": [
+          {
+            "key": "Swiftness",
+            "equation": "[Swiftness]+[$Tier]*1.5",
+            "value": 0
+          },
+          {
+            "key": "Willpower",
+            "equation": "[Willpower]-[$Tier]",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score] + [$Tier]*10",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "craftingRecipe": {
+          "name": "RageGreater",
+          "interpretedType": "RogueWeapon"
+        },
+        "validClasses": [
+          "Infiltrator"
+        ],
+        "type": [
+          "Weapon"
+        ],
+        "stats": [
+          {
+            "key": "Swiftness",
+            "equation": "[Swiftness]+[$Tier]*1.5",
+            "value": 0
+          },
+          {
+            "key": "Willpower",
+            "equation": "[Willpower]+[$Tier]*0.5",
+            "value": 0
+          },
+          {
+            "key": "Tier",
+            "equation": "[ItemInstance.Suffix_Level]+1",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score] + [$Tier]*10",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  }
+]

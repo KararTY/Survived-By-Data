@@ -1,1 +1,113 @@
-[{"name":"Signet of the Vanguard","alias":"Ring T6 v1","description":"They were not prepared for what they faced, but their strength may still yet be the difference between victory and defeat.","price":70000,"sellPrice":700,"consumable":false,"requiredLevel":20,"type":"Ring","maxStack":1,"tier":6,"data":[{"sprite":{"name":"Rings 6","baseSize":{"width":32,"height":32},"textureRectangle":{"x":5,"y":1,"width":24,"height":30},"textureOffset":{"x":5,"y":1},"color":{"r":1,"g":1,"b":1,"a":1}}},{"crafting":{"craftingTime":3600,"requiredItems":[{"name":"Enriched Obsidian","count":5,"requiredLevel":0},{"name":"Enriched Metal","count":5,"requiredLevel":0},{"name":"Void Shard Catalyst","count":1,"requiredLevel":0}],"craftCost":3000,"craftNowCost":90,"craftingStat":"_Unknown","craftingCategory":"T6_Void"}}],"stats":[{"key":"ManaMax","equation":"[ManaMax]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Focus","equation":"[Focus]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0,101000,220000],"class":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"bonusDismantleLoot":"DismantleStandardT6","bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Gold","modifierChance":0.05}]
+[
+  {
+    "name": "Signet of the Vanguard",
+    "alias": "Ring T6 v1",
+    "description": "They were not prepared for what they faced, but their strength may still yet be the difference between victory and defeat.",
+    "price": 70000,
+    "sellPrice": 700,
+    "consumable": false,
+    "requiredLevel": 20,
+    "type": "Ring",
+    "maxStack": 1,
+    "tier": 6,
+    "data": [
+      {
+        "sprite": {
+          "name": "Rings 6",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 1,
+            "width": 24,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 3600,
+          "requiredItems": [
+            {
+              "name": "Enriched Obsidian",
+              "count": 5,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Enriched Metal",
+              "count": 5,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Void Shard Catalyst",
+              "count": 1,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 3000,
+          "craftNowCost": 90,
+          "craftingStat": "_Unknown",
+          "craftingCategory": "T6_Void"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "ManaMax",
+        "equation": "[ManaMax]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Focus",
+        "equation": "[Focus]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Willpower",
+        "equation": "[Willpower]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0,
+      101000,
+      220000
+    ],
+    "class": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "bonusDismantleLoot": "DismantleStandardT6",
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05
+  }
+]

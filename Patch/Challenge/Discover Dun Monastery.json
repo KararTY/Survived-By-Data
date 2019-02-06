@@ -1,1 +1,19 @@
-[{"name":"Discover Dun Monastery","title":"Discover Monastery of the Rift","description":"Locate and enter the  Monastery of the Rift dungeon","challengeValueSuffix":"Items","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Discover Dun Monastery"}}}]}]
+[
+  {
+    "name": "Discover Dun Monastery",
+    "title": "Discover Monastery of the Rift",
+    "description": "Locate and enter the  Monastery of the Rift dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Dun Monastery"
+          }
+        }
+      }
+    ]
+  }
+]

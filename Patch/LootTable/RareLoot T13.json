@@ -1,1 +1,19 @@
-[{"from":"RareLoot T13","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Silver","count":{"dice":14,"faces":10,"add":60},"chance":100,"allowModifiers":true}]}]
+[
+  {
+    "from": "RareLoot T13",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 14,
+          "faces": 10,
+          "add": 60
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

@@ -1,1 +1,506 @@
-[{"name":"Panthera Warrior","alias":"invasion_T4_snowleopard","description":"Description for Panthera Warrior","isBoss":false,"isElite":false,"isSetPieceMonster":false,"weapons":[{"name":"wolfwarrior_projectile_ahead","data":[{"sprite":{"name":"chimera_wolfwarrior","baseSize":{"width":256,"height":128},"textureRectangle":{"x":69,"y":8,"width":22,"height":46},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"wolfwarrior_projectile_ahead","projectileName":"Projectile","speed":8,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"delayRate":0.4,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0.23,"g":0.32,"b":0.33,"a":0.17}}}]},{"name":"chimera_snowleopard_projectile","data":[{"sprite":{"name":"druid_01","baseSize":{"width":192,"height":144},"textureRectangle":{"x":53,"y":20,"width":19,"height":27},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"chimera_snowleopard_projectile","projectileName":"Projectile","speed":6,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":15,"maxLifetime":8,"delayRate":0.15,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0.23,"g":0.29,"b":0.3,"a":0.13}}}]}],"data":[{"sprite":{"name":"chimera_snow_leopard","baseSize":{"width":256,"height":128},"textureRectangle":{"x":11,"y":73,"width":49,"height":53},"textureOffset":{"x":11,"y":9},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true,"bEnemy":true,"bSlowedDownByWater":true,"bBlockedByLava":true},{"stats":[{"key":"Level","equation":"","value":17},{"key":"HealthMax","equation":"","value":7380},{"key":"DamageBonus","equation":"","value":110},{"key":"Tier","equation":"","value":4},{"key":"Experience","equation":"","value":340},{"key":"CriticalDefense","equation":"([Level]*[Level])*0.2 + 25","value":0},{"key":"Accuracy","equation":"([Level]*[Level])*0.4 + 150","value":0}]},{"loot":{"lootTable":{"name":"invasion_T4_snowleopard"}}},{"sound":{"soundType":"Impact","sounds":["EnemyImpactGeneral1","EnemyImpactGeneral2","EnemyImpactGeneral3","EnemyImpactGeneral4","EnemyImpactGeneral5"]}},{"sound":{"soundType":"Wake","sounds":["LeopardMtLionWake1","LeopardMtLionWake2","LeopardMtLionWake3","LeopardMtLionWake4","LeopardMtLionWake5"]}},{"sound":{"soundType":"Pain","sounds":["LeopardMtLionPain1","LeopardMtLionPain2","LeopardMtLionPain3","LeopardMtLionPain4","LeopardMtLionPain5"]}},{"sound":{"soundType":"Death","sounds":["LeopardMtLionDeath1","LeopardMtLionDeath2","LeopardMtLionDeath3","LeopardMtLionDeath4","LeopardMtLionDeath5"]}}],"zenithEffects":[],"category":"Chimera","element":"None"},{"name":"Panthera Warrior","alias":"monster_chimera_snowleopard","description":"Description for Panthera Warrior","isBoss":false,"isElite":false,"isSetPieceMonster":false,"weapons":[{"name":"wolfwarrior_projectile_ahead","data":[{"sprite":{"name":"chimera_wolfwarrior","baseSize":{"width":256,"height":128},"textureRectangle":{"x":69,"y":8,"width":22,"height":46},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"wolfwarrior_projectile_ahead","projectileName":"Projectile","speed":8,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"delayRate":0.4,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0.23,"g":0.32,"b":0.33,"a":0.17}}}]},{"name":"chimera_snowleopard_projectile","data":[{"sprite":{"name":"druid_01","baseSize":{"width":192,"height":144},"textureRectangle":{"x":53,"y":20,"width":19,"height":27},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"chimera_snowleopard_projectile","projectileName":"Projectile","speed":6,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":15,"maxLifetime":8,"delayRate":0.15,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0.23,"g":0.29,"b":0.3,"a":0.13}}}]}],"data":[{"sprite":{"name":"chimera_snow_leopard","baseSize":{"width":256,"height":128},"textureRectangle":{"x":11,"y":73,"width":49,"height":53},"textureOffset":{"x":11,"y":9},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true,"bEnemy":true,"bSlowedDownByWater":true,"bBlockedByLava":true},{"stats":[{"key":"Level","equation":"","value":17},{"key":"HealthMax","equation":"","value":615},{"key":"DamageBonus","equation":"","value":100},{"key":"Tier","equation":"","value":4},{"key":"Experience","equation":"","value":340},{"key":"CriticalDefense","equation":"([Level]*[Level])*0.2 + 25","value":0},{"key":"Accuracy","equation":"([Level]*[Level])*0.4 + 150","value":0}]},{"loot":{"lootTable":{"name":"monster_chimera_snowleopard"}}},{"sound":{"soundType":"Impact","sounds":["EnemyImpactGeneral1","EnemyImpactGeneral2","EnemyImpactGeneral3","EnemyImpactGeneral4","EnemyImpactGeneral5"]}},{"sound":{"soundType":"Wake","sounds":["LeopardMtLionWake1","LeopardMtLionWake2","LeopardMtLionWake3","LeopardMtLionWake4","LeopardMtLionWake5"]}},{"sound":{"soundType":"Pain","sounds":["LeopardMtLionPain1","LeopardMtLionPain2","LeopardMtLionPain3","LeopardMtLionPain4","LeopardMtLionPain5"]}},{"sound":{"soundType":"Death","sounds":["LeopardMtLionDeath1","LeopardMtLionDeath2","LeopardMtLionDeath3","LeopardMtLionDeath4","LeopardMtLionDeath5"]}}],"zenithEffects":[],"category":"Chimera","element":"None"}]
+[
+  {
+    "name": "Panthera Warrior",
+    "alias": "invasion_T4_snowleopard",
+    "description": "Description for Panthera Warrior",
+    "isBoss": false,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "wolfwarrior_projectile_ahead",
+        "data": [
+          {
+            "sprite": {
+              "name": "chimera_wolfwarrior",
+              "baseSize": {
+                "width": 256,
+                "height": 128
+              },
+              "textureRectangle": {
+                "x": 69,
+                "y": 8,
+                "width": 22,
+                "height": 46
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "wolfwarrior_projectile_ahead",
+              "projectileName": "Projectile",
+              "speed": 8,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "delayRate": 0.4,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0.23,
+                "g": 0.32,
+                "b": 0.33,
+                "a": 0.17
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "chimera_snowleopard_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "druid_01",
+              "baseSize": {
+                "width": 192,
+                "height": 144
+              },
+              "textureRectangle": {
+                "x": 53,
+                "y": 20,
+                "width": 19,
+                "height": 27
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "chimera_snowleopard_projectile",
+              "projectileName": "Projectile",
+              "speed": 6,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 15,
+              "maxLifetime": 8,
+              "delayRate": 0.15,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0.23,
+                "g": 0.29,
+                "b": 0.3,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "chimera_snow_leopard",
+          "baseSize": {
+            "width": 256,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 11,
+            "y": 73,
+            "width": 49,
+            "height": 53
+          },
+          "textureOffset": {
+            "x": 11,
+            "y": 9
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 17
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 7380
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 110
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 4
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 340
+          },
+          {
+            "key": "CriticalDefense",
+            "equation": "([Level]*[Level])*0.2 + 25",
+            "value": 0
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "invasion_T4_snowleopard"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Wake",
+          "sounds": [
+            "LeopardMtLionWake1",
+            "LeopardMtLionWake2",
+            "LeopardMtLionWake3",
+            "LeopardMtLionWake4",
+            "LeopardMtLionWake5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "LeopardMtLionPain1",
+            "LeopardMtLionPain2",
+            "LeopardMtLionPain3",
+            "LeopardMtLionPain4",
+            "LeopardMtLionPain5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "LeopardMtLionDeath1",
+            "LeopardMtLionDeath2",
+            "LeopardMtLionDeath3",
+            "LeopardMtLionDeath4",
+            "LeopardMtLionDeath5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Chimera",
+    "element": "None"
+  },
+  {
+    "name": "Panthera Warrior",
+    "alias": "monster_chimera_snowleopard",
+    "description": "Description for Panthera Warrior",
+    "isBoss": false,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "wolfwarrior_projectile_ahead",
+        "data": [
+          {
+            "sprite": {
+              "name": "chimera_wolfwarrior",
+              "baseSize": {
+                "width": 256,
+                "height": 128
+              },
+              "textureRectangle": {
+                "x": 69,
+                "y": 8,
+                "width": 22,
+                "height": 46
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "wolfwarrior_projectile_ahead",
+              "projectileName": "Projectile",
+              "speed": 8,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "delayRate": 0.4,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0.23,
+                "g": 0.32,
+                "b": 0.33,
+                "a": 0.17
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "chimera_snowleopard_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "druid_01",
+              "baseSize": {
+                "width": 192,
+                "height": 144
+              },
+              "textureRectangle": {
+                "x": 53,
+                "y": 20,
+                "width": 19,
+                "height": 27
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "chimera_snowleopard_projectile",
+              "projectileName": "Projectile",
+              "speed": 6,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 15,
+              "maxLifetime": 8,
+              "delayRate": 0.15,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0.23,
+                "g": 0.29,
+                "b": 0.3,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "chimera_snow_leopard",
+          "baseSize": {
+            "width": 256,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 11,
+            "y": 73,
+            "width": 49,
+            "height": 53
+          },
+          "textureOffset": {
+            "x": 11,
+            "y": 9
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 17
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 615
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 100
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 4
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 340
+          },
+          {
+            "key": "CriticalDefense",
+            "equation": "([Level]*[Level])*0.2 + 25",
+            "value": 0
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "monster_chimera_snowleopard"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Wake",
+          "sounds": [
+            "LeopardMtLionWake1",
+            "LeopardMtLionWake2",
+            "LeopardMtLionWake3",
+            "LeopardMtLionWake4",
+            "LeopardMtLionWake5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "LeopardMtLionPain1",
+            "LeopardMtLionPain2",
+            "LeopardMtLionPain3",
+            "LeopardMtLionPain4",
+            "LeopardMtLionPain5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "LeopardMtLionDeath1",
+            "LeopardMtLionDeath2",
+            "LeopardMtLionDeath3",
+            "LeopardMtLionDeath4",
+            "LeopardMtLionDeath5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Chimera",
+    "element": "None"
+  }
+]

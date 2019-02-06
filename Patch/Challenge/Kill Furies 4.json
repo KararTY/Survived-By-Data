@@ -1,1 +1,25 @@
-[{"name":"Kill Furies 4","title":"Kill Fury (IV)","description":"Kill {0} fury","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Fury (III)","Kill Furies 3"]],"data":[{"loot":{"lootTable":{"name":"Kill Furies 4"}}}]}]
+[
+  {
+    "name": "Kill Furies 4",
+    "title": "Kill Fury (IV)",
+    "description": "Kill {0} fury",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Kill Fury (III)",
+        "Kill Furies 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Furies 4"
+          }
+        }
+      }
+    ]
+  }
+]

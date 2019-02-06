@@ -1,1 +1,90 @@
-[{"name":"InsaneNPCFemale1","category":"None","weapons":[],"data":[{"sprite":{"name":"villager_insane_02","baseSize":{"width":128,"height":96},"textureRectangle":{"x":3,"y":64,"width":26,"height":32},"textureOffset":{"x":3,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"sound":{"soundType":"Impact","sounds":["InsaneVoice1","InsaneVoice2","InsaneVoice3","InsaneVoice4","InsaneVoice5"]}},{"dialogue":[{"name":"Text1","message":"It feeds"},{"name":"Text2","message":"It bleeds"},{"name":"Text3","message":"Down... down... down..."},{"name":"Text4","message":"The wardens watch no longer"},{"name":"Text5","message":"The soothing cacophony of millions and millions"},{"name":"Text6","message":"This will end... we will end... at the Well"},{"name":"Text7","message":"All paths lead to ruin"}]},{"stats":[{"key":"HealthMax","equation":"","value":10000}]}]}]
+[
+  {
+    "name": "InsaneNPCFemale1",
+    "category": "None",
+    "weapons": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "villager_insane_02",
+          "baseSize": {
+            "width": 128,
+            "height": 96
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 64,
+            "width": 26,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "InsaneVoice1",
+            "InsaneVoice2",
+            "InsaneVoice3",
+            "InsaneVoice4",
+            "InsaneVoice5"
+          ]
+        }
+      },
+      {
+        "dialogue": [
+          {
+            "name": "Text1",
+            "message": "It feeds"
+          },
+          {
+            "name": "Text2",
+            "message": "It bleeds"
+          },
+          {
+            "name": "Text3",
+            "message": "Down... down... down..."
+          },
+          {
+            "name": "Text4",
+            "message": "The wardens watch no longer"
+          },
+          {
+            "name": "Text5",
+            "message": "The soothing cacophony of millions and millions"
+          },
+          {
+            "name": "Text6",
+            "message": "This will end... we will end... at the Well"
+          },
+          {
+            "name": "Text7",
+            "message": "All paths lead to ruin"
+          }
+        ]
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 10000
+          }
+        ]
+      }
+    ]
+  }
+]

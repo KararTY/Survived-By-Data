@@ -1,1 +1,68 @@
-[{"name":"Minor Health Regen Potion","alias":"Consumable Elixir T1 HealthRegen Buff","description":"Provides a small boost to the rate of Health Regeneration of whomever drinks it for a short period of time.","price":50,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Consumable","maxStack":1,"tier":1,"data":[{"sprite":{"name":"protoitemsprites","baseSize":{"width":476,"height":1020},"textureRectangle":{"x":248,"y":918,"width":15,"height":33},"textureOffset":{"x":10,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"stats":[{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0],"class":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":0,"insureCost":0,"modifierChance":0.75}]
+[
+  {
+    "name": "Minor Health Regen Potion",
+    "alias": "Consumable Elixir T1 HealthRegen Buff",
+    "description": "Provides a small boost to the rate of Health Regeneration of whomever drinks it for a short period of time.",
+    "price": 50,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Consumable",
+    "maxStack": 1,
+    "tier": 1,
+    "data": [
+      {
+        "sprite": {
+          "name": "protoitemsprites",
+          "baseSize": {
+            "width": 476,
+            "height": 1020
+          },
+          "textureRectangle": {
+            "x": 248,
+            "y": 918,
+            "width": 15,
+            "height": 33
+          },
+          "textureOffset": {
+            "x": 10,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  }
+]

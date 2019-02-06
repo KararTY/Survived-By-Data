@@ -1,1 +1,25 @@
-[{"name":"Complete Bounties 4","title":"Complete Daily Challenges (IV)","description":"Complete {0} bounties","challengeValueSuffix":"Bounties","challengeType":"_Unknown","achievement":false,"prerequisites":[["Complete Daily Challenges (III)","Complete Bounties 3"]],"data":[{"loot":{"lootTable":{"name":"Complete Bounties 4"}}}]}]
+[
+  {
+    "name": "Complete Bounties 4",
+    "title": "Complete Daily Challenges (IV)",
+    "description": "Complete {0} bounties",
+    "challengeValueSuffix": "Bounties",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Complete Daily Challenges (III)",
+        "Complete Bounties 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Complete Bounties 4"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,1 +1,25 @@
-[{"name":"Turn In Candles 3","title":"Turn in Bundle of Candles (III)","description":"Turn in {0} Bundles of Candles","challengeValueSuffix":"Candles","challengeType":"_Unknown","achievement":true,"prerequisites":[["Turn in Bundle of Candles (II)","Turn In Candles 2"]],"data":[{"loot":{"lootTable":{"name":"Turn In Candles 3"}}}]}]
+[
+  {
+    "name": "Turn In Candles 3",
+    "title": "Turn in Bundle of Candles (III)",
+    "description": "Turn in {0} Bundles of Candles",
+    "challengeValueSuffix": "Candles",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Turn in Bundle of Candles (II)",
+        "Turn In Candles 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Turn In Candles 3"
+          }
+        }
+      }
+    ]
+  }
+]

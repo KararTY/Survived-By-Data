@@ -1,1 +1,198 @@
-[{"name":"Fury Nemesis","alias":"Fury Nemesis 1","description":"Damage against Fury is increased by #%\n","doNotAward":false,"data":[],"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"rarity":"Common","stats":[{"key":"DamageIncreaseFuries","equation":"[DamageIncreaseFuries]+[$Benefit]/100","value":0},{"key":"Benefit","equation":"5+([AncestralData.Ancestral_Level]*0.4)","value":0}],"ordinaries":[{"sprite":{"name":"AL_Damage","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Icon_Fury_02","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_icon_percentage plus","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Damage Bonus","alias":"Damage Bonus Set","sprite":"AL_icon_percentage plus"}],"blockedBy":["Fury Nemesis 1","Fury Nemesis 2"]},{"name":"Fury Nemesis","alias":"Fury Nemesis 2","description":"Damage against Fury is increased by #%\n","doNotAward":false,"data":[],"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"rarity":"Uncommon","stats":[{"key":"DamageIncreaseFuries","equation":"[DamageIncreaseFuries]+[$Benefit]/100","value":0},{"key":"Benefit","equation":"10+([AncestralData.Ancestral_Level]*0.8)","value":0}],"ordinaries":[{"sprite":{"name":"AL_Damage","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Icon_Fury_02","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_icon_percentage plus","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Damage Bonus","alias":"Damage Bonus Set","sprite":"AL_icon_percentage plus"}],"blockedBy":["Fury Nemesis 1","Fury Nemesis 2"]}]
+[
+  {
+    "name": "Fury Nemesis",
+    "alias": "Fury Nemesis 1",
+    "description": "Damage against Fury is increased by #%\n",
+    "doNotAward": false,
+    "data": [],
+    "validClasses": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "rarity": "Common",
+    "stats": [
+      {
+        "key": "DamageIncreaseFuries",
+        "equation": "[DamageIncreaseFuries]+[$Benefit]/100",
+        "value": 0
+      },
+      {
+        "key": "Benefit",
+        "equation": "5+([AncestralData.Ancestral_Level]*0.4)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_Damage",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Icon_Fury_02",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_percentage plus",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Damage Bonus",
+        "alias": "Damage Bonus Set",
+        "sprite": "AL_icon_percentage plus"
+      }
+    ],
+    "blockedBy": [
+      "Fury Nemesis 1",
+      "Fury Nemesis 2"
+    ]
+  },
+  {
+    "name": "Fury Nemesis",
+    "alias": "Fury Nemesis 2",
+    "description": "Damage against Fury is increased by #%\n",
+    "doNotAward": false,
+    "data": [],
+    "validClasses": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "rarity": "Uncommon",
+    "stats": [
+      {
+        "key": "DamageIncreaseFuries",
+        "equation": "[DamageIncreaseFuries]+[$Benefit]/100",
+        "value": 0
+      },
+      {
+        "key": "Benefit",
+        "equation": "10+([AncestralData.Ancestral_Level]*0.8)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_Damage",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Icon_Fury_02",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_percentage plus",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Damage Bonus",
+        "alias": "Damage Bonus Set",
+        "sprite": "AL_icon_percentage plus"
+      }
+    ],
+    "blockedBy": [
+      "Fury Nemesis 1",
+      "Fury Nemesis 2"
+    ]
+  }
+]

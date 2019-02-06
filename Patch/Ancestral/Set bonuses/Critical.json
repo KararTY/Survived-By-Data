@@ -1,1 +1,57 @@
-{"name":"Critical","alias":"Critical Set","setBonuses":[{"name":"Critical Bonus1","description":"Increase Critical Hit and Damage by 5%","requiredAmount":2,"stats":[{"key":"CriticalDamage","equation":"[CriticalDamage]+([CriticalDamage]*0.05)","value":0},{"key":"CriticalScore","equation":"[CriticalScore]+([CriticalScore]*0.05)","value":0}]},{"name":"Critical Bonus2","description":"Increase Critical Hit and Damage by 10%","requiredAmount":3,"stats":[{"key":"CriticalDamage","equation":"[CriticalDamage]+([CriticalDamage]*0.1)","value":0},{"key":"CriticalScore","equation":"[CriticalScore]+([CriticalScore]*0.1)","value":0}]}],"sprite":{"name":"AL_icon_ Dice","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}
+{
+  "name": "Critical",
+  "alias": "Critical Set",
+  "setBonuses": [
+    {
+      "name": "Critical Bonus1",
+      "description": "Increase Critical Hit and Damage by 5%",
+      "requiredAmount": 2,
+      "stats": [
+        {
+          "key": "CriticalDamage",
+          "equation": "[CriticalDamage]+([CriticalDamage]*0.05)",
+          "value": 0
+        },
+        {
+          "key": "CriticalScore",
+          "equation": "[CriticalScore]+([CriticalScore]*0.05)",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Critical Bonus2",
+      "description": "Increase Critical Hit and Damage by 10%",
+      "requiredAmount": 3,
+      "stats": [
+        {
+          "key": "CriticalDamage",
+          "equation": "[CriticalDamage]+([CriticalDamage]*0.1)",
+          "value": 0
+        },
+        {
+          "key": "CriticalScore",
+          "equation": "[CriticalScore]+([CriticalScore]*0.1)",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "sprite": {
+    "name": "AL_icon_ Dice",
+    "baseSize": {
+      "width": 22,
+      "height": 22
+    },
+    "textureRectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 22,
+      "height": 22
+    },
+    "textureOffset": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}

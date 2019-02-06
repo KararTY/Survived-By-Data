@@ -1,1 +1,47 @@
-[{"name":"CloseShot","alias":"Close Shot Imprint","description":"<description>","category":"Prefix","data":[{"nameMod":"Short but Powerful {0}","expireTime":0,"chanceToApply":5,"minTier":0,"maxTier":100},{"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"type":["Weapon"],"stats":[{"key":"WeaponIndex","equation":"","value":22},{"key":"DamageBonus","equation":"[DamageBonus]*1.3","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]}]}]
+[
+  {
+    "name": "CloseShot",
+    "alias": "Close Shot Imprint",
+    "description": "<description>",
+    "category": "Prefix",
+    "data": [
+      {
+        "nameMod": "Short but Powerful {0}",
+        "expireTime": 0,
+        "chanceToApply": 5,
+        "minTier": 0,
+        "maxTier": 100
+      },
+      {
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon"
+        ],
+        "stats": [
+          {
+            "key": "WeaponIndex",
+            "equation": "",
+            "value": 22
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "[DamageBonus]*1.3",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  }
+]

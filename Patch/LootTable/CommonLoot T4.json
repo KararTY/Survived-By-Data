@@ -1,1 +1,19 @@
-[{"from":"CommonLoot T4","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Silver","count":{"dice":1,"faces":8,"add":4},"chance":3,"allowModifiers":true}]}]
+[
+  {
+    "from": "CommonLoot T4",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 1,
+          "faces": 8,
+          "add": 4
+        },
+        "chance": 3,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

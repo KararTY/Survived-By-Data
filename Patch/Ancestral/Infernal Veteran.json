@@ -1,1 +1,198 @@
-[{"name":"Infernal Veteran","alias":"Infernal Veteran 1","description":"Damage reduction against Infernals is increased by #%\n","doNotAward":false,"data":[],"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"rarity":"Common","stats":[{"key":"DamageReductionInfernals","equation":"[DamageReductionInfernals]+[$Benefit]/100","value":0},{"key":"Benefit","equation":"2+([AncestralData.Ancestral_Level]*0.16)","value":0}],"ordinaries":[{"sprite":{"name":"AL_Damage reduction","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_icon_Infernal","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_icon_percentage plus","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Damage Reduction","alias":"Damage Reduction Set","sprite":"AL_icon_percentage minus"}],"blockedBy":["Infernal Veteran 1","Infernal Veteran 2"]},{"name":"Infernal Veteran","alias":"Infernal Veteran 2","description":"Damage reduction against Infernals is increased by #%\n","doNotAward":false,"data":[],"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"rarity":"Uncommon","stats":[{"key":"DamageReductionInfernals","equation":"[DamageReductionInfernals]+[$Benefit]/100","value":0},{"key":"Benefit","equation":"5+([AncestralData.Ancestral_Level]*0.4)\t","value":0}],"ordinaries":[{"sprite":{"name":"AL_Damage reduction","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_icon_Infernal","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_icon_percentage plus","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Damage Reduction","alias":"Damage Reduction Set","sprite":"AL_icon_percentage minus"}],"blockedBy":["Infernal Veteran 1","Infernal Veteran 2"]}]
+[
+  {
+    "name": "Infernal Veteran",
+    "alias": "Infernal Veteran 1",
+    "description": "Damage reduction against Infernals is increased by #%\n",
+    "doNotAward": false,
+    "data": [],
+    "validClasses": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "rarity": "Common",
+    "stats": [
+      {
+        "key": "DamageReductionInfernals",
+        "equation": "[DamageReductionInfernals]+[$Benefit]/100",
+        "value": 0
+      },
+      {
+        "key": "Benefit",
+        "equation": "2+([AncestralData.Ancestral_Level]*0.16)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_Damage reduction",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_Infernal",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_percentage plus",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Damage Reduction",
+        "alias": "Damage Reduction Set",
+        "sprite": "AL_icon_percentage minus"
+      }
+    ],
+    "blockedBy": [
+      "Infernal Veteran 1",
+      "Infernal Veteran 2"
+    ]
+  },
+  {
+    "name": "Infernal Veteran",
+    "alias": "Infernal Veteran 2",
+    "description": "Damage reduction against Infernals is increased by #%\n",
+    "doNotAward": false,
+    "data": [],
+    "validClasses": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "rarity": "Uncommon",
+    "stats": [
+      {
+        "key": "DamageReductionInfernals",
+        "equation": "[DamageReductionInfernals]+[$Benefit]/100",
+        "value": 0
+      },
+      {
+        "key": "Benefit",
+        "equation": "5+([AncestralData.Ancestral_Level]*0.4)\t",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_Damage reduction",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_Infernal",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_percentage plus",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Damage Reduction",
+        "alias": "Damage Reduction Set",
+        "sprite": "AL_icon_percentage minus"
+      }
+    ],
+    "blockedBy": [
+      "Infernal Veteran 1",
+      "Infernal Veteran 2"
+    ]
+  }
+]

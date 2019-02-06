@@ -1,1 +1,9 @@
-[{"from":"invasion_artillery_monster_T5","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"RareLoot T5"}]
+[
+  {
+    "from": "invasion_artillery_monster_T5",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "RareLoot T5"
+  }
+]

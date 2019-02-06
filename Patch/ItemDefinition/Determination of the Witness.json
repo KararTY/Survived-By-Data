@@ -1,1 +1,115 @@
-[{"name":"Determination of the Witness","alias":"Paladin T8 Weapon v1","description":"Forged of Electrum, this sword was a reservoir of the prayers of the Witness, prayers it could release to devastating effect.","price":500000,"sellPrice":5000,"consumable":false,"requiredLevel":25,"type":"Weapon","maxStack":1,"tier":8,"data":[{"sprite":{"name":"Sentinel 8","baseSize":{"width":32,"height":32},"textureRectangle":{"x":1,"y":1,"width":30,"height":30},"textureOffset":{"x":1,"y":1},"color":{"r":1,"g":1,"b":1,"a":1}}},{"crafting":{"craftingTime":18000,"requiredItems":[{"name":"Sable","count":2,"requiredLevel":0},{"name":"Reinfused Hardwood","count":1,"requiredLevel":0},{"name":"Eldritch Catalyst","count":1,"requiredLevel":0}],"craftCost":22000,"craftNowCost":300,"craftingStat":"_Unknown","craftingCategory":"T8_Eldritch"}}],"stats":[{"key":"Potency","equation":"[Potency]+[$Tier]*20+[$Item_Level]*4","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]*15+[$Item_Level]*3","value":0},{"key":"Swiftness","equation":"[Swiftness]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Focus","equation":"[Focus]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0,237000,504000,804000,1139000],"class":["Sentinel"],"bonusDismantleLoot":"DismantleStandardT8","bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Gold","modifierChance":0.05}]
+[
+  {
+    "name": "Determination of the Witness",
+    "alias": "Paladin T8 Weapon v1",
+    "description": "Forged of Electrum, this sword was a reservoir of the prayers of the Witness, prayers it could release to devastating effect.",
+    "price": 500000,
+    "sellPrice": 5000,
+    "consumable": false,
+    "requiredLevel": 25,
+    "type": "Weapon",
+    "maxStack": 1,
+    "tier": 8,
+    "data": [
+      {
+        "sprite": {
+          "name": "Sentinel 8",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 1,
+            "width": 30,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 18000,
+          "requiredItems": [
+            {
+              "name": "Sable",
+              "count": 2,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Reinfused Hardwood",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Eldritch Catalyst",
+              "count": 1,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 22000,
+          "craftNowCost": 300,
+          "craftingStat": "_Unknown",
+          "craftingCategory": "T8_Eldritch"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Potency",
+        "equation": "[Potency]+[$Tier]*20+[$Item_Level]*4",
+        "value": 0
+      },
+      {
+        "key": "Willpower",
+        "equation": "[Willpower]+[$Tier]*15+[$Item_Level]*3",
+        "value": 0
+      },
+      {
+        "key": "Swiftness",
+        "equation": "[Swiftness]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Focus",
+        "equation": "[Focus]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0,
+      237000,
+      504000,
+      804000,
+      1139000
+    ],
+    "class": [
+      "Sentinel"
+    ],
+    "bonusDismantleLoot": "DismantleStandardT8",
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05
+  }
+]

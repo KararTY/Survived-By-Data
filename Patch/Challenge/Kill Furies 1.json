@@ -1,1 +1,19 @@
-[{"name":"Kill Furies 1","title":"Kill Fury (I)","description":"Kill {0} fury","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Kill Furies 1"}}}]}]
+[
+  {
+    "name": "Kill Furies 1",
+    "title": "Kill Fury (I)",
+    "description": "Kill {0} fury",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Furies 1"
+          }
+        }
+      }
+    ]
+  }
+]

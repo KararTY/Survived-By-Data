@@ -1,1 +1,19 @@
-[{"name":"Discover Items 1","title":"Discover Gear (I)","description":"Discover {0} items","challengeValueSuffix":"Items","challengeType":"Endurance","achievement":true,"data":[{"loot":{"lootTable":{"name":"Discover Items 1"}}}]}]
+[
+  {
+    "name": "Discover Items 1",
+    "title": "Discover Gear (I)",
+    "description": "Discover {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Items 1"
+          }
+        }
+      }
+    ]
+  }
+]

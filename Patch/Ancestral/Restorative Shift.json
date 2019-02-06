@@ -1,1 +1,404 @@
-[{"name":"Restorative Shift","alias":"Restorative Shift 2","description":"A Druid taking bear form is immediately healed for #% of their maximum health","doNotAward":false,"data":[{"proc":{"name":"Restorative Shift 2","description":"A Druid taking bear form is immediately healed for X% of their maximum health","counterMax":0,"timerValue":0,"statusEffect":{"name":"Restorative Shift","type":"Permanent","duration":3,"stats":[{"key":"Health","equation":"[Health]+([HealthMax] * [Proc.Benefit] / 100)","value":0},{"key":"Tier","equation":"","value":0}],"isBuff":true,"removeOnAttack":false,"coolDownTime":0,"noTimeOut":false},"projectileDamageMultiplier":1,"useAncestralBenefitForDamage":false,"triggers":[{"trigger":"SecondaryAbilityActivate","chance":1,"chanceSource":"ChanceValue","action":"ApplyStatusEffect"}]}}],"validClasses":["Druid"],"rarity":"Uncommon","stats":[{"key":"Benefit","equation":"3+([AncestralData.Ancestral_Level]*0.14)","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Druid","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Bear","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"HUD_Potion red","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Druid","alias":"Druid Set","sprite":"AL_icon_ Druid"},{"name":"Health","alias":"Health Set","sprite":"AL_Icon_Health 02"}],"blockedBy":["Restorative Shift 2","Restorative Shift 3","Restorative Shift 4"]},{"name":"Restorative Shift","alias":"Restorative Shift 3","description":"A Druid taking bear form is immediately healed for #% of their maximum health","doNotAward":false,"data":[{"proc":{"name":"Restorative Shift 3","description":"A Druid taking bear form is immediately healed for X% of their maximum health","counterMax":0,"timerValue":0,"statusEffect":{"name":"Restorative Shift","type":"Permanent","duration":3,"stats":[{"key":"Health","equation":"[Health]+([HealthMax] * [Proc.Benefit] / 100)","value":0},{"key":"Tier","equation":"","value":0}],"isBuff":true,"removeOnAttack":false,"coolDownTime":0,"noTimeOut":false},"projectileDamageMultiplier":1,"useAncestralBenefitForDamage":false,"triggers":[{"trigger":"SecondaryAbilityActivate","chance":1,"chanceSource":"ChanceValue","action":"ApplyStatusEffect"}]}}],"validClasses":["Druid"],"rarity":"Rare","stats":[{"key":"Benefit","equation":"5+([AncestralData.Ancestral_Level]*0.4)","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Druid","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Bear","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"HUD_Potion red","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Druid","alias":"Druid Set","sprite":"AL_icon_ Druid"},{"name":"Health","alias":"Health Set","sprite":"AL_Icon_Health 02"}],"blockedBy":["Restorative Shift 2","Restorative Shift 3","Restorative Shift 4"]},{"name":"Restorative Shift","alias":"Restorative Shift 4","description":"A Druid taking bear form is immediately healed for #% of their maximum health","doNotAward":false,"data":[{"proc":{"name":"Restorative Shift 4","description":"A Druid taking bear form is immediately healed for X% of their maximum health","counterMax":0,"timerValue":0,"statusEffect":{"name":"Restorative Shift","type":"Permanent","duration":3,"stats":[{"key":"Health","equation":"[Health]+([HealthMax] * [Proc.Benefit] / 100)","value":0},{"key":"Tier","equation":"","value":0}],"isBuff":true,"removeOnAttack":false,"coolDownTime":0,"noTimeOut":false},"projectileDamageMultiplier":1,"useAncestralBenefitForDamage":false,"triggers":[{"trigger":"SecondaryAbilityActivate","chance":1,"chanceSource":"ChanceValue","action":"ApplyStatusEffect"}]}}],"validClasses":["Druid"],"rarity":"Legendary","stats":[{"key":"Benefit","equation":"10+([AncestralData.Ancestral_Level]*0.8)","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Druid","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Bear","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"HUD_Potion red","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Druid","alias":"Druid Set","sprite":"AL_icon_ Druid"},{"name":"Health","alias":"Health Set","sprite":"AL_Icon_Health 02"}],"blockedBy":["Restorative Shift 2","Restorative Shift 3","Restorative Shift 4"]}]
+[
+  {
+    "name": "Restorative Shift",
+    "alias": "Restorative Shift 2",
+    "description": "A Druid taking bear form is immediately healed for #% of their maximum health",
+    "doNotAward": false,
+    "data": [
+      {
+        "proc": {
+          "name": "Restorative Shift 2",
+          "description": "A Druid taking bear form is immediately healed for X% of their maximum health",
+          "counterMax": 0,
+          "timerValue": 0,
+          "statusEffect": {
+            "name": "Restorative Shift",
+            "type": "Permanent",
+            "duration": 3,
+            "stats": [
+              {
+                "key": "Health",
+                "equation": "[Health]+([HealthMax] * [Proc.Benefit] / 100)",
+                "value": 0
+              },
+              {
+                "key": "Tier",
+                "equation": "",
+                "value": 0
+              }
+            ],
+            "isBuff": true,
+            "removeOnAttack": false,
+            "coolDownTime": 0,
+            "noTimeOut": false
+          },
+          "projectileDamageMultiplier": 1,
+          "useAncestralBenefitForDamage": false,
+          "triggers": [
+            {
+              "trigger": "SecondaryAbilityActivate",
+              "chance": 1,
+              "chanceSource": "ChanceValue",
+              "action": "ApplyStatusEffect"
+            }
+          ]
+        }
+      }
+    ],
+    "validClasses": [
+      "Druid"
+    ],
+    "rarity": "Uncommon",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "3+([AncestralData.Ancestral_Level]*0.14)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Druid",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Bear",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "HUD_Potion red",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Druid",
+        "alias": "Druid Set",
+        "sprite": "AL_icon_ Druid"
+      },
+      {
+        "name": "Health",
+        "alias": "Health Set",
+        "sprite": "AL_Icon_Health 02"
+      }
+    ],
+    "blockedBy": [
+      "Restorative Shift 2",
+      "Restorative Shift 3",
+      "Restorative Shift 4"
+    ]
+  },
+  {
+    "name": "Restorative Shift",
+    "alias": "Restorative Shift 3",
+    "description": "A Druid taking bear form is immediately healed for #% of their maximum health",
+    "doNotAward": false,
+    "data": [
+      {
+        "proc": {
+          "name": "Restorative Shift 3",
+          "description": "A Druid taking bear form is immediately healed for X% of their maximum health",
+          "counterMax": 0,
+          "timerValue": 0,
+          "statusEffect": {
+            "name": "Restorative Shift",
+            "type": "Permanent",
+            "duration": 3,
+            "stats": [
+              {
+                "key": "Health",
+                "equation": "[Health]+([HealthMax] * [Proc.Benefit] / 100)",
+                "value": 0
+              },
+              {
+                "key": "Tier",
+                "equation": "",
+                "value": 0
+              }
+            ],
+            "isBuff": true,
+            "removeOnAttack": false,
+            "coolDownTime": 0,
+            "noTimeOut": false
+          },
+          "projectileDamageMultiplier": 1,
+          "useAncestralBenefitForDamage": false,
+          "triggers": [
+            {
+              "trigger": "SecondaryAbilityActivate",
+              "chance": 1,
+              "chanceSource": "ChanceValue",
+              "action": "ApplyStatusEffect"
+            }
+          ]
+        }
+      }
+    ],
+    "validClasses": [
+      "Druid"
+    ],
+    "rarity": "Rare",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "5+([AncestralData.Ancestral_Level]*0.4)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Druid",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Bear",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "HUD_Potion red",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Druid",
+        "alias": "Druid Set",
+        "sprite": "AL_icon_ Druid"
+      },
+      {
+        "name": "Health",
+        "alias": "Health Set",
+        "sprite": "AL_Icon_Health 02"
+      }
+    ],
+    "blockedBy": [
+      "Restorative Shift 2",
+      "Restorative Shift 3",
+      "Restorative Shift 4"
+    ]
+  },
+  {
+    "name": "Restorative Shift",
+    "alias": "Restorative Shift 4",
+    "description": "A Druid taking bear form is immediately healed for #% of their maximum health",
+    "doNotAward": false,
+    "data": [
+      {
+        "proc": {
+          "name": "Restorative Shift 4",
+          "description": "A Druid taking bear form is immediately healed for X% of their maximum health",
+          "counterMax": 0,
+          "timerValue": 0,
+          "statusEffect": {
+            "name": "Restorative Shift",
+            "type": "Permanent",
+            "duration": 3,
+            "stats": [
+              {
+                "key": "Health",
+                "equation": "[Health]+([HealthMax] * [Proc.Benefit] / 100)",
+                "value": 0
+              },
+              {
+                "key": "Tier",
+                "equation": "",
+                "value": 0
+              }
+            ],
+            "isBuff": true,
+            "removeOnAttack": false,
+            "coolDownTime": 0,
+            "noTimeOut": false
+          },
+          "projectileDamageMultiplier": 1,
+          "useAncestralBenefitForDamage": false,
+          "triggers": [
+            {
+              "trigger": "SecondaryAbilityActivate",
+              "chance": 1,
+              "chanceSource": "ChanceValue",
+              "action": "ApplyStatusEffect"
+            }
+          ]
+        }
+      }
+    ],
+    "validClasses": [
+      "Druid"
+    ],
+    "rarity": "Legendary",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "10+([AncestralData.Ancestral_Level]*0.8)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Druid",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Bear",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "HUD_Potion red",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Druid",
+        "alias": "Druid Set",
+        "sprite": "AL_icon_ Druid"
+      },
+      {
+        "name": "Health",
+        "alias": "Health Set",
+        "sprite": "AL_Icon_Health 02"
+      }
+    ],
+    "blockedBy": [
+      "Restorative Shift 2",
+      "Restorative Shift 3",
+      "Restorative Shift 4"
+    ]
+  }
+]

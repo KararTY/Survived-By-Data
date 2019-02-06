@@ -1,1 +1,30 @@
-[{"name":"Spawner_InvasionT4Phase2","biome":"ManuallyPlacedSpawners","difficulty":{"min":0,"max":0},"spawnRadius":0,"spawnDelayed":true,"quotaRadius":3,"rechargeTime":1,"isBoss":false,"autoPopulate":false,"manuallyPlaced":true,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Elder Capra Magus","monsterAlias":"invasion_T4_mtgoat_mage","spawnChance":1,"spawnQuota":1,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":6,"areaRadius":54}]
+[
+  {
+    "name": "Spawner_InvasionT4Phase2",
+    "biome": "ManuallyPlacedSpawners",
+    "difficulty": {
+      "min": 0,
+      "max": 0
+    },
+    "spawnRadius": 0,
+    "spawnDelayed": true,
+    "quotaRadius": 3,
+    "rechargeTime": 1,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": true,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Elder Capra Magus",
+        "monsterAlias": "invasion_T4_mtgoat_mage",
+        "spawnChance": 1,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 6,
+    "areaRadius": 54
+  }
+]

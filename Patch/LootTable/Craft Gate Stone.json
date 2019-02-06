@@ -1,1 +1,9 @@
-[{"from":"Craft Gate Stone","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"Challenge3"}]
+[
+  {
+    "from": "Craft Gate Stone",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "Challenge3"
+  }
+]

@@ -1,1 +1,25 @@
-[{"name":"Level Up Druid 5","title":"Level Druid (V)","description":"Reach level {0} with Druid","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"prerequisites":[["Level Druid (IV)","Level Up Druid 4"]],"data":[{"loot":{"lootTable":{"name":"Level Up Druid 5"}}}]}]
+[
+  {
+    "name": "Level Up Druid 5",
+    "title": "Level Druid (V)",
+    "description": "Reach level {0} with Druid",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Druid (IV)",
+        "Level Up Druid 4"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Druid 5"
+          }
+        }
+      }
+    ]
+  }
+]

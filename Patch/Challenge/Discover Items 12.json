@@ -1,1 +1,25 @@
-[{"name":"Discover Items 12","title":"Discover Gear (XII)","description":"Discover {0} items","challengeValueSuffix":"Items","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Gear (XI)","Discover Items 11"]],"data":[{"loot":{"lootTable":{"name":"Discover Items 12"}}}]}]
+[
+  {
+    "name": "Discover Items 12",
+    "title": "Discover Gear (XII)",
+    "description": "Discover {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Gear (XI)",
+        "Discover Items 11"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Items 12"
+          }
+        }
+      }
+    ]
+  }
+]

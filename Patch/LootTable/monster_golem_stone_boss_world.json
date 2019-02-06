@@ -1,1 +1,8 @@
-[{"from":"monster_golem_stone_boss_world","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[]}]
+[
+  {
+    "from": "monster_golem_stone_boss_world",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": []
+  }
+]

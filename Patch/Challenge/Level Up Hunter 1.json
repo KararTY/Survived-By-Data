@@ -1,1 +1,19 @@
-[{"name":"Level Up Hunter 1","title":"Level Harbinger (I)","description":"Reach level {0} with Harbinger","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"data":[{"loot":{"lootTable":{"name":"Level Up Hunter 1"}}}]}]
+[
+  {
+    "name": "Level Up Hunter 1",
+    "title": "Level Harbinger (I)",
+    "description": "Reach level {0} with Harbinger",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Hunter 1"
+          }
+        }
+      }
+    ]
+  }
+]

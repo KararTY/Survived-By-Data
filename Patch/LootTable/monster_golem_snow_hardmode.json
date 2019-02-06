@@ -1,1 +1,30 @@
-[{"from":"monster_golem_snow_hardmode","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Quartz","count":{"dice":0,"faces":0,"add":1},"chance":20,"allowModifiers":true},{"item":"Metal","count":{"dice":0,"faces":0,"add":1},"chance":4,"allowModifiers":true}],"reference":"CommonLoot T9"}]
+[
+  {
+    "from": "monster_golem_snow_hardmode",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Quartz",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Metal",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CommonLoot T9"
+  }
+]

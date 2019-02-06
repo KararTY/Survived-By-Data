@@ -1,1 +1,25 @@
-[{"name":"Discover Items 8","title":"Discover Gear (VIII)","description":"Discover {0} items","challengeValueSuffix":"Items","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Gear (VII)","Discover Items 7"]],"data":[{"loot":{"lootTable":{"name":"Discover Items 8"}}}]}]
+[
+  {
+    "name": "Discover Items 8",
+    "title": "Discover Gear (VIII)",
+    "description": "Discover {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Gear (VII)",
+        "Discover Items 7"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Items 8"
+          }
+        }
+      }
+    ]
+  }
+]

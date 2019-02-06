@@ -1,1 +1,25 @@
-[{"name":"Kill Chimera 4","title":"Kill Chimeras (IV)","description":"Kill {0} chimeras","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Chimeras (III)","Kill Chimera 3"]],"data":[{"loot":{"lootTable":{"name":"Kill Chimera 4"}}}]}]
+[
+  {
+    "name": "Kill Chimera 4",
+    "title": "Kill Chimeras (IV)",
+    "description": "Kill {0} chimeras",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Kill Chimeras (III)",
+        "Kill Chimera 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Chimera 4"
+          }
+        }
+      }
+    ]
+  }
+]

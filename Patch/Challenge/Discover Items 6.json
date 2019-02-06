@@ -1,1 +1,25 @@
-[{"name":"Discover Items 6","title":"Discover Gear (VI)","description":"Discover {0} items","challengeValueSuffix":"Items","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Gear (V)","Discover Items 5"]],"data":[{"loot":{"lootTable":{"name":"Discover Items 6"}}}]}]
+[
+  {
+    "name": "Discover Items 6",
+    "title": "Discover Gear (VI)",
+    "description": "Discover {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Gear (V)",
+        "Discover Items 5"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Items 6"
+          }
+        }
+      }
+    ]
+  }
+]

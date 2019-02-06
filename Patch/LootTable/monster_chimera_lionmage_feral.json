@@ -1,1 +1,30 @@
-[{"from":"monster_chimera_lionmage_feral","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Quartz Vein","count":{"dice":0,"faces":0,"add":1},"chance":3,"allowModifiers":true},{"item":"Raw Strands","count":{"dice":0,"faces":0,"add":1},"chance":3,"allowModifiers":true}],"reference":"CommonLoot T3"}]
+[
+  {
+    "from": "monster_chimera_lionmage_feral",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Raw Quartz Vein",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Strands",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CommonLoot T3"
+  }
+]

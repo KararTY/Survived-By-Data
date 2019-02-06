@@ -1,1 +1,8 @@
-[{"from":"monster_anima_dark_turretT8","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[]}]
+[
+  {
+    "from": "monster_anima_dark_turretT8",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": []
+  }
+]

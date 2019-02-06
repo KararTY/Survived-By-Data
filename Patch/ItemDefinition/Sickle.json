@@ -1,1 +1,174 @@
-[{"name":"Sickle","alias":"Geomancer T5 Weapon v2","description":"[deprecated]","price":22,"sellPrice":11,"consumable":false,"requiredLevel":0,"type":"Weapon","maxStack":1,"tier":5,"data":[{"sprite":{"name":"Geomancer 1","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0,100,300,500,1000],"class":["Geomancer"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"modifierChance":0.75},{"name":"Sickle","alias":"Geomancer T3 Weapon","description":"There is nothing left to harvest in the sands surrounding the Maw of the Destroyer, but the people that once lived here valued this weapon highly.","price":7000,"sellPrice":70,"consumable":false,"requiredLevel":0,"type":"Weapon","maxStack":1,"tier":3,"data":[{"sprite":{"name":"Geomancer 3","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"crafting":{"craftingTime":120,"requiredItems":[{"name":"Obsidian","count":2,"requiredLevel":0},{"name":"Timber","count":1,"requiredLevel":0},{"name":"Metal","count":1,"requiredLevel":0},{"name":"Jet Catalyst","count":1,"requiredLevel":0}],"craftCost":280,"craftNowCost":8,"craftingStat":"_Unknown","craftingCategory":"T3_Jet"}}],"stats":[{"key":"Potency","equation":"[Potency]+[$Tier]*20+[$Item_Level]*4","value":0},{"key":"Willpower","equation":"[Willpower]+[$Tier]*15+[$Item_Level]*3","value":0},{"key":"Swiftness","equation":"[Swiftness]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Focus","equation":"[Focus]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0],"class":["Geomancer"],"bonusDismantleLoot":"DismantleStandardT3","bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Gold","modifierChance":0.05}]
+[
+  {
+    "name": "Sickle",
+    "alias": "Geomancer T5 Weapon v2",
+    "description": "[deprecated]",
+    "price": 22,
+    "sellPrice": 11,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Weapon",
+    "maxStack": 1,
+    "tier": 5,
+    "data": [
+      {
+        "sprite": {
+          "name": "Geomancer 1",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0,
+      100,
+      300,
+      500,
+      1000
+    ],
+    "class": [
+      "Geomancer"
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Sickle",
+    "alias": "Geomancer T3 Weapon",
+    "description": "There is nothing left to harvest in the sands surrounding the Maw of the Destroyer, but the people that once lived here valued this weapon highly.",
+    "price": 7000,
+    "sellPrice": 70,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Weapon",
+    "maxStack": 1,
+    "tier": 3,
+    "data": [
+      {
+        "sprite": {
+          "name": "Geomancer 3",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 120,
+          "requiredItems": [
+            {
+              "name": "Obsidian",
+              "count": 2,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Timber",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Metal",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Jet Catalyst",
+              "count": 1,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 280,
+          "craftNowCost": 8,
+          "craftingStat": "_Unknown",
+          "craftingCategory": "T3_Jet"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Potency",
+        "equation": "[Potency]+[$Tier]*20+[$Item_Level]*4",
+        "value": 0
+      },
+      {
+        "key": "Willpower",
+        "equation": "[Willpower]+[$Tier]*15+[$Item_Level]*3",
+        "value": 0
+      },
+      {
+        "key": "Swiftness",
+        "equation": "[Swiftness]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Focus",
+        "equation": "[Focus]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Geomancer"
+    ],
+    "bonusDismantleLoot": "DismantleStandardT3",
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05
+  }
+]

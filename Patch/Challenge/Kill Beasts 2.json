@@ -1,1 +1,25 @@
-[{"name":"Kill Beasts 2","title":"Kill Beasts","description":"Kill {0} beasts","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Reach Level","Reach Level 1"]],"data":[{"loot":{"lootTable":{"name":"Kill Beasts 2"}}}]}]
+[
+  {
+    "name": "Kill Beasts 2",
+    "title": "Kill Beasts",
+    "description": "Kill {0} beasts",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Reach Level",
+        "Reach Level 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Beasts 2"
+          }
+        }
+      }
+    ]
+  }
+]

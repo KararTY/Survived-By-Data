@@ -1,1 +1,30 @@
-[{"name":"FissureDungeonT5_Boss","biome":"DungeonDeepFissureBoss","difficulty":{"min":0.5,"max":0.6},"spawnRadius":0.1,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":true,"autoPopulate":false,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Dark Anima","monsterAlias":"monster_anima_darkT5","spawnChance":1,"spawnQuota":1,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "FissureDungeonT5_Boss",
+    "biome": "DungeonDeepFissureBoss",
+    "difficulty": {
+      "min": 0.5,
+      "max": 0.6
+    },
+    "spawnRadius": 0.1,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": true,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Dark Anima",
+        "monsterAlias": "monster_anima_darkT5",
+        "spawnChance": 1,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

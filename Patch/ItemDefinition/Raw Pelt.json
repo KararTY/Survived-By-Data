@@ -1,1 +1,58 @@
-[{"name":"Raw Pelt","alias":"Crafting Material Raw Pelt","description":"The skin of an animal or chimera after it has been removed, but before it has been worked in any way.","price":0,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":99,"tier":1,"data":[{"sprite":{"name":"Crafting raw Hide","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":0,"insureCost":0,"modifierChance":0.05,"craftingRarity":[0.5,"Common"]}]
+[
+  {
+    "name": "Raw Pelt",
+    "alias": "Crafting Material Raw Pelt",
+    "description": "The skin of an animal or chimera after it has been removed, but before it has been worked in any way.",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 99,
+    "tier": 1,
+    "data": [
+      {
+        "sprite": {
+          "name": "Crafting raw Hide",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.05,
+    "craftingRarity": [
+      0.5,
+      "Common"
+    ]
+  }
+]

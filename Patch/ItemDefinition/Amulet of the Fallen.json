@@ -1,1 +1,113 @@
-[{"name":"Amulet of the Fallen","alias":"Amulet T6 v1","description":"The Fury breached this world at the Straits of the Deep, and that is where humanity's best fell defending the Heartland. The strength of the bloodlines that ended there still wait in the depths.","price":70000,"sellPrice":700,"consumable":false,"requiredLevel":20,"type":"Amulet","maxStack":1,"tier":6,"data":[{"sprite":{"name":"Amulets 6","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":29,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"crafting":{"craftingTime":3600,"requiredItems":[{"name":"Enriched Amber","count":5,"requiredLevel":0},{"name":"Enriched Obsidian","count":5,"requiredLevel":0},{"name":"Void Shard Catalyst","count":1,"requiredLevel":0}],"craftCost":3000,"craftNowCost":90,"craftingStat":"_Unknown","craftingCategory":"T6_Void"}}],"stats":[{"key":"HealthMax","equation":"[HealthMax]+[$Tier]*20+[$Item_Level]*4","value":0},{"key":"Potency","equation":"[Potency]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Endurance","equation":"[Endurance]+[$Tier]*10+[$Item_Level]*2","value":0},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0,101000,220000],"class":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"bonusDismantleLoot":"DismantleStandardT6","bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Gold","modifierChance":0.05}]
+[
+  {
+    "name": "Amulet of the Fallen",
+    "alias": "Amulet T6 v1",
+    "description": "The Fury breached this world at the Straits of the Deep, and that is where humanity's best fell defending the Heartland. The strength of the bloodlines that ended there still wait in the depths.",
+    "price": 70000,
+    "sellPrice": 700,
+    "consumable": false,
+    "requiredLevel": 20,
+    "type": "Amulet",
+    "maxStack": 1,
+    "tier": 6,
+    "data": [
+      {
+        "sprite": {
+          "name": "Amulets 6",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 29,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 3600,
+          "requiredItems": [
+            {
+              "name": "Enriched Amber",
+              "count": 5,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Enriched Obsidian",
+              "count": 5,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Void Shard Catalyst",
+              "count": 1,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 3000,
+          "craftNowCost": 90,
+          "craftingStat": "_Unknown",
+          "craftingCategory": "T6_Void"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "HealthMax",
+        "equation": "[HealthMax]+[$Tier]*20+[$Item_Level]*4",
+        "value": 0
+      },
+      {
+        "key": "Potency",
+        "equation": "[Potency]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Endurance",
+        "equation": "[Endurance]+[$Tier]*10+[$Item_Level]*2",
+        "value": 0
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0,
+      101000,
+      220000
+    ],
+    "class": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "bonusDismantleLoot": "DismantleStandardT6",
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05
+  }
+]

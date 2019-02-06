@@ -1,1 +1,407 @@
-[{"name":"Fractal Obsidian","alias":"Fractal Obsidian 2","description":"Enemies hit by a Geomancer's turret do #% of the turrets damage to all nearby enemies","doNotAward":false,"data":[{"proc":{"name":"Fractal Obsidian 2","description":"Enemies hit by a Geomancer's turret do X% of the turrets damage to all nearby enemies","counterMax":0,"timerValue":0,"statusEffect":{"name":"Fractal Obsidian","type":"ImmediateDamage","duration":3,"stats":[{"key":"DamageBonus","equation":"[Proc.Counter]*[Proc.Benefit]/100","value":0}],"isBuff":true,"removeOnAttack":false,"coolDownTime":3,"noTimeOut":false},"projectileDamageMultiplier":1,"useAncestralBenefitForDamage":false,"triggers":[{"trigger":"SpecialWeaponHit","chance":1,"chanceSource":"ChanceValue","action":"SetCounterToValue"},{"trigger":"SpecialWeaponHit","chance":1,"chanceSource":"ChanceValue","action":"ApplyStatusEffectToEnemiesNearTarget"}]}}],"validClasses":["Geomancer"],"rarity":"Uncommon","stats":[{"key":"Benefit","equation":"2+([AncestralData.Ancestral_Level]*0.16)","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Geomancer","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Turret","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Two_Skulls","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Damage Bonus","alias":"Damage Bonus Set","sprite":"AL_icon_percentage plus"},{"name":"Geomancer","alias":"Geomancer Set","sprite":"AL_icon_ Geomancer"}],"blockedBy":["Fractal Obsidian 2","Fractal Obsidian 3","Fractal Obsidian 4"]},{"name":"Fractal Obsidian","alias":"Fractal Obsidian 3","description":"Enemies hit by a Geomancer's turret do #% of the turrets damage to all nearby enemies","doNotAward":false,"data":[{"proc":{"name":"Fractal Obsidian 3","description":"Enemies hit by a Geomancer's turret do X% of the turrets damage to all nearby enemies","counterMax":0,"timerValue":0,"statusEffect":{"name":"Fractal Obsidian","type":"ImmediateDamage","duration":3,"stats":[{"key":"DamageBonus","equation":"[Proc.Counter]*[Proc.Benefit]/100","value":0}],"isBuff":true,"removeOnAttack":false,"coolDownTime":3,"noTimeOut":false},"projectileDamageMultiplier":1,"useAncestralBenefitForDamage":false,"triggers":[{"trigger":"SpecialWeaponHit","chance":1,"chanceSource":"ChanceValue","action":"SetCounterToValue"},{"trigger":"SpecialWeaponHit","chance":1,"chanceSource":"ChanceValue","action":"ApplyStatusEffectToEnemiesNearTarget"}]}}],"validClasses":["Geomancer"],"rarity":"Rare","stats":[{"key":"Benefit","equation":"3+([AncestralData.Ancestral_Level]*0.24)","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Geomancer","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Turret","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Two_Skulls","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Damage Bonus","alias":"Damage Bonus Set","sprite":"AL_icon_percentage plus"},{"name":"Geomancer","alias":"Geomancer Set","sprite":"AL_icon_ Geomancer"}],"blockedBy":["Fractal Obsidian 2","Fractal Obsidian 3","Fractal Obsidian 4"]},{"name":"Fractal Obsidian","alias":"Fractal Obsidian 4","description":"Enemies hit by a Geomancer's turret do #% of the turrets damage to all nearby enemies","doNotAward":false,"data":[{"proc":{"name":"Fractal Obsidian 4","description":"Enemies hit by a Geomancer's turret do X% of the turrets damage to all nearby enemies","counterMax":0,"timerValue":0,"statusEffect":{"name":"Fractal Obsidian","type":"ImmediateDamage","duration":3,"stats":[{"key":"DamageBonus","equation":"[Proc.Counter]*[Proc.Benefit]/100","value":0}],"isBuff":true,"removeOnAttack":false,"coolDownTime":3,"noTimeOut":false},"projectileDamageMultiplier":1,"useAncestralBenefitForDamage":false,"triggers":[{"trigger":"SpecialWeaponHit","chance":1,"chanceSource":"ChanceValue","action":"SetCounterToValue"},{"trigger":"SpecialWeaponHit","chance":1,"chanceSource":"ChanceValue","action":"ApplyStatusEffectToEnemiesNearTarget"}]}}],"validClasses":["Geomancer"],"rarity":"Legendary","stats":[{"key":"Benefit","equation":"5+([AncestralData.Ancestral_Level]*0.5)","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Geomancer","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Turret","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Two_Skulls","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Damage Bonus","alias":"Damage Bonus Set","sprite":"AL_icon_percentage plus"},{"name":"Geomancer","alias":"Geomancer Set","sprite":"AL_icon_ Geomancer"}],"blockedBy":["Fractal Obsidian 2","Fractal Obsidian 3","Fractal Obsidian 4"]}]
+[
+  {
+    "name": "Fractal Obsidian",
+    "alias": "Fractal Obsidian 2",
+    "description": "Enemies hit by a Geomancer's turret do #% of the turrets damage to all nearby enemies",
+    "doNotAward": false,
+    "data": [
+      {
+        "proc": {
+          "name": "Fractal Obsidian 2",
+          "description": "Enemies hit by a Geomancer's turret do X% of the turrets damage to all nearby enemies",
+          "counterMax": 0,
+          "timerValue": 0,
+          "statusEffect": {
+            "name": "Fractal Obsidian",
+            "type": "ImmediateDamage",
+            "duration": 3,
+            "stats": [
+              {
+                "key": "DamageBonus",
+                "equation": "[Proc.Counter]*[Proc.Benefit]/100",
+                "value": 0
+              }
+            ],
+            "isBuff": true,
+            "removeOnAttack": false,
+            "coolDownTime": 3,
+            "noTimeOut": false
+          },
+          "projectileDamageMultiplier": 1,
+          "useAncestralBenefitForDamage": false,
+          "triggers": [
+            {
+              "trigger": "SpecialWeaponHit",
+              "chance": 1,
+              "chanceSource": "ChanceValue",
+              "action": "SetCounterToValue"
+            },
+            {
+              "trigger": "SpecialWeaponHit",
+              "chance": 1,
+              "chanceSource": "ChanceValue",
+              "action": "ApplyStatusEffectToEnemiesNearTarget"
+            }
+          ]
+        }
+      }
+    ],
+    "validClasses": [
+      "Geomancer"
+    ],
+    "rarity": "Uncommon",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "2+([AncestralData.Ancestral_Level]*0.16)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Geomancer",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Turret",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Two_Skulls",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Damage Bonus",
+        "alias": "Damage Bonus Set",
+        "sprite": "AL_icon_percentage plus"
+      },
+      {
+        "name": "Geomancer",
+        "alias": "Geomancer Set",
+        "sprite": "AL_icon_ Geomancer"
+      }
+    ],
+    "blockedBy": [
+      "Fractal Obsidian 2",
+      "Fractal Obsidian 3",
+      "Fractal Obsidian 4"
+    ]
+  },
+  {
+    "name": "Fractal Obsidian",
+    "alias": "Fractal Obsidian 3",
+    "description": "Enemies hit by a Geomancer's turret do #% of the turrets damage to all nearby enemies",
+    "doNotAward": false,
+    "data": [
+      {
+        "proc": {
+          "name": "Fractal Obsidian 3",
+          "description": "Enemies hit by a Geomancer's turret do X% of the turrets damage to all nearby enemies",
+          "counterMax": 0,
+          "timerValue": 0,
+          "statusEffect": {
+            "name": "Fractal Obsidian",
+            "type": "ImmediateDamage",
+            "duration": 3,
+            "stats": [
+              {
+                "key": "DamageBonus",
+                "equation": "[Proc.Counter]*[Proc.Benefit]/100",
+                "value": 0
+              }
+            ],
+            "isBuff": true,
+            "removeOnAttack": false,
+            "coolDownTime": 3,
+            "noTimeOut": false
+          },
+          "projectileDamageMultiplier": 1,
+          "useAncestralBenefitForDamage": false,
+          "triggers": [
+            {
+              "trigger": "SpecialWeaponHit",
+              "chance": 1,
+              "chanceSource": "ChanceValue",
+              "action": "SetCounterToValue"
+            },
+            {
+              "trigger": "SpecialWeaponHit",
+              "chance": 1,
+              "chanceSource": "ChanceValue",
+              "action": "ApplyStatusEffectToEnemiesNearTarget"
+            }
+          ]
+        }
+      }
+    ],
+    "validClasses": [
+      "Geomancer"
+    ],
+    "rarity": "Rare",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "3+([AncestralData.Ancestral_Level]*0.24)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Geomancer",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Turret",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Two_Skulls",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Damage Bonus",
+        "alias": "Damage Bonus Set",
+        "sprite": "AL_icon_percentage plus"
+      },
+      {
+        "name": "Geomancer",
+        "alias": "Geomancer Set",
+        "sprite": "AL_icon_ Geomancer"
+      }
+    ],
+    "blockedBy": [
+      "Fractal Obsidian 2",
+      "Fractal Obsidian 3",
+      "Fractal Obsidian 4"
+    ]
+  },
+  {
+    "name": "Fractal Obsidian",
+    "alias": "Fractal Obsidian 4",
+    "description": "Enemies hit by a Geomancer's turret do #% of the turrets damage to all nearby enemies",
+    "doNotAward": false,
+    "data": [
+      {
+        "proc": {
+          "name": "Fractal Obsidian 4",
+          "description": "Enemies hit by a Geomancer's turret do X% of the turrets damage to all nearby enemies",
+          "counterMax": 0,
+          "timerValue": 0,
+          "statusEffect": {
+            "name": "Fractal Obsidian",
+            "type": "ImmediateDamage",
+            "duration": 3,
+            "stats": [
+              {
+                "key": "DamageBonus",
+                "equation": "[Proc.Counter]*[Proc.Benefit]/100",
+                "value": 0
+              }
+            ],
+            "isBuff": true,
+            "removeOnAttack": false,
+            "coolDownTime": 3,
+            "noTimeOut": false
+          },
+          "projectileDamageMultiplier": 1,
+          "useAncestralBenefitForDamage": false,
+          "triggers": [
+            {
+              "trigger": "SpecialWeaponHit",
+              "chance": 1,
+              "chanceSource": "ChanceValue",
+              "action": "SetCounterToValue"
+            },
+            {
+              "trigger": "SpecialWeaponHit",
+              "chance": 1,
+              "chanceSource": "ChanceValue",
+              "action": "ApplyStatusEffectToEnemiesNearTarget"
+            }
+          ]
+        }
+      }
+    ],
+    "validClasses": [
+      "Geomancer"
+    ],
+    "rarity": "Legendary",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "5+([AncestralData.Ancestral_Level]*0.5)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Geomancer",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Turret",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Two_Skulls",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Damage Bonus",
+        "alias": "Damage Bonus Set",
+        "sprite": "AL_icon_percentage plus"
+      },
+      {
+        "name": "Geomancer",
+        "alias": "Geomancer Set",
+        "sprite": "AL_icon_ Geomancer"
+      }
+    ],
+    "blockedBy": [
+      "Fractal Obsidian 2",
+      "Fractal Obsidian 3",
+      "Fractal Obsidian 4"
+    ]
+  }
+]

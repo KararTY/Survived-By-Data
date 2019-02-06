@@ -1,1 +1,57 @@
-[{"name":"Boots Heavy T7 v2","description":"[deprecated]","price":54,"sellPrice":27,"consumable":false,"requiredLevel":0,"type":"Boots","maxStack":1,"tier":7,"data":[{"sprite":{"name":"Boots Heavy 1","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":0,"width":31,"height":31},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":["Alchemist","Sentinel","Druid"],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"modifierChance":0.75}]
+[
+  {
+    "name": "Boots Heavy T7 v2",
+    "description": "[deprecated]",
+    "price": 54,
+    "sellPrice": 27,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Boots",
+    "maxStack": 1,
+    "tier": 7,
+    "data": [
+      {
+        "sprite": {
+          "name": "Boots Heavy 1",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 31,
+            "height": 31
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Alchemist",
+      "Sentinel",
+      "Druid"
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "modifierChance": 0.75
+  }
+]

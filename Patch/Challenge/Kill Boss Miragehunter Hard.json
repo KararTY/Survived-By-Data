@@ -1,1 +1,19 @@
-[{"name":"Kill Boss Miragehunter Hard","title":"Kill Mirage Hunter (Hard)","description":"Kill Mirage Hunter (Hard)","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Miragehunter Hard"}}}]}]
+[
+  {
+    "name": "Kill Boss Miragehunter Hard",
+    "title": "Kill Mirage Hunter (Hard)",
+    "description": "Kill Mirage Hunter (Hard)",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Miragehunter Hard"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,1 +1,87 @@
-{"name":"Attribute","alias":"Attribute Set","setBonuses":[{"name":"Attribute Bonus1","description":"Increase all Attributes by 5%","requiredAmount":2,"stats":[{"key":"AddPotency","equation":"[AddPotency]+0.05","value":0},{"key":"AddEndurance","equation":"[AddEndurance]+0.05","value":0},{"key":"AddFocus","equation":"[AddFocus]+0.05","value":0},{"key":"AddWillpower","equation":"[AddWillpower]+0.05","value":0},{"key":"AddSwiftness","equation":"[AddSwiftness]+0.05","value":0}]},{"name":"Attribute Bonus2","description":"Increase all Attributes by 10%","requiredAmount":3,"stats":[{"key":"AddPotency","equation":"[AddPotency]+0.1","value":0},{"key":"AddEndurance","equation":"[AddEndurance]+0.1","value":0},{"key":"AddFocus","equation":"[AddFocus]+0.1","value":0},{"key":"AddWillpower","equation":"[AddWillpower]+0.1","value":0},{"key":"AddSwiftness","equation":"[AddSwiftness]+0.1","value":0}]}],"sprite":{"name":"AL_icon_peace","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}
+{
+  "name": "Attribute",
+  "alias": "Attribute Set",
+  "setBonuses": [
+    {
+      "name": "Attribute Bonus1",
+      "description": "Increase all Attributes by 5%",
+      "requiredAmount": 2,
+      "stats": [
+        {
+          "key": "AddPotency",
+          "equation": "[AddPotency]+0.05",
+          "value": 0
+        },
+        {
+          "key": "AddEndurance",
+          "equation": "[AddEndurance]+0.05",
+          "value": 0
+        },
+        {
+          "key": "AddFocus",
+          "equation": "[AddFocus]+0.05",
+          "value": 0
+        },
+        {
+          "key": "AddWillpower",
+          "equation": "[AddWillpower]+0.05",
+          "value": 0
+        },
+        {
+          "key": "AddSwiftness",
+          "equation": "[AddSwiftness]+0.05",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Attribute Bonus2",
+      "description": "Increase all Attributes by 10%",
+      "requiredAmount": 3,
+      "stats": [
+        {
+          "key": "AddPotency",
+          "equation": "[AddPotency]+0.1",
+          "value": 0
+        },
+        {
+          "key": "AddEndurance",
+          "equation": "[AddEndurance]+0.1",
+          "value": 0
+        },
+        {
+          "key": "AddFocus",
+          "equation": "[AddFocus]+0.1",
+          "value": 0
+        },
+        {
+          "key": "AddWillpower",
+          "equation": "[AddWillpower]+0.1",
+          "value": 0
+        },
+        {
+          "key": "AddSwiftness",
+          "equation": "[AddSwiftness]+0.1",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "sprite": {
+    "name": "AL_icon_peace",
+    "baseSize": {
+      "width": 22,
+      "height": 22
+    },
+    "textureRectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 22,
+      "height": 22
+    },
+    "textureOffset": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}

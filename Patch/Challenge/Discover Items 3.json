@@ -1,1 +1,25 @@
-[{"name":"Discover Items 3","title":"Discover Gear (III)","description":"Discover {0} items","challengeValueSuffix":"Items","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Gear (II)","Discover Items 2"]],"data":[{"loot":{"lootTable":{"name":"Discover Items 3"}}}]}]
+[
+  {
+    "name": "Discover Items 3",
+    "title": "Discover Gear (III)",
+    "description": "Discover {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Gear (II)",
+        "Discover Items 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Items 3"
+          }
+        }
+      }
+    ]
+  }
+]

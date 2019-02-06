@@ -1,1 +1,9 @@
-[{"from":"monster_anima_darkT3","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"DeepNightRareLoot T3"}]
+[
+  {
+    "from": "monster_anima_darkT3",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "DeepNightRareLoot T3"
+  }
+]

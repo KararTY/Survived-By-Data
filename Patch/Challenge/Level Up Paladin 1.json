@@ -1,1 +1,19 @@
-[{"name":"Level Up Paladin 1","title":"Level Sentinel (I)","description":"Reach level {0} with Sentinel","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"data":[{"loot":{"lootTable":{"name":"Level Up Paladin 1"}}}]}]
+[
+  {
+    "name": "Level Up Paladin 1",
+    "title": "Level Sentinel (I)",
+    "description": "Reach level {0} with Sentinel",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Paladin 1"
+          }
+        }
+      }
+    ]
+  }
+]

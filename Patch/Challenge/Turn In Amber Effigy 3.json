@@ -1,1 +1,25 @@
-[{"name":"Turn In Amber Effigy 3","title":"Turn in Amber Effigy (III)","description":"Turn in {0} Amber Effigies","challengeValueSuffix":"Amber Effigies","challengeType":"_Unknown","achievement":true,"prerequisites":[["Turn in Amber Effigy (II)","Turn In Amber Effigy 2"]],"data":[{"loot":{"lootTable":{"name":"Turn In Amber Effigy 3"}}}]}]
+[
+  {
+    "name": "Turn In Amber Effigy 3",
+    "title": "Turn in Amber Effigy (III)",
+    "description": "Turn in {0} Amber Effigies",
+    "challengeValueSuffix": "Amber Effigies",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Turn in Amber Effigy (II)",
+        "Turn In Amber Effigy 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Turn In Amber Effigy 3"
+          }
+        }
+      }
+    ]
+  }
+]

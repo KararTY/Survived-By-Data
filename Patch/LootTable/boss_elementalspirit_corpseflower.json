@@ -1,1 +1,8 @@
-[{"from":"boss_elementalspirit_corpseflower","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[]}]
+[
+  {
+    "from": "boss_elementalspirit_corpseflower",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": []
+  }
+]

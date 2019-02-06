@@ -1,1 +1,75 @@
-[{"name":"Metal","alias":"Crafting Material Core Metal T3","description":"Durable but heavy, Metal is smelted from shattered Quartz.","price":20,"sellPrice":2,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":99,"tier":3,"data":[{"sprite":{"name":"Crafting Metal","baseSize":{"width":32,"height":32},"textureRectangle":{"x":0,"y":1,"width":32,"height":29},"textureOffset":{"x":0,"y":1},"color":{"r":1,"g":1,"b":1,"a":1}}},{"crafting":{"craftingTime":40,"requiredItems":[{"name":"Quartz","count":5,"requiredLevel":0}],"craftCost":20,"craftNowCost":3,"craftingStat":"_Unknown","craftingCategory":"T3_Jet"}}],"experiencePerLevel":[0],"class":[],"bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":0,"insureCost":0,"currency":"Gold","modifierChance":0.05,"craftingRarity":[0.4,"Core"]}]
+[
+  {
+    "name": "Metal",
+    "alias": "Crafting Material Core Metal T3",
+    "description": "Durable but heavy, Metal is smelted from shattered Quartz.",
+    "price": 20,
+    "sellPrice": 2,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 99,
+    "tier": 3,
+    "data": [
+      {
+        "sprite": {
+          "name": "Crafting Metal",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 1,
+            "width": 32,
+            "height": 29
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 40,
+          "requiredItems": [
+            {
+              "name": "Quartz",
+              "count": 5,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 20,
+          "craftNowCost": 3,
+          "craftingStat": "_Unknown",
+          "craftingCategory": "T3_Jet"
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "currency": "Gold",
+    "modifierChance": 0.05,
+    "craftingRarity": [
+      0.4,
+      "Core"
+    ]
+  }
+]

@@ -1,1 +1,9 @@
-[{"from":"Activate Altars 4","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"Challenge4"}]
+[
+  {
+    "from": "Activate Altars 4",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "Challenge4"
+  }
+]

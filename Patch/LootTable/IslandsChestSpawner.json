@@ -1,1 +1,9 @@
-[{"from":"IslandsChestSpawner","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"DangerousLoot T6"}]
+[
+  {
+    "from": "IslandsChestSpawner",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "DangerousLoot T6"
+  }
+]

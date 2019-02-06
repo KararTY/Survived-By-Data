@@ -1,1 +1,404 @@
-[{"name":"Unbreakable Aura","alias":"Unbreakable Aura 2","description":"There is a #% chance that a projectile blocked by the Sentinel aura will not cost Energy","doNotAward":false,"data":[{"proc":{"name":"Unbreakable Aura 2","description":"There is a X% chance that a projectile blocked by the Sentinel aura will not cost Energy","counterMax":0,"timerValue":0,"statusEffect":{"name":"Unbreakable Aura","type":"Permanent","duration":3,"stats":[{"key":"Mana","equation":"[Mana]+[SpecialWeaponRageCost]","value":0},{"key":"Tier","equation":"","value":0}],"isBuff":true,"removeOnAttack":false,"coolDownTime":0,"noTimeOut":false},"projectileDamageMultiplier":1,"useAncestralBenefitForDamage":false,"triggers":[{"trigger":"AuraBlockedProjectile","chance":1,"chanceSource":"Benefit","action":"ApplyStatusEffect"}]}}],"validClasses":["Sentinel"],"rarity":"Uncommon","stats":[{"key":"Benefit","equation":"2+([AncestralData.Ancestral_Level]*0.16)","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Sentinel","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Glowing circle","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Icon_Energy","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Sentinel","alias":"Sentinel Set","sprite":"AL_icon_ Sentinel"},{"name":"Energy","alias":"Energy Set","sprite":"AL_Icon_Energy"}],"blockedBy":["Unbreakable Aura 2","Unbreakable Aura 3","Unbreakable Aura 4"]},{"name":"Unbreakable Aura","alias":"Unbreakable Aura 3","description":"There is a #% chance that a projectile blocked by the Sentinel aura will not cost Energy","doNotAward":false,"data":[{"proc":{"name":"Unbreakable Aura 3","description":"There is a X% chance that a projectile blocked by the Sentinel aura will not cost Energy","counterMax":0,"timerValue":0,"statusEffect":{"name":"Unbreakable Aura","type":"Permanent","duration":3,"stats":[{"key":"Mana","equation":"[Mana]+[SpecialWeaponRageCost]","value":0},{"key":"Tier","equation":"","value":0}],"isBuff":true,"removeOnAttack":false,"coolDownTime":0,"noTimeOut":false},"projectileDamageMultiplier":1,"useAncestralBenefitForDamage":false,"triggers":[{"trigger":"AuraBlockedProjectile","chance":1,"chanceSource":"Benefit","action":"ApplyStatusEffect"}]}}],"validClasses":["Sentinel"],"rarity":"Rare","stats":[{"key":"Benefit","equation":"5+([AncestralData.Ancestral_Level]*0.4)","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Sentinel","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Glowing circle","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Icon_Energy","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Sentinel","alias":"Sentinel Set","sprite":"AL_icon_ Sentinel"},{"name":"Energy","alias":"Energy Set","sprite":"AL_Icon_Energy"}],"blockedBy":["Unbreakable Aura 2","Unbreakable Aura 3","Unbreakable Aura 4"]},{"name":"Unbreakable Aura","alias":"Unbreakable Aura 4","description":"There is a #% chance that a projectile blocked by the Sentinel aura will not cost Energy","doNotAward":false,"data":[{"proc":{"name":"Unbreakable Aura 4","description":"There is a X% chance that a projectile blocked by the Sentinel aura will not cost Energy","counterMax":0,"timerValue":0,"statusEffect":{"name":"Unbreakable Aura","type":"Permanent","duration":3,"stats":[{"key":"Mana","equation":"[Mana]+[SpecialWeaponRageCost]","value":0},{"key":"Tier","equation":"","value":0}],"isBuff":true,"removeOnAttack":false,"coolDownTime":0,"noTimeOut":false},"projectileDamageMultiplier":1,"useAncestralBenefitForDamage":false,"triggers":[{"trigger":"AuraBlockedProjectile","chance":1,"chanceSource":"Benefit","action":"ApplyStatusEffect"}]}}],"validClasses":["Sentinel"],"rarity":"Legendary","stats":[{"key":"Benefit","equation":"10+([AncestralData.Ancestral_Level]*0.8)","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Sentinel","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Glowing circle","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Icon_Energy","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Sentinel","alias":"Sentinel Set","sprite":"AL_icon_ Sentinel"},{"name":"Energy","alias":"Energy Set","sprite":"AL_Icon_Energy"}],"blockedBy":["Unbreakable Aura 2","Unbreakable Aura 3","Unbreakable Aura 4"]}]
+[
+  {
+    "name": "Unbreakable Aura",
+    "alias": "Unbreakable Aura 2",
+    "description": "There is a #% chance that a projectile blocked by the Sentinel aura will not cost Energy",
+    "doNotAward": false,
+    "data": [
+      {
+        "proc": {
+          "name": "Unbreakable Aura 2",
+          "description": "There is a X% chance that a projectile blocked by the Sentinel aura will not cost Energy",
+          "counterMax": 0,
+          "timerValue": 0,
+          "statusEffect": {
+            "name": "Unbreakable Aura",
+            "type": "Permanent",
+            "duration": 3,
+            "stats": [
+              {
+                "key": "Mana",
+                "equation": "[Mana]+[SpecialWeaponRageCost]",
+                "value": 0
+              },
+              {
+                "key": "Tier",
+                "equation": "",
+                "value": 0
+              }
+            ],
+            "isBuff": true,
+            "removeOnAttack": false,
+            "coolDownTime": 0,
+            "noTimeOut": false
+          },
+          "projectileDamageMultiplier": 1,
+          "useAncestralBenefitForDamage": false,
+          "triggers": [
+            {
+              "trigger": "AuraBlockedProjectile",
+              "chance": 1,
+              "chanceSource": "Benefit",
+              "action": "ApplyStatusEffect"
+            }
+          ]
+        }
+      }
+    ],
+    "validClasses": [
+      "Sentinel"
+    ],
+    "rarity": "Uncommon",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "2+([AncestralData.Ancestral_Level]*0.16)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Sentinel",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Glowing circle",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Icon_Energy",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Sentinel",
+        "alias": "Sentinel Set",
+        "sprite": "AL_icon_ Sentinel"
+      },
+      {
+        "name": "Energy",
+        "alias": "Energy Set",
+        "sprite": "AL_Icon_Energy"
+      }
+    ],
+    "blockedBy": [
+      "Unbreakable Aura 2",
+      "Unbreakable Aura 3",
+      "Unbreakable Aura 4"
+    ]
+  },
+  {
+    "name": "Unbreakable Aura",
+    "alias": "Unbreakable Aura 3",
+    "description": "There is a #% chance that a projectile blocked by the Sentinel aura will not cost Energy",
+    "doNotAward": false,
+    "data": [
+      {
+        "proc": {
+          "name": "Unbreakable Aura 3",
+          "description": "There is a X% chance that a projectile blocked by the Sentinel aura will not cost Energy",
+          "counterMax": 0,
+          "timerValue": 0,
+          "statusEffect": {
+            "name": "Unbreakable Aura",
+            "type": "Permanent",
+            "duration": 3,
+            "stats": [
+              {
+                "key": "Mana",
+                "equation": "[Mana]+[SpecialWeaponRageCost]",
+                "value": 0
+              },
+              {
+                "key": "Tier",
+                "equation": "",
+                "value": 0
+              }
+            ],
+            "isBuff": true,
+            "removeOnAttack": false,
+            "coolDownTime": 0,
+            "noTimeOut": false
+          },
+          "projectileDamageMultiplier": 1,
+          "useAncestralBenefitForDamage": false,
+          "triggers": [
+            {
+              "trigger": "AuraBlockedProjectile",
+              "chance": 1,
+              "chanceSource": "Benefit",
+              "action": "ApplyStatusEffect"
+            }
+          ]
+        }
+      }
+    ],
+    "validClasses": [
+      "Sentinel"
+    ],
+    "rarity": "Rare",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "5+([AncestralData.Ancestral_Level]*0.4)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Sentinel",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Glowing circle",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Icon_Energy",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Sentinel",
+        "alias": "Sentinel Set",
+        "sprite": "AL_icon_ Sentinel"
+      },
+      {
+        "name": "Energy",
+        "alias": "Energy Set",
+        "sprite": "AL_Icon_Energy"
+      }
+    ],
+    "blockedBy": [
+      "Unbreakable Aura 2",
+      "Unbreakable Aura 3",
+      "Unbreakable Aura 4"
+    ]
+  },
+  {
+    "name": "Unbreakable Aura",
+    "alias": "Unbreakable Aura 4",
+    "description": "There is a #% chance that a projectile blocked by the Sentinel aura will not cost Energy",
+    "doNotAward": false,
+    "data": [
+      {
+        "proc": {
+          "name": "Unbreakable Aura 4",
+          "description": "There is a X% chance that a projectile blocked by the Sentinel aura will not cost Energy",
+          "counterMax": 0,
+          "timerValue": 0,
+          "statusEffect": {
+            "name": "Unbreakable Aura",
+            "type": "Permanent",
+            "duration": 3,
+            "stats": [
+              {
+                "key": "Mana",
+                "equation": "[Mana]+[SpecialWeaponRageCost]",
+                "value": 0
+              },
+              {
+                "key": "Tier",
+                "equation": "",
+                "value": 0
+              }
+            ],
+            "isBuff": true,
+            "removeOnAttack": false,
+            "coolDownTime": 0,
+            "noTimeOut": false
+          },
+          "projectileDamageMultiplier": 1,
+          "useAncestralBenefitForDamage": false,
+          "triggers": [
+            {
+              "trigger": "AuraBlockedProjectile",
+              "chance": 1,
+              "chanceSource": "Benefit",
+              "action": "ApplyStatusEffect"
+            }
+          ]
+        }
+      }
+    ],
+    "validClasses": [
+      "Sentinel"
+    ],
+    "rarity": "Legendary",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "10+([AncestralData.Ancestral_Level]*0.8)",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Sentinel",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Glowing circle",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Icon_Energy",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Sentinel",
+        "alias": "Sentinel Set",
+        "sprite": "AL_icon_ Sentinel"
+      },
+      {
+        "name": "Energy",
+        "alias": "Energy Set",
+        "sprite": "AL_Icon_Energy"
+      }
+    ],
+    "blockedBy": [
+      "Unbreakable Aura 2",
+      "Unbreakable Aura 3",
+      "Unbreakable Aura 4"
+    ]
+  }
+]

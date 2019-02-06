@@ -1,1 +1,25 @@
-[{"name":"Level Up Rogue 4","title":"Level Infiltrator (IV)","description":"Reach level {0} with Infiltrator","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"prerequisites":[["Level Infiltrator (III)","Level Up Rogue 3"]],"data":[{"loot":{"lootTable":{"name":"Level Up Rogue 4"}}}]}]
+[
+  {
+    "name": "Level Up Rogue 4",
+    "title": "Level Infiltrator (IV)",
+    "description": "Reach level {0} with Infiltrator",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Infiltrator (III)",
+        "Level Up Rogue 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Rogue 4"
+          }
+        }
+      }
+    ]
+  }
+]

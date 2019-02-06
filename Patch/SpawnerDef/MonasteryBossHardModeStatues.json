@@ -1,1 +1,30 @@
-[{"name":"MonasteryBossHardModeStatues","biome":"DungeonMonasteryHardBoss","difficulty":{"min":0,"max":1},"spawnRadius":0.1,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":true,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Gorgon Statue","monsterAlias":"boss_gorgon_statue_hardmode","spawnChance":0,"spawnQuota":1,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "MonasteryBossHardModeStatues",
+    "biome": "DungeonMonasteryHardBoss",
+    "difficulty": {
+      "min": 0,
+      "max": 1
+    },
+    "spawnRadius": 0.1,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": true,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Gorgon Statue",
+        "monsterAlias": "boss_gorgon_statue_hardmode",
+        "spawnChance": 0,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

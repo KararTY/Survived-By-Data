@@ -1,1 +1,19 @@
-[{"name":"Defeat Dark Persona","title":"Kill Dark Persona","description":"Kill Dark Persona","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Defeat Dark Persona"}}}]}]
+[
+  {
+    "name": "Defeat Dark Persona",
+    "title": "Kill Dark Persona",
+    "description": "Kill Dark Persona",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Defeat Dark Persona"
+          }
+        }
+      }
+    ]
+  }
+]

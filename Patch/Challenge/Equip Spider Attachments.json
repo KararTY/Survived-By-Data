@@ -1,1 +1,19 @@
-[{"name":"Equip Spider Attachments","title":"Equip Spider Attachments","description":"Equip all three Spider attachments at once ","challengeValueSuffix":"Equipped Attachments","challengeType":"Willpower","achievement":true,"data":[{"loot":{"lootTable":{"name":"Equip Spider Attachments"}}}]}]
+[
+  {
+    "name": "Equip Spider Attachments",
+    "title": "Equip Spider Attachments",
+    "description": "Equip all three Spider attachments at once ",
+    "challengeValueSuffix": "Equipped Attachments",
+    "challengeType": "Willpower",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Equip Spider Attachments"
+          }
+        }
+      }
+    ]
+  }
+]

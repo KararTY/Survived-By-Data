@@ -1,1 +1,29 @@
-[{"from":"Level Up Druid 5","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Elite Ancestral Legacy","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false},{"item":"Shaper of Spirits","count":{"dice":0,"faces":0,"add":1},"chance":100,"allowModifiers":false}]}]
+[
+  {
+    "from": "Level Up Druid 5",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Elite Ancestral Legacy",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      },
+      {
+        "item": "Shaper of Spirits",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ]
+  }
+]

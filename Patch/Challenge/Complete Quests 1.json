@@ -1,1 +1,36 @@
-[{"name":"Complete Quests 1","title":"Complete Quests","description":"Complete {0} quests","challengeValueSuffix":"Quests","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Complete Quests 1"}}}]},{"name":"Complete Quests 1","title":"Complete Quests (I)","description":"Complete {0} quests","challengeValueSuffix":"Quests","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Complete Quests 1"}}}]}]
+[
+  {
+    "name": "Complete Quests 1",
+    "title": "Complete Quests",
+    "description": "Complete {0} quests",
+    "challengeValueSuffix": "Quests",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Complete Quests 1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Complete Quests 1",
+    "title": "Complete Quests (I)",
+    "description": "Complete {0} quests",
+    "challengeValueSuffix": "Quests",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Complete Quests 1"
+          }
+        }
+      }
+    ]
+  }
+]

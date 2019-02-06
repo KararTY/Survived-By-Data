@@ -1,1 +1,25 @@
-[{"name":"Discover Monsters 7","title":"Discover Monsters (VII)","description":"Discover {0} monsters","challengeValueSuffix":"Monsters","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Monsters (VI)","Discover Monsters 6"]],"data":[{"loot":{"lootTable":{"name":"Discover Monsters 7"}}}]}]
+[
+  {
+    "name": "Discover Monsters 7",
+    "title": "Discover Monsters (VII)",
+    "description": "Discover {0} monsters",
+    "challengeValueSuffix": "Monsters",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Monsters (VI)",
+        "Discover Monsters 6"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Monsters 7"
+          }
+        }
+      }
+    ]
+  }
+]

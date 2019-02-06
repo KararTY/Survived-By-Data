@@ -1,1 +1,25 @@
-[{"name":"Kill Beast 3","title":"Kill Beasts (III)","description":"Kill {0} beasts","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Beasts (II)","Kill Beast 2"]],"data":[{"loot":{"lootTable":{"name":"Kill Beast 3"}}}]}]
+[
+  {
+    "name": "Kill Beast 3",
+    "title": "Kill Beasts (III)",
+    "description": "Kill {0} beasts",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Kill Beasts (II)",
+        "Kill Beast 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Beast 3"
+          }
+        }
+      }
+    ]
+  }
+]

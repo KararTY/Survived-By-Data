@@ -1,1 +1,44 @@
-[{"name":"IslandsEasyHardMode","biome":"DungeonIslandsHard","difficulty":{"min":0,"max":0.5},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Greater Snapping Turtle","monsterAlias":"monster_beast_turtlesnap_hardmode","spawnChance":0.8,"spawnQuota":2,"timeOfDay":"All"},{"monsterName":"Greater Piranha","monsterAlias":"monster_piranha_hardmode","spawnChance":0.75,"spawnQuota":4,"timeOfDay":"All"},{"monsterName":"Greater Water Cyclone","monsterAlias":"monster_spirit_cyclone_water_hardmode","spawnChance":0.5,"spawnQuota":1,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "IslandsEasyHardMode",
+    "biome": "DungeonIslandsHard",
+    "difficulty": {
+      "min": 0,
+      "max": 0.5
+    },
+    "spawnRadius": 16,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Greater Snapping Turtle",
+        "monsterAlias": "monster_beast_turtlesnap_hardmode",
+        "spawnChance": 0.8,
+        "spawnQuota": 2,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Piranha",
+        "monsterAlias": "monster_piranha_hardmode",
+        "spawnChance": 0.75,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Water Cyclone",
+        "monsterAlias": "monster_spirit_cyclone_water_hardmode",
+        "spawnChance": 0.5,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

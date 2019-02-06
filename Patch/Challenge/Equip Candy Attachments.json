@@ -1,1 +1,19 @@
-[{"name":"Equip Candy Attachments","title":"Equip Candy Attachments","description":"Equip all three Candy attachments at once ","challengeValueSuffix":"Equipped Attachments","challengeType":"Willpower","achievement":true,"data":[{"loot":{"lootTable":{"name":"Equip Candy Attachments"}}}]}]
+[
+  {
+    "name": "Equip Candy Attachments",
+    "title": "Equip Candy Attachments",
+    "description": "Equip all three Candy attachments at once ",
+    "challengeValueSuffix": "Equipped Attachments",
+    "challengeType": "Willpower",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Equip Candy Attachments"
+          }
+        }
+      }
+    ]
+  }
+]

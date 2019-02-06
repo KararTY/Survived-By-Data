@@ -1,1 +1,25 @@
-[{"name":"Discover Monsters 2","title":"Discover Monsters (II)","description":"Discover {0} monsters","challengeValueSuffix":"Monsters","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Monsters (I)","Discover Monsters 1"]],"data":[{"loot":{"lootTable":{"name":"Discover Monsters 2"}}}]}]
+[
+  {
+    "name": "Discover Monsters 2",
+    "title": "Discover Monsters (II)",
+    "description": "Discover {0} monsters",
+    "challengeValueSuffix": "Monsters",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Monsters (I)",
+        "Discover Monsters 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Monsters 2"
+          }
+        }
+      }
+    ]
+  }
+]

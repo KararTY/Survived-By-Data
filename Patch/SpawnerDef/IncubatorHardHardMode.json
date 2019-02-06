@@ -1,1 +1,51 @@
-[{"name":"IncubatorHardHardMode","biome":"DungeonIncubatorHard","difficulty":{"min":0.5,"max":1},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Greater Handler","monsterAlias":"monster_agent_loader_incubator_hardmode","spawnChance":0.6,"spawnQuota":5,"timeOfDay":"All"},{"monsterName":"Greater Processor","monsterAlias":"monster_agent_processor_hardmode","spawnChance":0.6,"spawnQuota":10,"timeOfDay":"All"},{"monsterName":"Greater Forge Defender","monsterAlias":"monster_agent_defender_incubator_hardmode","spawnChance":0.7,"spawnQuota":5,"timeOfDay":"All"},{"monsterName":"Greater Contaminated Guardian","monsterAlias":"monster_golem_incubator_hardmode","spawnChance":0.2,"spawnQuota":3,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "IncubatorHardHardMode",
+    "biome": "DungeonIncubatorHard",
+    "difficulty": {
+      "min": 0.5,
+      "max": 1
+    },
+    "spawnRadius": 16,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Greater Handler",
+        "monsterAlias": "monster_agent_loader_incubator_hardmode",
+        "spawnChance": 0.6,
+        "spawnQuota": 5,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Processor",
+        "monsterAlias": "monster_agent_processor_hardmode",
+        "spawnChance": 0.6,
+        "spawnQuota": 10,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Forge Defender",
+        "monsterAlias": "monster_agent_defender_incubator_hardmode",
+        "spawnChance": 0.7,
+        "spawnQuota": 5,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Contaminated Guardian",
+        "monsterAlias": "monster_golem_incubator_hardmode",
+        "spawnChance": 0.2,
+        "spawnQuota": 3,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

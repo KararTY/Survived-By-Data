@@ -1,1 +1,47 @@
-{"name":"Taking Damage","alias":"Taking Damage Set","setBonuses":[{"name":"Taking Damage Bonus1","description":"Increase the proc chance when taking damage by 5%","requiredAmount":2,"stats":[{"key":"DamageTakenProcChanceIncrease","equation":"[DamageTakenProcChanceIncrease]+0.05","value":0}]},{"name":"Taking Damage Bonus2","description":"Increase the proc chance when taking damage by 10%","requiredAmount":3,"stats":[{"key":"DamageTakenProcChanceIncrease","equation":"[DamageTakenProcChanceIncrease]+0.1","value":0}]}],"sprite":{"name":"AL_icon_percentage minus","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}
+{
+  "name": "Taking Damage",
+  "alias": "Taking Damage Set",
+  "setBonuses": [
+    {
+      "name": "Taking Damage Bonus1",
+      "description": "Increase the proc chance when taking damage by 5%",
+      "requiredAmount": 2,
+      "stats": [
+        {
+          "key": "DamageTakenProcChanceIncrease",
+          "equation": "[DamageTakenProcChanceIncrease]+0.05",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "Taking Damage Bonus2",
+      "description": "Increase the proc chance when taking damage by 10%",
+      "requiredAmount": 3,
+      "stats": [
+        {
+          "key": "DamageTakenProcChanceIncrease",
+          "equation": "[DamageTakenProcChanceIncrease]+0.1",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "sprite": {
+    "name": "AL_icon_percentage minus",
+    "baseSize": {
+      "width": 22,
+      "height": 22
+    },
+    "textureRectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 22,
+      "height": 22
+    },
+    "textureOffset": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}

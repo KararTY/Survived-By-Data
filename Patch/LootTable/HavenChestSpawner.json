@@ -1,1 +1,9 @@
-[{"from":"HavenChestSpawner","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"DangerousLoot T4"}]
+[
+  {
+    "from": "HavenChestSpawner",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "DangerousLoot T4"
+  }
+]

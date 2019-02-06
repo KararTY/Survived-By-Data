@@ -1,1 +1,47 @@
-[{"name":"QuadSpreadShot","alias":"Quad Spread Shot Imprint","description":"<description>","category":"Prefix","data":[{"nameMod":"QuadSpread {0}","expireTime":0,"chanceToApply":5,"minTier":0,"maxTier":100},{"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"type":["Weapon"],"stats":[{"key":"WeaponIndex","equation":"","value":4},{"key":"DamageBonus","equation":"[DamageBonus]*0.65","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]}]}]
+[
+  {
+    "name": "QuadSpreadShot",
+    "alias": "Quad Spread Shot Imprint",
+    "description": "<description>",
+    "category": "Prefix",
+    "data": [
+      {
+        "nameMod": "QuadSpread {0}",
+        "expireTime": 0,
+        "chanceToApply": 5,
+        "minTier": 0,
+        "maxTier": 100
+      },
+      {
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon"
+        ],
+        "stats": [
+          {
+            "key": "WeaponIndex",
+            "equation": "",
+            "value": 4
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "[DamageBonus]*0.65",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  }
+]

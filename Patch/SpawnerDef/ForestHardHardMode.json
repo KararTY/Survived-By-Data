@@ -1,1 +1,58 @@
-[{"name":"ForestHardHardMode","biome":"DungeonForestHard","difficulty":{"min":0.5,"max":1},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Greater Corpse Flower","monsterAlias":"plant_corpseflower_hardmode","spawnChance":0.8,"spawnQuota":12,"timeOfDay":"All"},{"monsterName":"Greater Ghost Light","monsterAlias":"monster_spirit_willowisp_small_hardmode","spawnChance":0.75,"spawnQuota":8,"timeOfDay":"All"},{"monsterName":"Greater Will-o'-the-Wisp","monsterAlias":"monster_spirit_willowisp_large_hardmode","spawnChance":0.75,"spawnQuota":4,"timeOfDay":"All"},{"monsterName":"Greater Verdant Guardian","monsterAlias":"monster_golem_forest_hardmode","spawnChance":0.75,"spawnQuota":2,"timeOfDay":"All"},{"monsterName":"Greater Dryad","monsterAlias":"monster_spirit_dryad_tree_hardmode","spawnChance":0.75,"spawnQuota":5,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "ForestHardHardMode",
+    "biome": "DungeonForestHard",
+    "difficulty": {
+      "min": 0.5,
+      "max": 1
+    },
+    "spawnRadius": 16,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Greater Corpse Flower",
+        "monsterAlias": "plant_corpseflower_hardmode",
+        "spawnChance": 0.8,
+        "spawnQuota": 12,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Ghost Light",
+        "monsterAlias": "monster_spirit_willowisp_small_hardmode",
+        "spawnChance": 0.75,
+        "spawnQuota": 8,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Will-o'-the-Wisp",
+        "monsterAlias": "monster_spirit_willowisp_large_hardmode",
+        "spawnChance": 0.75,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Verdant Guardian",
+        "monsterAlias": "monster_golem_forest_hardmode",
+        "spawnChance": 0.75,
+        "spawnQuota": 2,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Greater Dryad",
+        "monsterAlias": "monster_spirit_dryad_tree_hardmode",
+        "spawnChance": 0.75,
+        "spawnQuota": 5,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

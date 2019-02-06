@@ -1,1 +1,109 @@
-[{"name":"An Elemental Affinity Charm VII","alias":"ElementalAffinityAn Charm Lv7","description":"An, also known as Umbra, is the element of ice and shadow. It can decrease a target's damage output and the Fury are weak against it.\n\nFuse together 5 charms of the same level to obtain a charm of the next highest level.\n\nCharms can be placed into items with sockets, but the total level of all of the charms cannot exceed the level of the item.","price":0,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":50,"tier":0,"data":[{"sprite":{"name":"Charm_07","baseSize":{"width":26,"height":26},"textureRectangle":{"x":0,"y":0,"width":26,"height":26},"textureOffset":{"x":0,"y":0},"color":{"r":0.51,"g":0,"b":0.65,"a":1}}},{"socketableItem":{"craftTime":1500,"costToApply":700,"timeToFuse":300}}],"stats":[{"key":"Item_Level","equation":"","value":6},{"key":"Gear_Score","equation":"[$Tier]*100","value":0}],"experiencePerLevel":[0],"class":[],"modifiers":[{"expireTime":0,"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"type":["Weapon","Armor","Boots","Amulet","Ring"],"minTier":0,"maxTier":100,"chanceToApply":0,"stats":[{"key":"ElementalAffinityAn","equation":"[ElementalAffinityAn] + 21","value":0},{"key":"Gear_Score","equation":"[Gear_Score]*1.1","value":0}]}],"fusionUpgradeItem":"An Elemental Affinity Charm VIII","bound":{"account":false,"soul":false},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"modifierChance":0.75}]
+[
+  {
+    "name": "An Elemental Affinity Charm VII",
+    "alias": "ElementalAffinityAn Charm Lv7",
+    "description": "An, also known as Umbra, is the element of ice and shadow. It can decrease a target's damage output and the Fury are weak against it.\n\nFuse together 5 charms of the same level to obtain a charm of the next highest level.\n\nCharms can be placed into items with sockets, but the total level of all of the charms cannot exceed the level of the item.",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 50,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_07",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 0.51,
+            "g": 0,
+            "b": 0.65,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 1500,
+          "costToApply": 700,
+          "timeToFuse": 300
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 6
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "ElementalAffinityAn",
+            "equation": "[ElementalAffinityAn] + 21",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "fusionUpgradeItem": "An Elemental Affinity Charm VIII",
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "modifierChance": 0.75
+  }
+]

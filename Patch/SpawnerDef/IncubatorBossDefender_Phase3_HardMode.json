@@ -1,1 +1,30 @@
-[{"name":"IncubatorBossDefender_Phase3_HardMode","biome":"DungeonIncubatorHardBoss","difficulty":{"min":0,"max":1},"spawnRadius":3,"spawnDelayed":true,"quotaRadius":30,"rechargeTime":0,"isBoss":true,"autoPopulate":false,"manuallyPlaced":true,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Greater Royal Defender","monsterAlias":"boss_director_defender_hardmode","spawnChance":1,"spawnQuota":6,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "IncubatorBossDefender_Phase3_HardMode",
+    "biome": "DungeonIncubatorHardBoss",
+    "difficulty": {
+      "min": 0,
+      "max": 1
+    },
+    "spawnRadius": 3,
+    "spawnDelayed": true,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": true,
+    "autoPopulate": false,
+    "manuallyPlaced": true,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Greater Royal Defender",
+        "monsterAlias": "boss_director_defender_hardmode",
+        "spawnChance": 1,
+        "spawnQuota": 6,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

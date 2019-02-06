@@ -1,1 +1,19 @@
-[{"name":"Craft Gate Stone","title":"Craft a Gate Stone","description":"Craft a Gate Stone","challengeValueSuffix":"","challengeType":"_Unknown","achievement":true,"data":[{"loot":{"lootTable":{"name":"Craft Gate Stone"}}}]}]
+[
+  {
+    "name": "Craft Gate Stone",
+    "title": "Craft a Gate Stone",
+    "description": "Craft a Gate Stone",
+    "challengeValueSuffix": "",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Craft Gate Stone"
+          }
+        }
+      }
+    ]
+  }
+]

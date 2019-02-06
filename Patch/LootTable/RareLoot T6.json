@@ -1,1 +1,40 @@
-[{"from":"RareLoot T6","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Straits of the Deep Key","count":{"dice":0,"faces":0,"add":1},"chance":21,"allowModifiers":true},{"item":"Silver","count":{"dice":3,"faces":12,"add":15},"chance":100,"allowModifiers":true},{"item":"Blue Jade","count":{"dice":1,"faces":3,"add":0},"chance":5,"allowModifiers":true}],"reference":"CharmLoot T6"}]
+[
+  {
+    "from": "RareLoot T6",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Straits of the Deep Key",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 21,
+        "allowModifiers": true
+      },
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 3,
+          "faces": 12,
+          "add": 15
+        },
+        "chance": 100,
+        "allowModifiers": true
+      },
+      {
+        "item": "Blue Jade",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 0
+        },
+        "chance": 5,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CharmLoot T6"
+  }
+]

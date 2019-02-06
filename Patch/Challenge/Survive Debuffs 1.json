@@ -1,1 +1,19 @@
-[{"name":"Survive Debuffs 1","title":"Survive Debuffs (I)","description":"Survive {0} debuffs","challengeValueSuffix":"Debuffs","challengeType":"_Unknown","achievement":false,"data":[{"loot":{"lootTable":{"name":"Survive Debuffs 1"}}}]}]
+[
+  {
+    "name": "Survive Debuffs 1",
+    "title": "Survive Debuffs (I)",
+    "description": "Survive {0} debuffs",
+    "challengeValueSuffix": "Debuffs",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Survive Debuffs 1"
+          }
+        }
+      }
+    ]
+  }
+]

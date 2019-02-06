@@ -1,1 +1,25 @@
-[{"name":"Discover Legacies 4","title":"Discover Legacies (IV)","description":"Discover {0} legacies","challengeValueSuffix":"Legacies","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Legacies (III)","Discover Legacies 3"]],"data":[{"loot":{"lootTable":{"name":"Discover Legacies 4"}}}]}]
+[
+  {
+    "name": "Discover Legacies 4",
+    "title": "Discover Legacies (IV)",
+    "description": "Discover {0} legacies",
+    "challengeValueSuffix": "Legacies",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Legacies (III)",
+        "Discover Legacies 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Legacies 4"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,1 +1,19 @@
-[{"name":"Discover Legacies 1","title":"Discover Legacies (I)","description":"Discover {0} legacies","challengeValueSuffix":"Legacies","challengeType":"Endurance","achievement":true,"data":[{"loot":{"lootTable":{"name":"Discover Legacies 1"}}}]}]
+[
+  {
+    "name": "Discover Legacies 1",
+    "title": "Discover Legacies (I)",
+    "description": "Discover {0} legacies",
+    "challengeValueSuffix": "Legacies",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Legacies 1"
+          }
+        }
+      }
+    ]
+  }
+]

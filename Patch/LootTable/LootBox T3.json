@@ -1,1 +1,20 @@
-[{"from":"LootBox T3","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Bloodstone","count":{"dice":3,"faces":4,"add":3},"chance":100,"allowModifiers":true}],"reference":"RareLoot T3"}]
+[
+  {
+    "from": "LootBox T3",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Bloodstone",
+        "count": {
+          "dice": 3,
+          "faces": 4,
+          "add": 3
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "RareLoot T3"
+  }
+]

@@ -1,1 +1,19 @@
-[{"name":"Kill Boss Kraken","title":"Kill Kraken","description":"Kill Kraken","challengeValueSuffix":"","challengeType":"Potency","achievement":true,"data":[{"loot":{"lootTable":{"name":"Kill Boss Kraken"}}}]}]
+[
+  {
+    "name": "Kill Boss Kraken",
+    "title": "Kill Kraken",
+    "description": "Kill Kraken",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Kraken"
+          }
+        }
+      }
+    ]
+  }
+]

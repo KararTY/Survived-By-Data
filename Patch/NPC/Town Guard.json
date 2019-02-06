@@ -1,1 +1,838 @@
-[{"name":"Town Guard","alias":"InvasionTownGuardT5","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":36000},{"key":"DamageBonus","equation":"","value":225}]}]},{"name":"Town Guard","alias":"InvasionTownGuardT8","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":62000},{"key":"DamageBonus","equation":"","value":350}]}]},{"name":"Town Guard","alias":"TownGuard","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true,"bSkipWorld":true},{"stats":[{"key":"HealthMax","equation":"","value":500},{"key":"DamageBonus","equation":"","value":100}]}]},{"name":"Town Guard","alias":"HordeModeTownGuard","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true,"bSkipWorld":true},{"stats":[{"key":"HealthMax","equation":"","value":500},{"key":"DamageBonus","equation":"","value":5}]},{"dialogue":[{"name":"HordeModeTownGuard","message":"They're too powerful!"},{"name":"HordeModeTownGuard","message":"These aren't like the enemies of old."},{"name":"HordeModeTownGuard","message":"I need reinforcements!"},{"name":"HordeModeTownGuard","message":"Villagers retreat!"},{"name":"HordeModeTownGuard","message":"They're everywhere!"}]}]},{"name":"Town Guard","alias":"InvasionTownGuard","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":5000},{"key":"DamageBonus","equation":"","value":10}]}]},{"name":"Town Guard","alias":"InvasionTownGuardT7","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":50000},{"key":"DamageBonus","equation":"","value":300}]}]},{"name":"Town Guard","alias":"InvasionTownGuardT4","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":24000},{"key":"DamageBonus","equation":"","value":150}]}]},{"name":"Town Guard","alias":"InvasionTownGuardT3","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":14000},{"key":"DamageBonus","equation":"","value":80}]}]},{"name":"Town Guard","alias":"InvasionTownGuardT2","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":10000},{"key":"DamageBonus","equation":"","value":35}]}]},{"name":"Town Guard","alias":"InvasionTownGuardT6","category":"Guard","weapons":[{"name":"town_guard_projectile","data":[{"projectile":{"name":"town_guard_projectile","projectileName":"Projectile","speed":15,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":2,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"guard_01","baseSize":{"width":128,"height":128},"textureRectangle":{"x":0,"y":96,"width":32,"height":32},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true},{"stats":[{"key":"HealthMax","equation":"","value":48000},{"key":"DamageBonus","equation":"","value":275}]}]}]
+[
+  {
+    "name": "Town Guard",
+    "alias": "InvasionTownGuardT5",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 36000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 225
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town Guard",
+    "alias": "InvasionTownGuardT8",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 62000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 350
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town Guard",
+    "alias": "TownGuard",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bSkipWorld": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 500
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town Guard",
+    "alias": "HordeModeTownGuard",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bSkipWorld": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 500
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "dialogue": [
+          {
+            "name": "HordeModeTownGuard",
+            "message": "They're too powerful!"
+          },
+          {
+            "name": "HordeModeTownGuard",
+            "message": "These aren't like the enemies of old."
+          },
+          {
+            "name": "HordeModeTownGuard",
+            "message": "I need reinforcements!"
+          },
+          {
+            "name": "HordeModeTownGuard",
+            "message": "Villagers retreat!"
+          },
+          {
+            "name": "HordeModeTownGuard",
+            "message": "They're everywhere!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town Guard",
+    "alias": "InvasionTownGuard",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 5000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town Guard",
+    "alias": "InvasionTownGuardT7",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 50000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town Guard",
+    "alias": "InvasionTownGuardT4",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 24000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 150
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town Guard",
+    "alias": "InvasionTownGuardT3",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 14000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town Guard",
+    "alias": "InvasionTownGuardT2",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 10000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Town Guard",
+    "alias": "InvasionTownGuardT6",
+    "category": "Guard",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "guard_01",
+          "baseSize": {
+            "width": 128,
+            "height": 128
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 48000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 275
+          }
+        ]
+      }
+    ]
+  }
+]

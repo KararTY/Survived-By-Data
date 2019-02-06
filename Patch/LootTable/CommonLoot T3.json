@@ -1,1 +1,19 @@
-[{"from":"CommonLoot T3","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Silver","count":{"dice":1,"faces":6,"add":3},"chance":3,"allowModifiers":true}]}]
+[
+  {
+    "from": "CommonLoot T3",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 1,
+          "faces": 6,
+          "add": 3
+        },
+        "chance": 3,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

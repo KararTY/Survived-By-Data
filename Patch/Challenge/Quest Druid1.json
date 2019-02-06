@@ -1,1 +1,20 @@
-[{"name":"Quest Druid1","title":"Bramble, First Blood","description":"Collect 10 clothing scraps","challengeValueSuffix":"","challengeType":"_Unknown","challengeTarget":"QuestItem Clothing Scraps","achievement":false,"data":[{"loot":{"lootTable":{"name":"Quest Druid1"}}}]}]
+[
+  {
+    "name": "Quest Druid1",
+    "title": "Bramble, First Blood",
+    "description": "Collect 10 clothing scraps",
+    "challengeValueSuffix": "",
+    "challengeType": "_Unknown",
+    "challengeTarget": "QuestItem Clothing Scraps",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Quest Druid1"
+          }
+        }
+      }
+    ]
+  }
+]

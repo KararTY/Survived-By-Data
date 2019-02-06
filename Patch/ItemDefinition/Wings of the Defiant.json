@@ -1,1 +1,54 @@
-[{"name":"Wings of the Defiant","alias":"it Attachment Air Wings","description":"","price":0,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":0,"tier":0,"data":[{"sprite":{"name":"Attachment_Back_Air Wings_menu image","baseSize":{"width":80,"height":80},"textureRectangle":{"x":14,"y":15,"width":58,"height":65},"textureOffset":{"x":14,"y":15},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":[],"bound":{"account":true,"soul":true},"isHeirloom":false,"requiresDiscovery":true,"recoverCost":1,"insureCost":1,"modifierChance":0.75}]
+[
+  {
+    "name": "Wings of the Defiant",
+    "alias": "it Attachment Air Wings",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 0,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Attachment_Back_Air Wings_menu image",
+          "baseSize": {
+            "width": 80,
+            "height": 80
+          },
+          "textureRectangle": {
+            "x": 14,
+            "y": 15,
+            "width": 58,
+            "height": 65
+          },
+          "textureOffset": {
+            "x": 14,
+            "y": 15
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": true,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": true,
+    "recoverCost": 1,
+    "insureCost": 1,
+    "modifierChance": 0.75
+  }
+]

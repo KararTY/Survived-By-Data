@@ -1,1 +1,16 @@
-[{"from":"Kill Chimera 2","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"Challenge2"},{"from":"Kill Chimera 2","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[],"reference":"BountySlot2"}]
+[
+  {
+    "from": "Kill Chimera 2",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "Challenge2"
+  },
+  {
+    "from": "Kill Chimera 2",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "BountySlot2"
+  }
+]

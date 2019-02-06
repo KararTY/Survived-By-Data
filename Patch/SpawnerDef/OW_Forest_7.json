@@ -1,1 +1,21 @@
-[{"name":"OW_Forest_7","biome":"Forest","difficulty":{"min":0.6,"max":0.7},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0.35,"isBoss":false,"autoPopulate":true,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "OW_Forest_7",
+    "biome": "Forest",
+    "difficulty": {
+      "min": 0.6,
+      "max": 0.7
+    },
+    "spawnRadius": 16,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0.35,
+    "isBoss": false,
+    "autoPopulate": true,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

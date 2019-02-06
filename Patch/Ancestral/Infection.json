@@ -1,1 +1,314 @@
-[{"name":"Infection","alias":"Infection 1","description":"#% chance when dealing damage and applying a debuff that the debuff is applied to all enemies nearby the target","doNotAward":false,"data":[],"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"rarity":"Common","stats":[{"key":"Benefit","equation":"5+([AncestralData.Ancestral_Level]*0.4)","value":0},{"key":"Infection","equation":"[$Benefit]/100","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Dice","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_icon_Impact","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Two_Skulls","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Dealing Damage","alias":"Dealing Damage Set","sprite":"AL_Damage"},{"name":"Debuff","alias":"Debuff Set","sprite":"AL_icon_debuff"}],"blockedBy":["Infection 1","Infection 2","Infection 3"]},{"name":"Infection","alias":"Infection 2","description":"#% chance when dealing damage and applying a debuff that the debuff is applied to all enemies nearby the target","doNotAward":false,"data":[],"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"rarity":"Uncommon","stats":[{"key":"Benefit","equation":"10+([AncestralData.Ancestral_Level]*0.8)","value":0},{"key":"Infection","equation":"[$Benefit]/100","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Dice","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_icon_Impact","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Two_Skulls","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Dealing Damage","alias":"Dealing Damage Set","sprite":"AL_Damage"},{"name":"Debuff","alias":"Debuff Set","sprite":"AL_icon_debuff"}],"blockedBy":["Infection 1","Infection 2","Infection 3"]},{"name":"Infection","alias":"Infection 3","description":"#% chance when dealing damage and applying a debuff that the debuff is applied to all enemies nearby the target","doNotAward":false,"data":[],"validClasses":["Alchemist","Harbinger","Infiltrator","Sentinel","Geomancer","Druid"],"rarity":"Rare","stats":[{"key":"Benefit","equation":"20+([AncestralData.Ancestral_Level]*1.6)","value":0},{"key":"Infection","equation":"[$Benefit]/100","value":0}],"ordinaries":[{"sprite":{"name":"AL_icon_ Dice","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_icon_Impact","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}},{"sprite":{"name":"AL_Two_Skulls","baseSize":{"width":22,"height":22},"textureRectangle":{"x":0,"y":0,"width":22,"height":22},"textureOffset":{"x":0,"y":0}}}],"sets":[{"name":"Dealing Damage","alias":"Dealing Damage Set","sprite":"AL_Damage"},{"name":"Debuff","alias":"Debuff Set","sprite":"AL_icon_debuff"}],"blockedBy":["Infection 1","Infection 2","Infection 3"]}]
+[
+  {
+    "name": "Infection",
+    "alias": "Infection 1",
+    "description": "#% chance when dealing damage and applying a debuff that the debuff is applied to all enemies nearby the target",
+    "doNotAward": false,
+    "data": [],
+    "validClasses": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "rarity": "Common",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "5+([AncestralData.Ancestral_Level]*0.4)",
+        "value": 0
+      },
+      {
+        "key": "Infection",
+        "equation": "[$Benefit]/100",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Dice",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_Impact",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Two_Skulls",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Dealing Damage",
+        "alias": "Dealing Damage Set",
+        "sprite": "AL_Damage"
+      },
+      {
+        "name": "Debuff",
+        "alias": "Debuff Set",
+        "sprite": "AL_icon_debuff"
+      }
+    ],
+    "blockedBy": [
+      "Infection 1",
+      "Infection 2",
+      "Infection 3"
+    ]
+  },
+  {
+    "name": "Infection",
+    "alias": "Infection 2",
+    "description": "#% chance when dealing damage and applying a debuff that the debuff is applied to all enemies nearby the target",
+    "doNotAward": false,
+    "data": [],
+    "validClasses": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "rarity": "Uncommon",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "10+([AncestralData.Ancestral_Level]*0.8)",
+        "value": 0
+      },
+      {
+        "key": "Infection",
+        "equation": "[$Benefit]/100",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Dice",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_Impact",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Two_Skulls",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Dealing Damage",
+        "alias": "Dealing Damage Set",
+        "sprite": "AL_Damage"
+      },
+      {
+        "name": "Debuff",
+        "alias": "Debuff Set",
+        "sprite": "AL_icon_debuff"
+      }
+    ],
+    "blockedBy": [
+      "Infection 1",
+      "Infection 2",
+      "Infection 3"
+    ]
+  },
+  {
+    "name": "Infection",
+    "alias": "Infection 3",
+    "description": "#% chance when dealing damage and applying a debuff that the debuff is applied to all enemies nearby the target",
+    "doNotAward": false,
+    "data": [],
+    "validClasses": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "rarity": "Rare",
+    "stats": [
+      {
+        "key": "Benefit",
+        "equation": "20+([AncestralData.Ancestral_Level]*1.6)",
+        "value": 0
+      },
+      {
+        "key": "Infection",
+        "equation": "[$Benefit]/100",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "AL_icon_ Dice",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_Impact",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_Two_Skulls",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Dealing Damage",
+        "alias": "Dealing Damage Set",
+        "sprite": "AL_Damage"
+      },
+      {
+        "name": "Debuff",
+        "alias": "Debuff Set",
+        "sprite": "AL_icon_debuff"
+      }
+    ],
+    "blockedBy": [
+      "Infection 1",
+      "Infection 2",
+      "Infection 3"
+    ]
+  }
+]

@@ -1,1 +1,55 @@
-[{"name":"Honor Guard Sentinel","alias":"Unlock Skin Sentinel Alt 5","description":"Kings and Queens have not strode upon the Heartland for centuries, but the nobility of their protectors is still recorded in the tomes that speak of times long past.","price":435,"sellPrice":0,"consumable":false,"requiredLevel":0,"type":"Misc","maxStack":1,"tier":0,"data":[{"sprite":{"name":"sentinel_alt5","baseSize":{"width":192,"height":144},"textureRectangle":{"x":0,"y":96,"width":42,"height":48},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}}],"experiencePerLevel":[0],"class":[],"bound":{"account":false,"soul":true},"isHeirloom":false,"requiresDiscovery":false,"recoverCost":100,"insureCost":35,"currency":"Platinum","modifierChance":0.75}]
+[
+  {
+    "name": "Honor Guard Sentinel",
+    "alias": "Unlock Skin Sentinel Alt 5",
+    "description": "Kings and Queens have not strode upon the Heartland for centuries, but the nobility of their protectors is still recorded in the tomes that speak of times long past.",
+    "price": 435,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "sentinel_alt5",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 96,
+            "width": 42,
+            "height": 48
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Platinum",
+    "modifierChance": 0.75
+  }
+]

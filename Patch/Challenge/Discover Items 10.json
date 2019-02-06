@@ -1,1 +1,25 @@
-[{"name":"Discover Items 10","title":"Discover Gear (X)","description":"Discover {0} items","challengeValueSuffix":"Items","challengeType":"Endurance","achievement":true,"prerequisites":[["Discover Gear (IX)","Discover Items 9"]],"data":[{"loot":{"lootTable":{"name":"Discover Items 10"}}}]}]
+[
+  {
+    "name": "Discover Items 10",
+    "title": "Discover Gear (X)",
+    "description": "Discover {0} items",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Endurance",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Discover Gear (IX)",
+        "Discover Items 9"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Discover Items 10"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,1 +1,383 @@
-[{"name":"Greater Vines","alias":"plant_vines_hardmode","description":"Description for Greater Vines","isBoss":false,"isElite":false,"isSetPieceMonster":false,"weapons":[{"name":"plant_vines_projectile_throw","data":[{"sprite":{"name":"spirit_dryad_sand","baseSize":{"width":192,"height":240},"textureRectangle":{"x":144,"y":144,"width":48,"height":18},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"plant_vines_projectile_throw","projectileName":"Projectile","speed":30,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":true,"useRandomRange":false,"maxHits":5,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]},{"name":"plant_vines_projectile_throw_off","data":[{"sprite":{"name":"spirit_dryad_sand","baseSize":{"width":192,"height":240},"textureRectangle":{"x":144,"y":144,"width":48,"height":18},"textureOffset":{"x":0,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"plant_vines_projectile_throw_off","projectileName":"Projectile","speed":30,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":true,"useRandomRange":false,"maxHits":5,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]},{"name":"plant_vines_projectile_shadow","data":[{"sprite":{"name":"spirit_dryad_sand","baseSize":{"width":192,"height":240},"textureRectangle":{"x":0,"y":98,"width":48,"height":18},"textureOffset":{"x":0,"y":0},"color":{"r":0.13,"g":0.13,"b":0.13,"a":0.51}}},{"projectile":{"name":"plant_vines_projectile_shadow","projectileName":"Projectile","speed":0,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":0.01,"useTargetForRange":false,"useRandomRange":false,"maxHits":5,"arcSeparation":5,"maxLifetime":1.5,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"color":{"r":0,"g":0,"b":0,"a":0}}}]},{"name":"plant_vines_projectile_vines","data":[{"sprite":{"name":"spirit_dryad_tree","baseSize":{"width":192,"height":240},"textureRectangle":{"x":5,"y":96,"width":33,"height":20},"textureOffset":{"x":5,"y":0},"color":{"r":1,"g":1,"b":1,"a":1}}},{"projectile":{"name":"plant_vines_projectile_vines","projectileName":"Projectile","speed":0,"damage":0,"damageMultiplier":1,"essenceDamageMultiplier":2,"range":15,"useTargetForRange":false,"useRandomRange":false,"maxHits":1,"arcSeparation":5,"maxLifetime":8,"rageMultiplier":1,"bounceBetweenEnemies":false,"pierceWorld":false,"statusEffect":{"name":"Hindered","type":"MonsterDebuffMovementSpeed","duration":5,"stats":[{"key":"MovementSpeed","equation":"[MovementSpeed]*0.75","value":0},{"key":"Tier","equation":"","value":0}],"isBuff":false,"removeOnAttack":false,"coolDownTime":0,"noTimeOut":false},"color":{"r":0,"g":0,"b":0,"a":0}}}]}],"data":[{"sprite":{"name":"plant_vines","baseSize":{"width":192,"height":144},"textureRectangle":{"x":0,"y":97,"width":48,"height":46},"textureOffset":{"x":0,"y":1},"color":{"r":1,"g":1,"b":1,"a":1}}},{"bSlide":true,"bEnemy":true,"bSlowedDownByWater":true,"bBlockedByLava":true},{"stats":[{"key":"Level","equation":"","value":29},{"key":"HealthMax","equation":"","value":26750},{"key":"DamageBonus","equation":"","value":320},{"key":"Tier","equation":"","value":9},{"key":"Experience","equation":"","value":900},{"key":"CriticalDefense","equation":"([Level]*[Level])*0.2 + 25","value":0},{"key":"Accuracy","equation":"([Level]*[Level])*0.4 + 150","value":0}]},{"loot":{"lootTable":{"name":"plant_vines_hardmode"}}},{"sound":{"soundType":"Impact","sounds":["EnemyImpactGeneral1","EnemyImpactGeneral2","EnemyImpactGeneral3","EnemyImpactGeneral4","EnemyImpactGeneral5"]}},{"sound":{"soundType":"Wake","sounds":["PlantTypeWake1","PlantTypeWake2","PlantTypeWake3","PlantTypeWake4","PlantTypeWake5"]}},{"sound":{"soundType":"Pain","sounds":["PlantTypePain1","PlantTypePain2","PlantTypePain3","PlantTypePain4","PlantTypePain5"]}},{"sound":{"soundType":"Death","sounds":["PlantTypeDeath1","PlantTypeDeath2","PlantTypeDeath3","PlantTypeDeath4","PlantTypeDeath5"]}}],"zenithEffects":[],"category":"Spirit","element":"Ki"}]
+[
+  {
+    "name": "Greater Vines",
+    "alias": "plant_vines_hardmode",
+    "description": "Description for Greater Vines",
+    "isBoss": false,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "plant_vines_projectile_throw",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_dryad_sand",
+              "baseSize": {
+                "width": 192,
+                "height": 240
+              },
+              "textureRectangle": {
+                "x": 144,
+                "y": 144,
+                "width": 48,
+                "height": 18
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "plant_vines_projectile_throw",
+              "projectileName": "Projectile",
+              "speed": 30,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": true,
+              "useRandomRange": false,
+              "maxHits": 5,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "plant_vines_projectile_throw_off",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_dryad_sand",
+              "baseSize": {
+                "width": 192,
+                "height": 240
+              },
+              "textureRectangle": {
+                "x": 144,
+                "y": 144,
+                "width": 48,
+                "height": 18
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "plant_vines_projectile_throw_off",
+              "projectileName": "Projectile",
+              "speed": 30,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": true,
+              "useRandomRange": false,
+              "maxHits": 5,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "plant_vines_projectile_shadow",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_dryad_sand",
+              "baseSize": {
+                "width": 192,
+                "height": 240
+              },
+              "textureRectangle": {
+                "x": 0,
+                "y": 98,
+                "width": 48,
+                "height": 18
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 0.13,
+                "g": 0.13,
+                "b": 0.13,
+                "a": 0.51
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "plant_vines_projectile_shadow",
+              "projectileName": "Projectile",
+              "speed": 0,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 0.01,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 5,
+              "arcSeparation": 5,
+              "maxLifetime": 1.5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "plant_vines_projectile_vines",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_dryad_tree",
+              "baseSize": {
+                "width": 192,
+                "height": 240
+              },
+              "textureRectangle": {
+                "x": 5,
+                "y": 96,
+                "width": 33,
+                "height": 20
+              },
+              "textureOffset": {
+                "x": 5,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "plant_vines_projectile_vines",
+              "projectileName": "Projectile",
+              "speed": 0,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "essenceDamageMultiplier": 2,
+              "range": 15,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "maxLifetime": 8,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "statusEffect": {
+                "name": "Hindered",
+                "type": "MonsterDebuffMovementSpeed",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "MovementSpeed",
+                    "equation": "[MovementSpeed]*0.75",
+                    "value": 0
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 0
+                  }
+                ],
+                "isBuff": false,
+                "removeOnAttack": false,
+                "coolDownTime": 0,
+                "noTimeOut": false
+              },
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "plant_vines",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 97,
+            "width": 48,
+            "height": 46
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 29
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 26750
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 320
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 9
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 900
+          },
+          {
+            "key": "CriticalDefense",
+            "equation": "([Level]*[Level])*0.2 + 25",
+            "value": 0
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "plant_vines_hardmode"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Wake",
+          "sounds": [
+            "PlantTypeWake1",
+            "PlantTypeWake2",
+            "PlantTypeWake3",
+            "PlantTypeWake4",
+            "PlantTypeWake5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "PlantTypePain1",
+            "PlantTypePain2",
+            "PlantTypePain3",
+            "PlantTypePain4",
+            "PlantTypePain5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "PlantTypeDeath1",
+            "PlantTypeDeath2",
+            "PlantTypeDeath3",
+            "PlantTypeDeath4",
+            "PlantTypeDeath5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Spirit",
+    "element": "Ki"
+  }
+]

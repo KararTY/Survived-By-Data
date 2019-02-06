@@ -1,1 +1,25 @@
-[{"name":"Kill Lesser Manifestations of Sin 2","title":"Kill Lesser Manifestations of Sin (II)","description":"Kill {0} Lesser Manifestations of Sin","challengeValueSuffix":"Kills","challengeType":"_Unknown","achievement":false,"prerequisites":[["Kill Lesser Manifestations of Sin (I)","Kill Lesser Manifestations of Sin 1"]],"data":[{"loot":{"lootTable":{"name":"Kill Lesser Manifestations of Sin 2"}}}]}]
+[
+  {
+    "name": "Kill Lesser Manifestations of Sin 2",
+    "title": "Kill Lesser Manifestations of Sin (II)",
+    "description": "Kill {0} Lesser Manifestations of Sin",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Kill Lesser Manifestations of Sin (I)",
+        "Kill Lesser Manifestations of Sin 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Lesser Manifestations of Sin 2"
+          }
+        }
+      }
+    ]
+  }
+]

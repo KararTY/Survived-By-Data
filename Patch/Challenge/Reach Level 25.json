@@ -1,1 +1,25 @@
-[{"name":"Reach Level 25","title":"Quests","description":"Reach level {0}","challengeValueSuffix":"Levels","challengeType":"_Unknown","achievement":true,"prerequisites":[["Reach Level","Reach Level 2"]],"data":[{"loot":{"lootTable":{"name":"Reach Level 25"}}}]}]
+[
+  {
+    "name": "Reach Level 25",
+    "title": "Quests",
+    "description": "Reach level {0}",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Reach Level",
+        "Reach Level 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Reach Level 25"
+          }
+        }
+      }
+    ]
+  }
+]

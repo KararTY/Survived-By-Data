@@ -1,1 +1,30 @@
-[{"from":"invasion_T2_stag_mage","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Quartz Vein","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true},{"item":"Raw Strands","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true}],"reference":"CommonLoot T2"}]
+[
+  {
+    "from": "invasion_T2_stag_mage",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Raw Quartz Vein",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Strands",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CommonLoot T2"
+  }
+]

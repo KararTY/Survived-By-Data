@@ -1,1 +1,30 @@
-[{"from":"monster_chimera_hawkferal_dung","guaranteeItemCount":0,"maximumItemCount":0,"lootTable":[{"item":"Raw Pelt","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true},{"item":"Raw Log","count":{"dice":0,"faces":0,"add":1},"chance":10,"allowModifiers":true}],"reference":"CommonLoot T8"}]
+[
+  {
+    "from": "monster_chimera_hawkferal_dung",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Raw Pelt",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Log",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CommonLoot T8"
+  }
+]

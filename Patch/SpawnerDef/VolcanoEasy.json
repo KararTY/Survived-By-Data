@@ -1,1 +1,44 @@
-[{"name":"VolcanoEasy","biome":"DungeonVolcano","difficulty":{"min":0,"max":0.5},"spawnRadius":16,"spawnDelayed":false,"quotaRadius":30,"rechargeTime":0,"isBoss":false,"autoPopulate":false,"manuallyPlaced":false,"floraOrFaunaSpawner":false,"spawnList":[{"monsterName":"Volcanic Ooze","monsterAlias":"monster_ooze_volcano","spawnChance":0.8,"spawnQuota":4,"timeOfDay":"All"},{"monsterName":"Volcanic Ooze Fragment","monsterAlias":"monster_ooze_small_volcano","spawnChance":0.8,"spawnQuota":5,"timeOfDay":"All"},{"monsterName":"Volcanic Lizard","monsterAlias":"monster_lavalizard_volcano","spawnChance":0.4,"spawnQuota":5,"timeOfDay":"All"}],"oneTimeTrigger":false,"areaMax":0,"areaRadius":0}]
+[
+  {
+    "name": "VolcanoEasy",
+    "biome": "DungeonVolcano",
+    "difficulty": {
+      "min": 0,
+      "max": 0.5
+    },
+    "spawnRadius": 16,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Volcanic Ooze",
+        "monsterAlias": "monster_ooze_volcano",
+        "spawnChance": 0.8,
+        "spawnQuota": 4,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcanic Ooze Fragment",
+        "monsterAlias": "monster_ooze_small_volcano",
+        "spawnChance": 0.8,
+        "spawnQuota": 5,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcanic Lizard",
+        "monsterAlias": "monster_lavalizard_volcano",
+        "spawnChance": 0.4,
+        "spawnQuota": 5,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]
