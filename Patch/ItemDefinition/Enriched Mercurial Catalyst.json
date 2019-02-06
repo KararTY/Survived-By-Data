@@ -3,40 +3,14 @@
     "name": "Enriched Mercurial Catalyst",
     "alias": "Crafting Material Rare T5 8_5",
     "description": "The height of modern human ingenuity is built around the Mercurial Catalyst and its dynamic properties during crafting. This is a rare crafting component.",
-    "price": 30,
+    "price": 45,
     "sellPrice": 0,
     "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
     "tier": 9,
-    "data": [
-      {
-        "sprite": {
-          "name": "Enriched Mercurial Catalyst",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 1,
-            "y": 2,
-            "width": 31,
-            "height": 28
-          },
-          "textureOffset": {
-            "x": 1,
-            "y": 2
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

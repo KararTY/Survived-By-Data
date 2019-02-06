@@ -9,7 +9,6 @@ monster_chimera_wolfwarrior_tutorial_easy={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 300
   |damage_bonus = 65
   |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -56,7 +55,6 @@ monster_chimera_wolfwarrior_tutorial_medium={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 800
   |damage_bonus = 150
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -103,7 +101,6 @@ monster_chimera_wolfwarrior_tutorial_hard={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 1575
   |damage_bonus = 150
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -152,7 +149,6 @@ monster_chimera_wolfwarrior={{Enemy
   |experience = 550
   |damage_bonus = 153
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -201,7 +197,6 @@ invasion_T5_wolfwarrior={{Enemy
   |experience = 550
   |damage_bonus = 163
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

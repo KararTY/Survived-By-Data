@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 99,
     "tier": 1,
-    "data": [
-      {
-        "sprite": {
-          "name": "Lion_Idol",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

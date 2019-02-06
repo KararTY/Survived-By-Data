@@ -12,31 +12,6 @@
     "tier": 2,
     "data": [
       {
-        "sprite": {
-          "name": "Sentinel 2",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 2,
-            "y": 0,
-            "width": 30,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 2,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
           "craftingTime": 40,
           "requiredItems": [

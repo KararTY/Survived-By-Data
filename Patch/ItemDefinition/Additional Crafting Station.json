@@ -3,40 +3,14 @@
     "name": "Additional Crafting Station",
     "alias": "CraftStation2",
     "description": "Makes another crafting station available for use. A total of 3 additional stations can be purchased.",
-    "price": 250,
+    "price": 500,
     "sellPrice": 0,
     "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "Crafting icon II",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 31
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],
@@ -56,40 +30,14 @@
     "name": "Additional Crafting Station",
     "alias": "CraftStation3",
     "description": "Makes another crafting station available for use. A total of 3 additional stations can be purchased.",
-    "price": 600,
+    "price": 500,
     "sellPrice": 0,
     "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "Crafting icon II",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 31
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],
@@ -109,40 +57,14 @@
     "name": "Additional Crafting Station",
     "alias": "CraftStation4",
     "description": "Makes another crafting station available for use. A total of 3 additional stations can be purchased.",
-    "price": 1300,
+    "price": 500,
     "sellPrice": 0,
     "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
     "tier": 1,
-    "data": [
-      {
-        "sprite": {
-          "name": "Crafting icon II",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 31
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],
@@ -162,40 +84,14 @@
     "name": "Additional Crafting Station",
     "alias": "CraftStation5",
     "description": "Additional Crafting Station",
-    "price": 2000,
+    "price": 500,
     "sellPrice": 0,
     "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "S_Magic10",
-          "baseSize": {
-            "width": 34,
-            "height": 34
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 34,
-            "height": 34
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

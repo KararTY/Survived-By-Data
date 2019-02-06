@@ -10,7 +10,6 @@ invasion_artillery_monster_T1={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 3000
   |damage_bonus = 30
   |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 100
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -69,7 +68,6 @@ invasion_artillery_monster_T2={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 9200
   |damage_bonus = 60
   |accuracy = 175.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 37.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 200
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -128,7 +126,6 @@ invasion_artillery_monster_T3={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 35200
   |damage_bonus = 85
   |accuracy = 217.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 58.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 270
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -187,7 +184,6 @@ invasion_artillery_monster_T4={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 62400
   |damage_bonus = 145
   |accuracy = 279.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 89.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 450
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -246,7 +242,6 @@ invasion_artillery_monster_T5={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 262080
   |damage_bonus = 220
   |accuracy = 361.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 130.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 700
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -305,7 +300,6 @@ invasion_artillery_monster_T6={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 554400
   |damage_bonus = 280
   |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 900
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -364,7 +358,6 @@ invasion_artillery_monster_T7={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 816800
   |damage_bonus = 330
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 1050
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -423,7 +416,6 @@ invasion_artillery_monster_T8={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 1536000
   |damage_bonus = 375
   |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 1200
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"

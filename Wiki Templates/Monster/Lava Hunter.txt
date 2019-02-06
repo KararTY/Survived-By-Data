@@ -10,7 +10,6 @@ subboss_lavahunter_ghost={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 350000
   |damage_bonus = 505
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -42,7 +41,6 @@ subboss_lavahunter={{Enemy
   |experience = 100000
   |damage_bonus = 570
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

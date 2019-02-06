@@ -12,7 +12,6 @@ plant_venus_T2={{Enemy
   |experience = 65
   |damage_bonus = 35
   |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -56,7 +55,6 @@ plant_venus_infernal={{Enemy
   |experience = 775
   |damage_bonus = 253
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

@@ -12,7 +12,6 @@ monster_agent_scout_defender_hardmode={{Enemy
   |experience = 900
   |damage_bonus = 320
   |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -66,7 +65,6 @@ monster_agent_scout_defender_hardmode_dangerous={{Enemy
   |experience = 1500
   |damage_bonus = 380
   |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

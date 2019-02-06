@@ -31,7 +31,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 2,
+        "chance": 3,
         "allowModifiers": true
       },
       {
@@ -41,7 +41,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 2,
+        "chance": 3,
         "allowModifiers": true
       }
     ],

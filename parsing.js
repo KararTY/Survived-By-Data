@@ -71,7 +71,7 @@ module.exports = () => {
     fs.readdirSync(folder[folderName1]).forEach(val => {
       var file = require(path.join(folder[folderName1], val))
       var itemDefinition = {
-        name: translate[file['0 MonoBehaviour Base']['1 string Name']] || file['0 MonoBehaviour Base']['1 string Name'].replace(/[\/?<>\\:*|"]/g, ''),
+        name: (translate[file['0 MonoBehaviour Base']['1 string Name']] || file['0 MonoBehaviour Base']['1 string Name']).replace(/[\/\?\<\>\\\:\*\|\"]/g, ''),
         alias: (translate[file['0 MonoBehaviour Base']['1 string Name']] || file['0 MonoBehaviour Base']['1 string Name']) === require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
           ? undefined
           : require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
@@ -365,7 +365,7 @@ module.exports = () => {
       var file = require(path.join(folder[folderName3], val))
       var monsterInfo = {
         name: file['0 MonoBehaviour Base']['1 string MonsterName'].length > 0
-          ? translate[file['0 MonoBehaviour Base']['1 string MonsterName']] || file['0 MonoBehaviour Base']['1 string MonsterName'].replace(/[\/?<>\\:*|"]/g, '')
+          ? (translate[file['0 MonoBehaviour Base']['1 string MonsterName']] || file['0 MonoBehaviour Base']['1 string MonsterName']).replace(/[\/\?\<\>\\\:\*\|\"]/g, '')
           : require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         alias: file['0 MonoBehaviour Base']['1 string MonsterName'].length > 0
           ? (translate[file['0 MonoBehaviour Base']['1 string MonsterName']] || file['0 MonoBehaviour Base']['1 string MonsterName']) === require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
@@ -691,7 +691,7 @@ module.exports = () => {
     fs.readdirSync(folder[folderName4]).forEach(val => {
       var file = require(path.join(folder[folderName4], val))
       var ancestral = {
-        name: translate[file['0 MonoBehaviour Base']['1 string displayName']] || file['0 MonoBehaviour Base']['1 string displayName'].replace(/[\/?<>\\:*|"]/g, ''),
+        name: (translate[file['0 MonoBehaviour Base']['1 string displayName']] || file['0 MonoBehaviour Base']['1 string displayName']).replace(/[\/\?\<\>\\\:\*\|\"]/g, ''),
         alias: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         description: translate[file['0 MonoBehaviour Base']['1 string benefitDescription']],
         doNotAward: file['0 MonoBehaviour Base']['1 UInt8 DoNotAward'] > 0 ? true : false,

@@ -2,7 +2,7 @@
   {
     "name": "Desert Revenant Druid",
     "alias": "Unlock Skin Druid Sin",
-    "description": "A once great civilization used to occupy the Cinder Valley. And though there is nothing left of the people, the wreckage of their garb and armor remains. The skulls worn by the druids of this ancient people resemble no known modern animal.",
+    "description": "A great civilization once occupied the Cinder Valley, but now little remains except wreckage. The skulls worn by the druids of this ancient people resemble no known modern animal.",
     "price": 725,
     "sellPrice": 0,
     "consumable": false,
@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "druid_sin",
-          "baseSize": {
-            "width": 192,
-            "height": 144
-          },
-          "textureRectangle": {
-            "x": 5,
-            "y": 96,
-            "width": 40,
-            "height": 47
-          },
-          "textureOffset": {
-            "x": 5,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

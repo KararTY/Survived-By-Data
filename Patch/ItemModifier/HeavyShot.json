@@ -13,10 +13,6 @@
         "maxTier": 100
       },
       {
-        "craftingRecipe": {
-          "name": "Heavy Shot",
-          "interpretedType": "Heavy Shot"
-        },
         "validClasses": [
           "Alchemist",
           "Harbinger",

@@ -17,27 +17,27 @@
     "stats": [
       {
         "key": "AddPotency",
-        "equation": "[AddPotency] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddPotency] + Min(([$Benefit]/100) * [Naked],200)",
         "value": 0
       },
       {
         "key": "AddEndurance",
-        "equation": "[AddEndurance] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddEndurance] + Min(([$Benefit]/100) * [Naked],200)",
         "value": 0
       },
       {
         "key": "AddFocus",
-        "equation": "[AddFocus] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddFocus] + Min(([$Benefit]/100) * [Naked],200)",
         "value": 0
       },
       {
         "key": "AddWillpower",
-        "equation": "[AddWillpower] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddWillpower] + Min(([$Benefit]/100) * [Naked],200)",
         "value": 0
       },
       {
         "key": "AddSwiftness",
-        "equation": "[AddSwiftness] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddSwiftness] + Min(([$Benefit]/100) * [Naked],200)",
         "value": 0
       },
       {
@@ -135,27 +135,27 @@
     "stats": [
       {
         "key": "AddPotency",
-        "equation": "[AddPotency] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddPotency] + Min(([$Benefit]/100) * [Naked],300)",
         "value": 0
       },
       {
         "key": "AddEndurance",
-        "equation": "[AddEndurance] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddEndurance] + Min(([$Benefit]/100) * [Naked],300)",
         "value": 0
       },
       {
         "key": "AddFocus",
-        "equation": "[AddFocus] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddFocus] + Min(([$Benefit]/100) * [Naked],300)",
         "value": 0
       },
       {
         "key": "AddWillpower",
-        "equation": "[AddWillpower] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddWillpower] + Min(([$Benefit]/100) * [Naked],300)",
         "value": 0
       },
       {
         "key": "AddSwiftness",
-        "equation": "[AddSwiftness] + ([$Benefit]/100) * [Naked]",
+        "equation": "[AddSwiftness] + Min(([$Benefit]/100) * [Naked],300)",
         "value": 0
       },
       {

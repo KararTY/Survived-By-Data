@@ -3,40 +3,14 @@
     "name": "Enriched Mythril Catalyst",
     "alias": "Crafting Material Rare T7 8_5",
     "description": "Used in the creation of Mythril, this catalyst burns through the inner structure of an existing material, leaving behind a hollow reinforced lattice that is both strong and light. This is a rare crafting component.",
-    "price": 30,
+    "price": 45,
     "sellPrice": 0,
     "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
     "tier": 9,
-    "data": [
-      {
-        "sprite": {
-          "name": "Enriched Mythril Catalyst",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

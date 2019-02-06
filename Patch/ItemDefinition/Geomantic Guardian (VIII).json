@@ -10,33 +10,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 1,
-    "data": [
-      {
-        "sprite": {
-          "name": "monster_golem_stone_01",
-          "baseSize": {
-            "width": 256,
-            "height": 128
-          },
-          "textureRectangle": {
-            "x": 3,
-            "y": 0,
-            "width": 60,
-            "height": 60
-          },
-          "textureOffset": {
-            "x": 3,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",

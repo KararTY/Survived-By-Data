@@ -415,14 +415,9 @@
             "value": 800
           },
           {
-            "key": "Experience",
+            "key": "SpecialWeaponDamage",
             "equation": "",
             "value": 215
-          },
-          {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
           },
           {
             "key": "Accuracy",

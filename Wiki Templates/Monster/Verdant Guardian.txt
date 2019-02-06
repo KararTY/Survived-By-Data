@@ -11,7 +11,6 @@
   |experience = 775
   |damage_bonus = 253
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 230
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"

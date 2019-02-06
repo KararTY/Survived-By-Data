@@ -11,7 +11,6 @@ monster_chimera_stag_feral_dung={{Enemy
   |experience = 340
   |damage_bonus = 100
   |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -60,7 +59,6 @@ monster_chimera_stag_feral_dung_hardmode={{Enemy
   |experience = 900
   |damage_bonus = 320
   |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

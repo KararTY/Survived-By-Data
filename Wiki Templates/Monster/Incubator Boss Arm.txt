@@ -9,7 +9,6 @@ boss_director_right_arm={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 42000
   |damage_bonus = 170
   |accuracy = 400<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 150<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
 boss_director_left_arm={{Enemy
@@ -22,7 +21,6 @@ boss_director_left_arm={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 42000
   |damage_bonus = 170
   |accuracy = 400<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 150<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
 boss_director_left_arm_hardmode={{Enemy
@@ -35,7 +33,6 @@ boss_director_left_arm_hardmode={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 890000
   |damage_bonus = 320
   |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
 boss_director_right_arm_hardmode={{Enemy
@@ -48,7 +45,6 @@ boss_director_right_arm_hardmode={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 890000
   |damage_bonus = 320
   |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
 </tabber></div>

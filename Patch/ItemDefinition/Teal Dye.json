@@ -2,7 +2,7 @@
   {
     "name": "Teal Dye",
     "alias": "Unlock Dye 12 Electrum",
-    "description": "Unlock Teal Dye Permanently",
+    "description": "Unlock Teal Dye Permanently. A limited use version of this dye can be purchased from the Seamstress for Bloodstone.",
     "price": 200,
     "sellPrice": 0,
     "consumable": false,
@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "dye_bottle",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 3,
-            "y": 0,
-            "width": 26,
-            "height": 30
-          },
-          "textureOffset": {
-            "x": 3,
-            "y": 0
-          },
-          "color": {
-            "r": 0.13,
-            "g": 0.61,
-            "b": 0.55,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],
@@ -55,7 +29,7 @@
   {
     "name": "Teal Dye",
     "alias": "Unlock Dye 12 Bloodstone",
-    "description": "Unlock Teal Dye Temporarily",
+    "description": "A single use application of the Teal Dye.",
     "price": 50,
     "sellPrice": 0,
     "consumable": false,
@@ -63,33 +37,7 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "dye_bottle",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 3,
-            "y": 0,
-            "width": 26,
-            "height": 30
-          },
-          "textureOffset": {
-            "x": 3,
-            "y": 0
-          },
-          "color": {
-            "r": 0.13,
-            "g": 0.61,
-            "b": 0.55,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

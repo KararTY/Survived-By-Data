@@ -12,33 +12,8 @@
     "tier": 5,
     "data": [
       {
-        "sprite": {
-          "name": "Armor Mantle 5",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 4,
-            "width": 32,
-            "height": 24
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 4
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
-          "craftingTime": 900,
+          "craftingTime": 300,
           "requiredItems": [
             {
               "name": "Enriched Cloth",

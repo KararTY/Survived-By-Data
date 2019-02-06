@@ -12,7 +12,6 @@ monster_agent_defender={{Enemy
   |experience = 750
   |damage_bonus = 215
   |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -66,7 +65,6 @@ monster_agent_defender_dangerous={{Enemy
   |experience = 1500
   |damage_bonus = 305
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

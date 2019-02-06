@@ -1,0 +1,20 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+<div class="tabbertab-borderless"><tabber>
+monster_mega_golem 1=('''Quest loot table''') '''Loot table: ([[Loot table/monster_mega_golem|monster_mega_golem]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x2 || {{Icon|Raw Quartz Vein}} || style="text-align:right" | 100% 
+|-
+| x1 || {{Icon|Fire Sand}} || style="text-align:right" | 100% 
+|-
+| x70 || {{Icon|Silver}} || style="text-align:right" | 100% 
+|}
+|-|
+monster_mega_golem 2=
+|-|
+</tabber></div>
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/monster_mega_golem}}
+[[Category:Loot table]]</noinclude>

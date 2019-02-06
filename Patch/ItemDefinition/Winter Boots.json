@@ -12,33 +12,8 @@
     "tier": 4,
     "data": [
       {
-        "sprite": {
-          "name": "Boots Light 4",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 4,
-            "width": 30,
-            "height": 21
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 4
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
-          "craftingTime": 600,
+          "craftingTime": 120,
           "requiredItems": [
             {
               "name": "Leather",

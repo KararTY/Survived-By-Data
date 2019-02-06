@@ -12,31 +12,6 @@
     "tier": 0,
     "data": [
       {
-        "sprite": {
-          "name": "Charm_05",
-          "baseSize": {
-            "width": 26,
-            "height": 26
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 26,
-            "height": 26
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 0.3,
-            "g": 0.74,
-            "b": 0,
-            "a": 1
-          }
-        }
-      },
-      {
         "socketableItem": {
           "craftTime": 750,
           "costToApply": 500,

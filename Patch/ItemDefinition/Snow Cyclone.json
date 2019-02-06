@@ -10,33 +10,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 10,
-    "data": [
-      {
-        "sprite": {
-          "name": "consumable_Holiday_Minion_Cyclone snow",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",
@@ -78,33 +52,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 2,
-    "data": [
-      {
-        "sprite": {
-          "name": "consumable_Holiday_Minion_Cyclone snow",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",
@@ -146,33 +94,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 3,
-    "data": [
-      {
-        "sprite": {
-          "name": "consumable_Holiday_Minion_Cyclone snow",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",
@@ -214,33 +136,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 4,
-    "data": [
-      {
-        "sprite": {
-          "name": "consumable_Holiday_Minion_Cyclone snow",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",
@@ -282,33 +178,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 5,
-    "data": [
-      {
-        "sprite": {
-          "name": "consumable_Holiday_Minion_Cyclone snow",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",
@@ -350,33 +220,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 6,
-    "data": [
-      {
-        "sprite": {
-          "name": "consumable_Holiday_Minion_Cyclone snow",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",
@@ -418,33 +262,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 7,
-    "data": [
-      {
-        "sprite": {
-          "name": "consumable_Holiday_Minion_Cyclone snow",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",
@@ -486,33 +304,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 8,
-    "data": [
-      {
-        "sprite": {
-          "name": "consumable_Holiday_Minion_Cyclone snow",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",
@@ -554,33 +346,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 9,
-    "data": [
-      {
-        "sprite": {
-          "name": "consumable_Holiday_Minion_Cyclone snow",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "Gear_Score",

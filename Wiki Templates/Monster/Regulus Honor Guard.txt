@@ -11,7 +11,6 @@ monster_chimera_lizardwarrior_dung={{Enemy
   |experience = 800
   |damage_bonus = 299
   |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -58,7 +57,6 @@ monster_chimera_lizardwarrior_dung_dangerous={{Enemy
   |experience = 1600
   |damage_bonus = 385
   |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -105,7 +103,6 @@ invasion_T8_lizardmage={{Enemy
   |experience = 800
   |damage_bonus = 330
   |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -152,7 +149,6 @@ invasion_T8_lizardwarrior={{Enemy
   |experience = 800
   |damage_bonus = 310
   |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

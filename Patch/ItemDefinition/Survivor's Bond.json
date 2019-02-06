@@ -12,33 +12,8 @@
     "tier": 1,
     "data": [
       {
-        "sprite": {
-          "name": "Rings 1",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 5,
-            "y": 1,
-            "width": 23,
-            "height": 26
-          },
-          "textureOffset": {
-            "x": 5,
-            "y": 1
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
-          "craftingTime": 20,
+          "craftingTime": 10,
           "requiredItems": [
             {
               "name": "Fire Sand",

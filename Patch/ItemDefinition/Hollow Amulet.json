@@ -12,31 +12,6 @@
     "tier": 7,
     "data": [
       {
-        "sprite": {
-          "name": "Amulets 7",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 1,
-            "width": 25,
-            "height": 31
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 1
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
           "craftingTime": 7200,
           "requiredItems": [

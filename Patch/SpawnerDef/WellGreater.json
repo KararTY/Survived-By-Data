@@ -19,12 +19,12 @@
         "monsterName": "Greater Well Wraith",
         "monsterAlias": "monster_greater_well_wraith",
         "spawnChance": 1,
-        "spawnQuota": 1,
+        "spawnQuota": 2,
         "timeOfDay": "All"
       }
     ],
     "oneTimeTrigger": false,
-    "areaMax": 0,
-    "areaRadius": 0
+    "areaMax": 20,
+    "areaRadius": 50
   }
 ]

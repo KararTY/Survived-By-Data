@@ -4,7 +4,7 @@
 |-
 ! Amount || Item || Chance
 |-
-| x5-40 || {{Icon|Silver}} || style="text-align:right" | 100% 
+| x9-40 || {{Icon|Silver}} || style="text-align:right" | 100% 
 |-
 | x1 || {{Icon|Rosin Catalyst}} || style="text-align:right" | 100% 
 |-
@@ -36,7 +36,7 @@
 |-
 | x1 || {{Icon|Workman's Knife}} || style="text-align:right" | 12% 
 |-
-| x1 || {{Icon|Blue Jade}} || style="text-align:right" | 3% 
+| x1 || {{Icon|Blue Jade}} || style="text-align:right" | 10% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_hydra}}

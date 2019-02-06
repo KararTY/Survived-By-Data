@@ -11,7 +11,6 @@ monster_bat_dung={{Enemy
   |experience = 20
   |damage_bonus = 28
   |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -51,7 +50,6 @@ monster_batswarm_dung={{Enemy
   |experience = 40
   |damage_bonus = 28
   |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

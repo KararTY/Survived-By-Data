@@ -14,15 +14,6 @@
     "autoPopulate": false,
     "manuallyPlaced": false,
     "floraOrFaunaSpawner": false,
-    "spawnList": [
-      {
-        "monsterName": "Frigid Spider",
-        "monsterAlias": "monster_spider_ice",
-        "spawnChance": 1,
-        "spawnQuota": 5,
-        "timeOfDay": "All"
-      }
-    ],
     "oneTimeTrigger": false,
     "areaMax": 0,
     "areaRadius": 0

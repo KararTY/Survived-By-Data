@@ -10,7 +10,6 @@ tutorial_monster_agent_processor={{Enemy
   |experience = 110
   |damage_bonus = 175
   |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -97,7 +96,6 @@ monster_agent_processor={{Enemy
   |experience = 550
   |damage_bonus = 153
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -185,7 +183,6 @@ monster_agent_processor_dangerous={{Enemy
   |experience = 1100
   |damage_bonus = 220
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

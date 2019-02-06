@@ -10,33 +10,7 @@
     "type": "None",
     "maxStack": 99,
     "tier": 1,
-    "data": [
-      {
-        "sprite": {
-          "name": "Ancestral Legacy Menu",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 31
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],
@@ -63,33 +37,7 @@
     "type": "None",
     "maxStack": 99,
     "tier": 1,
-    "data": [
-      {
-        "sprite": {
-          "name": "Ancestral Legacy Menu",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 31
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

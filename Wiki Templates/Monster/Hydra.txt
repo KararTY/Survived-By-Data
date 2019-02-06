@@ -13,7 +13,6 @@ boss_hydra={{Enemy
   |experience = 3000
   |damage_bonus = 64
   |accuracy = 190<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 45<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

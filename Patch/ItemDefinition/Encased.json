@@ -10,33 +10,7 @@
     "type": "None",
     "maxStack": 0,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "Gravestone - Crypt",
-          "baseSize": {
-            "width": 64,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 1,
-            "y": 0,
-            "width": 63,
-            "height": 30
-          },
-          "textureOffset": {
-            "x": 1,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

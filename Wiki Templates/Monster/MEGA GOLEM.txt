@@ -1,0 +1,54 @@
+{{Enemy
+  |title = MEGA GOLEM
+  |image_original = {{CSS image crop|Image=Boss_golem_Alchemist Quest.png|bSize=384|cWidth=71|cHeight=78|oBottom=13|oLeft=18}}
+  |caption = ITS THE MEGA GOLEM
+  |location = 
+  |category = Spirit
+  |is_boss = Yes
+  |element = Ki
+  |tier = 5
+  |level = 25
+  |max_health = {{Icon|Health|nolink=1}} 25000
+  |experience = 15000
+  |damage_bonus = 200
+  |accuracy = 400<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 150<br><small>([Level]x[Level])x0.2 + 25</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''mega golem projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_golem_Alchemist Quest.png|bSize=384|cWidth=30|cHeight=27|oBottom=100|oLeft=196}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5.8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''mega golem projectile splat''' {{!!}} <center>{{CSS image crop|Image=Boss_golem_Alchemist Quest.png|bSize=384|cWidth=9|cHeight=13|oBottom=211|oLeft=20}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_mega_golem}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+[[Category:Boss]]
+</includeonly>

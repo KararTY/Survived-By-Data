@@ -10,7 +10,6 @@ monster_anima_dark_turretT1={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 12
   |damage_bonus = 18
   |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -39,7 +38,6 @@ monster_anima_dark_turretT2={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 24
   |damage_bonus = 36
   |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -68,7 +66,6 @@ monster_anima_dark_turretT3={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 9
   |damage_bonus = 60
   |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -97,7 +94,6 @@ monster_anima_dark_turretT4={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 9
   |damage_bonus = 95
   |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -126,7 +122,6 @@ monster_anima_dark_turretT5={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 9
   |damage_bonus = 140
   |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 113.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -155,7 +150,6 @@ monster_anima_dark_turretT6={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 9
   |damage_bonus = 205
   |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -184,7 +178,6 @@ monster_anima_dark_turretT7={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 9
   |damage_bonus = 230
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -213,7 +206,6 @@ monster_anima_dark_turretT8={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 9
   |damage_bonus = 260
   |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -242,7 +234,6 @@ monster_anima_dark_turretT9={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 9
   |damage_bonus = 320
   |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

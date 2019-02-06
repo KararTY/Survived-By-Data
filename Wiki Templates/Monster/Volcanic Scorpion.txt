@@ -12,7 +12,6 @@ monster_scorpion_lava_volcano={{Enemy
   |experience = 1000
   |damage_bonus = 470
   |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -84,7 +83,6 @@ monster_scorpion_lava_volcano_dangerous={{Enemy
   |experience = 2000
   |damage_bonus = 610
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "emojis",
-          "baseSize": {
-            "width": 256,
-            "height": 256
-          },
-          "textureRectangle": {
-            "x": 160,
-            "y": 224,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

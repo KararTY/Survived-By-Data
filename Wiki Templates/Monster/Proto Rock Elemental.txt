@@ -13,7 +13,6 @@ monster_golem_stone_boss={{Enemy
   |experience = 300
   |damage_bonus = 30
   |accuracy = 160<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 30<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

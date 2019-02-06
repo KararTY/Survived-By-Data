@@ -10,33 +10,7 @@
     "type": "Consumable",
     "maxStack": 0,
     "tier": 1,
-    "data": [
-      {
-        "sprite": {
-          "name": "protoitemsprites",
-          "baseSize": {
-            "width": 476,
-            "height": 1020
-          },
-          "textureRectangle": {
-            "x": 136,
-            "y": 714,
-            "width": 34,
-            "height": 34
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "ConsumableWeaponDamage",

@@ -11,7 +11,6 @@ monster_bat={{Enemy
   |experience = 2
   |damage_bonus = 11
   |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -51,7 +50,6 @@ monster_batswarm={{Enemy
   |experience = 5
   |damage_bonus = 11
   |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -91,7 +89,6 @@ monster_bat_T7={{Enemy
   |experience = 250
   |damage_bonus = 253
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

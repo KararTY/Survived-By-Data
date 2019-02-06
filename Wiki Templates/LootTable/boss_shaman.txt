@@ -4,7 +4,7 @@
 |-
 ! Amount || Item || Chance
 |-
-| x15-60 || {{Icon|Silver}} || style="text-align:right" | 100% 
+| x21-60 || {{Icon|Silver}} || style="text-align:right" | 100% 
 |-
 | x1 || {{Icon|Deep Rime Catalyst}} || style="text-align:right" | 100% 
 |-
@@ -13,6 +13,8 @@
 | x1 || {{Icon|Tribal Amulet}} || style="text-align:right" | 14% 
 |-
 | x1 || {{Icon|Touch of Ice}} || style="text-align:right" | 14% 
+|-
+| x1 || {{Icon|Blue Jade}} || style="text-align:right" | 10% 
 |-
 | x1 || {{Icon|Winter Plate}} || style="text-align:right" | 9% 
 |-
@@ -35,8 +37,6 @@
 | x1 || {{Icon|Permafrost Blade}} || style="text-align:right" | 8% 
 |-
 | x1 || {{Icon|Permafrost Knives}} || style="text-align:right" | 8% 
-|-
-| x1 || {{Icon|Blue Jade}} || style="text-align:right" | 5% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_shaman}}

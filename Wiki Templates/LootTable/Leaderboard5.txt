@@ -1,0 +1,14 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+'''Loot table: ([[Loot table/Leaderboard5|Leaderboard5]])'''
+<br>Guaranteed drop amount: 2
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|My boat wasn't down there}} || style="text-align:right" | 100% 
+|-
+| x1000 || {{Icon|Valr}} || style="text-align:right" | 100% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/Leaderboard5}}
+[[Category:Loot table]]</noinclude>

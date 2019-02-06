@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Quest Alchemist3",
+    "title": "Raw Resin Retrieval",
+    "description": "Raw Resin Retrieval Quest Text",
+    "challengeValueSuffix": "",
+    "challengeType": "_Unknown",
+    "challengeTarget": "QuestItem ResinNode",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Quest Alchemist3"
+          }
+        }
+      }
+    ]
+  }
+]

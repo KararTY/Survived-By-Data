@@ -8,7 +8,6 @@ tutorial_monster_chimera_jackalope={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 73
   |damage_bonus = 45
   |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -38,7 +37,6 @@ monster_chimera_jackalope_dung={{Enemy
   |experience = 340
   |damage_bonus = 102
   |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

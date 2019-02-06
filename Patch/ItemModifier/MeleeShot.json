@@ -13,10 +13,6 @@
         "maxTier": 100
       },
       {
-        "craftingRecipe": {
-          "name": "Melee Shot",
-          "interpretedType": "Melee Shot"
-        },
         "validClasses": [
           "Alchemist",
           "Harbinger",

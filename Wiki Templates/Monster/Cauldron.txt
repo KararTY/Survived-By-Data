@@ -1,0 +1,19 @@
+{{Enemy
+  |title = Cauldron
+  |image_original = {{CSS image crop|Image=Cauldron_01_Anim.png|bSize=256|cWidth=64|cHeight=62|oBottom=2|oLeft=0}}
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 5
+  |level = 25
+  |max_health = {{Icon|Health|nolink=1}} 50000
+  |experience = 15000
+  |damage_bonus = 200
+  |accuracy = 400<br><small>([Level]x[Level])x0.4 + 150</small>
+  |critical_defense = 150<br><small>([Level]x[Level])x0.2 + 25</small>
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Spirit]]
+[[Category:Ki]]
+</includeonly>

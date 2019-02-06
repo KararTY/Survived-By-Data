@@ -9,7 +9,6 @@ tutorial_monster_agent_scout={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 73
   |damage_bonus = 45
   |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -50,7 +49,6 @@ monster_agent_scout={{Enemy
   |experience = 65
   |damage_bonus = 36
   |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -92,7 +90,6 @@ monster_agent_scout_defender_T8_black={{Enemy
   |experience = 800
   |damage_bonus = 299
   |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -146,7 +143,6 @@ monster_agent_scout_defender_T8_red={{Enemy
   |experience = 800
   |damage_bonus = 299
   |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 181.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

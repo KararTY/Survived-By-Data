@@ -2,7 +2,7 @@
   {
     "name": "Tempering Oil",
     "alias": "Consumable Potion Weapon Oil",
-    "description": "Bloodstone is believed to contain the strength of fallen heroes, and an oil that contains fragments of Bloodstone, when applied to a piece of exceptional equipment allows that equipment to become more powerful as it is used in battle. This effect lasts for one hour.",
+    "description": "An oil that contains tiny fragments of Bloodstone. When applied to a piece of exceptional equipment that equipment becomes more powerful as it is used in battle. This effect lasts for one hour.",
     "price": 30,
     "sellPrice": 0,
     "consumable": true,
@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 99,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "HUD_Potion black",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

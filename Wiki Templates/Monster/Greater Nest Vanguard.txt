@@ -12,7 +12,6 @@ monster_burrower_cave_hardmode={{Enemy
   |experience = 900
   |damage_bonus = 320
   |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 193.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -54,7 +53,6 @@ monster_burrower_cave_hardmode_dangerous={{Enemy
   |experience = 1800
   |damage_bonus = 480
   |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

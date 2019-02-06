@@ -12,7 +12,6 @@ plant_vines={{Enemy
   |experience = 300
   |damage_bonus = 95
   |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -100,7 +99,6 @@ monster_bramble_bush_quest={{Enemy
   |experience = 750
   |damage_bonus = 230
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -129,7 +127,6 @@ boss_director_resin_pod_hardmode={{Enemy
   |level = 30
   |max_health = {{Icon|Health|nolink=1}} 6250
   |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -157,7 +154,6 @@ boss_director_resin_pod={{Enemy
   |level = 20
   |max_health = {{Icon|Health|nolink=1}} 5000
   |accuracy = 310<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 105<br><small>([Level]x[Level])x0.2 + 25</small>
   |drops = {{:Loot table/boss_director_resin_pod}}
   }}
 |-|
@@ -171,7 +167,6 @@ boss_elementalspirit_armor3={{Enemy
   |level = 31
   |max_health = {{Icon|Health|nolink=1}} 7000
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
 boss_elementalspirit_armor2={{Enemy
@@ -184,7 +179,6 @@ boss_elementalspirit_armor2={{Enemy
   |level = 31
   |max_health = {{Icon|Health|nolink=1}} 7000
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
 boss_elementalspirit_vines_seed={{Enemy
@@ -197,7 +191,6 @@ boss_elementalspirit_vines_seed={{Enemy
   |level = 31
   |max_health = {{Icon|Health|nolink=1}} 7000
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -282,7 +275,6 @@ boss_elementalspirit_armor_seed={{Enemy
   |level = 31
   |max_health = {{Icon|Health|nolink=1}} 7000
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |drops = {{:Loot table/boss_elementalspirit_armor_seed}}
   }}
 |-|
@@ -296,7 +288,6 @@ boss_elementalspirit_armor3_seed={{Enemy
   |level = 31
   |max_health = {{Icon|Health|nolink=1}} 13000
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |drops = {{:Loot table/boss_elementalspirit_armor3_seed}}
   }}
 |-|
@@ -310,7 +301,6 @@ boss_elementalspirit_armor2_seed={{Enemy
   |level = 31
   |max_health = {{Icon|Health|nolink=1}} 13000
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |drops = {{:Loot table/boss_elementalspirit_armor2_seed}}
   }}
 |-|
@@ -324,7 +314,6 @@ boss_elementalspirit_armor={{Enemy
   |level = 31
   |max_health = {{Icon|Health|nolink=1}} 13000
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
 boss_elementalspirit_vines={{Enemy
@@ -338,7 +327,6 @@ boss_elementalspirit_vines={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 13000
   |damage_bonus = 330
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

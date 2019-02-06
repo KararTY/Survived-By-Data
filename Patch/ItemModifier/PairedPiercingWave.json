@@ -13,10 +13,6 @@
         "maxTier": 100
       },
       {
-        "craftingRecipe": {
-          "name": "Paired-Piercing-Wave",
-          "interpretedType": "Paired-Piercing-Wave"
-        },
         "validClasses": [
           "Alchemist",
           "Harbinger",

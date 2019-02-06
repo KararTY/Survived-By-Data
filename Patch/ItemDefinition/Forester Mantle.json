@@ -12,31 +12,6 @@
     "tier": 2,
     "data": [
       {
-        "sprite": {
-          "name": "Armor Mantle 2",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 3,
-            "width": 32,
-            "height": 25
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 3
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
           "craftingTime": 40,
           "requiredItems": [

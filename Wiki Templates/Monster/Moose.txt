@@ -11,7 +11,6 @@ monster_stag_moose={{Enemy
   |experience = 40
   |damage_bonus = 35
   |accuracy = 164.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 32.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -40,7 +39,6 @@ monster_stag_moose_T6={{Enemy
   |experience = 750
   |damage_bonus = 215
   |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

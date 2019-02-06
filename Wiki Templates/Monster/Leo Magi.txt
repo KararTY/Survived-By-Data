@@ -11,7 +11,6 @@ monster_chimera_lionmage={{Enemy
   |experience = 170
   |damage_bonus = 65
   |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -52,7 +51,6 @@ invasion_T3_lionmage={{Enemy
   |experience = 170
   |damage_bonus = 75
   |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

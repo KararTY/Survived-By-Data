@@ -12,31 +12,6 @@
     "tier": 9,
     "data": [
       {
-        "sprite": {
-          "name": "Druid_Sin_Greater",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
           "craftingTime": 21600,
           "requiredItems": [

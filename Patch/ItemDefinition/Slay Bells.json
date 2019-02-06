@@ -12,31 +12,6 @@
     "tier": 0,
     "data": [
       {
-        "sprite": {
-          "name": "druid_Holiday_rudolph",
-          "baseSize": {
-            "width": 192,
-            "height": 144
-          },
-          "textureRectangle": {
-            "x": 1,
-            "y": 96,
-            "width": 47,
-            "height": 45
-          },
-          "textureOffset": {
-            "x": 1,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
           "craftingTime": 10,
           "requiredItems": [

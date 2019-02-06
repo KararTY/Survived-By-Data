@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 10,
     "tier": 12,
-    "data": [
-      {
-        "sprite": {
-          "name": "Crafting Eldritch Catalyst",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 0.93,
-            "g": 0.07,
-            "b": 0.07,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

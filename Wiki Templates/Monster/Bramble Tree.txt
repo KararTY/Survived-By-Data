@@ -7,6 +7,7 @@ monster_bramble_tree2_quest={{Enemy
   |tier = 7
   |level = 27
   |max_health = {{Icon|Health|nolink=1}} 1
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
   |drops = {{:Loot table/monster_bramble_tree2_quest}}
   }}
 |-|
@@ -18,6 +19,7 @@ monster_bramble_tree1_quest={{Enemy
   |tier = 7
   |level = 27
   |max_health = {{Icon|Health|nolink=1}} 1
+  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
   |drops = {{:Loot table/monster_bramble_tree1_quest}}
   }}
 |-|

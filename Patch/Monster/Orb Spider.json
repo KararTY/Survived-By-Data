@@ -141,12 +141,7 @@
           {
             "key": "Experience",
             "equation": "",
-            "value": 2200
-          },
-          {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
+            "value": 550
           },
           {
             "key": "Accuracy",

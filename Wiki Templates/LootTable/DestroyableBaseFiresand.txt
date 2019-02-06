@@ -1,0 +1,11 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+'''Loot table: ([[Loot table/DestroyableBaseFiresand|DestroyableBaseFiresand]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1-4 || {{Icon|Fire Sand}} || style="text-align:right" | 100% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/DestroyableBaseFiresand}}
+[[Category:Loot table]]</noinclude>

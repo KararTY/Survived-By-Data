@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "Attachment_Back_Stick Fish_menu image",
-          "baseSize": {
-            "width": 80,
-            "height": 80
-          },
-          "textureRectangle": {
-            "x": 19,
-            "y": 21,
-            "width": 41,
-            "height": 43
-          },
-          "textureOffset": {
-            "x": 19,
-            "y": 21
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

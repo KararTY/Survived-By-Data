@@ -38,15 +38,15 @@ Berserker 2 (Uncommon)={| style="float:right;"
     |-
     ! Key !! Equation !! Value
     |-
-    | AddPotency || [AddPotency] + ([$Benefit]/100) x [Naked] || 
+    | AddPotency || [AddPotency] + Min(([$Benefit]/100) x [Naked],200) || 
     |-
-    | AddEndurance || [AddEndurance] + ([$Benefit]/100) x [Naked] || 
+    | AddEndurance || [AddEndurance] + Min(([$Benefit]/100) x [Naked],200) || 
     |-
-    | AddFocus || [AddFocus] + ([$Benefit]/100) x [Naked] || 
+    | AddFocus || [AddFocus] + Min(([$Benefit]/100) x [Naked],200) || 
     |-
-    | AddWillpower || [AddWillpower] + ([$Benefit]/100) x [Naked] || 
+    | AddWillpower || [AddWillpower] + Min(([$Benefit]/100) x [Naked],200) || 
     |-
-    | AddSwiftness || [AddSwiftness] + ([$Benefit]/100) x [Naked] || 
+    | AddSwiftness || [AddSwiftness] + Min(([$Benefit]/100) x [Naked],200) || 
     |-
     | Benefit || 10+([AncestralData.Ancestral_Level]x1.8) || 
   |}
@@ -95,15 +95,15 @@ Berserker 3 (Rare)={| style="float:right;"
     |-
     ! Key !! Equation !! Value
     |-
-    | AddPotency || [AddPotency] + ([$Benefit]/100) x [Naked] || 
+    | AddPotency || [AddPotency] + Min(([$Benefit]/100) x [Naked],300) || 
     |-
-    | AddEndurance || [AddEndurance] + ([$Benefit]/100) x [Naked] || 
+    | AddEndurance || [AddEndurance] + Min(([$Benefit]/100) x [Naked],300) || 
     |-
-    | AddFocus || [AddFocus] + ([$Benefit]/100) x [Naked] || 
+    | AddFocus || [AddFocus] + Min(([$Benefit]/100) x [Naked],300) || 
     |-
-    | AddWillpower || [AddWillpower] + ([$Benefit]/100) x [Naked] || 
+    | AddWillpower || [AddWillpower] + Min(([$Benefit]/100) x [Naked],300) || 
     |-
-    | AddSwiftness || [AddSwiftness] + ([$Benefit]/100) x [Naked] || 
+    | AddSwiftness || [AddSwiftness] + Min(([$Benefit]/100) x [Naked],300) || 
     |-
     | Benefit || 25+([AncestralData.Ancestral_Level]x3.5) || 
   |}

@@ -1,0 +1,9 @@
+[
+  {
+    "from": "monster_slime_add",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [],
+    "reference": "CommonLoot T7"
+  }
+]

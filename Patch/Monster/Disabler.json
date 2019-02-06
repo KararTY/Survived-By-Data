@@ -314,11 +314,6 @@
             "value": 160
           },
           {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
-          },
-          {
             "key": "Accuracy",
             "equation": "([Level]*[Level])*0.4 + 150",
             "value": 0
@@ -700,11 +695,6 @@
             "value": 145
           },
           {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
-          },
-          {
             "key": "Accuracy",
             "equation": "([Level]*[Level])*0.4 + 150",
             "value": 0
@@ -1077,11 +1067,6 @@
             "key": "SpecialWeaponDamage",
             "equation": "",
             "value": 135
-          },
-          {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
           },
           {
             "key": "Accuracy",

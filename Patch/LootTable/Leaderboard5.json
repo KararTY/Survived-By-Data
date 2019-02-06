@@ -1,0 +1,29 @@
+[
+  {
+    "from": "Leaderboard5",
+    "guaranteeItemCount": 2,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "My boat wasn't down there",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      },
+      {
+        "item": "Valr",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1000
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "from": "Bookshelf_NPC",
+    "guaranteeItemCount": 1,
+    "maximumItemCount": 1,
+    "lootTable": [
+      {
+        "item": "Journal Scraps",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ]
+  }
+]

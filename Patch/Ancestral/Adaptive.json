@@ -2,7 +2,7 @@
   {
     "name": "Adaptive",
     "alias": "Adaptive 1",
-    "description": "On Hit, gain #% Crit Chance. Once a critical hit is landed, this bonus resets to zero\n",
+    "description": "On Hit, gain #% Crit Score. Once a critical hit is landed, this bonus resets to zero\n",
     "doNotAward": false,
     "data": [
       {
@@ -131,7 +131,7 @@
   {
     "name": "Adaptive",
     "alias": "Adaptive 2",
-    "description": "On Hit, gain #% Crit Chance. Once a critical hit is landed, this bonus resets to zero\n",
+    "description": "On Hit, gain #% Crit Score. Once a critical hit is landed, this bonus resets to zero\n",
     "doNotAward": false,
     "data": [
       {
@@ -260,13 +260,13 @@
   {
     "name": "Adaptive",
     "alias": "Adaptive 3",
-    "description": "On Hit, gain #% Crit Chance. Once a critical hit is landed, this bonus resets to zero\n",
+    "description": "On Hit, gain #% Crit Score. Once a critical hit is landed, this bonus resets to zero\n",
     "doNotAward": false,
     "data": [
       {
         "proc": {
           "name": "Adaptive 3",
-          "description": "On Hit, gain #% Crit Chance. Once a critical hit is landed, this bonus resets to zero\r",
+          "description": "On Hit, gain #% Crit Score. Once a critical hit is landed, this bonus resets to zero\r",
           "counterMax": 0,
           "timerValue": 0,
           "projectileDamageMultiplier": 1,

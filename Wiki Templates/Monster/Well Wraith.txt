@@ -9,11 +9,10 @@
   |max_health = {{Icon|Health|nolink=1}} 3375<br><small>3000+([Level]x375)</small>
   |damage_bonus = 285<br><small>275+([Level]x10)</small>
   |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
-    {{!}} '''well mage projectile''' {{!!}} <center>{{CSS image crop|Image=Well Wraith Lesser.png|bSize=256|cWidth=32|cHeight=32|oBottom=128|oLeft=160}}</center>
+    {{!}} '''well mage projectile''' {{!!}} <center>{{CSS image crop|Image=Well Wraith Lesser.png|bSize=256|cWidth=32|cHeight=31|oBottom=129|oLeft=159}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-

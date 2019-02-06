@@ -142,11 +142,6 @@
             "value": 0
           },
           {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
-          },
-          {
             "key": "Accuracy",
             "equation": "([Level]*[Level])*0.4 + 150",
             "value": 0
@@ -347,11 +342,6 @@
             "key": "Experience",
             "equation": "",
             "value": 65
-          },
-          {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
           },
           {
             "key": "Accuracy",
@@ -619,11 +609,6 @@
             "value": 800
           },
           {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
-          },
-          {
             "key": "Accuracy",
             "equation": "([Level]*[Level])*0.4 + 150",
             "value": 0
@@ -887,11 +872,6 @@
             "key": "Experience",
             "equation": "",
             "value": 800
-          },
-          {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
           },
           {
             "key": "Accuracy",

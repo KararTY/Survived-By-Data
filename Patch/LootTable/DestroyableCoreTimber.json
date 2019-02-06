@@ -1,0 +1,19 @@
+[
+  {
+    "from": "DestroyableCoreTimber",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Timber",
+        "count": {
+          "dice": 2,
+          "faces": 2,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

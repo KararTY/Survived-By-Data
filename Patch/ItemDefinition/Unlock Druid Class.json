@@ -2,7 +2,7 @@
   {
     "name": "Unlock Druid Class",
     "alias": "Unlock Druid",
-    "description": "Unlock By Perishing in the Well with the Harbinger",
+    "description": "This class can also be unlock By dying in the Well with the Harbinger",
     "price": 200,
     "sellPrice": 0,
     "consumable": false,
@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "druid_01",
-          "baseSize": {
-            "width": 192,
-            "height": 144
-          },
-          "textureRectangle": {
-            "x": 53,
-            "y": 48,
-            "width": 41,
-            "height": 45
-          },
-          "textureOffset": {
-            "x": 5,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

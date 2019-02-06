@@ -1,0 +1,11 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+'''Loot table: ([[Loot table/DestroyableBaseResin|DestroyableBaseResin]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1-4 || {{Icon|Resin}} || style="text-align:right" | 100% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/DestroyableBaseResin}}
+[[Category:Loot table]]</noinclude>

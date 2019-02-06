@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "infiltrator_alt4",
-          "baseSize": {
-            "width": 192,
-            "height": 192
-          },
-          "textureRectangle": {
-            "x": 4,
-            "y": 144,
-            "width": 36,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 4,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

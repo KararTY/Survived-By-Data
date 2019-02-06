@@ -12,7 +12,6 @@ boss_goliath3={{Enemy
   |experience = 500000
   |damage_bonus = 630
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -125,7 +124,6 @@ boss_goliath2={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 2450000
   |damage_bonus = 720
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 700
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -219,7 +217,6 @@ boss_goliath={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 2450000
   |damage_bonus = 630
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 630
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"

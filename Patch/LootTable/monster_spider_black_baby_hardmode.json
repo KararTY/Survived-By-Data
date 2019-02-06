@@ -21,7 +21,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
+        "chance": 1.5,
         "allowModifiers": true
       }
     ],

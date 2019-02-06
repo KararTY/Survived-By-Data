@@ -9,7 +9,6 @@ monster_agent_collector_tutorial={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 2400
   |damage_bonus = 240
   |accuracy = 156.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 28.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -77,7 +76,6 @@ monster_agent_collector={{Enemy
   |experience = 550
   |damage_bonus = 153
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 140
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -147,7 +145,6 @@ monster_agent_collector_elite={{Enemy
   |experience = 2200
   |damage_bonus = 163
   |accuracy = 361.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 130.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 145
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -215,7 +212,6 @@ monster_agent_collector_dangerous={{Enemy
   |experience = 1100
   |damage_bonus = 220
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 150
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -284,7 +280,6 @@ monster_agent_collector_T7={{Enemy
   |experience = 775
   |damage_bonus = 253
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 230
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"

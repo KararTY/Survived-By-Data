@@ -4,11 +4,13 @@
 |-
 ! Amount || Item || Chance
 |-
-| x35-108 || {{Icon|Silver}} || style="text-align:right" | 100% 
+| x44-108 || {{Icon|Silver}} || style="text-align:right" | 100% 
 |-
 | x1 || {{Icon|Mythril Catalyst}} || style="text-align:right" | 100% 
 |-
 | x1 || {{Icon|Monastery of the Rift Key}} || style="text-align:right" | 10% 
+|-
+| x1-4 || {{Icon|Blue Jade}} || style="text-align:right" | 10% 
 |-
 | x1 || {{Icon|Hollow Amulet}} || style="text-align:right" | 9% 
 |-
@@ -35,8 +37,6 @@
 | x1 || {{Icon|Zweihander}} || style="text-align:right" | 5% 
 |-
 | x1 || {{Icon|Hollow Dagger}} || style="text-align:right" | 5% 
-|-
-| x1-4 || {{Icon|Blue Jade}} || style="text-align:right" | 5% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/boss_heartoftheforest}}

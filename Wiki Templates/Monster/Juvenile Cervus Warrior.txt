@@ -11,7 +11,6 @@ monster_chimera_stag_feral_T1={{Enemy
   |experience = 10
   |damage_bonus = 15
   |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -60,7 +59,6 @@ invasion_T1_stag_feral={{Enemy
   |experience = 10
   |damage_bonus = 18
   |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

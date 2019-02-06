@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "Attachment_Back_Air Wings_menu image",
-          "baseSize": {
-            "width": 80,
-            "height": 80
-          },
-          "textureRectangle": {
-            "x": 14,
-            "y": 15,
-            "width": 58,
-            "height": 65
-          },
-          "textureOffset": {
-            "x": 14,
-            "y": 15
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

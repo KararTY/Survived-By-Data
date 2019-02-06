@@ -1,0 +1,29 @@
+[
+  {
+    "from": "Leaderboard3",
+    "guaranteeItemCount": 2,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "I died, but got better",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      },
+      {
+        "item": "Valr",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1000
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ]
+  }
+]

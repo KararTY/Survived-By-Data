@@ -10,7 +10,6 @@ monster_krakententacle={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 14000
   |damage_bonus = 220
   |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 170.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -49,7 +48,6 @@ monster_krakententacle_hardmode={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 62500
   |damage_bonus = 320
   |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

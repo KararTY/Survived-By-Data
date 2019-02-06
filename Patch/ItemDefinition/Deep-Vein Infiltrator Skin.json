@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "infiltrator_halloween",
-          "baseSize": {
-            "width": 192,
-            "height": 192
-          },
-          "textureRectangle": {
-            "x": 3,
-            "y": 144,
-            "width": 37,
-            "height": 31
-          },
-          "textureOffset": {
-            "x": 3,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

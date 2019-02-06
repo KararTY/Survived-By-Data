@@ -12,7 +12,6 @@ monster_agent_disabler={{Enemy
   |experience = 550
   |damage_bonus = 153
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 135
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -97,7 +96,6 @@ monster_agent_collector_elite_minion={{Enemy
   |experience = 1100
   |damage_bonus = 163
   |accuracy = 361.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 130.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 145
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
@@ -181,7 +179,6 @@ monster_agent_disabler_dangerous={{Enemy
   |experience = 1100
   |damage_bonus = 260
   |accuracy = 343.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 121.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |special_weapon_damage = 160
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"

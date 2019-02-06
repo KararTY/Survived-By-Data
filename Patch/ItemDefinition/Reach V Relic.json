@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 1,
-    "data": [
-      {
-        "sprite": {
-          "name": "S_Ice06",
-          "baseSize": {
-            "width": 34,
-            "height": 34
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 1,
-            "width": 33,
-            "height": 33
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 1
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "stats": [
       {
         "key": "PickupRadiusExpansion",

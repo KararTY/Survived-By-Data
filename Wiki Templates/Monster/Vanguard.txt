@@ -9,7 +9,6 @@ monster_burrower_tutorial={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 2400
   |damage_bonus = 240
   |accuracy = 207.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 53.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -51,7 +50,6 @@ monster_burrower={{Enemy
   |experience = 65
   |damage_bonus = 35
   |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 34.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

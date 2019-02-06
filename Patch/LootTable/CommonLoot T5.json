@@ -9,7 +9,7 @@
         "count": {
           "dice": 1,
           "faces": 10,
-          "add": 5
+          "add": 6
         },
         "chance": 3,
         "allowModifiers": true

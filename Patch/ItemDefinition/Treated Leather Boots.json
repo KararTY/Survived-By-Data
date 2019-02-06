@@ -12,33 +12,8 @@
     "tier": 5,
     "data": [
       {
-        "sprite": {
-          "name": "Boots Light 5",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 1,
-            "y": 1,
-            "width": 30,
-            "height": 27
-          },
-          "textureOffset": {
-            "x": 1,
-            "y": 1
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
-          "craftingTime": 900,
+          "craftingTime": 300,
           "requiredItems": [
             {
               "name": "Enriched Leather",

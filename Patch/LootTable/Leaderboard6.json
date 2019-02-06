@@ -1,0 +1,29 @@
+[
+  {
+    "from": "Leaderboard6",
+    "guaranteeItemCount": 2,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "I'm helping!",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      },
+      {
+        "item": "Valr",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1000
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ]
+  }
+]

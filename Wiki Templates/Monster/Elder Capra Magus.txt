@@ -11,7 +11,6 @@ monster_chimera_mtgoat_mage_dung={{Enemy
   |experience = 340
   |damage_bonus = 100
   |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -52,7 +51,6 @@ monster_chimera_mtgoat_mage_dung_dangerous={{Enemy
   |experience = 680
   |damage_bonus = 145
   |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -93,7 +91,6 @@ invasion_T4_mtgoat_mage={{Enemy
   |experience = 340
   |damage_bonus = 120
   |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 82.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

@@ -11,7 +11,6 @@ monster_scout_elite_minion={{Enemy
   |experience = 8
   |damage_bonus = 20
   |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -52,7 +51,6 @@ monster_scout_elite={{Enemy
   |experience = 8
   |damage_bonus = 20
   |accuracy = 151.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 25.8<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

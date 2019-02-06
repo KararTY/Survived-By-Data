@@ -8,7 +8,6 @@ boss_shaman_torch1={{Enemy
   |level = 19
   |max_health = {{Icon|Health|nolink=1}} 900
   |accuracy = 294.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 97.2<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
 boss_shaman_torch_hardmode={{Enemy
@@ -21,7 +20,6 @@ boss_shaman_torch_hardmode={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 60000
   |damage_bonus = 180
   |accuracy = 510<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 205<br><small>([Level]x[Level])x0.2 + 25</small>
   }}
 |-|
 </tabber></div>

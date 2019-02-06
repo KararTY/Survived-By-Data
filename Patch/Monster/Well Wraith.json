@@ -15,17 +15,17 @@
               "name": "Well Wraith Lesser",
               "baseSize": {
                 "width": 256,
-                "height": 256
+                "height": 320
               },
               "textureRectangle": {
-                "x": 160,
-                "y": 96,
+                "x": 159,
+                "y": 160,
                 "width": 32,
-                "height": 32
+                "height": 31
               },
               "textureOffset": {
                 "x": 0,
-                "y": 0
+                "y": 1
               },
               "color": {
                 "r": 0.46,
@@ -69,11 +69,11 @@
           "name": "Well Wraith Lesser",
           "baseSize": {
             "width": 256,
-            "height": 256
+            "height": 320
           },
           "textureRectangle": {
             "x": 0,
-            "y": 192,
+            "y": 256,
             "width": 60,
             "height": 64
           },
@@ -131,11 +131,6 @@
             "key": "ValrIncrease",
             "equation": "Min((Pow(2,([Level]-20)))*25,2500)",
             "value": 1
-          },
-          {
-            "key": "CriticalDefense",
-            "equation": "([Level]*[Level])*0.2 + 25",
-            "value": 0
           },
           {
             "key": "Accuracy",

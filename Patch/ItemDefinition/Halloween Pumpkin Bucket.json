@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 0,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "Attachment_Halloween_pumpkin bucket_menu image",
-          "baseSize": {
-            "width": 80,
-            "height": 80
-          },
-          "textureRectangle": {
-            "x": 15,
-            "y": 21,
-            "width": 42,
-            "height": 48
-          },
-          "textureOffset": {
-            "x": 15,
-            "y": 21
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

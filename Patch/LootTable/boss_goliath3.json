@@ -59,9 +59,9 @@
         "count": {
           "dice": 1,
           "faces": 5,
-          "add": 2
+          "add": 3
         },
-        "chance": 5,
+        "chance": 10,
         "allowModifiers": true
       }
     ],

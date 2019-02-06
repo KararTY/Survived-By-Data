@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Cauldron",
+    "alias": "monster_cauldron",
+    "description": "",
+    "isBoss": false,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [],
+    "data": [
+      {
+        "sprite": {
+          "name": "Cauldron_01_Anim",
+          "baseSize": {
+            "width": 256,
+            "height": 64
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 62
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bEnemy": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 25
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 50000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 200
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 5
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 15000
+          },
+          {
+            "key": "CriticalDefense",
+            "equation": "([Level]*[Level])*0.2 + 25",
+            "value": 0
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "BossKrakenTentaclePain1",
+            "BossKrakenTentaclePain2",
+            "BossKrakenTentaclePain3",
+            "BossKrakenTentaclePain4",
+            "BossKrakenTentaclePain5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "BossKrakenTentacleDeath1",
+            "BossKrakenTentacleDeath2",
+            "BossKrakenTentacleDeath3",
+            "BossKrakenTentacleDeath4",
+            "BossKrakenTentacleDeath5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Spirit",
+    "element": "Ki"
+  }
+]

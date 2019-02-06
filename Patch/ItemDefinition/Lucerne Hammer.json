@@ -12,33 +12,8 @@
     "tier": 5,
     "data": [
       {
-        "sprite": {
-          "name": "Geomancer 5",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 1,
-            "y": 0,
-            "width": 31,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 1,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "crafting": {
-          "craftingTime": 900,
+          "craftingTime": 300,
           "requiredItems": [
             {
               "name": "Enriched Obsidian",
@@ -124,33 +99,7 @@
     "type": "Weapon",
     "maxStack": 1,
     "tier": 4,
-    "data": [
-      {
-        "sprite": {
-          "name": "Geomancer 1",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 32,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0,
       100,

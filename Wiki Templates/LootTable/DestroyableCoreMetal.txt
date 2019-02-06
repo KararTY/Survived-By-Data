@@ -1,0 +1,11 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+'''Loot table: ([[Loot table/DestroyableCoreMetal|DestroyableCoreMetal]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1-4 || {{Icon|Metal}} || style="text-align:right" | 100% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/DestroyableCoreMetal}}
+[[Category:Loot table]]</noinclude>

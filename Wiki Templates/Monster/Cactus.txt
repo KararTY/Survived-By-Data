@@ -12,7 +12,6 @@ plant_cactus={{Enemy
   |experience = 140
   |damage_bonus = 60
   |accuracy = 198.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 49.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -41,7 +40,6 @@ boss_elementalspirit_cactus_seed={{Enemy
   |level = 31
   |max_health = {{Icon|Health|nolink=1}} 7000
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -71,7 +69,6 @@ boss_elementalspirit_cactus={{Enemy
   |max_health = {{Icon|Health|nolink=1}} 13000
   |damage_bonus = 330
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

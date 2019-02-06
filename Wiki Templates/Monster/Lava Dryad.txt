@@ -12,7 +12,6 @@ monster_spirit_dryad_lava_quest={{Enemy
   |experience = 1000
   |damage_bonus = 185
   |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -82,7 +81,6 @@ subboss_spirit_dryad_lava_small={{Enemy
   |experience = 25000
   |damage_bonus = 530
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -175,7 +173,6 @@ subboss_spirit_dryad_lava_medium={{Enemy
   |experience = 25000
   |damage_bonus = 530
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -270,7 +267,6 @@ subboss_spirit_dryad_lava={{Enemy
   |experience = 25000
   |damage_bonus = 530
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 217.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

@@ -11,7 +11,6 @@ monster_clam={{Enemy
   |experience = 300
   |damage_bonus = 95
   |accuracy = 252.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 76.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -42,7 +41,6 @@ monster_clam_infernal={{Enemy
   |experience = 750
   |damage_bonus = 215
   |accuracy = 420.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 160.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

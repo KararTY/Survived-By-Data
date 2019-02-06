@@ -67,13 +67,8 @@
             "value": 0
           },
           {
-            "key": "CriticalDefense",
-            "equation": "",
-            "value": 0
-          },
-          {
             "key": "Accuracy",
-            "equation": "",
+            "equation": "([Level]*[Level])*0.4 + 150",
             "value": 0
           }
         ]
@@ -170,13 +165,8 @@
             "value": 0
           },
           {
-            "key": "CriticalDefense",
-            "equation": "",
-            "value": 0
-          },
-          {
             "key": "Accuracy",
-            "equation": "",
+            "equation": "([Level]*[Level])*0.4 + 150",
             "value": 0
           }
         ]

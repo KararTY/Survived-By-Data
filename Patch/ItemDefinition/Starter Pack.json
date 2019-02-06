@@ -12,31 +12,6 @@
     "tier": 0,
     "data": [
       {
-        "sprite": {
-          "name": "Store_launch pack 01_Starter",
-          "baseSize": {
-            "width": 250,
-            "height": 296
-          },
-          "textureRectangle": {
-            "x": 0,
-            "y": 0,
-            "width": 250,
-            "height": 296
-          },
-          "textureOffset": {
-            "x": 0,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
         "sale": {
           "estimatedPrice": "$15.99",
           "price": "$4.99"

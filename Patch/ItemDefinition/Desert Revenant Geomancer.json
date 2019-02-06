@@ -2,7 +2,7 @@
   {
     "name": "Desert Revenant Geomancer",
     "alias": "Unlock Skin Geomancer Sin",
-    "description": "A once great civilization used to occupy the Cinder Valley. And though there is nothing left of the people, the wreckage of their garb and armor remains. The helmets of their geomancers were adorned with false beards of raw gems.",
+    "description": "A great civilization once occupied the Cinder Valley, but now little remains except wreckage. The helmets of their geomancers were adorned with false beards of raw gems.",
     "price": 725,
     "sellPrice": 0,
     "consumable": false,
@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "geomancer_sin",
-          "baseSize": {
-            "width": 192,
-            "height": 192
-          },
-          "textureRectangle": {
-            "x": 6,
-            "y": 144,
-            "width": 32,
-            "height": 41
-          },
-          "textureOffset": {
-            "x": 6,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

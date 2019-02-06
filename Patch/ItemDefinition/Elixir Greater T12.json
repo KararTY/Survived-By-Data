@@ -10,33 +10,7 @@
     "type": "Consumable",
     "maxStack": 1,
     "tier": 12,
-    "data": [
-      {
-        "sprite": {
-          "name": "P_Pink05",
-          "baseSize": {
-            "width": 34,
-            "height": 34
-          },
-          "textureRectangle": {
-            "x": 5,
-            "y": 0,
-            "width": 23,
-            "height": 34
-          },
-          "textureOffset": {
-            "x": 5,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],

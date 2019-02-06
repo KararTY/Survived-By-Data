@@ -20,6 +20,11 @@
                 "key": "DamageBonus",
                 "equation": "[DamageBonus]  - ([DamageBonus] * [Proc.Benefit]/100)",
                 "value": 0
+              },
+              {
+                "key": "SpecialWeaponDamage",
+                "equation": "[SpecialWeaponDamage]  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)",
+                "value": 0
               }
             ],
             "isBuff": false,
@@ -149,6 +154,11 @@
                 "key": "DamageBonus",
                 "equation": "[DamageBonus]  - ([DamageBonus] * [Proc.Benefit]/100)",
                 "value": 0
+              },
+              {
+                "key": "SpecialWeaponDamage",
+                "equation": "[SpecialWeaponDamage]  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)",
+                "value": 0
               }
             ],
             "isBuff": false,
@@ -277,6 +287,11 @@
               {
                 "key": "DamageBonus",
                 "equation": "[DamageBonus]  - ([DamageBonus] * [Proc.Benefit]/100)",
+                "value": 0
+              },
+              {
+                "key": "SpecialWeaponDamage",
+                "equation": "[SpecialWeaponDamage]  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)",
                 "value": 0
               }
             ],

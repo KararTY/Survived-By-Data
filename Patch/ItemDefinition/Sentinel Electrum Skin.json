@@ -10,33 +10,7 @@
     "type": "Misc",
     "maxStack": 1,
     "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "sentinel_electrum",
-          "baseSize": {
-            "width": 192,
-            "height": 144
-          },
-          "textureRectangle": {
-            "x": 3,
-            "y": 96,
-            "width": 38,
-            "height": 43
-          },
-          "textureOffset": {
-            "x": 3,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      }
-    ],
+    "data": [],
     "experiencePerLevel": [
       0
     ],
