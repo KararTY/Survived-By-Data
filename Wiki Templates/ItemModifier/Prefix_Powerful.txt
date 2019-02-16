@@ -7,6 +7,20 @@
   |-
   | Name modification || colspan="2" | deprecated ...
   |-
+|}
+{| class="wikitable mw-collapsible mw-collapsed"
+  ! colspan="3" | Weapon {{Icon|Alchemist|nolink=1}} {{Icon|Harbinger|nolink=1}} {{Icon|Infiltrator|nolink=1}} {{Icon|Sentinel|nolink=1}} {{Icon|Geomancer|nolink=1}} {{Icon|Druid|nolink=1}}
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | WeaponIndex ||  || 23
+  |-
+  | DamageBonus || x1.2<br>(Damage increase by <strong style="color:green;">20%</strong>) || 
+  |-
+  | Gear_Score || x1.1 || 
+  |-
   | colspan="3" style="padding:0;" |
   {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
     ! Crafting
@@ -130,19 +144,6 @@
       | colspan="2" | x1 {{Icon|Embers}} <br>x1 {{Icon|Remnant}} 
     |}
   |}
-|}
-{| class="wikitable mw-collapsible mw-collapsed"
-  ! colspan="3" | Weapon {{Icon|Alchemist|nolink=1}} {{Icon|Harbinger|nolink=1}} {{Icon|Infiltrator|nolink=1}} {{Icon|Sentinel|nolink=1}} {{Icon|Geomancer|nolink=1}} {{Icon|Druid|nolink=1}}
-  |-
-  ! colspan="3" | Stats
-  |-
-  ! Key !! Equation !! Value
-  |-
-  | WeaponIndex ||  || 23
-  |-
-  | DamageBonus || x1.2<br>(Damage increase by <strong style="color:green;">20%</strong>) || 
-  |-
-  | Gear_Score || x1.1 || 
 |}
 <includeonly>
 [[Category:Imprint]]

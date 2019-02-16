@@ -11,6 +11,22 @@
   |-
   | Chance to apply || colspan="2" | 5%
   |-
+|}
+{| class="wikitable mw-collapsible mw-collapsed"
+  ! colspan="3" | Weapon {{Icon|Druid|nolink=1}}
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | Tier || [ItemInstance.Suffix_Level]+1 || 
+  |-
+  | Gear_Score || x1.1 || 
+  |-
+  | Focus || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
+  |-
+  | Willpower || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
+  |-
   | colspan="3" style="padding:0;" |
   {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
     ! Crafting
@@ -135,21 +151,6 @@
     |}
   |}
 |}
-{| class="wikitable mw-collapsible mw-collapsed"
-  ! colspan="3" | Weapon {{Icon|Druid|nolink=1}}
-  |-
-  ! colspan="3" | Stats
-  |-
-  ! Key !! Equation !! Value
-  |-
-  | Tier || [ItemInstance.Suffix_Level]+1 || 
-  |-
-  | Gear_Score || x1.1 || 
-  |-
-  | Focus || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
-  |-
-  | Willpower || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
-|}
   {| class="wikitable mw-collapsible mw-collapsed"
   ! colspan="3" | Weapon {{Icon|Geomancer|nolink=1}}
   |-
@@ -164,6 +165,130 @@
   | Focus || +[$Tier]x1.2<br>('''Min level:''' <strong style="color:green;">+1.2</strong> '''Max level:''' <strong style="color:green;">+12</strong>) || 
   |-
   | Willpower || +[$Tier]x1.5<br>('''Min level:''' <strong style="color:green;">+1.5</strong> '''Max level:''' <strong style="color:green;">+15</strong>) || 
+  |-
+  | colspan="3" style="padding:0;" |
+  {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+    ! Crafting
+    |-
+    | colspan="3" style="padding:0;" |
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 1 (2)
+      |-
+      | Crafting cost || 20
+      |-
+      | Craft now cost || 3 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 30 seconds
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Embers}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 2 (3)
+      |-
+      | Crafting cost || 50
+      |-
+      | Craft now cost || 8 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Core Embers}} <br>x1 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 3 (4)
+      |-
+      | Crafting cost || 100
+      |-
+      | Craft now cost || 25 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 10 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Core Embers}} <br>x2 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 4 (5)
+      |-
+      | Crafting cost || 200
+      |-
+      | Craft now cost || 30 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 15 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Enriched Embers}} <br>x1 {{Icon|Enriched Remnant}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 5 (6)
+      |-
+      | Crafting cost || 500
+      |-
+      | Craft now cost || 90 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 1 hour
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Enriched Embers}} <br>x2 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 6 (7)
+      |-
+      | Crafting cost || 1000
+      |-
+      | Craft now cost || 160 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x6 {{Icon|Enriched Embers}} <br>x3 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 7 (8)
+      |-
+      | Crafting cost || 2000
+      |-
+      | Craft now cost || 300 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 5 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Composite Smoldering Alloy}} <br>x1 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 8 (9)
+      |-
+      | Crafting cost || 5000
+      |-
+      | Craft now cost || 550 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 12 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Composite Smoldering Alloy}} <br>x2 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Composite Smoldering Grain}} <br>x1 {{Icon|Composite Obsidian Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 9 (10)
+      |-
+      | Crafting cost || 10000
+      |-
+      | Craft now cost || 800 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 24 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Branding Fuel}} <br>x1 {{Icon|Branding Ink}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+  |}
 |}
   {| class="wikitable mw-collapsible mw-collapsed"
   ! colspan="3" | Weapon {{Icon|Harbinger|nolink=1}}
@@ -179,6 +304,130 @@
   | Focus || +[$Tier]x1.5<br>('''Min level:''' <strong style="color:green;">+1.5</strong> '''Max level:''' <strong style="color:green;">+15</strong>) || 
   |-
   | Willpower || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
+  |-
+  | colspan="3" style="padding:0;" |
+  {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+    ! Crafting
+    |-
+    | colspan="3" style="padding:0;" |
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 1 (2)
+      |-
+      | Crafting cost || 20
+      |-
+      | Craft now cost || 3 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 30 seconds
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Embers}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 2 (3)
+      |-
+      | Crafting cost || 50
+      |-
+      | Craft now cost || 8 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Core Embers}} <br>x1 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 3 (4)
+      |-
+      | Crafting cost || 100
+      |-
+      | Craft now cost || 25 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 10 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Core Embers}} <br>x2 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 4 (5)
+      |-
+      | Crafting cost || 200
+      |-
+      | Craft now cost || 30 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 15 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Enriched Embers}} <br>x1 {{Icon|Enriched Remnant}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 5 (6)
+      |-
+      | Crafting cost || 500
+      |-
+      | Craft now cost || 90 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 1 hour
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Enriched Embers}} <br>x2 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 6 (7)
+      |-
+      | Crafting cost || 1000
+      |-
+      | Craft now cost || 160 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x6 {{Icon|Enriched Embers}} <br>x3 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 7 (8)
+      |-
+      | Crafting cost || 2000
+      |-
+      | Craft now cost || 300 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 5 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Composite Smoldering Fabric}} <br>x1 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 8 (9)
+      |-
+      | Crafting cost || 5000
+      |-
+      | Craft now cost || 550 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 12 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Composite Smoldering Fabric}} <br>x2 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Composite Smoldering Alloy}} <br>x1 {{Icon|Composite Obsidian Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 9 (10)
+      |-
+      | Crafting cost || 10000
+      |-
+      | Craft now cost || 800 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 24 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Branding Quill}} <br>x1 {{Icon|Branding Quench}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+  |}
 |}
   {| class="wikitable mw-collapsible mw-collapsed"
   ! colspan="3" | Weapon {{Icon|Alchemist|nolink=1}}
@@ -194,6 +443,130 @@
   | Focus || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
   |-
   | Willpower || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
+  |-
+  | colspan="3" style="padding:0;" |
+  {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+    ! Crafting
+    |-
+    | colspan="3" style="padding:0;" |
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 1 (2)
+      |-
+      | Crafting cost || 20
+      |-
+      | Craft now cost || 3 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 30 seconds
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Embers}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 2 (3)
+      |-
+      | Crafting cost || 50
+      |-
+      | Craft now cost || 8 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Core Embers}} <br>x1 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 3 (4)
+      |-
+      | Crafting cost || 100
+      |-
+      | Craft now cost || 25 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 10 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Core Embers}} <br>x2 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 4 (5)
+      |-
+      | Crafting cost || 200
+      |-
+      | Craft now cost || 30 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 15 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Enriched Embers}} <br>x1 {{Icon|Enriched Remnant}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 5 (6)
+      |-
+      | Crafting cost || 500
+      |-
+      | Craft now cost || 90 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 1 hour
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Enriched Embers}} <br>x2 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 6 (7)
+      |-
+      | Crafting cost || 1000
+      |-
+      | Craft now cost || 160 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x6 {{Icon|Enriched Embers}} <br>x3 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 7 (8)
+      |-
+      | Crafting cost || 2000
+      |-
+      | Craft now cost || 300 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 5 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Composite Smoldering Fabric}} <br>x1 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 8 (9)
+      |-
+      | Crafting cost || 5000
+      |-
+      | Craft now cost || 550 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 12 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Composite Smoldering Fabric}} <br>x2 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Composite Smoldering Grain}} <br>x1 {{Icon|Composite Obsidian Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 9 (10)
+      |-
+      | Crafting cost || 10000
+      |-
+      | Craft now cost || 800 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 24 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Branding Quill}} <br>x1 {{Icon|Branding Ink}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+  |}
 |}
   {| class="wikitable mw-collapsible mw-collapsed"
   ! colspan="3" | Weapon {{Icon|Sentinel|nolink=1}}
@@ -209,6 +582,130 @@
   | Focus || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
   |-
   | Willpower || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
+  |-
+  | colspan="3" style="padding:0;" |
+  {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+    ! Crafting
+    |-
+    | colspan="3" style="padding:0;" |
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 1 (2)
+      |-
+      | Crafting cost || 20
+      |-
+      | Craft now cost || 3 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 30 seconds
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Embers}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 2 (3)
+      |-
+      | Crafting cost || 50
+      |-
+      | Craft now cost || 8 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Core Embers}} <br>x1 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 3 (4)
+      |-
+      | Crafting cost || 100
+      |-
+      | Craft now cost || 25 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 10 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Core Embers}} <br>x2 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 4 (5)
+      |-
+      | Crafting cost || 200
+      |-
+      | Craft now cost || 30 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 15 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Enriched Embers}} <br>x1 {{Icon|Enriched Remnant}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 5 (6)
+      |-
+      | Crafting cost || 500
+      |-
+      | Craft now cost || 90 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 1 hour
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Enriched Embers}} <br>x2 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 6 (7)
+      |-
+      | Crafting cost || 1000
+      |-
+      | Craft now cost || 160 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x6 {{Icon|Enriched Embers}} <br>x3 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 7 (8)
+      |-
+      | Crafting cost || 2000
+      |-
+      | Craft now cost || 300 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 5 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Composite Smoldering Alloy}} <br>x1 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 8 (9)
+      |-
+      | Crafting cost || 5000
+      |-
+      | Craft now cost || 550 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 12 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Composite Smoldering Alloy}} <br>x2 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Composite Smoldering Grain}} <br>x1 {{Icon|Composite Obsidian Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 9 (10)
+      |-
+      | Crafting cost || 10000
+      |-
+      | Craft now cost || 800 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 24 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Branding Parchment}} <br>x1 {{Icon|Branding Press}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+  |}
 |}
   {| class="wikitable mw-collapsible mw-collapsed"
   ! colspan="3" | Weapon {{Icon|Infiltrator|nolink=1}}
@@ -224,6 +721,130 @@
   | Focus || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
   |-
   | Willpower || +[$Tier]x0.5<br>('''Min level:''' <strong style="color:green;">+0.5</strong> '''Max level:''' <strong style="color:green;">+5</strong>) || 
+  |-
+  | colspan="3" style="padding:0;" |
+  {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+    ! Crafting
+    |-
+    | colspan="3" style="padding:0;" |
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 1 (2)
+      |-
+      | Crafting cost || 20
+      |-
+      | Craft now cost || 3 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 30 seconds
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Embers}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 2 (3)
+      |-
+      | Crafting cost || 50
+      |-
+      | Craft now cost || 8 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Core Embers}} <br>x1 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 3 (4)
+      |-
+      | Crafting cost || 100
+      |-
+      | Craft now cost || 25 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 10 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Core Embers}} <br>x2 {{Icon|Core Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 4 (5)
+      |-
+      | Crafting cost || 200
+      |-
+      | Craft now cost || 30 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 15 minutes
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Enriched Embers}} <br>x1 {{Icon|Enriched Remnant}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 5 (6)
+      |-
+      | Crafting cost || 500
+      |-
+      | Craft now cost || 90 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 1 hour
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x4 {{Icon|Enriched Embers}} <br>x2 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 6 (7)
+      |-
+      | Crafting cost || 1000
+      |-
+      | Craft now cost || 160 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 2 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x6 {{Icon|Enriched Embers}} <br>x3 {{Icon|Enriched Remnant}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 7 (8)
+      |-
+      | Crafting cost || 2000
+      |-
+      | Craft now cost || 300 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 5 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Composite Smoldering Alloy}} <br>x1 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 8 (9)
+      |-
+      | Crafting cost || 5000
+      |-
+      | Craft now cost || 550 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 12 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x2 {{Icon|Composite Smoldering Alloy}} <br>x2 {{Icon|Composite Timber Sign}} <br>x1 {{Icon|Composite Smoldering Fabric}} <br>x1 {{Icon|Composite Obsidian Sign}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+    {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+      ! colspan="2" | '''Level:''' 9 (10)
+      |-
+      | Crafting cost || 10000
+      |-
+      | Craft now cost || 800 {{Icon|Electrum}} 
+      |-
+      | Crafting time || 24 hours
+      |-
+      ! colspan="2" | Required items
+      |-
+      | colspan="2" | x1 {{Icon|Branding Quench}} <br>x1 {{Icon|Branding Press}} <br>x1 {{Icon|Greater Dedication Imprint}} 
+    |}
+  |}
 |}
 <includeonly>
 [[Category:Imprint]]

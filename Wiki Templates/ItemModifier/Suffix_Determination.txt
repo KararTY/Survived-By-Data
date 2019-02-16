@@ -11,6 +11,24 @@
   |-
   | Chance to apply || colspan="2" | 10%
   |-
+|}
+{| class="wikitable mw-collapsible mw-collapsed"
+  ! colspan="3" | Ring {{Icon|Alchemist|nolink=1}} {{Icon|Harbinger|nolink=1}} {{Icon|Infiltrator|nolink=1}} {{Icon|Sentinel|nolink=1}} {{Icon|Geomancer|nolink=1}} {{Icon|Druid|nolink=1}}
+  |-
+  ! colspan="3" | Stats
+  |-
+  ! Key !! Equation !! Value
+  |-
+  | Tier || [ItemInstance.Suffix_Level]+1 || 
+  |-
+  | Gear_Score || x1.1 || 
+  |-
+  | ManaMax || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
+  |-
+  | Focus || -[$Tier]<br>('''Min level:''' <strong style="color:red;">-1</strong> '''Max level:''' <strong style="color:red;">-10</strong>) || 
+  |-
+  | Willpower || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
+  |-
   | colspan="3" style="padding:0;" |
   {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
     ! Crafting
@@ -134,23 +152,6 @@
       | colspan="2" | x1 {{Icon|Branding Fuel}} <br>x1 {{Icon|Branding Press}} <br>x1 {{Icon|Determination Imprint}} 
     |}
   |}
-|}
-{| class="wikitable mw-collapsible mw-collapsed"
-  ! colspan="3" | Ring {{Icon|Alchemist|nolink=1}} {{Icon|Harbinger|nolink=1}} {{Icon|Infiltrator|nolink=1}} {{Icon|Sentinel|nolink=1}} {{Icon|Geomancer|nolink=1}} {{Icon|Druid|nolink=1}}
-  |-
-  ! colspan="3" | Stats
-  |-
-  ! Key !! Equation !! Value
-  |-
-  | Tier || [ItemInstance.Suffix_Level]+1 || 
-  |-
-  | Gear_Score || x1.1 || 
-  |-
-  | ManaMax || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
-  |-
-  | Focus || -[$Tier]<br>('''Min level:''' <strong style="color:red;">-1</strong> '''Max level:''' <strong style="color:red;">-10</strong>) || 
-  |-
-  | Willpower || +[$Tier]<br>('''Min level:''' <strong style="color:green;">+1</strong> '''Max level:''' <strong style="color:green;">+10</strong>) || 
 |}
 <includeonly>
 [[Category:Imprint]]

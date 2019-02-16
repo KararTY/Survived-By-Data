@@ -576,29 +576,6 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
             ${gItemModifierStats(equipmentSet.stats, item).replace(/      /g , '').replace(/    /g, '  ')}
             |}`.replace(/            /g, '  ')
           })() : ''}
-          ${craftingRecipe ? (function () {
-            var cr = craftingRecipe[0]
-            return `| colspan="3" style="padding:0;" |
-          {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
-            ! Crafting
-            |-
-            | colspan="3" style="padding:0;" |
-            ${cr.leveledRecipes.map(v => {
-                return `{| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
-                    ! colspan="2" | '''Level:''' ${v.level} (${v.level + 1})
-                    |-
-                    | Crafting cost || ${v.craftCost}
-                    |-
-                    | Craft now cost || ${v.craftNowCost} {{Icon|Electrum}} 
-                    |-
-                    | Crafting time || ${moment.duration(v.craftingTime, 'seconds').format("h [hours], m [minutes], s [seconds]", { trim: 'both' })}
-                    |-
-                    ! colspan="2" | Required items
-                    |-
-                    | colspan="2" | ${v.requiredItems.map(i => `x${i.count} {{Icon|${i.name}}} ${i.requiredLevel ? `<small>Required level: ${i.requiredLevel}</small>` : ''}`).join('<br>')}
-                  |}`.replace(/              /g, '')
-              }).join('\n    ')}
-          |}`})() : ''}
         |}
         ${gData(item.data, 'equipmentSet') ? '' : item.data.filter(v => v['validClasses']).sort((a, b) => {
             return a.validClasses.length - b.validClasses.length
@@ -619,8 +596,31 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
             | ${v.validClasses.map(c => `{{Icon|${c}}}`).join('<br>')}
           |}\n          |-\n` :*/ ''}
           ${gItemModifierStats(v.stats, item).replace(/      /g , '').replace(/    /g, '  ')}
-        |}`
-          }).join('\n          ')}`.replace(/        /g, '').replace(/  \n/g, '\n')
+          ${craftingRecipe ? (function () {
+            var cr = craftingRecipe.find(recipe => recipe.interpretedType === v.craftingRecipe.interpretedType)
+            return `|-
+          | colspan="3" style="padding:0;" |
+          {| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+            ! Crafting
+            |-
+            | colspan="3" style="padding:0;" |
+            ${cr.leveledRecipes.map(v => {
+                return `{| style="width:100%;margin:0;" class="wikitable mw-collapsible mw-collapsed"
+                    ! colspan="2" | '''Level:''' ${v.level} (${v.level + 1})
+                    |-
+                    | Crafting cost || ${v.craftCost}
+                    |-
+                    | Craft now cost || ${v.craftNowCost} {{Icon|Electrum}} 
+                    |-
+                    | Crafting time || ${moment.duration(v.craftingTime, 'seconds').format("h [hours], m [minutes], s [seconds]", { trim: 'both' })}
+                    |-
+                    ! colspan="2" | Required items
+                    |-
+                    | colspan="2" | ${v.requiredItems.map(i => `x${i.count} {{Icon|${i.name}}} ${i.requiredLevel ? `<small>Required level: ${i.requiredLevel}</small>` : ''}`).join('<br>')}
+                  |}`.replace(/              /g, '')
+              }).join('\n    ')}
+          |}`})() : ''}
+        |}`}).join('\n          ')}`.replace(/        /g, '').replace(/  \n/g, '\n')
       })
       template += `\n<includeonly>\n[[Category:Imprint]]\n[[Category:${itemModifier[0].category}]]\n</includeonly>`
       template = template.replace(/\r?\n+|\r+/g, '\n').trim()
