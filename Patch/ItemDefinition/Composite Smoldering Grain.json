@@ -1,8 +1,8 @@
 [
   {
     "name": "Composite Smoldering Grain",
-    "alias": "Crafting Material Composite Smoldering Grain T8",
-    "description": "Leather treated at various stages with embers",
+    "alias": "Crafting Material T8 Composite Smoldering Grain",
+    "description": "Leather treated at various stages with embers.",
     "price": 500,
     "sellPrice": 50,
     "consumable": false,

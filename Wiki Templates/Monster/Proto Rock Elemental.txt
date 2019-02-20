@@ -20,7 +20,7 @@ monster_golem_stone_boss={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -32,7 +32,7 @@ monster_golem_stone_boss={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
@@ -48,7 +48,7 @@ monster_golem_stone_boss={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
@@ -82,7 +82,7 @@ monster_golem_stone_boss_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -94,7 +94,7 @@ monster_golem_stone_boss_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
@@ -110,7 +110,7 @@ monster_golem_stone_boss_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-

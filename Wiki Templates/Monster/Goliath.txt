@@ -19,7 +19,7 @@ boss_goliath3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -43,7 +43,7 @@ boss_goliath3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -67,7 +67,7 @@ boss_goliath3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -91,7 +91,7 @@ boss_goliath3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -132,7 +132,7 @@ boss_goliath2={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 4
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -158,7 +158,7 @@ boss_goliath2={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -182,7 +182,7 @@ boss_goliath2={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
@@ -225,7 +225,7 @@ boss_goliath={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

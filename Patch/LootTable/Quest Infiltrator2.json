@@ -9,17 +9,7 @@
         "count": {
           "dice": 0,
           "faces": 0,
-          "add": 25
-        },
-        "chance": 100,
-        "allowModifiers": true
-      },
-      {
-        "item": "Bloodstone",
-        "count": {
-          "dice": 0,
-          "faces": 0,
-          "add": 3
+          "add": 120
         },
         "chance": 100,
         "allowModifiers": true

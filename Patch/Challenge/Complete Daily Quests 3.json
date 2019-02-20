@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Complete Daily Quests 3",
+    "title": "Complete Daily Quests (III)",
+    "description": "Complete {0} bounties",
+    "challengeValueSuffix": "Bounties",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Complete Daily Quests (II)",
+        "Complete Daily Quests 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Complete Daily Quests 3"
+          }
+        }
+      }
+    ]
+  }
+]

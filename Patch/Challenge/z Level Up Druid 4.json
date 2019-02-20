@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Level Up Druid 4",
+    "title": "Level Druid (IV)",
+    "description": "Reach level {0} with Druid",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Druid (III)",
+        "z Level Up Druid 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Level Up Druid 4"
+          }
+        }
+      }
+    ]
+  }
+]

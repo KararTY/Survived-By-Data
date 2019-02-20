@@ -1,0 +1,69 @@
+[
+  {
+    "from": "Weekly1",
+    "guaranteeItemCount": 1,
+    "maximumItemCount": 1,
+    "lootTable": [
+      {
+        "item": "Staff of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 16,
+        "allowModifiers": true
+      },
+      {
+        "item": "Totem of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 16,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pick of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 16,
+        "allowModifiers": true
+      },
+      {
+        "item": "Bow of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 16,
+        "allowModifiers": true
+      },
+      {
+        "item": "Blades of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 16,
+        "allowModifiers": true
+      },
+      {
+        "item": "Sword of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 16,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

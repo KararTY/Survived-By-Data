@@ -1,0 +1,37 @@
+{{Enemy
+  |title = Wolf Lord
+  |image_original = {{CSS image crop|Image=Boss_Wolf Lord_Sentinel Quest.png|bSize=384|cWidth=83|cHeight=91|oBottom=101|oLeft=2}}
+  |location = 
+  |category = Chimera
+  |is_boss = Yes
+  |element = Ki
+  |tier = 5
+  |level = 25
+  |max_health = {{Icon|Health|nolink=1}} 25000
+  |experience = 15000
+  |damage_bonus = 200
+  |accuracy = 400<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolf lord projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Wolf Lord_Sentinel Quest.png|bSize=384|cWidth=51|cHeight=50|oBottom=213|oLeft=215}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.05
+    {{!}}-
+    {{!}} Range {{!!}} 12
+    {{!}}-
+    {{!}} Max hits {{!!}} 3
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 16
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Ki]]
+[[Category:Boss]]
+</includeonly>

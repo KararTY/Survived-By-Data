@@ -7,7 +7,7 @@
       "price": 4,
       "currency": "Platinum"
     },
-    "lootTable": "LootBox T4",
+    "lootTable": "z LootBox T4",
     "containBloodStone": true
   }
 ]

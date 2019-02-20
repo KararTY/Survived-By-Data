@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Discover Dun Paradise",
+    "title": "Discover Paradise Undone",
+    "description": "Locate and enter the Paradise Undone dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Discover Dun Paradise"
+          }
+        }
+      }
+    ]
+  }
+]

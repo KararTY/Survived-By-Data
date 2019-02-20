@@ -20,7 +20,7 @@ monster_anima_darkT1={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -34,7 +34,7 @@ monster_anima_darkT1={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -58,7 +58,7 @@ monster_anima_darkT1={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -90,7 +90,7 @@ monster_anima_darkT2={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -104,7 +104,7 @@ monster_anima_darkT2={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -128,7 +128,7 @@ monster_anima_darkT2={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -160,7 +160,7 @@ monster_anima_darkT3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -174,7 +174,7 @@ monster_anima_darkT3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -198,7 +198,7 @@ monster_anima_darkT3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -230,7 +230,7 @@ monster_anima_darkT4={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -244,7 +244,7 @@ monster_anima_darkT4={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -268,7 +268,7 @@ monster_anima_darkT4={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -300,7 +300,7 @@ monster_anima_darkT5={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -314,7 +314,7 @@ monster_anima_darkT5={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -338,7 +338,7 @@ monster_anima_darkT5={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -370,7 +370,7 @@ monster_anima_darkT6={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -384,7 +384,7 @@ monster_anima_darkT6={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -408,7 +408,7 @@ monster_anima_darkT6={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -440,7 +440,7 @@ monster_anima_darkT7={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -454,7 +454,7 @@ monster_anima_darkT7={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -478,7 +478,7 @@ monster_anima_darkT7={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -510,7 +510,7 @@ monster_anima_darkT8={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -524,7 +524,7 @@ monster_anima_darkT8={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -548,7 +548,7 @@ monster_anima_darkT8={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -579,7 +579,7 @@ monster_anima_darkT9={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -593,7 +593,7 @@ monster_anima_darkT9={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -617,7 +617,7 @@ monster_anima_darkT9={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-

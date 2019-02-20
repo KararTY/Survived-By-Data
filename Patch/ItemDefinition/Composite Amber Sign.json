@@ -1,8 +1,8 @@
 [
   {
     "name": "Composite Amber Sign",
-    "alias": "Crafting Material Composite Sign Amber T8",
-    "description": "Amber given form by the remnant infused into its shaping",
+    "alias": "Crafting Material T8 Composite Sign Amber",
+    "description": "Amber given form by the remnant infused into its shaping.",
     "price": 500,
     "sellPrice": 50,
     "consumable": false,

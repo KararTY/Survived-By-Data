@@ -23,6 +23,36 @@
         },
         "chance": 6,
         "allowModifiers": true
+      },
+      {
+        "item": "Bas Relief",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Excavation Log",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 35,
+        "allowModifiers": true
+      },
+      {
+        "item": "Stained Glass",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
       }
     ],
     "reference": "CommonLoot T9"

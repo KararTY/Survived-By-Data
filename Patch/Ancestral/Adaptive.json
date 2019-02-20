@@ -11,11 +11,10 @@
           "description": "On Hit, gain #% Crit Chance. Once a critical hit is landed, this bonus resets to zero\r",
           "counterMax": 0,
           "timerValue": 0,
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
-              "trigger": "DamageDealt",
+              "trigger": "",
               "chance": 1,
               "chanceSource": "ChanceValue",
               "action": "IncrementProcCounter"
@@ -140,11 +139,10 @@
           "description": "On Hit, gain #% Crit Chance. Once a critical hit is landed, this bonus resets to zero\r",
           "counterMax": 0,
           "timerValue": 0,
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
-              "trigger": "DamageDealt",
+              "trigger": "",
               "chance": 1,
               "chanceSource": "ChanceValue",
               "action": "IncrementProcCounter"
@@ -269,11 +267,10 @@
           "description": "On Hit, gain #% Crit Score. Once a critical hit is landed, this bonus resets to zero\r",
           "counterMax": 0,
           "timerValue": 0,
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
-              "trigger": "DamageDealt",
+              "trigger": "",
               "chance": 1,
               "chanceSource": "ChanceValue",
               "action": "IncrementProcCounter"

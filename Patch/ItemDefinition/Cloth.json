@@ -1,7 +1,7 @@
 [
   {
     "name": "Cloth",
-    "alias": "Crafting Material Core Cloth T3",
+    "alias": "Crafting Material T3 Core Cloth",
     "description": "Processed from Wool, Cloth is a core component of most articles of clothing.",
     "price": 20,
     "sellPrice": 2,

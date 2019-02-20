@@ -16,5 +16,25 @@
       }
     ],
     "reference": "CommonLoot T2"
+  },
+  {
+    "from": "monster_stag_moose",
+    "guaranteeItemCount": 1,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Meat",
+        "count": {
+          "dice": 1,
+          "faces": 2,
+          "add": 0
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ],
+    "questLootTable": {
+      "name": "QuestItem Meat"
+    }
   }
 ]

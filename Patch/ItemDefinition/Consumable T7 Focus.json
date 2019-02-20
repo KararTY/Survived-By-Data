@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T7 Focus",
+    "alias": "z Consumable T7 Focus",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

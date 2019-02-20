@@ -1,0 +1,35 @@
+{{Enemy
+  |title = Rat Warrior
+  |image_original = {{CSS image crop|Image=chimera_Rat warrior.png|bSize=256|cWidth=54|cHeight=53|oBottom=10|oLeft=6}}
+  |caption = Description for Rat Warrior
+  |location = 
+  |category = Chimera
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 60
+  |experience = 65
+  |damage_bonus = 35
+  |accuracy = 169.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''ratwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_Rat warrior.png|bSize=256|cWidth=25|cHeight=46|oBottom=75|oLeft=70}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 15
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_rat_quest}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>

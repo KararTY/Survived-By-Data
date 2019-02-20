@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Narrative 9 Kill Boss Goliath",
+    "title": "Kill Goliath (I)",
+    "description": "Kill Goliath (I)",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Narrative 9 Kill Boss Goliath"
+          }
+        }
+      }
+    ]
+  }
+]

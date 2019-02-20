@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Tracking Device",
+    "alias": "Consumable Tracking Device",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Consumable",
+    "maxStack": 0,
+    "tier": 1,
+    "data": [
+      {
+        "sprite": {
+          "name": "Quest tier 8 consumable sonic device",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "ConsumableWeaponDamage",
+        "equation": "0",
+        "value": 0
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "bound": {
+      "account": true,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "currency": "Gold",
+    "modifierChance": 0.75
+  }
+]

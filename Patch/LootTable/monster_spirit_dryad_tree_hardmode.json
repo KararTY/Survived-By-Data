@@ -23,6 +23,46 @@
         },
         "chance": 6,
         "allowModifiers": true
+      },
+      {
+        "item": "Living Branches",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Purified Sap",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 35,
+        "allowModifiers": true
+      },
+      {
+        "item": "Regenerative Bark",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Deep Forest Roots",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
       }
     ],
     "reference": "CommonLoot T9"

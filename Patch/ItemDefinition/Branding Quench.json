@@ -1,8 +1,8 @@
 [
   {
     "name": "Branding Quench",
-    "alias": "Crafting Material Masterwork Branding Quench T10",
-    "description": "The material used to finish a branded device",
+    "alias": "Crafting Material T10 Masterwork Branding Quench",
+    "description": "The material used to finish a branded device.",
     "price": 2000,
     "sellPrice": 200,
     "consumable": false,

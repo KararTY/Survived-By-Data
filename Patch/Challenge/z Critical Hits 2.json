@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Critical Hits 2",
+    "title": "Perform Critical Hits (II)",
+    "description": "Perform {0} critical hits",
+    "challengeValueSuffix": "Critical Hits",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Perform Critical Hits (I)",
+        "z Critical Hits 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Critical Hits 2"
+          }
+        }
+      }
+    ]
+  }
+]

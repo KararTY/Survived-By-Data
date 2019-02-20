@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Level Up Infiltrator 25",
+    "title": "Max Level Infiltrator",
+    "description": "Reach level {0} with Infiltrator",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Infiltrator 25"
+          }
+        }
+      }
+    ]
+  }
+]

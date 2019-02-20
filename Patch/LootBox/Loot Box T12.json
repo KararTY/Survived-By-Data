@@ -7,7 +7,7 @@
       "price": 12,
       "currency": "Platinum"
     },
-    "lootTable": "LootBox T12",
+    "lootTable": "z LootBox T12",
     "containBloodStone": true
   }
 ]

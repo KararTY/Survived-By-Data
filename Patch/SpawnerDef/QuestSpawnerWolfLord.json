@@ -1,0 +1,30 @@
+[
+  {
+    "name": "QuestSpawnerWolfLord",
+    "biome": "DungeonSentIn",
+    "difficulty": {
+      "min": 0,
+      "max": 1
+    },
+    "spawnRadius": 0.1,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": true,
+    "autoPopulate": false,
+    "manuallyPlaced": true,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Wolf Lord",
+        "monsterAlias": "monster_wolf_lord",
+        "spawnChance": 1,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

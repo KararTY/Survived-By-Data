@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Discover Dun Ruins",
+    "title": "Discover Sundered Swamp Vault",
+    "description": "Locate and enter the Sundered Swamp Vault dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Discover Dun Ruins"
+          }
+        }
+      }
+    ]
+  }
+]

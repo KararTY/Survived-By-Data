@@ -1,0 +1,30 @@
+[
+  {
+    "name": "QuestBatswarmT8",
+    "biome": "None",
+    "difficulty": {
+      "min": 0,
+      "max": 1
+    },
+    "spawnRadius": 0,
+    "spawnDelayed": true,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Bat",
+        "monsterAlias": "monster_batswarmT8",
+        "spawnChance": 1,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

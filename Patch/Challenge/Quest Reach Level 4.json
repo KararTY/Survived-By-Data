@@ -1,8 +1,8 @@
 [
   {
     "name": "Quest Reach Level 4",
-    "title": "Reach Level 4",
-    "description": "Reach Level 4 then return to the Captain of the Guard.",
+    "title": "Rising the Ranks",
+    "description": "Reach Level 4",
     "challengeValueSuffix": "",
     "challengeType": "_Unknown",
     "challengeTarget": "monster_golem_stone_boss",

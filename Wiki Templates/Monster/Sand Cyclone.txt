@@ -19,7 +19,7 @@ monster_spirit_cyclone_sand={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} 1
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-
@@ -60,7 +60,7 @@ monster_spirit_cyclone_sand_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} 1
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-

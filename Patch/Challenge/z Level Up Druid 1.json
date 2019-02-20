@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Level Up Druid 1",
+    "title": "Level Druid (I)",
+    "description": "Reach level {0} with Druid",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Level Up Druid 1"
+          }
+        }
+      }
+    ]
+  }
+]

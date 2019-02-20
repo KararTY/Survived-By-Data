@@ -1,0 +1,49 @@
+[
+  {
+    "from": "Weekly3",
+    "guaranteeItemCount": 1,
+    "maximumItemCount": 1,
+    "lootTable": [
+      {
+        "item": "Collector Aura Stone",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 25,
+        "allowModifiers": true
+      },
+      {
+        "item": "Expansion Aura Stone",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 25,
+        "allowModifiers": true
+      },
+      {
+        "item": "Mobility Aura Stone",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 25,
+        "allowModifiers": true
+      },
+      {
+        "item": "Reward Aura Stone",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 25,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

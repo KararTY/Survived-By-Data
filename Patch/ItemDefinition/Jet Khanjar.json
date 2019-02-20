@@ -1,7 +1,7 @@
 [
   {
     "name": "Jet Khanjar",
-    "alias": "Rogue T5 Weapon v2",
+    "alias": "z Rogue T5 Weapon v2",
     "description": "[Deprecated]",
     "price": 22,
     "sellPrice": 11,
@@ -59,7 +59,7 @@
   },
   {
     "name": "Jet Khanjar",
-    "alias": "Rogue T3 Weapon",
+    "alias": "Infiltrator T3 Weapon",
     "description": "Though not as powerful as obsidian, the jet blade of this khanjar is still infused with the destructive power of the Infernals.",
     "price": 7000,
     "sellPrice": 70,

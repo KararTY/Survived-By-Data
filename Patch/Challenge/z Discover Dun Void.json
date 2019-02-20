@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Discover Dun Void",
+    "title": "Discover The Space Between",
+    "description": "Locate and enter The Space Between",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Discover Dun Void"
+          }
+        }
+      }
+    ]
+  }
+]

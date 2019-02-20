@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Narrative 3 Kill Boss Mirage Hunter",
+    "title": "Kill Mirage Hunter",
+    "description": "Kill Mirage Hunter",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Narrative 3 Kill Boss Mirage Hunter"
+          }
+        }
+      }
+    ]
+  }
+]

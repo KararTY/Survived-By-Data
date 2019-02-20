@@ -16,7 +16,7 @@ tutorial_monster_agent_scout={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 12
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -56,7 +56,7 @@ monster_agent_scout={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 12
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -97,7 +97,7 @@ monster_agent_scout_defender_T8_black={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -121,7 +121,7 @@ monster_agent_scout_defender_T8_black={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9.25
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-
@@ -150,7 +150,7 @@ monster_agent_scout_defender_T8_red={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -174,7 +174,7 @@ monster_agent_scout_defender_T8_red={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9.25
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-

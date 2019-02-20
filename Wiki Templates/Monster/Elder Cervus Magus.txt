@@ -18,7 +18,7 @@ monster_chimera_stag_mage_dung={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -48,7 +48,7 @@ monster_chimera_stag_mage_dung_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

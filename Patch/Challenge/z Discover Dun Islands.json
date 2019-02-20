@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Discover Dun Islands",
+    "title": "Discover Straits of the Deep",
+    "description": "Locate and enter the Straits of the Deep dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Discover Dun Islands"
+          }
+        }
+      }
+    ]
+  }
+]

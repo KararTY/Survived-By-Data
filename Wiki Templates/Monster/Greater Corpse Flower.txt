@@ -19,7 +19,7 @@ plant_corpseflower_hardmode={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1.5
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -62,7 +62,7 @@ plant_corpseflower_hardmode_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1.5
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

@@ -1,0 +1,52 @@
+{{Enemy
+  |title = Pale Lupus Warrior
+  |image_original = {{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=46|cHeight=58|oBottom=5|oLeft=9}}
+  |caption = Description for Pale Lupus Warrior
+  |location = 
+  |category = Chimera
+  |tier = 4
+  |level = 17
+  |max_health = {{Icon|Health|nolink=1}} 300
+  |experience = 340
+  |damage_bonus = 100
+  |accuracy = 265.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |special_weapon_damage = 85
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile ahead''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.4
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.15
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 15
+    {{!}}}
+  |drops = {{:Loot table/monster_chimera_wolfwarrior_T4}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+</includeonly>

@@ -1,0 +1,360 @@
+[
+  {
+    "name": "Rat",
+    "alias": "monster_rat_minion_quest",
+    "description": "Description for Rat",
+    "isBoss": false,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "bat_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "bat_projectile",
+              "projectileName": "Projectile",
+              "launchOffsetDistance": 0,
+              "alignToDirection": false,
+              "isNextProjectileGlobal": false,
+              "isTangentProjectileGlobal": false,
+              "maintainOrbitRange": false,
+              "ownerRelative": false,
+              "sineWaveMotion": false,
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "statusEffect": {
+                "name": "Impaired",
+                "type": "None",
+                "duration": 15,
+                "stats": [
+                  {
+                    "key": "CriticalChance",
+                    "equation": "[CriticalChance]*0.85",
+                    "value": 0
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 0
+                  }
+                ],
+                "isBuff": false,
+                "removeOnAttack": false,
+                "coolDownTime": 0,
+                "noTimeOut": false
+              },
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boss_Rat_scurry rats",
+          "baseSize": {
+            "width": 128,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 1,
+            "width": 32,
+            "height": 31
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 7
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 40
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 20
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 2
+          },
+          {
+            "key": "Accuracy",
+            "equation": "",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Wake",
+          "sounds": [
+            "HyenaWolfWake1",
+            "HyenaWolfWake2",
+            "HyenaWolfWake3",
+            "HyenaWolfWake4",
+            "HyenaWolfWake5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "HyenaWolfPain1",
+            "HyenaWolfPain2",
+            "HyenaWolfPain3",
+            "HyenaWolfPain4",
+            "HyenaWolfPain5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "HyenaWolfDeath1",
+            "HyenaWolfDeath2",
+            "HyenaWolfDeath3",
+            "HyenaWolfDeath4",
+            "HyenaWolfDeath5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Beast",
+    "element": "None"
+  },
+  {
+    "name": "Rat",
+    "alias": "monster_rat_minion_enraged_quest",
+    "description": "Description for Rat",
+    "isBoss": false,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "bat_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "bat_projectile",
+              "projectileName": "Projectile",
+              "launchOffsetDistance": 0,
+              "alignToDirection": false,
+              "isNextProjectileGlobal": false,
+              "isTangentProjectileGlobal": false,
+              "maintainOrbitRange": false,
+              "ownerRelative": false,
+              "sineWaveMotion": false,
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "statusEffect": {
+                "name": "Impaired",
+                "type": "None",
+                "duration": 15,
+                "stats": [
+                  {
+                    "key": "CriticalChance",
+                    "equation": "[CriticalChance]*0.85",
+                    "value": 0
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 0
+                  }
+                ],
+                "isBuff": false,
+                "removeOnAttack": false,
+                "coolDownTime": 0,
+                "noTimeOut": false
+              },
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boss_Rat_scurry rats",
+          "baseSize": {
+            "width": 128,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 1,
+            "width": 32,
+            "height": 31
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 1
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 7
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 40
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 20
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 2
+          },
+          {
+            "key": "Accuracy",
+            "equation": "",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Wake",
+          "sounds": [
+            "HyenaWolfWake1",
+            "HyenaWolfWake2",
+            "HyenaWolfWake3",
+            "HyenaWolfWake4",
+            "HyenaWolfWake5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "HyenaWolfPain1",
+            "HyenaWolfPain2",
+            "HyenaWolfPain3",
+            "HyenaWolfPain4",
+            "HyenaWolfPain5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "HyenaWolfDeath1",
+            "HyenaWolfDeath2",
+            "HyenaWolfDeath3",
+            "HyenaWolfDeath4",
+            "HyenaWolfDeath5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Beast",
+    "element": "None"
+  }
+]

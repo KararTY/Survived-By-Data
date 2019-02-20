@@ -1,7 +1,7 @@
 [
   {
     "name": "Masterwork Ingot",
-    "alias": "Crafting Material Masterwork Ingot T10",
+    "alias": "Crafting Material T10 Masterwork Ingot",
     "description": "Metal used in the crafting of masterwork items.",
     "price": 2000,
     "sellPrice": 200,

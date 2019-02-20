@@ -1,5 +1,5 @@
 <div class="tabbertab-borderless"><tabber>
-monster_slime_add={{Enemy
+monster_slime_add_Overworld={{Enemy
   |title = Verdant Ooze
   |image_original = {{CSS image crop|Image=spirit_ooze_Boil and Bubble.png|bSize=192|cWidth=46|cHeight=35|oBottom=13|oLeft=2}}
   |caption = Description for Verdant Ooze
@@ -12,7 +12,6 @@ monster_slime_add={{Enemy
   |experience = 500
   |damage_bonus = 143
   |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 113.2<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -20,7 +19,7 @@ monster_slime_add={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 6
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -46,7 +45,76 @@ monster_slime_add={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 12
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Range {{!!}} 10
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 58 & Damage over time: 94)<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+  |drops = {{:Loot table/monster_slime_add_Overworld}}
+  }}
+|-|
+monster_slime_add={{Enemy
+  |title = Verdant Ooze
+  |image_original = {{CSS image crop|Image=spirit_ooze_Boil and Bubble.png|bSize=192|cWidth=46|cHeight=35|oBottom=13|oLeft=2}}
+  |caption = Description for Verdant Ooze
+  |location = 
+  |category = Spirit
+  |element = Ki
+  |tier = 5
+  |level = 21
+  |max_health = {{Icon|Health|nolink=1}} 1394
+  |experience = 500
+  |damage_bonus = 143
+  |accuracy = 326.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''slime add pool''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=38|cHeight=18|oBottom=124|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 4
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 58 & Damage over time: 94)<br><small>[DamageOverTime]+94 '''58'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''7'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''slime add projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_ooze_Boil and Bubble.png|bSize=192|cWidth=14|cHeight=39|oBottom=53|oLeft=99}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 12
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -89,7 +157,7 @@ monster_spirit_moss_ooze={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} 6
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -115,7 +183,7 @@ monster_spirit_moss_ooze={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 12
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-

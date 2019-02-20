@@ -13,6 +13,36 @@
         },
         "chance": 20,
         "allowModifiers": true
+      },
+      {
+        "item": "Purified Sap",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Animate Seed",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Conditioned Soil",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
       }
     ],
     "reference": "CommonLoot T7"

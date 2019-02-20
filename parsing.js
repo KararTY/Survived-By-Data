@@ -489,18 +489,42 @@ module.exports = () => {
                   projectile: {
                     name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
                     projectileName: f['0 MonoBehaviour Base']['1 string ProjectileName'],
+                    rotationSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float RotationSpeed'].toFixed(2)) || undefined,
+                    orbitSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float orbitSpeed'].toFixed(2)) || undefined,
+                    launchOffsetDistance: parseFloat(f["0 MonoBehaviour Base"]["0 float launchOffsetDistance"].toFixed(2)) || 0,
+                    lightScale: parseFloat(f['0 MonoBehaviour Base']['0 float LightScale'].toFixed(2)) || undefined,
+                    tangentProjectileFireRate: parseFloat(f['0 MonoBehaviour Base']['0 float TangentProjectileFireRate'].toFixed(2)) || undefined,
+                    waveFrequency: parseFloat(f['0 MonoBehaviour Base']['0 float WaveFrequency'].toFixed(2)) || undefined,
+                    nextProjectileIndex: f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] : undefined,
+                    tangentProjectileIndex: f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] : undefined,
+                    repeatHitTime: parseFloat(f['0 MonoBehaviour Base']['0 float RepeatHitTime'].toFixed(2)) || undefined,
+                    alignToDirection: !!f['0 MonoBehaviour Base']['1 UInt8 AlignToDirection'],
+                    isNextProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsNextProjectileGlobal'],
+                    isTangentProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsTangentProjectileGlobal'],
+                    maintainOrbitRange: !!f['0 MonoBehaviour Base']['1 UInt8 maintainOrbitRange'],
+                    ownerRelative: !!f['0 MonoBehaviour Base']['1 UInt8 OwnerRelative'],
+                    sineWaveMotion: !!f['0 MonoBehaviour Base']['1 UInt8 SineWaveMotion'],
+                    /** MISSING
+                     * 0 PPtr<$GAMEOBJECT> ESSENCEPARTICLE,
+                     * 0 PPtr<$GAMEOBJECT> EXPLOSION,
+                     * 0 PPtr<$GAMEOBJECT> FIZZLE,
+                     * 0 PPtr<$GAMEOBJECT> LIGHTPREFAB,
+                     * 0 PPtr<$SOUNDLIST> PROJECTILESPAWNER,
+                     * 0 PPtr<$TILESYSTEMBODY2D> body
+                     * 1 UInt16 DefIndex
+                     */
+                    /*essenceDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float EssenceDamageMultiplier'].toFixed(2)) || undefined,*/ // Deleted in patch 2019-02-20
                     speed: parseFloat(f['0 MonoBehaviour Base']['0 float Speed'].toFixed(2)),
                     acceleration: parseFloat(f['0 MonoBehaviour Base']['0 float Acceleration'].toFixed(2)) || undefined,
                     damage: f['0 MonoBehaviour Base']['0 int Damage'],
                     damageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float DamageMultiplier'].toFixed(2)) || undefined,
-                    essenceDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float EssenceDamageMultiplier'].toFixed(2)) || undefined,
                     range: parseFloat(f['0 MonoBehaviour Base']['0 float Range'].toFixed(2)),
                     useTargetForRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseTargetForRange'],
                     useRandomRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseRandomRange'],
                     randomRangeMax: parseFloat(f['0 MonoBehaviour Base']['0 float RandomRangeMax'].toFixed(2)) || undefined,
                     maxHits: f['0 MonoBehaviour Base']['0 int MaxHits'],
                     arcSeparation: parseFloat(f['0 MonoBehaviour Base']['0 float ArcSeparation'].toFixed(2)) || undefined,
-                    maxLifetime: parseFloat(f['0 MonoBehaviour Base']['0 float MaxLifetime'].toFixed(2)),
+                    /*maxLifetime: parseFloat(f['0 MonoBehaviour Base']['0 float MaxLifetime'].toFixed(2)),*/ // Deleted in patch 2019-02-20
                     delayRate: parseFloat(f['0 MonoBehaviour Base']['0 float DelayRate'].toFixed(2)) || undefined,
                     rageMultiplier: f['0 MonoBehaviour Base']['0 float RageMultiplier'],
                     bounceBetweenEnemies: !!f['0 MonoBehaviour Base']['1 UInt8 BounceBetweenEnemies'],
@@ -835,7 +859,7 @@ module.exports = () => {
                       }
                     })()
                     : undefined,
-                  projectileDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float ProjectileDamageMultiplier'].toFixed(2)),
+                  /*projectileDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float ProjectileDamageMultiplier'].toFixed(2)),*/ // Obscured by anti-cheat added in 2019-02-20 (? Why).
                   useAncestralBenefitForDamage: !!f['0 MonoBehaviour Base']['0 UInt8 UseAncestralBenefitForDamage'],
                   triggers: f['0 MonoBehaviour Base']['0 Array triggers'].length > 0
                     ? f['0 MonoBehaviour Base']['0 Array triggers'].map(v => {
@@ -1250,18 +1274,42 @@ module.exports = () => {
                   projectile: {
                     name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
                     projectileName: f['0 MonoBehaviour Base']['1 string ProjectileName'],
+                    rotationSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float RotationSpeed'].toFixed(2)) || undefined,
+                    orbitSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float orbitSpeed'].toFixed(2)) || undefined,
+                    launchOffsetDistance: parseFloat(f["0 MonoBehaviour Base"]["0 float launchOffsetDistance"].toFixed(2)) || 0,
+                    lightScale: parseFloat(f['0 MonoBehaviour Base']['0 float LightScale'].toFixed(2)) || undefined,
+                    tangentProjectileFireRate: parseFloat(f['0 MonoBehaviour Base']['0 float TangentProjectileFireRate'].toFixed(2)) || undefined,
+                    waveFrequency: parseFloat(f['0 MonoBehaviour Base']['0 float WaveFrequency'].toFixed(2)) || undefined,
+                    nextProjectileIndex: f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] : undefined,
+                    tangentProjectileIndex: f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] : undefined,
+                    repeatHitTime: parseFloat(f['0 MonoBehaviour Base']['0 float RepeatHitTime'].toFixed(2)) || undefined,
+                    alignToDirection: !!f['0 MonoBehaviour Base']['1 UInt8 AlignToDirection'],
+                    isNextProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsNextProjectileGlobal'],
+                    isTangentProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsTangentProjectileGlobal'],
+                    maintainOrbitRange: !!f['0 MonoBehaviour Base']['1 UInt8 maintainOrbitRange'],
+                    ownerRelative: !!f['0 MonoBehaviour Base']['1 UInt8 OwnerRelative'],
+                    sineWaveMotion: !!f['0 MonoBehaviour Base']['1 UInt8 SineWaveMotion'],
+                    /** MISSING
+                     * 0 PPtr<$GAMEOBJECT> ESSENCEPARTICLE,
+                     * 0 PPtr<$GAMEOBJECT> EXPLOSION,
+                     * 0 PPtr<$GAMEOBJECT> FIZZLE,
+                     * 0 PPtr<$GAMEOBJECT> LIGHTPREFAB,
+                     * 0 PPtr<$SOUNDLIST> PROJECTILESPAWNER,
+                     * 0 PPtr<$TILESYSTEMBODY2D> body
+                     * 1 UInt16 DefIndex
+                     */
+                    /*essenceDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float EssenceDamageMultiplier'].toFixed(2)) || undefined,*/ // Deleted in patch 2019-02-20
                     speed: parseFloat(f['0 MonoBehaviour Base']['0 float Speed'].toFixed(2)),
                     acceleration: parseFloat(f['0 MonoBehaviour Base']['0 float Acceleration'].toFixed(2)) || undefined,
                     damage: f['0 MonoBehaviour Base']['0 int Damage'],
                     damageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float DamageMultiplier'].toFixed(2)) || undefined,
-                    essenceDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float EssenceDamageMultiplier'].toFixed(2)) || undefined,
                     range: parseFloat(f['0 MonoBehaviour Base']['0 float Range'].toFixed(2)),
                     useTargetForRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseTargetForRange'],
                     useRandomRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseRandomRange'],
                     randomRangeMax: parseFloat(f['0 MonoBehaviour Base']['0 float RandomRangeMax'].toFixed(2)) || undefined,
                     maxHits: f['0 MonoBehaviour Base']['0 int MaxHits'],
                     arcSeparation: parseFloat(f['0 MonoBehaviour Base']['0 float ArcSeparation'].toFixed(2)) || undefined,
-                    maxLifetime: parseFloat(f['0 MonoBehaviour Base']['0 float MaxLifetime'].toFixed(2)),
+                    /*maxLifetime: parseFloat(f['0 MonoBehaviour Base']['0 float MaxLifetime'].toFixed(2)),*/ // Deleted in patch 2019-02-20
                     delayRate: parseFloat(f['0 MonoBehaviour Base']['0 float DelayRate'].toFixed(2)) || undefined,
                     rageMultiplier: f['0 MonoBehaviour Base']['0 float RageMultiplier'],
                     bounceBetweenEnemies: !!f['0 MonoBehaviour Base']['1 UInt8 BounceBetweenEnemies'],
@@ -1287,7 +1335,7 @@ module.exports = () => {
                             }
                           }),
                           isBuff: !!s['0 MonoBehaviour Base']['1 UInt8 IsBuff'],
-                          removeOnAttack: !!z['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'],
+                          removeOnAttack: !!s['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'],
                           coolDownTime: parseFloat(s['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2)),
                           floatingText: s['0 MonoBehaviour Base']['1 string floatingText'] || undefined,
                           noTimeOut: !!s['0 MonoBehaviour Base']['1 UInt8 NoTimeOut'],
@@ -1476,14 +1524,15 @@ module.exports = () => {
     fs.readdirSync(folder[folderName9]).forEach(val => {
       var file = require(path.join(folder[folderName9], val))
       var player = {
+        // LOOK THROUGH THIS LATER, MORE STUFF ADDED IN PATCH 2019-02-20.
         name: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         description: translate[file['0 MonoBehaviour Base']['1 string description']] || file['0 MonoBehaviour Base']['1 string description'],
         primaryStat: Object.keys(statEnum).map(e => {
           if (statEnum[e] === file['0 MonoBehaviour Base']['0 int PrimaryStat']) return e
           else return undefined
         }).filter(Boolean).join(''),
-        moveRate: parseFloat(file['0 MonoBehaviour Base']['0 float MoveRate'].toFixed(2)),
-        interactionRange: parseFloat(file['0 MonoBehaviour Base']['0 float InteractionRange'].toFixed(2)),
+        /*moveRate: parseFloat(file['0 MonoBehaviour Base']['0 float MoveRate'].toFixed(2)),*/ // Obscured by anti-cheat added in 2019-02-20 (? Why).
+        /*interactionRange: parseFloat(file['0 MonoBehaviour Base']['0 float InteractionRange'].toFixed(2)),*/ // Obscured by anti-cheat added in 2019-02-20 (? Why).
         experiencePerLevel: file['0 MonoBehaviour Base']['0 Array ExperiencePerLevel'].map(v => {
           return v['0 int data']
         }),

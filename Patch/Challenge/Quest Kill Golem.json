@@ -1,8 +1,8 @@
 [
   {
     "name": "Quest Kill Golem",
-    "title": "Get key, enter cave, kill golem",
-    "description": "Look for the monster on the scroll, kill it and get a key to the Abandoned Storage Cavern. Enter the cave, kill the golem and come back with the supplies.",
+    "title": "Resource Recovery.",
+    "description": "Get key, enter cave, kill golem",
     "challengeValueSuffix": "",
     "challengeType": "_Unknown",
     "challengeTarget": "monster_golem_stone_boss",

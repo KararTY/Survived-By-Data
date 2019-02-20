@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Discover Dun Volcano",
+    "title": "Discover Conduit of Fire",
+    "description": "Locate and enter the Conduit of Fire dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Discover Dun Volcano"
+          }
+        }
+      }
+    ]
+  }
+]

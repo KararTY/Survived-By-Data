@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Survive Debuffs 3",
+    "title": "Survive Debuffs (III)",
+    "description": "Survive {0} debuffs",
+    "challengeValueSuffix": "Debuffs",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Survive Debuffs (II)",
+        "z Survive Debuffs 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Survive Debuffs 3"
+          }
+        }
+      }
+    ]
+  }
+]

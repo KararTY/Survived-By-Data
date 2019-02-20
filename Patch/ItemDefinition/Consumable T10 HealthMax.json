@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T10 HealthMax",
+    "alias": "z Consumable T10 HealthMax",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

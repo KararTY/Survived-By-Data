@@ -1,0 +1,80 @@
+<div class="tabbertab-borderless"><tabber>
+monster_rat_minion_quest={{Enemy
+  |title = Rat
+  |image_original = {{CSS image crop|Image=Boss_Rat_scurry rats.png|bSize=128|cWidth=32|cHeight=31|oBottom=0|oLeft=0}}
+  |caption = Description for Rat
+  |location = 
+  |category = Beast
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 40
+  |damage_bonus = 20
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''bat projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">15%</strong>)<br><small>[CriticalChance]*0.85</small>
+    {{!}}}
+  }}
+|-|
+monster_rat_minion_enraged_quest={{Enemy
+  |title = Rat
+  |image_original = {{CSS image crop|Image=Boss_Rat_scurry rats.png|bSize=128|cWidth=32|cHeight=31|oBottom=0|oLeft=0}}
+  |caption = Description for Rat
+  |location = 
+  |category = Beast
+  |tier = 2
+  |level = 7
+  |max_health = {{Icon|Health|nolink=1}} 40
+  |damage_bonus = 20
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} colspan="2" {{!}}'''bat projectile'''
+    {{!}}-
+    {{!}} Speed {{!!}} 15
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Impaired'''
+    {{!}}-
+    {{!}} Duration {{!!}} 15 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} CriticalChance {{!!}} (Critical chance decrease by <strong style="color:red;">15%</strong>)<br><small>[CriticalChance]*0.85</small>
+    {{!}}}
+  }}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>

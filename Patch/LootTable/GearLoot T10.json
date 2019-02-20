@@ -1,0 +1,139 @@
+[
+  {
+    "from": "GearLoot T10",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Pyroclast Master (I) Staff",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Amulet",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Plate Armor",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Mantle",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Leathers",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Sabatons",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Boots",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Totem",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Pick",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Bow",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Blades",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Ring",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Pyroclast Master (I) Sword",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

@@ -1,6 +1,7 @@
 [
   {
     "name": "Loot Box Key T10",
+    "alias": "z Loot Box Key T10",
     "description": "Loot box key",
     "price": 10,
     "sellPrice": 0,

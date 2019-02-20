@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Maul",
-            "type": "AncestralLegacyDamageBonus",
+            "type": "None",
             "duration": 0,
             "stats": [
               {
@@ -32,7 +32,6 @@
             "coolDownTime": 0,
             "noTimeOut": true
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -153,7 +152,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Maul",
-            "type": "AncestralLegacyDamageBonus",
+            "type": "None",
             "duration": 0,
             "stats": [
               {
@@ -172,7 +171,6 @@
             "coolDownTime": 0,
             "noTimeOut": true
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -293,7 +291,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Maul",
-            "type": "AncestralLegacyDamageBonus",
+            "type": "None",
             "duration": 0,
             "stats": [
               {
@@ -312,7 +310,6 @@
             "coolDownTime": 0,
             "noTimeOut": true
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {

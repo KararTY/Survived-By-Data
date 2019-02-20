@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Quest SimpleCharity1",
+    "title": "Herb Your Enthusiasm",
+    "description": "Collect 5 herbs",
+    "challengeValueSuffix": "",
+    "challengeType": "_Unknown",
+    "challengeTarget": "QuestHerbs",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Quest SimpleCharity1"
+          }
+        }
+      }
+    ]
+  }
+]

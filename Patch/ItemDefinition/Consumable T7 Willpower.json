@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T7 Willpower",
+    "alias": "z Consumable T7 Willpower",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

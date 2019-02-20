@@ -1,7 +1,7 @@
 [
   {
     "name": "Minor Damage Reduction Potion",
-    "alias": "Consumable Elixir T1 DamageReduction Buff",
+    "alias": "z Consumable Elixir T1 DamageReduction Buff",
     "description": "Provides a small boost to the Damage Reduction of whomever drinks it for a short period of time.",
     "price": 10,
     "sellPrice": 0,

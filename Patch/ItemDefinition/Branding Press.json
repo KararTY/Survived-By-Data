@@ -1,8 +1,8 @@
 [
   {
     "name": "Branding Press",
-    "alias": "Crafting Material Masterwork Branding Press T10",
-    "description": "The material used to brand a device",
+    "alias": "Crafting Material T10 Masterwork Branding Press",
+    "description": "The material used to brand a device.",
     "price": 2000,
     "sellPrice": 200,
     "consumable": false,

@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T8 Endurance",
+    "alias": "z Consumable T8 Endurance",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

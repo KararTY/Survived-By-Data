@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Level Up Geomancer 3",
+    "title": "Level Geomancer (III)",
+    "description": "Reach level {0} with Geomancer",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Geomancer (II)",
+        "z Level Up Geomancer 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Level Up Geomancer 3"
+          }
+        }
+      }
+    ]
+  }
+]

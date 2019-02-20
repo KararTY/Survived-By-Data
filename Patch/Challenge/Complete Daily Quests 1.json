@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Complete Daily Quests 1",
+    "title": "Complete Daily Quests (I)",
+    "description": "Complete {0} bounties",
+    "challengeValueSuffix": "Bounties",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Complete Daily Quests 1"
+          }
+        }
+      }
+    ]
+  }
+]

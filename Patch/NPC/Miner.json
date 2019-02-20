@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Miner",
+    "alias": "Batterup_Miner",
+    "category": "Scared",
+    "weapons": [
+      {
+        "name": "town_guard_projectile",
+        "data": [
+          {
+            "projectile": {
+              "name": "town_guard_projectile",
+              "projectileName": "Projectile",
+              "launchOffsetDistance": 0,
+              "alignToDirection": false,
+              "isNextProjectileGlobal": false,
+              "isTangentProjectileGlobal": false,
+              "maintainOrbitRange": false,
+              "ownerRelative": false,
+              "sineWaveMotion": false,
+              "speed": 15,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "range": 2,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "NPC_quest 8_Miner",
+          "baseSize": {
+            "width": 192,
+            "height": 48
+          },
+          "textureRectangle": {
+            "x": 1,
+            "y": 0,
+            "width": 40,
+            "height": 41
+          },
+          "textureOffset": {
+            "x": 1,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 40000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 10
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T8 Potency",
+    "alias": "z Consumable T8 Potency",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

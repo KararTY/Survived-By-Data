@@ -22,7 +22,7 @@
       },
       {
         "key": "Benefit",
-        "equation": "2+([AncestralData.Ancestral_Level]*0.16)",
+        "equation": "1+([AncestralData.Ancestral_Level]*0.08)",
         "value": 0
       }
     ],
@@ -121,7 +121,7 @@
       },
       {
         "key": "Benefit",
-        "equation": "3+([AncestralData.Ancestral_Level]*0.24)",
+        "equation": "2+([AncestralData.Ancestral_Level]*0.16)",
         "value": 0
       }
     ],
@@ -220,7 +220,7 @@
       },
       {
         "key": "Benefit",
-        "equation": "5+([AncestralData.Ancestral_Level]*0.5)",
+        "equation": "4+([AncestralData.Ancestral_Level]*0.32)",
         "value": 0
       }
     ],

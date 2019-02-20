@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Deep Forest Roots",
+    "alias": "WeeklyQuest Forest Deep Forest Roots",
+    "description": "The will of the Heart of the Forest is passed through its domain (Hard) by the great roots that reach into all of the inhabitants.",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 99,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "DeepForestRoots",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 31,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  }
+]

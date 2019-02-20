@@ -9,7 +9,7 @@
         "count": {
           "dice": 0,
           "faces": 0,
-          "add": 70
+          "add": 60
         },
         "chance": 100,
         "allowModifiers": true
@@ -19,7 +19,7 @@
         "count": {
           "dice": 0,
           "faces": 0,
-          "add": 2
+          "add": 25
         },
         "chance": 100,
         "allowModifiers": true

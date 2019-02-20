@@ -3,8 +3,6 @@
     "name": "Druid",
     "description": "Druids sought powers and knowledge by communing with the Spirits of the Demesne of the Unseen. Now that rage infuses the once peaceful spirits they must walk a terrible line, drawing power from that anger without being consumed by it.\r",
     "primaryStat": "Focus",
-    "moveRate": 8,
-    "interactionRange": 3,
     "experiencePerLevel": [
       0,
       150,
@@ -67,7 +65,7 @@
           },
           {
             "key": "Friction",
-            "equation": "",
+            "equation": "1",
             "value": 0
           },
           {

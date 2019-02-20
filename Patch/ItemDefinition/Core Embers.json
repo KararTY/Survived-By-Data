@@ -1,8 +1,8 @@
 [
   {
     "name": "Core Embers",
-    "alias": "Crafting Material Core Embers T3",
-    "description": "The chaotic nature of the creation of Embers leads to a high variability in their quality. Core Embers are those that hold sufficient power to be used in a branding",
+    "alias": "Crafting Material T3 Core Embers",
+    "description": "The chaotic nature of the creation of Embers leads to a high variability in their quality. Core Embers are those that hold sufficient power to be used in a branding.",
     "price": 20,
     "sellPrice": 2,
     "consumable": false,

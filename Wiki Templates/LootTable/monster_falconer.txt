@@ -5,6 +5,10 @@
 ! Amount || Item || Chance
 |-
 | x1 || {{Icon|Raw Strands}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Harsa Observations}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Harsa Ledger}} || style="text-align:right" | 20% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_falconer}}

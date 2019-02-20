@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T8 Focus",
+    "alias": "z Consumable T8 Focus",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

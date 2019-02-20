@@ -1,6 +1,7 @@
 [
   {
     "name": "Ring T10 v1",
+    "alias": "Ring T11",
     "description": "[description]",
     "price": 5000,
     "sellPrice": 2500,

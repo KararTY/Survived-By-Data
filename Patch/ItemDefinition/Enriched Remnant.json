@@ -1,8 +1,8 @@
 [
   {
     "name": "Enriched Remnant",
-    "alias": "Crafting Material Enriched Remnant T5",
-    "description": "Remnant of this purity often behaves as if it has a life of its own, twisting itself into echoes of signs of power",
+    "alias": "Crafting Material T5 Enriched Remnant",
+    "description": "Remnant of this purity often behaves as if it has a life of its own, twisting itself into echoes of signs of power.",
     "price": 80,
     "sellPrice": 8,
     "consumable": false,

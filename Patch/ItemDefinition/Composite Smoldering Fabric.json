@@ -1,8 +1,8 @@
 [
   {
     "name": "Composite Smoldering Fabric",
-    "alias": "Crafting Material Composite Smoldering Fabric T8",
-    "description": "Cloth interwoven with threads of embers",
+    "alias": "Crafting Material T8 Composite Smoldering Fabric",
+    "description": "Cloth interwoven with threads of embers.",
     "price": 500,
     "sellPrice": 50,
     "consumable": false,

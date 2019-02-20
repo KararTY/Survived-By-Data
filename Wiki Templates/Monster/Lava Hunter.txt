@@ -17,7 +17,7 @@ subboss_lavahunter_ghost={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -48,7 +48,7 @@ subboss_lavahunter={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -62,7 +62,7 @@ subboss_lavahunter={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -86,7 +86,7 @@ subboss_lavahunter={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -110,7 +110,7 @@ subboss_lavahunter={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-

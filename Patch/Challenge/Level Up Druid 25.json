@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Level Up Druid 25",
+    "title": "Max Level Druid",
+    "description": "Reach level {0} with Druid",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Druid 25"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+'''Loot table: ([[Loot table/Weekly2|Weekly2]])'''
+<br>Guaranteed drop amount: 1<br>Maximum drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Amulet of the Antecedent}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Plate Armor of the Antecedent}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Mantle of the Antecedent}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Leathers of the Antecedent}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Sabatons of the Antecedent}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Boots of the Antecedent}} || style="text-align:right" | 15% 
+|-
+| x1 || {{Icon|Ring of the Antecedent}} || style="text-align:right" | 15% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/Weekly2}}
+[[Category:Loot table]]</noinclude>

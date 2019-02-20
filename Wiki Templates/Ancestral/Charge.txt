@@ -46,8 +46,6 @@ Charge 2 (Uncommon)={| style="float:right;"
     |-
     ! colspan="3" | Proc
     |-
-    | Projectile damage multiplier || colspan="2" | 1
-    |-
     | Triggers || colspan="2" | 
     {| class="wikitable"
       |-
@@ -134,8 +132,6 @@ Charge 3 (Rare)={| style="float:right;"
     |-
     ! colspan="3" | Proc
     |-
-    | Projectile damage multiplier || colspan="2" | 1
-    |-
     | Triggers || colspan="2" | 
     {| class="wikitable"
       |-
@@ -221,8 +217,6 @@ Charge 4 (Legendary)={| style="float:right;"
   {| class="wikitable mw-collapsible mw-collapsed"
     |-
     ! colspan="3" | Proc
-    |-
-    | Projectile damage multiplier || colspan="2" | 1
     |-
     | Triggers || colspan="2" | 
     {| class="wikitable"

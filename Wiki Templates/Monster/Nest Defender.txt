@@ -18,7 +18,7 @@ monster_agent_scout_defender_start={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -42,7 +42,7 @@ monster_agent_scout_defender_start={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9.25
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-
@@ -71,7 +71,7 @@ monster_agent_scout_defender={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -95,7 +95,7 @@ monster_agent_scout_defender={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9.25
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-
@@ -124,7 +124,7 @@ monster_agent_scout_defender_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -148,7 +148,7 @@ monster_agent_scout_defender_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9.25
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-

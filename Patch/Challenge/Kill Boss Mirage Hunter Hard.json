@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Kill Boss Mirage Hunter Hard",
+    "title": "Kill Mirage Hunter (Hard)",
+    "description": "Kill Mirage Hunter (Hard)",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Mirage Hunter Hard"
+          }
+        }
+      }
+    ]
+  }
+]

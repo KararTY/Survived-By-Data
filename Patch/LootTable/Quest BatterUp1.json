@@ -1,0 +1,19 @@
+[
+  {
+    "from": "Quest BatterUp1",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1500
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

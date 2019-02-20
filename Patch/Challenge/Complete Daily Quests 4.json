@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Complete Daily Quests 4",
+    "title": "Complete Daily Quests (IV)",
+    "description": "Complete {0} bounties",
+    "challengeValueSuffix": "Bounties",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Complete Daily Quests (III)",
+        "Complete Daily Quests 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Complete Daily Quests 4"
+          }
+        }
+      }
+    ]
+  }
+]

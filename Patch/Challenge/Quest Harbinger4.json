@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Quest Harbinger4",
+    "title": "A Bad Ratting",
+    "description": "Defeat the Rat King",
+    "challengeValueSuffix": "",
+    "challengeType": "_Unknown",
+    "challengeTarget": "monster_RatBoss_quest",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Quest Harbinger4"
+          }
+        }
+      }
+    ]
+  }
+]

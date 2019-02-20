@@ -1,4 +1,11 @@
 <noinclude>'''{{PAGENAME}}'''</noinclude>
+'''Loot table: ([[Loot table/Quest Alchemist4|Quest Alchemist4]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x15 || {{Icon|Bloodstone}} || style="text-align:right" | 100% 
+|}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Quest Alchemist4}}
 [[Category:Loot table]]</noinclude>

@@ -3,8 +3,6 @@
     "name": "Infiltrator",
     "description": "Infiltrators are masters of guerrilla tactics; focusing on techniques of disruption and misdirection passed down by the warriors of the Southern Expanse. \r",
     "primaryStat": "Swiftness",
-    "moveRate": 8,
-    "interactionRange": 3,
     "experiencePerLevel": [
       0,
       150,
@@ -67,7 +65,7 @@
           },
           {
             "key": "Friction",
-            "equation": "",
+            "equation": "1",
             "value": 0
           },
           {

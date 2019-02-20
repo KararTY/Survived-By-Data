@@ -2,7 +2,7 @@
   {
     "name": "Quest Alchemist2",
     "title": "Jeopardous Journal Journey",
-    "description": "Jeopardous Journal Journey Quest Text",
+    "description": "Find 10 Journal Scraps",
     "challengeValueSuffix": "",
     "challengeType": "_Unknown",
     "challengeTarget": "QuestJournalScraps",

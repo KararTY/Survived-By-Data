@@ -42,6 +42,13 @@
         "spawnChance": 0.75,
         "spawnQuota": 8,
         "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Razor Clam",
+        "monsterAlias": "monster_clam_T6_dung_hardmode",
+        "spawnChance": 0.5,
+        "spawnQuota": 3,
+        "timeOfDay": "All"
       }
     ],
     "oneTimeTrigger": false,

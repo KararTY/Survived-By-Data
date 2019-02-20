@@ -1,0 +1,139 @@
+[
+  {
+    "from": "GearLoot T8",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Electrum Amulet",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Plate of the Witness",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Vestments of the Witness",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Leathers of the Witness",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Boots of the Invader",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Boots of the Suplicant",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Insight of the Witness",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Dedication of the Witness",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Precision of the Witness",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Discipline of the Witness",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Determination of the Witness",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Electrum Ring",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ambition of the Witness",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 [
   {
     "name": "Totem of the Antecedent",
-    "alias": "Druid T8_5 Weapon v1",
+    "alias": "Druid T9 Weapon",
     "description": "An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, its true strength lies in being the foundation for an even greater power.",
     "price": 1000000,
     "sellPrice": 10000,
@@ -127,7 +127,7 @@
   },
   {
     "name": "Totem of the Antecedent",
-    "alias": "Druid T8_5 Weapon v2",
+    "alias": "z Druid T8_5 Weapon v2",
     "description": "An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.",
     "price": 1000,
     "sellPrice": 500,
@@ -216,7 +216,7 @@
   },
   {
     "name": "Totem of the Antecedent",
-    "alias": "Druid T8_5 Weapon v3",
+    "alias": "z Druid T8_5 Weapon v3",
     "description": "An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.",
     "price": 1000,
     "sellPrice": 500,

@@ -18,7 +18,7 @@ monster_stag_reindeer={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9.25
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-
@@ -46,7 +46,7 @@ monster_stag_reindeer_T6={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9.25
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-

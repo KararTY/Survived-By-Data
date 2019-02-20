@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T7 Potency",
+    "alias": "z Consumable T7 Potency",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

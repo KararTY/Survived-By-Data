@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Narrative X Kill Boss Methuselah",
+    "title": "Kill Methuselah",
+    "description": "Kill Methuselah",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Narrative X Kill Boss Methuselah"
+          }
+        }
+      }
+    ]
+  }
+]

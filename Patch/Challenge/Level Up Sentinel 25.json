@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Level Up Sentinel 25",
+    "title": "Max Level Sentinel",
+    "description": "Reach level {0} with Sentinel",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Sentinel 25"
+          }
+        }
+      }
+    ]
+  }
+]

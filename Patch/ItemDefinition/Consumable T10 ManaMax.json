@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T10 ManaMax",
+    "alias": "z Consumable T10 ManaMax",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

@@ -1,11 +1,22 @@
 <noinclude>'''{{PAGENAME}}'''</noinclude>
-{{:Loot table/CommonLoot T1}}'''Loot table: ([[Loot table/monster_combo_1|monster_combo_1]])'''
+<div class="tabbertab-borderless"><tabber>
+monster_combo_1 1={{:Loot table/CommonLoot T1}}'''Loot table: ([[Loot table/monster_combo_1|monster_combo_1]])'''
 {|class="sortable"
 |-
 ! Amount || Item || Chance
 |-
 | x1 || {{Icon|Raw Strands}} || style="text-align:right" | 10% 
 |}
+|-|
+monster_combo_1 2=('''Quest loot table''') '''Loot table: ([[Loot table/monster_combo_1|monster_combo_1]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Meat}} || style="text-align:right" | 1% 
+|}
+|-|
+</tabber></div>
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_combo_1}}
 [[Category:Loot table]]</noinclude>

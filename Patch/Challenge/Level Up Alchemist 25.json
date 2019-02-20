@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Level Up Alchemist 25",
+    "title": "Max Level Alchemist",
+    "description": "Reach level {0} with Alchemist",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Alchemist 25"
+          }
+        }
+      }
+    ]
+  }
+]

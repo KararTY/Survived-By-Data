@@ -2,10 +2,10 @@
   {
     "name": "Quest Alchemist1",
     "title": "Boil and Bubble",
-    "description": "Boil and Bubble Quest Text",
+    "description": "Kill 40 Slimes",
     "challengeValueSuffix": "",
     "challengeType": "_Unknown",
-    "challengeTarget": "monster_slime_add",
+    "challengeTarget": "monster_slime_add_Overworld",
     "achievement": false,
     "data": [
       {

@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Activate Altars 2",
+    "title": "Activate Altars (II)",
+    "description": "Activate {0} altars",
+    "challengeValueSuffix": "Altars",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Activate Altars (I)",
+        "z Activate Altars 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Activate Altars 2"
+          }
+        }
+      }
+    ]
+  }
+]

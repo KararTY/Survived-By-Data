@@ -1,7 +1,7 @@
 [
   {
     "name": "Amulet of the Antecedent",
-    "alias": "Amulet T8_5 v1",
+    "alias": "Amulet T9",
     "description": "An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, its true strength lies in being the foundation for an even greater power.",
     "price": 1000000,
     "sellPrice": 10000,
@@ -133,7 +133,7 @@
   },
   {
     "name": "Amulet of the Antecedent",
-    "alias": "Amulet T8_5 v3",
+    "alias": "z Amulet T8_5 v3",
     "description": "An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.",
     "price": 1000,
     "sellPrice": 500,
@@ -228,7 +228,7 @@
   },
   {
     "name": "Amulet of the Antecedent",
-    "alias": "Amulet T8_5 v2",
+    "alias": "z Amulet T8_5 v2",
     "description": "An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.",
     "price": 1000,
     "sellPrice": 500,

@@ -1,0 +1,13 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+{{:Loot table/CommonLoot T5}}'''Loot table: ([[Loot table/monster_slime_add_Overworld|monster_slime_add_Overworld]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+|  || {{Icon|Raw Log}} || style="text-align:right" | 20% 
+|-
+|  || {{Icon|Purified Sap}} || style="text-align:right" | 20% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/monster_slime_add_Overworld}}
+[[Category:Loot table]]</noinclude>

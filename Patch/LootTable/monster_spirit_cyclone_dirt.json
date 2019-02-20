@@ -13,6 +13,16 @@
         },
         "chance": 20,
         "allowModifiers": true
+      },
+      {
+        "item": "Earth Upon the Wind",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
       }
     ],
     "reference": "CommonLoot T5"

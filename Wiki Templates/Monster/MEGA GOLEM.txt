@@ -12,7 +12,6 @@
   |experience = 15000
   |damage_bonus = 200
   |accuracy = 400<br><small>([Level]x[Level])x0.4 + 150</small>
-  |critical_defense = 150<br><small>([Level]x[Level])x0.2 + 25</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
@@ -20,7 +19,7 @@
     {{!}}-
     {{!}} Speed {{!!}} 5.8
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
@@ -32,11 +31,11 @@
     {{!}}}
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
-    {{!}} '''mega golem projectile splat''' {{!!}} <center>{{CSS image crop|Image=Boss_golem_Alchemist Quest.png|bSize=384|cWidth=9|cHeight=13|oBottom=211|oLeft=20}}</center>
+    {{!}} '''mega golem projectile splat''' {{!!}} <center>{{CSS image crop|Image=Boss_golem_Alchemist Quest.png|bSize=384|cWidth=15|cHeight=16|oBottom=210|oLeft=65}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

@@ -1,0 +1,44 @@
+{{Enemy
+  |title = Bat General
+  |image_original = {{CSS image crop|Image=Boss_Bat General.png|bSize=384|cWidth=78|cHeight=94|oBottom=2|oLeft=12}}
+  |location = 
+  |category = Agent
+  |is_boss = Yes
+  |element = Ur
+  |tier = 9
+  |level = 28
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 463.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''bat general projectile carpetbomb''' {{!!}} <center>{{CSS image crop|Image=Boss_Bat General.png|bSize=384|cWidth=18|cHeight=47|oBottom=118|oLeft=208}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 11.3
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Range {{!!}} 3.7
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">25%</strong>)<br><small>[MovementSpeed]*0.75</small>
+    {{!}}}
+  |drops = {{:Loot table/monster_bat_general}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Agent]]
+[[Category:Ur]]
+[[Category:Boss]]
+</includeonly>

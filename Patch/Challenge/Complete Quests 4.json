@@ -1,14 +1,14 @@
 [
   {
     "name": "Complete Quests 4",
-    "title": "Complete Quests (IV)",
+    "title": "Complete Bounty Kills (IV)",
     "description": "Complete {0} quests",
     "challengeValueSuffix": "Quests",
     "challengeType": "_Unknown",
     "achievement": false,
     "prerequisites": [
       [
-        "Complete Quests (III)",
+        "Complete Bounty Kills (III)",
         "Complete Quests 3"
       ]
     ],

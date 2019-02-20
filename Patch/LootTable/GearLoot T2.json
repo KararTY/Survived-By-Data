@@ -1,0 +1,139 @@
+[
+  {
+    "from": "GearLoot T2",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Simple Keepsake",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Antique Plate Armor",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Forester Mantle",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Hunter Leathers",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Logger Sabatons",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Farmer Boots",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Unworked Stone Totem",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Chipped Stone Pick",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Huntsman's Bow",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Stone Staff",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Antique Longsword",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Heritage Band",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Workman's Knife",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2.5,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

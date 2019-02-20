@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Quest SimpleCharity2",
+    "title": "Rest Assured",
+    "description": "Administer 5 Tinctures to Insane",
+    "challengeValueSuffix": "",
+    "challengeType": "_Unknown",
+    "challengeTarget": "QuestHerbs",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Quest SimpleCharity2"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+{{:Loot table/CommonLoot T5}}'''Loot table: ([[Loot table/monster_chimera_rat_quest|monster_chimera_rat_quest]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Raw Quartz Vein}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Raw Log}} || style="text-align:right" | 10% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/monster_chimera_rat_quest}}
+[[Category:Loot table]]</noinclude>

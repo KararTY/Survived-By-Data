@@ -77,6 +77,6 @@
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Platinum",
-    "modifierChance": 0.05
+    "modifierChance": 0
   }
 ]

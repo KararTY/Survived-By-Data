@@ -11,7 +11,6 @@
           "description": "When taking damage, there is a #% chance that you will fire 4 short range bullets in a cross pattern\r",
           "counterMax": 0,
           "timerValue": 0,
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -148,7 +147,6 @@
           "description": "When taking damage, there is a #% chance that you will fire 4 short range bullets in a cross pattern\r",
           "counterMax": 0,
           "timerValue": 0,
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -285,7 +283,6 @@
           "description": "When taking damage, there is a #% chance that you will fire 4 short range bullets in a cross pattern\r",
           "counterMax": 0,
           "timerValue": 0,
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {

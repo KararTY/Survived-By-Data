@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Reach Level 5",
+    "title": "Reach Level",
+    "description": "Reach level {0}",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Reach Level 5"
+          }
+        }
+      }
+    ]
+  }
+]

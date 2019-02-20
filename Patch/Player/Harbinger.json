@@ -3,8 +3,6 @@
     "name": "Harbinger",
     "description": "Harbingers are guides and hunters, survivors of the initial Chimera invasion of Sagila at the border of the Demesne of the Unseen. They travel the Heartland, observing the enemies of humanity from afar and reporting back with what they have learned. This information can turn the tide of a pitched battle, as can their mastery of the bow and arrow.\r",
     "primaryStat": "Focus",
-    "moveRate": 8,
-    "interactionRange": 3,
     "experiencePerLevel": [
       0,
       150,
@@ -67,7 +65,7 @@
           },
           {
             "key": "Friction",
-            "equation": "",
+            "equation": "1",
             "value": 0
           },
           {
@@ -877,6 +875,26 @@
           },
           "textureOffset": {
             "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerSkinValentine",
+        "sprite": {
+          "name": "harbinger_valentine",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 96,
+            "width": 44,
+            "height": 42
+          },
+          "textureOffset": {
+            "x": 3,
             "y": 0
           }
         }

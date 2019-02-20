@@ -1,8 +1,8 @@
 [
   {
     "name": "Branding Fuel",
-    "alias": "Crafting Material Masterwork Branding Fuel T10",
-    "description": "The material used to prepare a device for branding",
+    "alias": "Crafting Material T10 Masterwork Branding Fuel",
+    "description": "The material used to prepare a device for branding.",
     "price": 2000,
     "sellPrice": 200,
     "consumable": false,

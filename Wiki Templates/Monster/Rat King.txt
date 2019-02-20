@@ -1,0 +1,49 @@
+{{Enemy
+  |title = Rat King
+  |image_original = {{CSS image crop|Image=Boss_Rat Monster.png|bSize=512|cWidth=92|cHeight=89|oBottom=160|oLeft=28}}
+  |caption = Description for Rat King
+  |location = 
+  |category = Chimera
+  |is_boss = Yes
+  |tier = 2
+  |level = 10
+  |max_health = {{Icon|Health|nolink=1}} 3400
+  |damage_bonus = 60
+  |accuracy = 190<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''rat king lobbed''' {{!!}} <center>{{CSS image crop|Image=Boss_Rat Monster.png|bSize=512|cWidth=18|cHeight=30|oBottom=433|oLeft=311}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Delay rate {{!!}} 0.1
+    {{!}}-
+    {{!}} Range {{!!}} 8
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''rat king splat''' {{!!}} <center>{{CSS image crop|Image=Boss_Rat Monster Poison Puddle.png|bSize=64|cWidth=64|cHeight=47|oBottom=8|oLeft=0}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Chimera]]
+[[Category:Boss]]
+</includeonly>

@@ -23,6 +23,16 @@
         },
         "chance": 6,
         "allowModifiers": true
+      },
+      {
+        "item": "Fury Nector",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
       }
     ],
     "reference": "CommonLoot T9"

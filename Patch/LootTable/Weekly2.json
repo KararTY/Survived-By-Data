@@ -1,0 +1,79 @@
+[
+  {
+    "from": "Weekly2",
+    "guaranteeItemCount": 1,
+    "maximumItemCount": 1,
+    "lootTable": [
+      {
+        "item": "Amulet of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 15,
+        "allowModifiers": true
+      },
+      {
+        "item": "Plate Armor of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 15,
+        "allowModifiers": true
+      },
+      {
+        "item": "Mantle of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 15,
+        "allowModifiers": true
+      },
+      {
+        "item": "Leathers of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 15,
+        "allowModifiers": true
+      },
+      {
+        "item": "Sabatons of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 15,
+        "allowModifiers": true
+      },
+      {
+        "item": "Boots of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 15,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ring of the Antecedent",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 15,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

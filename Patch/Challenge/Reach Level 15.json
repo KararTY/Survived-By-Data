@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Reach Level 15",
+    "title": "Reach Level",
+    "description": "Reach level {0}",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Reach Level",
+        "Reach Level 10"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Reach Level 15"
+          }
+        }
+      }
+    ]
+  }
+]

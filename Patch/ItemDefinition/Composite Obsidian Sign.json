@@ -1,8 +1,8 @@
 [
   {
     "name": "Composite Obsidian Sign",
-    "alias": "Crafting Material Composite Sign Obsidian T8",
-    "description": "Obsidian given form by the remnant infused into its shaping",
+    "alias": "Crafting Material T8 Composite Sign Obsidian",
+    "description": "Obsidian given form by the remnant infused into its shaping.",
     "price": 500,
     "sellPrice": 50,
     "consumable": false,

@@ -8,6 +8,11 @@ module.exports = () => {
   var count = 0
   var announceAtNextCount = 500
   fs.readdirSync(folder).forEach(val => {
+    let rawFile = fs.readFileSync(path.join(folder, val), 'utf8')
+    if (rawFile.includes('#QNAN')) {
+      rawFile = rawFile.replace(/#QNAN/gm, '0')
+      fs.writeFileSync(path.join(folder, val), rawFile)
+    }
     var file = require(path.join(folder, val))
     if (file['0 MonoBehaviour Base']) {
       var monoBehaviour = file['0 MonoBehaviour Base']

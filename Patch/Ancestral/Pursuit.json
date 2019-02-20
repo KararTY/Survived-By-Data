@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Pursuit",
-            "type": "AncestralLegacyMovementSpeed",
+            "type": "None",
             "duration": 10,
             "stats": [
               {
@@ -32,7 +32,6 @@
             "coolDownTime": 30,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -133,7 +132,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Pursuit",
-            "type": "AncestralLegacyMovementSpeed",
+            "type": "None",
             "duration": 10,
             "stats": [
               {
@@ -152,7 +151,6 @@
             "coolDownTime": 30,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -253,7 +251,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Pursuit",
-            "type": "AncestralLegacyMovementSpeed",
+            "type": "None",
             "duration": 10,
             "stats": [
               {
@@ -272,7 +270,6 @@
             "coolDownTime": 30,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {

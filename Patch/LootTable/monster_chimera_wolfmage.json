@@ -23,6 +23,26 @@
         },
         "chance": 10,
         "allowModifiers": true
+      },
+      {
+        "item": "Harsa Observations",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Harsa Ledger",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
       }
     ],
     "reference": "CommonLoot T5"

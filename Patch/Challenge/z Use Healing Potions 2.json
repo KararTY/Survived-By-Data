@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Use Healing Potions 2",
+    "title": "Use Healing Potions (II)",
+    "description": "Use {0} healing potions",
+    "challengeValueSuffix": "Potions",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Use Healing Potions (I)",
+        "z Use Healing Potions 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Use Healing Potions 2"
+          }
+        }
+      }
+    ]
+  }
+]

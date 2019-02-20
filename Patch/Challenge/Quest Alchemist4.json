@@ -2,10 +2,10 @@
   {
     "name": "Quest Alchemist4",
     "title": "Alchemical Antidote",
-    "description": "Alchemical Antidote Quest Text",
+    "description": "Slay MEGA GOLEM MONSTER",
     "challengeValueSuffix": "",
     "challengeType": "_Unknown",
-    "challengeTarget": "monster_cauldron",
+    "challengeTarget": "monster_mega_golem",
     "achievement": false,
     "data": [
       {

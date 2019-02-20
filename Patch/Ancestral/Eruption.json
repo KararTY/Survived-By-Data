@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Eruption",
-            "type": "MonsterDebuffDamageOverTime",
+            "type": "None",
             "duration": 5,
             "stats": [
               {
@@ -27,7 +27,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -134,7 +133,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Eruption",
-            "type": "MonsterDebuffDamageOverTime",
+            "type": "None",
             "duration": 5,
             "stats": [
               {
@@ -148,7 +147,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -255,7 +253,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Eruption",
-            "type": "MonsterDebuffDamageOverTime",
+            "type": "None",
             "duration": 5,
             "stats": [
               {
@@ -269,7 +267,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {

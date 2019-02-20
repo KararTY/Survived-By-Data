@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Conditioned Soil",
+    "alias": "WeeklyQuest Forest Conditioned Soil",
+    "description": "The soil of the Demense of the Unseen is particularly fertile and can be found clinging to most beasts that live there.",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 99,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "ConditionedSoil",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 2,
+            "width": 32,
+            "height": 29
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 2
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  }
+]

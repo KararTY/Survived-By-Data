@@ -1,8 +1,8 @@
 [
   {
     "name": "Enriched Embers",
-    "alias": "Crafting Material Enriched Embers T5",
-    "description": "Though possible to obtain from potent imprints, sometimes it is more practical to work and purify Core Embers to achieve the level of power found in Enriched Embers",
+    "alias": "Crafting Material T5 Enriched Embers T5",
+    "description": "Though possible to obtain from potent imprints, sometimes it is more practical to work and purify Core Embers to achieve the level of power found in Enriched Embers.",
     "price": 80,
     "sellPrice": 8,
     "consumable": false,

@@ -1,8 +1,8 @@
 [
   {
     "name": "Composite Smoldering Alloy",
-    "alias": "Crafting Material Composite Smoldering Alloy T8",
-    "description": "A metal alloy contain a small part of embers",
+    "alias": "Crafting Material T8 Composite Smoldering Alloy",
+    "description": "A metal alloy contain a small part of embers.",
     "price": 500,
     "sellPrice": 50,
     "consumable": false,

@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Level Up Mage 3",
+    "title": "Level Alchemist (III)",
+    "description": "Reach level {0} with Alchemist",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Alchemist (II)",
+        "z Level Up Mage 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Level Up Mage 3"
+          }
+        }
+      }
+    ]
+  }
+]

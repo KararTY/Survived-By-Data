@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Kill Sin 20",
+    "title": "Kill Sin (I)",
+    "description": "Kill Sin {0} Times",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Sin 20"
+          }
+        }
+      }
+    ]
+  }
+]

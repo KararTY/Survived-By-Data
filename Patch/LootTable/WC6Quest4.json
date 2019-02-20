@@ -1,0 +1,30 @@
+[
+  {
+    "from": "WC6Quest4",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 2000
+        },
+        "chance": 100,
+        "allowModifiers": false
+      },
+      {
+        "item": "Relic of the Heart of the Forest",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ],
+    "reference": "Weekly4"
+  }
+]

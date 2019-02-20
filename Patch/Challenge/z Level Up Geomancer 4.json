@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Level Up Geomancer 4",
+    "title": "Level Geomancer (IV)",
+    "description": "Reach level {0} with Geomancer",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Geomancer (III)",
+        "z Level Up Geomancer 3"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Level Up Geomancer 4"
+          }
+        }
+      }
+    ]
+  }
+]

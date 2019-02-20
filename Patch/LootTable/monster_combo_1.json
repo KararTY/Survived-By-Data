@@ -16,5 +16,25 @@
       }
     ],
     "reference": "CommonLoot T1"
+  },
+  {
+    "from": "monster_combo_1",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Meat",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 1,
+        "allowModifiers": false
+      }
+    ],
+    "questLootTable": {
+      "name": "QuestItem Meat"
+    }
   }
 ]

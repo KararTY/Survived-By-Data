@@ -13,6 +13,16 @@
         },
         "chance": 100,
         "allowModifiers": true
+      },
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 15
+        },
+        "chance": 100,
+        "allowModifiers": true
       }
     ]
   }

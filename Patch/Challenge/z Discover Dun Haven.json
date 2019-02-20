@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Discover Dun Haven",
+    "title": "Discover Frozen Haven",
+    "description": "Locate and enter the Frozen Haven dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Discover Dun Haven"
+          }
+        }
+      }
+    ]
+  }
+]

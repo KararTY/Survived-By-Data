@@ -11,7 +11,6 @@
           "description": "When killing an enemy, that enemy explodes into a cross pattern of 4 short range bullets that each do #% of the damage that your bullets do\r",
           "counterMax": 0,
           "timerValue": 0,
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -148,7 +147,6 @@
           "description": "When killing an enemy, that enemy explodes into a cross pattern of 4 short range bullets that each do #% of the damage that your bullets do\r",
           "counterMax": 0,
           "timerValue": 0,
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -285,7 +283,6 @@
           "description": "When killing an enemy, that enemy explodes into a cross pattern of 4 short range bullets that each do #% of the damage that your bullets do\r",
           "counterMax": 0,
           "timerValue": 0,
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {

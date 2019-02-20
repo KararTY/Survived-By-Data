@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Use Buff Items 3",
+    "title": "Use Beneficial Consumables (III)",
+    "description": "Use {0} consumables that provide a positive buff",
+    "challengeValueSuffix": "Buffs",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "prerequisites": [
+      [
+        "Use Beneficial Consumables (II)",
+        "z Use Buff Items 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Use Buff Items 3"
+          }
+        }
+      }
+    ]
+  }
+]

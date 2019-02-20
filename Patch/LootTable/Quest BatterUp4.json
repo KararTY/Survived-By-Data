@@ -1,0 +1,19 @@
+[
+  {
+    "from": "Quest BatterUp4",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Bloodstone",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 24
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

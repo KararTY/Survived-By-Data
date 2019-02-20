@@ -7,8 +7,8 @@
       {
         "item": "Journal Scraps",
         "count": {
-          "dice": 0,
-          "faces": 0,
+          "dice": 1,
+          "faces": 1,
           "add": 1
         },
         "chance": 100,

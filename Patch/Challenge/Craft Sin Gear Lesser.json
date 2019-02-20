@@ -5,7 +5,7 @@
     "description": "Craft a Full Set of Lesser Sin Gear",
     "challengeValueSuffix": "",
     "challengeType": "_Unknown",
-    "achievement": false,
+    "achievement": true,
     "data": [
       {
         "loot": {

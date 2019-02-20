@@ -2,7 +2,7 @@
   {
     "name": "Expanded Posting License",
     "alias": "MoreAuctionSpace",
-    "description": "Increases the number of listings per account per auction house by one",
+    "description": "Increases the number of listings per account per auction house by one.",
     "price": 300,
     "sellPrice": 0,
     "consumable": false,

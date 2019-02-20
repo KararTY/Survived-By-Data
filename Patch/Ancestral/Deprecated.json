@@ -1,5 +1,239 @@
 [
   {
+    "name": "DEPRECATED",
+    "alias": "Berserker 2",
+    "doNotAward": false,
+    "data": [],
+    "validClasses": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "rarity": "Uncommon",
+    "stats": [
+      {
+        "key": "AddPotency",
+        "equation": "[AddPotency] + Min(([$Benefit]/100) * [Naked],200)",
+        "value": 0
+      },
+      {
+        "key": "AddEndurance",
+        "equation": "[AddEndurance] + Min(([$Benefit]/100) * [Naked],200)",
+        "value": 0
+      },
+      {
+        "key": "AddFocus",
+        "equation": "[AddFocus] + Min(([$Benefit]/100) * [Naked],200)",
+        "value": 0
+      },
+      {
+        "key": "AddWillpower",
+        "equation": "[AddWillpower] + Min(([$Benefit]/100) * [Naked],200)",
+        "value": 0
+      },
+      {
+        "key": "AddSwiftness",
+        "equation": "[AddSwiftness] + Min(([$Benefit]/100) * [Naked],200)",
+        "value": 0
+      },
+      {
+        "key": "Benefit",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "Character_menu_Equipment",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_circle with line",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_percentage plus",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Attribute",
+        "alias": "Attribute Set",
+        "sprite": "AL_icon_peace"
+      }
+    ],
+    "blockedBy": [
+      "Berserker 2",
+      "Berserker 3"
+    ]
+  },
+  {
+    "name": "DEPRECATED",
+    "alias": "Berserker 3",
+    "doNotAward": false,
+    "data": [],
+    "validClasses": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "rarity": "Rare",
+    "stats": [
+      {
+        "key": "AddPotency",
+        "equation": "[AddPotency] + Min(([$Benefit]/100) * [Naked],300)",
+        "value": 0
+      },
+      {
+        "key": "AddEndurance",
+        "equation": "[AddEndurance] + Min(([$Benefit]/100) * [Naked],300)",
+        "value": 0
+      },
+      {
+        "key": "AddFocus",
+        "equation": "[AddFocus] + Min(([$Benefit]/100) * [Naked],300)",
+        "value": 0
+      },
+      {
+        "key": "AddWillpower",
+        "equation": "[AddWillpower] + Min(([$Benefit]/100) * [Naked],300)",
+        "value": 0
+      },
+      {
+        "key": "AddSwiftness",
+        "equation": "[AddSwiftness] + Min(([$Benefit]/100) * [Naked],300)",
+        "value": 0
+      },
+      {
+        "key": "Benefit",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "ordinaries": [
+      {
+        "sprite": {
+          "name": "Character_menu_Equipment",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_circle with line",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "sprite": {
+          "name": "AL_icon_percentage plus",
+          "baseSize": {
+            "width": 22,
+            "height": 22
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 22,
+            "height": 22
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "sets": [
+      {
+        "name": "Attribute",
+        "alias": "Attribute Set",
+        "sprite": "AL_icon_peace"
+      }
+    ],
+    "blockedBy": [
+      "Berserker 2",
+      "Berserker 3"
+    ]
+  },
+  {
     "name": "<Deprecated>",
     "alias": "Affinity for the Winds",
     "doNotAward": false,
@@ -322,7 +556,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -371,7 +604,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -420,7 +652,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -532,7 +763,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -581,7 +811,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -630,7 +859,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {

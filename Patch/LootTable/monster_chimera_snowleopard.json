@@ -23,6 +23,16 @@
         },
         "chance": 10,
         "allowModifiers": true
+      },
+      {
+        "item": "Manifest",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
       }
     ],
     "reference": "CommonLoot T4"

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Narrative 1 Kill Boss Proto Elemental",
+    "title": "Kill Proto Elemental",
+    "description": "Kill Proto Elemental",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Narrative 1 Kill Boss Proto Elemental"
+          }
+        }
+      }
+    ]
+  }
+]

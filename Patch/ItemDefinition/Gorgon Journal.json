@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Gorgon Journal",
+    "alias": "WeeklyQuest Monastery Gorgon Journal",
+    "description": "The Gorgon (Hard) is one of, if not the most powerful Chimera to walk the Heartland and she has come to the Monastery of the Rift for a reason...",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 99,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "GorgonJournal",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  }
+]

@@ -23,6 +23,16 @@
         },
         "chance": 6,
         "allowModifiers": true
+      },
+      {
+        "item": "Scorpion Venom",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 35,
+        "allowModifiers": true
       }
     ],
     "reference": "CommonLoot T9"

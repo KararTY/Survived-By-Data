@@ -27,7 +27,6 @@
             "coolDownTime": 3,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -162,7 +161,6 @@
             "coolDownTime": 3,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -297,7 +295,6 @@
             "coolDownTime": 3,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Quest Harbinger2",
+    "title": "Secret Stash",
+    "description": "Find 7 Hidden Caches",
+    "challengeValueSuffix": "",
+    "challengeType": "_Unknown",
+    "challengeTarget": "HarbingerQuest_Cache",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Quest Harbinger2"
+          }
+        }
+      }
+    ]
+  }
+]

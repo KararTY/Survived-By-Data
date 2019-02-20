@@ -3,8 +3,6 @@
     "name": "Sentinel",
     "description": "The Sentinel, once proud protectors of the city of Harsa, now stand guard over the last bastion of humanity: the Tower. With the Chimera pushing humans to the brink of extinction they must be as immovable as that which they protect.\r",
     "primaryStat": "Willpower",
-    "moveRate": 8,
-    "interactionRange": 3,
     "experiencePerLevel": [
       0,
       150,
@@ -67,7 +65,7 @@
           },
           {
             "key": "Friction",
-            "equation": "",
+            "equation": "1",
             "value": 0
           },
           {

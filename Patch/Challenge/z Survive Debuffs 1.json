@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Survive Debuffs 1",
+    "title": "Survive Debuffs (I)",
+    "description": "Survive {0} debuffs",
+    "challengeValueSuffix": "Debuffs",
+    "challengeType": "_Unknown",
+    "achievement": false,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Survive Debuffs 1"
+          }
+        }
+      }
+    ]
+  }
+]

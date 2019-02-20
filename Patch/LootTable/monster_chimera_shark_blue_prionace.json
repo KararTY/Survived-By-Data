@@ -13,8 +13,28 @@
         },
         "chance": 20,
         "allowModifiers": true
+      },
+      {
+        "item": "Escalade Islands Observations",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Shark Teeth",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
       }
     ],
-    "reference": "CommonLoot T4"
+    "reference": "CommonLoot T6"
   }
 ]

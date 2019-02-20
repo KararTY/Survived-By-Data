@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Press The Offensive",
-            "type": "Unique",
+            "type": "None",
             "duration": 3,
             "stats": [
               {
@@ -32,7 +32,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -147,7 +146,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Press The Offensive",
-            "type": "Unique",
+            "type": "None",
             "duration": 3,
             "stats": [
               {
@@ -166,7 +165,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -281,7 +279,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Press The Offensive",
-            "type": "Unique",
+            "type": "None",
             "duration": 3,
             "stats": [
               {
@@ -300,7 +298,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {

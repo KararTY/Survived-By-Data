@@ -1,11 +1,23 @@
 <noinclude>'''{{PAGENAME}}'''</noinclude>
-{{:Loot table/CommonLoot T2}}'''Loot table: ([[Loot table/monster_stag_moose|monster_stag_moose]])'''
+<div class="tabbertab-borderless"><tabber>
+monster_stag_moose 1={{:Loot table/CommonLoot T2}}'''Loot table: ([[Loot table/monster_stag_moose|monster_stag_moose]])'''
 {|class="sortable"
 |-
 ! Amount || Item || Chance
 |-
 | x1 || {{Icon|Raw Strands}} || style="text-align:right" | 20% 
 |}
+|-|
+monster_stag_moose 2=('''Quest loot table''') '''Loot table: ([[Loot table/monster_stag_moose|monster_stag_moose]])'''
+<br>Guaranteed drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1-2 || {{Icon|Meat}} || style="text-align:right" | 100% 
+|}
+|-|
+</tabber></div>
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_stag_moose}}
 [[Category:Loot table]]</noinclude>

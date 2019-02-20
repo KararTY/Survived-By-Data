@@ -1,0 +1,30 @@
+[
+  {
+    "name": "QuestCauldron",
+    "biome": "None",
+    "difficulty": {
+      "min": 0,
+      "max": 1
+    },
+    "spawnRadius": 0,
+    "spawnDelayed": false,
+    "quotaRadius": 30,
+    "rechargeTime": 1,
+    "isBoss": false,
+    "autoPopulate": false,
+    "manuallyPlaced": false,
+    "floraOrFaunaSpawner": false,
+    "spawnList": [
+      {
+        "monsterName": "Cauldron",
+        "monsterAlias": "monster_cauldron",
+        "spawnChance": 1,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "oneTimeTrigger": false,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

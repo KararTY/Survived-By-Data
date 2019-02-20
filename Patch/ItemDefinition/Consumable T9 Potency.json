@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T9 Potency",
+    "alias": "z Consumable T9 Potency",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

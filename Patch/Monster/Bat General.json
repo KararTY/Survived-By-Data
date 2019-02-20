@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Bat General",
+    "alias": "monster_bat_general",
+    "description": "",
+    "isBoss": true,
+    "isElite": false,
+    "isSetPieceMonster": false,
+    "weapons": [
+      {
+        "name": "bat_general_projectile_carpetbomb",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Bat General",
+              "baseSize": {
+                "width": 384,
+                "height": 288
+              },
+              "textureRectangle": {
+                "x": 208,
+                "y": 123,
+                "width": 18,
+                "height": 47
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "bat_general_projectile_carpetbomb",
+              "projectileName": "Projectile",
+              "launchOffsetDistance": 0,
+              "alignToDirection": true,
+              "isNextProjectileGlobal": false,
+              "isTangentProjectileGlobal": false,
+              "maintainOrbitRange": false,
+              "ownerRelative": false,
+              "sineWaveMotion": false,
+              "speed": 11.3,
+              "damage": 0,
+              "damageMultiplier": 1,
+              "range": 3.7,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "statusEffect": {
+                "name": "Hindered",
+                "type": "None",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "MovementSpeed",
+                    "equation": "[MovementSpeed]*0.75",
+                    "value": 0
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 0
+                  }
+                ],
+                "isBuff": false,
+                "removeOnAttack": false,
+                "coolDownTime": 0,
+                "noTimeOut": false
+              },
+              "color": {
+                "r": 0.5,
+                "g": 0.6,
+                "b": 0.04,
+                "a": 0.17
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boss_Bat General",
+          "baseSize": {
+            "width": 384,
+            "height": 288
+          },
+          "textureRectangle": {
+            "x": 12,
+            "y": 192,
+            "width": 78,
+            "height": 94
+          },
+          "textureOffset": {
+            "x": 12,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 28
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 26750
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 320
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 9
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 900
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "monster_bat_general"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Wake",
+          "sounds": [
+            "DefenderWake1",
+            "DefenderWake2",
+            "DefenderWake3",
+            "DefenderWake4",
+            "DefenderWake5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Pain",
+          "sounds": [
+            "DefenderPain1",
+            "DefenderPain2",
+            "DefenderPain3",
+            "DefenderPain4",
+            "DefenderPain5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Death",
+          "sounds": [
+            "DefenderDeath1",
+            "DefenderDeath2",
+            "DefenderDeath3",
+            "DefenderDeath4",
+            "DefenderDeath5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Agent",
+    "element": "Ur"
+  }
+]

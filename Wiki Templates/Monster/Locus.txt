@@ -21,7 +21,7 @@
     {{!}}-
     {{!}} Acceleration {{!!}} -3
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 25
     {{!}}-
@@ -37,7 +37,7 @@
     {{!}}-
     {{!}} Acceleration {{!!}} -3
     {{!}}-
-    {{!}} Lifetime {{!!}} 8
+    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 25
     {{!}}-

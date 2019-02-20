@@ -1,0 +1,70 @@
+[
+  {
+    "from": "monster_chimera_wolfwarrior_T4",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Raw Quartz Vein",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Raw Log",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Wolf Pelt",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Manifest",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CommonLoot T4"
+  },
+  {
+    "from": "monster_chimera_wolfwarrior_T4",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 1,
+    "lootTable": [
+      {
+        "item": "Wolf Lord Location",
+        "count": {
+          "dice": 1,
+          "faces": 1,
+          "add": 1
+        },
+        "chance": 0.07,
+        "allowModifiers": false
+      }
+    ],
+    "questLootTable": {
+      "name": "QuestWolfLordLocation"
+    }
+  }
+]

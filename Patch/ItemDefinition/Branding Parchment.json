@@ -1,8 +1,8 @@
 [
   {
     "name": "Branding Parchment",
-    "alias": "Crafting Material Masterwork Branding Parchment T10",
-    "description": "The material an Imprint is composed upon",
+    "alias": "Crafting Material T10 Masterwork Branding Parchment",
+    "description": "The material an Imprint is composed upon.",
     "price": 2000,
     "sellPrice": 200,
     "consumable": false,

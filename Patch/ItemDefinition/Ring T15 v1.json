@@ -1,6 +1,7 @@
 [
   {
     "name": "Ring T15 v1",
+    "alias": "z Ring T15 v1",
     "description": "[Deprecated]",
     "price": 525,
     "sellPrice": 262,

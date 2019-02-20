@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T7 Endurance",
+    "alias": "z Consumable T7 Endurance",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

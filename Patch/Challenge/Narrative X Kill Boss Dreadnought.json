@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Narrative X Kill Boss Dreadnought",
+    "title": "Kill Miniwarden",
+    "description": "Kill Miniwarden",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Narrative X Kill Boss Dreadnought"
+          }
+        }
+      }
+    ]
+  }
+]

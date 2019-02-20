@@ -1,0 +1,19 @@
+[
+  {
+    "from": "DestroyableSimpleCharityHerb",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Winter Bloom",
+        "count": {
+          "dice": 2,
+          "faces": 2,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

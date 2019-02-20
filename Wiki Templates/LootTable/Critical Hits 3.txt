@@ -1,10 +1,5 @@
 <noinclude>'''{{PAGENAME}}'''</noinclude>
-<div class="tabbertab-borderless"><tabber>
-Critical Hits 3 1={{:Loot table/BountySlot3}}
-|-|
-Critical Hits 3 2={{:Loot table/Challenge3}}
-|-|
-</tabber></div>
+{{:Loot table/BountySlot3}}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/Critical Hits 3}}
 [[Category:Loot table]]</noinclude>

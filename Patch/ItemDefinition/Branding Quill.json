@@ -1,8 +1,8 @@
 [
   {
     "name": "Branding Quill",
-    "alias": "Crafting Material Masterwork Branding Quill T10",
-    "description": "The tool the text of an Imprint is composed with",
+    "alias": "Crafting Material T10 Masterwork Branding Quill",
+    "description": "The tool the text of an Imprint is composed with.",
     "price": 2000,
     "sellPrice": 200,
     "consumable": false,

@@ -3,6 +3,17 @@
     "from": "Quest Alchemist1",
     "guaranteeItemCount": 0,
     "maximumItemCount": 0,
-    "lootTable": []
+    "lootTable": [
+      {
+        "item": "Silver",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 350
+        },
+        "chance": 100,
+        "allowModifiers": true
+      }
+    ]
   }
 ]

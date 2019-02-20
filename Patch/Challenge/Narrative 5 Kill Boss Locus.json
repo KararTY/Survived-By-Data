@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Narrative 5 Kill Boss Locus",
+    "title": "Kill Locus",
+    "description": "Kill Locus",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Narrative 5 Kill Boss Locus"
+          }
+        }
+      }
+    ]
+  }
+]

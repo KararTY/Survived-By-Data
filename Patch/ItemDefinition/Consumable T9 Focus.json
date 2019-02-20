@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T9 Focus",
+    "alias": "z Consumable T9 Focus",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

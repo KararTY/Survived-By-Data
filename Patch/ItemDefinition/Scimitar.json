@@ -1,7 +1,7 @@
 [
   {
     "name": "Scimitar",
-    "alias": "Paladin T5 Weapon v2",
+    "alias": "z Paladin T5 Weapon v2",
     "description": "[Deprecated]",
     "price": 22,
     "sellPrice": 11,
@@ -66,7 +66,7 @@
   },
   {
     "name": "Scimitar",
-    "alias": "Paladin T3 Weapon",
+    "alias": "Sentinel T3 Weapon",
     "description": "The massive curved blade would have been ideal for a riding warrior, but the mounts these people must have once rode are as lost as the rest of their settlement.",
     "price": 7000,
     "sellPrice": 70,

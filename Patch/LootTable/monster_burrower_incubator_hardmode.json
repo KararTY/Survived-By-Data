@@ -23,6 +23,36 @@
         },
         "chance": 3,
         "allowModifiers": true
+      },
+      {
+        "item": "Fury Bores",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 35,
+        "allowModifiers": true
+      },
+      {
+        "item": "Cocoon Remains",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
+      },
+      {
+        "item": "Nest Resin",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 10,
+        "allowModifiers": true
       }
     ],
     "reference": "CommonLoot T9"

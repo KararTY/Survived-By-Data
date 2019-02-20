@@ -3,8 +3,6 @@
     "name": "Geomancer",
     "description": "Geomancers wield the power of obsidian, a destructive material that transforms the will of the bearer into deadly force. Obsidian is a difficult material to gather and harness, but the Geomancer will not rest after what the Chimera did to their home of Harsa.",
     "primaryStat": "Willpower",
-    "moveRate": 8,
-    "interactionRange": 3,
     "experiencePerLevel": [
       0,
       150,
@@ -67,7 +65,7 @@
           },
           {
             "key": "Friction",
-            "equation": "",
+            "equation": "1",
             "value": 0
           },
           {

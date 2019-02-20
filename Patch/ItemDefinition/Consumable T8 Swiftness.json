@@ -1,6 +1,7 @@
 [
   {
     "name": "Consumable T8 Swiftness",
+    "alias": "z Consumable T8 Swiftness",
     "description": "[description]",
     "price": 50,
     "sellPrice": 0,

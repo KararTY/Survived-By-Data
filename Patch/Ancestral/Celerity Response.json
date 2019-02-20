@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Celerity Response",
-            "type": "AncestralLegacyMovementSpeed",
+            "type": "None",
             "duration": 3,
             "stats": [
               {
@@ -32,7 +32,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -152,7 +151,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Celerity Response",
-            "type": "AncestralLegacyMovementSpeed",
+            "type": "None",
             "duration": 3,
             "stats": [
               {
@@ -171,7 +170,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {
@@ -291,7 +289,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Celerity Response",
-            "type": "AncestralLegacyMovementSpeed",
+            "type": "None",
             "duration": 3,
             "stats": [
               {
@@ -310,7 +308,6 @@
             "coolDownTime": 0,
             "noTimeOut": false
           },
-          "projectileDamageMultiplier": 1,
           "useAncestralBenefitForDamage": false,
           "triggers": [
             {

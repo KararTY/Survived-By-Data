@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Level Up Geomancer 25",
+    "title": "Max Level Geomancer",
+    "description": "Reach level {0} with Geomancer",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Level Up Geomancer 25"
+          }
+        }
+      }
+    ]
+  }
+]

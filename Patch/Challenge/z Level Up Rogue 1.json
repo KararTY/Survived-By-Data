@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Level Up Rogue 1",
+    "title": "Level Infiltrator (I)",
+    "description": "Reach level {0} with Infiltrator",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Level Up Rogue 1"
+          }
+        }
+      }
+    ]
+  }
+]

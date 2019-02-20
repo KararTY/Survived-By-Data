@@ -5,6 +5,8 @@
 ! Amount || Item || Chance
 |-
 | x1 || {{Icon|Raw Log}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Purified Sap}} || style="text-align:right" | 20% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/monster_spirit_dryad_tree}}

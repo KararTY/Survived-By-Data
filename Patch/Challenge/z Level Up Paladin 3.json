@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Level Up Paladin 3",
+    "title": "Level Sentinel (III)",
+    "description": "Reach level {0} with Sentinel",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Sentinel (II)",
+        "z Level Up Paladin 2"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Level Up Paladin 3"
+          }
+        }
+      }
+    ]
+  }
+]

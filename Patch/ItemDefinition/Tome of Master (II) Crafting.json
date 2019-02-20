@@ -79,7 +79,7 @@
   },
   {
     "name": "Tome of Master (II) Crafting",
-    "alias": "Tome of Crafting Knowledge 10",
+    "alias": "z Tome of Crafting Knowledge 10",
     "description": "Contains the techniques by which Master (I) gear can be refined into Master (II) gear.",
     "price": 25000,
     "sellPrice": 5000,

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Harbinger Valentine Skin",
+    "alias": "Unlock Skin Harbinger Valentine",
+    "description": "Unlock Harbinger Valentine Skin",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "harbinger_valentine",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 96,
+            "width": 44,
+            "height": 42
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "bound": {
+      "account": false,
+      "soul": true
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 1,
+    "insureCost": 1,
+    "modifierChance": 0.75
+  }
+]

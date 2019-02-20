@@ -1,6 +1,7 @@
 [
   {
     "name": "Ring T8 v2",
+    "alias": "z Ring T8 v2",
     "description": "[Deprecated]",
     "price": 80,
     "sellPrice": 40,

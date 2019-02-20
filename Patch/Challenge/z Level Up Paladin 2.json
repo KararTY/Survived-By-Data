@@ -1,0 +1,25 @@
+[
+  {
+    "name": "z Level Up Paladin 2",
+    "title": "Level Sentinel (II)",
+    "description": "Reach level {0} with Sentinel",
+    "challengeValueSuffix": "Levels",
+    "challengeType": "_Unknown",
+    "achievement": true,
+    "prerequisites": [
+      [
+        "Level Sentinel (I)",
+        "z Level Up Paladin 1"
+      ]
+    ],
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Level Up Paladin 2"
+          }
+        }
+      }
+    ]
+  }
+]

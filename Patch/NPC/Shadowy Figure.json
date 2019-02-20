@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Shadowy Figure",
+    "alias": "Batterup_QuestGiver",
+    "category": "Ally",
+    "weapons": [
+      {
+        "name": "Frag Stage 1",
+        "data": [
+          {
+            "sprite": {
+              "name": "agent_scout",
+              "baseSize": {
+                "width": 384,
+                "height": 576
+              },
+              "textureRectangle": {
+                "x": 207,
+                "y": 108,
+                "width": 20,
+                "height": 66
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 0.63,
+                "b": 0,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "Frag Stage 1",
+              "projectileName": "Punch",
+              "launchOffsetDistance": 0,
+              "lightScale": 1,
+              "nextProjectileIndex": 26,
+              "alignToDirection": true,
+              "isNextProjectileGlobal": false,
+              "isTangentProjectileGlobal": false,
+              "maintainOrbitRange": false,
+              "ownerRelative": false,
+              "sineWaveMotion": false,
+              "speed": 30,
+              "damage": 0,
+              "damageMultiplier": 0.7,
+              "range": 4.5,
+              "useTargetForRange": false,
+              "useRandomRange": false,
+              "maxHits": 1,
+              "arcSeparation": 30,
+              "rageMultiplier": 0.300000012,
+              "bounceBetweenEnemies": false,
+              "pierceWorld": false,
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "NPC quest giver tier 8",
+          "baseSize": {
+            "width": 192,
+            "height": 96
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 48,
+            "height": 48
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true
+      },
+      {
+        "stats": [
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 99999
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 350
+          }
+        ]
+      }
+    ]
+  }
+]

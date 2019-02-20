@@ -1,0 +1,33 @@
+{{Enemy
+  |title = Razor Clam
+  |image_original = {{CSS image crop|Image=Clam_01.png|bSize=192|cWidth=31|cHeight=30|oBottom=63|oLeft=56}}
+  |caption = Description for Razor Clam
+  |location = 
+  |category = Beast
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 26750
+  |experience = 900
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''clam projectile''' {{!!}} <center>{{CSS image crop|Image=Clam_01.png|bSize=192|cWidth=24|cHeight=24|oBottom=144|oLeft=96}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Lifetime {{!!}} undefined
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_clam_T6_dung_hardmode}}
+  }}
+<includeonly>
+[[Category:Monster]]
+[[Category:Beast]]
+</includeonly>

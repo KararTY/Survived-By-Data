@@ -1,0 +1,19 @@
+[
+  {
+    "from": "Level Up Geomancer 25",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Wielder of Obsidian",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100,
+        "allowModifiers": false
+      }
+    ]
+  }
+]

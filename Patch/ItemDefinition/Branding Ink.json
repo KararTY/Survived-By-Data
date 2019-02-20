@@ -1,8 +1,8 @@
 [
   {
     "name": "Branding Ink",
-    "alias": "Crafting Material Masterwork Branding Ink T10",
-    "description": "The material the text of an Imprint is composed of",
+    "alias": "Crafting Material T10 Masterwork Branding Ink",
+    "description": "The material the text of an Imprint is composed of.",
     "price": 2000,
     "sellPrice": 200,
     "consumable": false,

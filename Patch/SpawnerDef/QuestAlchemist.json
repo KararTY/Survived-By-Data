@@ -1,7 +1,7 @@
 [
   {
     "name": "QuestAlchemist",
-    "biome": "None",
+    "biome": "Num",
     "difficulty": {
       "min": 0,
       "max": 1

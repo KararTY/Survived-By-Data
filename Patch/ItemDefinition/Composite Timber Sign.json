@@ -1,8 +1,8 @@
 [
   {
     "name": "Composite Timber Sign",
-    "alias": "Crafting Material Composite Sign Timber T8",
-    "description": "Timber given form by the remnant infused into its shaping",
+    "alias": "Crafting Material T8 Composite Sign Timber",
+    "description": "Timber given form by the remnant infused into its shaping.",
     "price": 500,
     "sellPrice": 50,
     "consumable": false,

@@ -1,7 +1,7 @@
 [
   {
     "name": "Minor Critical Damage Potion",
-    "alias": "Consumable Elixir T1 CritDamage Buff",
+    "alias": "z Consumable Elixir T1 CritDamage Buff",
     "description": "Provides a small boost to the Critical Hit Damage of whomever drinks it for a short period of time.",
     "price": 10,
     "sellPrice": 0,

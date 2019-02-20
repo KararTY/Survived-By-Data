@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Kill Boss Locus Hard",
+    "title": "Kill Locus (Hard)",
+    "description": "Kill Locus (Hard)",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Kill Boss Locus Hard"
+          }
+        }
+      }
+    ]
+  }
+]

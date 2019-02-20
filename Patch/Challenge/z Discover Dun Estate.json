@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Discover Dun Estate",
+    "title": "Discover Estate of the Immortal",
+    "description": "Locate and enter the Estate of the Immortal dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Discover Dun Estate"
+          }
+        }
+      }
+    ]
+  }
+]

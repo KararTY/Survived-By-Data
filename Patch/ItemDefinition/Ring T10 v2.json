@@ -1,6 +1,7 @@
 [
   {
     "name": "Ring T10 v2",
+    "alias": "z Ring T10 v2",
     "description": "[description]",
     "price": 5000,
     "sellPrice": 2500,

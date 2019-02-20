@@ -1,0 +1,19 @@
+[
+  {
+    "name": "z Discover Dun Incubator",
+    "title": "Discover Forge of Corruption",
+    "description": "Locate and enter the Forge of Corruption dungeon",
+    "challengeValueSuffix": "Items",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "z Discover Dun Incubator"
+          }
+        }
+      }
+    ]
+  }
+]

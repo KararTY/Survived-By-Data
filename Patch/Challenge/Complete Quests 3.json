@@ -1,14 +1,14 @@
 [
   {
     "name": "Complete Quests 3",
-    "title": "Complete Quests (III)",
+    "title": "Complete Bounty Kills (III)",
     "description": "Complete {0} quests",
     "challengeValueSuffix": "Quests",
     "challengeType": "_Unknown",
     "achievement": false,
     "prerequisites": [
       [
-        "Complete Quests (II)",
+        "Complete Bounty Kills (II)",
         "Complete Quests 2"
       ]
     ],
@@ -32,7 +32,7 @@
     "prerequisites": [
       [
         "Reach Level",
-        "Reach Level 2"
+        "Reach Level 15"
       ]
     ],
     "data": [

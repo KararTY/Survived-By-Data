@@ -3,8 +3,6 @@
     "name": "Alchemist",
     "description": "Alchemists are the visionaries that brave corruption and madness to harness the volatile substance known as resin. Resin is the fuel behind the Chimera invasion, but perhaps it will also mean its end.",
     "primaryStat": "Swiftness",
-    "moveRate": 8,
-    "interactionRange": 3,
     "experiencePerLevel": [
       0,
       150,
@@ -67,7 +65,7 @@
           },
           {
             "key": "Friction",
-            "equation": "",
+            "equation": "1",
             "value": 0
           },
           {

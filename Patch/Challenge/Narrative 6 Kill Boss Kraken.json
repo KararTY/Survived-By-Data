@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Narrative 6 Kill Boss Kraken",
+    "title": "Kill Kraken",
+    "description": "Kill Kraken",
+    "challengeValueSuffix": "",
+    "challengeType": "Potency",
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Narrative 6 Kill Boss Kraken"
+          }
+        }
+      }
+    ]
+  }
+]

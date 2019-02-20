@@ -1,7 +1,7 @@
 [
   {
     "name": "Remnant",
-    "alias": "Crafting Material Base Remnant T1",
+    "alias": "Crafting Material T1 Base Remnant",
     "description": "When raw materials are given form and purpose, that intent becomes a part of the device drawn from the forge. When that device is destroyed a remnant of that intent remains.",
     "price": 10,
     "sellPrice": 1,

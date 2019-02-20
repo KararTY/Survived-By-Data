@@ -1,6 +1,1390 @@
 [
   {
     "name": "Random Charm",
+    "alias": "Generic Charm Lv1",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_01",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 25,
+          "costToApply": 100,
+          "timeToFuse": 5
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 0
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
+    "alias": "Generic Charm Lv10",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_10",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 43200,
+          "costToApply": 1000,
+          "timeToFuse": 8640
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 5,
+          "requiredItems": [
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 8
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 8
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 8
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 8
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 8
+            }
+          ],
+          "craftCost": 1000,
+          "craftNowCost": 0,
+          "craftingStat": "_Unknown",
+          "craftingCategory": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 9
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
+    "alias": "Generic Charm Lv2",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_02",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 75,
+          "costToApply": 200,
+          "timeToFuse": 15
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 5,
+          "requiredItems": [
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 0
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 0
+            }
+          ],
+          "craftCost": 200,
+          "craftNowCost": 0,
+          "craftingStat": "_Unknown",
+          "craftingCategory": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 1
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
+    "alias": "Generic Charm Lv3",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_03",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 225,
+          "costToApply": 300,
+          "timeToFuse": 45
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 5,
+          "requiredItems": [
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 1
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 1
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 1
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 1
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 1
+            }
+          ],
+          "craftCost": 300,
+          "craftNowCost": 0,
+          "craftingStat": "_Unknown",
+          "craftingCategory": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 2
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
+    "alias": "Generic Charm Lv4",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_04",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 450,
+          "costToApply": 400,
+          "timeToFuse": 90
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 5,
+          "requiredItems": [
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 2
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 2
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 2
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 2
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 2
+            }
+          ],
+          "craftCost": 400,
+          "craftNowCost": 0,
+          "craftingStat": "_Unknown",
+          "craftingCategory": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 3
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
+    "alias": "Generic Charm Lv5",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_05",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 750,
+          "costToApply": 500,
+          "timeToFuse": 150
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 5,
+          "requiredItems": [
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 3
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 3
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 3
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 3
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 3
+            }
+          ],
+          "craftCost": 500,
+          "craftNowCost": 0,
+          "craftingStat": "_Unknown",
+          "craftingCategory": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 4
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
+    "alias": "Generic Charm Lv6",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_06",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 1125,
+          "costToApply": 600,
+          "timeToFuse": 225
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 5,
+          "requiredItems": [
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 4
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 4
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 4
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 4
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 4
+            }
+          ],
+          "craftCost": 600,
+          "craftNowCost": 0,
+          "craftingStat": "_Unknown",
+          "craftingCategory": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 5
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
+    "alias": "Generic Charm Lv7",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_07",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 1500,
+          "costToApply": 700,
+          "timeToFuse": 300
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 5,
+          "requiredItems": [
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 5
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 5
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 5
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 5
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 5
+            }
+          ],
+          "craftCost": 700,
+          "craftNowCost": 0,
+          "craftingStat": "_Unknown",
+          "craftingCategory": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 6
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
+    "alias": "Generic Charm Lv8",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_08",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 2000,
+          "costToApply": 800,
+          "timeToFuse": 400
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 5,
+          "requiredItems": [
+            {
+              "name": "Raw Tar Sand",
+              "count": 1,
+              "requiredLevel": 6
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 6
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 6
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 6
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 6
+            }
+          ],
+          "craftCost": 800,
+          "craftNowCost": 0,
+          "craftingStat": "_Unknown",
+          "craftingCategory": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 7
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
+    "alias": "Generic Charm Lv9",
+    "description": "",
+    "price": 0,
+    "sellPrice": 0,
+    "consumable": false,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "Charm_09",
+          "baseSize": {
+            "width": 26,
+            "height": 26
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 26,
+            "height": 26
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "socketableItem": {
+          "craftTime": 3600,
+          "costToApply": 900,
+          "timeToFuse": 720
+        }
+      },
+      {
+        "crafting": {
+          "craftingTime": 5,
+          "requiredItems": [
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 7
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 7
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 7
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 7
+            },
+            {
+              "name": "Random Charm",
+              "count": 1,
+              "requiredLevel": 7
+            }
+          ],
+          "craftCost": 900,
+          "craftNowCost": 0,
+          "craftingStat": "_Unknown",
+          "craftingCategory": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "key": "Item_Level",
+        "equation": "",
+        "value": 8
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "class": [],
+    "modifiers": [
+      {
+        "expireTime": 0,
+        "validClasses": [
+          "Alchemist",
+          "Harbinger",
+          "Infiltrator",
+          "Sentinel",
+          "Geomancer",
+          "Druid"
+        ],
+        "type": [
+          "Weapon",
+          "Armor",
+          "Boots",
+          "Amulet",
+          "Ring"
+        ],
+        "minTier": 0,
+        "maxTier": 100,
+        "chanceToApply": 0,
+        "stats": [
+          {
+            "key": "CriticalScore",
+            "equation": "[CriticalScore] + 0.5",
+            "value": 0
+          },
+          {
+            "key": "Gear_Score",
+            "equation": "[Gear_Score]*1.1",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "bound": {
+      "account": false,
+      "soul": false
+    },
+    "isHeirloom": false,
+    "requiresDiscovery": false,
+    "recoverCost": 0,
+    "insureCost": 0,
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Random Charm",
     "alias": "RandomCharm",
     "description": "Fuse together 5 charms of the same level to obtain a charm of the next highest level.",
     "price": 43,
