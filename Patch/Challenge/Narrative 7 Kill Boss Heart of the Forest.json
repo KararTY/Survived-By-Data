@@ -3,8 +3,9 @@
     "name": "Narrative 7 Kill Boss Heart of the Forest",
     "title": "Kill Heart of the Forest",
     "description": "Kill Heart of the Forest",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

@@ -4,7 +4,9 @@
     "title": "Perform Critical Hits (III)",
     "description": "Perform {0} critical hits",
     "challengeValueSuffix": "Critical Hits",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Perform_CriticalHits",
+    "challengeValue": 375,
     "achievement": false,
     "prerequisites": [
       [

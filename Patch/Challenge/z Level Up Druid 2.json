@@ -4,7 +4,9 @@
     "title": "Level Druid (II)",
     "description": "Reach level {0} with Druid",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level_Druid",
+    "challengeValue": 10,
     "achievement": true,
     "prerequisites": [
       [

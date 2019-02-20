@@ -3,9 +3,10 @@
     "name": "Quest Kill Golem",
     "title": "Resource Recovery.",
     "description": "Get key, enter cave, kill golem",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_golem_stone_boss",
+    "challengeValue": 1,
     "achievement": false,
     "data": [
       {

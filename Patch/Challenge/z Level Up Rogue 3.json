@@ -4,7 +4,9 @@
     "title": "Level Infiltrator (III)",
     "description": "Reach level {0} with Infiltrator",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level_Rogue",
+    "challengeValue": 15,
     "achievement": true,
     "prerequisites": [
       [

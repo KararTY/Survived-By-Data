@@ -3,8 +3,9 @@
     "name": "Kill Boss Kraken Hard",
     "title": "Kill Kraken (Hard)",
     "description": "Kill Kraken (Hard)",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

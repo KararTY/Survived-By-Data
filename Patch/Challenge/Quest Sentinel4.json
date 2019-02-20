@@ -3,9 +3,10 @@
     "name": "Quest Sentinel4",
     "title": "Sent In",
     "description": "Kill the Wolf Lord",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_wolf_lord",
+    "challengeValue": 1,
     "achievement": false,
     "data": [
       {

@@ -4,7 +4,9 @@
     "title": "Discover Gear (IV)",
     "description": "Discover {0} items",
     "challengeValueSuffix": "Items",
-    "challengeType": "Endurance",
+    "challengeType": "TrophyCount",
+    "challenge": "Kill_Greater_Manifestations_Of_Sin",
+    "challengeValue": 48,
     "achievement": true,
     "prerequisites": [
       [

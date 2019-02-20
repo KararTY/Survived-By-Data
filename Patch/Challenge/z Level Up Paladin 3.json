@@ -4,7 +4,9 @@
     "title": "Level Sentinel (III)",
     "description": "Reach level {0} with Sentinel",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level_Paladin",
+    "challengeValue": 15,
     "achievement": true,
     "prerequisites": [
       [

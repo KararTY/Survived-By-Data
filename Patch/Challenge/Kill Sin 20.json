@@ -4,7 +4,9 @@
     "title": "Kill Sin (I)",
     "description": "Kill Sin {0} Times",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Sin",
+    "challengeValue": 20,
     "achievement": true,
     "data": [
       {

@@ -4,7 +4,9 @@
     "title": "Kill Lesser Manifestations of Sin (IV)",
     "description": "Kill {0} Lesser Manifestations of Sin",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Lesser_Manifestations_Of_Sin",
+    "challengeValue": 2500,
     "achievement": false,
     "prerequisites": [
       [

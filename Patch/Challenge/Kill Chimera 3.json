@@ -4,7 +4,9 @@
     "title": "Kill Chimeras (III)",
     "description": "Kill {0} chimeras",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Chimera",
+    "challengeValue": 1500,
     "achievement": false,
     "prerequisites": [
       [
@@ -27,7 +29,9 @@
     "title": "Kill Chimera",
     "description": "Kill {0} chimera",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Chimera",
+    "challengeValue": 200,
     "achievement": false,
     "prerequisites": [
       [

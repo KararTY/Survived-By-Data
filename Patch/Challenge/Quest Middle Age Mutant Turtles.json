@@ -3,9 +3,10 @@
     "name": "Quest Middle Age Mutant Turtles",
     "title": "Middle Age Mutant Turtles",
     "description": "Kill 30 Leather back beasts",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_chimera_leatherback",
+    "challengeValue": 30,
     "achievement": false,
     "data": [
       {

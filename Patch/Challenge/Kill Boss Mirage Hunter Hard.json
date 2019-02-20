@@ -3,8 +3,9 @@
     "name": "Kill Boss Mirage Hunter Hard",
     "title": "Kill Mirage Hunter (Hard)",
     "description": "Kill Mirage Hunter (Hard)",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

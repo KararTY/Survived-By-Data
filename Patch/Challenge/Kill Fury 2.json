@@ -4,7 +4,9 @@
     "title": "Kill Fury",
     "description": "Kill {0} fury",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Furies",
+    "challengeValue": 100,
     "achievement": false,
     "prerequisites": [
       [

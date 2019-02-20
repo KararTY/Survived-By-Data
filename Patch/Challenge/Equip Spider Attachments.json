@@ -4,7 +4,9 @@
     "title": "Equip Spider Attachments",
     "description": "Equip all three Spider attachments at once ",
     "challengeValueSuffix": "Equipped Attachments",
-    "challengeType": "Willpower",
+    "challengeType": "EquipedAttachments",
+    "challenge": "Altars_Activated",
+    "challengeValue": 3,
     "achievement": true,
     "data": [
       {

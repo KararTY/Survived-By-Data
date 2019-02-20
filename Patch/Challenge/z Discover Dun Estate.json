@@ -4,7 +4,9 @@
     "title": "Discover Estate of the Immortal",
     "description": "Locate and enter the Estate of the Immortal dungeon",
     "challengeValueSuffix": "Items",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Kill_Greater_Manifestations_Of_Sin",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

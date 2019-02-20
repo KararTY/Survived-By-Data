@@ -3,9 +3,10 @@
     "name": "Quest BatterUp3",
     "title": "To the Bat Cave",
     "description": "Use Tracking Device on 5 Bats",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_bat_quest_T8",
+    "challengeValue": 5,
     "achievement": false,
     "data": [
       {

@@ -3,9 +3,10 @@
     "name": "Quest SimpleCharity2",
     "title": "Rest Assured",
     "description": "Administer 5 Tinctures to Insane",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "QuestHerbs",
+    "challengeValue": 5,
     "achievement": false,
     "data": [
       {

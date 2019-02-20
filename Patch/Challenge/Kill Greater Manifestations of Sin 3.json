@@ -4,7 +4,9 @@
     "title": "Kill Greater Manifestations of Sin (III)",
     "description": "Kill {0} Greater Manifestations of Sin",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Greater_Manifestations_Of_Sin",
+    "challengeValue": 375,
     "achievement": false,
     "prerequisites": [
       [

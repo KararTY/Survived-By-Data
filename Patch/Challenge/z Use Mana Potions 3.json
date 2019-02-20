@@ -4,7 +4,9 @@
     "title": "Use Energy Potions (III)",
     "description": "Use {0} energy potions",
     "challengeValueSuffix": "Potions",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Use_ManaPotions",
+    "challengeValue": 120,
     "achievement": false,
     "prerequisites": [
       [

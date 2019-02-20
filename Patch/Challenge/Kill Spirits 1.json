@@ -4,7 +4,9 @@
     "title": "Kill Spirits (I)",
     "description": "Kill {0} spirits",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Spirits",
+    "challengeValue": 50,
     "achievement": false,
     "data": [
       {

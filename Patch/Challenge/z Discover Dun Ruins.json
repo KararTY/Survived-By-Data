@@ -4,7 +4,9 @@
     "title": "Discover Sundered Swamp Vault",
     "description": "Locate and enter the Sundered Swamp Vault dungeon",
     "challengeValueSuffix": "Items",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Kill_Greater_Manifestations_Of_Sin",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

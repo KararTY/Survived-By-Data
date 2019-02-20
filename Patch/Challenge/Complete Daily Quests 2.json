@@ -4,7 +4,9 @@
     "title": "Complete Daily Quests (II)",
     "description": "Complete {0} bounties",
     "challengeValueSuffix": "Bounties",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Bounties_Completed",
+    "challengeValue": 9,
     "achievement": false,
     "prerequisites": [
       [

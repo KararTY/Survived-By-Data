@@ -3,8 +3,9 @@
     "name": "Kill Boss Gorgon Hard",
     "title": "Kill Gorgon (Hard)",
     "description": "Kill Gorgon (Hard)",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

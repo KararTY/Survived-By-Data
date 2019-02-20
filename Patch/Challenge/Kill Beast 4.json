@@ -4,7 +4,9 @@
     "title": "Kill Beasts (IV)",
     "description": "Kill {0} beasts",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Beasts",
+    "challengeValue": 10000,
     "achievement": false,
     "prerequisites": [
       [

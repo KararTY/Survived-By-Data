@@ -4,7 +4,9 @@
     "title": "Quests",
     "description": "Reach level {0}",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level",
+    "challengeValue": 25,
     "achievement": true,
     "data": [
       {

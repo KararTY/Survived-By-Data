@@ -4,7 +4,9 @@
     "title": "Discover Monsters (VII)",
     "description": "Discover {0} monsters",
     "challengeValueSuffix": "Monsters",
-    "challengeType": "Endurance",
+    "challengeType": "TrophyCount",
+    "challenge": "Kill_Greater_Manifestations_Of_Sin",
+    "challengeValue": 84,
     "achievement": true,
     "prerequisites": [
       [

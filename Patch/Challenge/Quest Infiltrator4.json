@@ -3,9 +3,10 @@
     "name": "Quest Infiltrator4",
     "title": "The Mane Man",
     "description": "Kill the Lion King",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_lionking_quest",
+    "challengeValue": 1,
     "achievement": false,
     "data": [
       {

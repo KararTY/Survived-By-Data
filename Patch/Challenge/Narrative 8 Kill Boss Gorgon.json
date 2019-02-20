@@ -3,8 +3,9 @@
     "name": "Narrative 8 Kill Boss Gorgon",
     "title": "Kill Gorgon",
     "description": "Kill Gorgon",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

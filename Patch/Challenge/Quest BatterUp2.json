@@ -3,9 +3,10 @@
     "name": "Quest BatterUp2",
     "title": "Belfry",
     "description": "Ring 3 Bells and Defend Miners",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "Batterup_Miner",
+    "challengeValue": 3,
     "achievement": false,
     "data": [
       {

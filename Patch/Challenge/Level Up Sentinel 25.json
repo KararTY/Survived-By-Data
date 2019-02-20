@@ -4,7 +4,9 @@
     "title": "Max Level Sentinel",
     "description": "Reach level {0} with Sentinel",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level_Paladin",
+    "challengeValue": 25,
     "achievement": true,
     "data": [
       {

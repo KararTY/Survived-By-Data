@@ -3,9 +3,10 @@
     "name": "Quest SimpleCharity1",
     "title": "Herb Your Enthusiasm",
     "description": "Collect 5 herbs",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "QuestHerbs",
+    "challengeValue": 5,
     "achievement": false,
     "data": [
       {

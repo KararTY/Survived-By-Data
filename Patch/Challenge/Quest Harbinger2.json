@@ -3,9 +3,10 @@
     "name": "Quest Harbinger2",
     "title": "Secret Stash",
     "description": "Find 7 Hidden Caches",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "HarbingerQuest_Cache",
+    "challengeValue": 7,
     "achievement": false,
     "data": [
       {

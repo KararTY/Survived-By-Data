@@ -4,7 +4,9 @@
     "title": "Deal Points of Damage (IV)",
     "description": "Deal {0} points of damage",
     "challengeValueSuffix": "Damage",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Deal_PointsOfDamage",
+    "challengeValue": 1000000,
     "achievement": false,
     "prerequisites": [
       [

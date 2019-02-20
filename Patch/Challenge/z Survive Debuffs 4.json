@@ -4,7 +4,9 @@
     "title": "Survive Debuffs (IV)",
     "description": "Survive {0} debuffs",
     "challengeValueSuffix": "Debuffs",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Survive_Debuffs",
+    "challengeValue": 600,
     "achievement": false,
     "prerequisites": [
       [

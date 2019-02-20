@@ -3,9 +3,10 @@
     "name": "Quest Druid3",
     "title": "Wild Abandon",
     "description": "Investigate 3 Shrines",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "DruidQuest_Circle",
+    "challengeValue": 3,
     "achievement": false,
     "data": [
       {

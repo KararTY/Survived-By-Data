@@ -4,7 +4,9 @@
     "title": "Discover Legacies (IX)",
     "description": "Discover {0} legacies",
     "challengeValueSuffix": "Legacies",
-    "challengeType": "Endurance",
+    "challengeType": "TrophyCount",
+    "challenge": "Kill_Greater_Manifestations_Of_Sin",
+    "challengeValue": 72,
     "achievement": true,
     "prerequisites": [
       [

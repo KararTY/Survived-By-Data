@@ -4,7 +4,9 @@
     "title": "Discover Will-o'-the-Wisp Forest",
     "description": "Locate and enter the Will-o'-the-Wisp Forest dungeon",
     "challengeValueSuffix": "Items",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Kill_Greater_Manifestations_Of_Sin",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

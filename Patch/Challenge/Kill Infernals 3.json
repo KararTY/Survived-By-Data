@@ -4,7 +4,9 @@
     "title": "Kill Infernals (III)",
     "description": "Kill {0} infernals",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Infernals",
+    "challengeValue": 1500,
     "achievement": false,
     "prerequisites": [
       [

@@ -3,9 +3,10 @@
     "name": "Quest BatterUp4",
     "title": "The Battle",
     "description": "Kill the Bat General",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_bat_general",
+    "challengeValue": 1,
     "achievement": false,
     "data": [
       {

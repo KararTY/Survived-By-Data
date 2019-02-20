@@ -3,9 +3,10 @@
     "name": "Quest Alchemist1",
     "title": "Boil and Bubble",
     "description": "Kill 40 Slimes",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_slime_add_Overworld",
+    "challengeValue": 40,
     "achievement": false,
     "data": [
       {

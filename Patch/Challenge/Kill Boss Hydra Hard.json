@@ -3,8 +3,9 @@
     "name": "Kill Boss Hydra Hard",
     "title": "Kill Hydra (Hard)",
     "description": "Kill Hydra (Hard)",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

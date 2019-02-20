@@ -3,9 +3,10 @@
     "name": "Quest Infiltrator3",
     "title": "Totem If You Got 'em",
     "description": "Investigate 3 Chimera Totems",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "InfiltratorQuest_Totem",
+    "challengeValue": 3,
     "achievement": false,
     "data": [
       {

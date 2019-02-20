@@ -4,7 +4,9 @@
     "title": "Craft Items (IV)",
     "description": "Craft {0} items",
     "challengeValueSuffix": "Items",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Items_Crafted",
+    "challengeValue": 1500,
     "achievement": false,
     "prerequisites": [
       [

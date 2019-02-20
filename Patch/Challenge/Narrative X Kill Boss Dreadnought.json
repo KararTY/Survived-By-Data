@@ -3,8 +3,9 @@
     "name": "Narrative X Kill Boss Dreadnought",
     "title": "Kill Miniwarden",
     "description": "Kill Miniwarden",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

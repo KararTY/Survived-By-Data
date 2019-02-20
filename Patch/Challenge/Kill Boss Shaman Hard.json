@@ -3,8 +3,9 @@
     "name": "Kill Boss Shaman Hard",
     "title": "Kill Boreal Shaman (Hard)",
     "description": "Kill Boreal Shaman (Hard)",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

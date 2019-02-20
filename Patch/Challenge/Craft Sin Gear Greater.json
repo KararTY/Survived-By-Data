@@ -3,8 +3,9 @@
     "name": "Craft Sin Gear Greater",
     "title": "Craft a Full Set of Greater Sin Gear",
     "description": "Craft a Full Set of Greater Sin Gear",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Sin_Gear_Crafted_Greater",
+    "challengeValue": 31,
     "achievement": true,
     "data": [
       {

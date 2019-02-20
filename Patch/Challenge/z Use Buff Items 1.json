@@ -4,7 +4,9 @@
     "title": "Use Beneficial Consumables (I)",
     "description": "Use {0} consumables that provide a positive buff",
     "challengeValueSuffix": "Buffs",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Use_BuffItems",
+    "challengeValue": 10,
     "achievement": false,
     "data": [
       {

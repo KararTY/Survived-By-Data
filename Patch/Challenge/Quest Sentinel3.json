@@ -3,9 +3,10 @@
     "name": "Quest Sentinel3",
     "title": "Alpha Test",
     "description": "Find Clue by Killing Wolf Warriors",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "QuestWolfLordLocation",
+    "challengeValue": 1,
     "achievement": false,
     "data": [
       {

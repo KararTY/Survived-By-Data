@@ -4,7 +4,9 @@
     "title": "Discover Conduit of Fire",
     "description": "Locate and enter the Conduit of Fire dungeon",
     "challengeValueSuffix": "Items",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Kill_Greater_Manifestations_Of_Sin",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

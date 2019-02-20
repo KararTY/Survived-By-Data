@@ -1591,20 +1591,32 @@ module.exports = () => {
     var announceAtNextCount = 500
     fs.readdirSync(folder[folderName10]).forEach(val => {
       var file = require(path.join(folder[folderName10], val))
+      let challengeType = {
+        "Stat": 0,
+        "Trophy": 1,
+        "TrophyCount": 2,
+        "TrophyMultiple": 3,
+        "EquipedAttachments": 4
+      }
       var challenge = {
         name: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
         questText: translate[file['0 MonoBehaviour Base']['1 string QuestText']] || file['0 MonoBehaviour Base']['1 string QuestText'],
         completeText: translate[file['0 MonoBehaviour Base']['1 string QuestCompleteText']] || file['0 MonoBehaviour Base']['1 string QuestCompleteText'],
         title: translate[file['0 MonoBehaviour Base']['1 string ChallengeTitle']] || file['0 MonoBehaviour Base']['1 string ChallengeTitle'],
         description: translate[file['0 MonoBehaviour Base']['1 string ChallengeDescription']] || file['0 MonoBehaviour Base']['1 string ChallengeDescription'],
-        challengeValueSuffix: translate[file['0 MonoBehaviour Base']['1 string ChallengeValueSuffix']] || file['0 MonoBehaviour Base']['1 string ChallengeValueSuffix'],
-        challengeType: Object.keys(statEnum).map(e => {
-          if (statEnum[e] === file['0 MonoBehaviour Base']['0 int challengeType']) return e
+        challengeValueSuffix: (file['0 MonoBehaviour Base']['1 string ChallengeValueSuffix'] && file['0 MonoBehaviour Base']['1 string ChallengeValueSuffix'].length > 0) ? (translate[file['0 MonoBehaviour Base']['1 string ChallengeValueSuffix']] || file['0 MonoBehaviour Base']['1 string ChallengeValueSuffix']) : undefined,
+        challengeType: Object.keys(challengeType).map(e => {
+          if (challengeType[e] === file['0 MonoBehaviour Base']['0 int challengeType']) return e
+          else return undefined
+        }).filter(Boolean).join(''),
+        challenge: Object.keys(statEnum).map(e => {
+          if (statEnum[e] === file['0 MonoBehaviour Base']['0 int challenge']) return e
           else return undefined
         }).filter(Boolean).join(''),
         challengeTarget: file['0 MonoBehaviour Base']['0 PPtr<$GameObject> challengeTarget']['0 SInt64 m_PathID']
           ? require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$GameObject> challengeTarget']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$GameObject> challengeTarget']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
           : undefined,
+        challengeValue: file['0 MonoBehaviour Base']['0 int challengeValue'],
         achievement: !!file['0 MonoBehaviour Base']['1 UInt8 accountAchievement'],
         prerequisites: file['0 MonoBehaviour Base']['0 Array prerequisites'].length > 0
           ? file['0 MonoBehaviour Base']['0 Array prerequisites'].map(v => {

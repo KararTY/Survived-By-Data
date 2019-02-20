@@ -3,9 +3,10 @@
     "name": "Quest Druid4",
     "title": "Is The Ghost Clear?",
     "description": "Kill the Druid Spirits",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_ghost_druid_master_quest",
+    "challengeValue": 1,
     "achievement": false,
     "data": [
       {

@@ -4,7 +4,9 @@
     "title": "Craft Items (III)",
     "description": "Craft {0} items",
     "challengeValueSuffix": "Items",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Items_Crafted",
+    "challengeValue": 300,
     "achievement": false,
     "prerequisites": [
       [
@@ -27,7 +29,9 @@
     "title": "Craft Items",
     "description": "Craft {0} items",
     "challengeValueSuffix": "Items",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Items_Crafted",
+    "challengeValue": 40,
     "achievement": false,
     "prerequisites": [
       [

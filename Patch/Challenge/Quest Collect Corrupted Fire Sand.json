@@ -3,9 +3,10 @@
     "name": "Quest Collect Corrupted Fire Sand",
     "title": "Corrupted Earth",
     "description": "Collect 15 Corrupted Fire Sand",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "QuestItem Corrupted Fire Sand",
+    "challengeValue": 15,
     "achievement": false,
     "data": [
       {

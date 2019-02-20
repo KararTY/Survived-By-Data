@@ -4,7 +4,9 @@
     "title": "Use Healing Potions (II)",
     "description": "Use {0} healing potions",
     "challengeValueSuffix": "Potions",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Use_HealingPotions",
+    "challengeValue": 30,
     "achievement": false,
     "prerequisites": [
       [

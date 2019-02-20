@@ -4,7 +4,9 @@
     "title": "Level Geomancer (IV)",
     "description": "Reach level {0} with Geomancer",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level_Geomancer",
+    "challengeValue": 20,
     "achievement": true,
     "prerequisites": [
       [

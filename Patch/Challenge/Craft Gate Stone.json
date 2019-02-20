@@ -3,8 +3,9 @@
     "name": "Craft Gate Stone",
     "title": "Craft a Gate Stone",
     "description": "Craft a Gate Stone",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "DeepNight_Craft_Gate_Stone",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

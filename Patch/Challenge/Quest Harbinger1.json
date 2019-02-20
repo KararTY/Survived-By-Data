@@ -3,9 +3,10 @@
     "name": "Quest Harbinger1",
     "title": "Deer Friends",
     "description": "Collect 36 Venison",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "QuestItem Meat",
+    "challengeValue": 32,
     "achievement": false,
     "data": [
       {

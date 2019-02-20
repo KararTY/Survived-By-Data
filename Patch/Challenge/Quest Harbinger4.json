@@ -3,9 +3,10 @@
     "name": "Quest Harbinger4",
     "title": "A Bad Ratting",
     "description": "Defeat the Rat King",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_RatBoss_quest",
+    "challengeValue": 1,
     "achievement": false,
     "data": [
       {

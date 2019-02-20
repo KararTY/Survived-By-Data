@@ -4,7 +4,9 @@
     "title": "Activate Altars (IV)",
     "description": "Activate {0} altars",
     "challengeValueSuffix": "Altars",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Altars_Activated",
+    "challengeValue": 180,
     "achievement": false,
     "prerequisites": [
       [

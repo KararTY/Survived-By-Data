@@ -3,8 +3,9 @@
     "name": "Narrative X Kill Boss Methuselah",
     "title": "Kill Methuselah",
     "description": "Kill Methuselah",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

@@ -4,7 +4,9 @@
     "title": "Do Damage",
     "description": "Deal {0} points of damage",
     "challengeValueSuffix": "Damage",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Deal_PointsOfDamage",
+    "challengeValue": 50000,
     "achievement": false,
     "prerequisites": [
       [
@@ -27,7 +29,9 @@
     "title": "Deal Points of Damage (II)",
     "description": "Deal {0} points of damage",
     "challengeValueSuffix": "Damage",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Deal_PointsOfDamage",
+    "challengeValue": 25000,
     "achievement": false,
     "prerequisites": [
       [

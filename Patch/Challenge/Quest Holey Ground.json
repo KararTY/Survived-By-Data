@@ -3,9 +3,10 @@
     "name": "Quest Holey Ground",
     "title": "Holey Ground ",
     "description": "Destroy 5 lava spouts",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "lava_spout_quest",
+    "challengeValue": 5,
     "achievement": false,
     "data": [
       {

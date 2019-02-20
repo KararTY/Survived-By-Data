@@ -4,7 +4,9 @@
     "title": "Reach Level",
     "description": "Reach level {0}",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level",
+    "challengeValue": 5,
     "achievement": false,
     "data": [
       {

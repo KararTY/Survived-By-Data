@@ -3,8 +3,9 @@
     "name": "Craft Sin Gear Lesser",
     "title": "Craft a Full Set of Lesser Sin Gear",
     "description": "Craft a Full Set of Lesser Sin Gear",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Sin_Gear_Crafted_Lesser",
+    "challengeValue": 31,
     "achievement": true,
     "data": [
       {

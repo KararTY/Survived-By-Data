@@ -3,9 +3,10 @@
     "name": "Quest Get Kraken",
     "title": "Get Kraken ",
     "description": "Kill the Water Fury",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_kraken_quest",
+    "challengeValue": 1,
     "achievement": false,
     "data": [
       {

@@ -3,9 +3,10 @@
     "name": "Quest Sentinel2",
     "title": "Grave Concerns",
     "description": "Place Flowers on 12 Graves",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "Grave_NPC",
+    "challengeValue": 12,
     "achievement": false,
     "data": [
       {

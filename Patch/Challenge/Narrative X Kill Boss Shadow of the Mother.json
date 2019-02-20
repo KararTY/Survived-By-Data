@@ -3,8 +3,9 @@
     "name": "Narrative X Kill Boss Shadow of the Mother",
     "title": "Kill Shadow of the Mother",
     "description": "Kill Shadow of the Mother",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

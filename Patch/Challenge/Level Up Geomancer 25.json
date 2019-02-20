@@ -4,7 +4,9 @@
     "title": "Max Level Geomancer",
     "description": "Reach level {0} with Geomancer",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level_Geomancer",
+    "challengeValue": 25,
     "achievement": true,
     "data": [
       {

@@ -4,7 +4,9 @@
     "title": "Level Alchemist (IV)",
     "description": "Reach level {0} with Alchemist",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level_Mage",
+    "challengeValue": 20,
     "achievement": true,
     "prerequisites": [
       [

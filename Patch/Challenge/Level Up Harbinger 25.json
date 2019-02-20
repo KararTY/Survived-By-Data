@@ -4,7 +4,9 @@
     "title": "Max Level Harbinger",
     "description": "Reach level {0} with Harbinger",
     "challengeValueSuffix": "Levels",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level_Hunter",
+    "challengeValue": 25,
     "achievement": true,
     "data": [
       {

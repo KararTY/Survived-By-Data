@@ -1,6 +1,8 @@
 {| class="infoboxtable"
   ! colspan="2" class="infoboxdetails" | <div>Do Damage</div>
   |-
+  | <div>Type</div> || Stat
+  |-
   | <div>Suffix</div> || Damage
   |-
   | <div>Prerequisites</div> || [[Challenge/Reach Level 15|Reach Level]]<br>[[Challenge/Points of Damage 2|Deal Points of Damage (II)]]

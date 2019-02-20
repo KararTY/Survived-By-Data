@@ -4,7 +4,9 @@
     "title": "Kill Spirits (III)",
     "description": "Kill {0} spirits",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Spirits",
+    "challengeValue": 1500,
     "achievement": false,
     "prerequisites": [
       [
@@ -27,7 +29,9 @@
     "title": "Kill Spirits",
     "description": "Kill {0} spirits",
     "challengeValueSuffix": "Kills",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Kill_Spirits",
+    "challengeValue": 200,
     "achievement": false,
     "prerequisites": [
       [

@@ -3,8 +3,9 @@
     "name": "Defeat Dark Persona",
     "title": "Kill Dark Persona",
     "description": "Kill Dark Persona",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Altars_Activated",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

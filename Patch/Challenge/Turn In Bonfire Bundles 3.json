@@ -4,7 +4,9 @@
     "title": "Turn in Bonfire Bundle (III)",
     "description": "Turn in {0} Bonfire Bundles",
     "challengeValueSuffix": "Bonfire Bundles",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "DeepNight_Turn_In_Bonfire_Bundles",
+    "challengeValue": 30,
     "achievement": true,
     "prerequisites": [
       [

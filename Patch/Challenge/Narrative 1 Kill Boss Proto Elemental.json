@@ -3,8 +3,9 @@
     "name": "Narrative 1 Kill Boss Proto Elemental",
     "title": "Kill Proto Elemental",
     "description": "Kill Proto Elemental",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

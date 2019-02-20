@@ -3,8 +3,9 @@
     "name": "Defeat Dark Persona 2",
     "title": "Kill Dark Persona (II)",
     "description": "Kill the Dark Persona {0} times",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "DeepNight_Kill_Dark_Persona",
+    "challengeValue": 10,
     "achievement": true,
     "data": [
       {

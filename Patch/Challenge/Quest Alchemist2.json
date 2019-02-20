@@ -3,9 +3,10 @@
     "name": "Quest Alchemist2",
     "title": "Jeopardous Journal Journey",
     "description": "Find 10 Journal Scraps",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "QuestJournalScraps",
+    "challengeValue": 10,
     "achievement": false,
     "data": [
       {

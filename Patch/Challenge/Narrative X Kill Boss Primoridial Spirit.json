@@ -3,8 +3,9 @@
     "name": "Narrative X Kill Boss Primoridial Spirit",
     "title": "Kill Elemental Spirits",
     "description": "Kill Elemental Spirits",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

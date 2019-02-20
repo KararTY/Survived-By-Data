@@ -4,7 +4,9 @@
     "title": "Activate Dangerous Chests (IV)",
     "description": "Activate {0} dangerous chests",
     "challengeValueSuffix": "chests",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Dangerous_Chests_Activated",
+    "challengeValue": 60,
     "achievement": false,
     "prerequisites": [
       [

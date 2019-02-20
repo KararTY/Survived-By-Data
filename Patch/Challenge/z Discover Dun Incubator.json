@@ -4,7 +4,9 @@
     "title": "Discover Forge of Corruption",
     "description": "Locate and enter the Forge of Corruption dungeon",
     "challengeValueSuffix": "Items",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Kill_Greater_Manifestations_Of_Sin",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

@@ -3,8 +3,9 @@
     "name": "Narrative 5 Kill Boss Locus",
     "title": "Kill Locus",
     "description": "Kill Locus",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

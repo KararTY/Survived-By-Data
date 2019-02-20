@@ -3,9 +3,10 @@
     "name": "Quest Druid1",
     "title": "Bramble, First Blood",
     "description": "Collect 10 clothing scraps",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "QuestItem Clothing Scraps",
+    "challengeValue": 10,
     "achievement": false,
     "data": [
       {

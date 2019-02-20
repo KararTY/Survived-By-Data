@@ -3,9 +3,10 @@
     "name": "Quest Alchemist3",
     "title": "Raw Resin Retrieval",
     "description": "Collect 8 Samples of Resin",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "QuestItem ResinNode",
+    "challengeValue": 8,
     "achievement": false,
     "data": [
       {

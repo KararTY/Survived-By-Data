@@ -4,7 +4,9 @@
     "title": "Complete Bounty Kills (II)",
     "description": "Complete {0} quests",
     "challengeValueSuffix": "Quests",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Quests_Completed",
+    "challengeValue": 50,
     "achievement": false,
     "prerequisites": [
       [
@@ -27,7 +29,9 @@
     "title": "Complete Quests",
     "description": "Complete {0} quests",
     "challengeValueSuffix": "Quests",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Quests_Completed",
+    "challengeValue": 8,
     "achievement": false,
     "prerequisites": [
       [

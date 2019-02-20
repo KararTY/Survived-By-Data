@@ -3,9 +3,10 @@
     "name": "Quest BatterUp1",
     "title": "Batnapped",
     "description": "Free 6 Captives",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "Batnapped_NPC",
+    "challengeValue": 6,
     "achievement": false,
     "data": [
       {

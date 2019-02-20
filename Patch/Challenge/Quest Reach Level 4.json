@@ -3,9 +3,10 @@
     "name": "Quest Reach Level 4",
     "title": "Rising the Ranks",
     "description": "Reach Level 4",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "Level",
     "challengeTarget": "monster_golem_stone_boss",
+    "challengeValue": 4,
     "achievement": false,
     "data": [
       {

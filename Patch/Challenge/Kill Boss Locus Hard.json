@@ -3,8 +3,9 @@
     "name": "Kill Boss Locus Hard",
     "title": "Kill Locus (Hard)",
     "description": "Kill Locus (Hard)",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

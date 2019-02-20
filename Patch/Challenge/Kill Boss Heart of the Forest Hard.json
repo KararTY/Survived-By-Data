@@ -3,8 +3,9 @@
     "name": "Kill Boss Heart of the Forest Hard",
     "title": "Kill Heart of the Forest (Hard)",
     "description": "Kill Heart of the Forest (Hard)",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

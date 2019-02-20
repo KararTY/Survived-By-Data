@@ -3,9 +3,10 @@
     "name": "Quest Sentinel1",
     "title": "Rose To The Occasion",
     "description": "Collect 12 Flowers",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "QuestWinterBloom",
+    "challengeValue": 12,
     "achievement": false,
     "data": [
       {

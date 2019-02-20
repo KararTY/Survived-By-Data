@@ -3,9 +3,10 @@
     "name": "Quest Druid2",
     "title": "In That Same Vine",
     "description": "Kill 30 bramble plants",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "monster_bramble_bush_quest",
+    "challengeValue": 30,
     "achievement": false,
     "data": [
       {

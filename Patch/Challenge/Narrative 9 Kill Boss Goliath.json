@@ -3,8 +3,9 @@
     "name": "Narrative 9 Kill Boss Goliath",
     "title": "Kill Goliath (I)",
     "description": "Kill Goliath (I)",
-    "challengeValueSuffix": "",
-    "challengeType": "Potency",
+    "challengeType": "Trophy",
+    "challenge": "Level_Druid",
+    "challengeValue": 1,
     "achievement": true,
     "data": [
       {

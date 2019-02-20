@@ -3,9 +3,10 @@
     "name": "Quest Harbinger3",
     "title": "Wagon Tail",
     "description": "Defend 4 Supply Wagons",
-    "challengeValueSuffix": "",
-    "challengeType": "_Unknown",
+    "challengeType": "Stat",
+    "challenge": "CurrentQuestProgress",
     "challengeTarget": "HarbingerQuest_Wagon",
+    "challengeValue": 4,
     "achievement": false,
     "data": [
       {
