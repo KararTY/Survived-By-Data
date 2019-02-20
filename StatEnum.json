@@ -196,5 +196,6 @@
   "ProjectileVisualIndex": 279,
   "MaxLevelAttained": 280,
   "ShrineTeleportCostReduction": 282,
-  "MaxStatEnum": 283
+  "Item_MaxLevel": 283,
+  "MaxStatEnum": 284
 }

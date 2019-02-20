@@ -22,10 +22,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Permanent Potion"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 3,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -156,10 +169,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Permanent Potion"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 3,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -290,10 +316,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Permanent Potion"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 3,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [

@@ -51,7 +51,7 @@ Adaptive 1 (Common)={| style="float:right;"
     | Triggers || colspan="2" | 
     {| class="wikitable"
       |-
-      | colspan="2" | 
+      | colspan="2" | NonCriticalHit
       |-
       | Chance || 1
       |-
@@ -128,7 +128,7 @@ Adaptive 2 (Uncommon)={| style="float:right;"
     | Triggers || colspan="2" | 
     {| class="wikitable"
       |-
-      | colspan="2" | 
+      | colspan="2" | NonCriticalHit
       |-
       | Chance || 1
       |-
@@ -205,7 +205,7 @@ Adaptive 3 (Rare)={| style="float:right;"
     | Triggers || colspan="2" | 
     {| class="wikitable"
       |-
-      | colspan="2" | 
+      | colspan="2" | NonCriticalHit
       |-
       | Chance || 1
       |-

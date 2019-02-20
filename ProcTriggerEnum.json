@@ -20,5 +20,6 @@
   "SecondaryAbilityDeactivate": 18,
   "HealingPotionUsed": 19,
   "DamageTaken10Percent": 20,
-  "ProjectileAvoided": 21
+  "ProjectileAvoided": 21,
+  "NonCriticalHit": 22
 }

@@ -551,10 +551,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Health Potion"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -599,10 +612,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Health Potion"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -647,10 +673,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Health Potion"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -758,10 +797,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Health Potion"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -806,10 +858,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Health Potion"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -854,10 +919,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Health Potion"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [

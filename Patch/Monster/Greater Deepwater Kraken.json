@@ -203,7 +203,7 @@
     "zenithEffects": [
       {
         "name": "Valr Increase Buff",
-        "type": "None",
+        "type": "Normal",
         "duration": 604800,
         "stats": [
           {
@@ -217,12 +217,18 @@
             "value": 0
           }
         ],
+        "relatedLevelStat": "_Unknown",
+        "disableSpecialAbility": false,
+        "doesNotStackWithSelf": true,
+        "doNotRefresh": false,
+        "hasLevels": false,
+        "isAccountWide": true,
+        "trackedForChallenge": false,
+        "ignoreDurationModifiers": false,
         "isBuff": true,
-        "isZenith": false,
         "removeOnAttack": false,
-        "noTimeOut": false,
         "coolDownTime": 0,
-        "isAccountWide": 1
+        "noTimeOut": false
       }
     ],
     "category": "Agent",

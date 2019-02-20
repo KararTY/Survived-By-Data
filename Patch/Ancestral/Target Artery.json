@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Target Artery",
-            "type": "None",
+            "type": "Normal",
             "duration": 5,
             "stats": [
               {
@@ -22,10 +22,20 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": true,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": false,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -147,7 +157,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Target Artery",
-            "type": "None",
+            "type": "Normal",
             "duration": 5,
             "stats": [
               {
@@ -156,10 +166,20 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": true,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": false,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -281,7 +301,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Target Artery",
-            "type": "None",
+            "type": "Normal",
             "duration": 5,
             "stats": [
               {
@@ -290,10 +310,20 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": true,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": false,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [

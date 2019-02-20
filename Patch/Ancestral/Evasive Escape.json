@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Evasive Escape",
-            "type": "None",
+            "type": "Normal",
             "duration": 3,
             "stats": [
               {
@@ -27,10 +27,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Generic Buff"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": false,
+            "doNotRefresh": true,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 3,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -146,7 +159,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Evasive Escape",
-            "type": "None",
+            "type": "Normal",
             "duration": 3,
             "stats": [
               {
@@ -160,10 +173,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Generic Buff"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": false,
+            "doNotRefresh": true,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 3,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -279,7 +305,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Evasive Escape",
-            "type": "None",
+            "type": "Normal",
             "duration": 3,
             "stats": [
               {
@@ -293,10 +319,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Generic Buff"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": false,
+            "doNotRefresh": true,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 3,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [

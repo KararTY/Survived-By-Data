@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Eruption",
-            "type": "None",
+            "type": "Normal",
             "duration": 5,
             "stats": [
               {
@@ -22,10 +22,23 @@
                 "value": 40
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Fire"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": false,
+            "ignoreDurationModifiers": false,
             "isBuff": false,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -133,7 +146,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Eruption",
-            "type": "None",
+            "type": "Normal",
             "duration": 5,
             "stats": [
               {
@@ -142,10 +155,23 @@
                 "value": 40
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Fire"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": false,
+            "ignoreDurationModifiers": false,
             "isBuff": false,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -253,7 +279,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Eruption",
-            "type": "None",
+            "type": "Normal",
             "duration": 5,
             "stats": [
               {
@@ -262,10 +288,23 @@
                 "value": 40
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Fire"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": false,
+            "ignoreDurationModifiers": false,
             "isBuff": false,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [

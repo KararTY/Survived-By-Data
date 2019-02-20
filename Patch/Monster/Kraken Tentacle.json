@@ -60,7 +60,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Kraken Slow",
-                "type": "None",
+                "type": "Normal",
                 "duration": 4,
                 "stats": [
                   {
@@ -74,10 +74,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Speed Boost"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.2,
@@ -255,7 +268,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Kraken Slow",
-                "type": "None",
+                "type": "Normal",
                 "duration": 4,
                 "stats": [
                   {
@@ -269,10 +282,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Speed Boost"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.2,

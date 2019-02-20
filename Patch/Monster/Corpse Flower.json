@@ -61,7 +61,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Poison",
-                "type": "None",
+                "type": "Normal",
                 "duration": 6,
                 "stats": [
                   {
@@ -75,10 +75,23 @@
                     "value": 7
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce poison 0"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.15,
@@ -243,7 +256,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Poison",
-                "type": "None",
+                "type": "Normal",
                 "duration": 6,
                 "stats": [
                   {
@@ -257,10 +270,23 @@
                     "value": 7
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce poison 0"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.15,
@@ -418,7 +444,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Poison",
-                "type": "None",
+                "type": "Normal",
                 "duration": 6,
                 "stats": [
                   {
@@ -432,10 +458,23 @@
                     "value": 7
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce poison 0"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.15,
@@ -636,7 +675,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Poison",
-                "type": "None",
+                "type": "Normal",
                 "duration": 6,
                 "stats": [
                   {
@@ -650,10 +689,23 @@
                     "value": 7
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce poison 0"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.15,

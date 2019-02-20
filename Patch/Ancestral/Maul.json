@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Maul",
-            "type": "None",
+            "type": "Normal",
             "duration": 0,
             "stats": [
               {
@@ -27,10 +27,20 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": false,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": true
+            "noTimeOut": true,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -152,7 +162,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Maul",
-            "type": "None",
+            "type": "Normal",
             "duration": 0,
             "stats": [
               {
@@ -166,10 +176,20 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": false,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": true
+            "noTimeOut": true,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -291,7 +311,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Maul",
-            "type": "None",
+            "type": "Normal",
             "duration": 0,
             "stats": [
               {
@@ -305,10 +325,20 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": false,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": true
+            "noTimeOut": true,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [

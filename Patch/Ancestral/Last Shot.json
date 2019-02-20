@@ -13,7 +13,8 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Last Shot Buff",
-            "type": "None",
+            "floatingText": "LAST SHOT",
+            "type": "Normal",
             "duration": 0,
             "stats": [
               {
@@ -27,11 +28,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Generic Buff"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "floatingText": "LAST SHOT",
-            "noTimeOut": true
+            "noTimeOut": true,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -176,7 +189,8 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Last Shot Buff",
-            "type": "None",
+            "floatingText": "LAST SHOT",
+            "type": "Normal",
             "duration": 0,
             "stats": [
               {
@@ -190,11 +204,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Generic Buff"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": false,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "floatingText": "LAST SHOT",
-            "noTimeOut": true
+            "noTimeOut": true,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [

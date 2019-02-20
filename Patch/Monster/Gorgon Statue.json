@@ -60,6 +60,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Petrify",
+                "floatingText": "PETRIFIED",
                 "type": "Petrify",
                 "duration": 2,
                 "stats": [
@@ -89,11 +90,20 @@
                     "value": 400
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "floatingText": "PETRIFIED",
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.46,
@@ -252,6 +262,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Petrify",
+                "floatingText": "PETRIFIED",
                 "type": "Petrify",
                 "duration": 2,
                 "stats": [
@@ -281,11 +292,20 @@
                     "value": 400
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "floatingText": "PETRIFIED",
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.46,

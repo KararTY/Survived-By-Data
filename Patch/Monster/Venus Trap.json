@@ -60,7 +60,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Paralyzed",
-                "type": "None",
+                "type": "Normal",
                 "duration": 2,
                 "stats": [
                   {
@@ -74,10 +74,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.33,
@@ -241,7 +254,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Paralyzed",
-                "type": "None",
+                "type": "Normal",
                 "duration": 2,
                 "stats": [
                   {
@@ -255,10 +268,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.33,
@@ -415,7 +441,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Paralyzed",
-                "type": "None",
+                "type": "Normal",
                 "duration": 2,
                 "stats": [
                   {
@@ -429,10 +455,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.33,

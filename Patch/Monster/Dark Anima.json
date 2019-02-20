@@ -122,7 +122,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -136,10 +136,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0,
@@ -468,7 +481,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -482,10 +495,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0,
@@ -814,7 +840,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -828,10 +854,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0,
@@ -1160,7 +1199,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -1174,10 +1213,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0,
@@ -1506,7 +1558,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -1520,10 +1572,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0,
@@ -1852,7 +1917,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -1866,10 +1931,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0,
@@ -2198,7 +2276,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -2212,10 +2290,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0,
@@ -2544,7 +2635,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -2558,10 +2649,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0,
@@ -2890,7 +2994,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -2904,10 +3008,23 @@
                     "value": 0
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Generic Debuff"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0,

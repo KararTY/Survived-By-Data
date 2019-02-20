@@ -60,7 +60,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -74,10 +74,23 @@
                     "value": 9
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": false,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.31,
@@ -144,7 +157,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -158,10 +171,23 @@
                     "value": 9
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": false,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.31,
@@ -227,7 +253,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -241,10 +267,23 @@
                     "value": 9
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": false,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.91,
@@ -436,7 +475,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -450,10 +489,23 @@
                     "value": 9
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": false,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.31,
@@ -520,7 +572,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -534,10 +586,23 @@
                     "value": 9
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": false,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.31,
@@ -603,7 +668,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -617,10 +682,23 @@
                     "value": 9
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": false,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.91,
@@ -944,7 +1022,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Burn",
-                "type": "None",
+                "type": "Normal",
                 "duration": 6,
                 "stats": [
                   {
@@ -958,10 +1036,23 @@
                     "value": 6
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": true,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.91,
@@ -1160,7 +1251,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -1174,10 +1265,23 @@
                     "value": 9
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": false,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.31,
@@ -1244,7 +1348,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -1258,10 +1362,23 @@
                     "value": 9
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": false,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.31,
@@ -1327,7 +1444,7 @@
               "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
-                "type": "None",
+                "type": "Normal",
                 "duration": 5,
                 "stats": [
                   {
@@ -1341,10 +1458,23 @@
                     "value": 9
                   }
                 ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "disableSpecialAbility": false,
+                "doesNotStackWithSelf": true,
+                "doNotRefresh": false,
+                "hasLevels": false,
+                "isAccountWide": false,
+                "trackedForChallenge": false,
+                "ignoreDurationModifiers": false,
                 "isBuff": false,
                 "removeOnAttack": false,
                 "coolDownTime": 0,
-                "noTimeOut": false
+                "noTimeOut": false,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
               },
               "color": {
                 "r": 0.91,

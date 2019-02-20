@@ -13,7 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Restorative Response",
-            "type": "None",
+            "type": "Normal",
             "duration": 3,
             "stats": [
               {
@@ -27,10 +27,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Generic Buff"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": true,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -151,7 +164,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Restorative Response",
-            "type": "None",
+            "type": "Normal",
             "duration": 3,
             "stats": [
               {
@@ -165,10 +178,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Generic Buff"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": true,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [
@@ -289,7 +315,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Restorative Response",
-            "type": "None",
+            "type": "Normal",
             "duration": 3,
             "stats": [
               {
@@ -303,10 +329,23 @@
                 "value": 0
               }
             ],
+            "relatedLevelStat": "_Unknown",
+            "characterEffectPrefab": {
+              "name": "ce Generic Buff"
+            },
+            "disableSpecialAbility": false,
+            "doesNotStackWithSelf": true,
+            "doNotRefresh": true,
+            "hasLevels": false,
+            "isAccountWide": false,
+            "trackedForChallenge": true,
+            "ignoreDurationModifiers": false,
             "isBuff": true,
             "removeOnAttack": false,
             "coolDownTime": 0,
-            "noTimeOut": false
+            "noTimeOut": false,
+            "flashDuration": 2,
+            "isFullscreenFlash": false
           },
           "useAncestralBenefitForDamage": false,
           "triggers": [

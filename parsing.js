@@ -48,6 +48,59 @@ module.exports = () => {
     return fileNameMap.files.find(v => v.absFileID === num)['name'] + '-'
   }
 
+
+  function statusEffect (f, z) {
+    if (f) f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect'] = f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect'] ? f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect'] : f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']
+    let s = z ? z : require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect']['0 SInt64 m_PathID'] + '.json'))
+    return {
+      name: s['0 MonoBehaviour Base']['1 string Name'],
+      floatingText: s['0 MonoBehaviour Base']['1 string floatingText'] || undefined,
+      type: Object.keys(statusEffectEnum).map(e => {
+        if (statusEffectEnum[e] === s['0 MonoBehaviour Base']['0 int Type']) return e
+        else return undefined
+      }).filter(Boolean).join(''),
+      duration: parseFloat(s['0 MonoBehaviour Base']['0 float Duration'].toFixed(2)),
+      stats: s['0 MonoBehaviour Base']['0 Array stat'].map(v => {
+        return {
+          key: Object.keys(statEnum).map(e => {
+            if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
+            else return undefined
+          }).filter(Boolean).join(''),
+          equation: v['0 Deity.Shared.Stat data']['1 string equation'],
+          value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
+        }
+      }),
+      relatedLevelStat: s['0 MonoBehaviour Base']['0 int RelatedLevelStat'] > -1 ? Object.keys(statEnum).map(e => {
+        if (statEnum[e] === s['0 MonoBehaviour Base']['0 int RelatedLevelStat']) return e
+        else return undefined
+      }).filter(Boolean).join('') : undefined,
+      characterEffectPrefab: s['0 MonoBehaviour Base']['0 PPtr<$GameObject> CharacterEffectPrefab']['0 SInt64 m_PathID'] ? {
+        name: require(path.join(folder['Other'], fileMap(s['0 MonoBehaviour Base']['0 PPtr<$GameObject> CharacterEffectPrefab']['0 int m_FileID']) + s['0 MonoBehaviour Base']['0 PPtr<$GameObject> CharacterEffectPrefab']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+      } : undefined,
+      projectile: s['0 MonoBehaviour Base']['0 int Projectile'] > -1 ? s['0 MonoBehaviour Base']['0 int Projectile'] : undefined,
+      // skin: {},
+      nextStackingStatusEffect: s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> NextStackingStatusEffect']['0 SInt64 m_PathID']
+        ? statusEffect(null, require(path.join(folder['Other'], fileMap(s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> NextStackingStatusEffect']['0 int m_FileID']) + s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> NextStackingStatusEffect']['0 SInt64 m_PathID'] + '.json')))
+        : undefined,
+      statusEffectOnExpire: s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffectOnExpire']['0 SInt64 m_PathID']
+        ? statusEffect(null, require(path.join(folder['Other'], fileMap(s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffectOnExpire']['0 int m_FileID']) + s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffectOnExpire']['0 SInt64 m_PathID'] + '.json')))
+        : undefined,
+      disableSpecialAbility: !!s['0 MonoBehaviour Base']['1 UInt8 DisableSpecialAbility'],
+      doesNotStackWithSelf: !!s['0 MonoBehaviour Base']['1 UInt8 DoesntStackWithSelf'],
+      doNotRefresh: !!s['0 MonoBehaviour Base']['1 UInt8 DoNotRefresh'],
+      hasLevels: !!s['0 MonoBehaviour Base']['1 UInt8 HasLevels'],
+      isAccountWide: !!s['0 MonoBehaviour Base']['1 UInt8 IsAccountWide'],
+      trackedForChallenge: !!s['0 MonoBehaviour Base']['1 UInt8 TrackedForChallenge'],
+      ignoreDurationModifiers: typeof s['0 MonoBehaviour Base']['1 UInt8 IgnoreDurrationModifiers'] === 'number' ? !!s['0 MonoBehaviour Base']['1 UInt8 IgnoreDurrationModifiers'] : !!s['0 MonoBehaviour Base']['1 UInt8 IgnoreDurationModifiers'],
+      isBuff: !!s['0 MonoBehaviour Base']['1 UInt8 IsBuff'],
+      removeOnAttack: !!s['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'],
+      coolDownTime: parseFloat(s['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2)),
+      noTimeOut: !!s['0 MonoBehaviour Base']['1 UInt8 NoTimeOut'],
+      flashDuration: s['0 MonoBehaviour Base']['0 float flashDuration'] ? parseFloat(s['0 MonoBehaviour Base']['0 float flashDuration'].toFixed(2)) : undefined,
+      isFullscreenFlash: s['0 MonoBehaviour Base']['0 float flashDuration'] ? !!s['0 MonoBehaviour Base']['1 UInt8 fullscreenFlash'] : undefined
+    }
+  }
+
   var folder = {
     'ItemDefinition': path.join(__dirname, 'Raw data', patchDate, 'ItemDefinition'),
     'Monster': path.join(__dirname, 'Raw data', patchDate, 'Monster'),
@@ -491,7 +544,7 @@ module.exports = () => {
                     projectileName: f['0 MonoBehaviour Base']['1 string ProjectileName'],
                     rotationSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float RotationSpeed'].toFixed(2)) || undefined,
                     orbitSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float orbitSpeed'].toFixed(2)) || undefined,
-                    launchOffsetDistance: parseFloat(f["0 MonoBehaviour Base"]["0 float launchOffsetDistance"].toFixed(2)) || 0,
+                    launchOffsetDistance: parseFloat(f['0 MonoBehaviour Base']['0 float launchOffsetDistance'].toFixed(2)) || 0,
                     lightScale: parseFloat(f['0 MonoBehaviour Base']['0 float LightScale'].toFixed(2)) || undefined,
                     tangentProjectileFireRate: parseFloat(f['0 MonoBehaviour Base']['0 float TangentProjectileFireRate'].toFixed(2)) || undefined,
                     waveFrequency: parseFloat(f['0 MonoBehaviour Base']['0 float WaveFrequency'].toFixed(2)) || undefined,
@@ -530,33 +583,7 @@ module.exports = () => {
                     bounceBetweenEnemies: !!f['0 MonoBehaviour Base']['1 UInt8 BounceBetweenEnemies'],
                     pierceWorld: !!f['0 MonoBehaviour Base']['1 UInt8 PierceWorld'],
                     statusEffect: f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']['0 SInt64 m_PathID']
-                      ? (function () {
-                        var s = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']['0 SInt64 m_PathID'] + '.json'))
-                        return {
-                          name: s['0 MonoBehaviour Base']['1 string Name'],
-                          type: Object.keys(statusEffectEnum).map(e => {
-                            if (statusEffectEnum[e] === s['0 MonoBehaviour Base']['0 int Type']) return e
-                            else return undefined
-                          }).filter(Boolean).join(''),
-                          duration: parseFloat(s['0 MonoBehaviour Base']['0 float Duration'].toFixed(2)),
-                          stats: s['0 MonoBehaviour Base']['0 Array stat'].map(v => {
-                            return {
-                              key: Object.keys(statEnum).map(e => {
-                                if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
-                                else return undefined
-                              }).filter(Boolean).join(''),
-                              equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-                              value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
-                            }
-                          }),
-                          isBuff: !!s['0 MonoBehaviour Base']['1 UInt8 IsBuff'],
-                          removeOnAttack: !!s['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'],
-                          coolDownTime: parseFloat(s['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2)),
-                          floatingText: s['0 MonoBehaviour Base']['1 string floatingText'] || undefined,
-                          noTimeOut: !!s['0 MonoBehaviour Base']['1 UInt8 NoTimeOut'],
-                          screenFlashDuration: s['0 MonoBehaviour Base']['1 UInt8 fullscreenFlash'] ? parseFloat(s['0 MonoBehaviour Base']['0 float flashDuration'].toFixed(2)) : undefined
-                        }
-                      })()
+                      ? statusEffect(f)
                       : undefined,
                     color: {
                       r: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float r'].toFixed(2)),
@@ -756,32 +783,7 @@ module.exports = () => {
         }).filter(Boolean),
         zenithEffects: file['0 MonoBehaviour Base']['0 Array ZenithEffects'].map(v => {
           var z = require(path.join(folder['Other'], fileMap(v['0 PPtr<$StatusEffect> data']['0 int m_FileID']) + v['0 PPtr<$StatusEffect> data']['0 SInt64 m_PathID'] + '.json'))
-          return {
-            name: z['0 MonoBehaviour Base']['1 string Name'],
-            type: Object.keys(statusEffectEnum).map(e => {
-              if (statusEffectEnum[e] === z['0 MonoBehaviour Base']['0 int Type']) return e
-              else return undefined
-            }).filter(Boolean).join(''),
-            duration: parseFloat(z['0 MonoBehaviour Base']['0 float Duration'].toFixed(2)),
-            stats: z['0 MonoBehaviour Base']['0 Array stat'].map(v => {
-              return {
-                key: Object.keys(statEnum).map(e => {
-                  if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
-                  else return undefined
-                }).filter(Boolean).join(''),
-                equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-                value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
-              }
-            }),
-            isBuff: !!z['0 MonoBehaviour Base']['1 UInt8 IsBuff'],
-            isZenith: !!z['0 MonoBehaviour Base']['1 UInt8 IsZenith'],
-            removeOnAttack: !!z['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'],
-            floatingText: z['0 MonoBehaviour Base']['1 string floatingText'] || undefined,
-            noTimeOut: !!z['0 MonoBehaviour Base']['1 UInt8 NoTimeOut'],
-            coolDownTime: parseFloat(z['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2)),
-            isAccountWide: z['0 MonoBehaviour Base']['1 UInt8 IsAccountWide'],
-            screenFlashDuration: z['0 MonoBehaviour Base']['1 UInt8 fullscreenFlash'] ? parseFloat(z['0 MonoBehaviour Base']['0 float flashDuration'].toFixed(2)) : undefined
-          }
+          return statusEffect(null, z)
         }),
         category: Object.keys(categoryEnum).map(e => {
           if (categoryEnum[e] === file['0 MonoBehaviour Base']['0 int Category']) return e
@@ -831,33 +833,7 @@ module.exports = () => {
                   counterMax: f['0 MonoBehaviour Base']['0 int CounterMax'],
                   timerValue: parseFloat(f['0 MonoBehaviour Base']['0 float TimerValue'].toFixed(2)),
                   statusEffect: f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect']['0 SInt64 m_PathID']
-                    ? (function () {
-                      var s = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect']['0 SInt64 m_PathID'] + '.json'))
-                      return {
-                        name: s['0 MonoBehaviour Base']['1 string Name'],
-                        type: Object.keys(statusEffectEnum).map(e => {
-                          if (statusEffectEnum[e] === s['0 MonoBehaviour Base']['0 int Type']) return e
-                          else return undefined
-                        }).filter(Boolean).join(''),
-                        duration: parseFloat(s['0 MonoBehaviour Base']['0 float Duration'].toFixed(2)),
-                        stats: s['0 MonoBehaviour Base']['0 Array stat'].map(v => {
-                          return {
-                            key: Object.keys(statEnum).map(e => {
-                              if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
-                              else return undefined
-                            }).filter(Boolean).join(''),
-                            equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-                            value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
-                          }
-                        }),
-                        isBuff: !!s['0 MonoBehaviour Base']['1 UInt8 IsBuff'],
-                        removeOnAttack: !!s['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'],
-                        coolDownTime: parseFloat(s['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2)),
-                        floatingText: s['0 MonoBehaviour Base']['1 string floatingText'] || undefined,
-                        noTimeOut: !!s['0 MonoBehaviour Base']['1 UInt8 NoTimeOut'],
-                        screenFlashDuration: s['0 MonoBehaviour Base']['1 UInt8 fullscreenFlash'] ? parseFloat(s['0 MonoBehaviour Base']['0 float flashDuration'].toFixed(2)) : undefined
-                      }
-                    })()
+                    ? statusEffect(f)
                     : undefined,
                   /*projectileDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float ProjectileDamageMultiplier'].toFixed(2)),*/ // Obscured by anti-cheat added in 2019-02-20 (? Why).
                   useAncestralBenefitForDamage: !!f['0 MonoBehaviour Base']['0 UInt8 UseAncestralBenefitForDamage'],
@@ -1276,7 +1252,7 @@ module.exports = () => {
                     projectileName: f['0 MonoBehaviour Base']['1 string ProjectileName'],
                     rotationSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float RotationSpeed'].toFixed(2)) || undefined,
                     orbitSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float orbitSpeed'].toFixed(2)) || undefined,
-                    launchOffsetDistance: parseFloat(f["0 MonoBehaviour Base"]["0 float launchOffsetDistance"].toFixed(2)) || 0,
+                    launchOffsetDistance: parseFloat(f['0 MonoBehaviour Base']['0 float launchOffsetDistance'].toFixed(2)) || 0,
                     lightScale: parseFloat(f['0 MonoBehaviour Base']['0 float LightScale'].toFixed(2)) || undefined,
                     tangentProjectileFireRate: parseFloat(f['0 MonoBehaviour Base']['0 float TangentProjectileFireRate'].toFixed(2)) || undefined,
                     waveFrequency: parseFloat(f['0 MonoBehaviour Base']['0 float WaveFrequency'].toFixed(2)) || undefined,
@@ -1315,33 +1291,7 @@ module.exports = () => {
                     bounceBetweenEnemies: !!f['0 MonoBehaviour Base']['1 UInt8 BounceBetweenEnemies'],
                     pierceWorld: !!f['0 MonoBehaviour Base']['1 UInt8 PierceWorld'],
                     statusEffect: f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']['0 SInt64 m_PathID']
-                      ? (function () {
-                        var s = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']['0 SInt64 m_PathID'] + '.json'))
-                        return {
-                          name: s['0 MonoBehaviour Base']['1 string Name'],
-                          type: Object.keys(statusEffectEnum).map(e => {
-                            if (statusEffectEnum[e] === s['0 MonoBehaviour Base']['0 int Type']) return e
-                            else return undefined
-                          }).filter(Boolean).join(''),
-                          duration: parseFloat(s['0 MonoBehaviour Base']['0 float Duration'].toFixed(2)),
-                          stats: s['0 MonoBehaviour Base']['0 Array stat'].map(v => {
-                            return {
-                              key: Object.keys(statEnum).map(e => {
-                                if (statEnum[e] === v['0 Deity.Shared.Stat data']['0 int key']) return e
-                                else return undefined
-                              }).filter(Boolean).join(''),
-                              equation: v['0 Deity.Shared.Stat data']['1 string equation'],
-                              value: parseFloat(v['0 Deity.Shared.Stat data']['0 float value'].toFixed(2))
-                            }
-                          }),
-                          isBuff: !!s['0 MonoBehaviour Base']['1 UInt8 IsBuff'],
-                          removeOnAttack: !!s['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'],
-                          coolDownTime: parseFloat(s['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2)),
-                          floatingText: s['0 MonoBehaviour Base']['1 string floatingText'] || undefined,
-                          noTimeOut: !!s['0 MonoBehaviour Base']['1 UInt8 NoTimeOut'],
-                          screenFlashDuration: s['0 MonoBehaviour Base']['1 UInt8 fullscreenFlash'] ? parseFloat(s['0 MonoBehaviour Base']['0 float flashDuration'].toFixed(2)) : undefined
-                        }
-                      })()
+                      ? statusEffect(f)
                       : undefined,
                     color: {
                       r: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float r'].toFixed(2)),
