@@ -8,6 +8,7 @@
     "challenge": "Altars_Activated",
     "challengeValue": 180,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Activate Altars (III)",

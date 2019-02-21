@@ -8,6 +8,7 @@
     "challenge": "Level_Paladin",
     "challengeValue": 10,
     "achievement": true,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Level Sentinel (I)",

@@ -8,6 +8,7 @@
     "challengeTarget": "monster_kraken_quest",
     "challengeValue": 1,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

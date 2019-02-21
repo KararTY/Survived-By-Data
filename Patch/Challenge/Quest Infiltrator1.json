@@ -8,6 +8,7 @@
     "challengeTarget": "monster_chimera_lionwarrior",
     "challengeValue": 30,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

@@ -8,6 +8,7 @@
     "challengeTarget": "Batnapped_NPC",
     "challengeValue": 6,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

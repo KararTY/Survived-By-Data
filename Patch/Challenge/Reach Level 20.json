@@ -8,6 +8,7 @@
     "challenge": "Level",
     "challengeValue": 20,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

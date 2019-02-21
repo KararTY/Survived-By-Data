@@ -8,6 +8,7 @@
     "challenge": "Deal_PointsOfDamage",
     "challengeValue": 10000,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",
@@ -33,6 +34,7 @@
     "challenge": "Deal_PointsOfDamage",
     "challengeValue": 150000,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Deal Points of Damage (II)",

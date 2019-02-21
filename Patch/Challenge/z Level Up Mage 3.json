@@ -8,6 +8,7 @@
     "challenge": "Level_Mage",
     "challengeValue": 15,
     "achievement": true,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Level Alchemist (II)",

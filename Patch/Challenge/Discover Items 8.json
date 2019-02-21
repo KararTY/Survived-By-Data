@@ -8,6 +8,7 @@
     "challenge": "Kill_Greater_Manifestations_Of_Sin",
     "challengeValue": 96,
     "achievement": true,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Discover Gear (VII)",

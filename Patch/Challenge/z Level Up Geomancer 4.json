@@ -8,6 +8,7 @@
     "challenge": "Level_Geomancer",
     "challengeValue": 20,
     "achievement": true,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Level Geomancer (III)",

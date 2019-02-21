@@ -1592,11 +1592,11 @@ module.exports = () => {
     fs.readdirSync(folder[folderName10]).forEach(val => {
       var file = require(path.join(folder[folderName10], val))
       let challengeType = {
-        "Stat": 0,
-        "Trophy": 1,
-        "TrophyCount": 2,
-        "TrophyMultiple": 3,
-        "EquipedAttachments": 4
+        'Stat': 0,
+        'Trophy': 1,
+        'TrophyCount': 2,
+        'TrophyMultiple': 3,
+        'EquipedAttachments': 4
       }
       var challenge = {
         name: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
@@ -1618,6 +1618,7 @@ module.exports = () => {
           : undefined,
         challengeValue: file['0 MonoBehaviour Base']['0 int challengeValue'],
         achievement: !!file['0 MonoBehaviour Base']['1 UInt8 accountAchievement'],
+        hideAchievement: !!file['0 MonoBehaviour Base']['1 UInt8 hideAchievement'],
         prerequisites: file['0 MonoBehaviour Base']['0 Array prerequisites'].length > 0
           ? file['0 MonoBehaviour Base']['0 Array prerequisites'].map(v => {
             var p = require(path.join(folder['Challenge'], fileMap(v['0 PPtr<$Challenge> data']['0 int m_FileID']) + v['0 PPtr<$Challenge> data']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']
@@ -1658,9 +1659,9 @@ module.exports = () => {
   let folderName11 = 'SpawnerDef'
   if (folder[folderName11]) {
     var timeOfDayEnum = {
-      "All": 0,
-	    "Day": 1,
-	    "Night": 2
+      'All': 0,
+	    'Day': 1,
+	    'Night': 2
     }
     fs.mkdirSync(path.join(__dirname, 'Patch', folderName11))
     var count = 0

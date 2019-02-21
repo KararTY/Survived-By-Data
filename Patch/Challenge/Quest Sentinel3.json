@@ -8,6 +8,7 @@
     "challengeTarget": "QuestWolfLordLocation",
     "challengeValue": 1,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

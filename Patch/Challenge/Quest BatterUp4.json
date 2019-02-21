@@ -8,6 +8,7 @@
     "challengeTarget": "monster_bat_general",
     "challengeValue": 1,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

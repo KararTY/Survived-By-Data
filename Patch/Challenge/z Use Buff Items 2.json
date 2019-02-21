@@ -8,6 +8,7 @@
     "challenge": "Use_BuffItems",
     "challengeValue": 30,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Use Beneficial Consumables (I)",

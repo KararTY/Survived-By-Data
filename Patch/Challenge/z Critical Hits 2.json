@@ -8,6 +8,7 @@
     "challenge": "Perform_CriticalHits",
     "challengeValue": 50,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Perform Critical Hits (I)",

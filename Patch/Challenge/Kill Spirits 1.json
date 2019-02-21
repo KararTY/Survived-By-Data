@@ -8,6 +8,7 @@
     "challenge": "Kill_Spirits",
     "challengeValue": 50,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

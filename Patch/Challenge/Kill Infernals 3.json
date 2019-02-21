@@ -8,6 +8,7 @@
     "challenge": "Kill_Infernals",
     "challengeValue": 1500,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Kill Infernals (II)",

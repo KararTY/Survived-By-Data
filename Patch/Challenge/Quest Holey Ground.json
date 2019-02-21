@@ -8,6 +8,7 @@
     "challengeTarget": "lava_spout_quest",
     "challengeValue": 5,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

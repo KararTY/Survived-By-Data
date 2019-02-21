@@ -8,6 +8,7 @@
     "challenge": "Items_Crafted",
     "challengeValue": 300,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Craft Items (II)",
@@ -33,6 +34,7 @@
     "challenge": "Items_Crafted",
     "challengeValue": 40,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

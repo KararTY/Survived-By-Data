@@ -8,6 +8,7 @@
     "challenge": "Kill_Greater_Manifestations_Of_Sin",
     "challengeValue": 1,
     "achievement": true,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

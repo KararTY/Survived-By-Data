@@ -7,6 +7,7 @@
     "challenge": "Sin_Gear_Crafted_Greater",
     "challengeValue": 31,
     "achievement": true,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

@@ -8,6 +8,7 @@
     "challenge": "Level_Rogue",
     "challengeValue": 20,
     "achievement": true,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Level Infiltrator (III)",

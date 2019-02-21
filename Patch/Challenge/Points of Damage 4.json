@@ -8,6 +8,7 @@
     "challenge": "Deal_PointsOfDamage",
     "challengeValue": 1000000,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Deal Points of Damage (III)",

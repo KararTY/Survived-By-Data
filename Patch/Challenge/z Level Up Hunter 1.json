@@ -8,6 +8,7 @@
     "challenge": "Level_Hunter",
     "challengeValue": 5,
     "achievement": true,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

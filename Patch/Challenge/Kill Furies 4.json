@@ -8,6 +8,7 @@
     "challenge": "Kill_Furies",
     "challengeValue": 10000,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Kill Fury (III)",

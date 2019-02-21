@@ -8,6 +8,7 @@
     "challenge": "Dangerous_Chests_Activated",
     "challengeValue": 12,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Activate Dangerous Chests (II)",

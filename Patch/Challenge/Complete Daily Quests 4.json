@@ -8,6 +8,7 @@
     "challenge": "Bounties_Completed",
     "challengeValue": 60,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Complete Daily Quests (III)",

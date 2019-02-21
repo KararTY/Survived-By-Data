@@ -8,6 +8,7 @@
     "challenge": "Level_Hunter",
     "challengeValue": 15,
     "achievement": true,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Level Harbinger (II)",

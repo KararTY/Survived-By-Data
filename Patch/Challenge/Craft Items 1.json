@@ -8,6 +8,7 @@
     "challenge": "Items_Crafted",
     "challengeValue": 4,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -27,6 +28,7 @@
     "challenge": "Items_Crafted",
     "challengeValue": 25,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

@@ -8,6 +8,7 @@
     "challenge": "Use_HealingPotions",
     "challengeValue": 120,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Use Healing Potions (II)",

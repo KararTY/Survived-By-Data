@@ -8,6 +8,7 @@
     "challenge": "DeepNight_Turn_In_Bonfire_Bundles",
     "challengeValue": 30,
     "achievement": true,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Turn in Bonfire Bundle (II)",

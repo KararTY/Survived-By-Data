@@ -8,6 +8,7 @@
     "challenge": "Level_Mage",
     "challengeValue": 25,
     "achievement": true,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

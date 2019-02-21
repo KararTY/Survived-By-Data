@@ -8,6 +8,7 @@
     "challenge": "Bounties_Completed",
     "challengeValue": 3,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {

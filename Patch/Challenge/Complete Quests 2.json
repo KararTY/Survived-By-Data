@@ -8,6 +8,7 @@
     "challenge": "Quests_Completed",
     "challengeValue": 50,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Complete Bounty Kills (I)",
@@ -33,6 +34,7 @@
     "challenge": "Quests_Completed",
     "challengeValue": 8,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

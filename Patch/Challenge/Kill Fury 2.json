@@ -8,6 +8,7 @@
     "challenge": "Kill_Furies",
     "challengeValue": 100,
     "achievement": false,
+    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

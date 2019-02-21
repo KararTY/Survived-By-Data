@@ -8,6 +8,7 @@
     "challengeTarget": "monster_golem_stone_boss",
     "challengeValue": 4,
     "achievement": false,
+    "hideAchievement": false,
     "data": [
       {
         "loot": {
