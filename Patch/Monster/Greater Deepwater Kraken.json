@@ -224,7 +224,7 @@
         "hasLevels": false,
         "isAccountWide": true,
         "trackedForChallenge": false,
-        "ignoreDurationModifiers": false,
+        "ignoreDurationModifiers": true,
         "isBuff": true,
         "removeOnAttack": false,
         "coolDownTime": 0,

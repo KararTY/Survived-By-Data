@@ -1,7 +1,7 @@
 [
   {
     "name": "QuestBatswarmLowHp",
-    "biome": "None",
+    "biome": "ManuallyPlacedSpawners",
     "difficulty": {
       "min": 0,
       "max": 0

@@ -6,7 +6,7 @@ if (renamer.result) {
   console.log('Renamed', renamer.count, 'files in total.')
   
   console.log('Sorting, this will take some time.')
-  require('./sorting.js')()
+  let sorter = require('./sorting.js')()
   console.log('Sorted', sorter, 'files in total.')
 
   console.log('Starting the parser... This will take some time to finish.')

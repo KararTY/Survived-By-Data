@@ -1,7 +1,7 @@
 [
   {
     "name": "QuestBatGeneral",
-    "biome": "None",
+    "biome": "ManuallyPlacedSpawners",
     "difficulty": {
       "min": 0,
       "max": 1

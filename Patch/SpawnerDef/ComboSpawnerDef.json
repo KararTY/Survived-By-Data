@@ -1,7 +1,7 @@
 [
   {
     "name": "ComboSpawnerDef",
-    "biome": "None",
+    "biome": "ManuallyPlacedSpawners",
     "difficulty": {
       "min": 0.25,
       "max": 0.75

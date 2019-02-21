@@ -1660,8 +1660,8 @@ module.exports = () => {
   if (folder[folderName11]) {
     var timeOfDayEnum = {
       'All': 0,
-	    'Day': 1,
-	    'Night': 2
+      'Day': 1,
+      'Night': 2
     }
     fs.mkdirSync(path.join(__dirname, 'Patch', folderName11))
     var count = 0
