@@ -3,11 +3,12 @@
     "name": "Dark Gray Dye",
     "alias": "Unlock Dye 2 Bloodstone",
     "description": "A single use application of the Dark Gray Dye.",
+    "premiumOffer": "unlockDye2Bloodstone",
     "price": 50,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 1,
     "tier": 0,
     "data": [
@@ -40,27 +41,25 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Crystal",
-    "modifierChance": 0
+    "modifierChance": 0,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Dark Gray Dye",
     "alias": "Unlock Dye 2 Electrum",
     "description": "Unlock Dark Gray Dye Permanently. A limited use version of this dye can be purchased from the Seamstress for Bloodstone.",
+    "premiumOffer": "unlockDye2Electrum",
     "price": 200,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 1,
     "tier": 0,
     "data": [
@@ -93,16 +92,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Platinum",
-    "modifierChance": 0
+    "modifierChance": 0,
+    "doesNotCountTowardMax": true
   }
 ]

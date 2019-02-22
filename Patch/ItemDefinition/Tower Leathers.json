@@ -5,7 +5,6 @@
     "description": "A second skin could mean the difference between life and death, but the rushed tanning process has left many weaknesses in the material.",
     "price": 15,
     "sellPrice": 8,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -89,12 +88,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT1",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

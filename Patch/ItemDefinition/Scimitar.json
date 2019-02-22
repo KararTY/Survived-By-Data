@@ -5,7 +5,6 @@
     "description": "[Deprecated]",
     "price": 22,
     "sellPrice": 11,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -54,12 +53,6 @@
     "class": [
       "Sentinel"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75
@@ -70,7 +63,6 @@
     "description": "The massive curved blade would have been ideal for a riding warrior, but the mounts these people must have once rode are as lost as the rest of their settlement.",
     "price": 7000,
     "sellPrice": 70,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -174,12 +166,6 @@
       "Sentinel"
     ],
     "bonusDismantleLoot": "DismantleStandardT3",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

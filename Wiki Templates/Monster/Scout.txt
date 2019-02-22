@@ -16,8 +16,6 @@ tutorial_monster_agent_scout={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 12
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -55,8 +53,6 @@ monster_agent_scout={{Enemy
     {{!}} '''agent scout projectile''' {{!!}} <center>{{CSS image crop|Image=agent_scout.png|bSize=384|cWidth=20|cHeight=66|oBottom=402|oLeft=207}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 12
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -97,8 +93,6 @@ monster_agent_scout_defender_T8_black={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -120,8 +114,6 @@ monster_agent_scout_defender_T8_black={{Enemy
     {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9.25
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-
@@ -150,8 +142,6 @@ monster_agent_scout_defender_T8_red={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -173,8 +163,6 @@ monster_agent_scout_defender_T8_red={{Enemy
     {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9.25
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-

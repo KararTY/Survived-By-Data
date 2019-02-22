@@ -5,10 +5,10 @@
     "description": "Kill the Water Fury",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_kraken_quest",
+    "challengeTarget": {
+      "name": "monster_kraken_quest"
+    },
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Get Kraken"
           }
         }
+      },
+      {
+        "questText": "There are old stories of a type of Infernal that resembles a giant squid that has a leathery hide so it can survive underwater. Turns out that same hide makes it vulnerable to the fouled resin. That means we have an Infernal Chimeric Kraken on our hands. Go kill it.",
+        "completeText": "Well done! The boss said you were good at killing things. Glad one of us is. But the World Tree is angry, and this resin isn't going anywhere. I doubt this is the last time we'll need your help killing an underwater abomination."
       }
     ]
   }

@@ -20,8 +20,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -35,8 +33,6 @@
     {{!}} '''boss hydra projectile2''' {{!!}} <center>{{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=82|cHeight=43|oBottom=777|oLeft=36}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -52,8 +48,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -67,8 +61,6 @@
     {{!}} '''boss hydra projectile5''' {{!!}} <center>{{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=25|cHeight=25|oBottom=772|oLeft=355}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
@@ -84,8 +76,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -100,8 +90,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.06
     {{!}}-
     {{!}} Max hits {{!!}} 120
@@ -114,8 +102,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.06
     {{!}}-
     {{!}} Max hits {{!!}} 120
@@ -127,8 +113,6 @@
     {{!}} '''boss hydra projectile8''' {{!!}} <center>{{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=73|cHeight=64|oBottom=832|oLeft=346}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.06
     {{!}}-

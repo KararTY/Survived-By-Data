@@ -19,8 +19,6 @@ monster_spirit_willowisp_small={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -59,8 +57,6 @@ monster_spirit_willowisp_small_dangerous={{Enemy
     {{!}} '''spirit willowisp small projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_wil-o-wisp_small.png|bSize=128|cWidth=13|cHeight=18|oBottom=68|oLeft=64}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

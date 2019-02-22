@@ -18,8 +18,6 @@ monster_stag_moose={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9.25
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -45,8 +43,6 @@ monster_stag_moose_T6={{Enemy
     {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9.25
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-

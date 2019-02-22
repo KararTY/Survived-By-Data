@@ -16,8 +16,6 @@ monster_rat_minion_quest={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 15
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -52,8 +50,6 @@ monster_rat_minion_enraged_quest={{Enemy
     {{!}} colspan="2" {{!}}'''bat projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-

@@ -3,9 +3,9 @@
     "name": "Boots of the Invader",
     "alias": "Boots Heavy T8",
     "description": "In invasion, the boots worn would hold true upon any surface they pressed upon.",
+    "premiumOffer": "T8BootsHeavy",
     "price": 500000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Boots",
     "maxStack": 1,
@@ -104,12 +104,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT8",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

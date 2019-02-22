@@ -3,9 +3,6 @@
     "name": "Collector",
     "alias": "monster_agent_collector_dangerous",
     "description": "Description for Collector",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "collector_projectile",
@@ -39,26 +36,23 @@
             "projectile": {
               "name": "collector_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 5,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 4,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
               "pierceWorld": true,
               "statusEffect": {
                 "name": "Hindered",
+                "alias": "MovementSpeed Debuff T8",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -77,17 +71,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -108,27 +93,23 @@
             "projectile": {
               "name": "collector_special_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 3,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Collector Venom",
+                "alias": "Collector Debuff",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -147,17 +128,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -307,9 +279,7 @@
     "name": "Collector",
     "alias": "monster_agent_collector_elite",
     "description": "Description for Collector",
-    "isBoss": false,
     "isElite": true,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "collector_projectile",
@@ -343,26 +313,23 @@
             "projectile": {
               "name": "collector_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 5,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 4,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
               "pierceWorld": true,
               "statusEffect": {
                 "name": "Hindered",
+                "alias": "MovementSpeed Debuff T8",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -381,17 +348,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -412,27 +370,23 @@
             "projectile": {
               "name": "collector_special_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 3,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Collector Venom",
+                "alias": "Collector Debuff",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -451,17 +405,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -603,10 +548,6 @@
   {
     "name": "Collector",
     "alias": "monster_agent_collector_tutorial",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "collector_projectile",
@@ -640,26 +581,23 @@
             "projectile": {
               "name": "collector_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 5,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 4,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
               "pierceWorld": true,
               "statusEffect": {
                 "name": "Hindered",
+                "alias": "MovementSpeed Debuff T8",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -678,17 +616,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -709,27 +638,23 @@
             "projectile": {
               "name": "collector_special_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 3,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Collector Venom",
+                "alias": "Collector Debuff",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -748,17 +673,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -903,9 +819,6 @@
     "name": "Collector",
     "alias": "monster_agent_collector",
     "description": "Description for Collector",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "collector_projectile",
@@ -939,26 +852,23 @@
             "projectile": {
               "name": "collector_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 5,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 4,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
               "pierceWorld": true,
               "statusEffect": {
                 "name": "Hindered",
+                "alias": "MovementSpeed Debuff T8",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -977,17 +887,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -1008,27 +909,23 @@
             "projectile": {
               "name": "collector_special_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 3,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Collector Venom",
+                "alias": "Collector Debuff",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -1047,17 +944,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -1207,9 +1095,6 @@
     "name": "Collector",
     "alias": "monster_agent_collector_T7",
     "description": "Description for Boreal Collector",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "collector_T7_projectile",
@@ -1243,26 +1128,23 @@
             "projectile": {
               "name": "collector_T7_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 5,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 4,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
               "pierceWorld": true,
               "statusEffect": {
                 "name": "Hindered",
+                "alias": "MovementSpeed Debuff T8",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -1281,17 +1163,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -1312,27 +1185,23 @@
             "projectile": {
               "name": "collector_T7_special_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 3,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Collector Venom",
+                "alias": "Collector Debuff",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -1351,17 +1220,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },

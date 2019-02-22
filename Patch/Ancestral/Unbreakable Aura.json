@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Unbreakable Aura",
+            "alias": "Unbreakable Aura Refund",
             "type": "Permanent",
             "duration": 3,
             "stats": [
@@ -28,21 +29,12 @@
               }
             ],
             "relatedLevelStat": "_Unknown",
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "AuraBlockedProjectile",
@@ -156,6 +148,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Unbreakable Aura",
+            "alias": "Unbreakable Aura Refund",
             "type": "Permanent",
             "duration": 3,
             "stats": [
@@ -171,21 +164,12 @@
               }
             ],
             "relatedLevelStat": "_Unknown",
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "AuraBlockedProjectile",
@@ -299,6 +283,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Unbreakable Aura",
+            "alias": "Unbreakable Aura Refund",
             "type": "Permanent",
             "duration": 3,
             "stats": [
@@ -314,21 +299,12 @@
               }
             ],
             "relatedLevelStat": "_Unknown",
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "AuraBlockedProjectile",

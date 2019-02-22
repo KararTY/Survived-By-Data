@@ -2,9 +2,6 @@
   {
     "name": "Gorgon Statue",
     "alias": "boss_gorgon_statue_hardmode2",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
     "isSetPieceMonster": true,
     "weapons": [
       {
@@ -39,25 +36,20 @@
             "projectile": {
               "name": "boss_gorgon_statue_beam",
               "projectileName": "GorgonProjectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 1
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 8.8,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 23,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Petrify",
                 "floatingText": "PETRIFIED",
@@ -91,17 +83,8 @@
                   }
                 ],
                 "relatedLevelStat": "_Unknown",
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -204,9 +187,6 @@
   {
     "name": "Gorgon Statue",
     "alias": "boss_gorgon_statue_hardmode",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
     "isSetPieceMonster": true,
     "weapons": [
       {
@@ -241,25 +221,20 @@
             "projectile": {
               "name": "boss_gorgon_statue_beam",
               "projectileName": "GorgonProjectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 1
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 8.8,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 23,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Petrify",
                 "floatingText": "PETRIFIED",
@@ -293,17 +268,8 @@
                   }
                 ],
                 "relatedLevelStat": "_Unknown",
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },

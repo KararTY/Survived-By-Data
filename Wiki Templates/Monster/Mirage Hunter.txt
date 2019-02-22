@@ -16,8 +16,6 @@ boss_miragehunter_ghost_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -43,8 +41,6 @@ boss_miragehunter_ghost={{Enemy
     {{!}} '''boss miragehunter projectile''' {{!!}} <center>{{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=61|cHeight=61|oBottom=258|oLeft=385}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -75,8 +71,6 @@ boss_miragehunter={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -106,8 +100,6 @@ boss_miragehunter_world={{Enemy
     {{!}} '''boss miragehunter projectile''' {{!!}} <center>{{CSS image crop|Image=boss_mirage_hunter.png|bSize=512|cWidth=61|cHeight=61|oBottom=258|oLeft=385}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

@@ -3,9 +3,9 @@
     "name": "Ring of the Antecedent",
     "alias": "Ring T9",
     "description": "An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, its true strength lies in being the foundation for an even greater power.",
+    "premiumOffer": "T9Ring",
     "price": 1000000,
     "sellPrice": 10000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Ring",
     "maxStack": 1,
@@ -110,12 +110,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT9",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -127,7 +121,6 @@
     "description": "An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Ring",
     "maxStack": 1,
@@ -205,12 +198,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -222,7 +209,6 @@
     "description": "An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Ring",
     "maxStack": 1,
@@ -300,12 +286,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

@@ -18,8 +18,6 @@ monster_chimera_lionmage={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -57,8 +55,6 @@ invasion_T3_lionmage={{Enemy
     {{!}} '''chimera lionmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lionmage.png|bSize=256|cWidth=9|cHeight=29|oBottom=65|oLeft=75}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

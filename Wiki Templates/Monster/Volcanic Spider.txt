@@ -19,8 +19,6 @@ monster_spider_volcano={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -61,8 +59,6 @@ monster_spider_volcano_dangerous={{Enemy
     {{!}} '''spider volcano projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=13|cHeight=20|oBottom=51|oLeft=53}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

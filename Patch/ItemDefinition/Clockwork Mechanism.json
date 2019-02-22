@@ -2,10 +2,8 @@
   {
     "name": "Clockwork Mechanism",
     "alias": "Winter Holiday Clockwork Mechanism",
-    "description": "",
     "price": 10000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -40,13 +38,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

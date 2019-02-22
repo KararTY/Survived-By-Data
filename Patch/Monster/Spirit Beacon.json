@@ -2,10 +2,6 @@
   {
     "name": "Spirit Beacon",
     "alias": "boss_shaman_torch_hardmode",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -88,10 +84,6 @@
   {
     "name": "Spirit Beacon",
     "alias": "boss_shaman_torch1",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {

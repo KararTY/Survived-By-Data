@@ -7,7 +7,6 @@
     "challenge": "Altars_Activated",
     "challengeValue": 1,
     "achievement": true,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {

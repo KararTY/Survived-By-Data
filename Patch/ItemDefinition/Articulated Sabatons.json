@@ -5,7 +5,6 @@
     "description": "Metal plates on top with a studded leather sole provide both protection and grip.",
     "price": 28000,
     "sellPrice": 280,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Boots",
     "maxStack": 1,
@@ -105,12 +104,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT5",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

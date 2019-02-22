@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Dangerous_Chests_Activated",
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {

@@ -3,9 +3,9 @@
     "name": "Mercurial Catalyst",
     "alias": "Rare Crafting Material T5",
     "description": "The height of modern human ingenuity is built around the Mercurial Catalyst and its dynamic properties during crafting. This is a rare crafting component.",
+    "premiumOffer": "MercurialCatalyst",
     "price": 6,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -40,13 +40,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",

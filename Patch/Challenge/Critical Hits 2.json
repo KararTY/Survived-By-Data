@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Perform_CriticalHits",
     "challengeValue": 60,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

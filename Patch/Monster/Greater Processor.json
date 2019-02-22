@@ -3,9 +3,6 @@
     "name": "Greater Processor",
     "alias": "monster_agent_processor_hardmode_dangerous",
     "description": "Description for Greater Processor",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "agent_processor_projectile",
@@ -39,21 +36,17 @@
             "projectile": {
               "name": "agent_processor_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 2,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 7,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
@@ -61,6 +54,7 @@
               "pierceWorld": true,
               "statusEffect": {
                 "name": "Poison",
+                "alias": "Poison T5",
                 "type": "Normal",
                 "duration": 6,
                 "stats": [
@@ -79,17 +73,8 @@
                 "characterEffectPrefab": {
                   "name": "ce poison 0"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -135,21 +120,17 @@
             "projectile": {
               "name": "agent_processor_projectile_dud",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 2,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 7,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 0.01,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
@@ -157,6 +138,7 @@
               "pierceWorld": true,
               "statusEffect": {
                 "name": "Poison",
+                "alias": "Poison T5",
                 "type": "Normal",
                 "duration": 6,
                 "stats": [
@@ -175,17 +157,8 @@
                 "characterEffectPrefab": {
                   "name": "ce poison 0"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -231,25 +204,19 @@
             "projectile": {
               "name": "agent_disabler_trail_projectile3",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 0,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 0.01,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.18,
                 "g": 0.16,
@@ -391,9 +358,6 @@
     "name": "Greater Processor",
     "alias": "monster_agent_processor_hardmode",
     "description": "Description for Greater Processor",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "agent_processor_projectile",
@@ -427,21 +391,17 @@
             "projectile": {
               "name": "agent_processor_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 2,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 7,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
@@ -449,6 +409,7 @@
               "pierceWorld": true,
               "statusEffect": {
                 "name": "Poison",
+                "alias": "Poison T5",
                 "type": "Normal",
                 "duration": 6,
                 "stats": [
@@ -467,17 +428,8 @@
                 "characterEffectPrefab": {
                   "name": "ce poison 0"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -523,21 +475,17 @@
             "projectile": {
               "name": "agent_processor_projectile_dud",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 2,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 7,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 0.01,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
@@ -545,6 +493,7 @@
               "pierceWorld": true,
               "statusEffect": {
                 "name": "Poison",
+                "alias": "Poison T5",
                 "type": "Normal",
                 "duration": 6,
                 "stats": [
@@ -563,17 +512,8 @@
                 "characterEffectPrefab": {
                   "name": "ce poison 0"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -619,25 +559,19 @@
             "projectile": {
               "name": "agent_disabler_trail_projectile3",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 0,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 0.01,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.18,
                 "g": 0.16,

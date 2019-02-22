@@ -2,10 +2,10 @@
   {
     "name": "Beetle Wings",
     "alias": "it Attachment Beetle Wings",
-    "description": "",
+    "description": "string33001",
+    "premiumOffer": "UnlockAttachmentBeetleWings",
     "price": 1500,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -43,13 +43,10 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
       "account": true,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",

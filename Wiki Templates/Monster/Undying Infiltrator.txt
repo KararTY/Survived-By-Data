@@ -16,8 +16,6 @@ boss_undying_rogue_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +42,6 @@ boss_undying_rogue={{Enemy
     {{!}} '''undying rogue projectile''' {{!!}} <center>{{CSS image crop|Image=undying_rogue.png|bSize=192|cWidth=23|cHeight=36|oBottom=152|oLeft=17}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

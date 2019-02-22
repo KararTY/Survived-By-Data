@@ -5,9 +5,73 @@
     "description": "Without the Druid's connection to the spirits the best you can do is channel your own inner shade.",
     "price": 53,
     "sellPrice": 26,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Consumable",
+    "ability": {
+      "name": "Special Vial of Spirits",
+      "statusEffectsOnActivate": [
+        {
+          "name": "Rage Mode",
+          "alias": "RageMode Vial of Spirits",
+          "type": "RageMode",
+          "duration": 0,
+          "stats": [
+            {
+              "key": "Tier",
+              "equation": "",
+              "value": 0
+            },
+            {
+              "key": "Endurance",
+              "equation": "[Endurance]*1.3",
+              "value": 0
+            }
+          ],
+          "relatedLevelStat": "_Unknown",
+          "disableSpecialAbility": true,
+          "doesNotStackWithSelf": true,
+          "trackedForChallenge": true,
+          "isBuff": true,
+          "noTimeOut": true,
+          "flashDuration": 2,
+          "isFullscreenFlash": false
+        }
+      ],
+      "statusEffectWhenCharging": [
+        {
+          "name": "Rage Mode Charge",
+          "alias": "RageMode Vial of Spirits Charge",
+          "type": "Normal",
+          "duration": 0,
+          "stats": [
+            {
+              "key": "Tier",
+              "equation": "",
+              "value": 0
+            },
+            {
+              "key": "MovementSpeed",
+              "equation": "[MovementSpeed]*1.5",
+              "value": 0
+            }
+          ],
+          "relatedLevelStat": "_Unknown",
+          "trackedForChallenge": true,
+          "isBuff": true,
+          "noTimeOut": true,
+          "flashDuration": 2,
+          "isFullscreenFlash": false
+        }
+      ],
+      "chargingProjectileAutoFireRate": 0.25,
+      "specialAbilityDuration": 6,
+      "timeToPauseAfterCharge": 0.25,
+      "chargingAnimType": 4,
+      "useDelay": 0.6,
+      "mode": 1,
+      "projectileWhenActive": 9,
+      "projectileWhenCharging": 20
+    },
     "maxStack": 0,
     "tier": 1,
     "data": [
@@ -60,12 +124,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

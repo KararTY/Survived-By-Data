@@ -5,7 +5,6 @@
     "description": "Contains the secrets of using a Rosin Catalyst to craft exceptional equipment.",
     "price": 20,
     "sellPrice": 4,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -65,17 +64,11 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
-    "modifierChance": 0.05
+    "modifierChance": 0.05,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Tome of Rosin Crafting",
@@ -83,7 +76,6 @@
     "description": "Contains the secrets of using a Rosin Catalyst to craft exceptional equipment.",
     "price": 20,
     "sellPrice": 4,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -124,16 +116,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
-    "modifierChance": 0.05
+    "modifierChance": 0.05,
+    "doesNotCountTowardMax": true
   }
 ]

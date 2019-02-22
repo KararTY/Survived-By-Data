@@ -5,7 +5,34 @@
     "description": "Because there are times when even non-Infiltrators need to run away like a coward.",
     "price": 100,
     "sellPrice": 50,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Cloak of Shadow",
+      "type": "RageMode",
+      "duration": 3,
+      "stats": [
+        {
+          "key": "AvoidChance",
+          "equation": "0.8",
+          "value": 0.8
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "characterEffectPrefab": {
+        "name": "ce Stealth"
+      },
+      "projectile": 18,
+      "doesNotStackWithSelf": true,
+      "trackedForChallenge": true,
+      "isBuff": true,
+      "removeOnAttack": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 25,
     "type": "Consumable",
     "maxStack": 0,
@@ -60,12 +87,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

@@ -5,7 +5,6 @@
     "description": "The energies of Sin harmonize with the form of the bow and arrow in a way that feels right... necessary...",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -130,12 +129,6 @@
     "class": [
       "Harbinger"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

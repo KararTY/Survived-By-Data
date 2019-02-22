@@ -3,11 +3,12 @@
     "name": "Savannah Stalker Infiltrator",
     "alias": "Unlock Skin Infiltrator Alt 4",
     "description": "These Infiltrators move like wind upon the grass, their presence only marked by the gentle signs that belie the devastating intent.",
+    "premiumOffer": "unlockInfiltratorAltSkin4",
     "price": 900,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 1,
     "tier": 0,
     "data": [
@@ -40,16 +41,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

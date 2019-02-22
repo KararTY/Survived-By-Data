@@ -19,8 +19,6 @@ monster_spirit_cyclone_sand={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -59,8 +57,6 @@ monster_spirit_cyclone_sand_dangerous={{Enemy
     {{!}} '''spirit cyclone sand projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_sand.png|bSize=384|cWidth=23|cHeight=65|oBottom=192|oLeft=0}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 5
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-

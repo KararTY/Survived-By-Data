@@ -4,7 +4,6 @@
     "description": "Empty",
     "price": 43,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -53,7 +52,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -81,12 +79,6 @@
         "chanceToApply": 0
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0

@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Altars_Activated",
     "challengeValue": 9,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Activate Altars (I)",

@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Beasts",
     "challengeValue": 200,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

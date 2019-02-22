@@ -5,7 +5,6 @@
     "description": "Used to gain access to the Burning Sands. This dungeon is appropriate for characters level 11 through 15.",
     "price": 25,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -40,13 +39,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

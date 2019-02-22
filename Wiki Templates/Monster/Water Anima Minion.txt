@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -33,8 +31,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7.5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 6
     {{!}}-
     {{!}} Max hits {{!!}} 10
@@ -46,8 +42,6 @@
     {{!}} '''spirit nereides freshwater projectile3''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_freshwater.png|bSize=256|cWidth=13|cHeight=16|oBottom=156|oLeft=153}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7.5
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 6
     {{!}}-

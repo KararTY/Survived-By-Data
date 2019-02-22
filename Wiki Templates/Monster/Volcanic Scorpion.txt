@@ -19,8 +19,6 @@ monster_scorpion_lava_volcano={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -46,8 +44,6 @@ monster_scorpion_lava_volcano={{Enemy
     {{!}} '''scorpion lava projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=38|cHeight=18|oBottom=124|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -90,8 +86,6 @@ monster_scorpion_lava_volcano_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -117,8 +111,6 @@ monster_scorpion_lava_volcano_dangerous={{Enemy
     {{!}} '''scorpion lava projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=38|cHeight=18|oBottom=124|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

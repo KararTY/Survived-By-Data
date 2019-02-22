@@ -3,9 +3,9 @@
     "name": "Khopesh",
     "alias": "Infiltrator T6 Weapon",
     "description": "The short and hooked khopesh is designed to slide between the plates of the Fury before tearing those same plates apart as it's withdrawn.",
+    "premiumOffer": "T6WeaponInfiltrator",
     "price": 70000,
     "sellPrice": 700,
-    "consumable": false,
     "requiredLevel": 20,
     "type": "Weapon",
     "maxStack": 1,
@@ -104,12 +104,6 @@
       "Infiltrator"
     ],
     "bonusDismantleLoot": "DismantleStandardT6",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

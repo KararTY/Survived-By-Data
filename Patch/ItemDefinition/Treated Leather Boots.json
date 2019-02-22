@@ -5,7 +5,6 @@
     "description": "These boots provide exceptional grip as well as protection from the elements.",
     "price": 28000,
     "sellPrice": 280,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Boots",
     "maxStack": 1,
@@ -105,12 +104,6 @@
       "Infiltrator"
     ],
     "bonusDismantleLoot": "DismantleStandardT5",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

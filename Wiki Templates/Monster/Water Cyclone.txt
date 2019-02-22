@@ -18,8 +18,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -31,8 +29,6 @@
     {{!}} '''spirit cyclone water projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_water.png|bSize=384|cWidth=49|cHeight=34|oBottom=194|oLeft=0}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 5
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-

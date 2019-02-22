@@ -5,7 +5,6 @@
     "description": "[deprecated]",
     "price": 22,
     "sellPrice": 11,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -47,12 +46,6 @@
     "class": [
       "Geomancer"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75
@@ -63,7 +56,6 @@
     "description": "There is nothing left to harvest in the sands surrounding the Maw of the Destroyer, but the people that once lived here valued this weapon highly.",
     "price": 7000,
     "sellPrice": 70,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -167,12 +159,6 @@
       "Geomancer"
     ],
     "bonusDismantleLoot": "DismantleStandardT3",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

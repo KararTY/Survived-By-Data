@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -32,8 +30,6 @@
     {{!}} '''treant projectile2''' {{!!}} <center>{{CSS image crop|Image=Treant_01.png|bSize=256|cWidth=31|cHeight=32|oBottom=128|oLeft=128}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

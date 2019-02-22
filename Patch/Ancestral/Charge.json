@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Charge",
+            "alias": "Charge Buff",
             "type": "Normal",
             "duration": 0,
             "stats": [
@@ -31,21 +32,13 @@
             "characterEffectPrefab": {
               "name": "ce Speed Boost"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
             "noTimeOut": true,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityActivate",
@@ -165,6 +158,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Charge",
+            "alias": "Charge Buff",
             "type": "Normal",
             "duration": 0,
             "stats": [
@@ -183,21 +177,13 @@
             "characterEffectPrefab": {
               "name": "ce Speed Boost"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
             "noTimeOut": true,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityActivate",
@@ -317,6 +303,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Charge",
+            "alias": "Charge Buff",
             "type": "Normal",
             "duration": 0,
             "stats": [
@@ -335,21 +322,13 @@
             "characterEffectPrefab": {
               "name": "ce Speed Boost"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
             "noTimeOut": true,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityActivate",

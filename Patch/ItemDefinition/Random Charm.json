@@ -2,10 +2,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv1",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -59,7 +57,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -95,12 +92,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -108,10 +99,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv10",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -201,7 +190,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -237,12 +225,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -250,10 +232,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv2",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -343,7 +323,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -379,12 +358,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -392,10 +365,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv3",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -485,7 +456,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -521,12 +491,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -534,10 +498,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv4",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -627,7 +589,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -663,12 +624,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -676,10 +631,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv5",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -769,7 +722,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -805,12 +757,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -818,10 +764,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv6",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -911,7 +855,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -947,12 +890,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -960,10 +897,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv7",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -1053,7 +988,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -1089,12 +1023,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -1102,10 +1030,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv8",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -1195,7 +1121,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -1231,12 +1156,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -1244,10 +1163,8 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv9",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -1337,7 +1254,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -1373,12 +1289,6 @@
         ]
       }
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75
@@ -1389,7 +1299,6 @@
     "description": "Fuse together 5 charms of the same level to obtain a charm of the next highest level.",
     "price": 43,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -1431,15 +1340,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
       "account": true,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Use_HealingPotions",
     "challengeValue": 10,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {

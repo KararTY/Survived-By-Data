@@ -5,10 +5,10 @@
     "description": "Kill the Bat General",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_bat_general",
+    "challengeTarget": {
+      "name": "monster_bat_general"
+    },
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest BatterUp4"
           }
         }
+      },
+      {
+        "questText": "Are you prepared to face the beast? The lord of the bat chimera will not expect us to attack him directly.",
+        "completeText": "I am sorry I had to deceive you, but humans have little reason to not attack my kind of sight. Perhaps we will meet again, when another of the Eleven over extends and becomes vulnerable."
       }
     ]
   }

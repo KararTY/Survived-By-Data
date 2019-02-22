@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Armor of the Maw",
@@ -21,8 +20,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Crimson Mantle",
@@ -31,8 +29,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Leathers of the Maw",
@@ -41,8 +38,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Sabatons of the Maw",
@@ -51,8 +47,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Leather Boots of the Maw",
@@ -61,8 +56,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Bone Ring",
@@ -71,8 +65,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Jet Visage",
@@ -81,8 +74,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Jet Staff",
@@ -91,8 +83,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Sickle",
@@ -101,8 +92,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Bone Bow",
@@ -111,8 +101,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Scimitar",
@@ -121,8 +110,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Jet Khanjar",
@@ -131,8 +119,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       }
     ]
   }

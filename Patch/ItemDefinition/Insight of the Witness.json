@@ -3,9 +3,9 @@
     "name": "Insight of the Witness",
     "alias": "Druid T8 Weapon",
     "description": "The totems of the Witnesses can tap into the limitless potential of the Dream.",
+    "premiumOffer": "T8WeaponDruid",
     "price": 500000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Weapon",
     "maxStack": 1,
@@ -106,12 +106,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT8",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

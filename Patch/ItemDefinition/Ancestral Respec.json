@@ -3,9 +3,9 @@
     "name": "Ancestral Respec",
     "alias": "Ancestral Respec 1",
     "description": "Ancestral Respec\n",
+    "premiumOffer": "AncestralRespec1",
     "price": 3,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -40,25 +40,22 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Ancestral Respec",
     "alias": "Ancestral Respec 2",
     "description": "Ancestral Respec\n",
+    "premiumOffer": "AncestralRespec2",
     "price": 6,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -93,25 +90,22 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Ancestral Respec",
     "alias": "Ancestral Respec 3",
     "description": "Ancestral Respec\n",
+    "premiumOffer": "AncestralRespec3",
     "price": 10,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -146,25 +140,22 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Ancestral Respec",
     "alias": "Ancestral Respec 4",
     "description": "Ancestral Respec\n",
+    "premiumOffer": "AncestralRespec4",
     "price": 15,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -199,25 +190,22 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Ancestral Respec",
     "alias": "Ancestral Respec 5",
     "description": "Ancestral Respec\n",
+    "premiumOffer": "AncestralRespec5",
     "price": 20,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -252,16 +240,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

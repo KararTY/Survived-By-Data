@@ -5,7 +5,6 @@
     "description": "[deprecated]",
     "price": 524,
     "sellPrice": 262,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Amulet",
     "maxStack": 1,
@@ -54,12 +53,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.6

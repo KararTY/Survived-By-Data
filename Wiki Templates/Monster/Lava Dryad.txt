@@ -19,8 +19,6 @@ monster_spirit_dryad_lava_quest={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -33,8 +31,6 @@ monster_spirit_dryad_lava_quest={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 4
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +40,6 @@ monster_spirit_dryad_lava_quest={{Enemy
     {{!}} '''dryad lava projectile2a''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
@@ -88,8 +82,6 @@ subboss_spirit_dryad_lava_small={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -114,8 +106,6 @@ subboss_spirit_dryad_lava_small={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 4
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -137,8 +127,6 @@ subboss_spirit_dryad_lava_small={{Enemy
     {{!}} '''subboss dryad lava projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
@@ -180,8 +168,6 @@ subboss_spirit_dryad_lava_medium={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -206,8 +192,6 @@ subboss_spirit_dryad_lava_medium={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 4
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -229,8 +213,6 @@ subboss_spirit_dryad_lava_medium={{Enemy
     {{!}} '''subboss dryad lava projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
@@ -274,8 +256,6 @@ subboss_spirit_dryad_lava={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -300,8 +280,6 @@ subboss_spirit_dryad_lava={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 4
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -323,8 +301,6 @@ subboss_spirit_dryad_lava={{Enemy
     {{!}} '''subboss dryad lava projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-

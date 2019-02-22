@@ -5,10 +5,10 @@
     "description": "Get key, enter cave, kill golem",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_golem_stone_boss",
+    "challengeTarget": {
+      "name": "monster_golem_stone_boss"
+    },
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Kill Golem"
           }
         }
+      },
+      {
+        "questText": "We lost a storage cavern, including the key to access it. I'll draw you up a picture of one of the creatures involved. Go kill it for the key, then clear out the cave.",
+        "completeText": "Good work. Though you didn't have to pick up its bits. Still, maybe the craftsmen can do something useful with golem guts? Oh, and see if anyone else needs your help. I believe the young woman across the road has been looking for aid."
       }
     ]
   }

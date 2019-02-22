@@ -18,8 +18,6 @@ monster_beast_leatherback={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 15
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -47,8 +45,6 @@ monster_turtlesnap_leatherback={{Enemy
     {{!}} colspan="2" {{!}}'''turtlesnap projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-

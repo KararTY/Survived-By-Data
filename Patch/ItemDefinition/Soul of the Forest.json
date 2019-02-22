@@ -3,9 +3,9 @@
     "name": "Soul of the Forest",
     "alias": "Druid T7 Weapon",
     "description": "The madness of the Heart of the Forest was born from its intimate connection with the spirit world. This totem mirrors that connection, providing significant power but at significant risk.",
+    "premiumOffer": "T7WeaponDruid",
     "price": 200000,
     "sellPrice": 2000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Weapon",
     "maxStack": 1,
@@ -110,12 +110,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT7",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

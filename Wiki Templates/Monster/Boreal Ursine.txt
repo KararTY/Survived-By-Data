@@ -16,8 +16,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
     {{!}} Range {{!!}} 10
@@ -31,8 +29,6 @@
     {{!}} '''boss shaman enraged projectile''' {{!!}} <center>{{CSS image crop|Image=boss_bear_shaman2.png|bSize=512|cWidth=20|cHeight=47|oBottom=681|oLeft=14}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-

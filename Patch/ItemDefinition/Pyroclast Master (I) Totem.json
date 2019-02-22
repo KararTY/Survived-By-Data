@@ -5,7 +5,6 @@
     "description": "Reforging a fully empowered Totem of the Antecedent with the Pyroclast of a powerful Infernal infuses the totem with unmatched destructive potential.",
     "price": 3000000,
     "sellPrice": 30000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Weapon",
     "maxStack": 1,
@@ -108,12 +107,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT10",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

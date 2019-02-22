@@ -5,7 +5,6 @@
     "description": "Metalworkers at the Tower suffer from a lack of materials and facilities, leading to pitted and blistered blades.",
     "price": 15,
     "sellPrice": 8,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -104,12 +103,6 @@
       "Sentinel"
     ],
     "bonusDismantleLoot": "DismantleStandardT1",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

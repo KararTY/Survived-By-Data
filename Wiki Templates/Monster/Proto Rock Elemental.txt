@@ -20,8 +20,6 @@ monster_golem_stone_boss={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -31,8 +29,6 @@ monster_golem_stone_boss={{Enemy
     {{!}} '''golem stone boss projectile blast''' {{!!}} <center>{{CSS image crop|Image=monster_golem_stone_01_projectile_01.png|bSize=128|cWidth=27|cHeight=28|oBottom=68|oLeft=67}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
@@ -47,8 +43,6 @@ monster_golem_stone_boss={{Enemy
     {{!}} '''golem stone boss projectile blast reverse''' {{!!}} <center>{{CSS image crop|Image=monster_golem_stone_01_projectile_01.png|bSize=128|cWidth=27|cHeight=28|oBottom=68|oLeft=67}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
@@ -82,8 +76,6 @@ monster_golem_stone_boss_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -93,8 +85,6 @@ monster_golem_stone_boss_world={{Enemy
     {{!}} '''golem stone boss projectile blast''' {{!!}} <center>{{CSS image crop|Image=monster_golem_stone_01_projectile_01.png|bSize=128|cWidth=27|cHeight=28|oBottom=68|oLeft=67}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
@@ -109,8 +99,6 @@ monster_golem_stone_boss_world={{Enemy
     {{!}} '''golem stone boss projectile blast reverse''' {{!!}} <center>{{CSS image crop|Image=monster_golem_stone_01_projectile_01.png|bSize=128|cWidth=27|cHeight=28|oBottom=68|oLeft=67}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-

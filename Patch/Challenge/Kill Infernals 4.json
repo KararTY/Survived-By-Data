@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Infernals",
     "challengeValue": 10000,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Kill Infernals (III)",

@@ -19,8 +19,6 @@ boss_dreadnought_head2={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -48,8 +46,6 @@ boss_dreadnought_head={{Enemy
     {{!}} '''boss dreadnought projectile''' {{!!}} <center>{{CSS image crop|Image=Worm_01.png|bSize=128|cWidth=15|cHeight=23|oBottom=102|oLeft=8}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

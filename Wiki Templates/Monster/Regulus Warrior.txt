@@ -17,8 +17,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -30,8 +28,6 @@
     {{!}} '''chimera lizardwarrior melee projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lizardwarrior.png|bSize=256|cWidth=35|cHeight=31|oBottom=135|oLeft=24}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-

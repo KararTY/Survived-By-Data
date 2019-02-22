@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -32,8 +30,6 @@
     {{!}} '''spirit golem resin projectile blast''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_resin.png|bSize=384|cWidth=17|cHeight=18|oBottom=161|oLeft=303}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

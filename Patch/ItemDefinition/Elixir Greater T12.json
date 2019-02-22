@@ -5,7 +5,58 @@
     "description": "[deprecated]",
     "price": 50,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Greater Elixir",
+      "alias": "Greater Elixir 1",
+      "type": "Normal",
+      "duration": 5,
+      "stats": [
+        {
+          "key": "Potency",
+          "equation": "[Potency]+50",
+          "value": 0
+        },
+        {
+          "key": "Endurance",
+          "equation": "[Endurance]+50",
+          "value": 0
+        },
+        {
+          "key": "Focus",
+          "equation": "[Focus]+50",
+          "value": 0
+        },
+        {
+          "key": "Willpower",
+          "equation": "[Willpower]+50",
+          "value": 0
+        },
+        {
+          "key": "Swiftness",
+          "equation": "[Swiftness]+50",
+          "value": 0
+        },
+        {
+          "key": "Friction",
+          "equation": "[Finesse]+50",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "characterEffectPrefab": {
+        "name": "ce Generic Buff"
+      },
+      "doesNotStackWithSelf": true,
+      "trackedForChallenge": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 1,
@@ -48,12 +99,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75

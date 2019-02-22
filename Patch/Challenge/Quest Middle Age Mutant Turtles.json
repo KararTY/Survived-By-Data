@@ -5,10 +5,10 @@
     "description": "Kill 30 Leather back beasts",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_chimera_leatherback",
+    "challengeTarget": {
+      "name": "monster_chimera_leatherback"
+    },
     "challengeValue": 30,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Middle Age Mutant Turtles"
           }
         }
+      },
+      {
+        "questText": "This is bad. This stuff looks like fire sand, but it corrupts like that damned resin. Luckily the outbreak is limited to a local species of turtle. So while I try to figure out where this nasty bit of work is coming from I need you to defeat 30 Coriacea Warriors. ",
+        "completeText": "Nice work. You bought us some time and slowed the spread. The last thing we need is this stuff getting out and corrupting the Infernals just like it corrupts the Beasts."
       }
     ]
   }

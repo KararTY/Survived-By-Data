@@ -5,7 +5,6 @@
     "description": "The Sin Totem can be a disorienting vessel to use for channeling spiritual energy for it seems to draw that energy from far, far above you.",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -123,12 +122,6 @@
     "class": [
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

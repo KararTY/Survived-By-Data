@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Debilitating Shot",
+            "alias": "Debilitating Shot Debuff",
             "type": "Normal",
             "duration": 2,
             "stats": [
@@ -31,21 +32,11 @@
             "characterEffectPrefab": {
               "name": "ce Generic Debuff"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "DamageDealt",
@@ -164,6 +155,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Debilitating Shot",
+            "alias": "Debilitating Shot Debuff",
             "type": "Normal",
             "duration": 2,
             "stats": [
@@ -182,21 +174,11 @@
             "characterEffectPrefab": {
               "name": "ce Generic Debuff"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "DamageDealt",
@@ -315,6 +297,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Debilitating Shot",
+            "alias": "Debilitating Shot Debuff",
             "type": "Normal",
             "duration": 2,
             "stats": [
@@ -333,21 +316,11 @@
             "characterEffectPrefab": {
               "name": "ce Generic Debuff"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "DamageDealt",

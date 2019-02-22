@@ -17,8 +17,6 @@ monster_anima_dark_turretT1={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +42,6 @@ monster_anima_dark_turretT2={{Enemy
     {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
@@ -73,8 +69,6 @@ monster_anima_dark_turretT3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -100,8 +94,6 @@ monster_anima_dark_turretT4={{Enemy
     {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
@@ -129,8 +121,6 @@ monster_anima_dark_turretT5={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -156,8 +146,6 @@ monster_anima_dark_turretT6={{Enemy
     {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
@@ -185,8 +173,6 @@ monster_anima_dark_turretT7={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -213,8 +199,6 @@ monster_anima_dark_turretT8={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -240,8 +224,6 @@ monster_anima_dark_turretT9={{Enemy
     {{!}} '''spirit dryad dark turret projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-

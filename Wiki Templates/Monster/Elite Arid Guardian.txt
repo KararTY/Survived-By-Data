@@ -20,8 +20,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -33,8 +31,6 @@
     {{!}} '''spirit golem sand elite projectile blast''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_sand.png|bSize=384|cWidth=21|cHeight=22|oBottom=159|oLeft=301}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

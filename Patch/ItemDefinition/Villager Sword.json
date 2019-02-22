@@ -2,10 +2,8 @@
   {
     "name": "Villager Sword",
     "alias": "TutorialSword",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -90,13 +88,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "modifierChance": 0.75

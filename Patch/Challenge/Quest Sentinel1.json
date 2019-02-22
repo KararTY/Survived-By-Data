@@ -5,10 +5,10 @@
     "description": "Collect 12 Flowers",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "QuestWinterBloom",
+    "challengeTarget": {
+      "name": "QuestWinterBloom"
+    },
     "challengeValue": 12,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Sentinel1"
           }
         }
+      },
+      {
+        "questText": "The most important rite in our order is to lay the winter bloom upon the graves of our forebearers. It is time for you to undertake this mission. Collect the flowers from a dozen winter blooms which grow on the small islands in the area.",
+        "completeText": "I see the disbelief in your eyes; placing flowers upon the tombs of our greatest champions. But I will not rob you of the realization once you come to understand the why of it."
       }
     ]
   }

@@ -5,7 +5,6 @@
     "description": "Poorly crafted and lacking much power, the amulet rests heavy on the heart of the survivors.",
     "price": 15,
     "sellPrice": 8,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Amulet",
     "maxStack": 1,
@@ -103,12 +102,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT1",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

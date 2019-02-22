@@ -18,8 +18,6 @@ monster_clam={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -47,8 +45,6 @@ monster_clam_infernal={{Enemy
     {{!}} '''clam projectile''' {{!!}} <center>{{CSS image crop|Image=Clam_01.png|bSize=192|cWidth=24|cHeight=24|oBottom=144|oLeft=96}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

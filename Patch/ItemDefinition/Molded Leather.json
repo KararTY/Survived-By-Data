@@ -5,7 +5,6 @@
     "description": "Boiling leather creates a material that is far more rigid than traditional leather, but still just as light.",
     "price": 500,
     "sellPrice": 50,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -61,13 +60,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

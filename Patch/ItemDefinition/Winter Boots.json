@@ -5,7 +5,6 @@
     "description": "These boots are made from the skin of Chimera that have adapted to the cold of the region, allowing for a relatively thin sole that still protects from the harsh conditions.",
     "price": 14000,
     "sellPrice": 140,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Boots",
     "maxStack": 1,
@@ -100,12 +99,6 @@
       "Infiltrator"
     ],
     "bonusDismantleLoot": "DismantleStandardT4",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

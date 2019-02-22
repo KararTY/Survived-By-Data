@@ -3,6 +3,7 @@
     "name": "Legendary V Relic",
     "alias": "Relic Common Valr Boost 5",
     "description": "This relic increases Valr earned by 4%. This bonus is cumulative with other Legendary Relics.",
+    "premiumOffer": "RelicValr5",
     "price": 24,
     "sellPrice": 0,
     "consumable": true,
@@ -67,12 +68,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Crystal",

@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -32,8 +30,6 @@
     {{!}} '''spirit dryad ice projectile ooze''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_snow.png|bSize=384|cWidth=32|cHeight=34|oBottom=103|oLeft=200}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -56,8 +52,6 @@
     {{!}} '''spirit dryad ice projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_ice.png|bSize=192|cWidth=15|cHeight=25|oBottom=105|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-

@@ -10,10 +10,7 @@
     "spawnDelayed": true,
     "quotaRadius": 3,
     "rechargeTime": 1,
-    "isBoss": false,
-    "autoPopulate": false,
     "manuallyPlaced": true,
-    "floraOrFaunaSpawner": false,
     "spawnList": [
       {
         "monsterName": "Juvenile Cervus Warrior",
@@ -23,7 +20,6 @@
         "timeOfDay": "All"
       }
     ],
-    "oneTimeTrigger": false,
     "areaMax": 18,
     "areaRadius": 54
   }

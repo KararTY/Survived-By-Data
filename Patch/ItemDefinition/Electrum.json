@@ -5,7 +5,6 @@
     "description": "Alchemists require Silver to refine Resin into Amber. This doesn't destroy the Silver, but does change it into a metal called Electrum.",
     "price": 1,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -40,16 +39,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Electrum",
@@ -57,7 +53,6 @@
     "description": "Alchemists require Silver to refine Resin into Amber. This doesn't destroy the Silver, but does change it into a metal called Electrum.",
     "price": 1,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -92,15 +87,12 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

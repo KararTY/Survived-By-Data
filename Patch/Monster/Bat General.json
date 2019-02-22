@@ -2,10 +2,7 @@
   {
     "name": "Bat General",
     "alias": "monster_bat_general",
-    "description": "",
     "isBoss": true,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "bat_general_projectile_carpetbomb",
@@ -39,25 +36,21 @@
             "projectile": {
               "name": "bat_general_projectile_carpetbomb",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 11.3,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 3.7,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
+                "alias": "MovementSpeed Debuff T5",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -76,17 +69,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },

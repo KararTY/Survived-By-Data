@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Quests_Completed",
     "challengeValue": 1000,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Complete Bounty Kills (III)",

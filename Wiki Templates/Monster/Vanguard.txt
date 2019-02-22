@@ -16,8 +16,6 @@ monster_burrower_tutorial={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 12
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -56,8 +54,6 @@ monster_burrower={{Enemy
     {{!}} '''burrower projectile''' {{!!}} <center>{{CSS image crop|Image=beast_burrower.png|bSize=256|cWidth=20|cHeight=44|oBottom=202|oLeft=129}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 12
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

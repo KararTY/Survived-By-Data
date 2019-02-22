@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Perform_CriticalHits",
     "challengeValue": 2500,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Perform Critical Hits (III)",

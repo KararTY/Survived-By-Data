@@ -3,9 +3,9 @@
     "name": "Electrum Amulet",
     "alias": "Amulet T8",
     "description": "The amulets of Electrum worn by the Witnesses represented the burden only they could complete.",
+    "premiumOffer": "T8Amulet",
     "price": 500000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Amulet",
     "maxStack": 1,
@@ -112,12 +112,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT8",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

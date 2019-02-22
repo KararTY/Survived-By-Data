@@ -8,7 +8,6 @@
     "challenge": "DeepNight_Turn_In_Candles",
     "challengeValue": 30,
     "achievement": true,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Turn in Bundle of Candles (II)",

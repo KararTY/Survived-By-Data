@@ -5,10 +5,10 @@
     "description": "Collect 10 clothing scraps",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "QuestItem Clothing Scraps",
+    "challengeTarget": {
+      "name": "QuestItem Clothing Scraps"
+    },
     "challengeValue": 10,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Druid1"
           }
         }
+      },
+      {
+        "questText": "We know the Chimera invasion came from the East, so despite the hostility of the spirits I think at least one druid tried to lead some of the people of Sagila to safety in this awful place. Search the nearby jungles for clues as to where the villagers might have been led.",
+        "completeText": "These scraps of cloth aren't normal garb for a druid, and given how intact they are I think it likely they are from victims of the invasion trying to escape."
       }
     ]
   }

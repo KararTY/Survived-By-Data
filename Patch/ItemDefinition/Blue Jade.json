@@ -5,7 +5,6 @@
     "description": "Jade of the palest blue, when polished it looks like a piece of the sky.",
     "price": 10,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -40,13 +39,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.05,

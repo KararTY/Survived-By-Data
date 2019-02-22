@@ -2,12 +2,27 @@
   {
     "name": "Tracking Device",
     "alias": "Consumable Tracking Device",
-    "description": "",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Flee To Portal",
+      "alias": "FleeToPortal",
+      "type": "",
+      "duration": 0,
+      "stats": [],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "ignoreDurationModifiers": true
+    },
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "SpecialTrackingDevice",
+      "projectilesOnActivate": [
+        25
+      ],
+      "mode": 0
+    },
     "maxStack": 0,
     "tier": 1,
     "data": [
@@ -64,11 +79,10 @@
       "account": true,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

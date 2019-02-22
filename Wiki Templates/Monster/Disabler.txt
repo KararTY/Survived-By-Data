@@ -20,8 +20,6 @@ monster_agent_disabler={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 5
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +42,6 @@ monster_agent_disabler={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -58,8 +54,6 @@ monster_agent_disabler={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -71,8 +65,6 @@ monster_agent_disabler={{Enemy
     {{!}} '''agent disabler trail projectile3''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
@@ -104,8 +96,6 @@ monster_agent_collector_elite_minion={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 5
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -128,8 +118,6 @@ monster_agent_collector_elite_minion={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -142,8 +130,6 @@ monster_agent_collector_elite_minion={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -155,8 +141,6 @@ monster_agent_collector_elite_minion={{Enemy
     {{!}} '''agent disabler trail projectile3''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
@@ -187,8 +171,6 @@ monster_agent_disabler_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 5
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -211,8 +193,6 @@ monster_agent_disabler_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -225,8 +205,6 @@ monster_agent_disabler_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -238,8 +216,6 @@ monster_agent_disabler_dangerous={{Enemy
     {{!}} '''agent disabler trail projectile3''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-

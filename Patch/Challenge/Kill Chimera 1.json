@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Chimera",
     "challengeValue": 50,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {

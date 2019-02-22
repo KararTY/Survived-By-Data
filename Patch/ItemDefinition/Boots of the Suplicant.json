@@ -3,9 +3,9 @@
     "name": "Boots of the Suplicant",
     "alias": "Boots Light T8",
     "description": "In suplication, the boots worn would make no sound so that the wearer might hear the dreams with clarity.",
+    "premiumOffer": "T8BootsLight",
     "price": 500000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Boots",
     "maxStack": 1,
@@ -104,12 +104,6 @@
       "Infiltrator"
     ],
     "bonusDismantleLoot": "DismantleStandardT8",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

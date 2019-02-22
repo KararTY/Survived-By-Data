@@ -7,13 +7,9 @@
       "max": 1
     },
     "spawnRadius": 4,
-    "spawnDelayed": false,
     "quotaRadius": 30,
     "rechargeTime": 0,
     "isBoss": true,
-    "autoPopulate": false,
-    "manuallyPlaced": false,
-    "floraOrFaunaSpawner": false,
     "spawnList": [
       {
         "monsterName": "Mirage Hunter",
@@ -23,7 +19,6 @@
         "timeOfDay": "All"
       }
     ],
-    "oneTimeTrigger": false,
     "areaMax": 0,
     "areaRadius": 0
   }

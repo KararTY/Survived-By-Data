@@ -5,7 +5,6 @@
     "description": "Made of scavanged plates, the protection awarded by this armor is barely better than no armor at all.",
     "price": 15,
     "sellPrice": 8,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -89,12 +88,6 @@
       "Geomancer"
     ],
     "bonusDismantleLoot": "DismantleStandardT1",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

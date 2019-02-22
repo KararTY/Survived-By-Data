@@ -5,7 +5,6 @@
     "description": "Used throughout the woods south of the Tower, this mantle would turn aside most of the impacts and scratches that came from working the land.",
     "price": 30,
     "sellPrice": 20,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -84,12 +83,6 @@
       "Infiltrator"
     ],
     "bonusDismantleLoot": "DismantleStandardT2",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

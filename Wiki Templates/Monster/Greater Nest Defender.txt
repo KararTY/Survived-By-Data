@@ -19,8 +19,6 @@ monster_agent_scout_defender_hardmode={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -42,8 +40,6 @@ monster_agent_scout_defender_hardmode={{Enemy
     {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9.25
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-
@@ -72,8 +68,6 @@ monster_agent_scout_defender_hardmode_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -95,8 +89,6 @@ monster_agent_scout_defender_hardmode_dangerous={{Enemy
     {{!}} '''agent defender projectile arch''' {{!!}} <center>{{CSS image crop|Image=boss_director_v2.png|bSize=512|cWidth=100|cHeight=36|oBottom=924|oLeft=269}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9.25
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-

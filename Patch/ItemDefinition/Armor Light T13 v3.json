@@ -5,7 +5,6 @@
     "description": "[deprecated]",
     "price": 346,
     "sellPrice": 173,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -50,12 +49,6 @@
       "Alchemist",
       "Infiltrator"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75

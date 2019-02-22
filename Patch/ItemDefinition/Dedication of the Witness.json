@@ -3,9 +3,9 @@
     "name": "Dedication of the Witness",
     "alias": "Geomancer T8 Weapon",
     "description": "Not originally a weapon, cutting the foundation for the monastery was almost ritualistic, and this tool is empowered as a result.",
+    "premiumOffer": "T8WeaponGeomancer",
     "price": 500000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Weapon",
     "maxStack": 1,
@@ -101,12 +101,6 @@
       "Geomancer"
     ],
     "bonusDismantleLoot": "DismantleStandardT8",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

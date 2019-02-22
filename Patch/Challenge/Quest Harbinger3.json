@@ -5,10 +5,10 @@
     "description": "Defend 4 Supply Wagons",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "HarbingerQuest_Wagon",
+    "challengeTarget": {
+      "name": "HarbingerQuest_Wagon"
+    },
     "challengeValue": 4,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Harbinger3"
           }
         }
+      },
+      {
+        "questText": "We've sent on the supplies, but the wagons keep getting ambushed by some kind of rat chimera. Please offer your aid to the escorts to ensure that the materials make it through.",
+        "completeText": "Your assistance was invaluable, but I'm concerned about the increased activity of these rat creatures."
       }
     ]
   }

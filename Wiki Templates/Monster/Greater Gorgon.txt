@@ -18,8 +18,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 8.8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -47,8 +45,6 @@
     {{!}} '''boss gorgon hardmode projectile''' {{!!}} <center>{{CSS image crop|Image=boss_gorgon.png|bSize=384|cWidth=13|cHeight=30|oBottom=108|oLeft=306}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

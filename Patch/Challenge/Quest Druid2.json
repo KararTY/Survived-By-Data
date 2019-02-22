@@ -5,10 +5,10 @@
     "description": "Kill 30 bramble plants",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_bramble_bush_quest",
+    "challengeTarget": {
+      "name": "monster_bramble_bush_quest"
+    },
     "challengeValue": 30,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Druid2"
           }
         }
+      },
+      {
+        "questText": "It's hard to tell if that cloth you gathered was from a coordinated retreat or just a few scared souls running for their lives. Maybe if we can clear out some of the brambles that are over running the jungle we can move around more freely.",
+        "completeText": "With the brambles out of the way we can risk a deeper incursion into the Demesne and see what secrets it's still trying to keep."
       }
     ]
   }

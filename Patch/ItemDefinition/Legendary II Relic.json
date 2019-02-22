@@ -3,6 +3,7 @@
     "name": "Legendary II Relic",
     "alias": "Relic Common Valr Boost 2",
     "description": "This relic increases Valr earned by 1%. This bonus is cumulative with other Legendary Relics.",
+    "premiumOffer": "RelicValr2",
     "price": 6,
     "sellPrice": 0,
     "consumable": true,
@@ -67,12 +68,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Crystal",

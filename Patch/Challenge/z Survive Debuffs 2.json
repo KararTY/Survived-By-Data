@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Survive_Debuffs",
     "challengeValue": 30,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Survive Debuffs (I)",

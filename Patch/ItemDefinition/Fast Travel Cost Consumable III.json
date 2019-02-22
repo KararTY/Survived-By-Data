@@ -3,9 +3,35 @@
     "name": "Fast Travel Cost Consumable III",
     "alias": "Consumable Fast Travel Cost Decrease 3",
     "description": "Eliminates silver cost of fast travel for 24 hours for all characters. This benefit does not end on death.",
+    "premiumOffer": "ConsumableFastTravelCost3",
     "price": 1,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Fast Travel Cost Reduction",
+      "alias": "Consumable Fast Travel Cost Buff 3",
+      "floatingText": "FAST TRAVEL COST REDUCTION",
+      "type": "Normal",
+      "duration": 86400,
+      "stats": [
+        {
+          "key": "FastTravelCostReduction",
+          "equation": "",
+          "value": 1
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 10,
@@ -48,15 +74,10 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "coolDown": 0.5,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

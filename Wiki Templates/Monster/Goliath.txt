@@ -19,8 +19,6 @@ boss_goliath3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -42,8 +40,6 @@ boss_goliath3={{Enemy
     {{!}} '''boss goliath3 projectile1''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 1
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -67,8 +63,6 @@ boss_goliath3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
     {{!}} Max hits {{!!}} 40
@@ -90,8 +84,6 @@ boss_goliath3={{Enemy
     {{!}} '''boss goliath3 projectile3''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 1
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -132,8 +124,6 @@ boss_goliath2={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 4
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -158,8 +148,6 @@ boss_goliath2={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -181,8 +169,6 @@ boss_goliath2={{Enemy
     {{!}} '''boss goliath trail projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
@@ -224,8 +210,6 @@ boss_goliath={{Enemy
     {{!}} '''boss goliath projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 1.png|bSize=640|cWidth=42|cHeight=53|oBottom=656|oLeft=497}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

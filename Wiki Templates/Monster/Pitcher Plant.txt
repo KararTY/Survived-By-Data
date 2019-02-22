@@ -20,8 +20,6 @@ plant_grenade={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -35,8 +33,6 @@ plant_grenade={{Enemy
     {{!}} '''plant grenade projectile explode''' {{!!}} <center>{{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=12|cHeight=27|oBottom=107|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -64,8 +60,6 @@ boss_elementalspirit_grenade_seed={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -79,8 +73,6 @@ boss_elementalspirit_grenade_seed={{Enemy
     {{!}} '''plant grenade projectile explode''' {{!!}} <center>{{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=12|cHeight=27|oBottom=107|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -109,8 +101,6 @@ boss_elementalspirit_grenade={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -124,8 +114,6 @@ boss_elementalspirit_grenade={{Enemy
     {{!}} '''plant grenade projectile explode''' {{!!}} <center>{{CSS image crop|Image=plant_grenade.png|bSize=192|cWidth=12|cHeight=27|oBottom=107|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

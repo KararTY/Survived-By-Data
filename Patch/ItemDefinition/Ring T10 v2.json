@@ -5,7 +5,6 @@
     "description": "[description]",
     "price": 5000,
     "sellPrice": 2500,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Ring",
     "maxStack": 1,
@@ -91,12 +90,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT1",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

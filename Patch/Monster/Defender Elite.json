@@ -2,10 +2,6 @@
   {
     "name": "Defender Elite",
     "alias": "monster_defender_elite_minion",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "stag_projectile",
@@ -14,25 +10,20 @@
             "projectile": {
               "name": "stag_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 3,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -166,10 +157,7 @@
   {
     "name": "Defender Elite",
     "alias": "monster_defender_elite",
-    "description": "",
-    "isBoss": false,
     "isElite": true,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "stag_projectile",
@@ -178,25 +166,20 @@
             "projectile": {
               "name": "stag_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 3,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,

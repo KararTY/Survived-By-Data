@@ -3,9 +3,9 @@
     "name": "Determination of the Witness",
     "alias": "Sentinel T8 Weapon",
     "description": "Forged of Electrum, this sword was a reservoir of the prayers of the Witness, prayers it could release to devastating effect.",
+    "premiumOffer": "T8WeaponSentinel",
     "price": 500000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Weapon",
     "maxStack": 1,
@@ -108,12 +108,6 @@
       "Sentinel"
     ],
     "bonusDismantleLoot": "DismantleStandardT8",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

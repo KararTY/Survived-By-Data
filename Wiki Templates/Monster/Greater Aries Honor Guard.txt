@@ -17,8 +17,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -32,8 +30,6 @@
     {{!}} '''chimera ram warrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_ramwarrior.png|bSize=192|cWidth=13|cHeight=31|oBottom=55|oLeft=54}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-

@@ -3,9 +3,6 @@
     "name": "Spider Egg Sac",
     "alias": "monster_spider_eggsac",
     "description": "Description for Spider Egg Sac",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {

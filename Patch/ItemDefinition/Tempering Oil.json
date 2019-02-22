@@ -3,6 +3,7 @@
     "name": "Tempering Oil",
     "alias": "Consumable Potion Weapon Oil",
     "description": "An oil that contains tiny fragments of Bloodstone. When applied to a piece of exceptional equipment that equipment becomes more powerful as it is used in battle. This effect lasts for one hour.",
+    "premiumOffer": "WeaponOil",
     "price": 30,
     "sellPrice": 0,
     "consumable": true,
@@ -81,11 +82,8 @@
       "Druid"
     ],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Crystal",

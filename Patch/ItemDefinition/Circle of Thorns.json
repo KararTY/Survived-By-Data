@@ -3,9 +3,9 @@
     "name": "Circle of Thorns",
     "alias": "Ring Heirloom",
     "description": "The thorns that cover these implements pierce the flesh of the wearer and feed upon the blood shed. But in return for this sacrifice this artifact gains in power as its bearer does. [This item is also a rare drop]",
+    "premiumOffer": "HeirloomRing",
     "price": 750,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Ring",
     "maxStack": 1,
@@ -77,11 +77,9 @@
       "Druid"
     ],
     "bound": {
-      "account": false,
       "soul": true
     },
     "isHeirloom": true,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Platinum",

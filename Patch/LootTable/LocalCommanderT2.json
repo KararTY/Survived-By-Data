@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Antique Plate Armor",
@@ -21,8 +20,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Forester Mantle",
@@ -31,8 +29,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Hunter Leathers",
@@ -41,8 +38,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Logger Sabatons",
@@ -51,8 +47,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Farmer Boots",
@@ -61,8 +56,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Heritage Band",
@@ -71,8 +65,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Unworked Stone Totem",
@@ -81,8 +74,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Chipped Stone Pick",
@@ -91,8 +83,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Huntsman's Bow",
@@ -101,8 +92,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Stone Staff",
@@ -111,8 +101,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Antique Longsword",
@@ -121,8 +110,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Workman's Knife",
@@ -131,8 +119,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       }
     ]
   }

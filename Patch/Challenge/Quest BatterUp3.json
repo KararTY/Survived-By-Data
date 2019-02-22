@@ -5,10 +5,10 @@
     "description": "Use Tracking Device on 5 Bats",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_bat_quest_T8",
+    "challengeTarget": {
+      "name": "monster_bat_quest_T8"
+    },
     "challengeValue": 5,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest BatterUp3"
           }
         }
+      },
+      {
+        "questText": "We need to find the roost of the greater bat chimera that is leading directing these attacks. Find some natalus bats and hit them with this tracking device so that we can pinpoint the position of their hidden lair.",
+        "completeText": "Yes, this is just what we needed. Working the Weeping Fissures will be far safer with this monster destroyed."
       }
     ]
   }

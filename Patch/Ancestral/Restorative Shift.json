@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Restorative Shift",
+            "alias": "Restorative Shift Buff",
             "type": "Permanent",
             "duration": 3,
             "stats": [
@@ -31,21 +32,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityActivate",
@@ -159,6 +151,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Restorative Shift",
+            "alias": "Restorative Shift Buff",
             "type": "Permanent",
             "duration": 3,
             "stats": [
@@ -177,21 +170,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityActivate",
@@ -305,6 +289,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Restorative Shift",
+            "alias": "Restorative Shift Buff",
             "type": "Permanent",
             "duration": 3,
             "stats": [
@@ -323,21 +308,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityActivate",

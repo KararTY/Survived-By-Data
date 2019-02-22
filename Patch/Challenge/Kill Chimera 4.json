@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Chimera",
     "challengeValue": 10000,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Kill Chimeras (III)",

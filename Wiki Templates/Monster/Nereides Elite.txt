@@ -20,8 +20,6 @@ monster_nereides_elite_minion={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -34,8 +32,6 @@ monster_nereides_elite_minion={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7.5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 6
     {{!}}-
     {{!}} Max hits {{!!}} 10
@@ -47,8 +43,6 @@ monster_nereides_elite_minion={{Enemy
     {{!}} '''spirit nereides freshwater projectile3''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_freshwater.png|bSize=256|cWidth=13|cHeight=16|oBottom=156|oLeft=153}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7.5
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 6
     {{!}}-
@@ -80,8 +74,6 @@ monster_nereides_elite={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -94,8 +86,6 @@ monster_nereides_elite={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7.5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 6
     {{!}}-
     {{!}} Max hits {{!!}} 10
@@ -107,8 +97,6 @@ monster_nereides_elite={{Enemy
     {{!}} '''spirit nereides freshwater projectile3''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_freshwater.png|bSize=256|cWidth=13|cHeight=16|oBottom=156|oLeft=153}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7.5
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 6
     {{!}}-

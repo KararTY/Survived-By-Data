@@ -5,7 +5,6 @@
     "description": "Tar Sand is a raw material often found where Infernals congregate. Though burning hot, the high quantity of impurities makes it difficult to work with.",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -40,13 +39,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.05,

@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Articulated Plate Armor",
@@ -21,8 +20,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Steel Threaded Mantle",
@@ -31,8 +29,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Lamellar Armor",
@@ -41,8 +38,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Articulated Sabatons",
@@ -51,8 +47,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Treated Leather Boots",
@@ -61,8 +56,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "War Ring",
@@ -71,8 +65,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Idol",
@@ -81,8 +74,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Scepter",
@@ -91,8 +83,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Lucerne Hammer",
@@ -101,8 +92,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Composite Bow",
@@ -111,8 +101,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Claymore",
@@ -121,8 +110,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Kukri",
@@ -131,8 +119,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       }
     ]
   }

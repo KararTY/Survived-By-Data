@@ -5,7 +5,6 @@
     "description": "The survivors can't afford to be picky with their weapons, leading them to rely on gear that would normally be declared defective.",
     "price": 15,
     "sellPrice": 8,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -99,12 +98,6 @@
       "Harbinger"
     ],
     "bonusDismantleLoot": "DismantleStandardT1",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

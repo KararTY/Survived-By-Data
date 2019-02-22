@@ -5,7 +5,6 @@
     "description": "When used at the summit of the Cinder Valley's great ziggurat it will release the entity known as Sin.",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 0,
@@ -113,8 +112,6 @@
       "account": true,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

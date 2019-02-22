@@ -2,10 +2,6 @@
   {
     "name": "Bramble Tree",
     "alias": "monster_bramble_tree2_quest",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -100,10 +96,6 @@
   {
     "name": "Bramble Tree",
     "alias": "monster_bramble_tree1_quest",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {

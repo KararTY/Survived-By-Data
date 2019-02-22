@@ -5,7 +5,6 @@
     "description": "The World Tree recoils at the touch of this weapon as if the touch of it is evoking nightmares best forgotten.",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -123,12 +122,6 @@
     "class": [
       "Geomancer"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

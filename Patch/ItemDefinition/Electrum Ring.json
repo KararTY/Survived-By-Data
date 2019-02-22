@@ -3,9 +3,9 @@
     "name": "Electrum Ring",
     "alias": "Ring T8",
     "description": "The rings of Electrum worn by the Witnesses represented their vow to the Great/Terrible Mother",
+    "premiumOffer": "T8Ring",
     "price": 500000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Ring",
     "maxStack": 1,
@@ -107,12 +107,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT8",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

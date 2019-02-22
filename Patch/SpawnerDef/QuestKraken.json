@@ -7,13 +7,10 @@
       "max": 0
     },
     "spawnRadius": 0,
-    "spawnDelayed": false,
     "quotaRadius": 30,
     "rechargeTime": 0,
     "isBoss": true,
-    "autoPopulate": false,
     "manuallyPlaced": true,
-    "floraOrFaunaSpawner": false,
     "spawnList": [
       {
         "monsterName": "Water Fury",
@@ -23,7 +20,6 @@
         "timeOfDay": "All"
       }
     ],
-    "oneTimeTrigger": false,
     "areaMax": 0,
     "areaRadius": 0
   }

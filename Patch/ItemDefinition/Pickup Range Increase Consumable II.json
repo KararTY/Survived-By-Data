@@ -3,9 +3,35 @@
     "name": "Pickup Range Increase Consumable II",
     "alias": "Consumable Pickup Range Increase 2",
     "description": "Doubles pickup range for 12 hours for all characters. This benefit does not end on death.",
+    "premiumOffer": "ConsumablePickupRange2",
     "price": 1,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Pickup Range Buff",
+      "alias": "Consumable Pickup Range Buff 2",
+      "floatingText": "PICKUP RANGE INCREASED",
+      "type": "Normal",
+      "duration": 43200,
+      "stats": [
+        {
+          "key": "PickupRadiusExpansion",
+          "equation": "[PickupRadiusExpansion]+2",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 10,
@@ -48,15 +74,10 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "coolDown": 0.5,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

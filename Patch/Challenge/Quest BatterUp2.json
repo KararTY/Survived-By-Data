@@ -5,10 +5,10 @@
     "description": "Ring 3 Bells and Defend Miners",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "Batterup_Miner",
+    "challengeTarget": {
+      "name": "Batterup_Miner"
+    },
     "challengeValue": 3,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest BatterUp2"
           }
         }
+      },
+      {
+        "questText": "I doubt the chimeric menace is fully gone, so might I ask you to protect some of these men and women as they do their work? Ring a monastery bell to summon a miner. Defend the miner for 2 minutes. Do this three times.",
+        "completeText": "I am glad you were there to help them my friend. This war has already taken too many lives."
       }
     ]
   }

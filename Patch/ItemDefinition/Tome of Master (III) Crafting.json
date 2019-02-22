@@ -5,7 +5,6 @@
     "description": "Contains the techniques by which Master (II) gear can be refined into Master (III) gear.",
     "price": 50000,
     "sellPrice": 10000,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -46,16 +45,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
-    "modifierChance": 0.05
+    "modifierChance": 0.05,
+    "doesNotCountTowardMax": true
   }
 ]

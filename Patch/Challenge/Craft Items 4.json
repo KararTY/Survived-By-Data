@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Items_Crafted",
     "challengeValue": 1500,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Craft Items (III)",

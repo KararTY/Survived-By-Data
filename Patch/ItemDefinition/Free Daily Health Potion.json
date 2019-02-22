@@ -3,9 +3,35 @@
     "name": "Free Daily Health Potion",
     "alias": "Consumable Potion Health Special",
     "description": "Free Daily Health Potion",
+    "premiumOffer": "freePotionHealth",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Potion Health",
+      "type": "Permanent",
+      "duration": 0,
+      "stats": [
+        {
+          "key": "Health",
+          "equation": "[Health]+40+([Player.Level]*8)",
+          "value": 121.23
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "characterEffectPrefab": {
+        "name": "ce Health Potion"
+      },
+      "doesNotStackWithSelf": true,
+      "trackedForChallenge": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 10,
@@ -48,15 +74,10 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "coolDown": 0.5,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

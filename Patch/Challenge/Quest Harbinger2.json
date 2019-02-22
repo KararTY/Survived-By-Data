@@ -5,10 +5,10 @@
     "description": "Find 7 Hidden Caches",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "HarbingerQuest_Cache",
+    "challengeTarget": {
+      "name": "HarbingerQuest_Cache"
+    },
     "challengeValue": 7,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Harbinger2"
           }
         }
+      },
+      {
+        "questText": "The people of the Borderlands were stubborn, and many waited until the last minute to flee, forcing them to leave a lot of valuable food and medicine behind. We need those supplies. Find 7 of the hidden caches.",
+        "completeText": "Excellent work. Some of the resources you recovered are extremely hard to get our hands on near the Tower."
       }
     ]
   }

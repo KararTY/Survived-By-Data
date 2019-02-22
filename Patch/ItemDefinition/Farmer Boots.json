@@ -5,7 +5,6 @@
     "description": "Effective and functional footwear worn by those that had little need for the extra protection offered by sabatons.",
     "price": 30,
     "sellPrice": 20,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Boots",
     "maxStack": 1,
@@ -95,12 +94,6 @@
       "Infiltrator"
     ],
     "bonusDismantleLoot": "DismantleStandardT2",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

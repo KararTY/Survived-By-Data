@@ -20,8 +20,6 @@ boss_hydra={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -35,8 +33,6 @@ boss_hydra={{Enemy
     {{!}} '''boss hydra projectile2''' {{!!}} <center>{{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=82|cHeight=43|oBottom=777|oLeft=36}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -69,8 +65,6 @@ boss_hydra_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -84,8 +78,6 @@ boss_hydra_world={{Enemy
     {{!}} '''boss hydra projectile2''' {{!!}} <center>{{CSS image crop|Image=boss_hydra.png|bSize=512|cWidth=82|cHeight=43|oBottom=777|oLeft=36}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

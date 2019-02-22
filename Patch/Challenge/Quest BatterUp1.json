@@ -5,10 +5,10 @@
     "description": "Free 6 Captives",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "Batnapped_NPC",
+    "challengeTarget": {
+      "name": "Batnapped_NPC"
+    },
     "challengeValue": 6,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest BatterUp1"
           }
         }
+      },
+      {
+        "questText": "I work with a small crew of geomancers searching for rare crafting materials, but bat chimera have taken some of the members of the expedition. Please seek them out and free their captives.",
+        "completeText": "Those are good men and women that you saved. Thank you."
       }
     ]
   }

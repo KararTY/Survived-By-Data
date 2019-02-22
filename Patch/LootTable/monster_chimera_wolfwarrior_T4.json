@@ -59,8 +59,7 @@
           "faces": 1,
           "add": 1
         },
-        "chance": 0.07,
-        "allowModifiers": false
+        "chance": 0.07
       }
     ],
     "questLootTable": {

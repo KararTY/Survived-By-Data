@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Beasts",
     "challengeValue": 1500,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Kill Beasts (II)",

@@ -5,7 +5,6 @@
     "description": "Though the Infiltrator needs little encouragement to feel at home in the shadows, these weapons become almost a natural extension of their limbs when untouched by the light of day.",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -123,12 +122,6 @@
     "class": [
       "Infiltrator"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

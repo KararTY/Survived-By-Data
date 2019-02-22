@@ -5,7 +5,6 @@
     "description": "Valr is the essence of those that have been slain on the battlefield and is what empowers the scions of a bloodline.",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 0,
@@ -49,11 +48,8 @@
       "Druid"
     ],
     "bound": {
-      "account": true,
-      "soul": false
+      "account": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75

@@ -3,11 +3,12 @@
     "name": "Grave of the Deep Night",
     "alias": "Grave - Deep Night 1",
     "description": "Description of Grave of Deep Night",
+    "premiumOffer": "UnlockGravestoneDeepNight1",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 0,
     "tier": 0,
     "data": [
@@ -56,13 +57,9 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
@@ -72,11 +69,12 @@
     "name": "Grave of the Deep Night",
     "alias": "Grave - Deep Night 2",
     "description": "Description of Grave of Deep Night",
+    "premiumOffer": "UnlockGravestoneDeepNight2",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 0,
     "tier": 0,
     "data": [
@@ -125,13 +123,9 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
@@ -141,11 +135,12 @@
     "name": "Grave of the Deep Night",
     "alias": "Grave - Deep Night 3",
     "description": "Description of Grave of Deep Night",
+    "premiumOffer": "UnlockGravestoneDeepNight3",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 0,
     "tier": 0,
     "data": [
@@ -194,13 +189,9 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",

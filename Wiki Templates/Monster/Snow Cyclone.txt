@@ -17,8 +17,6 @@ WinterHoliday Pet1 T1={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -55,8 +53,6 @@ WinterHoliday Pet1 T2={{Enemy
     {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -95,8 +91,6 @@ WinterHoliday Pet1 T3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -133,8 +127,6 @@ WinterHoliday Pet1 T4={{Enemy
     {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -173,8 +165,6 @@ WinterHoliday Pet1 T5={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -211,8 +201,6 @@ WinterHoliday Pet1 T6={{Enemy
     {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -251,8 +239,6 @@ WinterHoliday Pet1 T7={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -289,8 +275,6 @@ WinterHoliday Pet1 T8={{Enemy
     {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -329,8 +313,6 @@ WinterHoliday Pet1 T9={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -367,8 +349,6 @@ WinterHoliday Pet1 T10={{Enemy
     {{!}} '''WinterHoliday cyclone projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_cyclone_snow.png|bSize=192|cWidth=16|cHeight=29|oBottom=105|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

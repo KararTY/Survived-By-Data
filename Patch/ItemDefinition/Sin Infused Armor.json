@@ -5,7 +5,6 @@
     "description": "Embedding even a single Sin Barb into leather armor empowers it and infuses it with Umbral energy.",
     "price": 50,
     "sellPrice": 12,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -98,12 +97,6 @@
       "Harbinger",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

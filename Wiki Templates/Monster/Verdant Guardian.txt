@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -32,8 +30,6 @@
     {{!}} '''spirit golem forest projectile blast''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_forest.png|bSize=384|cWidth=22|cHeight=25|oBottom=108|oLeft=349}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

@@ -5,7 +5,6 @@
     "description": "The plate armor worn by those that once inhabited the place now known as the Maw of the Destroyer seems frustratingly incomplete, like there were parts of the body they felt no need to protect.",
     "price": 7000,
     "sellPrice": 70,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -99,12 +98,6 @@
       "Geomancer"
     ],
     "bonusDismantleLoot": "DismantleStandardT3",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

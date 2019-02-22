@@ -11,9 +11,7 @@
     "quotaRadius": 4,
     "rechargeTime": 0,
     "isBoss": true,
-    "autoPopulate": false,
     "manuallyPlaced": true,
-    "floraOrFaunaSpawner": false,
     "spawnList": [
       {
         "monsterName": "Core Ooze",
@@ -23,7 +21,6 @@
         "timeOfDay": "All"
       }
     ],
-    "oneTimeTrigger": false,
     "areaMax": 20,
     "areaRadius": 100
   }

@@ -11,7 +11,6 @@
           "description": "Every second not spent attacking increases Crit Score by #%. This bonus is reset to 0 after attacking\r",
           "counterMax": 10,
           "timerValue": 1,
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "TimerPassed",
@@ -146,7 +145,6 @@
           "description": "Every second not spent attacking increases Crit Score by #%. This bonus is reset to 0 after attacking\r",
           "counterMax": 10,
           "timerValue": 1,
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "TimerPassed",
@@ -281,7 +279,6 @@
           "description": "Every second not spent attacking increases Crit Score by #%. This bonus is reset to 0 after attacking\r",
           "counterMax": 10,
           "timerValue": 1,
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "TimerPassed",

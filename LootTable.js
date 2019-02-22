@@ -56,15 +56,22 @@ function QBHKKMLLCNDKQ(playerStatistics, QPBDLPNEKMIPQ, QCCAGILOFBGPQ) {
     for (let ii = 0; ii < list2.length; ii++) {
       let lootEntry2 = list2[ii]
       debug(`(QBHKKMLLCNDKQ - second loop) [num2 < lootEntry2.chance] = ${num2 < lootEntry2.chance}`)
-      if (num2 < lootEntry2.chance) {
-        list.push(lootEntry2)
-        break;
+      if (!QHOJPHIOPILFQ(list2.item)) {
+        if (num2 < lootEntry2.chance) {
+          list.push(lootEntry2)
+          break;
+        }
+        num2 -= lootEntry2.chance
+        debug(`(QBHKKMLLCNDKQ - second loop) [num2 -= lootEntry2.chance] = ${num2}`)
       }
-      num2 -= lootEntry2.chance
-      debug(`(QBHKKMLLCNDKQ - second loop) [num2 -= lootEntry2.chance] = ${num2}`)
     }
   }
   return list
+}
+
+// I have no idea what this does, yet.
+function QHOJPHIOPILFQ (itemDefinition) {
+	return true
 }
 
 function QIOCAMEAGKBFQ(playerStatistics, QCCAGILOFBGPQ) {
@@ -122,6 +129,20 @@ function QEKOGELIAFKOQ(add, dice, faces) {
   }
   debug(`(QEKOGELIAFKOQ) [return num] = ${num}`)
   return num
+}
+
+// Used by UI for bounties and "quest chains".
+function CalculateMaxReward () {
+  let num = 0
+  let lootTable = GetLootTable(1.0)
+  lootTable.forEach(lootEntry => {
+    // QAKIFCLCEEKMQ is a private boolean inside of ItemDefinition, I can't find it anywhere however.
+    //if (lootEntry.item.QAKIFCLCEEKMQ === QKDKDLGICJHOQ) {
+			num += lootEntry.count.add
+			num += lootEntry.count.dice * lootEntry.count.faces
+		//}
+  })
+	return num;
 }
 
 try {

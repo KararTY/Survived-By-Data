@@ -5,7 +5,32 @@
     "description": "[description]",
     "price": 10,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Damage Bonus Debuff",
+      "alias": "DamageBonus Debuff T1",
+      "type": "Normal",
+      "duration": 15,
+      "stats": [
+        {
+          "key": "DamageBonus",
+          "equation": "[DamageBonus]-1",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "characterEffectPrefab": {
+        "name": "ce Generic Debuff"
+      },
+      "doesNotStackWithSelf": true,
+      "trackedForChallenge": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 1,
@@ -55,12 +80,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75

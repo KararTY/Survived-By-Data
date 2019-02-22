@@ -3,9 +3,9 @@
     "name": "Upgrade Crafting Station To Tier 12",
     "alias": "CraftUnlock11",
     "description": "Upgrade Crafting Station To Tier 12",
+    "premiumOffer": "craftUnlock11",
     "price": 100,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -40,16 +40,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
-    "modifierChance": 0.05
+    "modifierChance": 0.05,
+    "doesNotCountTowardMax": true
   }
 ]

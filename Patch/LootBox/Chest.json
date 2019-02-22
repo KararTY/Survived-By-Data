@@ -1,7 +1,6 @@
 [
   {
     "name": "Chest",
-    "lootTable": "LootBoxTutorial",
-    "containBloodStone": false
+    "lootTable": "LootBoxTutorial"
   }
 ]

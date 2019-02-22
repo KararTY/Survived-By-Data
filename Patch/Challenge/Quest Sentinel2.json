@@ -5,10 +5,10 @@
     "description": "Place Flowers on 12 Graves",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "Grave_NPC",
+    "challengeTarget": {
+      "name": "Grave_NPC"
+    },
     "challengeValue": 12,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Sentinel2"
           }
         }
+      },
+      {
+        "questText": "With the winter blooms collected, you should now lay them upon the graves of the great heroes of the order. All of the graves are in the Talon Mountains. Lay blooms at each tomb in the Talon Mountains.",
+        "completeText": "No, the desecration you encountered is not part of the ordeal. This is a troubling turn of events."
       }
     ]
   }

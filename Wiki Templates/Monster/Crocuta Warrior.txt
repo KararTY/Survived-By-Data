@@ -17,8 +17,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -31,8 +29,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +40,6 @@
     {{!}} '''chimera hyenawarrior projectile3''' {{!!}} <center>{{CSS image crop|Image=chimera_hyenawarrior.png|bSize=256|cWidth=19|cHeight=37|oBottom=68|oLeft=65}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

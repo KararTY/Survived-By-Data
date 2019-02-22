@@ -19,8 +19,6 @@ monster_lavalizard_volcano={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -32,8 +30,6 @@ monster_lavalizard_volcano={{Enemy
     {{!}} '''lavalizard projectile2''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -64,8 +60,6 @@ monster_lavalizard_volcano_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -77,8 +71,6 @@ monster_lavalizard_volcano_dangerous={{Enemy
     {{!}} '''lavalizard projectile2''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

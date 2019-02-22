@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Pursuit",
+            "alias": "Pursuit Buff",
             "type": "Normal",
             "duration": 10,
             "stats": [
@@ -31,21 +32,13 @@
             "characterEffectPrefab": {
               "name": "ce Speed Boost"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
             "coolDownTime": 30,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "KilledEnemy",
@@ -145,6 +138,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Pursuit",
+            "alias": "Pursuit Buff",
             "type": "Normal",
             "duration": 10,
             "stats": [
@@ -163,21 +157,13 @@
             "characterEffectPrefab": {
               "name": "ce Speed Boost"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
             "coolDownTime": 30,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "KilledEnemy",
@@ -277,6 +263,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Pursuit",
+            "alias": "Pursuit Buff",
             "type": "Normal",
             "duration": 10,
             "stats": [
@@ -295,21 +282,13 @@
             "characterEffectPrefab": {
               "name": "ce Speed Boost"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
             "coolDownTime": 30,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "KilledEnemy",

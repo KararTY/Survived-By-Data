@@ -19,8 +19,6 @@ monster_ashaga_elite_minion={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -49,8 +47,6 @@ monster_ashaga_elite={{Enemy
     {{!}} '''ashaga flying projectile1''' {{!!}} <center>{{CSS image crop|Image=Ashaga_01.png|bSize=128|cWidth=7|cHeight=19|oBottom=41|oLeft=44}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

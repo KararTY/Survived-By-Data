@@ -2,10 +2,6 @@
   {
     "name": "Cauldron",
     "alias": "monster_cauldron",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {

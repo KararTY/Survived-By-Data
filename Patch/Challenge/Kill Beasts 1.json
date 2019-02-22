@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Beasts",
     "challengeValue": 20,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {

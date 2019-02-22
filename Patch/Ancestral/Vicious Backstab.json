@@ -26,21 +26,12 @@
             "characterEffectPrefab": {
               "name": "ce poison 0"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
             "doNotRefresh": true,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SpecialWeaponHit",
@@ -173,21 +164,12 @@
             "characterEffectPrefab": {
               "name": "ce poison 0"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
             "doNotRefresh": true,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SpecialWeaponHit",
@@ -320,21 +302,12 @@
             "characterEffectPrefab": {
               "name": "ce poison 0"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
             "doNotRefresh": true,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SpecialWeaponHit",

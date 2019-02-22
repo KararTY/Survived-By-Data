@@ -7,13 +7,8 @@
       "max": 0.75
     },
     "spawnRadius": 16,
-    "spawnDelayed": false,
     "quotaRadius": 30,
     "rechargeTime": 0,
-    "isBoss": false,
-    "autoPopulate": false,
-    "manuallyPlaced": false,
-    "floraOrFaunaSpawner": false,
     "spawnList": [
       {
         "monsterName": "Void Collector",
@@ -23,7 +18,6 @@
         "timeOfDay": "All"
       }
     ],
-    "oneTimeTrigger": false,
     "areaMax": 0,
     "areaRadius": 0
   }

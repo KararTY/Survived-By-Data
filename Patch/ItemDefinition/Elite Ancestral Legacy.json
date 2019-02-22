@@ -3,9 +3,9 @@
     "name": "Elite Ancestral Legacy",
     "alias": "Card Pack Elite [Electrum]",
     "description": "One Ancestral Legacy with a rarity of Rare or Legendary",
+    "premiumOffer": "CardPackEliteElectrum",
     "price": 1400,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "None",
     "maxStack": 99,
@@ -43,25 +43,22 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Platinum",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Elite Ancestral Legacy",
     "alias": "Card Pack Elite",
     "description": "One Ancestral Legacy with a rarity of Rare or Legendary",
+    "premiumOffer": "CardPackElite",
     "price": 14000,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "None",
     "maxStack": 99,
@@ -99,16 +96,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Fame",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

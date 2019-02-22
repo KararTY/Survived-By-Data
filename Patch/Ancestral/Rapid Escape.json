@@ -31,21 +31,13 @@
             "characterEffectPrefab": {
               "name": "ce Speed Boost"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
             "doNotRefresh": true,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityDeactivate",
@@ -177,21 +169,13 @@
             "characterEffectPrefab": {
               "name": "ce Speed Boost"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
             "doNotRefresh": true,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityDeactivate",
@@ -323,21 +307,13 @@
             "characterEffectPrefab": {
               "name": "ce Speed Boost"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
             "doNotRefresh": true,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityDeactivate",

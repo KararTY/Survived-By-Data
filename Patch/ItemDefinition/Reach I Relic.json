@@ -3,6 +3,7 @@
     "name": "Reach I Relic",
     "alias": "Relic Common Pickup Range 1",
     "description": "This relic increases the pick up radius by 15%. This bonus is cumulative with other Reach Relics.",
+    "premiumOffer": "RelicPickupRange1",
     "price": 3,
     "sellPrice": 0,
     "consumable": true,
@@ -60,12 +61,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Crystal",

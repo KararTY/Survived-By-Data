@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Fractal Obsidian",
+            "alias": "Fractal Obsidian Damage",
             "type": "ImmediateDamage",
             "duration": 3,
             "stats": [
@@ -26,21 +27,13 @@
             "characterEffectPrefab": {
               "name": "ce Permanent Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
             "coolDownTime": 3,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SpecialWeaponHit",
@@ -160,6 +153,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Fractal Obsidian",
+            "alias": "Fractal Obsidian Damage",
             "type": "ImmediateDamage",
             "duration": 3,
             "stats": [
@@ -173,21 +167,13 @@
             "characterEffectPrefab": {
               "name": "ce Permanent Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
             "coolDownTime": 3,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SpecialWeaponHit",
@@ -307,6 +293,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Fractal Obsidian",
+            "alias": "Fractal Obsidian Damage",
             "type": "ImmediateDamage",
             "duration": 3,
             "stats": [
@@ -320,21 +307,13 @@
             "characterEffectPrefab": {
               "name": "ce Permanent Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
             "coolDownTime": 3,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SpecialWeaponHit",

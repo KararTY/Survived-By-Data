@@ -5,9 +5,18 @@
     "description": "Without the bow these weapons don't have the same kick, but on the plus side you don't need to carry a bow.",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "Special Throwing Spear",
+      "markPrefab": {
+        "alias": "HunterMark"
+      },
+      "projectileIndex": 13,
+      "autoTarget": true,
+      "range": 10,
+      "maxTargets": 5
+    },
     "maxStack": 0,
     "tier": 1,
     "data": [
@@ -60,12 +69,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

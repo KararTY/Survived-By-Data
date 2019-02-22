@@ -1,9 +1,6 @@
 [
   {
     "name": "boss_director_right_target",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
     "isSetPieceMonster": true,
     "weapons": [],
     "data": [

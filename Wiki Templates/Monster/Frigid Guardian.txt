@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -32,8 +30,6 @@
     {{!}} '''spirit golem snow projectile blast''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_snow.png|bSize=384|cWidth=25|cHeight=28|oBottom=156|oLeft=299}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

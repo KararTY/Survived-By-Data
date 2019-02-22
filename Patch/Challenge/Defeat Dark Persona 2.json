@@ -7,7 +7,6 @@
     "challenge": "DeepNight_Kill_Dark_Persona",
     "challengeValue": 10,
     "achievement": true,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {

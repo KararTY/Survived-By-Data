@@ -2,10 +2,6 @@
   {
     "name": "Venus Trap",
     "alias": "boss_elementalspirit_venus_seed",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "plant_venus_projectile",
@@ -39,27 +35,23 @@
             "projectile": {
               "name": "plant_venus_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 12,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Paralyzed",
+                "alias": "MovementSpeed Debuff T15",
                 "type": "Normal",
                 "duration": 2,
                 "stats": [
@@ -78,17 +70,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -196,10 +179,6 @@
   {
     "name": "Venus Trap",
     "alias": "boss_elementalspirit_venus",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "plant_venus_projectile",
@@ -233,27 +212,23 @@
             "projectile": {
               "name": "plant_venus_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 12,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Paralyzed",
+                "alias": "MovementSpeed Debuff T15",
                 "type": "Normal",
                 "duration": 2,
                 "stats": [
@@ -272,17 +247,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -384,9 +350,6 @@
     "name": "Venus Trap",
     "alias": "plant_venus",
     "description": "Description for Venus Trap",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "plant_venus_projectile",
@@ -420,27 +383,23 @@
             "projectile": {
               "name": "plant_venus_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 12,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Paralyzed",
+                "alias": "MovementSpeed Debuff T15",
                 "type": "Normal",
                 "duration": 2,
                 "stats": [
@@ -459,17 +418,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },

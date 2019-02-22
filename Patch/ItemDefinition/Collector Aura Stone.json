@@ -3,9 +3,39 @@
     "name": "Collector Aura Stone",
     "alias": "Consumable Lesser Collector Stone",
     "description": "Once activated, for three hours this stone provides an increase in drop rates and pickup distance of 30%. This benefit ends on death.",
+    "premiumOffer": "ConsumablePickupRangeLesser",
     "price": 20,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Collector Buff",
+      "alias": "Consumable Lesser Collector Buff",
+      "floatingText": "COLLECTOR BUFF",
+      "type": "Normal",
+      "duration": 10800,
+      "stats": [
+        {
+          "key": "PickupRadiusExpansion",
+          "equation": "[PickupRadiusExpansion]+0.75",
+          "value": 0
+        },
+        {
+          "key": "DropRateIncrease",
+          "equation": "[DropRateIncrease]+0.3",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 10,
@@ -48,12 +78,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Crystal",

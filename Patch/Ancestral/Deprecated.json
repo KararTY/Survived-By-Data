@@ -2,6 +2,7 @@
   {
     "name": "DEPRECATED",
     "alias": "Berserker 2",
+    "description": "This AL has been DEPRECATED and no longer provides a benefit.",
     "doNotAward": false,
     "data": [],
     "validClasses": [
@@ -119,6 +120,7 @@
   {
     "name": "DEPRECATED",
     "alias": "Berserker 3",
+    "description": "This AL has been DEPRECATED and no longer provides a benefit.",
     "doNotAward": false,
     "data": [],
     "validClasses": [
@@ -236,6 +238,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Affinity for the Winds",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -245,6 +248,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Attuned",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -254,6 +258,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Binding Immunity",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -263,6 +268,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Bountiful Consumables",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [
@@ -279,6 +285,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Bountiful Elixers",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [
@@ -295,6 +302,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Bountiful Essence",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [
@@ -311,6 +319,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Consumable Journeyman",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -320,6 +329,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Consumable Scavenger",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -329,6 +339,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Efficient Elixers",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -338,6 +349,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Efficient Essence",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -347,6 +359,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Equipment Journeyman",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -356,6 +369,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Equipment Scavenger",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -365,6 +379,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Favors of Chance",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -374,6 +389,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Favors of Victory",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -383,6 +399,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Final Breath",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -392,6 +409,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Flame Immunity",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -401,6 +419,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Honing the Blade",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -410,6 +429,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Honing the Body",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -419,6 +439,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Honing the Legend",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -428,6 +449,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Immunity",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -437,6 +459,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Journeyman",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -446,6 +469,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Key Scavenger",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -455,6 +479,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Legendary Legacy",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -464,6 +489,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Legendary",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -473,6 +499,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Legends of Victory",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -482,6 +509,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Legends of the End",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -491,6 +519,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Long Shot",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -500,6 +529,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Masterwork",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -509,6 +539,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Material Scavenger",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -518,6 +549,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Poison Immunity",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -527,6 +559,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Rally 1",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": true,
     "data": [
       {
@@ -536,7 +569,7 @@
           "counterMax": 0,
           "timerValue": 0,
           "statusEffect": {
-            "name": "",
+            "name": "Rally Buff",
             "type": "Permanent",
             "duration": 0,
             "stats": [
@@ -555,21 +588,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "KilledEnemy",
@@ -588,6 +612,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Rally 2",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": true,
     "data": [
       {
@@ -597,7 +622,7 @@
           "counterMax": 0,
           "timerValue": 0,
           "statusEffect": {
-            "name": "",
+            "name": "Rally Buff",
             "type": "Permanent",
             "duration": 0,
             "stats": [
@@ -616,21 +641,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "KilledEnemy",
@@ -649,6 +665,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Rally 3",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": true,
     "data": [
       {
@@ -658,7 +675,7 @@
           "counterMax": 0,
           "timerValue": 0,
           "statusEffect": {
-            "name": "",
+            "name": "Rally Buff",
             "type": "Permanent",
             "duration": 0,
             "stats": [
@@ -677,21 +694,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "KilledEnemy",
@@ -710,6 +718,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Rare Legacy",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -719,6 +728,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Reach",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -728,6 +738,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Recovery Capacity",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -737,6 +748,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Regeneration Capacity",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -746,6 +758,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Scavenger",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -755,6 +768,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Silver Scavenger",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -764,6 +778,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Uncommon Legacy",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": false,
     "data": [],
     "validClasses": [],
@@ -773,6 +788,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Vampiric 1",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": true,
     "data": [
       {
@@ -782,7 +798,7 @@
           "counterMax": 0,
           "timerValue": 0,
           "statusEffect": {
-            "name": "",
+            "name": "Vampiric Buff",
             "type": "Permanent",
             "duration": 0,
             "stats": [
@@ -801,21 +817,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "DamageDealt",
@@ -834,6 +841,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Vampiric 2",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": true,
     "data": [
       {
@@ -843,7 +851,7 @@
           "counterMax": 0,
           "timerValue": 0,
           "statusEffect": {
-            "name": "",
+            "name": "Vampiric Buff",
             "type": "Permanent",
             "duration": 0,
             "stats": [
@@ -862,21 +870,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "DamageDealt",
@@ -895,6 +894,7 @@
   {
     "name": "<Deprecated>",
     "alias": "Vampiric 3",
+    "description": "<Consume for Valr. Provides no other benefit.>",
     "doNotAward": true,
     "data": [
       {
@@ -904,7 +904,7 @@
           "counterMax": 0,
           "timerValue": 0,
           "statusEffect": {
-            "name": "",
+            "name": "Vampiric Buff",
             "type": "Permanent",
             "duration": 0,
             "stats": [
@@ -923,21 +923,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "DamageDealt",

@@ -17,8 +17,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -32,8 +30,6 @@
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-

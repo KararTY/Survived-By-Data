@@ -3,11 +3,12 @@
     "name": "More Vault Space",
     "alias": "MoreVaultSpaceBloodstone",
     "description": "More Vault Space",
+    "premiumOffer": "MoreVaultSpaceBloodstone",
     "price": 50,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 1,
     "tier": 0,
     "data": [
@@ -40,27 +41,25 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "More Vault Space",
     "alias": "BonusVaultSpace ",
     "description": "More Vault Space",
+    "premiumOffer": "BonusVaultSpace",
     "price": 500,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 1,
     "tier": 0,
     "data": [
@@ -93,27 +92,25 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "More Vault Space",
     "alias": "MoreVaultSpace",
     "description": "Increases the size of your vault by 10. Can be purchased up to 9 times.",
+    "premiumOffer": "MoreVaultSpace",
     "price": 500,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 1,
     "tier": 0,
     "data": [
@@ -146,16 +143,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

@@ -18,8 +18,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -45,8 +43,6 @@
     {{!}} '''scorpion lava projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=38|cHeight=18|oBottom=124|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

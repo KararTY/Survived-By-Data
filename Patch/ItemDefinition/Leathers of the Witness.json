@@ -3,9 +3,9 @@
     "name": "Leathers of the Witness",
     "alias": "Armor Medium T8",
     "description": "The leathers worn by the Witnesses contained subtle inscriptions sewn in Electrum thread that would turn away the gaze of the Wardens.",
+    "premiumOffer": "T8ArmorMedium",
     "price": 500000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Armor",
     "maxStack": 1,
@@ -98,12 +98,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT8",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

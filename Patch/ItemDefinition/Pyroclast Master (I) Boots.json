@@ -5,7 +5,6 @@
     "description": "Reforging a fully empowered Boots of the Antecedent with the Pyroclast of a powerful Infernal infuses the boots with unmatched destructive potential.",
     "price": 3000000,
     "sellPrice": 30000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Boots",
     "maxStack": 1,
@@ -116,12 +115,6 @@
       "Infiltrator"
     ],
     "bonusDismantleLoot": "DismantleStandardT10",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

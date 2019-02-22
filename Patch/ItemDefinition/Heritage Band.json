@@ -5,7 +5,6 @@
     "description": "Passed down from parent to child through the generations, this ring holds the power of a simple family that worked the land.",
     "price": 30,
     "sellPrice": 20,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Ring",
     "maxStack": 1,
@@ -103,12 +102,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT2",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

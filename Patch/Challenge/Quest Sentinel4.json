@@ -5,10 +5,10 @@
     "description": "Kill the Wolf Lord",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_wolf_lord",
+    "challengeTarget": {
+      "name": "monster_wolf_lord"
+    },
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Sentinel4"
           }
         }
+      },
+      {
+        "questText": "The Wolf Lord has taken the sword! Visit his den, take him down and recover the Lord Commander's sword.",
+        "completeText": "The old Lord Commander died without an heir, which is why this sword rests with him. Recovering his legacy from the bestial chimera is a gift we can never repay."
       }
     ]
   }

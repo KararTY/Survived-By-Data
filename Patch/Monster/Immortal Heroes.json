@@ -2,10 +2,7 @@
   {
     "name": "Immortal Heroes",
     "alias": "boss_undying_master_world",
-    "description": "",
     "isBoss": true,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -60,10 +57,7 @@
   {
     "name": "Immortal Heroes",
     "alias": "boss_undying_master",
-    "description": "",
     "isBoss": true,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {

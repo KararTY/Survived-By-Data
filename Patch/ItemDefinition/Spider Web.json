@@ -2,10 +2,10 @@
   {
     "name": "Spider Web",
     "alias": "it Attachment Spider Web",
-    "description": "",
+    "description": "string33029",
+    "premiumOffer": "UnlockAttachmentOverheadSpiderWeb",
     "price": 750,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -43,13 +43,10 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
       "account": true,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",

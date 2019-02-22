@@ -18,8 +18,6 @@ monster_chimera_lionwarrior={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 15
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -47,8 +45,6 @@ invasion_T3_lionwarrior={{Enemy
     {{!}} '''chimera lionwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lionwarrior.png|bSize=256|cWidth=11|cHeight=46|oBottom=73|oLeft=74}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

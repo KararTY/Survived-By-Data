@@ -5,10 +5,10 @@
     "description": "Defeat the Rat King",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_RatBoss_quest",
+    "challengeTarget": {
+      "name": "monster_RatBoss_quest"
+    },
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Harbinger4"
           }
         }
+      },
+      {
+        "questText": "Tracking the nest of these rat chimera has been tricky, but we might have a lead. Seems a lot of these rats are coming from the abandoned lodge. Please take a look and clear it out if there's an infestation.",
+        "completeText": "Your victory is a relief, but hearing that there is yet another greater chimera general out there is troubling."
       }
     ]
   }

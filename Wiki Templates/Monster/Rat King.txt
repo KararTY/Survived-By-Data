@@ -17,8 +17,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.1
     {{!}}-
     {{!}} Range {{!!}} 8
@@ -32,8 +30,6 @@
     {{!}} '''rat king splat''' {{!!}} <center>{{CSS image crop|Image=Boss_Rat Monster Poison Puddle.png|bSize=64|cWidth=64|cHeight=47|oBottom=8|oLeft=0}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

@@ -15,8 +15,6 @@ tutorial_monster_chimera_hyena={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +42,6 @@ monster_chimera_hyena={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -58,8 +54,6 @@ monster_chimera_hyena={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -71,8 +65,6 @@ monster_chimera_hyena={{Enemy
     {{!}} '''chimera hyenaferal projectile3''' {{!!}} <center>{{CSS image crop|Image=chimera_hyena.png|bSize=192|cWidth=11|cHeight=33|oBottom=55|oLeft=54}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

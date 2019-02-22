@@ -11,8 +11,7 @@
           "faces": 2,
           "add": 1
         },
-        "chance": 33,
-        "allowModifiers": false
+        "chance": 33
       },
       {
         "item": "Composite Obsidian Sign",
@@ -21,8 +20,7 @@
           "faces": 2,
           "add": 1
         },
-        "chance": 33,
-        "allowModifiers": false
+        "chance": 33
       },
       {
         "item": "Composite Timber Sign",
@@ -31,8 +29,7 @@
           "faces": 2,
           "add": 1
         },
-        "chance": 33,
-        "allowModifiers": false
+        "chance": 33
       }
     ]
   }

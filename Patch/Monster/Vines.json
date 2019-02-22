@@ -2,10 +2,6 @@
   {
     "name": "Vines",
     "alias": "boss_elementalspirit_armor3_seed",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -100,10 +96,6 @@
   {
     "name": "Vines",
     "alias": "boss_elementalspirit_armor2_seed",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -198,10 +190,6 @@
   {
     "name": "Vines",
     "alias": "boss_elementalspirit_armor",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -289,10 +277,6 @@
   {
     "name": "Vines",
     "alias": "boss_director_resin_pod_hardmode",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "stag_projectile",
@@ -301,25 +285,20 @@
             "projectile": {
               "name": "stag_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 3,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -417,10 +396,6 @@
   {
     "name": "Vines",
     "alias": "boss_elementalspirit_armor3",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -508,10 +483,6 @@
   {
     "name": "Vines",
     "alias": "boss_elementalspirit_armor2",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -599,10 +570,6 @@
   {
     "name": "Vines",
     "alias": "boss_elementalspirit_vines_seed",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "plant_vines_projectile_throw",
@@ -636,26 +603,21 @@
             "projectile": {
               "name": "plant_vines_projectile_throw",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "nextProjectileIndex": 2,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 30,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
               "useTargetForRange": true,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -698,26 +660,21 @@
             "projectile": {
               "name": "plant_vines_projectile_throw_off",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "nextProjectileIndex": 2,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 30,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
               "useTargetForRange": true,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -760,27 +717,21 @@
             "projectile": {
               "name": "plant_vines_projectile_shadow",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 3,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 0,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 0.01,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -823,27 +774,22 @@
             "projectile": {
               "name": "plant_vines_projectile_vines",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 0,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
+                "alias": "MovementSpeed Debuff T5",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -862,17 +808,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -981,9 +918,6 @@
     "name": "Vines",
     "alias": "monster_bramble_bush_quest",
     "description": "Description for Vines",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "plant_bramble_bush",
@@ -1017,25 +951,20 @@
             "projectile": {
               "name": "plant_bramble_bush",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "repeatHitTime": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 18,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 13,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.64,
                 "g": 0.44,
@@ -1140,10 +1069,6 @@
   {
     "name": "Vines",
     "alias": "boss_elementalspirit_vines",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "plant_vines_projectile_throw",
@@ -1177,26 +1102,21 @@
             "projectile": {
               "name": "plant_vines_projectile_throw",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "nextProjectileIndex": 2,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 30,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
               "useTargetForRange": true,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -1239,26 +1159,21 @@
             "projectile": {
               "name": "plant_vines_projectile_throw_off",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "nextProjectileIndex": 2,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 30,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
               "useTargetForRange": true,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -1301,27 +1216,21 @@
             "projectile": {
               "name": "plant_vines_projectile_shadow",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 3,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 0,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 0.01,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -1364,27 +1273,22 @@
             "projectile": {
               "name": "plant_vines_projectile_vines",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 0,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
+                "alias": "MovementSpeed Debuff T5",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -1403,17 +1307,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -1514,10 +1409,6 @@
   {
     "name": "Vines",
     "alias": "boss_director_resin_pod",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -1624,10 +1515,6 @@
   {
     "name": "Vines",
     "alias": "boss_elementalspirit_armor_seed",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -1723,9 +1610,6 @@
     "name": "Vines",
     "alias": "plant_vines",
     "description": "Description for Vines",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "plant_vines_projectile_throw",
@@ -1759,26 +1643,21 @@
             "projectile": {
               "name": "plant_vines_projectile_throw",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "nextProjectileIndex": 2,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 30,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
               "useTargetForRange": true,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -1821,26 +1700,21 @@
             "projectile": {
               "name": "plant_vines_projectile_throw_off",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "nextProjectileIndex": 2,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 30,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
               "useTargetForRange": true,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -1883,27 +1757,21 @@
             "projectile": {
               "name": "plant_vines_projectile_shadow",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 3,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 0,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 0.01,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 5,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0,
                 "g": 0,
@@ -1946,27 +1814,22 @@
             "projectile": {
               "name": "plant_vines_projectile_vines",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 0,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Hindered",
+                "alias": "MovementSpeed Debuff T5",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -1985,17 +1848,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },

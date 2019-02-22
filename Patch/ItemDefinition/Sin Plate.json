@@ -5,7 +5,6 @@
     "description": "More than a simple infusion, this plate is constructed using techniques that allow multiple Sin Barbs to resonate and enfold the wearing in powerful Umbra energies.",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -115,12 +114,6 @@
       "Sentinel",
       "Geomancer"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

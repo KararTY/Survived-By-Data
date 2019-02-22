@@ -19,8 +19,6 @@ plant_corpseflower={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1.5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 20
@@ -62,8 +60,6 @@ plant_corpseflower_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1.5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 20
@@ -101,8 +97,6 @@ boss_elementalspirit_corpseflower_seed={{Enemy
     {{!}} '''plant corpseflower projectile''' {{!!}} <center>{{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=32|cHeight=29|oBottom=99|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 1.5
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -142,8 +136,6 @@ boss_elementalspirit_corpseflower={{Enemy
     {{!}} '''plant corpseflower projectile''' {{!!}} <center>{{CSS image crop|Image=plant_corpseflower.png|bSize=192|cWidth=32|cHeight=29|oBottom=99|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 1.5
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

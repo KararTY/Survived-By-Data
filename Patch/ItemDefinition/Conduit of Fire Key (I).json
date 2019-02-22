@@ -3,9 +3,9 @@
     "name": "Conduit of Fire Key (I)",
     "alias": "Dungeon Key - T10 VolcanoEasy",
     "description": "Conduit of Fire Key (Easy)",
+    "premiumOffer": "keyVolcanoEasy",
     "price": 30,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -40,13 +40,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Crystal",
@@ -56,9 +49,9 @@
     "name": "Conduit of Fire Key (I)",
     "alias": "Dungeon Key - TX VolcanoPress",
     "description": "Used to gain access to the Conduit of Fire.",
+    "premiumOffer": "keyVolcanoEasy",
     "price": 30,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -93,13 +86,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Crystal",

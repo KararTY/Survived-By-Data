@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Spirits",
     "challengeValue": 250,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Kill Spirits (I)",

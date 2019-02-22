@@ -20,8 +20,6 @@ boss_heartoftheforest={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -51,8 +49,6 @@ boss_heartoftheforest_world={{Enemy
     {{!}} '''boss spirit projectile world''' {{!!}} <center>{{CSS image crop|Image=Heart of Forest Projectile.png|bSize=32|cWidth=25|cHeight=32|oBottom=0|oLeft=3}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

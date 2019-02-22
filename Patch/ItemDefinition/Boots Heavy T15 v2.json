@@ -5,7 +5,6 @@
     "description": "[deprecated]",
     "price": 530,
     "sellPrice": 265,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Boots",
     "maxStack": 1,
@@ -58,12 +57,6 @@
       "Sentinel",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75

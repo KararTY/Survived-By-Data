@@ -18,8 +18,6 @@ monster_bat_dung={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 15
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -56,8 +54,6 @@ monster_batswarm_dung={{Enemy
     {{!}} colspan="2" {{!}}'''bat projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-

@@ -3,11 +3,12 @@
     "name": "Expanded Posting License",
     "alias": "MoreAuctionSpace",
     "description": "Increases the number of listings per account per auction house by one.",
+    "premiumOffer": "MoreAuctionSpace",
     "price": 300,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 1,
     "tier": 0,
     "data": [
@@ -40,27 +41,25 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Expanded Posting License",
     "alias": "MoreAuctionSpace_Items",
     "description": "Expanded Posting License",
+    "premiumOffer": "MoreAuctionSpace_Items",
     "price": 250,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
+    "autoRedeem": true,
     "maxStack": 1,
     "tier": 0,
     "data": [
@@ -93,25 +92,22 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   },
   {
     "name": "Expanded Posting License",
     "alias": "Unlock Material Auction House 1",
     "description": "Expanded Posting License",
+    "premiumOffer": "MoreAuctionSpace_Materials",
     "price": 150,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -155,14 +151,12 @@
       "Druid"
     ],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

@@ -16,8 +16,6 @@ monster_volcano_eggsac_death={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 6
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -54,8 +52,6 @@ monster_volcano_eggsac={{Enemy
     {{!}} '''volcano eggsac projectile''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 6
     {{!}}-

@@ -18,8 +18,6 @@ monster_chimera_snowleopard={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -33,8 +31,6 @@ monster_chimera_snowleopard={{Enemy
     {{!}} '''chimera snowleopard projectile''' {{!!}} <center>{{CSS image crop|Image=druid_01.png|bSize=192|cWidth=19|cHeight=27|oBottom=97|oLeft=53}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-
@@ -66,8 +62,6 @@ invasion_T4_snowleopard={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -81,8 +75,6 @@ invasion_T4_snowleopard={{Enemy
     {{!}} '''chimera snowleopard projectile''' {{!!}} <center>{{CSS image crop|Image=druid_01.png|bSize=192|cWidth=19|cHeight=27|oBottom=97|oLeft=53}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-

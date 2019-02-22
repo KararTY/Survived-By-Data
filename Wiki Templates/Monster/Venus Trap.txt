@@ -19,8 +19,6 @@ plant_venus={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -55,8 +53,6 @@ boss_elementalspirit_venus_seed={{Enemy
     {{!}} '''plant venus projectile''' {{!!}} <center>{{CSS image crop|Image=plant_venus.png|bSize=192|cWidth=12|cHeight=24|oBottom=48|oLeft=54}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
@@ -93,8 +89,6 @@ boss_elementalspirit_venus={{Enemy
     {{!}} '''plant venus projectile''' {{!!}} <center>{{CSS image crop|Image=plant_venus.png|bSize=192|cWidth=12|cHeight=24|oBottom=48|oLeft=54}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-

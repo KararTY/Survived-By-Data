@@ -5,10 +5,10 @@
     "description": "Find 10 Journal Scraps",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "QuestJournalScraps",
+    "challengeTarget": {
+      "name": "QuestJournalScraps"
+    },
     "challengeValue": 10,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Alchemist2"
           }
         }
+      },
+      {
+        "questText": "The Alchemist that created the slime was a bit of a recluse. We need to find his notes to figure out the best way to defeat these creatures. Find 10 scraps from his journal and we can reconstruct his formula.",
+        "completeText": "His thoughts are... disturbing. Apparently he was cursed with intense and traumatic nightmares. I'm not sure he still had a grip on reality there at the end."
       }
     ]
   }

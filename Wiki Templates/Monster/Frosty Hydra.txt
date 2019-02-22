@@ -18,8 +18,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.05
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -33,8 +31,6 @@
     {{!}} '''frosty hydra projectile2''' {{!!}} <center>{{CSS image crop|Image=HeartlandHorror2.png|bSize=512|cWidth=85|cHeight=47|oBottom=775|oLeft=35}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

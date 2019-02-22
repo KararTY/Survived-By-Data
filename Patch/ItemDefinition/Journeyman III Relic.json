@@ -3,6 +3,7 @@
     "name": "Journeyman III Relic",
     "alias": "Relic Common Crafting Time 3",
     "description": "This relic reduces crafting time by 5%. This bonus is cumulative with other Journeyman Relics.",
+    "premiumOffer": "RelicCrafting3",
     "price": 12,
     "sellPrice": 0,
     "consumable": true,
@@ -67,12 +68,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Crystal",

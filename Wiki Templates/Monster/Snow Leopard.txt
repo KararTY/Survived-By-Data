@@ -18,8 +18,6 @@ monster_snowleopard={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -47,8 +45,6 @@ monster_snowleopard2={{Enemy
     {{!}} '''snowleopard2 projectile''' {{!!}} <center>{{CSS image crop|Image=beast_snow_leopard2.png|bSize=192|cWidth=23|cHeight=33|oBottom=51|oLeft=48}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

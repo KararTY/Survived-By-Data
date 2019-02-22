@@ -17,8 +17,6 @@ subboss_lavahunter_ghost={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -48,8 +46,6 @@ subboss_lavahunter={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -61,8 +57,6 @@ subboss_lavahunter={{Enemy
     {{!}} '''subboss lavahunter projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 1
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
@@ -86,8 +80,6 @@ subboss_lavahunter={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 1
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
     {{!}} Max hits {{!!}} 40
@@ -109,8 +101,6 @@ subboss_lavahunter={{Enemy
     {{!}} '''subboss lavahunter projectile4''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 1
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-

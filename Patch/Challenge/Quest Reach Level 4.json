@@ -5,10 +5,10 @@
     "description": "Reach Level 4",
     "challengeType": "Stat",
     "challenge": "Level",
-    "challengeTarget": "monster_golem_stone_boss",
+    "challengeTarget": {
+      "name": "monster_golem_stone_boss"
+    },
     "challengeValue": 4,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Reach Level 4"
           }
         }
+      },
+      {
+        "questText": "Hold up there hero. I want to know if you can handle it out there before I give you anything more important to do. Show me you aren't just bait for the Returner.",
+        "completeText": "You're not dead yet. Statistically it was bound to happen I guess. But, I promised you something more meaningful, so let's get to it."
       }
     ]
   }

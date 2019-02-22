@@ -5,7 +5,32 @@
     "description": "[description]",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Surge Health",
+      "type": "Permanent",
+      "duration": 3,
+      "stats": [
+        {
+          "key": "Health",
+          "equation": "[Health]+20",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "characterEffectPrefab": {
+        "name": "ce Health Potion"
+      },
+      "doesNotStackWithSelf": true,
+      "trackedForChallenge": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 1,
@@ -40,13 +65,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "modifierChance": 0.75

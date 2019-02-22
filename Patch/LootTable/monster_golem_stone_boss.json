@@ -158,8 +158,7 @@
           "faces": 0,
           "add": 2
         },
-        "chance": 100,
-        "allowModifiers": false
+        "chance": 100
       },
       {
         "item": "Fire Sand",
@@ -168,8 +167,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 100,
-        "allowModifiers": false
+        "chance": 100
       },
       {
         "item": "Silver",
@@ -178,8 +176,7 @@
           "faces": 0,
           "add": 70
         },
-        "chance": 100,
-        "allowModifiers": false
+        "chance": 100
       }
     ],
     "questLootTable": {

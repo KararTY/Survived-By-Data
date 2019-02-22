@@ -5,7 +5,6 @@
     "description": "Thick and heavy, this mantle both protects from the cold as well as some light physical attacks.",
     "price": 14000,
     "sellPrice": 140,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -94,12 +93,6 @@
       "Infiltrator"
     ],
     "bonusDismantleLoot": "DismantleStandardT4",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

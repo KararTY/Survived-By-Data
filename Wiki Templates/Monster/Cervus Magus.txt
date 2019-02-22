@@ -18,8 +18,6 @@ invasion_T1_stag_mage={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -48,8 +46,6 @@ monster_chimera_stag_mage={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -77,8 +73,6 @@ invasion_T2_stag_mage={{Enemy
     {{!}} '''stagmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagmage.png|bSize=256|cWidth=24|cHeight=24|oBottom=100|oLeft=196}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

@@ -26,6 +26,23 @@ module.exports = () => {
 
   var translate = require(path.join(__dirname, `${language}.json`))
 
+  let folder = {
+    'ItemDefinition': path.join(__dirname, 'Raw data', patchDate, 'ItemDefinition'),
+    'Monster': path.join(__dirname, 'Raw data', patchDate, 'Monster'),
+    'LootTable': path.join(__dirname, 'Raw data', patchDate, 'LootTable'),
+    'Other': path.join(__dirname, 'Raw data', patchDate, 'Other'),
+    'Ancestral': path.join(__dirname, 'Raw data', patchDate, 'Ancestral'),
+    'CraftingRecipe': path.join(__dirname, 'Raw data', patchDate, 'CraftingRecipe'),
+    'ItemModifier': path.join(__dirname, 'Raw data', patchDate, 'ItemModifier'),
+    'LootBox': path.join(__dirname, 'Raw data', patchDate, 'LootBox'),
+    'NPC': path.join(__dirname, 'Raw data', patchDate, 'NPC'),
+    'Player': path.join(__dirname, 'Raw data', patchDate, 'Player'),
+    'Challenge': path.join(__dirname, 'Raw data', patchDate, 'Challenge'),
+    'SpawnerDef': path.join(__dirname, 'Raw data', patchDate, 'SpawnerDef'),
+    // <WeeklyChallenge goes here>
+    'Quest': path.join(__dirname, 'Raw data', patchDate, 'Quest')
+  }
+
   function hasFlag(a, b) {
     return (a & b) === b;
   }
@@ -49,11 +66,13 @@ module.exports = () => {
   }
 
 
-  function statusEffect (f, z) {
+  function statusEffect(f, z) {
     if (f) f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect'] = f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect'] ? f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect'] : f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']
     let s = z ? z : require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffect']['0 SInt64 m_PathID'] + '.json'))
+    let go = require(path.join(folder['Other'], fileMap(s['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + s['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))
     return {
-      name: s['0 MonoBehaviour Base']['1 string Name'],
+      name: s['0 MonoBehaviour Base']['1 string Name'].length > 0 ? s['0 MonoBehaviour Base']['1 string Name'] : go['0 GameObject Base']['1 string m_Name'],
+      alias: (s['0 MonoBehaviour Base']['1 string Name'].length > 0 ? s['0 MonoBehaviour Base']['1 string Name'] : go['0 GameObject Base']['1 string m_Name']) !== go['0 GameObject Base']['1 string m_Name'] ? go['0 GameObject Base']['1 string m_Name'] : undefined,
       floatingText: s['0 MonoBehaviour Base']['1 string floatingText'] || undefined,
       type: Object.keys(statusEffectEnum).map(e => {
         if (statusEffectEnum[e] === s['0 MonoBehaviour Base']['0 int Type']) return e
@@ -79,42 +98,112 @@ module.exports = () => {
       } : undefined,
       projectile: s['0 MonoBehaviour Base']['0 int Projectile'] > -1 ? s['0 MonoBehaviour Base']['0 int Projectile'] : undefined,
       // skin: {},
+      // ignoreIf : s['0 MonoBehaviour Base']['0 Array IgnoreIf'].length > 0 ? s['0 MonoBehaviour Base']['0 int Projectile']['0 Array Array'].map(v => {
+      //   
+      //   return statusEffect()
+      // }) : undefined,
+      // overwrite: s['0 MonoBehaviour Base']['0 Array Overwrite'].length > 0 ? s['0 MonoBehaviour Base']['0 Array Overwrite'].map(v => {
+      //   return statusEffect()
+      // }) : undefined,
       nextStackingStatusEffect: s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> NextStackingStatusEffect']['0 SInt64 m_PathID']
         ? statusEffect(null, require(path.join(folder['Other'], fileMap(s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> NextStackingStatusEffect']['0 int m_FileID']) + s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> NextStackingStatusEffect']['0 SInt64 m_PathID'] + '.json')))
         : undefined,
       statusEffectOnExpire: s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffectOnExpire']['0 SInt64 m_PathID']
         ? statusEffect(null, require(path.join(folder['Other'], fileMap(s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffectOnExpire']['0 int m_FileID']) + s['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> StatusEffectOnExpire']['0 SInt64 m_PathID'] + '.json')))
         : undefined,
-      disableSpecialAbility: !!s['0 MonoBehaviour Base']['1 UInt8 DisableSpecialAbility'],
-      doesNotStackWithSelf: !!s['0 MonoBehaviour Base']['1 UInt8 DoesntStackWithSelf'],
-      doNotRefresh: !!s['0 MonoBehaviour Base']['1 UInt8 DoNotRefresh'],
-      hasLevels: !!s['0 MonoBehaviour Base']['1 UInt8 HasLevels'],
-      isAccountWide: !!s['0 MonoBehaviour Base']['1 UInt8 IsAccountWide'],
-      trackedForChallenge: !!s['0 MonoBehaviour Base']['1 UInt8 TrackedForChallenge'],
-      ignoreDurationModifiers: typeof s['0 MonoBehaviour Base']['1 UInt8 IgnoreDurrationModifiers'] === 'number' ? !!s['0 MonoBehaviour Base']['1 UInt8 IgnoreDurrationModifiers'] : !!s['0 MonoBehaviour Base']['1 UInt8 IgnoreDurationModifiers'],
-      isBuff: !!s['0 MonoBehaviour Base']['1 UInt8 IsBuff'],
-      removeOnAttack: !!s['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'],
-      coolDownTime: parseFloat(s['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2)),
-      noTimeOut: !!s['0 MonoBehaviour Base']['1 UInt8 NoTimeOut'],
+      disableSpecialAbility: !!s['0 MonoBehaviour Base']['1 UInt8 DisableSpecialAbility'] || undefined,
+      doesNotStackWithSelf: !!s['0 MonoBehaviour Base']['1 UInt8 DoesntStackWithSelf'] || undefined,
+      doNotRefresh: !!s['0 MonoBehaviour Base']['1 UInt8 DoNotRefresh'] || undefined,
+      hasLevels: !!s['0 MonoBehaviour Base']['1 UInt8 HasLevels'] || undefined,
+      isAccountWide: !!s['0 MonoBehaviour Base']['1 UInt8 IsAccountWide'] || undefined,
+      trackedForChallenge: !!s['0 MonoBehaviour Base']['1 UInt8 TrackedForChallenge'] || undefined,
+      ignoreDurationModifiers: (typeof s['0 MonoBehaviour Base']['1 UInt8 IgnoreDurrationModifiers'] === 'number' ? !!s['0 MonoBehaviour Base']['1 UInt8 IgnoreDurrationModifiers'] : !!s['0 MonoBehaviour Base']['1 UInt8 IgnoreDurationModifiers']) || undefined,
+      isBuff: !!s['0 MonoBehaviour Base']['1 UInt8 IsBuff'] || undefined,
+      removeOnAttack: !!s['0 MonoBehaviour Base']['1 UInt8 RemoveOnAttack'] || undefined,
+      coolDownTime: s['0 MonoBehaviour Base']['0 float CoolDownTime'] ? parseFloat(s['0 MonoBehaviour Base']['0 float CoolDownTime'].toFixed(2)) : undefined,
+      noTimeOut: !!s['0 MonoBehaviour Base']['1 UInt8 NoTimeOut'] || undefined,
       flashDuration: s['0 MonoBehaviour Base']['0 float flashDuration'] ? parseFloat(s['0 MonoBehaviour Base']['0 float flashDuration'].toFixed(2)) : undefined,
       isFullscreenFlash: s['0 MonoBehaviour Base']['0 float flashDuration'] ? !!s['0 MonoBehaviour Base']['1 UInt8 fullscreenFlash'] : undefined
     }
   }
 
-  var folder = {
-    'ItemDefinition': path.join(__dirname, 'Raw data', patchDate, 'ItemDefinition'),
-    'Monster': path.join(__dirname, 'Raw data', patchDate, 'Monster'),
-    'LootTable': path.join(__dirname, 'Raw data', patchDate, 'LootTable'),
-    'Other': path.join(__dirname, 'Raw data', patchDate, 'Other'),
-    'Ancestral': path.join(__dirname, 'Raw data', patchDate, 'Ancestral'),
-    'CraftingRecipe': path.join(__dirname, 'Raw data', patchDate, 'CraftingRecipe'),
-    'ItemModifier': path.join(__dirname, 'Raw data', patchDate, 'ItemModifier'),
-    'LootBox': path.join(__dirname, 'Raw data', patchDate, 'LootBox'),
-    'NPC': path.join(__dirname, 'Raw data', patchDate, 'NPC'),
-    'Player': path.join(__dirname, 'Raw data', patchDate, 'Player'),
-    'Challenge': path.join(__dirname, 'Raw data', patchDate, 'Challenge'),
-    'SpawnerDef': path.join(__dirname, 'Raw data', patchDate, 'SpawnerDef')
+  function projectile (f, z) {
+    return {
+      projectile: {
+        name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
+        projectileName: f['0 MonoBehaviour Base']['1 string ProjectileName'],
+        rotationSpeed: f['0 MonoBehaviour Base']['0 float RotationSpeed'] ? parseFloat(f['0 MonoBehaviour Base']['0 float RotationSpeed'].toFixed(2)) : undefined,
+        orbitSpeed: f['0 MonoBehaviour Base']['0 float orbitSpeed'] ? parseFloat(f['0 MonoBehaviour Base']['0 float orbitSpeed'].toFixed(2)) : undefined,
+        launchOffset: f['0 MonoBehaviour Base']['0 Vector2f launchOffset'] ? {
+          x: parseFloat(f['0 MonoBehaviour Base']['0 Vector2f launchOffset']['0 float x'].toFixed(2)),
+          y: parseFloat(f['0 MonoBehaviour Base']['0 Vector2f launchOffset']['0 float y'].toFixed(2))
+        } : undefined,
+        launchOffsetDistance: f['0 MonoBehaviour Base']['0 float launchOffsetDistance'] ? parseFloat(f['0 MonoBehaviour Base']['0 float launchOffsetDistance'].toFixed(2)) : undefined,
+        lightScale: f['0 MonoBehaviour Base']['0 float LightScale'] ? parseFloat(f['0 MonoBehaviour Base']['0 float LightScale'].toFixed(2)) : undefined,
+        tangentProjectileFireRate: f['0 MonoBehaviour Base']['0 float TangentProjectileFireRate'] ? parseFloat(f['0 MonoBehaviour Base']['0 float TangentProjectileFireRate'].toFixed(2)) : undefined,
+        waveFrequency: f['0 MonoBehaviour Base']['0 float WaveFrequency'] ? parseFloat(f['0 MonoBehaviour Base']['0 float WaveFrequency'].toFixed(2)) : undefined,
+        nextProjectileIndex: f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] : undefined,
+        tangentProjectileIndex: f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] : undefined,
+        repeatHitTime: f['0 MonoBehaviour Base']['0 float RepeatHitTime'] ? parseFloat(f['0 MonoBehaviour Base']['0 float RepeatHitTime'].toFixed(2)) : undefined,
+        alignToDirection: !!f['0 MonoBehaviour Base']['1 UInt8 AlignToDirection'] || undefined,
+        isNextProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsNextProjectileGlobal'] || undefined,
+        isTangentProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsTangentProjectileGlobal'] || undefined,
+        maintainOrbitRange: !!f['0 MonoBehaviour Base']['1 UInt8 maintainOrbitRange'] || undefined,
+        ownerRelative: !!f['0 MonoBehaviour Base']['1 UInt8 OwnerRelative'] || undefined,
+        sineWaveMotion: !!f['0 MonoBehaviour Base']['1 UInt8 SineWaveMotion'] || undefined,
+        /** MISSING
+         * 0 PPtr<$GAMEOBJECT> ESSENCEPARTICLE,
+         * 0 PPtr<$GAMEOBJECT> EXPLOSION,
+         * 0 PPtr<$GAMEOBJECT> FIZZLE,
+         * 0 PPtr<$GAMEOBJECT> LIGHTPREFAB,
+         * 0 PPtr<$SOUNDLIST> PROJECTILESPAWNER,
+         * 0 PPtr<$TILESYSTEMBODY2D> body
+         * 1 UInt16 DefIndex
+         */
+        essenceDamageMultiplier: f['0 MonoBehaviour Base']['0 float EssenceDamageMultiplier'] ? parseFloat(f['0 MonoBehaviour Base']['0 float EssenceDamageMultiplier'].toFixed(2)) : undefined, // Made constant in patch 2019-02-20
+        speed: parseFloat(f['0 MonoBehaviour Base']['0 float Speed'].toFixed(2)),
+        acceleration: f['0 MonoBehaviour Base']['0 float Acceleration'] ? parseFloat(f['0 MonoBehaviour Base']['0 float Acceleration'].toFixed(2)) : undefined,
+        damage: f['0 MonoBehaviour Base']['0 int Damage'],
+        damageMultiplier: f['0 MonoBehaviour Base']['0 float DamageMultiplier'] ? parseFloat(f['0 MonoBehaviour Base']['0 float DamageMultiplier'].toFixed(2)) : undefined,
+        range: parseFloat(f['0 MonoBehaviour Base']['0 float Range'].toFixed(2)),
+        useTargetForRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseTargetForRange'] || undefined,
+        useRandomRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseRandomRange'] || undefined,
+        randomRangeMax: f['0 MonoBehaviour Base']['0 float RandomRangeMax'] ? parseFloat(f['0 MonoBehaviour Base']['0 float RandomRangeMax'].toFixed(2)) : undefined,
+        maxHits: f['0 MonoBehaviour Base']['0 int MaxHits'],
+        arcSeparation: f['0 MonoBehaviour Base']['0 float ArcSeparation'] ? parseFloat(f['0 MonoBehaviour Base']['0 float ArcSeparation'].toFixed(2)) : undefined,
+        /*maxLifetime: parseFloat(f['0 MonoBehaviour Base']['0 float MaxLifetime'].toFixed(2)),*/ // Deleted in patch 2019-02-20
+        lifeTime: f['0 MonoBehaviour Base']['0 float Lifetime'] ? parseFloat(f['0 MonoBehaviour Base']['0 float Lifetime'].toFixed(2)) : undefined,
+        delayRate: f['0 MonoBehaviour Base']['0 float DelayRate'] ? parseFloat(f['0 MonoBehaviour Base']['0 float DelayRate'].toFixed(2)) : undefined,
+        rageMultiplier: f['0 MonoBehaviour Base']['0 float RageMultiplier'],
+        bounceBetweenEnemies: !!f['0 MonoBehaviour Base']['1 UInt8 BounceBetweenEnemies'],
+        pierceWorld: !!f['0 MonoBehaviour Base']['1 UInt8 PierceWorld'] || undefined,
+        statusEffect: f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']['0 SInt64 m_PathID']
+          ? statusEffect(f)
+          : undefined,
+        color: {
+          r: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float r'].toFixed(2)),
+          g: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float g'].toFixed(2)),
+          b: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float b'].toFixed(2)),
+          a: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float a'].toFixed(2)),
+        }
+      }
+    }
   }
+
+  function collision (f) {
+    return {
+      bPlayerProjectile: !!f['0 MonoBehaviour Base']['1 UInt8 bPlayerProjectile'] || undefined,
+      bEnemyProjectile: !!f['0 MonoBehaviour Base']['1 UInt8 bEnemyProjectile'] || undefined,
+      bSlide: !!f['0 MonoBehaviour Base']['1 UInt8 bSlide'] || undefined,
+      bPlayer: !!f['0 MonoBehaviour Base']['1 UInt8 bPlayer'] || undefined,
+      bEnemy: !!f['0 MonoBehaviour Base']['1 UInt8 bEnemy'] || undefined,
+      bSkipWorld: !!f['0 MonoBehaviour Base']['1 UInt8 bSkipWorld'] || undefined,
+      bSlowedDownByWater: !!f['0 MonoBehaviour Base']['1 UInt8 bSlowedDownByWater'] || undefined,
+      bBlockedByLava: !!f['0 MonoBehaviour Base']['1 UInt8 bBlockedByLava'] || undefined,
+      bFlying: !!f['0 MonoBehaviour Base']['1 UInt8 bFlying'] || undefined
+    }
+  }
+
 
   let folderName1 = 'ItemDefinition'
   if (folder[folderName1]) {
@@ -128,15 +217,77 @@ module.exports = () => {
         alias: (translate[file['0 MonoBehaviour Base']['1 string Name']] || file['0 MonoBehaviour Base']['1 string Name']) === require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
           ? undefined
           : require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-        description: translate[file['0 MonoBehaviour Base']['1 string Description']] || (file['0 MonoBehaviour Base']['1 string Description'].startsWith('string') ? '' : file['0 MonoBehaviour Base']['1 string Description']),
+        description: file['0 MonoBehaviour Base']['1 string Description'].length > 0 ? translate[file['0 MonoBehaviour Base']['1 string Description']] || file['0 MonoBehaviour Base']['1 string Description'] : undefined,
+        premiumOffer: file['0 MonoBehaviour Base']['1 string PremiumOffer'].length > 0 ? (translate[file['0 MonoBehaviour Base']['1 string PremiumOffer']] || file['0 MonoBehaviour Base']['1 string PremiumOffer']) : undefined,
         price: file['0 MonoBehaviour Base']['0 int Price'],
         sellPrice: file['0 MonoBehaviour Base']['0 int SellPrice'],
-        consumable: !!file['0 MonoBehaviour Base']['1 UInt8 bConsumable'],
+        consumable: !!file['0 MonoBehaviour Base']['1 UInt8 bConsumable'] || undefined,
+        consumableEffect: file['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> ConsumableEffectPrefab']['0 SInt64 m_PathID'] ?
+          statusEffect(null, require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> ConsumableEffectPrefab']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> ConsumableEffectPrefab']['0 SInt64 m_PathID'] + '.json')))
+          : undefined,
         requiredLevel: file['0 MonoBehaviour Base']['0 int RequiredLevel'],
         type: Object.keys(itemClassEnum).map(e => {
           if (itemClassEnum[e] === file['0 MonoBehaviour Base']['0 int Class']) return e
           else return undefined
         }).filter(Boolean).join(''),
+        autoRedeem: !!file['0 MonoBehaviour Base']['1 UInt8 autoRedeem'] || undefined,
+        ability: file['0 MonoBehaviour Base']['0 PPtr<$BaseSpecialAbility> Ability']['0 SInt64 m_PathID'] ? (function () {
+          var f = require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$BaseSpecialAbility> Ability']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$BaseSpecialAbility> Ability']['0 SInt64 m_PathID'] + '.json'))
+          return {
+            name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
+            pets: f['0 MonoBehaviour Base']['0 Array pets'] && f['0 MonoBehaviour Base']['0 Array pets'].length > 0
+              ? f['0 MonoBehaviour Base']['0 Array pets'].map(v => {
+                return {
+                  alias: require(path.join(folder['Other'], fileMap(v['0 Deity.Shared.PetOptions data']['0 PPtr<$GameObject> PetPrefab']['0 int m_FileID']) + v['0 Deity.Shared.PetOptions data']['0 PPtr<$GameObject> PetPrefab']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+                }
+              }) : undefined,
+            markPrefab: f['0 MonoBehaviour Base']['0 PPtr<$GameObject> MarkPrefab'] && f['0 MonoBehaviour Base']['0 PPtr<$GameObject> MarkPrefab']['0 SInt64 m_PathID']
+              ? {
+                alias: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$GameObject> MarkPrefab']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$GameObject> MarkPrefab']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+              }
+              : undefined,
+            /* f['0 MonoBehaviour Base']['0 PPtr<$PlayerOwnedObject> prefab'] Ward, needed? */
+            projectilesOnActivate: f['0 MonoBehaviour Base']['0 Array ProjectilesOnActivate'] && f['0 MonoBehaviour Base']['0 Array ProjectilesOnActivate'].length > 0
+              ? f['0 MonoBehaviour Base']['0 Array ProjectilesOnActivate'].map(v => {
+                return v['0 int data']
+              }) : undefined,
+            statusEffectsOnActivate: f['0 MonoBehaviour Base']['0 Array StatusEffectsOnActivate'] && f['0 MonoBehaviour Base']['0 Array StatusEffectsOnActivate'].length > 0
+              ? f['0 MonoBehaviour Base']['0 Array StatusEffectsOnActivate'].map(v => {
+                var z = require(path.join(folder['Other'], fileMap(v['0 PPtr<$StatusEffect> data']['0 int m_FileID']) + v['0 PPtr<$StatusEffect> data']['0 SInt64 m_PathID'] + '.json'))
+                return statusEffect(null, z)
+              }) : undefined,
+            statusEffectsOnDeactivate: f['0 MonoBehaviour Base']['0 Array StatusEffectsOnDeactivate'] && f['0 MonoBehaviour Base']['0 Array StatusEffectsOnDeactivate'].length > 0
+              ? f['0 MonoBehaviour Base']['0 Array StatusEffectsOnDeactivate'].map(v => {
+                var z = require(path.join(folder['Other'], fileMap(v['0 PPtr<$StatusEffect> data']['0 int m_FileID']) + v['0 PPtr<$StatusEffect> data']['0 SInt64 m_PathID'] + '.json'))
+                return statusEffect(null, z)
+              }) : undefined,
+            statusEffectWhenCharging: f['0 MonoBehaviour Base']['0 Array StatusEffectsWhenCharging'] && f['0 MonoBehaviour Base']['0 Array StatusEffectsWhenCharging'].length > 0
+              ? f['0 MonoBehaviour Base']['0 Array StatusEffectsWhenCharging'].map(v => {
+                var z = require(path.join(folder['Other'], fileMap(v['0 PPtr<$StatusEffect> data']['0 int m_FileID']) + v['0 PPtr<$StatusEffect> data']['0 SInt64 m_PathID'] + '.json'))
+                return statusEffect(null, z)
+              }) : undefined,
+            chargingProjectileAutoFireRate: f['0 MonoBehaviour Base']['0 float ChargingProjectileAutoFireRate'] ? parseFloat(f['0 MonoBehaviour Base']['0 float ChargingProjectileAutoFireRate'].toFixed(2)) : undefined,
+            specialAbilityDuration: f['0 MonoBehaviour Base']['0 float SpecialAbilityDuration'] ? parseFloat(f['0 MonoBehaviour Base']['0 float SpecialAbilityDuration'].toFixed(2)) : undefined,
+            timeToPauseAfterCharge: f['0 MonoBehaviour Base']['0 float TimeToPauseAfterCharge'] ? parseFloat(f['0 MonoBehaviour Base']['0 float TimeToPauseAfterCharge'].toFixed(2)) : undefined,
+            chargingAnimType: f['0 MonoBehaviour Base']['0 int ChargingAnimType'] ? parseFloat(f['0 MonoBehaviour Base']['0 int ChargingAnimType'].toFixed(2)) : undefined,
+            useDelay: f['0 MonoBehaviour Base']['0 float UseDelay'] ? parseFloat(f['0 MonoBehaviour Base']['0 float UseDelay'].toFixed(2)) : undefined,
+            projectileIndex: f['0 MonoBehaviour Base']['0 int ProjectileIndex'],
+            minionProjectileIndex: f['0 MonoBehaviour Base']['0 int MinionProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int MinionProjectileIndex'] : undefined,
+            mode: f['0 MonoBehaviour Base']['0 int Mode'],
+            projectileOnDeactivate: f['0 MonoBehaviour Base']['0 int ProjectileOnDeactivate'] && f['0 MonoBehaviour Base']['0 int ProjectileOnDeactivate'] > -1 ? f['0 MonoBehaviour Base']['0 int ProjectileOnDeactivate'] : undefined,
+            projectileWhenActive: f['0 MonoBehaviour Base']['0 int ProjectileWhenActive'] && f['0 MonoBehaviour Base']['0 int ProjectileWhenActive'] > -1 ? f['0 MonoBehaviour Base']['0 int ProjectileWhenActive'] : undefined,
+            projectileWhenCharging: f['0 MonoBehaviour Base']['0 int ProjectileWhenCharging'] && f['0 MonoBehaviour Base']['0 int ProjectileWhenCharging'] > -1 ? f['0 MonoBehaviour Base']['0 int ProjectileWhenCharging'] : undefined,
+            activateSnd: f['0 MonoBehaviour Base']['1 string activateSnd'] && f['0 MonoBehaviour Base']['1 string activateSnd'].length > 0 ? f['0 MonoBehaviour Base']['1 string activateSnd'] : undefined,
+            aimSnd: f['0 MonoBehaviour Base']['1 string aimSnd'] && f['0 MonoBehaviour Base']['1 string aimSnd'].length > 0 ? f['0 MonoBehaviour Base']['1 string aimSnd'] : undefined,
+            fireSnd: f['0 MonoBehaviour Base']['1 string fireSnd'] && f['0 MonoBehaviour Base']['1 string fireSnd'].length > 0 ? f['0 MonoBehaviour Base']['1 string fireSnd'] : undefined,
+            markSnd: f['0 MonoBehaviour Base']['1 string markSnd'] && f['0 MonoBehaviour Base']['1 string markSnd'].length > 0 ? f['0 MonoBehaviour Base']['1 string markSnd'] : undefined,
+            disableOtherSpecials: !!f['0 MonoBehaviour Base']['1 UInt8 disableOtherSpecials'] || undefined,
+            secondaryTogglesOff: !!f['0 MonoBehaviour Base']['1 UInt8 SecondaryTogglesOff'] || undefined,
+            autoTarget: f['0 MonoBehaviour Base']['1 UInt8 AutoTarget'] ? !!f['0 MonoBehaviour Base']['1 UInt8 AutoTarget'] : undefined,
+            range: f['0 MonoBehaviour Base']['0 float Range'] ? parseFloat(f['0 MonoBehaviour Base']['0 float Range'].toFixed(2)) : undefined,
+            maxTargets: f['0 MonoBehaviour Base']['0 int MaxTargets'] || undefined
+          }
+        })() : undefined,
         maxStack: file['0 MonoBehaviour Base']['0 int MaxStackAmount'],
         tier: file['0 MonoBehaviour Base']['0 int Tier'],
         data: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
@@ -236,7 +387,7 @@ module.exports = () => {
                 return {
                   alias: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
                 }
-              }) 
+              })
             } : undefined
           } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 PPtr<$ItemModifier> temporaryModifierToApply']) {
             var f = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$ItemModifier> temporaryModifierToApply']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$ItemModifier> temporaryModifierToApply']['0 SInt64 m_PathID'] + '.json'))
@@ -249,7 +400,7 @@ module.exports = () => {
                     var e = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID'] + '.json'))
                     return {
                       name: require(path.join(folder['Other'], fileMap(e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-                      description: e['0 MonoBehaviour Base']['1 string Description'],
+                      description: translate[e['0 MonoBehaviour Base']['1 string Description']] || e['0 MonoBehaviour Base']['1 string Description'],
                       minimumRequiredAmount: e['0 MonoBehaviour Base']['0 int minimumNumberOfItemsToEnable'],
                       stats: e['0 MonoBehaviour Base']['0 Array stat'].map(v => {
                         return {
@@ -348,11 +499,11 @@ module.exports = () => {
         experiencePerLevel: file['0 MonoBehaviour Base']['0 Array ExperiencePerLevel'].map(v => {
           return v['0 int data']
         }),
-        class: Object.keys(classEnum).map(e => {
+        class: file['0 MonoBehaviour Base']['0 int EquipMask'] ? Object.keys(classEnum).map(e => {
           if (e !== 'None' && classEnum[e] === file['0 MonoBehaviour Base']['0 int EquipMask']) return e
           else if (e !== 'None' && hasFlag(file['0 MonoBehaviour Base']['0 int EquipMask'], classEnum[e])) return e
           else return undefined
-        }).filter(Boolean),
+        }).filter(Boolean) : undefined,
         modifiers: file['0 MonoBehaviour Base']['0 Array initialModifiers'].length > 0
           ? file['0 MonoBehaviour Base']['0 Array initialModifiers'].map(v => {
             var f = require(path.join(folder['Other'], fileMap(v['0 PPtr<$ItemModifier> data']['0 int m_FileID']) + v['0 PPtr<$ItemModifier> data']['0 SInt64 m_PathID'] + '.json'))
@@ -364,7 +515,7 @@ module.exports = () => {
                     var e = require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<$EquipmentSet> Set']['0 SInt64 m_PathID'] + '.json'))
                     return {
                       name: require(path.join(folder['Other'], fileMap(e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + e['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-                      description: e['0 MonoBehaviour Base']['1 string Description'],
+                      description: translate[e['0 MonoBehaviour Base']['1 string Description']] || e['0 MonoBehaviour Base']['1 string Description'],
                       minimumRequiredAmount: e['0 MonoBehaviour Base']['0 int minimumNumberOfItemsToEnable'],
                       stats: e['0 MonoBehaviour Base']['0 Array stat'].map(v => {
                         return {
@@ -419,12 +570,12 @@ module.exports = () => {
             return translate[f['1 string Name']] || f['1 string Name']
           })()
           : undefined,
-        bound: {
-          account: !!file['0 MonoBehaviour Base']['1 UInt8 AlwaysSoulbound'],
-          soul: !!file['0 MonoBehaviour Base']['1 UInt8 AlwaysAccountbound']
-        },
-        isHeirloom: !!file['0 MonoBehaviour Base']['1 UInt8 IsHeirloomItem'],
-        requiresDiscovery: !!file['0 MonoBehaviour Base']['1 UInt8 RequiresDiscovery'],
+        bound: file['0 MonoBehaviour Base']['1 UInt8 AlwaysSoulbound'] || file['0 MonoBehaviour Base']['1 UInt8 AlwaysAccountbound'] ? {
+          account: file['0 MonoBehaviour Base']['1 UInt8 AlwaysSoulbound'] ? !!file['0 MonoBehaviour Base']['1 UInt8 AlwaysSoulbound'] : undefined,
+          soul: file['0 MonoBehaviour Base']['1 UInt8 AlwaysAccountbound'] ? !!file['0 MonoBehaviour Base']['1 UInt8 AlwaysAccountbound'] : undefined
+        } : undefined,
+        isHeirloom: file['0 MonoBehaviour Base']['1 UInt8 IsHeirloomItem'] ? !!file['0 MonoBehaviour Base']['1 UInt8 IsHeirloomItem'] : undefined,
+        requiresDiscovery: file['0 MonoBehaviour Base']['1 UInt8 RequiresDiscovery'] ? !!file['0 MonoBehaviour Base']['1 UInt8 RequiresDiscovery'] : undefined,
         recoverCost: file['0 MonoBehaviour Base']['0 int RecoverCost'],
         insureCost: file['0 MonoBehaviour Base']['0 int InsureCost'],
         currency: file['0 MonoBehaviour Base']['0 PPtr<$GameObject> Currency']['0 SInt64 m_PathID']
@@ -437,7 +588,8 @@ module.exports = () => {
             craftingRarityEnumAndValue[Object.keys(craftingRarityEnumAndValue)[file['0 MonoBehaviour Base']['0 int craftingRarity']]],
             Object.keys(craftingRarityEnumAndValue)[file['0 MonoBehaviour Base']['0 int craftingRarity']]
           ]
-          : undefined
+          : undefined,
+        doesNotCountTowardMax: file['0 MonoBehaviour Base']['1 UInt8 DoesntCountTowardMax'] ? !!file['0 MonoBehaviour Base']['1 UInt8 DoesntCountTowardMax'] : undefined
       }
 
       var filename = path.join(__dirname, 'Patch', folderName1, `${itemDefinition.name.replace(/[\/\?\<\>\\\:\*\|\"]/g, '')}.json`)
@@ -475,7 +627,7 @@ module.exports = () => {
               add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
             },
             chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
-            allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
+            allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers'] || undefined
           }
         }),
         reference: file['0 MonoBehaviour Base']['0 PPtr<$LootTable> ReferenceObject']['0 SInt64 m_PathID'] > 0
@@ -525,10 +677,10 @@ module.exports = () => {
             ? undefined
             : require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
           : undefined,
-        description: translate[file['0 MonoBehaviour Base']['1 string MonsterDescription']] || file['0 MonoBehaviour Base']['1 string MonsterDescription'],
-        isBoss: !!file['0 MonoBehaviour Base']['1 UInt8 IsBoss'],
-        isElite: !!file['0 MonoBehaviour Base']['1 UInt8 IsElite'],
-        isSetPieceMonster: !!file['0 MonoBehaviour Base']['1 UInt8 IsSetPieceMonster'],
+        description: file['0 MonoBehaviour Base']['1 string MonsterDescription'].length > 0 ? translate[file['0 MonoBehaviour Base']['1 string MonsterDescription']] || file['0 MonoBehaviour Base']['1 string MonsterDescription'] : undefined,
+        isBoss: !!file['0 MonoBehaviour Base']['1 UInt8 IsBoss'] || undefined,
+        isElite: !!file['0 MonoBehaviour Base']['1 UInt8 IsElite'] || undefined,
+        isSetPieceMonster: !!file['0 MonoBehaviour Base']['1 UInt8 IsSetPieceMonster'] || undefined,
         weapons: file['0 MonoBehaviour Base']['0 Array WeaponPrefabs'].map(v => {
           if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 PPtr<$GameObject> data']['0 int m_FileID']) + v['0 PPtr<$GameObject> data']['0 SInt64 m_PathID'] + '.json'))) return undefined
           var w = require(path.join(folder['Other'], fileMap(v['0 PPtr<$GameObject> data']['0 int m_FileID']) + v['0 PPtr<$GameObject> data']['0 SInt64 m_PathID'] + '.json'))
@@ -538,61 +690,7 @@ module.exports = () => {
               if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) return undefined
               var f = require(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
               if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['1 string ProjectileName']) {
-                return {
-                  projectile: {
-                    name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-                    projectileName: f['0 MonoBehaviour Base']['1 string ProjectileName'],
-                    rotationSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float RotationSpeed'].toFixed(2)) || undefined,
-                    orbitSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float orbitSpeed'].toFixed(2)) || undefined,
-                    launchOffsetDistance: parseFloat(f['0 MonoBehaviour Base']['0 float launchOffsetDistance'].toFixed(2)) || 0,
-                    lightScale: parseFloat(f['0 MonoBehaviour Base']['0 float LightScale'].toFixed(2)) || undefined,
-                    tangentProjectileFireRate: parseFloat(f['0 MonoBehaviour Base']['0 float TangentProjectileFireRate'].toFixed(2)) || undefined,
-                    waveFrequency: parseFloat(f['0 MonoBehaviour Base']['0 float WaveFrequency'].toFixed(2)) || undefined,
-                    nextProjectileIndex: f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] : undefined,
-                    tangentProjectileIndex: f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] : undefined,
-                    repeatHitTime: parseFloat(f['0 MonoBehaviour Base']['0 float RepeatHitTime'].toFixed(2)) || undefined,
-                    alignToDirection: !!f['0 MonoBehaviour Base']['1 UInt8 AlignToDirection'],
-                    isNextProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsNextProjectileGlobal'],
-                    isTangentProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsTangentProjectileGlobal'],
-                    maintainOrbitRange: !!f['0 MonoBehaviour Base']['1 UInt8 maintainOrbitRange'],
-                    ownerRelative: !!f['0 MonoBehaviour Base']['1 UInt8 OwnerRelative'],
-                    sineWaveMotion: !!f['0 MonoBehaviour Base']['1 UInt8 SineWaveMotion'],
-                    /** MISSING
-                     * 0 PPtr<$GAMEOBJECT> ESSENCEPARTICLE,
-                     * 0 PPtr<$GAMEOBJECT> EXPLOSION,
-                     * 0 PPtr<$GAMEOBJECT> FIZZLE,
-                     * 0 PPtr<$GAMEOBJECT> LIGHTPREFAB,
-                     * 0 PPtr<$SOUNDLIST> PROJECTILESPAWNER,
-                     * 0 PPtr<$TILESYSTEMBODY2D> body
-                     * 1 UInt16 DefIndex
-                     */
-                    /*essenceDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float EssenceDamageMultiplier'].toFixed(2)) || undefined,*/ // Deleted in patch 2019-02-20
-                    speed: parseFloat(f['0 MonoBehaviour Base']['0 float Speed'].toFixed(2)),
-                    acceleration: parseFloat(f['0 MonoBehaviour Base']['0 float Acceleration'].toFixed(2)) || undefined,
-                    damage: f['0 MonoBehaviour Base']['0 int Damage'],
-                    damageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float DamageMultiplier'].toFixed(2)) || undefined,
-                    range: parseFloat(f['0 MonoBehaviour Base']['0 float Range'].toFixed(2)),
-                    useTargetForRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseTargetForRange'],
-                    useRandomRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseRandomRange'],
-                    randomRangeMax: parseFloat(f['0 MonoBehaviour Base']['0 float RandomRangeMax'].toFixed(2)) || undefined,
-                    maxHits: f['0 MonoBehaviour Base']['0 int MaxHits'],
-                    arcSeparation: parseFloat(f['0 MonoBehaviour Base']['0 float ArcSeparation'].toFixed(2)) || undefined,
-                    /*maxLifetime: parseFloat(f['0 MonoBehaviour Base']['0 float MaxLifetime'].toFixed(2)),*/ // Deleted in patch 2019-02-20
-                    delayRate: parseFloat(f['0 MonoBehaviour Base']['0 float DelayRate'].toFixed(2)) || undefined,
-                    rageMultiplier: f['0 MonoBehaviour Base']['0 float RageMultiplier'],
-                    bounceBetweenEnemies: !!f['0 MonoBehaviour Base']['1 UInt8 BounceBetweenEnemies'],
-                    pierceWorld: !!f['0 MonoBehaviour Base']['1 UInt8 PierceWorld'],
-                    statusEffect: f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']['0 SInt64 m_PathID']
-                      ? statusEffect(f)
-                      : undefined,
-                    color: {
-                      r: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float r'].toFixed(2)),
-                      g: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float g'].toFixed(2)),
-                      b: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float b'].toFixed(2)),
-                      a: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float a'].toFixed(2)),
-                    }
-                  }
-                }
+                return projectile(f)
               } else if (f['0 SpriteRenderer Base'] && f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID']) {
                 var srd = require(path.join(folder['Other'], fileMap(f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 int m_FileID']) + f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID'] + '.json'))['0 Sprite Base']['1 SpriteRenderData m_RD']
                 var s = require(path.join(folder['Other'], fileMap(srd['0 PPtr<Texture2D> texture']['0 int m_FileID']) + srd['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID'] + '.json'))['0 Texture2D Base']
@@ -671,17 +769,7 @@ module.exports = () => {
               })
             }
           } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Deity.Shared.CollisionShape shape']) {
-            return {
-              bPlayerProjectile: !!f['0 MonoBehaviour Base']['1 UInt8 bPlayerProjectile'] || undefined,
-              bEnemyProjectile: !!f['0 MonoBehaviour Base']['1 UInt8 bEnemyProjectile'] || undefined,
-              bSlide: !!f['0 MonoBehaviour Base']['1 UInt8 bSlide'] || undefined,
-              bPlayer: !!f['0 MonoBehaviour Base']['1 UInt8 bPlayer'] || undefined,
-              bEnemy: !!f['0 MonoBehaviour Base']['1 UInt8 bEnemy'] || undefined,
-              bSkipWorld: !!f['0 MonoBehaviour Base']['1 UInt8 bSkipWorld'] || undefined,
-              bSlowedDownByWater: !!f['0 MonoBehaviour Base']['1 UInt8 bSlowedDownByWater'] || undefined,
-              bBlockedByLava: !!f['0 MonoBehaviour Base']['1 UInt8 bBlockedByLava'] || undefined,
-              bFlying: !!f['0 MonoBehaviour Base']['1 UInt8 bFlying'] || undefined
-            }
+            return collision(f)
           } else if (f['0 SpriteRenderer Base'] && f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID']) {
             var srd = require(path.join(folder['Other'], fileMap(f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 int m_FileID']) + f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID'] + '.json'))['0 Sprite Base']['1 SpriteRenderData m_RD']
             var s = require(path.join(folder['Other'], fileMap(srd['0 PPtr<Texture2D> texture']['0 int m_FileID']) + srd['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID'] + '.json'))['0 Texture2D Base']
@@ -764,7 +852,7 @@ module.exports = () => {
                         add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
                       },
                       chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
-                      allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
+                      allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers'] || undefined
                     }
                   })
                 }
@@ -819,7 +907,7 @@ module.exports = () => {
       var ancestral = {
         name: (translate[file['0 MonoBehaviour Base']['1 string displayName']] || file['0 MonoBehaviour Base']['1 string displayName']),
         alias: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-        description: translate[file['0 MonoBehaviour Base']['1 string benefitDescription']],
+        description: translate[file['0 MonoBehaviour Base']['1 string benefitDescription']] || file['0 MonoBehaviour Base']['1 string benefitDescription'],
         doNotAward: file['0 MonoBehaviour Base']['1 UInt8 DoNotAward'] > 0 ? true : false,
         data: file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID']
           ? require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['0 vector m_Component']['0 Array Array'].map(v => {
@@ -836,7 +924,7 @@ module.exports = () => {
                     ? statusEffect(f)
                     : undefined,
                   /*projectileDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float ProjectileDamageMultiplier'].toFixed(2)),*/ // Obscured by anti-cheat added in 2019-02-20 (? Why).
-                  useAncestralBenefitForDamage: !!f['0 MonoBehaviour Base']['0 UInt8 UseAncestralBenefitForDamage'],
+                  useAncestralBenefitForDamage: !!f['0 MonoBehaviour Base']['0 UInt8 UseAncestralBenefitForDamage'] || undefined,
                   triggers: f['0 MonoBehaviour Base']['0 Array triggers'].length > 0
                     ? f['0 MonoBehaviour Base']['0 Array triggers'].map(v => {
                       return {
@@ -1199,7 +1287,7 @@ module.exports = () => {
           })()
           : undefined,
         lootTable: require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-        containBloodStone: !!file['0 MonoBehaviour Base']['1 UInt8 shouldContainBloodstone']
+        containBloodStone: !!file['0 MonoBehaviour Base']['1 UInt8 shouldContainBloodstone'] || undefined
       }
 
       var filename = path.join(__dirname, 'Patch', folderName7, `${lootBox.name}.json`)
@@ -1246,61 +1334,7 @@ module.exports = () => {
               if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) return undefined
               var f = require(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
               if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['1 string ProjectileName']) {
-                return {
-                  projectile: {
-                    name: require(path.join(folder['Other'], fileMap(f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 int m_FileID']) + f['0 MonoBehaviour Base']['0 PPtr<GameObject> m_GameObject']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name'],
-                    projectileName: f['0 MonoBehaviour Base']['1 string ProjectileName'],
-                    rotationSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float RotationSpeed'].toFixed(2)) || undefined,
-                    orbitSpeed: parseFloat(f['0 MonoBehaviour Base']['0 float orbitSpeed'].toFixed(2)) || undefined,
-                    launchOffsetDistance: parseFloat(f['0 MonoBehaviour Base']['0 float launchOffsetDistance'].toFixed(2)) || 0,
-                    lightScale: parseFloat(f['0 MonoBehaviour Base']['0 float LightScale'].toFixed(2)) || undefined,
-                    tangentProjectileFireRate: parseFloat(f['0 MonoBehaviour Base']['0 float TangentProjectileFireRate'].toFixed(2)) || undefined,
-                    waveFrequency: parseFloat(f['0 MonoBehaviour Base']['0 float WaveFrequency'].toFixed(2)) || undefined,
-                    nextProjectileIndex: f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int NextProjectileIndex'] : undefined,
-                    tangentProjectileIndex: f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] > -1 ? f['0 MonoBehaviour Base']['0 int TangentProjectileIndex'] : undefined,
-                    repeatHitTime: parseFloat(f['0 MonoBehaviour Base']['0 float RepeatHitTime'].toFixed(2)) || undefined,
-                    alignToDirection: !!f['0 MonoBehaviour Base']['1 UInt8 AlignToDirection'],
-                    isNextProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsNextProjectileGlobal'],
-                    isTangentProjectileGlobal: !!f['0 MonoBehaviour Base']['1 UInt8 IsTangentProjectileGlobal'],
-                    maintainOrbitRange: !!f['0 MonoBehaviour Base']['1 UInt8 maintainOrbitRange'],
-                    ownerRelative: !!f['0 MonoBehaviour Base']['1 UInt8 OwnerRelative'],
-                    sineWaveMotion: !!f['0 MonoBehaviour Base']['1 UInt8 SineWaveMotion'],
-                    /** MISSING
-                     * 0 PPtr<$GAMEOBJECT> ESSENCEPARTICLE,
-                     * 0 PPtr<$GAMEOBJECT> EXPLOSION,
-                     * 0 PPtr<$GAMEOBJECT> FIZZLE,
-                     * 0 PPtr<$GAMEOBJECT> LIGHTPREFAB,
-                     * 0 PPtr<$SOUNDLIST> PROJECTILESPAWNER,
-                     * 0 PPtr<$TILESYSTEMBODY2D> body
-                     * 1 UInt16 DefIndex
-                     */
-                    /*essenceDamageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float EssenceDamageMultiplier'].toFixed(2)) || undefined,*/ // Deleted in patch 2019-02-20
-                    speed: parseFloat(f['0 MonoBehaviour Base']['0 float Speed'].toFixed(2)),
-                    acceleration: parseFloat(f['0 MonoBehaviour Base']['0 float Acceleration'].toFixed(2)) || undefined,
-                    damage: f['0 MonoBehaviour Base']['0 int Damage'],
-                    damageMultiplier: parseFloat(f['0 MonoBehaviour Base']['0 float DamageMultiplier'].toFixed(2)) || undefined,
-                    range: parseFloat(f['0 MonoBehaviour Base']['0 float Range'].toFixed(2)),
-                    useTargetForRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseTargetForRange'],
-                    useRandomRange: !!f['0 MonoBehaviour Base']['1 UInt8 UseRandomRange'],
-                    randomRangeMax: parseFloat(f['0 MonoBehaviour Base']['0 float RandomRangeMax'].toFixed(2)) || undefined,
-                    maxHits: f['0 MonoBehaviour Base']['0 int MaxHits'],
-                    arcSeparation: parseFloat(f['0 MonoBehaviour Base']['0 float ArcSeparation'].toFixed(2)) || undefined,
-                    /*maxLifetime: parseFloat(f['0 MonoBehaviour Base']['0 float MaxLifetime'].toFixed(2)),*/ // Deleted in patch 2019-02-20
-                    delayRate: parseFloat(f['0 MonoBehaviour Base']['0 float DelayRate'].toFixed(2)) || undefined,
-                    rageMultiplier: f['0 MonoBehaviour Base']['0 float RageMultiplier'],
-                    bounceBetweenEnemies: !!f['0 MonoBehaviour Base']['1 UInt8 BounceBetweenEnemies'],
-                    pierceWorld: !!f['0 MonoBehaviour Base']['1 UInt8 PierceWorld'],
-                    statusEffect: f['0 MonoBehaviour Base']['0 PPtr<$StatusEffect> statusEffect']['0 SInt64 m_PathID']
-                      ? statusEffect(f)
-                      : undefined,
-                    color: {
-                      r: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float r'].toFixed(2)),
-                      g: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float g'].toFixed(2)),
-                      b: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float b'].toFixed(2)),
-                      a: parseFloat(f['0 MonoBehaviour Base']['0 ColorRGBA LightColor']['0 float a'].toFixed(2)),
-                    }
-                  }
-                }
+                return projectile(f)
               } else if (f['0 SpriteRenderer Base'] && f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID']) {
                 var srd = require(path.join(folder['Other'], fileMap(f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 int m_FileID']) + f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID'] + '.json'))['0 Sprite Base']['1 SpriteRenderData m_RD']
                 var s = require(path.join(folder['Other'], fileMap(srd['0 PPtr<Texture2D> texture']['0 int m_FileID']) + srd['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID'] + '.json'))['0 Texture2D Base']
@@ -1357,7 +1391,7 @@ module.exports = () => {
                           add: v['0 Deity.Shared.LootEntry data']['0 Deity.Shared.DiceParm count']['0 int add']
                         },
                         chance: v['0 Deity.Shared.LootEntry data']['0 double chance'],
-                        allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers']
+                        allowModifiers: !!v['0 Deity.Shared.LootEntry data']['1 UInt8 allowModifiers'] || undefined
                       }
                     })
                   }
@@ -1380,17 +1414,7 @@ module.exports = () => {
               })
             }
           } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Deity.Shared.CollisionShape shape']) {
-            return {
-              bPlayerProjectile: !!f['0 MonoBehaviour Base']['1 UInt8 bPlayerProjectile'] || undefined,
-              bEnemyProjectile: !!f['0 MonoBehaviour Base']['1 UInt8 bEnemyProjectile'] || undefined,
-              bSlide: !!f['0 MonoBehaviour Base']['1 UInt8 bSlide'] || undefined,
-              bPlayer: !!f['0 MonoBehaviour Base']['1 UInt8 bPlayer'] || undefined,
-              bEnemy: !!f['0 MonoBehaviour Base']['1 UInt8 bEnemy'] || undefined,
-              bSkipWorld: !!f['0 MonoBehaviour Base']['1 UInt8 bSkipWorld'] || undefined,
-              bSlowedDownByWater: !!f['0 MonoBehaviour Base']['1 UInt8 bSlowedDownByWater'] || undefined,
-              bBlockedByLava: !!f['0 MonoBehaviour Base']['1 UInt8 bBlockedByLava'] || undefined,
-              bFlying: !!f['0 MonoBehaviour Base']['1 UInt8 bFlying'] || undefined
-            }
+            return collision(f)
           } else if (f['0 SpriteRenderer Base'] && f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID']) {
             var srd = require(path.join(folder['Other'], fileMap(f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 int m_FileID']) + f['0 SpriteRenderer Base']['0 PPtr<Sprite> m_Sprite']['0 SInt64 m_PathID'] + '.json'))['0 Sprite Base']['1 SpriteRenderData m_RD']
             var s = require(path.join(folder['Other'], fileMap(srd['0 PPtr<Texture2D> texture']['0 int m_FileID']) + srd['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID'] + '.json'))['0 Texture2D Base']
@@ -1504,17 +1528,7 @@ module.exports = () => {
               })
             }
           } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Deity.Shared.CollisionShape shape']) {
-            return {
-              bPlayerProjectile: !!f['0 MonoBehaviour Base']['1 UInt8 bPlayerProjectile'] || undefined,
-              bEnemyProjectile: !!f['0 MonoBehaviour Base']['1 UInt8 bEnemyProjectile'] || undefined,
-              bSlide: !!f['0 MonoBehaviour Base']['1 UInt8 bSlide'] || undefined,
-              bPlayer: !!f['0 MonoBehaviour Base']['1 UInt8 bPlayer'] || undefined,
-              bEnemy: !!f['0 MonoBehaviour Base']['1 UInt8 bEnemy'] || undefined,
-              bSkipWorld: !!f['0 MonoBehaviour Base']['1 UInt8 bSkipWorld'] || undefined,
-              bSlowedDownByWater: !!f['0 MonoBehaviour Base']['1 UInt8 bSlowedDownByWater'] || undefined,
-              bBlockedByLava: !!f['0 MonoBehaviour Base']['1 UInt8 bBlockedByLava'] || undefined,
-              bFlying: !!f['0 MonoBehaviour Base']['1 UInt8 bFlying'] || undefined
-            }
+            return collision(f)
           } else if (f['0 MonoBehaviour Base'] && f['0 MonoBehaviour Base']['0 Array snds'] && f['0 MonoBehaviour Base']['0 Array snds'].length > 0) {
             return {
               sound: {
@@ -1614,11 +1628,16 @@ module.exports = () => {
           else return undefined
         }).filter(Boolean).join(''),
         challengeTarget: file['0 MonoBehaviour Base']['0 PPtr<$GameObject> challengeTarget']['0 SInt64 m_PathID']
-          ? require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$GameObject> challengeTarget']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$GameObject> challengeTarget']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']['1 string m_Name']
+          ? (function () {
+            var f = require(path.join(folder['Other'], fileMap(file['0 MonoBehaviour Base']['0 PPtr<$GameObject> challengeTarget']['0 int m_FileID']) + file['0 MonoBehaviour Base']['0 PPtr<$GameObject> challengeTarget']['0 SInt64 m_PathID'] + '.json'))
+            return {
+              name: f['0 GameObject Base']['1 string m_Name']
+            }
+          })()
           : undefined,
         challengeValue: file['0 MonoBehaviour Base']['0 int challengeValue'],
-        achievement: !!file['0 MonoBehaviour Base']['1 UInt8 accountAchievement'],
-        hideAchievement: !!file['0 MonoBehaviour Base']['1 UInt8 hideAchievement'],
+        achievement: !!file['0 MonoBehaviour Base']['1 UInt8 accountAchievement'] || undefined,
+        hideAchievement: !!file['0 MonoBehaviour Base']['1 UInt8 hideAchievement'] || undefined,
         prerequisites: file['0 MonoBehaviour Base']['0 Array prerequisites'].length > 0
           ? file['0 MonoBehaviour Base']['0 Array prerequisites'].map(v => {
             var p = require(path.join(folder['Challenge'], fileMap(v['0 PPtr<$Challenge> data']['0 int m_FileID']) + v['0 PPtr<$Challenge> data']['0 SInt64 m_PathID'] + '.json'))['0 MonoBehaviour Base']
@@ -1637,7 +1656,25 @@ module.exports = () => {
                 }
               }
             }
-          } else return undefined
+          } else {
+            if (!fs.existsSync(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))) return undefined
+            var f = require(path.join(folder['Other'], fileMap(v['0 pair data']['0 PPtr<Component> second']['0 int m_FileID']) + v['0 pair data']['0 PPtr<Component> second']['0 SInt64 m_PathID'] + '.json'))
+            if (f['0 MonoBehaviour Base']['1 string QuestText']) {
+              return {
+                questText: translate[f['0 MonoBehaviour Base']['1 string QuestText']] || f['0 MonoBehaviour Base']['1 string QuestText'],
+                completeText: translate[f['0 MonoBehaviour Base']['1 string QuestCompleteText']] || f['0 MonoBehaviour Base']['1 string QuestCompleteText'],
+                startQuestProgressAtZero: !!file['0 MonoBehaviour Base']['1 UInt8 startQuestProgressAtZero'] || undefined
+                /** Missing
+                 * Array spawnersToTriggerOnStart
+                 * Array makeExclusive
+                 * Array portalsToSpawn
+                 * Array itemsToSpawn
+                 * boolean UInt spawnPortalsExclusively
+                 * vector2 relativePortalSpawnPosition
+                 */
+              } 
+            } else return undefined
+          }
         }).filter(Boolean)
       }
 
@@ -1680,13 +1717,13 @@ module.exports = () => {
           max: parseFloat(file[m]['0 float difficultyMax'].toFixed(2))
         },
         spawnRadius: parseFloat(file[m]['0 float spawnRadius'].toFixed(2)),
-        spawnDelayed: !!file[m]['1 UInt8 spawnDelayed'],
+        spawnDelayed: !!file[m]['1 UInt8 spawnDelayed'] || undefined,
         quotaRadius: parseFloat(file[m]['0 float quotaRadius'].toFixed(2)),
         rechargeTime: parseFloat(file[m]['0 float rechargeTime'].toFixed(2)),
-        isBoss: !!file[m]['1 UInt8 isBoss'],
-        autoPopulate: !!file[m]['1 UInt8 autoPopulate'],
-        manuallyPlaced: !!file[m]['1 UInt8 manuallyPlaced'],
-        floraOrFaunaSpawner: !!file[m]['1 UInt8 floraOrFaunaSpawner'],
+        isBoss: !!file[m]['1 UInt8 isBoss'] || undefined,
+        autoPopulate: !!file[m]['1 UInt8 autoPopulate'] || undefined,
+        manuallyPlaced: !!file[m]['1 UInt8 manuallyPlaced'] || undefined,
+        floraOrFaunaSpawner: !!file[m]['1 UInt8 floraOrFaunaSpawner'] || undefined,
         spawnList: file[m]['0 Array spawnList'].length > 0 ? file[m]['0 Array spawnList'].map(v => {
           var monster = v['0 Deity.Shared.MonsterToSpawn data']
           if (!fs.existsSync(path.join(folder['Other'], fileMap(monster['0 PPtr<$GameObject> MonsterPrefab']['0 int m_FileID']) + monster['0 PPtr<$GameObject> MonsterPrefab']['0 SInt64 m_PathID'] + '.json'))) return undefined
@@ -1717,7 +1754,7 @@ module.exports = () => {
           return monsterArray.map(v => {
             var monster = v['0 Deity.Shared.MonsterToSpawn data']
             if (!fs.existsSync(path.join(folder['Other'], fileMap(monster['0 PPtr<$GameObject> MonsterPrefab']['0 int m_FileID']) + monster['0 PPtr<$GameObject> MonsterPrefab']['0 SInt64 m_PathID'] + '.json'))) return undefined
-            var f = require(path.join( folder['Other'], fileMap(monster['0 PPtr<$GameObject> MonsterPrefab']['0 int m_FileID']) + monster['0 PPtr<$GameObject> MonsterPrefab']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
+            var f = require(path.join(folder['Other'], fileMap(monster['0 PPtr<$GameObject> MonsterPrefab']['0 int m_FileID']) + monster['0 PPtr<$GameObject> MonsterPrefab']['0 SInt64 m_PathID'] + '.json'))['0 GameObject Base']
             return {
               monsterName: (function () {
                 var monData
@@ -1740,7 +1777,7 @@ module.exports = () => {
             }
           }).filter(Boolean)
         }).filter(Boolean) : undefined,
-        oneTimeTrigger: !!file[m]['1 UInt8 oneTimeTrigger'],
+        oneTimeTrigger: !!file[m]['1 UInt8 oneTimeTrigger'] || undefined,
         areaMax: file[m]['0 int areaMax'],
         areaRadius: file[m]['0 int areaRadius']/* ,
         comboArrangement: [] */

@@ -3,9 +3,9 @@
     "name": "Loot Box Key T6",
     "alias": "z Loot Box Key T6",
     "description": "Loot box key",
+    "premiumOffer": "keyLootBox6",
     "price": 6,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -40,13 +40,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",

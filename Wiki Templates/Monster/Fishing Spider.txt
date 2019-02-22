@@ -19,8 +19,6 @@ monster_piranha_fishing_spider={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 15
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 1.5
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -48,8 +46,6 @@ monster_spider_fishing={{Enemy
     {{!}} '''spider tarantula projectile''' {{!!}} <center>{{CSS image crop|Image=spider_tarantula.png|bSize=192|cWidth=13|cHeight=22|oBottom=49|oLeft=54}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

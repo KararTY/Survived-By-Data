@@ -5,7 +5,6 @@
     "description": "Though much of the entity known as Sin dissolves upon death when exposed to sunlight, the large blade of its arm remains intact.",
     "price": 100000,
     "sellPrice": 100,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -40,13 +39,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

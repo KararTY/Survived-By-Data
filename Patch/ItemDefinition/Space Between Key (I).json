@@ -3,9 +3,9 @@
     "name": "Space Between Key (I)",
     "alias": "Dungeon Key - TX VoidEasy",
     "description": "Space Between Key (Easy)",
+    "premiumOffer": "keyVoidEasy",
     "price": 30,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -40,13 +40,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Crystal",

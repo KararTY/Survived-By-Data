@@ -3,9 +3,9 @@
     "name": "Filament Mantle",
     "alias": "Armor Light T7",
     "description": "Thin strands of metal treated with mythril became flexible tubes that could be woven together like any other thread.",
+    "premiumOffer": "T7ArmorLight",
     "price": 200000,
     "sellPrice": 2000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Armor",
     "maxStack": 1,
@@ -102,12 +102,6 @@
       "Infiltrator"
     ],
     "bonusDismantleLoot": "DismantleStandardT7",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

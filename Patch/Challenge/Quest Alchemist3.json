@@ -5,10 +5,10 @@
     "description": "Collect 8 Samples of Resin",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "QuestItem ResinNode",
+    "challengeTarget": {
+      "name": "QuestItem ResinNode"
+    },
     "challengeValue": 8,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Alchemist3"
           }
         }
+      },
+      {
+        "questText": "From the reconstructed journal we know a way to create the antidote, but we need samples of Resin from around Harsa. Collect 8 samples of resin from Harsa so we can brew the antidote.",
+        "completeText": "That the man knew of the transformative properties of the Fury corrupted resin this early is astonishing. Perhaps some truth visited him in his harsh dreams."
       }
     ]
   }

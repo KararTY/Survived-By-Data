@@ -5,10 +5,10 @@
     "description": "Find Clue by Killing Wolf Warriors",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "QuestWolfLordLocation",
+    "challengeTarget": {
+      "name": "QuestWolfLordLocation"
+    },
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Sentinel3"
           }
         }
+      },
+      {
+        "questText": "It would seem that many tombs, including that of the Great Lord Commander, have been desecrated. Worse still, the defilers have taken his sword. We must find the location of the Alpha, who will certainly have the sword. Kill his minions until you learn where he is hiding.",
+        "completeText": "The wolves gain great strength from the pack, but in this instance it has betrayed them."
       }
     ]
   }

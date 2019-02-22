@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 100,
-        "allowModifiers": false
+        "chance": 100
       }
     ]
   }

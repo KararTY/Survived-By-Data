@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 23.3,
-        "allowModifiers": false
+        "chance": 23.3
       },
       {
         "item": "Ornament Barrage",
@@ -21,8 +20,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 23.3,
-        "allowModifiers": false
+        "chance": 23.3
       },
       {
         "item": "Snowball Fight",
@@ -31,8 +29,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 23.3,
-        "allowModifiers": false
+        "chance": 23.3
       },
       {
         "item": "Snow Cyclone",
@@ -41,8 +38,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 8.3,
-        "allowModifiers": false
+        "chance": 8.3
       },
       {
         "item": "Frosty the Golem",
@@ -51,8 +47,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 8.3,
-        "allowModifiers": false
+        "chance": 8.3
       },
       {
         "item": "Ice Dryad",
@@ -61,8 +56,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 8.3,
-        "allowModifiers": false
+        "chance": 8.3
       },
       {
         "item": "Arachnid Nightmare",
@@ -71,8 +65,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 5,
-        "allowModifiers": false
+        "chance": 5
       }
     ]
   }

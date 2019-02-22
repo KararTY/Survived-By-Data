@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -34,8 +32,6 @@
     {{!}} '''spirit golem lava projectile blast''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_lava.png|bSize=384|cWidth=18|cHeight=26|oBottom=156|oLeft=302}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

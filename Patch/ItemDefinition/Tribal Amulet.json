@@ -5,7 +5,6 @@
     "description": "A Chimera amulet that never the less seems to sing with a ferocious but short heritage that warms the blood in this frozen haven.",
     "price": 14000,
     "sellPrice": 140,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Amulet",
     "maxStack": 1,
@@ -103,12 +102,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT4",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

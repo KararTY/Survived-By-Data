@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 30,
-        "allowModifiers": false
+        "chance": 30
       },
       {
         "item": "Frosty the Golem",
@@ -21,8 +20,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 30,
-        "allowModifiers": false
+        "chance": 30
       },
       {
         "item": "Ice Dryad",
@@ -31,8 +29,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 30,
-        "allowModifiers": false
+        "chance": 30
       },
       {
         "item": "Arachnid Nightmare",
@@ -41,8 +38,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 10,
-        "allowModifiers": false
+        "chance": 10
       }
     ]
   }

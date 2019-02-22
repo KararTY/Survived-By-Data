@@ -3,9 +3,9 @@
     "name": "Great Root of the Forest",
     "alias": "Alchemist T7 Weapon",
     "description": "This staff utilizes the natural qualities of a great root of the Heart of the Forest to channel destructive energies infused with rage and malice.",
+    "premiumOffer": "T7WeaponAlchemist",
     "price": 200000,
     "sellPrice": 2000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Weapon",
     "maxStack": 1,
@@ -112,12 +112,6 @@
       "Alchemist"
     ],
     "bonusDismantleLoot": "DismantleStandardT7",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

@@ -4,8 +4,6 @@
     "alias": "monster_spirit_dryad_lava_common",
     "description": "Description for Common Lava Dryad",
     "isBoss": true,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "subboss_dryad_lava_projectile",
@@ -39,27 +37,23 @@
             "projectile": {
               "name": "subboss_dryad_lava_projectile",
               "projectileName": "HydraProjectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 10,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 7,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
+                "alias": "Projectile Lava",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -78,17 +72,7 @@
                 "characterEffectPrefab": {
                   "name": "ce Fire"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
-                "trackedForChallenge": false,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -135,28 +119,23 @@
               "name": "subboss_dryad_lava_projectile1",
               "projectileName": "HydraProjectile",
               "rotationSpeed": 100,
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "tangentProjectileFireRate": 0.25,
               "tangentProjectileIndex": 2,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 4,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
+                "alias": "Projectile Lava",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -175,17 +154,7 @@
                 "characterEffectPrefab": {
                   "name": "ce Fire"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
-                "trackedForChallenge": false,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -231,28 +200,23 @@
             "projectile": {
               "name": "subboss_dryad_lava_projectile2",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "repeatHitTime": 1,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 0,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 0.01,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 10,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Lava",
+                "alias": "Projectile Lava",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -271,17 +235,7 @@
                 "characterEffectPrefab": {
                   "name": "ce Fire"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
-                "trackedForChallenge": false,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },

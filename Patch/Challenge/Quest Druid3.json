@@ -5,10 +5,10 @@
     "description": "Investigate 3 Shrines",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "DruidQuest_Circle",
+    "challengeTarget": {
+      "name": "DruidQuest_Circle"
+    },
     "challengeValue": 3,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Druid3"
           }
         }
+      },
+      {
+        "questText": "With your help I was able to travel much deeper into the jungle than I have in the past, and it looks like there are several major druidic sites constructed around Ninsa Lake. Spirits kept me from getting close, but perhaps you can investigate the locations.",
+        "completeText": "The rage of the spirits that attacked you is very concerning and I'm afraid that even the most elder druids would be unable to calm them. I'm afraid all we're going to find is a graveyard, but we owe it to them to push onward."
       }
     ]
   }

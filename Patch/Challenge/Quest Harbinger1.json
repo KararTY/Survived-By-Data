@@ -5,10 +5,10 @@
     "description": "Collect 36 Venison",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "QuestItem Meat",
+    "challengeTarget": {
+      "name": "QuestItem Meat"
+    },
     "challengeValue": 32,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Harbinger1"
           }
         }
+      },
+      {
+        "questText": "Our supplies back at the Tower are dwindling, we could really use some fresh meat to sustain the fight. Hunt 36 stags in the forest for meat.",
+        "completeText": "This will help fill some bellies back home."
       }
     ]
   }

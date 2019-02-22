@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Quests_Completed",
     "challengeValue": 250,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Complete Bounty Kills (II)",
@@ -33,8 +31,6 @@
     "challengeType": "Stat",
     "challenge": "Quests_Completed",
     "challengeValue": 20,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

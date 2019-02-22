@@ -20,8 +20,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -33,8 +31,6 @@
     {{!}} '''spirit dryad queen projectile ooze''' {{!!}} <center>{{CSS image crop|Image=spirit_golem_snow.png|bSize=384|cWidth=32|cHeight=34|oBottom=103|oLeft=200}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -57,8 +53,6 @@
     {{!}} '''spirit dryad queen projectile wave''' {{!!}} <center>{{CSS image crop|Image=heartlandhorror4.png|bSize=256|cWidth=14|cHeight=36|oBottom=153|oLeft=153}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-

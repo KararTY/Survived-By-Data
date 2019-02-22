@@ -3,9 +3,9 @@
     "name": "Seta Sabatons",
     "alias": "Boots Heavy T6",
     "description": "The seta harvested from Fury can be woven into sabatons that provide both protection and stability.",
+    "premiumOffer": "T6BootsHeavy",
     "price": 70000,
     "sellPrice": 700,
-    "consumable": false,
     "requiredLevel": 20,
     "type": "Boots",
     "maxStack": 1,
@@ -107,12 +107,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT6",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

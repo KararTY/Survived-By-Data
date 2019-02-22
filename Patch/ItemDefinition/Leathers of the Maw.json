@@ -5,7 +5,6 @@
     "description": "Before the war made academics a frivolous novelty, alchemists studying the leather recovered from the Maw of the Destroyer could not determine from what species it had come.",
     "price": 7000,
     "sellPrice": 70,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -99,12 +98,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT3",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

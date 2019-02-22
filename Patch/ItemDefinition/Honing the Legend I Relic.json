@@ -3,6 +3,7 @@
     "name": "Honing the Legend I Relic",
     "alias": "Relic Common XP Boost 1",
     "description": "This relic increases the amount of Experience earned by 2%. This bonus is cumulative with other Honing the Legend Relics.",
+    "premiumOffer": "RelicExperience1",
     "price": 3,
     "sellPrice": 0,
     "consumable": true,
@@ -60,12 +61,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Crystal",

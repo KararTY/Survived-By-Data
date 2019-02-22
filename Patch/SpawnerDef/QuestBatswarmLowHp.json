@@ -7,13 +7,8 @@
       "max": 0
     },
     "spawnRadius": 0,
-    "spawnDelayed": false,
     "quotaRadius": 30,
     "rechargeTime": 1,
-    "isBoss": false,
-    "autoPopulate": false,
-    "manuallyPlaced": false,
-    "floraOrFaunaSpawner": false,
     "spawnList": [
       {
         "monsterName": "Bat",
@@ -23,7 +18,6 @@
         "timeOfDay": "All"
       }
     ],
-    "oneTimeTrigger": false,
     "areaMax": 0,
     "areaRadius": 0
   }

@@ -3,9 +3,9 @@
     "name": "Carapace Plate",
     "alias": "Armor Heavy T6",
     "description": "The carapace of the Fury is like nothing else in the Heartland, and it provides defensive potential unmatched by natural materials.",
+    "premiumOffer": "T6ArmorHeavy",
     "price": 70000,
     "sellPrice": 700,
-    "consumable": false,
     "requiredLevel": 20,
     "type": "Armor",
     "maxStack": 1,
@@ -101,12 +101,6 @@
       "Geomancer"
     ],
     "bonusDismantleLoot": "DismantleStandardT6",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

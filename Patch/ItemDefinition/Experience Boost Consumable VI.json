@@ -3,9 +3,35 @@
     "name": "Experience Boost Consumable VI",
     "alias": "Consumable XP Boost 6",
     "description": "Doubles experience gained for 168 hours for all characters. This benefit does not end on death.",
+    "premiumOffer": "ConsumableExperienceBonus6",
     "price": 1,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Experience Buff",
+      "alias": "Consumable XP Buff 6",
+      "floatingText": "XP MULTIPLIER",
+      "type": "Normal",
+      "duration": 604800,
+      "stats": [
+        {
+          "key": "ExperienceBonus",
+          "equation": "[ExperienceBonus]+1",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 10,
@@ -48,15 +74,10 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "coolDown": 0.5,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

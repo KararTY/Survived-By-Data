@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -32,8 +30,6 @@
     {{!}} '''spirit dryad tree projectile vines''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=33|cHeight=20|oBottom=124|oLeft=5}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -58,8 +54,6 @@
     {{!}} '''spirit dryad tree projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=12|cHeight=12|oBottom=200|oLeft=55}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-

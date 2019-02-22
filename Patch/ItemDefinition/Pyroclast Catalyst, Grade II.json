@@ -3,9 +3,9 @@
     "name": "Pyroclast Catalyst, Grade II",
     "alias": "z Crafting Material Rare T10 v1",
     "description": "The Infernals exist to destroy indiscriminately, trusting in the Great Tree to slowly heal from the damage that must to be done to eradicate the disease. Pyroclast is the raw molten material that the Infernals are composed of. This is a rare crafting component.",
+    "premiumOffer": "VolcanoCatalyst2",
     "price": 300,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -40,13 +40,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",

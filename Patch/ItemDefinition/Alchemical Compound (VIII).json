@@ -5,9 +5,15 @@
     "description": "The works of the Alchemists are delicate and nuanced, but if you just want to blow something up grab that third vial from the left.",
     "price": 66,
     "sellPrice": 33,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Consumable",
+    "ability": {
+      "name": "Special Bomb",
+      "projectilesOnActivate": [
+        15
+      ],
+      "mode": 0
+    },
     "maxStack": 0,
     "tier": 1,
     "data": [
@@ -60,12 +66,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

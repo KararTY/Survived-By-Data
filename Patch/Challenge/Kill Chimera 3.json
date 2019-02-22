@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Chimera",
     "challengeValue": 1500,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Kill Chimeras (II)",
@@ -33,8 +31,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Chimera",
     "challengeValue": 200,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

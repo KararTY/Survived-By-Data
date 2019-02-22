@@ -19,8 +19,6 @@ monster_chimera_lionmage_feral={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -58,8 +56,6 @@ monster_chimera_lion_feral={{Enemy
     {{!}} '''chimera lion feral projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_lion_feral.png|bSize=256|cWidth=12|cHeight=49|oBottom=71|oLeft=74}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

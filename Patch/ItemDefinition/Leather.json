@@ -5,7 +5,6 @@
     "description": "Constructed from scraps of Hide, Leather provides a balance between protection and flexibility.",
     "price": 20,
     "sellPrice": 2,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -56,13 +55,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

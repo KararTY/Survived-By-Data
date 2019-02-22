@@ -5,7 +5,6 @@
     "description": "Shards of Obsidian, a critical component of all offensive magic, are gathered from the dangerous Fire Sands.",
     "price": 20,
     "sellPrice": 2,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -56,13 +55,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",
@@ -78,7 +70,6 @@
     "description": "Shards of Obsidian, a critical component of all offensive magic, are gathered from the dangerous Fire Sands.",
     "price": 32,
     "sellPrice": 16,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 100,
@@ -129,13 +120,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 35,
     "modifierChance": 0.75

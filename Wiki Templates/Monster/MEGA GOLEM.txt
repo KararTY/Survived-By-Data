@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 5.8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -34,8 +32,6 @@
     {{!}} '''mega golem projectile splat''' {{!!}} <center>{{CSS image crop|Image=Boss_golem_Alchemist Quest.png|bSize=384|cWidth=15|cHeight=16|oBottom=210|oLeft=65}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

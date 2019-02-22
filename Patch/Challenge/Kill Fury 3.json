@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Furies",
     "challengeValue": 200,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

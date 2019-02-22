@@ -3,9 +3,9 @@
     "name": "Precision of the Witness",
     "alias": "Harbinger T8 Weapon",
     "description": "The shaft of these arrows is embedded with shards of a Waystone, causing it to shift in flight to better find the gap in a target's protection.",
+    "premiumOffer": "T8WeaponHarbinger",
     "price": 500000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Weapon",
     "maxStack": 1,
@@ -113,12 +113,6 @@
       "Harbinger"
     ],
     "bonusDismantleLoot": "DismantleStandardT8",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

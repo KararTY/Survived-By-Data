@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Adaptability Imprint",
@@ -21,8 +20,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Emoji Silver",
@@ -31,8 +29,7 @@
           "faces": 0,
           "add": 0
         },
-        "chance": 0,
-        "allowModifiers": false
+        "chance": 0
       },
       {
         "item": "Celerity Imprint",
@@ -41,8 +38,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Close Shot Imprint",
@@ -51,8 +47,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Dedication Imprint",
@@ -61,8 +56,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Defense Imprint",
@@ -71,8 +65,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Determination Imprint",
@@ -81,8 +74,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Expertise Imprint",
@@ -91,8 +83,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Flanking Shot Imprint",
@@ -101,8 +92,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Greater Endurance Imprint",
@@ -111,8 +101,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Greater Energy Imprint",
@@ -121,8 +110,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Greater Focus Imprint",
@@ -131,8 +119,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Greater Health Imprint",
@@ -141,8 +128,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Greater Potency Imprint",
@@ -151,8 +137,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Greater Swiftness Imprint",
@@ -161,8 +146,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Greater Willpower Imprint",
@@ -171,8 +155,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Heavy Shot Imprint",
@@ -181,8 +164,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Emoji Silver",
@@ -191,8 +173,7 @@
           "faces": 0,
           "add": 0
         },
-        "chance": 0,
-        "allowModifiers": false
+        "chance": 0
       },
       {
         "item": "Long Range Ricochet Imprint",
@@ -201,8 +182,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Long Shot Imprint",
@@ -211,8 +191,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Melee Shot Imprint",
@@ -221,8 +200,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Offense Imprint",
@@ -231,8 +209,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Paired Helix Imprint",
@@ -241,8 +218,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Paired Piercing Wave Imprint",
@@ -251,8 +227,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Paired Wave Imprint",
@@ -261,8 +236,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Penta Spread Shot Imprint",
@@ -271,8 +245,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Penta Spread Wave Shot Imprint",
@@ -281,8 +254,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Piercing Shot Imprint",
@@ -291,8 +263,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Piercing Wave Shot Imprint",
@@ -301,8 +272,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Poison Shot Imprint",
@@ -311,8 +281,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Power Imprint",
@@ -321,8 +290,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Powerful Imprint",
@@ -331,8 +299,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Precision Imprint",
@@ -341,8 +308,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Quad Spread Shot Imprint",
@@ -351,8 +317,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Quad Spread Wave Shot Imprint",
@@ -361,8 +326,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Rage Imprint",
@@ -371,8 +335,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Emoji Silver",
@@ -381,8 +344,7 @@
           "faces": 0,
           "add": 0
         },
-        "chance": 0,
-        "allowModifiers": false
+        "chance": 0
       },
       {
         "item": "Ricochet Shot Imprint",
@@ -391,8 +353,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Protective Imprint",
@@ -401,8 +362,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Energetic Imprint",
@@ -411,8 +371,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Protective Imprint",
@@ -421,8 +380,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Regenerative Imprint",
@@ -431,8 +389,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Retributive Imprint",
@@ -441,8 +398,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Sidestep Imprint",
@@ -451,8 +407,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Greater Skill Imprint",
@@ -461,8 +416,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Snare Shot Imprint",
@@ -471,8 +425,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Snare Shot Imprint",
@@ -481,8 +434,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Staggered Frag Shot Imprint",
@@ -491,8 +443,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Survivability Imprint",
@@ -501,8 +452,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Tri Shot Imprint",
@@ -511,8 +461,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Tri Spread Shot Imprint",
@@ -521,8 +470,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Versatility Imprint",
@@ -531,8 +479,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       }
     ]
   }

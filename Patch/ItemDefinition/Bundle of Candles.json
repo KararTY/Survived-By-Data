@@ -5,7 +5,6 @@
     "description": "For those brave souls that wish to take the fight to the denizens of the deep, you will need candles to light your way. There's nothing special about these candles, you'll just need a lot of them.",
     "price": 10000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -61,13 +60,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

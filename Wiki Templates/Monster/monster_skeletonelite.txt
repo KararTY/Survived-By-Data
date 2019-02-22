@@ -15,8 +15,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -28,8 +26,6 @@
     {{!}} '''lob AOE''' {{!!}} <center>{{CSS image crop|Image=treant_fire_01.png|bSize=256|cWidth=26|cHeight=27|oBottom=128|oLeft=1}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

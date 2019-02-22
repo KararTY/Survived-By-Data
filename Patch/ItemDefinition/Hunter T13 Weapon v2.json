@@ -5,7 +5,6 @@
     "description": "[deprecated]",
     "price": 343,
     "sellPrice": 171,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -50,12 +49,6 @@
     "class": [
       "Harbinger"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75

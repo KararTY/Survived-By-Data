@@ -8,7 +8,6 @@
     "challenge": "DeepNight_Turn_In_Amber_Effigy",
     "challengeValue": 30,
     "achievement": true,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Turn in Amber Effigy (II)",

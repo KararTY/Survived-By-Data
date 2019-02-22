@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 20,
-        "allowModifiers": false
+        "chance": 20
       },
       {
         "item": "Eye of Obsidian (Health)",
@@ -21,8 +20,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 20,
-        "allowModifiers": false
+        "chance": 20
       },
       {
         "item": "Eye of Obsidian (Energy)",
@@ -31,8 +29,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 20,
-        "allowModifiers": false
+        "chance": 20
       },
       {
         "item": "Pyroclast Catalyst, Grade I",
@@ -41,8 +38,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 40,
-        "allowModifiers": false
+        "chance": 40
       }
     ],
     "reference": "HeirloomLoot"

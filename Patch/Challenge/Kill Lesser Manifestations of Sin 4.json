@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Lesser_Manifestations_Of_Sin",
     "challengeValue": 2500,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Kill Lesser Manifestations of Sin (IIII)",

@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Level",
     "challengeValue": 10,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

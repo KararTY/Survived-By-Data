@@ -18,8 +18,6 @@ monster_beast_phoenix={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -46,8 +44,6 @@ monster_beast_phoenix_rebirth={{Enemy
     {{!}} '''phoenix projectile2''' {{!!}} <center>{{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=19|cHeight=17|oBottom=210|oLeft=14}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

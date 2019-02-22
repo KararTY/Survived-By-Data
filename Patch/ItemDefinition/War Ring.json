@@ -5,7 +5,6 @@
     "description": "These wide band rings allowed for more inscriptions and, as a result, more focused channeling.",
     "price": 28000,
     "sellPrice": 280,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Ring",
     "maxStack": 1,
@@ -103,12 +102,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT5",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

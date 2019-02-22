@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Deal_PointsOfDamage",
     "challengeValue": 50000,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",
@@ -33,8 +31,6 @@
     "challengeType": "Stat",
     "challenge": "Deal_PointsOfDamage",
     "challengeValue": 25000,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Deal Points of Damage (I)",

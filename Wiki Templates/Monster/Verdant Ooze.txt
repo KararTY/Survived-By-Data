@@ -19,8 +19,6 @@ monster_slime_add_Overworld={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 4
@@ -44,8 +42,6 @@ monster_slime_add_Overworld={{Enemy
     {{!}} '''slime add projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_ooze_Boil and Bubble.png|bSize=192|cWidth=14|cHeight=39|oBottom=53|oLeft=99}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 12
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -88,8 +84,6 @@ monster_slime_add={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 4
@@ -113,8 +107,6 @@ monster_slime_add={{Enemy
     {{!}} '''slime add projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_ooze_Boil and Bubble.png|bSize=192|cWidth=14|cHeight=39|oBottom=53|oLeft=99}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 12
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-
@@ -157,8 +149,6 @@ monster_spirit_moss_ooze={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 4
@@ -182,8 +172,6 @@ monster_spirit_moss_ooze={{Enemy
     {{!}} '''spirit moss ooze projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_moss_ooze.png|bSize=192|cWidth=10|cHeight=35|oBottom=53|oLeft=101}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 12
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-

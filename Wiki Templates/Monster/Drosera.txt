@@ -19,8 +19,6 @@ plant_mine={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 30
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Use random range {{!!}} Yes
     {{!}}-
     {{!}}-
@@ -36,8 +34,6 @@ plant_mine={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 5
@@ -50,8 +46,6 @@ plant_mine={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -63,8 +57,6 @@ plant_mine={{Enemy
     {{!}} '''plant mine projectile''' {{!!}} <center>{{CSS image crop|Image=plant_mine.png|bSize=192|cWidth=5|cHeight=25|oBottom=60|oLeft=58}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 5
     {{!}}-
@@ -92,8 +84,6 @@ boss_elementalspirit_mine_seed={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 30
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Use random range {{!!}} Yes
     {{!}}-
     {{!}}-
@@ -109,8 +99,6 @@ boss_elementalspirit_mine_seed={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 5
@@ -123,8 +111,6 @@ boss_elementalspirit_mine_seed={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -136,8 +122,6 @@ boss_elementalspirit_mine_seed={{Enemy
     {{!}} '''plant mine projectile''' {{!!}} <center>{{CSS image crop|Image=plant_mine.png|bSize=192|cWidth=5|cHeight=25|oBottom=60|oLeft=58}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 5
     {{!}}-
@@ -166,8 +150,6 @@ boss_elementalspirit_mine={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 30
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Use random range {{!!}} Yes
     {{!}}-
     {{!}}-
@@ -183,8 +165,6 @@ boss_elementalspirit_mine={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 5
@@ -197,8 +177,6 @@ boss_elementalspirit_mine={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -210,8 +188,6 @@ boss_elementalspirit_mine={{Enemy
     {{!}} '''plant mine projectile''' {{!!}} <center>{{CSS image crop|Image=plant_mine.png|bSize=192|cWidth=5|cHeight=25|oBottom=60|oLeft=58}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 5
     {{!}}-

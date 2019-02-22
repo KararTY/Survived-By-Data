@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Eruption",
+            "alias": "Eruption Damage Over Time",
             "type": "Normal",
             "duration": 5,
             "stats": [
@@ -26,21 +27,10 @@
             "characterEffectPrefab": {
               "name": "ce Fire"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
-            "trackedForChallenge": false,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "CriticalHit",
@@ -146,6 +136,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Eruption",
+            "alias": "Eruption Damage Over Time",
             "type": "Normal",
             "duration": 5,
             "stats": [
@@ -159,21 +150,10 @@
             "characterEffectPrefab": {
               "name": "ce Fire"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
-            "trackedForChallenge": false,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "CriticalHit",
@@ -279,6 +259,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Eruption",
+            "alias": "Eruption Damage Over Time",
             "type": "Normal",
             "duration": 5,
             "stats": [
@@ -292,21 +273,10 @@
             "characterEffectPrefab": {
               "name": "ce Fire"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
-            "trackedForChallenge": false,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "CriticalHit",

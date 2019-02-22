@@ -3,9 +3,9 @@
     "name": "Zweihander",
     "alias": "Sentinel T7 Weapon",
     "description": "The lightweight qualities of mythril allow for the forging of massive swords that would normally be too heavy to use effectively.",
+    "premiumOffer": "T7WeaponSentinel",
     "price": 200000,
     "sellPrice": 2000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Weapon",
     "maxStack": 1,
@@ -117,12 +117,6 @@
       "Sentinel"
     ],
     "bonusDismantleLoot": "DismantleStandardT7",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

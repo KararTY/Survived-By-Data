@@ -5,10 +5,10 @@
     "description": "Slay MEGA GOLEM MONSTER",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_mega_golem",
+    "challengeTarget": {
+      "name": "monster_mega_golem"
+    },
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Alchemist4"
           }
         }
+      },
+      {
+        "questText": "Using this antidote, slay the MEGA GOLEM MONSTER hiding in Harsa and destroy the cauldron.",
+        "completeText": "With the source destroyed perhaps this insane experiment is finally done."
       }
     ]
   }

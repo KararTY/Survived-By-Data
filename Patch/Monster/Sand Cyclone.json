@@ -3,9 +3,6 @@
     "name": "Sand Cyclone",
     "alias": "monster_spirit_cyclone_sand_dangerous",
     "description": "Description for Sand Cyclone",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "spirit_cyclone_sand_projectile",
@@ -40,27 +37,26 @@
               "name": "spirit_cyclone_sand_projectile",
               "projectileName": "Projectile",
               "orbitSpeed": 2.5,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "launchOffsetDistance": 0.5,
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
               "maintainOrbitRange": true,
               "ownerRelative": true,
-              "sineWaveMotion": false,
               "speed": 5,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 2,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Slowed",
+                "alias": "RateOfAttack Debuff T10",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -79,17 +75,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -233,9 +220,6 @@
     "name": "Sand Cyclone",
     "alias": "monster_spirit_cyclone_sand",
     "description": "Description for Sand Cyclone",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "spirit_cyclone_sand_projectile",
@@ -270,27 +254,26 @@
               "name": "spirit_cyclone_sand_projectile",
               "projectileName": "Projectile",
               "orbitSpeed": 2.5,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "launchOffsetDistance": 0.5,
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
               "maintainOrbitRange": true,
               "ownerRelative": true,
-              "sineWaveMotion": false,
               "speed": 5,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 2,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Slowed",
+                "alias": "RateOfAttack Debuff T10",
                 "type": "Normal",
                 "duration": 5,
                 "stats": [
@@ -309,17 +292,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },

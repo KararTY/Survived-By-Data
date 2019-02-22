@@ -20,8 +20,6 @@ monster_kraken={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -53,8 +51,6 @@ monster_kraken_world={{Enemy
     {{!}} '''kraken projectile''' {{!!}} <center>{{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=40|cHeight=19|oBottom=195|oLeft=460}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

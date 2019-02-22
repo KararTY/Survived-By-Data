@@ -5,7 +5,6 @@
     "description": "[Deprecated]",
     "price": 342,
     "sellPrice": 171,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -49,12 +48,6 @@
     "class": [
       "Alchemist"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75

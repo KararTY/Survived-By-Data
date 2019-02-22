@@ -5,9 +5,11 @@
     "description": "Conviction is necessary to gain the most from this artifact, but even without it's still a big ol' slab of metal.",
     "price": 7,
     "sellPrice": 3,
-    "consumable": false,
     "requiredLevel": 5,
     "type": "Consumable",
+    "ability": {
+      "name": "Special Ward T1"
+    },
     "maxStack": 0,
     "tier": 1,
     "data": [
@@ -55,12 +57,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Items_Crafted",
     "challengeValue": 75,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Craft Items (I)",
@@ -33,8 +31,6 @@
     "challengeType": "Stat",
     "challenge": "Items_Crafted",
     "challengeValue": 16,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Reach Level",

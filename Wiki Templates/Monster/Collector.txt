@@ -16,8 +16,6 @@ monster_agent_collector_tutorial={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 4
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -39,8 +37,6 @@ monster_agent_collector_tutorial={{Enemy
     {{!}} colspan="2" {{!}}'''collector special projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-
@@ -84,8 +80,6 @@ monster_agent_collector={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 4
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -107,8 +101,6 @@ monster_agent_collector={{Enemy
     {{!}} colspan="2" {{!}}'''collector special projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-
@@ -153,8 +145,6 @@ monster_agent_collector_elite={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 4
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -176,8 +166,6 @@ monster_agent_collector_elite={{Enemy
     {{!}} colspan="2" {{!}}'''collector special projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-
@@ -220,8 +208,6 @@ monster_agent_collector_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 4
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -243,8 +229,6 @@ monster_agent_collector_dangerous={{Enemy
     {{!}} colspan="2" {{!}}'''collector special projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-
@@ -288,8 +272,6 @@ monster_agent_collector_T7={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 4
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -311,8 +293,6 @@ monster_agent_collector_T7={{Enemy
     {{!}} colspan="2" {{!}}'''collector T7 special projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-

@@ -3,9 +3,6 @@
     "name": "Great Feral Charodon",
     "alias": "invasion_T7_shark_white_great",
     "description": "Description for Great Feral Charodon",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "chimera_shark_white_projectile",
@@ -39,25 +36,20 @@
             "projectile": {
               "name": "chimera_shark_white_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 6,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 7,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.19,
                 "g": 0.26,
@@ -199,9 +191,6 @@
     "name": "Great Feral Charodon",
     "alias": "monster_chimera_shark_white_great",
     "description": "Description for Great Feral Charodon",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "chimera_shark_white_projectile",
@@ -235,25 +224,20 @@
             "projectile": {
               "name": "chimera_shark_white_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 6,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 7,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.19,
                 "g": 0.26,

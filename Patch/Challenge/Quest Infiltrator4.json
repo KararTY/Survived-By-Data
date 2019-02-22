@@ -5,10 +5,10 @@
     "description": "Kill the Lion King",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_lionking_quest",
+    "challengeTarget": {
+      "name": "monster_lionking_quest"
+    },
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Infiltrator4"
           }
         }
+      },
+      {
+        "questText": "I've finally found this hero the Leo are so worked up over. He's taken up residence down south, near the lake, but I managed to sneak a waystone anchor inside his royal hall. Just step through the portal and put an end to him.",
+        "completeText": "Nice work. The Crocuta are already increasing their attacks against the disorganized Leos. It should keep them occupied for a little while. But it's only a matter of time until one of them, Leo or Crocuta, gets delusions of grandeur again. I doubt this is the last time we'll have to break up one of these cults."
       }
     ]
   }

@@ -16,8 +16,6 @@ monster_chimera_wolfwarrior_tutorial_easy={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -31,8 +29,6 @@ monster_chimera_wolfwarrior_tutorial_easy={{Enemy
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-
@@ -62,8 +58,6 @@ monster_chimera_wolfwarrior_tutorial_medium={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -77,8 +71,6 @@ monster_chimera_wolfwarrior_tutorial_medium={{Enemy
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-
@@ -108,8 +100,6 @@ monster_chimera_wolfwarrior_tutorial_hard={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -123,8 +113,6 @@ monster_chimera_wolfwarrior_tutorial_hard={{Enemy
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-
@@ -156,8 +144,6 @@ monster_chimera_wolfwarrior={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -171,8 +157,6 @@ monster_chimera_wolfwarrior={{Enemy
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-
@@ -204,8 +188,6 @@ invasion_T5_wolfwarrior={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -219,8 +201,6 @@ invasion_T5_wolfwarrior={{Enemy
     {{!}} '''wolfwarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfwarrior.png|bSize=256|cWidth=22|cHeight=46|oBottom=74|oLeft=69}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-

@@ -1,5 +1,6 @@
 [
   "GameObject \t\t*",
+  "MonoBehaviour \t\tAssets.Scripts.GameCode.SpecialAbilities",
   "MonoBehaviour \t\tChallenge",
   "MonoBehaviour \t\tDeity.AudioMessage",
   "MonoBehaviour \t\tDeity.ChatBubble*",

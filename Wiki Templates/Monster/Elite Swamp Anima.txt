@@ -20,8 +20,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-
     {{!}} Max hits {{!!}} 10
@@ -35,8 +33,6 @@
     {{!}} '''spirit nereides swamp projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_swampwater.png|bSize=256|cWidth=16|cHeight=22|oBottom=135|oLeft=197}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7.5
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 6
     {{!}}-
@@ -61,8 +57,6 @@
     {{!}} '''spirit nereides swamp projectile3''' {{!!}} <center>{{CSS image crop|Image=spirit_nereides_swampwater.png|bSize=256|cWidth=16|cHeight=22|oBottom=135|oLeft=197}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 4
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 12
     {{!}}-

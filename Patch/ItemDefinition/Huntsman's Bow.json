@@ -5,7 +5,6 @@
     "description": "A tool for the hunter capable of getting close to their target to make up for the simplicity of this weapon's construction",
     "price": 30,
     "sellPrice": 20,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -104,12 +103,6 @@
       "Harbinger"
     ],
     "bonusDismantleLoot": "DismantleStandardT2",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

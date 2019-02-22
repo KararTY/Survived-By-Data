@@ -5,7 +5,6 @@
     "description": "Though superficially this seems like the simplest conversion of the Sin Barb into a weapon for humans, the barb is not used for the blade and is instead used to purify and enforce a traditional metal blade.",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -135,12 +134,6 @@
     "class": [
       "Sentinel"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

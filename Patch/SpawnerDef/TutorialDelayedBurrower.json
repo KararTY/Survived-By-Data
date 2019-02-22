@@ -10,10 +10,7 @@
     "spawnDelayed": true,
     "quotaRadius": 30,
     "rechargeTime": 0,
-    "isBoss": false,
-    "autoPopulate": false,
     "manuallyPlaced": true,
-    "floraOrFaunaSpawner": false,
     "spawnList": [
       {
         "monsterName": "Vanguard",
@@ -23,7 +20,6 @@
         "timeOfDay": "All"
       }
     ],
-    "oneTimeTrigger": false,
     "areaMax": 0,
     "areaRadius": 0
   }

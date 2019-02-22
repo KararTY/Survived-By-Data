@@ -5,7 +5,6 @@
     "description": "Perhaps left over from the last war, this hasn't seen active use for generations.",
     "price": 30,
     "sellPrice": 20,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -84,12 +83,6 @@
       "Geomancer"
     ],
     "bonusDismantleLoot": "DismantleStandardT2",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Kill_Infernals",
     "challengeValue": 50,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {

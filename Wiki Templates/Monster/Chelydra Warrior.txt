@@ -18,8 +18,6 @@ monster_chimera_turtlesnap={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -47,8 +45,6 @@ invasion_T6_turtlesnap={{Enemy
     {{!}} '''chimera turtlesnap projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_turtlesnap.png|bSize=256|cWidth=17|cHeight=28|oBottom=66|oLeft=72}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

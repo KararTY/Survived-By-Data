@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Pickaxe",
@@ -21,8 +20,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Mythril Arrow",
@@ -31,8 +29,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Great Root of the Forest",
@@ -41,8 +38,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Zweihander",
@@ -51,8 +47,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Hollow Dagger",
@@ -61,8 +56,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Mythril Coil",
@@ -71,8 +65,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Hollow Amulet",
@@ -81,8 +74,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Mythril Plate",
@@ -91,8 +83,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Filament Mantle",
@@ -101,8 +92,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Leather Laminar",
@@ -111,8 +101,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Mythril Plated Sabatons",
@@ -121,8 +110,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       },
       {
         "item": "Treaded Boots",
@@ -131,8 +119,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 1,
-        "allowModifiers": false
+        "chance": 1
       }
     ]
   }

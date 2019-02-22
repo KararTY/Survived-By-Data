@@ -17,8 +17,6 @@ monster_krakententacle={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -54,8 +52,6 @@ monster_krakententacle_hardmode={{Enemy
     {{!}} '''krakententacle projectile''' {{!!}} <center>{{CSS image crop|Image=kraken_02.png|bSize=512|cWidth=16|cHeight=32|oBottom=224|oLeft=456}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

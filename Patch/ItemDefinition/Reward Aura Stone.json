@@ -3,9 +3,39 @@
     "name": "Reward Aura Stone",
     "alias": "Consumable Lesser Reward Stone",
     "description": "Once activated, for three hours this stone provides an increase in drop rates and experience gained of 30%. This benefit ends on death.",
+    "premiumOffer": "ConsumableDropRateLesser",
     "price": 20,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Reward Buff",
+      "alias": "Consumable Lesser Reward Buff",
+      "floatingText": "REWARD BUFF",
+      "type": "Normal",
+      "duration": 10800,
+      "stats": [
+        {
+          "key": "DropRateIncrease",
+          "equation": "[DropRateIncrease]+0.3",
+          "value": 0
+        },
+        {
+          "key": "ExperienceBonus",
+          "equation": "[ExperienceBonus]+0.3",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 10,
@@ -48,12 +78,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Crystal",

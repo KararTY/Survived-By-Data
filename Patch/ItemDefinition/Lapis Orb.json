@@ -5,7 +5,6 @@
     "description": "A pure sample of Lapis Lazuli, harvested from Manifestations of Sin and then polished to a perfect sphere, is a powerful source of the element An (Umbra).",
     "price": 10000,
     "sellPrice": 10,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -56,13 +55,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

@@ -18,8 +18,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 4
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 30
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -31,8 +29,6 @@
     {{!}} '''boss darkpersona projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Dark Persona.png|bSize=640|cWidth=29|cHeight=49|oBottom=811|oLeft=584}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

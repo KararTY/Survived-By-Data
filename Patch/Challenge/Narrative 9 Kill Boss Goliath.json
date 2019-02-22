@@ -7,7 +7,6 @@
     "challenge": "Level_Druid",
     "challengeValue": 1,
     "achievement": true,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {

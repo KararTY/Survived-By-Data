@@ -18,8 +18,6 @@ monster_chimera_stag_feral_T1={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -33,8 +31,6 @@ monster_chimera_stag_feral_T1={{Enemy
     {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-
@@ -66,8 +62,6 @@ invasion_T1_stag_feral={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.4
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -81,8 +75,6 @@ invasion_T1_stag_feral={{Enemy
     {{!}} '''stagferal projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_stagferal.png|bSize=256|cWidth=45|cHeight=44|oBottom=117|oLeft=137}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Delay rate {{!!}} 0.15
     {{!}}-

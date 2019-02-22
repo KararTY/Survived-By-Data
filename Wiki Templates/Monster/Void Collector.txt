@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 4
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -42,8 +40,6 @@
     {{!}} colspan="2" {{!}}'''collector void special projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-

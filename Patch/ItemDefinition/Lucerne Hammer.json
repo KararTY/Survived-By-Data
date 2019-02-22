@@ -5,7 +5,6 @@
     "description": "Though the tools of the Geomancer were often multi-functional, the Lucerne Hammer was a weapon through and through, and was the choice of any Geomancer going into war.",
     "price": 28000,
     "sellPrice": 280,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -102,12 +101,6 @@
       "Geomancer"
     ],
     "bonusDismantleLoot": "DismantleStandardT5",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -119,7 +112,6 @@
     "description": "[deprecated]",
     "price": 13,
     "sellPrice": 6,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -159,12 +151,6 @@
     "class": [
       "Geomancer"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75

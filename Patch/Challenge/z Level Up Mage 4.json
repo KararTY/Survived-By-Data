@@ -8,7 +8,6 @@
     "challenge": "Level_Mage",
     "challengeValue": 20,
     "achievement": true,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Level Alchemist (III)",

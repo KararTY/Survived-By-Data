@@ -5,10 +5,10 @@
     "description": "Destroy 5 lava spouts",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "lava_spout_quest",
+    "challengeTarget": {
+      "name": "lava_spout_quest"
+    },
     "challengeValue": 5,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Holey Ground"
           }
         }
+      },
+      {
+        "questText": "I still don't have the source figured out, but there's another oddity I'd have you investigate. There are lava fissures opening up all across the Escalade Islands. I don't think you can stop them all, but if you can collapse a handful of them, 5 or so, it will slow the damage.",
+        "completeText": "Great work collapsing those vents. But even better, while you were out I found our source!"
       }
     ]
   }

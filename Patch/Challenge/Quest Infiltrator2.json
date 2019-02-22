@@ -5,10 +5,10 @@
     "description": "Collect 15 Idols from Leo Magi",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "QuestItem Lion Idol",
+    "challengeTarget": {
+      "name": "QuestItem Lion Idol"
+    },
     "challengeValue": 15,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Infiltrator2"
           }
         }
+      },
+      {
+        "questText": "Now that was not what I expected. This is a level of tribalism we haven't seen in the Chimera before. The Leo Magi seem the most intelligent of the lot, and the most likely to form complex social structures. Start killing them and see if there are any signs of organization.",
+        "completeText": "These idols are definitely tied to some sort of hero worship. They are all inscribed with the same face. So now we need to find this hero."
       }
     ]
   }

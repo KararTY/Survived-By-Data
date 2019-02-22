@@ -5,7 +5,6 @@
     "description": "As the Sin Barb was used as a weapon against you, so to does it make an exceptional weapon for you to wield. ",
     "price": 50,
     "sellPrice": 12,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -113,12 +112,6 @@
     "class": [
       "Infiltrator"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

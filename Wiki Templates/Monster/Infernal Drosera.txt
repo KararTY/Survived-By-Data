@@ -18,8 +18,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 30
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Use random range {{!!}} Yes
     {{!}}-
     {{!}}-
@@ -35,8 +33,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 5
@@ -49,8 +45,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -62,8 +56,6 @@
     {{!}} '''plant mine infernal projectile''' {{!!}} <center>{{CSS image crop|Image=plant_mine_infernal.png|bSize=192|cWidth=5|cHeight=25|oBottom=60|oLeft=58}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 5
     {{!}}-

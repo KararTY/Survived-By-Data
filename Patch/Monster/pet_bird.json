@@ -1,10 +1,6 @@
 [
   {
     "name": "pet_bird",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {

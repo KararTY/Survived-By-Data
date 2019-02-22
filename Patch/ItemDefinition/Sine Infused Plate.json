@@ -5,7 +5,6 @@
     "description": "Wait, Sine? Not Sin? It's a knock off! You can see where the paint is already starting the chip away. You knew that auction house seller's name looked shady...",
     "price": 50,
     "sellPrice": 12,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -67,12 +66,6 @@
       "Sentinel",
       "Geomancer"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

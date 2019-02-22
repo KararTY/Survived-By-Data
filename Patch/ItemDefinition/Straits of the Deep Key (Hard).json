@@ -3,9 +3,9 @@
     "name": "Straits of the Deep Key (Hard)",
     "alias": "Dungeon Key - T9 IslandHard",
     "description": "Straits of the Deep Key (Hard)",
+    "premiumOffer": "keyIslandHard",
     "price": 15,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -61,13 +61,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",

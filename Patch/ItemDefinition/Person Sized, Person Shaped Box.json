@@ -5,7 +5,6 @@
     "description": "Well, this isn't ominous at all. Maybe the craftsman can break it open so you can see what's inside. Is that tinsel sticking out through the seam? Maybe you don't want to see what is inside...",
     "price": 10000,
     "sellPrice": 5000,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -40,13 +39,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

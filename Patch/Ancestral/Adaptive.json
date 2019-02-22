@@ -11,7 +11,6 @@
           "description": "On Hit, gain #% Crit Chance. Once a critical hit is landed, this bonus resets to zero\r",
           "counterMax": 0,
           "timerValue": 0,
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "NonCriticalHit",
@@ -139,7 +138,6 @@
           "description": "On Hit, gain #% Crit Chance. Once a critical hit is landed, this bonus resets to zero\r",
           "counterMax": 0,
           "timerValue": 0,
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "NonCriticalHit",
@@ -267,7 +265,6 @@
           "description": "On Hit, gain #% Crit Score. Once a critical hit is landed, this bonus resets to zero\r",
           "counterMax": 0,
           "timerValue": 0,
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "NonCriticalHit",

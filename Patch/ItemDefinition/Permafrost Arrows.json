@@ -5,7 +5,6 @@
     "description": "Though the bow is simply functional, the arrows it fires have heads of perpetually frozen ice, which tear flesh easily and leave wounds open to bleed.",
     "price": 14000,
     "sellPrice": 140,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -109,12 +108,6 @@
       "Harbinger"
     ],
     "bonusDismantleLoot": "DismantleStandardT4",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

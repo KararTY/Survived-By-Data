@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 1
         },
-        "chance": 100,
-        "allowModifiers": false
+        "chance": 100
       },
       {
         "item": "Lapis Fragment",
@@ -21,8 +20,7 @@
           "faces": 8,
           "add": 2
         },
-        "chance": 30,
-        "allowModifiers": false
+        "chance": 30
       },
       {
         "item": "Lapis Core",
@@ -31,8 +29,7 @@
           "faces": 4,
           "add": 1
         },
-        "chance": 30,
-        "allowModifiers": false
+        "chance": 30
       }
     ]
   }

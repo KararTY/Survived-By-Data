@@ -5,10 +5,10 @@
     "description": "Collect 15 Corrupted Fire Sand",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "QuestItem Corrupted Fire Sand",
+    "challengeTarget": {
+      "name": "QuestItem Corrupted Fire Sand"
+    },
     "challengeValue": 15,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Collect Corrupted Fire Sand"
           }
         }
+      },
+      {
+        "questText": "There's some Infernal activity in the area, but it's odd. So I need you to collect 15 samples of the corrupted fire sands that litter the islands, then bring them back to me. Then maybe we can get some answers.",
+        "completeText": "This is good, good. Now let's take a look..."
       }
     ]
   }

@@ -19,8 +19,6 @@ boss_gorgon={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8.8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -48,8 +46,6 @@ boss_gorgon={{Enemy
     {{!}} '''boss gorgon projectile''' {{!!}} <center>{{CSS image crop|Image=boss_gorgon.png|bSize=384|cWidth=13|cHeight=30|oBottom=108|oLeft=306}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -80,8 +76,6 @@ boss_gorgon_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 8.8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -109,8 +103,6 @@ boss_gorgon_world={{Enemy
     {{!}} '''boss gorgon projectile''' {{!!}} <center>{{CSS image crop|Image=boss_gorgon.png|bSize=384|cWidth=13|cHeight=30|oBottom=108|oLeft=306}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 10
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

@@ -18,8 +18,6 @@ monster_chimera_wolfmage={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -47,8 +45,6 @@ invasion_T5_wolfmage={{Enemy
     {{!}} '''wolfmage projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_wolfmage.png|bSize=256|cWidth=19|cHeight=42|oBottom=76|oLeft=199}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

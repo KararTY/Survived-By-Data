@@ -7,13 +7,9 @@
       "max": 0.5
     },
     "spawnRadius": 10,
-    "spawnDelayed": false,
     "quotaRadius": 30,
     "rechargeTime": 0,
-    "isBoss": false,
-    "autoPopulate": false,
     "manuallyPlaced": true,
-    "floraOrFaunaSpawner": false,
     "spawnList": [
       {
         "monsterName": "Greater Chiroptera Sorcerer",

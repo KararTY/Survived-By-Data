@@ -2,10 +2,6 @@
   {
     "name": "Bat",
     "alias": "monster_batswarmT8",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "bat_projectile",
@@ -14,26 +10,21 @@
             "projectile": {
               "name": "bat_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 2,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Impaired",
+                "alias": "CriticalChance Debuff T3",
                 "type": "Normal",
                 "duration": 15,
                 "stats": [
@@ -52,17 +43,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -174,9 +156,6 @@
     "name": "Bat",
     "alias": "monster_bat_quest",
     "description": "Description for Bat",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "bat_projectile",
@@ -185,26 +164,21 @@
             "projectile": {
               "name": "bat_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 2,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Impaired",
+                "alias": "CriticalChance Debuff T3",
                 "type": "Normal",
                 "duration": 15,
                 "stats": [
@@ -223,17 +197,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -377,9 +342,6 @@
     "name": "Bat",
     "alias": "monster_bat_T7",
     "description": "Description for Bat",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "bat_projectile",
@@ -388,26 +350,21 @@
             "projectile": {
               "name": "bat_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 2,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Impaired",
+                "alias": "CriticalChance Debuff T3",
                 "type": "Normal",
                 "duration": 15,
                 "stats": [
@@ -426,17 +383,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -544,9 +492,6 @@
     "name": "Bat",
     "alias": "monster_bat",
     "description": "Description for Bat",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "bat_projectile",
@@ -555,26 +500,21 @@
             "projectile": {
               "name": "bat_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 2,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Impaired",
+                "alias": "CriticalChance Debuff T3",
                 "type": "Normal",
                 "duration": 15,
                 "stats": [
@@ -593,17 +533,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },
@@ -746,10 +677,6 @@
   {
     "name": "Bat",
     "alias": "monster_batswarm",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "bat_projectile",
@@ -758,26 +685,21 @@
             "projectile": {
               "name": "bat_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
-              "alignToDirection": false,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "speed": 15,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 2,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "statusEffect": {
                 "name": "Impaired",
+                "alias": "CriticalChance Debuff T3",
                 "type": "Normal",
                 "duration": 15,
                 "stats": [
@@ -796,17 +718,8 @@
                 "characterEffectPrefab": {
                   "name": "ce Generic Debuff"
                 },
-                "disableSpecialAbility": false,
                 "doesNotStackWithSelf": true,
-                "doNotRefresh": false,
-                "hasLevels": false,
-                "isAccountWide": false,
                 "trackedForChallenge": true,
-                "ignoreDurationModifiers": false,
-                "isBuff": false,
-                "removeOnAttack": false,
-                "coolDownTime": 0,
-                "noTimeOut": false,
                 "flashDuration": 2,
                 "isFullscreenFlash": false
               },

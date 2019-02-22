@@ -19,8 +19,6 @@ plant_vines={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 30
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -34,8 +32,6 @@ plant_vines={{Enemy
     {{!}} '''plant vines projectile throw off''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 30
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
@@ -51,8 +47,6 @@ plant_vines={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 5
@@ -64,8 +58,6 @@ plant_vines={{Enemy
     {{!}} '''plant vines projectile vines''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=33|cHeight=20|oBottom=124|oLeft=5}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -106,8 +98,6 @@ monster_bramble_bush_quest={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 18
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-
     {{!}} Max hits {{!!}} 5
@@ -133,8 +123,6 @@ boss_director_resin_pod_hardmode={{Enemy
     {{!}} colspan="2" {{!}}'''stag projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-
@@ -198,8 +186,6 @@ boss_elementalspirit_vines_seed={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 30
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -213,8 +199,6 @@ boss_elementalspirit_vines_seed={{Enemy
     {{!}} '''plant vines projectile throw off''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 30
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
@@ -230,8 +214,6 @@ boss_elementalspirit_vines_seed={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 5
@@ -243,8 +225,6 @@ boss_elementalspirit_vines_seed={{Enemy
     {{!}} '''plant vines projectile vines''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=33|cHeight=20|oBottom=124|oLeft=5}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -334,8 +314,6 @@ boss_elementalspirit_vines={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 30
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
     {{!}} Range {{!!}} 15
@@ -349,8 +327,6 @@ boss_elementalspirit_vines={{Enemy
     {{!}} '''plant vines projectile throw off''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_sand.png|bSize=192|cWidth=48|cHeight=18|oBottom=78|oLeft=144}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 30
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}}Use target for range {{!!}} Yes
     {{!}}-
@@ -366,8 +342,6 @@ boss_elementalspirit_vines={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 5
@@ -379,8 +353,6 @@ boss_elementalspirit_vines={{Enemy
     {{!}} '''plant vines projectile vines''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_tree.png|bSize=192|cWidth=33|cHeight=20|oBottom=124|oLeft=5}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

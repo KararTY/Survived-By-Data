@@ -5,7 +5,6 @@
     "description": "Little is known of Sin, but the existence of the Seal implies that Sin is but an agent of a greater power.",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Ring",
     "maxStack": 1,
@@ -119,12 +118,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

@@ -5,7 +5,6 @@
     "description": "Power channeled through this ring of bone emerges from the body changed; enhanced, but tainted in some way.",
     "price": 7000,
     "sellPrice": 70,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Ring",
     "maxStack": 1,
@@ -103,12 +102,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT3",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

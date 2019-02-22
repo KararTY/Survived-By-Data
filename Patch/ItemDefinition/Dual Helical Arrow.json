@@ -5,7 +5,6 @@
     "description": "Though firing two shots at once has higher overall damage potential, there is also a loss of accuracy and force.",
     "price": 22,
     "sellPrice": 11,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -61,12 +60,6 @@
     "class": [
       "Harbinger"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75

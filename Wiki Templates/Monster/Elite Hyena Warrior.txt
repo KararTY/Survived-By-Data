@@ -19,8 +19,6 @@ monster_hyenawarrior_elite={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -47,8 +45,6 @@ monster_hyenawarrior_elite_minion={{Enemy
     {{!}} '''chimera hyenawarrior projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_hyenawarrior.png|bSize=256|cWidth=19|cHeight=37|oBottom=68|oLeft=65}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

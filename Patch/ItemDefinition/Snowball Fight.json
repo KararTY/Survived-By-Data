@@ -3,9 +3,37 @@
     "name": "Snowball Fight",
     "alias": "Winter Holiday Projectile Consumable 3",
     "description": "Increases silver dropped by 10% and replaces your projectiles with snowballs!",
+    "premiumOffer": "HolidayConsumableSnowball",
     "price": 2,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Snowball",
+      "alias": "Winter Holiday Consumable Projectile Buff 3",
+      "type": "Normal",
+      "duration": 1800,
+      "stats": [
+        {
+          "key": "SilverIncrease",
+          "equation": "[SilverIncrease] + 0.1",
+          "value": 0
+        },
+        {
+          "key": "ProjectileVisualIndex",
+          "equation": "8",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "ignoreDurationModifiers": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 10,
@@ -48,16 +76,11 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Crystal",
     "coolDown": 0.5,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

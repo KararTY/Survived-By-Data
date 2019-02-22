@@ -5,7 +5,6 @@
     "description": "When crafted with multiple Sin Barbs, water seems to be repeled by your steps, reducing how much it impairs you.",
     "price": 1000,
     "sellPrice": 500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Boots",
     "maxStack": 1,
@@ -121,12 +120,6 @@
       "Harbinger",
       "Infiltrator"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

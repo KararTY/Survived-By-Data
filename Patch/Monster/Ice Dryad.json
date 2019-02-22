@@ -2,10 +2,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T1",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -39,26 +35,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,
@@ -192,10 +184,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T10",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -229,26 +217,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,
@@ -382,10 +366,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T2",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -419,26 +399,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,
@@ -572,10 +548,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T3",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -609,26 +581,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,
@@ -762,10 +730,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T4",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -799,26 +763,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,
@@ -952,10 +912,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T5",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -989,26 +945,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,
@@ -1142,10 +1094,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T6",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -1179,26 +1127,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,
@@ -1332,10 +1276,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T7",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -1369,26 +1309,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,
@@ -1522,10 +1458,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T8",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -1559,26 +1491,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,
@@ -1712,10 +1640,6 @@
   {
     "name": "Ice Dryad",
     "alias": "WinterHoliday Pet3 T9",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "WinterHoliday_dryad_projectile",
@@ -1749,26 +1673,22 @@
             "projectile": {
               "name": "WinterHoliday_dryad_projectile",
               "projectileName": "Projectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "nextProjectileIndex": 24,
               "alignToDirection": true,
               "isNextProjectileGlobal": true,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 9,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 8,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.82,
                 "g": 0,

@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Maul",
+            "alias": "Maul Buff",
             "type": "Normal",
             "duration": 0,
             "stats": [
@@ -28,21 +29,12 @@
               }
             ],
             "relatedLevelStat": "_Unknown",
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
-            "trackedForChallenge": false,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
             "noTimeOut": true,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityActivate",
@@ -162,6 +154,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Maul",
+            "alias": "Maul Buff",
             "type": "Normal",
             "duration": 0,
             "stats": [
@@ -177,21 +170,12 @@
               }
             ],
             "relatedLevelStat": "_Unknown",
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
-            "trackedForChallenge": false,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
             "noTimeOut": true,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityActivate",
@@ -311,6 +295,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Maul",
+            "alias": "Maul Buff",
             "type": "Normal",
             "duration": 0,
             "stats": [
@@ -326,21 +311,12 @@
               }
             ],
             "relatedLevelStat": "_Unknown",
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
-            "trackedForChallenge": false,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
             "noTimeOut": true,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SecondaryAbilityActivate",

@@ -20,8 +20,6 @@ monster_treant_corrupted_T7={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -52,8 +50,6 @@ monster_treant_fire_T8={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -77,8 +73,6 @@ monster_treant_fire_T8={{Enemy
     {{!}} '''treant infernal projectile2''' {{!!}} <center>{{CSS image crop|Image=infernal_treant.png|bSize=512|cWidth=30|cHeight=71|oBottom=271|oLeft=6}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

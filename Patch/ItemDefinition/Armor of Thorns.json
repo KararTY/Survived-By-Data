@@ -3,9 +3,9 @@
     "name": "Armor of Thorns",
     "alias": "Armor Medium Heirloom",
     "description": "The thorns that cover these implements pierce the flesh of the wearer and feed upon the blood shed. But in return for this sacrifice this artifact gains in power as its bearer does. [This item is also a rare drop]",
+    "premiumOffer": "HeirloomArmorMedium",
     "price": 750,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -69,11 +69,9 @@
     ],
     "bonusDismantleLoot": "DismantleStandardT1",
     "bound": {
-      "account": false,
       "soul": true
     },
     "isHeirloom": true,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Platinum",

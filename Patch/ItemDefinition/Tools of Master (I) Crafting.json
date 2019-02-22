@@ -2,10 +2,8 @@
   {
     "name": "Tools of Master (I) Crafting",
     "alias": "z Tools of Crafting 9",
-    "description": "",
     "price": 12500,
     "sellPrice": 2500,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -46,16 +44,13 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",
-    "modifierChance": 0.05
+    "modifierChance": 0.05,
+    "doesNotCountTowardMax": true
   }
 ]

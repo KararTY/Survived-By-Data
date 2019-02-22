@@ -3,9 +3,35 @@
     "name": "Drop Rate Increase Consumable V",
     "alias": "Consumable Drop Rate Increase 5",
     "description": "Doubles drop rates for 120 hours for all characters. This benefit does not end on death.",
+    "premiumOffer": "ConsumableDropRate5",
     "price": 1,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Drop Rate Buff",
+      "alias": "Consumable Drop Rate Buff 5",
+      "floatingText": "DROP RATE BUFF",
+      "type": "Normal",
+      "duration": 432000,
+      "stats": [
+        {
+          "key": "DropRateIncrease",
+          "equation": "[DropRateIncrease]+1",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 10,
@@ -48,15 +74,10 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "coolDown": 0.5,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

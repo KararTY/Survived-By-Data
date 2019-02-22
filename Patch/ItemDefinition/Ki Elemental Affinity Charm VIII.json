@@ -5,7 +5,6 @@
     "description": "Ki, also known as Vitae, is the element of life and fire. It can increase a target's vulnerability to damage, but no known creature is directly vulnerable to it.\n\nFuse together 5 charms of the same level to obtain a charm of the next highest level.\n\nCharms can be placed into items with sockets, but the total level of all of the charms cannot exceed the level of the item.",
     "price": 0,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 50,
@@ -59,7 +58,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "modifiers": [
       {
         "expireTime": 0,
@@ -96,12 +94,6 @@
       }
     ],
     "fusionUpgradeItem": "Ki Elemental Affinity Charm IX",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "modifierChance": 0.75

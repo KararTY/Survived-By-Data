@@ -8,7 +8,6 @@
     "challenge": "Kill_Greater_Manifestations_Of_Sin",
     "challengeValue": 60,
     "achievement": true,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Discover Monsters (IV)",

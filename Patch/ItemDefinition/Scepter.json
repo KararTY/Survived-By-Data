@@ -5,7 +5,6 @@
     "description": "Though few villagers were armed with scepters when the Chimera first attacked, those capable of channeling power through amber found this weapon extremely effective.",
     "price": 28000,
     "sellPrice": 280,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -108,12 +107,6 @@
       "Alchemist"
     ],
     "bonusDismantleLoot": "DismantleStandardT5",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

@@ -5,7 +5,6 @@
     "description": "Sealing a layer of cloth between two thin, flexible layers of leather creates a light fabric that is far more durable than cloth alone.",
     "price": 500,
     "sellPrice": 50,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -61,13 +60,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

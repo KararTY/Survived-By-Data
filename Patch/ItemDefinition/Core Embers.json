@@ -5,7 +5,6 @@
     "description": "The chaotic nature of the creation of Embers leads to a high variability in their quality. Core Embers are those that hold sufficient power to be used in a branding.",
     "price": 20,
     "sellPrice": 2,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -56,13 +55,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

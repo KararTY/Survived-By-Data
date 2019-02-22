@@ -3,11 +3,12 @@
     "name": "Thinker",
     "alias": "Grave - Thinker",
     "description": "Hm...",
+    "premiumOffer": "UnlockGravestoneThinker",
     "price": 400,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "None",
+    "autoRedeem": true,
     "maxStack": 0,
     "tier": 0,
     "data": [
@@ -40,13 +41,9 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",

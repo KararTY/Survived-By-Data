@@ -74,10 +74,8 @@ module.exports = (() => {
     ${weaponData('projectile').damage ? `{{!}} Damage {{!!}} ${weaponData('projectile').damage}
     {{!}}-
     ` : ''}{{!}} Speed {{!!}} ${weaponData('projectile').speed}
-    {{!}}-
-    ${weaponData('projectile').acceleration ? `{{!}} Acceleration {{!!}} ${weaponData('projectile').acceleration}
-    {{!}}-
-    ` : ''}{{!}} Lifetime {{!!}} ${weaponData('projectile').maxLifetime}
+    ${weaponData('projectile').acceleration ? `{{!}}-
+    {{!}} Acceleration {{!!}} ${weaponData('projectile').acceleration}` : ''}
     ${weaponData('projectile').delayRate ? `{{!}}-
     {{!}} Delay rate {{!!}} ${weaponData('projectile').delayRate}` : ''}
     ${weaponData('projectile').useTargetForRange ? `{{!}}-
@@ -460,7 +458,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
         |-
         | {{Ancestral Legacy
           | name = ${item.name}
-          | description = ${item.description ? item.description.replace('#', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 1)).toFixed(2))}` : '#') : ''}
+          | description = ${item.description.includes('DEPRECATED') ? item.description : item.description ? item.description.replace('#', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 1)).toFixed(2))}` : '#') : ''}
           | level = 1
           | rarity = ${item.rarity.toLowerCase()}
           ${(item.ordinaries && item.ordinaries.length > 0) ? item.ordinaries.map((o, ind) => {
@@ -473,7 +471,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
         |-
         | {{Ancestral Legacy
           | name = ${item.name}
-          | description = ${item.description ? item.description.replace('#', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 50)).toFixed(2))}` : '#') : ''}
+          | description = ${item.description.includes('DEPRECATED') ? item.description : item.description ? item.description.replace('#', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 50)).toFixed(2))}` : '#') : ''}
           | level = 50
           | rarity = ${item.rarity.toLowerCase()}
           ${(item.ordinaries && item.ordinaries.length > 0) ? item.ordinaries.map((o, ind) => {

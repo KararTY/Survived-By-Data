@@ -8,7 +8,6 @@
     "challenge": "Kill_Sin",
     "challengeValue": 20,
     "achievement": true,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {

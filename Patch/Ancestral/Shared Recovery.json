@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Shared Recovery",
+            "alias": "Shared Recovery Buff",
             "type": "Permanent",
             "duration": 0,
             "stats": [
@@ -31,21 +32,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "HealingPotionUsed",
@@ -163,6 +155,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Shared Recovery",
+            "alias": "Shared Recovery Buff",
             "type": "Permanent",
             "duration": 0,
             "stats": [
@@ -181,21 +174,12 @@
             "characterEffectPrefab": {
               "name": "ce Health Potion"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
             "isBuff": true,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "HealingPotionUsed",

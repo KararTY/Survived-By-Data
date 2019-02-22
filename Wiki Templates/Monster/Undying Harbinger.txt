@@ -16,8 +16,6 @@ boss_undying_hunter_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +42,6 @@ boss_undying_hunter={{Enemy
     {{!}} '''undying hunter projectile''' {{!!}} <center>{{CSS image crop|Image=undying_hunter.png|bSize=128|cWidth=11|cHeight=28|oBottom=66|oLeft=11}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

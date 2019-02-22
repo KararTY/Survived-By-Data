@@ -19,8 +19,6 @@ plant_cactus={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -46,8 +44,6 @@ boss_elementalspirit_cactus_seed={{Enemy
     {{!}} '''plant cactus projectile''' {{!!}} <center>{{CSS image crop|Image=plant_cactus.png|bSize=192|cWidth=15|cHeight=37|oBottom=98|oLeft=2}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
@@ -75,8 +71,6 @@ boss_elementalspirit_cactus={{Enemy
     {{!}} '''plant cactus projectile''' {{!!}} <center>{{CSS image crop|Image=plant_cactus.png|bSize=192|cWidth=15|cHeight=37|oBottom=98|oLeft=2}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

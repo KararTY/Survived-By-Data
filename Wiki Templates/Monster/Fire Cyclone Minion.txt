@@ -18,8 +18,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 10
@@ -43,8 +41,6 @@
     {{!}} '''spirit cyclone fire projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=23|cHeight=59|oBottom=307|oLeft=107}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 5
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 2
     {{!}}-

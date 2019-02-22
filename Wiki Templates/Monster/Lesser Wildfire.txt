@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 8
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -32,8 +30,6 @@
     {{!}} '''treant fire projectile explode''' {{!!}} <center>{{CSS image crop|Image=treant_fire_01.png|bSize=256|cWidth=26|cHeight=27|oBottom=128|oLeft=1}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 8
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 9
     {{!}}-

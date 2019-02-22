@@ -3,9 +3,35 @@
     "name": "Crafting Time Reduction Consumable IV",
     "alias": "Consumable Craft Time Reduction 4",
     "description": "Reduces crafting time by 50% for 72 hours for all characters. This benefit does not end on death.",
+    "premiumOffer": "ConsumableCraftTimeReduction4",
     "price": 1,
     "sellPrice": 0,
-    "consumable": false,
+    "consumableEffect": {
+      "name": "Craft Time Reduction Buff",
+      "alias": "Consumable Craft Time Reduction Buff 4",
+      "floatingText": "CRAFT TIME REDUCTION",
+      "type": "Normal",
+      "duration": 259200,
+      "stats": [
+        {
+          "key": "ReduceCraftTime",
+          "equation": "[ReduceCraftTime]+0.5",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true,
+      "flashDuration": 2,
+      "isFullscreenFlash": false
+    },
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 10,
@@ -48,15 +74,10 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "coolDown": 0.5,
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

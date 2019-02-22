@@ -18,8 +18,6 @@ monster_scorpion_elite_minion={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -59,8 +57,6 @@ monster_scorpion_elite={{Enemy
     {{!}} '''scorpion desert projectile''' {{!!}} <center>{{CSS image crop|Image=scorpion_desert.png|bSize=192|cWidth=12|cHeight=23|oBottom=48|oLeft=53}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

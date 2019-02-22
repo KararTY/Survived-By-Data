@@ -5,7 +5,6 @@
     "description": "Though a human would need to wear padding beneath, limiting its value, if this armor were to be deployed to the Chimera it would likely mean the end of the human species.",
     "price": 14000,
     "sellPrice": 140,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Armor",
     "maxStack": 1,
@@ -94,12 +93,6 @@
       "Geomancer"
     ],
     "bonusDismantleLoot": "DismantleStandardT4",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

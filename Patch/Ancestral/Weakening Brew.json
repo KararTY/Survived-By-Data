@@ -13,6 +13,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Weakening Brew",
+            "alias": "Weakening Brew Effect",
             "type": "Normal",
             "duration": 3,
             "stats": [
@@ -31,21 +32,11 @@
             "characterEffectPrefab": {
               "name": "ce Generic Debuff"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SpecialWeaponHit",
@@ -159,6 +150,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Weakening Brew",
+            "alias": "Weakening Brew Effect",
             "type": "Normal",
             "duration": 3,
             "stats": [
@@ -177,21 +169,11 @@
             "characterEffectPrefab": {
               "name": "ce Generic Debuff"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SpecialWeaponHit",
@@ -305,6 +287,7 @@
           "timerValue": 0,
           "statusEffect": {
             "name": "Weakening Brew",
+            "alias": "Weakening Brew Effect",
             "type": "Normal",
             "duration": 3,
             "stats": [
@@ -323,21 +306,11 @@
             "characterEffectPrefab": {
               "name": "ce Generic Debuff"
             },
-            "disableSpecialAbility": false,
             "doesNotStackWithSelf": true,
-            "doNotRefresh": false,
-            "hasLevels": false,
-            "isAccountWide": false,
             "trackedForChallenge": true,
-            "ignoreDurationModifiers": false,
-            "isBuff": false,
-            "removeOnAttack": false,
-            "coolDownTime": 0,
-            "noTimeOut": false,
             "flashDuration": 2,
             "isFullscreenFlash": false
           },
-          "useAncestralBenefitForDamage": false,
           "triggers": [
             {
               "trigger": "SpecialWeaponHit",

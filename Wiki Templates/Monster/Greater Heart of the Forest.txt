@@ -20,8 +20,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -34,8 +32,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 10
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -47,8 +43,6 @@
     {{!}} '''boss spirit projectile2''' {{!!}} <center>{{CSS image crop|Image=Heart of Forest Projectile.png|bSize=32|cWidth=25|cHeight=32|oBottom=0|oLeft=3}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 16
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 20
     {{!}}-

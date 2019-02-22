@@ -17,8 +17,6 @@ WinterHoliday Pet3 T1={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -45,8 +43,6 @@ WinterHoliday Pet3 T2={{Enemy
     {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -75,8 +71,6 @@ WinterHoliday Pet3 T3={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -103,8 +97,6 @@ WinterHoliday Pet3 T4={{Enemy
     {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -133,8 +125,6 @@ WinterHoliday Pet3 T5={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -161,8 +151,6 @@ WinterHoliday Pet3 T6={{Enemy
     {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -191,8 +179,6 @@ WinterHoliday Pet3 T7={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -219,8 +205,6 @@ WinterHoliday Pet3 T8={{Enemy
     {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
@@ -249,8 +233,6 @@ WinterHoliday Pet3 T9={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 9
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -277,8 +259,6 @@ WinterHoliday Pet3 T10={{Enemy
     {{!}} '''WinterHoliday dryad projectile''' {{!!}} <center>{{CSS image crop|Image=Holiday_Minion_Ice Dryad.png|bSize=128|cWidth=6|cHeight=14|oBottom=73|oLeft=109}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 9
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-

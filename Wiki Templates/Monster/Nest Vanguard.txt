@@ -19,8 +19,6 @@ monster_burrower_cave={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 12
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -59,8 +57,6 @@ monster_burrower_cave_dangerous={{Enemy
     {{!}} '''burrower cave projectile''' {{!!}} <center>{{CSS image crop|Image=beast_burrower_cave.png|bSize=256|cWidth=20|cHeight=44|oBottom=202|oLeft=129}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 12
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

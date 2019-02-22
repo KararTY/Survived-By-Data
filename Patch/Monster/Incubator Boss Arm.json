@@ -2,10 +2,6 @@
   {
     "name": "Incubator Boss Arm",
     "alias": "boss_director_left_arm_hardmode",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -94,10 +90,6 @@
   {
     "name": "Incubator Boss Arm",
     "alias": "boss_director_right_arm_hardmode",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -186,10 +178,6 @@
   {
     "name": "Incubator Boss Arm",
     "alias": "boss_director_right_arm",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {
@@ -306,10 +294,6 @@
   {
     "name": "Incubator Boss Arm",
     "alias": "boss_director_left_arm",
-    "description": "",
-    "isBoss": false,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [],
     "data": [
       {

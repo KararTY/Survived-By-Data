@@ -15,8 +15,6 @@ tutorial_monster_chimera_jackalope={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -43,8 +41,6 @@ monster_chimera_jackalope_dung={{Enemy
     {{!}} '''chimera jackalope projectile''' {{!!}} <center>{{CSS image crop|Image=chimera_jackalope.png|bSize=256|cWidth=14|cHeight=23|oBottom=109|oLeft=201}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 7
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

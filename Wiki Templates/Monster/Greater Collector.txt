@@ -20,8 +20,6 @@ monster_agent_collector_hardmode={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 4
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -43,8 +41,6 @@ monster_agent_collector_hardmode={{Enemy
     {{!}} colspan="2" {{!}}'''collector special projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-
@@ -88,8 +84,6 @@ monster_agent_collector_hardmode_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 4
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -111,8 +105,6 @@ monster_agent_collector_hardmode_dangerous={{Enemy
     {{!}} colspan="2" {{!}}'''collector special projectile'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-

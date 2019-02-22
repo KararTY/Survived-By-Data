@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 13
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 22
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -35,8 +33,6 @@
     {{!}}-
     {{!}} Acceleration {{!!}} -7.5
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 22
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -48,8 +44,6 @@
     {{!}} '''boss sin laser''' {{!!}} <center>{{CSS image crop|Image=Boss_Sin.png|bSize=512|cWidth=8|cHeight=14|oBottom=808|oLeft=108}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 25
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 13
     {{!}}-

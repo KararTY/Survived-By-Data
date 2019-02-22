@@ -3,9 +3,9 @@
     "name": "Signet of the Vanguard",
     "alias": "Ring T6",
     "description": "They were not prepared for what they faced, but their strength may still yet be the difference between victory and defeat.",
+    "premiumOffer": "T6Ring",
     "price": 70000,
     "sellPrice": 700,
-    "consumable": false,
     "requiredLevel": 20,
     "type": "Ring",
     "maxStack": 1,
@@ -105,12 +105,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT6",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

@@ -10,10 +10,6 @@
     "spawnDelayed": true,
     "quotaRadius": 0,
     "rechargeTime": 0,
-    "isBoss": false,
-    "autoPopulate": false,
-    "manuallyPlaced": false,
-    "floraOrFaunaSpawner": false,
     "spawnList": [
       {
         "monsterName": "Well Wraith",
@@ -23,7 +19,6 @@
         "timeOfDay": "All"
       }
     ],
-    "oneTimeTrigger": false,
     "areaMax": 40,
     "areaRadius": 50
   }

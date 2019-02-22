@@ -5,10 +5,10 @@
     "description": "Kill the Druid Spirits",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_ghost_druid_master_quest",
+    "challengeTarget": {
+      "name": "monster_ghost_druid_master_quest"
+    },
     "challengeValue": 1,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Druid4"
           }
         }
+      },
+      {
+        "questText": "With the spirits temporarily driven away I was able to examine the totems you found at the three druidic circles and they appear to have signs pointing to a sacred druid grove. I don't know what you will find there, but I expect this to be the end of our search.",
+        "completeText": "I tried not to let myself hope... but still, this is a tragic end to our search. At least you were able to lay to rest the spirits of those druids. That the resin could pervert the druidic connection to the spirits in such a way is disturbing and yet one more reason we have to continue to fight."
       }
     ]
   }

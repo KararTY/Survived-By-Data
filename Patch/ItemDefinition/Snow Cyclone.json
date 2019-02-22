@@ -2,12 +2,21 @@
   {
     "name": "Snow Cyclone",
     "alias": "Winter Holiday Pet Consumable 1 T10",
-    "description": "",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet1 T10",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet1 T10"
+        }
+      ],
+      "minionProjectileIndex": 21,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 0,
     "tier": 10,
     "data": [
@@ -55,12 +64,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -70,12 +73,21 @@
   {
     "name": "Snow Cyclone",
     "alias": "Winter Holiday Pet Consumable 1 T2",
-    "description": "",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet1 T2",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet1 T2"
+        }
+      ],
+      "minionProjectileIndex": 21,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 0,
     "tier": 2,
     "data": [
@@ -123,12 +135,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -138,12 +144,21 @@
   {
     "name": "Snow Cyclone",
     "alias": "Winter Holiday Pet Consumable 1 T3",
-    "description": "",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet1 T3",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet1 T3"
+        }
+      ],
+      "minionProjectileIndex": 21,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 0,
     "tier": 3,
     "data": [
@@ -191,12 +206,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -206,12 +215,21 @@
   {
     "name": "Snow Cyclone",
     "alias": "Winter Holiday Pet Consumable 1 T4",
-    "description": "",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet1 T4",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet1 T4"
+        }
+      ],
+      "minionProjectileIndex": 21,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 0,
     "tier": 4,
     "data": [
@@ -259,12 +277,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -274,12 +286,21 @@
   {
     "name": "Snow Cyclone",
     "alias": "Winter Holiday Pet Consumable 1 T5",
-    "description": "",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet1 T5",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet1 T5"
+        }
+      ],
+      "minionProjectileIndex": 21,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 0,
     "tier": 5,
     "data": [
@@ -327,12 +348,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -342,12 +357,21 @@
   {
     "name": "Snow Cyclone",
     "alias": "Winter Holiday Pet Consumable 1 T6",
-    "description": "",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet1 T6",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet1 T6"
+        }
+      ],
+      "minionProjectileIndex": 21,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 0,
     "tier": 6,
     "data": [
@@ -395,12 +419,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -410,12 +428,21 @@
   {
     "name": "Snow Cyclone",
     "alias": "Winter Holiday Pet Consumable 1 T7",
-    "description": "",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet1 T7",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet1 T7"
+        }
+      ],
+      "minionProjectileIndex": 21,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 0,
     "tier": 7,
     "data": [
@@ -463,12 +490,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -478,12 +499,21 @@
   {
     "name": "Snow Cyclone",
     "alias": "Winter Holiday Pet Consumable 1 T8",
-    "description": "",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet1 T8",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet1 T8"
+        }
+      ],
+      "minionProjectileIndex": 21,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 0,
     "tier": 8,
     "data": [
@@ -531,12 +561,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
@@ -546,12 +570,21 @@
   {
     "name": "Snow Cyclone",
     "alias": "Winter Holiday Pet Consumable 1 T9",
-    "description": "",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet1 T9",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet1 T9"
+        }
+      ],
+      "minionProjectileIndex": 21,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 0,
     "tier": 9,
     "data": [
@@ -599,12 +632,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

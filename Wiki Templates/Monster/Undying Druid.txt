@@ -16,8 +16,6 @@ boss_undying_druid_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +42,6 @@ boss_undying_druid={{Enemy
     {{!}} '''undying druid projectile''' {{!!}} <center>{{CSS image crop|Image=undying_druid.png|bSize=128|cWidth=16|cHeight=18|oBottom=64|oLeft=32}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

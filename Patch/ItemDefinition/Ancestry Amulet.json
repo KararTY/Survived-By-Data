@@ -5,7 +5,6 @@
     "description": "All humans draw power from their bloodline; their heritage. This amulet, the head resting over the heart, calls to that bloodline.",
     "price": 28000,
     "sellPrice": 280,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Amulet",
     "maxStack": 1,
@@ -108,12 +107,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT5",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

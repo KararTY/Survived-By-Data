@@ -3,9 +3,9 @@
     "name": "Reliqua - Infiltrator",
     "alias": "z Essence_Infiltrator",
     "description": "Reliqua - Infiltrator",
+    "premiumOffer": "EssenceInfiltrator",
     "price": 1,
     "sellPrice": 0,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
     "maxStack": 0,
@@ -51,14 +51,12 @@
       "Infiltrator"
     ],
     "bound": {
-      "account": false,
       "soul": true
     },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Crystal",
-    "modifierChance": 0.75
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
   }
 ]

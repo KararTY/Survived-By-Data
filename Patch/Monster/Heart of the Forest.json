@@ -4,8 +4,6 @@
     "alias": "boss_heartoftheforest",
     "description": "Description for Heart of the Forest",
     "isBoss": true,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "boss_spirit_projectile",
@@ -39,25 +37,20 @@
             "projectile": {
               "name": "boss_spirit_projectile",
               "projectileName": "HOMProjectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 10,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 5,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.31,
                 "g": 0.09,
@@ -185,8 +178,6 @@
     "alias": "boss_heartoftheforest_world",
     "description": "Description for Heart of the Forest",
     "isBoss": true,
-    "isElite": false,
-    "isSetPieceMonster": false,
     "weapons": [
       {
         "name": "boss_spirit_projectile_world",
@@ -220,25 +211,20 @@
             "projectile": {
               "name": "boss_spirit_projectile_world",
               "projectileName": "HOMProjectile",
-              "launchOffsetDistance": 0,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
               "lightScale": 1,
               "alignToDirection": true,
-              "isNextProjectileGlobal": false,
-              "isTangentProjectileGlobal": false,
-              "maintainOrbitRange": false,
-              "ownerRelative": false,
-              "sineWaveMotion": false,
               "speed": 10,
               "damage": 0,
               "damageMultiplier": 1,
               "range": 15,
-              "useTargetForRange": false,
-              "useRandomRange": false,
               "maxHits": 1,
               "arcSeparation": 8,
               "rageMultiplier": 1,
               "bounceBetweenEnemies": false,
-              "pierceWorld": false,
               "color": {
                 "r": 0.31,
                 "g": 0.09,

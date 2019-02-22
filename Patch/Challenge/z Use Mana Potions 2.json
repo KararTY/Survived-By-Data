@@ -7,8 +7,6 @@
     "challengeType": "Stat",
     "challenge": "Use_ManaPotions",
     "challengeValue": 30,
-    "achievement": false,
-    "hideAchievement": false,
     "prerequisites": [
       [
         "Use Energy Potions (I)",

@@ -3,9 +3,9 @@
     "name": "Hollow Amulet",
     "alias": "Amulet T7",
     "description": "All that was weak and impure has been devoured, leaving a cage to rest upon and protect the heart.",
+    "premiumOffer": "T7Amulet",
     "price": 200000,
     "sellPrice": 2000,
-    "consumable": false,
     "requiredLevel": 25,
     "type": "Amulet",
     "maxStack": 1,
@@ -111,12 +111,6 @@
       "Druid"
     ],
     "bonusDismantleLoot": "DismantleStandardT7",
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

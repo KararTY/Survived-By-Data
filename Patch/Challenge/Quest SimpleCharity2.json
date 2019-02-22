@@ -5,10 +5,10 @@
     "description": "Administer 5 Tinctures to Insane",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "QuestHerbs",
+    "challengeTarget": {
+      "name": "QuestHerbs"
+    },
     "challengeValue": 5,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest SimpleCharity2"
           }
         }
+      },
+      {
+        "questText": "Here, take these mixtures. The troubled insane should not be difficult to locate in the Terrace below. Please wake them from their suffering.",
+        "completeText": "You have done a good thing. Those people may not be able to thank you, but I hope my thanks will be enough."
       }
     ]
   }

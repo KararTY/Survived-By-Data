@@ -5,10 +5,10 @@
     "description": "Investigate 3 Chimera Totems",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "InfiltratorQuest_Totem",
+    "challengeTarget": {
+      "name": "InfiltratorQuest_Totem"
+    },
     "challengeValue": 3,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Infiltrator3"
           }
         }
+      },
+      {
+        "questText": "I did a bit of scouting on my own and noticed some kind of larger idol or totem the Leo seemed to be clustered around. What I want you to do is get close to one (or three) and see if it provides any clues for tracking this hero of theirs down.",
+        "completeText": "This is... more information than I thought you would get. I bet it was a bloody business too. Wish I could have been there, but I'm too old for that kind of work now. "
       }
     ]
   }

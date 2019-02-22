@@ -11,8 +11,7 @@
           "faces": 0,
           "add": 0
         },
-        "chance": 20,
-        "allowModifiers": false
+        "chance": 20
       },
       {
         "item": "Purified Sap",
@@ -21,8 +20,7 @@
           "faces": 0,
           "add": 0
         },
-        "chance": 20,
-        "allowModifiers": false
+        "chance": 20
       }
     ],
     "reference": "CommonLoot T5"

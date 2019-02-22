@@ -5,7 +5,6 @@
     "description": "Though it is possible to merge several Lapis Fragments into a Lapis Core, more mature Manifestations of Sin may have singular deposits that can reach this size.",
     "price": 5000,
     "sellPrice": 5,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -56,13 +55,6 @@
     "experiencePerLevel": [
       0
     ],
-    "class": [],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 0,
     "insureCost": 0,
     "currency": "Gold",

@@ -17,8 +17,6 @@ tutorial_monster_agent_processor={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -45,8 +43,6 @@ tutorial_monster_agent_processor={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -72,8 +68,6 @@ tutorial_monster_agent_processor={{Enemy
     {{!}} colspan="2" {{!}}'''agent processor projectile splat'''
     {{!}}-
     {{!}} Speed {{!!}} 15
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 3
     {{!}}-
@@ -103,8 +97,6 @@ monster_agent_processor={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -131,8 +123,6 @@ monster_agent_processor={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -158,8 +148,6 @@ monster_agent_processor={{Enemy
     {{!}} '''agent disabler trail projectile3''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
@@ -190,8 +178,6 @@ monster_agent_processor_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 8
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -218,8 +204,6 @@ monster_agent_processor_dangerous={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -245,8 +229,6 @@ monster_agent_processor_dangerous={{Enemy
     {{!}} '''agent disabler trail projectile3''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=160}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 0
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 0.01
     {{!}}-

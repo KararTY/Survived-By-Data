@@ -19,8 +19,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 7
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Delay rate {{!!}} 0.1
     {{!}}-
     {{!}} Range {{!!}} 8
@@ -35,8 +33,6 @@
     {{!}}-
     {{!}} Speed {{!!}} 0
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -48,8 +44,6 @@
     {{!}} '''spirit dryad dirt projectile wave''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_dirt.png|bSize=192|cWidth=22|cHeight=48|oBottom=144|oLeft=96}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 10
     {{!}}-

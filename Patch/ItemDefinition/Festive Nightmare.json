@@ -5,9 +5,19 @@
     "description": "After all of the cheap kills, she's finally working for you now. Lasts 10 minutes and is lost upon loading into another map.",
     "price": 3,
     "sellPrice": 1,
-    "consumable": false,
     "requiredLevel": 0,
     "type": "Consumable",
+    "ability": {
+      "name": "WinterHoliday Special Pet3 T1",
+      "pets": [
+        {
+          "alias": "WinterHoliday Pet3 T1"
+        }
+      ],
+      "minionProjectileIndex": 23,
+      "mode": 1,
+      "disableOtherSpecials": true
+    },
     "maxStack": 5,
     "tier": 1,
     "data": [
@@ -55,12 +65,6 @@
       "Geomancer",
       "Druid"
     ],
-    "bound": {
-      "account": false,
-      "soul": false
-    },
-    "isHeirloom": false,
-    "requiresDiscovery": false,
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",

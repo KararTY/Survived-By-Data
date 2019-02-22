@@ -5,10 +5,10 @@
     "description": "Kill 40 Slimes",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
-    "challengeTarget": "monster_slime_add_Overworld",
+    "challengeTarget": {
+      "name": "monster_slime_add_Overworld"
+    },
     "challengeValue": 40,
-    "achievement": false,
-    "hideAchievement": false,
     "data": [
       {
         "loot": {
@@ -16,6 +16,10 @@
             "name": "Quest Alchemist1"
           }
         }
+      },
+      {
+        "questText": "An Alchemist of some renown left an experiment running in Harsa. He created a substance that can instill life into stone. We had hoped that these creations would fight on our side, but they betrayed us. The substance has taken on a life of its own and we must contain it.",
+        "completeText": "With your help the spread of the creatures has been contained."
       }
     ]
   }

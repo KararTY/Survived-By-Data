@@ -16,8 +16,6 @@ boss_undying_mage_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +42,6 @@ boss_undying_mage={{Enemy
     {{!}} '''undying mage projectile''' {{!!}} <center>{{CSS image crop|Image=undying_wizard.png|bSize=128|cWidth=13|cHeight=13|oBottom=73|oLeft=9}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-

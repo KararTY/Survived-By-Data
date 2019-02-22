@@ -16,8 +16,6 @@ boss_undying_paladin_world={{Enemy
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-
-    {{!}} Lifetime {{!!}} undefined
-    {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
     {{!}} Max hits {{!!}} 1
@@ -44,8 +42,6 @@ boss_undying_paladin={{Enemy
     {{!}} '''undying paladin projectile''' {{!!}} <center>{{CSS image crop|Image=undying_paladin.png|bSize=128|cWidth=11|cHeight=30|oBottom=98|oLeft=9}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
-    {{!}}-
-    {{!}} Lifetime {{!!}} undefined
     {{!}}-
     {{!}} Range {{!!}} 15
     {{!}}-
