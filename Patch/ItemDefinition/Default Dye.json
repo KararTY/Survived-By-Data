@@ -40,7 +40,6 @@
     "bound": {
       "soul": true
     },
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0,
     "doesNotCountTowardMax": true
   }

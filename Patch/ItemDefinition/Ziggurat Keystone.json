@@ -114,7 +114,6 @@
     },
     "currency": "Gold",
     "coolDown": 0.5,
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0
   }
 ]

@@ -80,7 +80,6 @@
     },
     "isHeirloom": true,
     "currency": "Platinum",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0
   }
 ]

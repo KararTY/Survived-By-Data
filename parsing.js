@@ -597,7 +597,7 @@ module.exports = () => {
           ? require(path.join(folder['Other'], fileMap(file[mono]['0 PPtr<$GameObject> Currency'][fileID]) + file[mono]['0 PPtr<$GameObject> Currency'][pathID] + '.json'))[game][stringName]
           : undefined,
         coolDown: parseFloat(file[mono]['0 float CoolDown'].toFixed(2)) ? parseFloat(file[mono]['0 float CoolDown'].toFixed(2)) : undefined,
-        craftNowCostMultiplier: parseFloat(file[mono]['0 float CraftNowCostMultiplier'].toFixed(2)) || undefined,
+        craftNowCostMultiplier: parseFloat(file[mono]['0 float CraftNowCostMultiplier'].toFixed(2)) === 1 ? undefined : parseFloat(file[mono]['0 float CraftNowCostMultiplier'].toFixed(2)),
         modifierChance: parseFloat(file[mono]['0 float ModifierChance'].toFixed(2)),
         craftingRarity: file[mono]['0 int craftingRarity']
           ? [

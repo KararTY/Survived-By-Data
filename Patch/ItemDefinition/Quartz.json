@@ -56,7 +56,6 @@
       0
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "craftingRarity": [
       0.5,
@@ -105,7 +104,6 @@
       "account": true
     },
     "insureCost": 35,
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

@@ -41,7 +41,6 @@
       "account": true,
       "soul": true
     },
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "craftingRarity": [
       0.5,

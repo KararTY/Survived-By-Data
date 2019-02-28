@@ -44,7 +44,6 @@
       "soul": true
     },
     "currency": "Crystal",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0,
     "doesNotCountTowardMax": true
   },
@@ -93,7 +92,6 @@
       "soul": true
     },
     "currency": "Platinum",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0,
     "doesNotCountTowardMax": true
   }

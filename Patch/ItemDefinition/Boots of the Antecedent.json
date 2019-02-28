@@ -115,7 +115,6 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05
   },
   {
@@ -201,7 +200,6 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -287,7 +285,6 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

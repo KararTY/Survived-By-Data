@@ -157,7 +157,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

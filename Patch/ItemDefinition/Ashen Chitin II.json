@@ -176,7 +176,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -356,7 +355,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -536,7 +534,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -716,7 +713,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -896,7 +892,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -1076,7 +1071,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -1256,7 +1250,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -1436,7 +1429,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -1616,7 +1608,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -1796,7 +1787,6 @@
       "Druid"
     ],
     "currency": "Gold",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

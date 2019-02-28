@@ -40,7 +40,6 @@
       0
     ],
     "currency": "Crystal",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -84,7 +83,6 @@
       0
     ],
     "currency": "Crystal",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

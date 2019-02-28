@@ -47,7 +47,6 @@
     "requiresDiscovery": true,
     "recoverCost": 1,
     "insureCost": 1,
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

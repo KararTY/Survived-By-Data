@@ -49,7 +49,6 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

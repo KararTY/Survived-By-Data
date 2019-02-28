@@ -53,7 +53,6 @@
       "soul": true
     },
     "currency": "Crystal",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

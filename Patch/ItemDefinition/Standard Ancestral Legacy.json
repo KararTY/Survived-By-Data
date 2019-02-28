@@ -46,7 +46,6 @@
       "soul": true
     },
     "currency": "Fame",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -97,7 +96,6 @@
       "soul": true
     },
     "currency": "Platinum",
-    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }
