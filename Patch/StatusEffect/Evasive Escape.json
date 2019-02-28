@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Evasive Escape",
+    "alias": "Evasive Escape Buff",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+([DamageReduction]*[Proc.Benefit]/100)",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doNotRefresh": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "coolDownTime": 3,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

@@ -5,7 +5,6 @@
     "description": "Monastery of the Rift Key (Hard)",
     "premiumOffer": "keyMonasteryHard",
     "price": 15,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -64,6 +63,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

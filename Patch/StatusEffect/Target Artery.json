@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Target Artery",
+    "alias": "Target Artery Damage",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "DamageOverTime",
+        "equation": "[DamageOverTime]+([Proc.Counter]*([Proc.Benefit]/100)/5)",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "doNotRefresh": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

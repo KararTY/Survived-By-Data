@@ -5,7 +5,6 @@
     "description": "Used in the creation of Mythril, this catalyst burns through the inner structure of an existing material, leaving behind a hollow reinforced lattice that is both strong and light. This is a rare crafting component.",
     "premiumOffer": "MythrilCatalyst8_5",
     "price": 45,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -43,6 +42,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "craftingRarity": [
       0.2,

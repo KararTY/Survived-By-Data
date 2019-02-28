@@ -43,6 +43,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Silver",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0
   },
   {
@@ -89,6 +90,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Silver",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0
   }
 ]

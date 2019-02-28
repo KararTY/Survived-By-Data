@@ -5,7 +5,6 @@
     "description": "This relic increases drop rate values 1%. This bonus is cumulative with other Scavenger Relics.",
     "premiumOffer": "RelicDroprate1",
     "price": 6,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -64,6 +63,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

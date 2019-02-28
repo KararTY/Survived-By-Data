@@ -5,7 +5,6 @@
     "description": "Refresh Quest",
     "premiumOffer": "RefreshQuest",
     "price": 50,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -46,6 +45,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0,
     "doesNotCountTowardMax": true
   }

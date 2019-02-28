@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Followup",
+    "alias": "Followup Buff",
+    "type": "Permanent",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "Mana",
+        "equation": "[Mana]+[Proc.Benefit]",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Mana Potion"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

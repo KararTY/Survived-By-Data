@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Vampiric Buff",
+    "type": "Permanent",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "Health",
+        "equation": "[Health]+([Proc.Benefit])",
+        "value": 121.23
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Health Potion"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

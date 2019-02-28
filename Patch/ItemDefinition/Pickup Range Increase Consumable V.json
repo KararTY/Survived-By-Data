@@ -5,7 +5,6 @@
     "description": "Doubles pickup range for 120 hours for all characters. This benefit does not end on death.",
     "premiumOffer": "ConsumablePickupRange5",
     "price": 1,
-    "sellPrice": 0,
     "consumableEffect": {
       "name": "Pickup Range Buff",
       "alias": "Consumable Pickup Range Buff 5",
@@ -74,9 +73,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "coolDown": 0.5,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

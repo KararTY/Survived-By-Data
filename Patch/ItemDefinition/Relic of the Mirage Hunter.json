@@ -3,8 +3,6 @@
     "name": "Relic of the Mirage Hunter",
     "alias": "Relic Hard Mode 2",
     "description": "The Mirage Hunter is fire upon the wind, and if a piece of its essence remains behind upon its defeat it can be used as a relic to increase the bearer's speed and agility.",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -158,9 +156,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T1",
+    "type": "Normal",
+    "duration": 30,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]*1.10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T10",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T11",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+11",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T12",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+12",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T13",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+13",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T14",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+14",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T15",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+15",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T2",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T3",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T4",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T5",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T6",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T7",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T8",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Buff",
+    "alias": "DamageBonus Buff T9",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Debilitating Shot",
+    "alias": "Debilitating Shot Debuff",
+    "type": "Normal",
+    "duration": 2,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]-([MovementSpeed]*([Proc.Benefit]/100))",
+        "value": 6.6
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

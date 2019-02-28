@@ -2,8 +2,6 @@
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv1",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -38,7 +36,8 @@
         "socketableItem": {
           "craftTime": 25,
           "costToApply": 100,
-          "timeToFuse": 5
+          "timeToFuse": 5,
+          "isGenericCharm": true
         }
       }
     ],
@@ -92,15 +91,12 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv10",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -135,7 +131,8 @@
         "socketableItem": {
           "craftTime": 43200,
           "costToApply": 1000,
-          "timeToFuse": 8640
+          "timeToFuse": 8640,
+          "isGenericCharm": true
         }
       },
       {
@@ -225,15 +222,12 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv2",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -268,7 +262,8 @@
         "socketableItem": {
           "craftTime": 75,
           "costToApply": 200,
-          "timeToFuse": 15
+          "timeToFuse": 15,
+          "isGenericCharm": true
         }
       },
       {
@@ -358,15 +353,12 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv3",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -401,7 +393,8 @@
         "socketableItem": {
           "craftTime": 225,
           "costToApply": 300,
-          "timeToFuse": 45
+          "timeToFuse": 45,
+          "isGenericCharm": true
         }
       },
       {
@@ -491,15 +484,12 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv4",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -534,7 +524,8 @@
         "socketableItem": {
           "craftTime": 450,
           "costToApply": 400,
-          "timeToFuse": 90
+          "timeToFuse": 90,
+          "isGenericCharm": true
         }
       },
       {
@@ -624,15 +615,12 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv5",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -667,7 +655,8 @@
         "socketableItem": {
           "craftTime": 750,
           "costToApply": 500,
-          "timeToFuse": 150
+          "timeToFuse": 150,
+          "isGenericCharm": true
         }
       },
       {
@@ -757,15 +746,12 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv6",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -800,7 +786,8 @@
         "socketableItem": {
           "craftTime": 1125,
           "costToApply": 600,
-          "timeToFuse": 225
+          "timeToFuse": 225,
+          "isGenericCharm": true
         }
       },
       {
@@ -890,15 +877,12 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv7",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -933,7 +917,8 @@
         "socketableItem": {
           "craftTime": 1500,
           "costToApply": 700,
-          "timeToFuse": 300
+          "timeToFuse": 300,
+          "isGenericCharm": true
         }
       },
       {
@@ -1023,15 +1008,12 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv8",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -1066,7 +1048,8 @@
         "socketableItem": {
           "craftTime": 2000,
           "costToApply": 800,
-          "timeToFuse": 400
+          "timeToFuse": 400,
+          "isGenericCharm": true
         }
       },
       {
@@ -1156,15 +1139,12 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Random Charm",
     "alias": "Generic Charm Lv9",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -1199,7 +1179,8 @@
         "socketableItem": {
           "craftTime": 3600,
           "costToApply": 900,
-          "timeToFuse": 720
+          "timeToFuse": 720,
+          "isGenericCharm": true
         }
       },
       {
@@ -1289,8 +1270,7 @@
         ]
       }
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -1298,7 +1278,6 @@
     "alias": "RandomCharm",
     "description": "Fuse together 5 charms of the same level to obtain a charm of the next highest level.",
     "price": 43,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -1346,6 +1325,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

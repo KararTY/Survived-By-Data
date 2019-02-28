@@ -5,7 +5,6 @@
     "description": "Unlock Teal Dye Permanently. A limited use version of this dye can be purchased from the Seamstress for Bloodstone.",
     "premiumOffer": "unlockDye12Electrum",
     "price": 200,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -44,9 +43,8 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0,
     "doesNotCountTowardMax": true
   },
@@ -56,7 +54,6 @@
     "description": "A single use application of the Teal Dye.",
     "premiumOffer": "unlockDye12Bloodstone",
     "price": 50,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -95,9 +92,8 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0,
     "doesNotCountTowardMax": true
   }

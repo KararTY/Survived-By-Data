@@ -3,8 +3,6 @@
     "name": "Eye of Obsidian (Health)",
     "alias": "Relic Volcano I 6",
     "description": "There is no equal to the obsidian that is formed in the fiery heart of the World Tree.\nAnd though this is but a small piece, the power it contains is still formidable.\n",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -158,9 +156,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

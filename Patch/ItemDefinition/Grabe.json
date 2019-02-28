@@ -4,7 +4,6 @@
     "alias": "_Grabe",
     "description": "<description>",
     "price": 43,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -48,6 +47,7 @@
     ],
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

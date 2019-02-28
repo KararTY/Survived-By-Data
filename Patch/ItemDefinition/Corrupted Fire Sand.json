@@ -3,8 +3,6 @@
     "name": "Corrupted Fire Sand",
     "alias": "QuestItem Corrupted Fire Sand",
     "description": "Corrupted Fire Sand",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -39,8 +37,7 @@
     "experiencePerLevel": [
       0
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0,
     "craftingRarity": [
       0.5,

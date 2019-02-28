@@ -1,0 +1,147 @@
+[
+  {
+    "name": "WeeklyChallenge5",
+    "challengeDescription": "If we're going to end this we will need to drive the Fury back through the breach and seal it. While we are still a long ways away from such a counter-attack, preparations have to begin now.",
+    "quests": [
+      {
+        "name": "WC5Quest1",
+        "data": [
+          {
+            "questTitle": "Analyzing the Breach"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Kraken Barb",
+                "count": 3,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Spined Pearl",
+                "count": 10,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC5Quest1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC5Quest2",
+        "data": [
+          {
+            "questTitle": "Sealing the Breach"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Regenerative Bark",
+                "count": 10,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Purified Sap",
+                "count": 30,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC5Quest2"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC5Quest3",
+        "data": [
+          {
+            "questTitle": "Weaken Defenses"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Shark Teeth",
+                "count": 30,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Turtle Shell",
+                "count": 30,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC5Quest3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC5Quest4",
+        "data": [
+          {
+            "questTitle": "Ships"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Molded Leather",
+                "count": 15,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Encased Obsidian",
+                "count": 15,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC5Quest4"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "buffReward": {
+      "name": "Valr Increase Buff",
+      "alias": "GlobalValrIncreaseBuff",
+      "type": "Normal",
+      "duration": 604800,
+      "stats": [
+        {
+          "key": "ValrIncrease",
+          "equation": "[ValrIncrease]+0.1",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true
+    }
+  }
+]

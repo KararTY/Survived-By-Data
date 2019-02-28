@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Sentinel Special",
+    "alias": "Paladin Special Monster Debuff",
+    "type": "Poison",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "DamageOverTime",
+        "equation": "[$SpecialWeaponDamage]",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      },
+      {
+        "key": "SpecialWeaponDamage",
+        "equation": "[@Player.SpecialWeaponDamage]",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce poison 0"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Permanent Willpower",
+    "floatingText": "Willpower +15",
+    "type": "Permanent",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "AddFocus",
+        "equation": "[AddWillpower]+15",
+        "value": 30
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Permanent Potion"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": true
+  }
+]

@@ -3,8 +3,6 @@
     "name": "Concentrated Resin",
     "alias": "WeeklyQuest Haven Concentrated Resin",
     "description": "The Fury of the Spawning Nest (Hard) are at the front line of the invasion, and their unique resin marks the front of their war.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -42,8 +40,7 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

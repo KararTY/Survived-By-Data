@@ -5,7 +5,6 @@
     "description": "Increases the number of listings per account per auction house by one.",
     "premiumOffer": "MoreAuctionSpace",
     "price": 300,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -56,7 +56,6 @@
     "description": "Expanded Posting License",
     "premiumOffer": "MoreAuctionSpace_Items",
     "price": 250,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -98,6 +97,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -107,7 +107,6 @@
     "description": "Expanded Posting License",
     "premiumOffer": "MoreAuctionSpace_Materials",
     "price": 150,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -156,6 +155,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

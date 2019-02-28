@@ -5,7 +5,6 @@
     "description": "Though they have forsaken their eyes, her whispers ensure that the precision of the Harbingers remains perfect.",
     "premiumOffer": "unlockHarbingerAltSkin3",
     "price": 290,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

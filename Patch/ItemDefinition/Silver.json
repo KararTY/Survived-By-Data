@@ -4,7 +4,6 @@
     "alias": "Gold",
     "description": "As a rare byproduct of Quartz processing, Silver has been the primary currency of humanity for countless generations.",
     "price": 1,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -41,6 +40,7 @@
     ],
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

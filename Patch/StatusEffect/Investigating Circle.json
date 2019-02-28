@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Investigating Circle",
+    "alias": "Quest_DruidEffect",
+    "floatingText": "Investigating",
+    "type": "Normal",
+    "duration": 20,
+    "stats": [
+      {
+        "key": "ThreatDecay",
+        "equation": "[ThreatDecay] * 0.25",
+        "value": 0
+      },
+      {
+        "key": "ThreatRange",
+        "equation": "45",
+        "value": 45
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

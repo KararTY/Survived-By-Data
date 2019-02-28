@@ -5,7 +5,6 @@
     "description": "These Infiltrators move like wind upon the grass, their presence only marked by the gentle signs that belie the devastating intent.",
     "premiumOffer": "unlockInfiltratorAltSkin4",
     "price": 900,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

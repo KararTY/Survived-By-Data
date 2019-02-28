@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Restorative Shift",
+    "alias": "Restorative Shift Buff",
+    "type": "Permanent",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Health",
+        "equation": "[Health]+([HealthMax] * [Proc.Benefit] / 100)",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Health Potion"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

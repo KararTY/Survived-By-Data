@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Craft Time Reduction Buff",
+    "alias": "Consumable Craft Time Reduction Buff 6",
+    "floatingText": "CRAFT TIME REDUCTION",
+    "type": "Normal",
+    "duration": 604800,
+    "stats": [
+      {
+        "key": "ReduceCraftTime",
+        "equation": "[ReduceCraftTime]+0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Craft Time Reduction Buff",
+    "alias": "Consumable Craft Time Reduction Buff 4",
+    "floatingText": "CRAFT TIME REDUCTION",
+    "type": "Normal",
+    "duration": 259200,
+    "stats": [
+      {
+        "key": "ReduceCraftTime",
+        "equation": "[ReduceCraftTime]+0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Craft Time Reduction Buff",
+    "alias": "Consumable Craft Time Reduction Buff",
+    "floatingText": "CRAFT TIME REDUCTION",
+    "type": "Normal",
+    "duration": 7200,
+    "stats": [
+      {
+        "key": "ReduceCraftTime",
+        "equation": "[ReduceCraftTime]+0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Craft Time Reduction Buff",
+    "alias": "Consumable Craft Time Reduction Buff 5",
+    "floatingText": "CRAFT TIME REDUCTION",
+    "type": "Normal",
+    "duration": 432000,
+    "stats": [
+      {
+        "key": "ReduceCraftTime",
+        "equation": "[ReduceCraftTime]+0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Craft Time Reduction Buff",
+    "alias": "Consumable Craft Time Reduction Buff 2",
+    "floatingText": "CRAFT TIME REDUCTION",
+    "type": "Normal",
+    "duration": 43200,
+    "stats": [
+      {
+        "key": "ReduceCraftTime",
+        "equation": "[ReduceCraftTime]+0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Craft Time Reduction Buff",
+    "alias": "Consumable Craft Time Reduction Buff 3",
+    "floatingText": "CRAFT TIME REDUCTION",
+    "type": "Normal",
+    "duration": 86400,
+    "stats": [
+      {
+        "key": "ReduceCraftTime",
+        "equation": "[ReduceCraftTime]+0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

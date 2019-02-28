@@ -4,7 +4,6 @@
     "alias": "Dungeon Key - TX Ruins",
     "description": "Used to gain access to the Sundered Swamp Vault.",
     "price": 1,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -39,9 +38,8 @@
     "experiencePerLevel": [
       0
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

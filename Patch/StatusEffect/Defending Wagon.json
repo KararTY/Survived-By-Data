@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Defending Wagon",
+    "alias": "Quest_HarbingerWagons",
+    "floatingText": "Defending",
+    "type": "Normal",
+    "duration": 45,
+    "stats": [
+      {
+        "key": "ThreatDecay",
+        "equation": "[ThreatDecay] * 0.25",
+        "value": 0
+      },
+      {
+        "key": "ThreatRange",
+        "equation": "20",
+        "value": 20
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

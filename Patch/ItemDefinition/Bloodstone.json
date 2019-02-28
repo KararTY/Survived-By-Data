@@ -4,7 +4,6 @@
     "alias": "Crystal",
     "description": "A mysterious and powerful material that seems to contain the strength of fallen heroes.",
     "price": 1,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -41,6 +40,7 @@
     ],
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

@@ -29,6 +29,7 @@ module.exports = () => {
       else if (monoBehaviour['0 Array sets'] && monoBehaviour['0 Array stat']) moveToFolder = 'Ancestral'
       else if (monoBehaviour['0 Array spawnList']) moveToFolder = 'SpawnerDef'
       else if (monoBehaviour['0 Array quests']) moveToFolder = 'WeeklyChallenge'
+      else if (typeof monoBehaviour['1 UInt8 IsBuff'] === 'number') moveToFolder = 'StatusEffect'
       // else if (monoBehaviour['1 string QuestText']) moveToFolder = 'Quest'
       if (moveToFolder.length > 0) {
         if (!fs.existsSync(path.join(__dirname, 'Raw data', patchDate, moveToFolder))) fs.mkdirSync(path.join(__dirname, 'Raw data', patchDate, moveToFolder))

@@ -3,8 +3,6 @@
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 1",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -177,17 +175,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 10",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -360,17 +355,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 2",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -543,17 +535,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 3",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -726,17 +715,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 4",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -909,17 +895,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 5",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -1092,17 +1075,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 6",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -1275,17 +1255,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 7",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -1458,17 +1435,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 8",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -1641,17 +1615,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Eye of Obsidian II",
     "alias": "Relic Volcano II 9",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -1824,9 +1795,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

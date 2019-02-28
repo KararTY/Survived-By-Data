@@ -1,0 +1,147 @@
+[
+  {
+    "name": "WeeklyChallenge7",
+    "challengeDescription": "The Keening, the event that nearly destroyed the World Tree, was centered on a monastery built by the insane. Perhaps there are still clues out there that might help us fix whatever is broken.",
+    "quests": [
+      {
+        "name": "WC7Quest1",
+        "data": [
+          {
+            "questTitle": "Pilgrim Documentation"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Harsa Ledger",
+                "count": 30,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Sagila Ledger",
+                "count": 30,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC7Quest1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC7Quest2",
+        "data": [
+          {
+            "questTitle": "Engravings"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Bas Relief",
+                "count": 10,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Stained Glass",
+                "count": 10,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC7Quest2"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC7Quest3",
+        "data": [
+          {
+            "questTitle": "Chimera Recording"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Excavation Log",
+                "count": 30,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Gorgon Journal",
+                "count": 3,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC7Quest3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC7Quest4",
+        "data": [
+          {
+            "questTitle": "Asylum"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Reinfused Hardwood",
+                "count": 15,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Quilted Leather",
+                "count": 15,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC7Quest4"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "buffReward": {
+      "name": "Rare Ancestral Legacy Chance Buff",
+      "alias": "GlobalAncestralRarityChanceBuff",
+      "type": "Normal",
+      "duration": 604800,
+      "stats": [
+        {
+          "key": "RareLegacyIncrease",
+          "equation": "[RareLegacyIncrease]+0.1",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true
+    }
+  }
+]

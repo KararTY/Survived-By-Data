@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Quick Reaction",
+    "alias": "Quick Reaction Buff",
+    "type": "Normal",
+    "duration": 2,
+    "stats": [
+      {
+        "key": "DamageReductionAll",
+        "equation": "[DamageReductionAll] + ([Proc.Benefit]/100)",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doNotRefresh": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

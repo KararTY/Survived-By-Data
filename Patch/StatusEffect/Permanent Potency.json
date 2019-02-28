@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Permanent Potency",
+    "floatingText": "Potency +15",
+    "type": "Permanent",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "AddPotency",
+        "equation": "[AddPotency]+15",
+        "value": 30
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Permanent Potion"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": true
+  }
+]

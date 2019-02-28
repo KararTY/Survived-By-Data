@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Expansion Buff",
+    "alias": "Consumable Lesser Expansion Buff",
+    "floatingText": "EXPANSION BUFF",
+    "type": "Normal",
+    "duration": 10800,
+    "stats": [
+      {
+        "key": "ExperienceBonus",
+        "equation": "[ExperienceBonus]+0.3",
+        "value": 0
+      },
+      {
+        "key": "ShrineTeleportCostReduction",
+        "equation": "[ShrineTeleportCostReduction]+0.3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

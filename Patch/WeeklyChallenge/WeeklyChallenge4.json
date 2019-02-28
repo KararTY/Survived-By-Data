@@ -1,0 +1,147 @@
+[
+  {
+    "name": "WeeklyChallenge4",
+    "challengeDescription": "The Locus is the source of all Chimera, but each time we will it another appears to take its place. We have to learn more about how this thing continues to be reborn.",
+    "quests": [
+      {
+        "name": "WC4Quest1",
+        "data": [
+          {
+            "questTitle": "Royal Jelly"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Locus Ichor",
+                "count": 3,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Fury Nector",
+                "count": 10,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC4Quest1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC4Quest2",
+        "data": [
+          {
+            "questTitle": "Growth Chamber"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Cocoon Remains",
+                "count": 10,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Silk Filament",
+                "count": 30,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC4Quest2"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC4Quest3",
+        "data": [
+          {
+            "questTitle": "Recover Observation Notes"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Harsa Observations",
+                "count": 30,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Escalade Islands Observations",
+                "count": 30,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC4Quest3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC4Quest4",
+        "data": [
+          {
+            "questTitle": "Sample Containment"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Sable",
+                "count": 15,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Molded Leather",
+                "count": 15,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC4Quest4"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "buffReward": {
+      "name": "Cardpack Chance Buff",
+      "alias": "GlobalCardPackIncreaseBuff",
+      "type": "Normal",
+      "duration": 604800,
+      "stats": [
+        {
+          "key": "CardPackIncrease",
+          "equation": "[CardPackIncrease]+0.1",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true
+    }
+  }
+]

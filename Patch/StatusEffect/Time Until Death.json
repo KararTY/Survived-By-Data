@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Time Until Death",
+    "alias": "TimedPlayerDeath",
+    "type": "Death",
+    "duration": 1200,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "statusEffectOnExpire": {
+      "name": "Death",
+      "type": "Death",
+      "duration": 0,
+      "stats": [],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "noTimeOut": true
+    },
+    "doesNotStackWithSelf": true,
+    "ignoreDurationModifiers": true
+  }
+]

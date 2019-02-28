@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Cloak of Shadow",
+    "type": "RageMode",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "AvoidChance",
+        "equation": "0.8",
+        "value": 0.8
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Stealth"
+    },
+    "projectile": 18,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "removeOnAttack": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

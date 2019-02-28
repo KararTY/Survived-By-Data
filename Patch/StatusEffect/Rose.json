@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Rose",
+    "alias": "Valentine Consumable Projectile Buff 3",
+    "type": "Normal",
+    "duration": 1800,
+    "stats": [
+      {
+        "key": "SilverIncrease",
+        "equation": "[SilverIncrease] + 0.1",
+        "value": 0
+      },
+      {
+        "key": "ProjectileVisualIndex",
+        "equation": "11",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

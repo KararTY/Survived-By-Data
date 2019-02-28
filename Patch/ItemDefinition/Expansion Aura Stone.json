@@ -5,7 +5,6 @@
     "description": "Once activated, for three hours this stone provides an increase in experience gained and a decrease in fast travel cost of 30%. This benefit ends on death.",
     "premiumOffer": "ConsumableExperienceBonusLesser",
     "price": 20,
-    "sellPrice": 0,
     "consumableEffect": {
       "name": "Expansion Buff",
       "alias": "Consumable Lesser Expansion Buff",
@@ -78,10 +77,9 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Crystal",
     "coolDown": 0.5,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

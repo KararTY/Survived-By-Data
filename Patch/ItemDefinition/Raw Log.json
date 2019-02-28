@@ -3,8 +3,6 @@
     "name": "Raw Log",
     "alias": "Crafting Material T0 Raw Log",
     "description": "Bits and pieces of damaged or dead trees that could potentially be worked into something useful.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -39,8 +37,7 @@
     "experiencePerLevel": [
       0
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "craftingRarity": [
       0.5,

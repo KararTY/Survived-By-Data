@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Drop Rate Buff",
+    "alias": "Consumable Drop Rate Buff 6",
+    "floatingText": "DROP RATE BUFF",
+    "type": "Normal",
+    "duration": 604800,
+    "stats": [
+      {
+        "key": "DropRateIncrease",
+        "equation": "[DropRateIncrease]+1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drop Rate Buff",
+    "alias": "Consumable Drop Rate Buff 2",
+    "floatingText": "DROP RATE BUFF",
+    "type": "Normal",
+    "duration": 43200,
+    "stats": [
+      {
+        "key": "DropRateIncrease",
+        "equation": "[DropRateIncrease]+1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drop Rate Buff",
+    "alias": "Consumable Drop Rate Buff 4",
+    "floatingText": "DROP RATE BUFF",
+    "type": "Normal",
+    "duration": 259200,
+    "stats": [
+      {
+        "key": "DropRateIncrease",
+        "equation": "[DropRateIncrease]+1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drop Rate Buff",
+    "alias": "Consumable Drop Rate Buff",
+    "floatingText": "DROP RATE BUFF",
+    "type": "Normal",
+    "duration": 7200,
+    "stats": [
+      {
+        "key": "DropRateIncrease",
+        "equation": "[DropRateIncrease]+1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drop Rate Buff",
+    "alias": "Consumable Drop Rate Buff 5",
+    "floatingText": "DROP RATE BUFF",
+    "type": "Normal",
+    "duration": 432000,
+    "stats": [
+      {
+        "key": "DropRateIncrease",
+        "equation": "[DropRateIncrease]+1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drop Rate Buff",
+    "alias": "Consumable Drop Rate Buff 3",
+    "floatingText": "DROP RATE BUFF",
+    "type": "Normal",
+    "duration": 86400,
+    "stats": [
+      {
+        "key": "DropRateIncrease",
+        "equation": "[DropRateIncrease]+1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

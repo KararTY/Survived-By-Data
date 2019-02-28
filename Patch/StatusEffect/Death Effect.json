@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Death Effect",
+    "alias": "ChimeraDeathEffect",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce ChimeraDeathEffect"
+    },
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true
+  },
+  {
+    "name": "Death Effect",
+    "alias": "InfernalDeathEffect",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce InfernalDeathEffect"
+    },
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true
+  },
+  {
+    "name": "Death Effect",
+    "alias": "SpiritDeathEffect",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce SpiritDeathEffect"
+    },
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true
+  },
+  {
+    "name": "Death Effect",
+    "alias": "FuryDeathEffect",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce FuryDeathEffect"
+    },
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true
+  }
+]

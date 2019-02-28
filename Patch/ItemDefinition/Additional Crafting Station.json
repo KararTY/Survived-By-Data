@@ -5,7 +5,6 @@
     "description": "Makes another crafting station available for use. A total of 3 additional stations can be purchased.",
     "premiumOffer": "CraftStation2",
     "price": 500,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -46,6 +45,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -55,7 +55,6 @@
     "description": "Makes another crafting station available for use. A total of 3 additional stations can be purchased.",
     "premiumOffer": "CraftStation3",
     "price": 500,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -96,6 +95,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -105,7 +105,6 @@
     "description": "Makes another crafting station available for use. A total of 3 additional stations can be purchased.",
     "premiumOffer": "CraftStation4",
     "price": 500,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -146,6 +145,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -155,7 +155,6 @@
     "description": "Additional Crafting Station",
     "premiumOffer": "CraftStation5",
     "price": 500,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -196,6 +195,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

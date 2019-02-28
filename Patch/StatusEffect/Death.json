@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Death",
+    "type": "Death",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true
+  }
+]

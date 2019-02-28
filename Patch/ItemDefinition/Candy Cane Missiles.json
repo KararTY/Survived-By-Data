@@ -5,7 +5,6 @@
     "description": "Increases silver dropped by 10% and replaces your projectiles with candy canes!",
     "premiumOffer": "HolidayConsumableCandyCane",
     "price": 2,
-    "sellPrice": 0,
     "consumableEffect": {
       "name": "Candy Cane",
       "alias": "Winter Holiday Consumable Projectile Buff 1",
@@ -76,10 +75,9 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Crystal",
     "coolDown": 0.5,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

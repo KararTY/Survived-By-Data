@@ -1,0 +1,396 @@
+[
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T1",
+    "type": "Normal",
+    "duration": 10,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.95",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T10",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T11",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T12",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T13",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T14",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T2",
+    "type": "Normal",
+    "duration": 10,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T3",
+    "type": "Normal",
+    "duration": 10,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.85",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T4",
+    "type": "Normal",
+    "duration": 10,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T5",
+    "type": "Normal",
+    "duration": 10,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.75",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T6",
+    "type": "Normal",
+    "duration": 10,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T7",
+    "type": "Normal",
+    "duration": 10,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.65",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T8",
+    "type": "Normal",
+    "duration": 10,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "RateOfAttack Debuff T9",
+    "type": "Normal",
+    "duration": 10,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.55",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Slowed",
+    "alias": "AlchemistSpecial Debuff",
+    "type": "",
+    "duration": 1,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.5",
+        "value": 0
+      },
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce poison 0"
+    },
+    "doesNotStackWithSelf": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

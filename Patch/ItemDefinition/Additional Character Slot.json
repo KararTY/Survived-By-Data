@@ -5,7 +5,6 @@
     "description": "Increase the number of available character slots by 1.",
     "premiumOffer": "CharacterSlot",
     "price": 600,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Potency Buff",
+    "alias": "DeathEffect Potency Buff",
+    "floatingText": "DAMAGE BUFF",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+([DamageBonus]*(1+[TimeOnHelpingTile]*3)/100)",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

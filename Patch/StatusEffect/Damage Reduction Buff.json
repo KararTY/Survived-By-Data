@@ -1,0 +1,433 @@
+[
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "Damage Reduction Set Proc Effect",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]*1.05",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T1",
+    "type": "Normal",
+    "duration": 30,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]*1.10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T10",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T11",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+11",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T12",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+12",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T13",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+13",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T14",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+14",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T15",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+15",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T2",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T3",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T4",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T5",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T6",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T7",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T8",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction Buff",
+    "alias": "DamageReduction Buff T9",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

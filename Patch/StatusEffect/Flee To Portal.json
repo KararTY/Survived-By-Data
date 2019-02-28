@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Flee To Portal",
+    "alias": "FleeToPortal",
+    "type": "",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "ignoreDurationModifiers": true
+  }
+]

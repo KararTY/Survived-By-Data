@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Kraken Slow",
+    "type": "Normal",
+    "duration": 4,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed] * 0.25",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Experience Bonus Buff",
+    "alias": "GlobalXPIncreaseBuff",
+    "type": "Normal",
+    "duration": 604800,
+    "stats": [
+      {
+        "key": "ExperienceBonus",
+        "equation": "[ExperienceBonus]+0.1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true
+  }
+]

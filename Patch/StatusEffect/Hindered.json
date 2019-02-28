@@ -1,0 +1,417 @@
+[
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T1",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.95",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T10",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T11",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T12",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T13",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T14",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T2",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T3",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.85",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T4",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T5",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.75",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T6",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T7",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.65",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T8",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "MovementSpeed Debuff T9",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.55",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "Player MovementSpeed Debuff",
+    "type": "",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Hindered",
+    "alias": "ElementalAffinityEaDebuff",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]-3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

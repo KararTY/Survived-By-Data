@@ -4,7 +4,6 @@
     "alias": "Deep Night Fire Consumable",
     "description": "Increases silver dropped by 10% and replaces projectile with fireballs",
     "price": 1,
-    "sellPrice": 0,
     "consumableEffect": {
       "name": "Touch of Fire",
       "alias": "Deep Night Consumable Fire Buff",
@@ -75,9 +74,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "coolDown": 0.5,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

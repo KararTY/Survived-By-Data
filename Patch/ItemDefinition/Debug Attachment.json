@@ -2,9 +2,7 @@
   {
     "name": "Debug Attachment",
     "alias": "TestAttachment",
-    "description": "string33039",
-    "price": 0,
-    "sellPrice": 0,
+    "description": "",
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -48,6 +46,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

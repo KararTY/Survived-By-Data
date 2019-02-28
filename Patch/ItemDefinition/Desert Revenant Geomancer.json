@@ -5,7 +5,6 @@
     "description": "A great civilization once occupied the Cinder Valley, but now little remains except wreckage. The helmets of their geomancers were adorned with false beards of raw gems.",
     "premiumOffer": "unlockGeomancerSkinSin",
     "price": 725,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

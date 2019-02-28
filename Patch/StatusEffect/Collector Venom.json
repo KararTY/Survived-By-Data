@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Collector Venom",
+    "alias": "Collector Debuff",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "Potency",
+        "equation": "[Potency]*0.5",
+        "value": 53.25
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 5
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

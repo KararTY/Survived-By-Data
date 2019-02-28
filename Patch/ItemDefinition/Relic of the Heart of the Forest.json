@@ -3,8 +3,6 @@
     "name": "Relic of the Heart of the Forest",
     "alias": "Relic Hard Mode 6",
     "description": "The Heart of the Forest is perhaps the oldest living thing in the Heartland. Its relic contains a touch of eternity.",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -158,9 +156,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

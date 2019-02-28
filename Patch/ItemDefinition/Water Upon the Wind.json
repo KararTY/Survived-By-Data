@@ -3,8 +3,6 @@
     "name": "Water Upon the Wind",
     "alias": "WeeklyQuest Cave Water Upon Wind",
     "description": "Cyclones that touch upon the seas can create these dual element motes.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -42,8 +40,7 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

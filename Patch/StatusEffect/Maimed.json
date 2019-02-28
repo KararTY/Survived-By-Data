@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Maimed",
+    "alias": "RateOfAttack Debuff T15",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

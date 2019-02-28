@@ -3,8 +3,6 @@
     "name": "Ashen Chitin I",
     "alias": "Relic Void I 1",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -183,17 +181,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Ashen Chitin I",
     "alias": "Relic Void I 2",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -372,17 +367,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Ashen Chitin I",
     "alias": "Relic Void I 3",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -561,17 +553,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Ashen Chitin I",
     "alias": "Relic Void I 4",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -750,17 +739,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Ashen Chitin I",
     "alias": "Relic Void I 5",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -939,17 +925,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Ashen Chitin I",
     "alias": "Relic Void I 6",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -1128,17 +1111,14 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Ashen Chitin I",
     "alias": "Relic Void I 7",
     "description": "<insert cool lore here>",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -1317,9 +1297,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

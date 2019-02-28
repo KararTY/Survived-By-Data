@@ -5,7 +5,6 @@
     "description": "This relic increases the pick up radius by 15%. This bonus is cumulative with other Reach Relics.",
     "premiumOffer": "RelicPickupRange1",
     "price": 3,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -64,6 +63,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

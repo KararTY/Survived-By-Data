@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Energy Set Proc Effect",
+    "type": "Permanent",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "Mana",
+        "equation": "[Mana]+15+[Player.Level]",
+        "value": 204.33
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Mana Potion"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

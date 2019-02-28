@@ -3,8 +3,6 @@
     "name": "Relic of the Kraken",
     "alias": "Relic Hard Mode 5",
     "description": "The Kraken was the first into the breach and stands watch as its guardian. Its relic contains a fragment of that resilience.",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -158,9 +156,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

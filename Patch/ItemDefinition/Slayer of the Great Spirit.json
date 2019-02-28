@@ -1,8 +1,6 @@
 [
   {
     "name": "Slayer of the Great Spirit",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -46,6 +44,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

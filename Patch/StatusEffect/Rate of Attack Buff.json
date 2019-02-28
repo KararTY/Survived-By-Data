@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T1",
+    "type": "Normal",
+    "duration": 30,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*1.10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T10",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T11",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+11",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T12",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+12",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T13",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+13",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T14",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+14",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T15",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+15",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T2",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T3",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T4",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T5",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T6",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T7",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T8",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rate of Attack Buff",
+    "alias": "RateOfAttack Buff T9",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

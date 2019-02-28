@@ -3,8 +3,6 @@
     "name": "Health Regeneration Charm V",
     "alias": "HealthRegen Charm Lv5",
     "description": "Health Regeneration Charms increase the rate at which health is restored when out of combat.\n\nFuse together 5 charms of the same level to obtain a charm of the next highest level.\n\nCharms can be placed into items with sockets, but the total level of all of the charms cannot exceed the level of the item.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 50,
@@ -96,6 +94,7 @@
     "fusionUpgradeItem": "Buff Duration Charm VI",
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

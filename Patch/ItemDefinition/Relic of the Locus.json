@@ -3,8 +3,6 @@
     "name": "Relic of the Locus",
     "alias": "Relic Hard Mode 4",
     "description": "The gargantuan Locus is like a force of nature unto itself. Some of that power is accessible by the bearer of the relic it might leave behind on death.",
-    "price": 0,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -158,9 +156,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Enfeebling Brew",
+    "alias": "Enfeebling Brew Effect",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "DamageTakenIncrease",
+        "equation": "[DamageTakenIncrease] + [Proc.Benefit]/100",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

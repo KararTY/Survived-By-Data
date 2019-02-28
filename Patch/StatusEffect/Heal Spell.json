@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Heal Spell",
+    "alias": "HealSpell",
+    "type": "Normal",
+    "duration": 2,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Heal Spell"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true
+  }
+]

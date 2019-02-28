@@ -5,7 +5,6 @@
     "description": "A people on the brink of genocide must be willing to take desperate measures for their survival. But even some responses are too abhorrent to consider, let alone deploy. Yet some do, alienating themselves from the very people they seek to save.",
     "premiumOffer": "unlockSkinmageRed",
     "price": 150,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

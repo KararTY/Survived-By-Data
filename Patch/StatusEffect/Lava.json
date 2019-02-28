@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Lava",
+    "alias": "DeathEffect Lava Debuff",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "DamageOverTime",
+        "equation": "[DamageOverTime]+(10*POW(1.75,[TimeOnDamagingTile]-1))",
+        "value": 0
+      },
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.75",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Fire"
+    },
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Lava",
+    "alias": "Projectile Lava Quest",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "DamageOverTime",
+        "equation": "[DamageOverTime]+50",
+        "value": 100
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 9
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Fire"
+    },
+    "doesNotStackWithSelf": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Lava",
+    "alias": "Projectile Lava",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "DamageOverTime",
+        "equation": "[DamageOverTime]+250",
+        "value": 100
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 9
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Fire"
+    },
+    "doesNotStackWithSelf": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Lava",
+    "alias": "Environment Lava",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "DamageOverTime",
+        "equation": "[DamageOverTime]+(30*[TimeOnDamagingTile])",
+        "value": 40
+      },
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*0.75",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Fire"
+    },
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

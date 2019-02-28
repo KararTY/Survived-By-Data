@@ -1,0 +1,147 @@
+[
+  {
+    "name": "WeeklyChallenge6",
+    "challengeDescription": "In all our recorded history, the Spirits have never turned on us until now. But ending the threat is no small task. There is still so much that we don't know.",
+    "quests": [
+      {
+        "name": "WC6Quest1",
+        "data": [
+          {
+            "questTitle": "The Nature of the Heart"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Deep Forest Roots",
+                "count": 10,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Heart Sap",
+                "count": 3,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC6Quest1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC6Quest2",
+        "data": [
+          {
+            "questTitle": "Sustenance"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Crystal Water",
+                "count": 30,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Conditioned Soil",
+                "count": 30,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC6Quest2"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC6Quest3",
+        "data": [
+          {
+            "questTitle": "Resin Interaction"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Animate Seed",
+                "count": 30,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Nest Resin",
+                "count": 10,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC6Quest3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC6Quest4",
+        "data": [
+          {
+            "questTitle": "Barricades"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Sable",
+                "count": 15,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Wrought Fibers",
+                "count": 15,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC6Quest4"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "buffReward": {
+      "name": "Socket Chance Buff",
+      "alias": "GlobalSocketChanceBuff",
+      "type": "Normal",
+      "duration": 604800,
+      "stats": [
+        {
+          "key": "SocketIncrease",
+          "equation": "[SocketIncrease]+0.1",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true
+    }
+  }
+]

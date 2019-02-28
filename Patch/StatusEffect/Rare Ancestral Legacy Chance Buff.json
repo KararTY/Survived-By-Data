@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Rare Ancestral Legacy Chance Buff",
+    "alias": "GlobalAncestralRarityChanceBuff",
+    "type": "Normal",
+    "duration": 604800,
+    "stats": [
+      {
+        "key": "RareLegacyIncrease",
+        "equation": "[RareLegacyIncrease]+0.1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "isAccountWide": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true
+  }
+]

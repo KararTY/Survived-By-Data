@@ -3,8 +3,6 @@
     "name": "Fury Nector",
     "alias": "WeeklyQuest Incubator Fury Nector",
     "description": "The nector used to sustain a juvenile Locus comes from outside the World Tree, but once it leaves the Straits of the Deep (Hard) it's impossible to track.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -42,8 +40,7 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

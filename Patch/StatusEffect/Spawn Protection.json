@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Spawn Protection",
+    "type": "Invincibility",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "removeOnAttack": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

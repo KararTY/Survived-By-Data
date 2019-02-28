@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Celerity Response",
+    "alias": "Celerity Response Effect",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "AddMovementSpeed",
+        "equation": "[AddMovementSpeed]+0.1",
+        "value": 6.6
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "doNotRefresh": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

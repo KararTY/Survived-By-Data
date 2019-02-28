@@ -4,8 +4,6 @@
     "alias": "it Attachment Mantle of Thorns",
     "description": "Rooted deep within the host, the tendrils of the Bloodthorn Parasite pierce the skin around the spine and reach out for prey to devour.",
     "premiumOffer": "UnlockAttachmentThornMantle",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -51,6 +49,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

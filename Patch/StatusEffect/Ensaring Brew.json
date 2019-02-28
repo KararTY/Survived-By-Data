@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ensaring Brew",
+    "alias": "Ensnaring Brew Effect",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]  - ([MovementSpeed] * [Proc.Benefit]/100)",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

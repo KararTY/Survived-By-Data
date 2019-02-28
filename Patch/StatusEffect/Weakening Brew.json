@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Weakening Brew",
+    "alias": "Weakening Brew Effect",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]  - ([DamageBonus] * [Proc.Benefit]/100)",
+        "value": 0
+      },
+      {
+        "key": "SpecialWeaponDamage",
+        "equation": "[SpecialWeaponDamage]  - ([SpecialWeaponDamage] * [Proc.Benefit]/100)",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

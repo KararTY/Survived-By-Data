@@ -5,7 +5,6 @@
     "description": "One Ancestral Legacy with a rarity of Uncommon or Rare",
     "premiumOffer": "CardPackPremiumElectrum",
     "price": 500,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "None",
     "maxStack": 99,
@@ -46,9 +45,8 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -58,7 +56,6 @@
     "description": "One Ancestral Legacy with a rarity of Uncommon or Rare",
     "premiumOffer": "CardPackPremium",
     "price": 5000,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "None",
     "maxStack": 99,
@@ -99,9 +96,8 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Fame",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

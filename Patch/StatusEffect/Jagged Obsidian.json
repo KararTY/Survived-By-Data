@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Jagged Obsidian",
+    "alias": "Jagged Obsidian Damage",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "DamageOverTime",
+        "equation": "[DamageOverTime]+([@Player.SpecialWeaponDamage]*([Proc.Benefit]/100)/5)",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce poison 0"
+    },
+    "doesNotStackWithSelf": true,
+    "doNotRefresh": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

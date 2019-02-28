@@ -5,7 +5,6 @@
     "description": "Sometimes the goal is not to kill, but to do damage, and these Infiltrators are masters of those techniques.",
     "premiumOffer": "unlockInfiltratorAltSkin2",
     "price": 150,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

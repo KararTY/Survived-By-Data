@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Road",
+    "alias": "Environment Fast",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "AddMovementSpeed",
+        "equation": "[AddMovementSpeed]+0.25",
+        "value": 9
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

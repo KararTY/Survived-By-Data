@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Altar Experience Buff",
+    "alias": "Altar XP Buff",
+    "floatingText": "XP MULTIPLIER",
+    "type": "Normal",
+    "duration": 45,
+    "stats": [
+      {
+        "key": "ExperienceBonus",
+        "equation": "[ExperienceBonus]+0.25",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

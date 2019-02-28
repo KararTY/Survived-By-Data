@@ -5,7 +5,6 @@
     "description": "Once activated, for three hours this stone provides a decrease in fast travel cost and and increase in pickup distance of 30%. This benefit ends on death.",
     "premiumOffer": "ConsumableFastTravelCostLesser",
     "price": 20,
-    "sellPrice": 0,
     "consumableEffect": {
       "name": "Mobility Buff",
       "alias": "Consumable Lesser Mobility Buff",
@@ -78,10 +77,9 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Crystal",
     "coolDown": 0.5,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Scout Alert",
+    "floatingText": "ALERT!",
+    "type": "Aggroflash",
+    "duration": 1,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

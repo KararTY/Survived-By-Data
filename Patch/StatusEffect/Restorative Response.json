@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Restorative Response",
+    "alias": "Restorative Response Buff",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "HealthRegen",
+        "equation": "[HealthRegen]*1.10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "doNotRefresh": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

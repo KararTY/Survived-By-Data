@@ -4,8 +4,6 @@
     "alias": "Grave - Deep Night 1",
     "description": "Description of Grave of Deep Night",
     "premiumOffer": "UnlockGravestoneDeepNight1",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -63,6 +61,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -70,8 +69,6 @@
     "alias": "Grave - Deep Night 2",
     "description": "Description of Grave of Deep Night",
     "premiumOffer": "UnlockGravestoneDeepNight2",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -129,6 +126,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
@@ -136,8 +134,6 @@
     "alias": "Grave - Deep Night 3",
     "description": "Description of Grave of Deep Night",
     "premiumOffer": "UnlockGravestoneDeepNight3",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -195,6 +191,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

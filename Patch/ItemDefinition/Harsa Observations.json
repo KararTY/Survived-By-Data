@@ -3,8 +3,6 @@
     "name": "Harsa Observations",
     "alias": "WeeklyQuest Incubator Harsa Observations",
     "description": "We have lost good men and women in the Ruins of Harsa who were searching for the key to the Locus creation. But perhaps their notes still exist.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -42,8 +40,7 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

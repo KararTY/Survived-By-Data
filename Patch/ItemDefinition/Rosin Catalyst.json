@@ -5,7 +5,6 @@
     "description": "Solidified but unrefined rosin. It is a dangerous and less effective alternative to refined amber. This is a rare crafting component.",
     "premiumOffer": "RosinCatalyst",
     "price": 2,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -43,6 +42,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "craftingRarity": [
       0.2,

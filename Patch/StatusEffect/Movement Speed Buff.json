@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T1",
+    "type": "Normal",
+    "duration": 30,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*1.10",
+        "value": 6.6
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T10",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T11",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+11",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T12",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+12",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T13",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+13",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T14",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+14",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T15",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+15",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T2",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T3",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T4",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T5",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T6",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T7",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T8",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Movement Speed Buff",
+    "alias": "MovementSpeed Buff T9",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]+9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Speed Boost"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

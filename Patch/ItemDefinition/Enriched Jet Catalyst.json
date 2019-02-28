@@ -5,7 +5,6 @@
     "description": "The fire sand deserts are not natural. The rapid expansion and high pressure of the fires that create them also create the brittle but potent jet. This is a rare crafting component.",
     "premiumOffer": "JetCatalyst8_5",
     "price": 45,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -43,6 +42,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "craftingRarity": [
       0.2,

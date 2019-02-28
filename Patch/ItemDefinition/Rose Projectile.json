@@ -3,8 +3,6 @@
     "name": "Rose Projectile",
     "alias": "Valentine Projectile Consumable 3",
     "description": "Roses are red, violets are blue, I want to slay dungeon bosses with you! Increases silver dropped by 10% and replaces your projectiles with roses!",
-    "price": 0,
-    "sellPrice": 0,
     "consumableEffect": {
       "name": "Rose",
       "alias": "Valentine Consumable Projectile Buff 3",
@@ -75,9 +73,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "coolDown": 0.5,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

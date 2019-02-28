@@ -3,8 +3,6 @@
     "name": "Crystal Water",
     "alias": "WeeklyQuest Forest Crystal Water",
     "description": "The pristine waters of the Sea of Crags are laced with the stuff of the greatest Spirits.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -42,8 +40,7 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

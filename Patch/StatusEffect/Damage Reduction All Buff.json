@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Damage Reduction All Buff",
+    "alias": "DamageReductionAll Buff1",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "DamageReductionAll",
+        "equation": "[DamageReductionAll]+0.34",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction All Buff",
+    "alias": "ElementalAffinityKiDebuff",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]-10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction All Buff",
+    "alias": "DamageReductionAll Buff3",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "DamageReductionAll",
+        "equation": "[DamageReductionAll]+0.34",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Reduction All Buff",
+    "alias": "DamageReductionAll Buff2",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "DamageReductionAll",
+        "equation": "[DamageReductionAll]+0.34",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

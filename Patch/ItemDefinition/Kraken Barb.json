@@ -3,8 +3,6 @@
     "name": "Kraken Barb",
     "alias": "WeeklyQuest Islands Kraken Barb",
     "description": "The Kraken (Hard) stands guard at the Breach, causing it to be bombarded with the essence born from outside the World Tree",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -42,8 +40,7 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

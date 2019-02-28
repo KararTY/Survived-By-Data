@@ -5,7 +5,6 @@
     "description": "Let none of the Tree inherit, that vision of my spirit.",
     "premiumOffer": "UnlockGravestoneGhost",
     "price": 1000,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "None",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

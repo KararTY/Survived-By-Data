@@ -3,8 +3,6 @@
     "name": "Winter Bloom",
     "alias": "QuestWinterBloom",
     "description": "[description]",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -41,14 +39,13 @@
     ],
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   },
   {
     "name": "Winter Bloom",
     "alias": "QuestHerbs",
     "description": "[description]",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -85,6 +82,7 @@
     ],
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

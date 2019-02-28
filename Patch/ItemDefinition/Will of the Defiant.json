@@ -2,10 +2,8 @@
   {
     "name": "Will of the Defiant",
     "alias": "it Attachment Air Wisps",
-    "description": "string33065",
+    "description": "",
     "premiumOffer": "UnlockAttachmentAirWisps",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -51,6 +49,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

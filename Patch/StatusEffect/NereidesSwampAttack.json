@@ -1,0 +1,43 @@
+[
+  {
+    "name": "NereidesSwampAttack",
+    "alias": "NereidesSteamAttack",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Nereides Swamp Attack"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "noTimeOut": true
+  },
+  {
+    "name": "NereidesSwampAttack",
+    "alias": "NereidesFreshwaterAttack",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Nereides Swamp Attack"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "noTimeOut": true
+  },
+  {
+    "name": "NereidesSwampAttack",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Nereides Swamp Attack"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "noTimeOut": true
+  }
+]

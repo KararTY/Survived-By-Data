@@ -4,7 +4,6 @@
     "alias": "Dungeon Key - T2 Caves",
     "description": "Used to gain access to the Spawning Nest. This dungeon is appropriate for characters level 6 through 10.",
     "price": 4,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -42,6 +41,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

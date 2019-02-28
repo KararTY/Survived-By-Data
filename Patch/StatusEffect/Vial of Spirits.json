@@ -1,0 +1,287 @@
+[
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T7",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 7
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+27",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T5",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 5
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+21",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T1",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 1
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+3",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T2",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 2
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+5",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T8",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 8
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+30",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T3",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 3
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+9",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T4",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 4
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+15",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T10",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 10
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+38",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+1",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T6",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 6
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+24",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Vial of Spirits",
+    "alias": "Vial of Spirits T9",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 9
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+33",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "projectile": 9,
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

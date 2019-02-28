@@ -5,7 +5,6 @@
     "description": "You don't need to be cursed to get wrapped up in this skin!",
     "premiumOffer": "unlockGeomancerSkinHalloween",
     "price": 700,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

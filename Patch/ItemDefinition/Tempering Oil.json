@@ -5,7 +5,6 @@
     "description": "An oil that contains tiny fragments of Bloodstone. When applied to a piece of exceptional equipment that equipment becomes more powerful as it is used in battle. This effect lasts for one hour.",
     "premiumOffer": "WeaponOil",
     "price": 30,
-    "sellPrice": 0,
     "consumable": true,
     "requiredLevel": 0,
     "type": "Misc",
@@ -84,10 +83,9 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Crystal",
     "coolDown": 0.5,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

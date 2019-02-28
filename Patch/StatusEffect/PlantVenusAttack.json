@@ -1,0 +1,15 @@
+[
+  {
+    "name": "PlantVenusAttack",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Plant Venus Attack"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "noTimeOut": true
+  }
+]

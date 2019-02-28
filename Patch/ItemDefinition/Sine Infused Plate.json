@@ -69,6 +69,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 1
   }
 ]

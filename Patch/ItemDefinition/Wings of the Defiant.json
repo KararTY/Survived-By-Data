@@ -2,9 +2,7 @@
   {
     "name": "Wings of the Defiant",
     "alias": "it Attachment Air Wings",
-    "description": "string33067",
-    "price": 0,
-    "sellPrice": 0,
+    "description": "",
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -49,6 +47,7 @@
     "requiresDiscovery": true,
     "recoverCost": 1,
     "insureCost": 1,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

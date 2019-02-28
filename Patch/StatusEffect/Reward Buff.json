@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Reward Buff",
+    "alias": "Consumable Lesser Reward Buff",
+    "floatingText": "REWARD BUFF",
+    "type": "Normal",
+    "duration": 10800,
+    "stats": [
+      {
+        "key": "DropRateIncrease",
+        "equation": "[DropRateIncrease]+0.3",
+        "value": 0
+      },
+      {
+        "key": "ExperienceBonus",
+        "equation": "[ExperienceBonus]+0.3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "ignoreDurationModifiers": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

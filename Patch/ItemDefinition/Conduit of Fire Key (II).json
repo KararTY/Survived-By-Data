@@ -5,7 +5,6 @@
     "description": "Conduit of Fire Key (Medium)",
     "premiumOffer": "keyVolcanoMedium",
     "price": 45,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -40,9 +39,8 @@
     "experiencePerLevel": [
       0
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

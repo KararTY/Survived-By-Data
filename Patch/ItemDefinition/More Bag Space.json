@@ -5,7 +5,6 @@
     "description": "Increases inventory space by 2. Can be purchased up to 5 times.",
     "premiumOffer": "MoreBagSpaceBloodstone",
     "price": 25,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -56,7 +56,6 @@
     "description": "More Bag Space",
     "premiumOffer": "BonusBagSpace",
     "price": 250,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -98,6 +97,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -107,7 +107,6 @@
     "description": "Increases the size of your inventory by 10. Can be purchased up to 9 times.",
     "premiumOffer": "MoreBagSpace",
     "price": 250,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -149,6 +148,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

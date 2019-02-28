@@ -4,7 +4,6 @@
     "alias": "Add New Socket",
     "description": "The techniques used to forge a setting that allows a charm to be set into an existing piece of equipment have long been lost, but some of the old mounts remain intact, and can still be used to add a socket to an item.",
     "price": 43,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -82,6 +81,7 @@
     ],
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0
   }
 ]

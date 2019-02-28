@@ -5,7 +5,6 @@
     "description": "The whispers heard by the Witnesses contained more than just madness. The secrets of the Eldritch Catalyst were one such boon, and it allowed the Witnesses to craft the most exceptional items the Heartland had ever seen. This is a rare crafting component.",
     "premiumOffer": "ParadiseCatalyst3",
     "price": 600,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -43,6 +42,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "craftingRarity": [
       0.2,

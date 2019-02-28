@@ -1,0 +1,147 @@
+[
+  {
+    "name": "WeeklyChallenge3",
+    "challengeDescription": "This Boreal Shaman is dangerous because he's smart. He's building encampments all along the Talon Mountain. If we don't break his colony now we may never get another chance.",
+    "quests": [
+      {
+        "name": "WC3Quest1",
+        "data": [
+          {
+            "questTitle": "Send a Message"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Peridot Third Eye",
+                "count": 3,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Concentrated Resin",
+                "count": 10,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC3Quest1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC3Quest2",
+        "data": [
+          {
+            "questTitle": "Expansion Plans"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Manifest",
+                "count": 30,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Expansion Orders",
+                "count": 10,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC3Quest2"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC3Quest3",
+        "data": [
+          {
+            "questTitle": "Cut off Allies"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Wolf Pelt",
+                "count": 30,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Whale Hide",
+                "count": 30,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC3Quest3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC3Quest4",
+        "data": [
+          {
+            "questTitle": "Trapping Routes"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Reinfused Hardwood",
+                "count": 15,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Wrought Fibers",
+                "count": 15,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC3Quest4"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "buffReward": {
+      "name": "Silver Drop Rate Buff",
+      "alias": "GlobalSilverIncreaseBuff",
+      "type": "Normal",
+      "duration": 604800,
+      "stats": [
+        {
+          "key": "SilverIncrease",
+          "equation": "[SilverIncrease]+0.1",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true
+    }
+  }
+]

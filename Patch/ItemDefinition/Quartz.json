@@ -55,9 +55,8 @@
     "experiencePerLevel": [
       0
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "craftingRarity": [
       0.5,
@@ -68,8 +67,6 @@
     "name": "Quartz",
     "alias": "TutorialQuartz",
     "description": "Beautiful formation prized for the minerals inside that can be smelted into Metal.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 100,
@@ -107,8 +104,8 @@
     "bound": {
       "account": true
     },
-    "recoverCost": 0,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

@@ -5,7 +5,6 @@
     "description": "Upgrade Crafting Station To Tier 11",
     "premiumOffer": "craftUnlock10",
     "price": 100,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -46,6 +45,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Gold",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "doesNotCountTowardMax": true
   }

@@ -5,7 +5,6 @@
     "description": "Ancestral Respec\n",
     "premiumOffer": "AncestralRespec1",
     "price": 3,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -46,6 +45,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -55,7 +55,6 @@
     "description": "Ancestral Respec\n",
     "premiumOffer": "AncestralRespec2",
     "price": 6,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -96,6 +95,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -105,7 +105,6 @@
     "description": "Ancestral Respec\n",
     "premiumOffer": "AncestralRespec3",
     "price": 10,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -146,6 +145,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -155,7 +155,6 @@
     "description": "Ancestral Respec\n",
     "premiumOffer": "AncestralRespec4",
     "price": 15,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -196,6 +195,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -205,7 +205,6 @@
     "description": "Ancestral Respec\n",
     "premiumOffer": "AncestralRespec5",
     "price": 20,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -246,6 +245,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

@@ -1,0 +1,392 @@
+[
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T1",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.95",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T10",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T11",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.45",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T12",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T13",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.35",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T14",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T15",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.25",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T2",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T3",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.85",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T4",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T5",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.75",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T6",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T7",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.65",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T8",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Debuff",
+    "alias": "CriticalDamage Debuff T9",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*0.55",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

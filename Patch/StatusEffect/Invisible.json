@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Invisible",
+    "alias": "NoAggro",
+    "type": "NoAggro",
+    "duration": 0,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

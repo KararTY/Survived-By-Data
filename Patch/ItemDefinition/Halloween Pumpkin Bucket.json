@@ -2,10 +2,9 @@
   {
     "name": "Halloween Pumpkin Bucket",
     "alias": "it Attachment Halloween Pumpkin Bucket",
-    "description": "string33009",
+    "description": "",
     "premiumOffer": "UnlockAttachmentPumpkinBucket",
     "price": 750,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -50,6 +49,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

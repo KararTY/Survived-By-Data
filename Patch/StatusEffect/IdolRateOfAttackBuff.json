@@ -1,0 +1,24 @@
+[
+  {
+    "name": "IdolRateOfAttackBuff",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]+6",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

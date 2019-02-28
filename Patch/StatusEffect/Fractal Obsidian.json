@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Fractal Obsidian",
+    "alias": "Fractal Obsidian Damage",
+    "type": "ImmediateDamage",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[Proc.Counter]*[Proc.Benefit]/100",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Permanent Potion"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "coolDownTime": 3,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Drained",
+    "alias": "RagePerAttack Debuff T1",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RagePerAttack",
+        "equation": "[RagePerAttack]*0.9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drained",
+    "alias": "RagePerAttack Debuff T2",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RagePerAttack",
+        "equation": "[RagePerAttack]*0.8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drained",
+    "alias": "RagePerAttack Debuff T3",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RagePerAttack",
+        "equation": "[RagePerAttack]*0.7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drained",
+    "alias": "RagePerAttack Debuff T4",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RagePerAttack",
+        "equation": "[RagePerAttack]*0.6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drained",
+    "alias": "RagePerAttack Debuff T5",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RagePerAttack",
+        "equation": "[RagePerAttack]*0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drained",
+    "alias": "RagePerAttack Debuff T6",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RagePerAttack",
+        "equation": "[RagePerAttack]*0.4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drained",
+    "alias": "RagePerAttack Debuff T7",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RagePerAttack",
+        "equation": "[RagePerAttack]*0.3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drained",
+    "alias": "RagePerAttack Debuff T8",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RagePerAttack",
+        "equation": "[RagePerAttack]*0.2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Drained",
+    "alias": "RagePerAttack Debuff T9",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "RagePerAttack",
+        "equation": "[RagePerAttack]*0.1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

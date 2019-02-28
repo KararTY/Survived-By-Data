@@ -4,7 +4,6 @@
     "alias": "z Consumable Elixir T1 HealthRegen Buff",
     "description": "Provides a small boost to the rate of Health Regeneration of whomever drinks it for a short period of time.",
     "price": 50,
-    "sellPrice": 0,
     "consumableEffect": {
       "name": "Health Regen Buff",
       "alias": "HealthRegen Buff T1",
@@ -81,8 +80,7 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

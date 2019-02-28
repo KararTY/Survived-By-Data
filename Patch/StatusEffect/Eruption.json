@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Eruption",
+    "alias": "Eruption Damage Over Time",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "DamageOverTime",
+        "equation": "[DamageOverTime]+([Proc.Counter] * ([Proc.Benefit]/100)/5)",
+        "value": 40
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Fire"
+    },
+    "doesNotStackWithSelf": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

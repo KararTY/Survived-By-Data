@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Rage Mode",
+    "alias": "RageMode Vial of Spirits",
+    "type": "RageMode",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      },
+      {
+        "key": "Endurance",
+        "equation": "[Endurance]*1.3",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "disableSpecialAbility": true,
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rage Mode",
+    "alias": "RageMode Druid",
+    "type": "RageMode",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      },
+      {
+        "key": "Endurance",
+        "equation": "[Endurance]*1.3",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Rage Mode",
+    "alias": "RageMode Rogue",
+    "type": "RageMode",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "MovementSpeed",
+        "equation": "[MovementSpeed]*1.3",
+        "value": 0
+      },
+      {
+        "key": "AvoidChance",
+        "equation": "0.8",
+        "value": 0.8
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Stealth"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

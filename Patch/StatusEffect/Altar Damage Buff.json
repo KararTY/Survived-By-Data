@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Altar Damage Buff",
+    "floatingText": "DAMAGE BUFF",
+    "type": "Normal",
+    "duration": 45,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]+[Player.Level]*4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

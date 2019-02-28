@@ -4,8 +4,6 @@
     "alias": "it Attachment Trail of Thorns",
     "description": "The touch of the Bloodthorn host upon the World Tree causes the very Heartland to mutate and grasp, hoping to entrap and devour.",
     "premiumOffer": "UnlockAttachmentThornTrail",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -51,6 +49,7 @@
     "recoverCost": 1,
     "insureCost": 1,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75
   }
 ]

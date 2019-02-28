@@ -1,0 +1,393 @@
+[
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T1",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.95",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T10",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T11",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T12",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T13",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T14",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T15",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T2",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T3",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.85",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T4",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T5",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.75",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T6",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T7",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.65",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T8",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Impaired",
+    "alias": "CriticalChance Debuff T9",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalChance",
+        "equation": "[CriticalChance]*0.55",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

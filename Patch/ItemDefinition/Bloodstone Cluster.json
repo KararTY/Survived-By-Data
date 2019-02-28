@@ -5,7 +5,6 @@
     "description": "A material used in the crafting of Offerings. As a temporary solution to a bug, these won't be around for long so only buy exactly as many as you need just before crafting an Offering.",
     "premiumOffer": "BloodstoneCluster",
     "price": 25,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -43,9 +42,8 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Crystal",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "craftingRarity": [
       0.5,

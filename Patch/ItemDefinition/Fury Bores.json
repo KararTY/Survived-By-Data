@@ -3,8 +3,6 @@
     "name": "Fury Bores",
     "alias": "WeeklyQuest Cave Fury Bores",
     "description": "The Fury that dig through the earth use natural bores that can be repurposed to rapidly deliver materials beneath the surface of the Heartland.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -42,8 +40,7 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

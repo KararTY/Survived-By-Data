@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T1",
+    "type": "Normal",
+    "duration": 30,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T10",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.45",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T11",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T12",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.55",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T13",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T14",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.65",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T15",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T2",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.05",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T3",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T4",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.15",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T5",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T6",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.25",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T7",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T8",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.35",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Critical Damage Buff",
+    "alias": "CriticalDamage Buff T9",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "CriticalDamage",
+        "equation": "[CriticalDamage]*1.4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

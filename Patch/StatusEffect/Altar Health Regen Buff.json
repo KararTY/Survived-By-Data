@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Altar Health Regen Buff",
+    "floatingText": "HEALTH REGEN BUFF",
+    "type": "Normal",
+    "duration": 45,
+    "stats": [
+      {
+        "key": "HealthRegen",
+        "equation": "[HealthRegen]+[Player.Level]",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

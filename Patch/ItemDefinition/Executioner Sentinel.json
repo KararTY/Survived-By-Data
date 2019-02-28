@@ -5,7 +5,6 @@
     "description": "The executioners are a dying breed. Human life is too important, even the life of heinous criminals. But their skills have proven very compatible in the ending of Chimeric life.",
     "premiumOffer": "unlockSentinelAltSkin2",
     "price": 150,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -47,6 +46,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

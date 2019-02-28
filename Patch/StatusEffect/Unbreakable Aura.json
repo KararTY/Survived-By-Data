@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Unbreakable Aura",
+    "alias": "Unbreakable Aura Refund",
+    "type": "Permanent",
+    "duration": 3,
+    "stats": [
+      {
+        "key": "Mana",
+        "equation": "[Mana]+[SpecialWeaponRageCost]",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

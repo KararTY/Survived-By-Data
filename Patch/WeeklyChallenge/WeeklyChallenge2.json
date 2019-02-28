@@ -1,0 +1,147 @@
+[
+  {
+    "name": "WeeklyChallenge2",
+    "challengeDescription": "Destroying the Mirage Hunter certainly makes it easier to harvest the region for materials, but we don't have long before the storm returns. We need to be efficient with what little time we have",
+    "quests": [
+      {
+        "name": "WC2Quest1",
+        "data": [
+          {
+            "questTitle": "Weather Tracker"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Anemoi",
+                "count": 3,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Notus Flames",
+                "count": 30,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC2Quest1"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC2Quest2",
+        "data": [
+          {
+            "questTitle": "Mining Equipment"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Permafrost Shards",
+                "count": 10,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Living Branches",
+                "count": 10,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC2Quest2"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC2Quest3",
+        "data": [
+          {
+            "questTitle": "Antitoxins"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Scorpion Venom",
+                "count": 30,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Snake Venom",
+                "count": 30,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC2Quest3"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "WC2Quest4",
+        "data": [
+          {
+            "questTitle": "Transports"
+          },
+          {
+            "requiredItems": [
+              {
+                "name": "Reinfused Hardwood",
+                "count": 15,
+                "requiredLevel": 0
+              },
+              {
+                "name": "Quilted Leather",
+                "count": 15,
+                "requiredLevel": 0
+              }
+            ]
+          },
+          {
+            "loot": {
+              "lootTable": {
+                "name": "WC2Quest4"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "buffReward": {
+      "name": "Experience Bonus Buff",
+      "alias": "GlobalXPIncreaseBuff",
+      "type": "Normal",
+      "duration": 604800,
+      "stats": [
+        {
+          "key": "ExperienceBonus",
+          "equation": "[ExperienceBonus]+0.1",
+          "value": 0
+        },
+        {
+          "key": "Tier",
+          "equation": "",
+          "value": 0
+        }
+      ],
+      "relatedLevelStat": "_Unknown",
+      "doesNotStackWithSelf": true,
+      "isAccountWide": true,
+      "ignoreDurationModifiers": true,
+      "isBuff": true
+    }
+  }
+]

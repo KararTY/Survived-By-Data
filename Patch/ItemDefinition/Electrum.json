@@ -4,7 +4,6 @@
     "alias": "Platinum",
     "description": "Alchemists require Silver to refine Resin into Amber. This doesn't destroy the Silver, but does change it into a metal called Electrum.",
     "price": 1,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -44,6 +43,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -52,7 +52,6 @@
     "alias": "PromotionalPlatinum",
     "description": "Alchemists require Silver to refine Resin into Amber. This doesn't destroy the Silver, but does change it into a metal called Electrum.",
     "price": 1,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -92,6 +91,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

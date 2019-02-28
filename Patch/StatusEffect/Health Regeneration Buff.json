@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Health Regeneration Buff",
+    "alias": "Health Regeneration Set Proc Effect",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "HealthRegenNoQuietPeriod",
+        "equation": "[HealthRegenNoQuietPeriod] + ((20+([Player.Level]*4))/5)",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

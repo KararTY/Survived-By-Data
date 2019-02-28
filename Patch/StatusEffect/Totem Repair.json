@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Totem Repair",
+    "alias": "LionKingHeal",
+    "type": "Normal",
+    "duration": 3,
+    "stats": [],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Blue Regen Particles"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

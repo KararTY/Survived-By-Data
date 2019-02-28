@@ -5,7 +5,6 @@
     "description": "At the boundary between this life and the next a guide awaits. Should you have an offering for him he could be convinced to task one of his minions to return an item to the Tree of the living where one of his allies may find it and return it to your next of kin. ",
     "premiumOffer": "itemRecoveryVoucher",
     "price": 35,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -65,9 +64,8 @@
       "account": true,
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.05,
     "craftingRarity": [
       0.5,

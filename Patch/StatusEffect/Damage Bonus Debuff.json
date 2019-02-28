@@ -1,0 +1,417 @@
+[
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T1",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-1",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T10",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T11",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-11",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T12",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-12",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T13",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-13",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T14",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-14",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T15",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-15",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T2",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-2",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T3",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-3",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T4",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-4",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T5",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-5",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T6",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-6",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T7",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-7",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T8",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-8",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "DamageBonus Debuff T9",
+    "type": "Normal",
+    "duration": 15,
+    "stats": [
+      {
+        "key": "DamageBonus",
+        "equation": "[DamageBonus]-9",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Damage Bonus Debuff",
+    "alias": "ElementalAffinityAnDebuff",
+    "type": "Normal",
+    "duration": 5,
+    "stats": [
+      {
+        "key": "DamageDealtIncrease",
+        "equation": "[DamageDealtIncrease]-10",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Debuff"
+    },
+    "doesNotStackWithSelf": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

@@ -5,7 +5,6 @@
     "description": "Aim with the mouse and crack some skulls in this nutty costume.",
     "premiumOffer": "unlockSentinelSkinWinter",
     "price": 1000,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -63,6 +62,7 @@
     "recoverCost": 100,
     "insureCost": 35,
     "currency": "Platinum",
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

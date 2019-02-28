@@ -3,8 +3,6 @@
     "name": "Shark Teeth",
     "alias": "WeeklyQuest Islands Shark Teeth",
     "description": "A trophy taken from the shark Chimera of the Escalade Islands.",
-    "price": 0,
-    "sellPrice": 0,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 99,
@@ -42,8 +40,7 @@
     "bound": {
       "soul": true
     },
-    "recoverCost": 0,
-    "insureCost": 0,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

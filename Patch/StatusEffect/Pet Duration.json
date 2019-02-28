@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Pet Duration",
+    "alias": "WinterEvent_PetDuration3",
+    "type": "Normal",
+    "duration": 600,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "coolDownTime": 3,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Pet Duration",
+    "alias": "WinterEvent_PetDuration2",
+    "type": "Normal",
+    "duration": 600,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "coolDownTime": 3,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Pet Duration",
+    "alias": "WinterEvent_PetDuration1",
+    "type": "Normal",
+    "duration": 600,
+    "stats": [
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "coolDownTime": 3,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

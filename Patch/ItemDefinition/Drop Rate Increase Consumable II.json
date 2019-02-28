@@ -5,7 +5,6 @@
     "description": "Doubles drop rates for 12 hours for all characters. This benefit does not end on death.",
     "premiumOffer": "ConsumableDropRate2",
     "price": 1,
-    "sellPrice": 0,
     "consumableEffect": {
       "name": "Drop Rate Buff",
       "alias": "Consumable Drop Rate Buff 2",
@@ -74,9 +73,8 @@
       "Geomancer",
       "Druid"
     ],
-    "recoverCost": 0,
-    "insureCost": 0,
     "coolDown": 0.5,
+    "craftNowCostMultiplier": 1,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }
