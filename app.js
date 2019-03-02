@@ -1,4 +1,5 @@
 const path = require('path')
+const patchDate = require(path.join(__dirname, 'patchDate.json'))['patchDate']
 
 console.log('Renaming, this will take some time.')
 const renamer = require('./renaming.js')()

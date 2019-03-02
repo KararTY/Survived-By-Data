@@ -2,7 +2,7 @@
   {
     "name": "Expansion Aura Stone",
     "alias": "Consumable Lesser Expansion Stone",
-    "description": "Once activated, for three hours this stone provides an increase in experience gained and a decrease in fast travel cost of 30%. This benefit ends on death.",
+    "description": "Once activated, for three hours this stone provides an increase in experience gained and a decrease in fast travel cost of 30%. This benefit ends on death and does not stack with any other Aura Stone.",
     "premiumOffer": "ConsumableExperienceBonusLesser",
     "price": 20,
     "consumableEffect": {

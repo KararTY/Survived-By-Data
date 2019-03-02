@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Marine of the Breach",
+    "title": "Marine of the Breach",
+    "description": "Defeat Kraken (Hard) 50 times",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 50,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Marine of the Breach"
+          }
+        }
+      }
+    ]
+  }
+]

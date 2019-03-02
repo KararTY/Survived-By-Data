@@ -2,7 +2,7 @@
   {
     "name": "Experience Boost Consumable VI",
     "alias": "Consumable XP Boost 6",
-    "description": "Doubles experience gained for 168 hours for all characters. This benefit does not end on death.",
+    "description": "Doubles experience gained for 168 hours for all characters. This benefit does not end on death but it will not stack with other versions of this consumable.",
     "premiumOffer": "ConsumableExperienceBonus6",
     "price": 1,
     "consumableEffect": {

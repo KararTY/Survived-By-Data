@@ -1,0 +1,18 @@
+[
+  {
+    "from": "Who Let the Dogs Out",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Who Let the Dogs Out",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 100
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Heart Striker",
+    "title": "Heart Striker",
+    "description": "Defeat Heart of the Forest (Hard) 50 times",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 50,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Heart Striker"
+          }
+        }
+      }
+    ]
+  }
+]

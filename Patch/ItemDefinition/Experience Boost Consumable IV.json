@@ -2,7 +2,7 @@
   {
     "name": "Experience Boost Consumable IV",
     "alias": "Consumable XP Boost 4",
-    "description": "Doubles experience gained for 72 hours for all characters. This benefit does not end on death.",
+    "description": "Doubles experience gained for 72 hours for all characters. This benefit does not end on death but it will not stack with other versions of this consumable.",
     "premiumOffer": "ConsumableExperienceBonus4",
     "price": 1,
     "consumableEffect": {

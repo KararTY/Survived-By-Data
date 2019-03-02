@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Hollows Stalker",
+    "title": "Hollows Stalker",
+    "description": "Defeat Boreal Shaman (Hard) 50 times",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 50,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Hollows Stalker"
+          }
+        }
+      }
+    ]
+  }
+]

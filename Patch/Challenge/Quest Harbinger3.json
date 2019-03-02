@@ -2,13 +2,13 @@
   {
     "name": "Quest Harbinger3",
     "title": "Wagon Tail",
-    "description": "Defend 4 Supply Wagons",
+    "description": "Defend 3 Supply Wagons",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
     "challengeTarget": {
       "name": "HarbingerQuest_Wagon"
     },
-    "challengeValue": 4,
+    "challengeValue": 3,
     "data": [
       {
         "loot": {

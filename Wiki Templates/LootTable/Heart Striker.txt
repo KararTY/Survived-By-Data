@@ -1,0 +1,11 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+'''Loot table: ([[Loot table/Heart Striker|Heart Striker]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Heart Striker}} || style="text-align:right" | 100% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/Heart Striker}}
+[[Category:Loot table]]</noinclude>

@@ -2,13 +2,13 @@
   {
     "name": "Quest Harbinger1",
     "title": "Deer Friends",
-    "description": "Collect 36 Venison",
+    "description": "Collect 16 Venison",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
     "challengeTarget": {
       "name": "QuestItem Meat"
     },
-    "challengeValue": 32,
+    "challengeValue": 16,
     "data": [
       {
         "loot": {
@@ -18,7 +18,7 @@
         }
       },
       {
-        "questText": "Our supplies back at the Tower are dwindling, we could really use some fresh meat to sustain the fight. Hunt 36 stags in the forest for meat.",
+        "questText": "Our supplies back at the Tower are dwindling, we could really use some fresh meat to sustain the fight. Hunt 16 moose in the forest for meat.",
         "completeText": "This will help fill some bellies back home."
       }
     ]

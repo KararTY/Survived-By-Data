@@ -2,7 +2,7 @@
   {
     "name": "Drop Rate Increase Consumable VI",
     "alias": "Consumable Drop Rate Increase 6",
-    "description": "Doubles drop rates for 168 hours for all characters. This benefit does not end on death.",
+    "description": "Doubles drop rates for 168 hours for all characters. This benefit does not end on death but it will not stack with other versions of this consumable.",
     "premiumOffer": "ConsumableDropRate6",
     "price": 1,
     "consumableEffect": {

@@ -2,7 +2,7 @@
   {
     "name": "Quest Druid2",
     "title": "In That Same Vine",
-    "description": "Kill 30 bramble plants",
+    "description": "Kill 30 bramble patches",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
     "challengeTarget": {

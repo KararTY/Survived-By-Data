@@ -2,7 +2,7 @@
   {
     "name": "Mobility Aura Stone",
     "alias": "Consumable Lesser Mobility Stone",
-    "description": "Once activated, for three hours this stone provides a decrease in fast travel cost and and increase in pickup distance of 30%. This benefit ends on death.",
+    "description": "Once activated, for three hours this stone provides a decrease in fast travel cost and and increase in pickup distance of 30%. This benefit ends on death and does not stack with any other Aura Stone.",
     "premiumOffer": "ConsumableFastTravelCostLesser",
     "price": 20,
     "consumableEffect": {

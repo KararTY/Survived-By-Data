@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Born From the Ashes",
+    "title": "Born From the Ashes",
+    "description": "Kill 2000 Phoenix",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 2000,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Born From the Ashes"
+          }
+        }
+      }
+    ]
+  }
+]

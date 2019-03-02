@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Feeling Batty",
+    "title": "Feeling Batty",
+    "description": "Kill 10,000 bats",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 10000,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Feeling Batty"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Ranger of the Borderlands",
+    "title": "Ranger of the Borderlands",
+    "description": "Defeat Hyrda (Hard) 50 times",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 50,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Ranger of the Borderlands"
+          }
+        }
+      }
+    ]
+  }
+]

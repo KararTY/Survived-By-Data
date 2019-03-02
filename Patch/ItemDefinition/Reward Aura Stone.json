@@ -2,7 +2,7 @@
   {
     "name": "Reward Aura Stone",
     "alias": "Consumable Lesser Reward Stone",
-    "description": "Once activated, for three hours this stone provides an increase in drop rates and experience gained of 30%. This benefit ends on death.",
+    "description": "Once activated, for three hours this stone provides an increase in drop rates and experience gained of 30%. This benefit ends on death and does not stack with any other Aura Stone.",
     "premiumOffer": "ConsumableDropRateLesser",
     "price": 20,
     "consumableEffect": {

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Jungle Fever",
+    "title": "Jungle Fever",
+    "description": "Kill 500 spirits in the Demesene of the Unseen",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 500,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Jungle Fever"
+          }
+        }
+      }
+    ]
+  }
+]

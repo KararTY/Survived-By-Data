@@ -2,7 +2,7 @@
   {
     "name": "Collector Aura Stone",
     "alias": "Consumable Lesser Collector Stone",
-    "description": "Once activated, for three hours this stone provides an increase in drop rates and pickup distance of 30%. This benefit ends on death.",
+    "description": "Once activated, for three hours this stone provides an increase in drop rates and pickup distance of 30%. This benefit ends on death and does not stack with any other Aura Stone.",
     "premiumOffer": "ConsumablePickupRangeLesser",
     "price": 20,
     "consumableEffect": {

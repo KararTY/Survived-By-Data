@@ -1,0 +1,21 @@
+[
+  {
+    "name": "The Naja",
+    "title": "The Naja",
+    "description": "Defeat Gorgon (Hard) 50 times",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 50,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "The Naja"
+          }
+        }
+      }
+    ]
+  }
+]

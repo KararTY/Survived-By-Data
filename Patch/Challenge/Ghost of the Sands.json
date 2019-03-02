@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Ghost of the Sands",
+    "title": "Ghost of the Sands",
+    "description": "Defeat Mirage Hunter (Hard) 50 times",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 50,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Ghost of the Sands"
+          }
+        }
+      }
+    ]
+  }
+]

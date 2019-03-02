@@ -2,13 +2,13 @@
   {
     "name": "Quest Harbinger2",
     "title": "Secret Stash",
-    "description": "Find 7 Hidden Caches",
+    "description": "Find 5 Hidden Caches",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
     "challengeTarget": {
       "name": "HarbingerQuest_Cache"
     },
-    "challengeValue": 7,
+    "challengeValue": 5,
     "data": [
       {
         "loot": {
@@ -18,7 +18,7 @@
         }
       },
       {
-        "questText": "The people of the Borderlands were stubborn, and many waited until the last minute to flee, forcing them to leave a lot of valuable food and medicine behind. We need those supplies. Find 7 of the hidden caches.",
+        "questText": "The people of the Borderlands were stubborn, and many waited until the last minute to flee, forcing them to leave a lot of valuable food and medicine behind. We need those supplies. Find 5 of the hidden caches.",
         "completeText": "Excellent work. Some of the resources you recovered are extremely hard to get our hands on near the Tower."
       }
     ]

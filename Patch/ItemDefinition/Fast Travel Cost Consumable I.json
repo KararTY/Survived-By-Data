@@ -2,7 +2,7 @@
   {
     "name": "Fast Travel Cost Consumable I",
     "alias": "Consumable Fast Travel Cost Decrease",
-    "description": "Eliminates silver cost of fast travel for 2 hours for all characters. This benefit does not end on death.",
+    "description": "Eliminates silver cost of fast travel for 2 hours for all characters. This benefit does not end on death but it will not stack with other versions of this consumable.",
     "premiumOffer": "ConsumableFastTravelCost1",
     "price": 1,
     "consumableEffect": {

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Crag Breaker",
+    "title": "Crag Breaker",
+    "description": "Defeat Goliath 50 times",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 50,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Crag Breaker"
+          }
+        }
+      }
+    ]
+  }
+]

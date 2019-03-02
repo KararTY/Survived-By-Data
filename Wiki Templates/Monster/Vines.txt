@@ -78,35 +78,6 @@ plant_vines={{Enemy
   |drops = {{:Loot table/plant_vines}}
   }}
 |-|
-monster_bramble_bush_quest={{Enemy
-  |title = Vines
-  |image_original = {{CSS image crop|Image=bramble_plant_druid_quest.png|bSize=192|cWidth=48|cHeight=46|oBottom=1|oLeft=0}}
-  |caption = Description for Vines
-  |location = 
-  |category = Spirit
-  |element = Ki
-  |tier = 7
-  |level = 27
-  |max_health = {{Icon|Health|nolink=1}} 4400
-  |experience = 750
-  |damage_bonus = 230
-  |accuracy = 441.6<br><small>([Level]x[Level])x0.4 + 150</small>
-  |weapons = ''
-    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
-    {{!}}-
-    {{!}} '''plant bramble bush''' {{!!}} <center>{{CSS image crop|Image=bramble_plant_druid_quest.png|bSize=192|cWidth=9|cHeight=21|oBottom=51|oLeft=104}}</center>
-    {{!}}-
-    {{!}} Speed {{!!}} 18
-    {{!}}-
-    {{!}} Range {{!!}} 13
-    {{!}}-
-    {{!}} Max hits {{!!}} 5
-    {{!}}-
-    {{!}} Arc Separation {{!!}} 5
-    {{!}}}
-  |drops = {{:Loot table/monster_bramble_bush_quest}}
-  }}
-|-|
 boss_director_resin_pod_hardmode={{Enemy
   |title = Vines
   |image_original = {{CSS image crop|Image=boss_director_pod.png|bSize=288|cWidth=47|cHeight=48|oBottom=48|oLeft=0}}

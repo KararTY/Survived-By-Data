@@ -2,7 +2,7 @@
   {
     "name": "Pickup Range Increase Consumable V",
     "alias": "Consumable Pickup Range Increase 5",
-    "description": "Doubles pickup range for 120 hours for all characters. This benefit does not end on death.",
+    "description": "Doubles pickup range for 120 hours for all characters. This benefit does not end on death but it will not stack with other versions of this consumable.",
     "premiumOffer": "ConsumablePickupRange5",
     "price": 1,
     "consumableEffect": {

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Reforged",
+    "title": "Reforged",
+    "description": "Defeat Locus (Hard) 50 times",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 50,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Reforged"
+          }
+        }
+      }
+    ]
+  }
+]

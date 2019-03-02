@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Who Let the Dogs Out",
+    "title": "Who Let the Dogs Out",
+    "description": "Kill 150 Hellhounds",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 150,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Who Let the Dogs Out"
+          }
+        }
+      }
+    ]
+  }
+]

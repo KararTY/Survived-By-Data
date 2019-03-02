@@ -2,6 +2,7 @@
 monster_bramble_tree2_quest={{Enemy
   |title = Bramble Tree
   |image_original = {{CSS image crop|Image=bramble_trees_druid_quest.png|bSize=192|cWidth=64|cHeight=86|oBottom=10|oLeft=64}}
+  |caption = Description for Bramble Tree
   |location = 
   |category = Plant
   |tier = 7
@@ -14,6 +15,7 @@ monster_bramble_tree2_quest={{Enemy
 monster_bramble_tree1_quest={{Enemy
   |title = Bramble Tree
   |image_original = {{CSS image crop|Image=bramble_trees_druid_quest.png|bSize=192|cWidth=64|cHeight=96|oBottom=0|oLeft=0}}
+  |caption = Description for Bramble Tree
   |location = 
   |category = Plant
   |tier = 7

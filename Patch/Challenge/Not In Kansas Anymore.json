@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Not In Kansas Anymore",
+    "title": "Not In Kansas Anymore",
+    "description": "Kill 5,000 total Cyclones",
+    "challengeValueSuffix": "Kills",
+    "challengeType": "",
+    "challenge": "MaxStatEnum",
+    "challengeValue": 5000,
+    "achievement": true,
+    "data": [
+      {
+        "loot": {
+          "lootTable": {
+            "name": "Not In Kansas Anymore"
+          }
+        }
+      }
+    ]
+  }
+]
