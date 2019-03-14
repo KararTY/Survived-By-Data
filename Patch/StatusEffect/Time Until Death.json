@@ -4,7 +4,13 @@
     "alias": "TimedPlayerDeath",
     "type": "Death",
     "duration": 1200,
-    "stats": [],
+    "stats": [
+      {
+        "key": "ThreatRange",
+        "equation": "",
+        "value": 100
+      }
+    ],
     "relatedLevelStat": "_Unknown",
     "statusEffectOnExpire": {
       "name": "Death",

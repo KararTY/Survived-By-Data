@@ -4,7 +4,8 @@
     "alias": "Rare Crafting Material T9 Forest",
     "description": "Used in the creation of Mythril, this catalyst burns through the inner structure of an existing material, leaving behind a hollow reinforced lattice that is both strong and light. This is a rare crafting component.",
     "premiumOffer": "MythrilCatalyst8_5",
-    "price": 45,
+    "price": 200000,
+    "sellPrice": 2000,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -41,7 +42,7 @@
     ],
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Crystal",
+    "currency": "Gold",
     "modifierChance": 0.05,
     "craftingRarity": [
       0.2,

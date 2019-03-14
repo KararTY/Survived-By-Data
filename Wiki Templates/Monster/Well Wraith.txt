@@ -6,8 +6,8 @@
   |category = None
   |tier = 20
   |level = 1
-  |max_health = {{Icon|Health|nolink=1}} 3375<br><small>3000+([Level]x375)</small>
-  |damage_bonus = 285<br><small>275+([Level]x10)</small>
+  |max_health = {{Icon|Health|nolink=1}} <small>IF([Level] <= 30, 1500*(1+3*(([Level]-20)/10)), 1500*([Level]-19))</small>
+  |damage_bonus = <small>IF([Level] <= 30, 125*(1+3*(([Level]-20)/10)), 125*([Level]-19))</small>
   |accuracy = 150.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"

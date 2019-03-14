@@ -15,16 +15,6 @@
         "allowModifiers": true
       },
       {
-        "item": "Conduit of Fire Key (I)",
-        "count": {
-          "dice": 0,
-          "faces": 0,
-          "add": 1
-        },
-        "chance": 5,
-        "allowModifiers": true
-      },
-      {
         "item": "Blue Jade",
         "count": {
           "dice": 1,
@@ -32,6 +22,16 @@
           "add": 3
         },
         "chance": 8,
+        "allowModifiers": true
+      },
+      {
+        "item": "Conduit of Fire Key (I)",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
         "allowModifiers": true
       }
     ],

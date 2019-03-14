@@ -125,7 +125,7 @@
           },
           {
             "key": "SpecialWeaponDamage",
-            "equation": "(5+([Potency]*([Level]/25)))*1.5",
+            "equation": "(5+([Potency]*([Level]/25)))*1.125",
             "value": 0
           },
           {

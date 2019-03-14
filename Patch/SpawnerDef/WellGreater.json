@@ -19,7 +19,7 @@
         "timeOfDay": "All"
       }
     ],
-    "areaMax": 20,
-    "areaRadius": 50
+    "areaMax": 2,
+    "areaRadius": 20
   }
 ]

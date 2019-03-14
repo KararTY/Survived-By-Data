@@ -7,8 +7,8 @@
       {
         "item": "Winter Bloom",
         "count": {
-          "dice": 1,
-          "faces": 1,
+          "dice": 2,
+          "faces": 2,
           "add": 1
         },
         "chance": 100,

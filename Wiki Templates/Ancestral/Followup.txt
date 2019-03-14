@@ -4,7 +4,7 @@ Followup 1 (Common)={| style="float:right;"
   |-
   | {{Ancestral Legacy
     | name = Followup
-    | description = On Crit, gain 1.18 energy
+    | description = On Crit, gain  energy
     | level = 1
     | rarity = common
     | ordinary1 = AL_Critical_Hit
@@ -16,7 +16,7 @@ Followup 1 (Common)={| style="float:right;"
   |-
   | {{Ancestral Legacy
     | name = Followup
-    | description = On Crit, gain 10 energy
+    | description = On Crit, gain  energy
     | level = 50
     | rarity = common
     | ordinary1 = AL_Critical_Hit
@@ -40,7 +40,7 @@ Followup 1 (Common)={| style="float:right;"
     |-
     ! Key !! Equation !! Value
     |-
-    | Benefit || 1+([AncestralData.Ancestral_Level]x0.18) || 
+    | Benefit ||  || 
   |}
   {| class="wikitable mw-collapsible mw-collapsed"
     |-
@@ -81,7 +81,7 @@ Followup 2 (Uncommon)={| style="float:right;"
   |-
   | {{Ancestral Legacy
     | name = Followup
-    | description = On Crit, gain 2.36 energy
+    | description = On Crit, gain  energy
     | level = 1
     | rarity = uncommon
     | ordinary1 = AL_Critical_Hit
@@ -93,7 +93,7 @@ Followup 2 (Uncommon)={| style="float:right;"
   |-
   | {{Ancestral Legacy
     | name = Followup
-    | description = On Crit, gain 20 energy
+    | description = On Crit, gain  energy
     | level = 50
     | rarity = uncommon
     | ordinary1 = AL_Critical_Hit
@@ -117,7 +117,7 @@ Followup 2 (Uncommon)={| style="float:right;"
     |-
     ! Key !! Equation !! Value
     |-
-    | Benefit || 2+([AncestralData.Ancestral_Level]x0.36) || 
+    | Benefit ||  || 
   |}
   {| class="wikitable mw-collapsible mw-collapsed"
     |-
@@ -158,7 +158,7 @@ Followup 3 (Rare)={| style="float:right;"
   |-
   | {{Ancestral Legacy
     | name = Followup
-    | description = On Crit, gain 4.72 energy
+    | description = On Crit, gain  energy
     | level = 1
     | rarity = rare
     | ordinary1 = AL_Critical_Hit
@@ -170,7 +170,7 @@ Followup 3 (Rare)={| style="float:right;"
   |-
   | {{Ancestral Legacy
     | name = Followup
-    | description = On Crit, gain 40 energy
+    | description = On Crit, gain  energy
     | level = 50
     | rarity = rare
     | ordinary1 = AL_Critical_Hit
@@ -194,7 +194,7 @@ Followup 3 (Rare)={| style="float:right;"
     |-
     ! Key !! Equation !! Value
     |-
-    | Benefit || 4+([AncestralData.Ancestral_Level]x0.72)  || 
+    | Benefit ||  || 
   |}
   {| class="wikitable mw-collapsible mw-collapsed"
     |-

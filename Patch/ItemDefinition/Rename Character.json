@@ -3,7 +3,7 @@
     "name": "Rename Character",
     "description": "Rename Character",
     "premiumOffer": "RenameCharacter",
-    "price": 25,
+    "price": 5,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,

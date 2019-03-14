@@ -44,12 +44,14 @@ module.exports = (() => {
       var arr = data.find(v => v.stats).stats
       var statEquationSign = gsd.equation.replace(`[${gsd.key}]`, '').replace(/[ ]+/g, '').substr(0, 1)
       var statEquation = gsd.equation.replace(/\[\$Tier\]/g, `(${arr.find(v => v.key === 'Tier').equation})`).replace(`[${gsd.key}]`, '').replace(/[ ]+/g, '')
-      calculated = `${/*statEquationSign*/ ''}${parseFloat(eval(statEquation.replace(`[${gsd.key}]`, gsd.value)).toFixed(2))}${/*statEquation.includes('*') ? '%' :*/ ''}<br><small>${gsd.equation.replace(`[${gsd.key}]`, '').replace(`[$${gsd.key}]`, '').replace(/\*/g, 'x')}</small>`
+      calculated = `${/*statEquationSign*/ ''}${parseFloat(eval(statEquation.replace(`[${gsd.key}]`, gsd.value)).toFixed(2))}${/*statEquation.includes('*') ? '%' :*/ ''}<br><small>${gsd.equation.replace(`[${gsd.key}]`, '').replace(/\*/g, 'x')}</small>`
+    } else if (gsd && gsd.equation.startsWith('IF')) {
+      calculated = `<small>${gsd.equation}</small>`
     } else if (gsd && gsd.equation.includes('[Level]')) {
       var arr = data.find(v => v.stats).stats
       var statEquationSign = gsd.equation.replace(/\[Level\]/g, '').replace(/[ ]+/g, '').substr(0, 1)
       var statEquation = gsd.equation.replace(/\[Level\]/g, `${arr.find(v => v.key === 'Level').value}`).replace(`[${gsd.key}]`, '').replace(/[ ]+/g, '')
-      calculated = `${/*statEquationSign*/ ''}${parseFloat(eval(statEquation.replace(`[${gsd.key}]`, gsd.value)).toFixed(2))}${/*statEquation.includes('*') ? '%' :*/ ''}<br><small>${gsd.equation.replace(`[${gsd.key}]`, '').replace(`[$${gsd.key}]`, '').replace(/\*/g, 'x')}</small>`
+      calculated = `${/*statEquationSign*/ ''}${parseFloat(eval(statEquation.replace(`[${gsd.key}]`, gsd.value)).toFixed(2))}${/*statEquation.includes('*') ? '%' :*/ ''}<br><small>${gsd.equation.replace(`[${gsd.key}]`, '').replace(/\*/g, 'x')}</small>`
     }
     return gsd
     ? (gsd.equation
@@ -458,7 +460,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
         |-
         | {{Ancestral Legacy
           | name = ${item.name}
-          | description = ${item.description.includes('DEPRECATED') ? item.description : item.description ? item.description.replace('#', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 1)).toFixed(2))}` : '#') : ''}
+          | description = ${item.description.includes('DEPRECATED') ? item.description : item.description ? item.description.replace('#', item.stats.length > 0 ? `${item.stats.find(s => s.key === 'Benefit').equation.length > 0 ? parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 1)).toFixed(2)) : ''}` : '#') : ''}
           | level = 1
           | rarity = ${item.rarity.toLowerCase()}
           ${(item.ordinaries && item.ordinaries.length > 0) ? item.ordinaries.map((o, ind) => {
@@ -471,7 +473,7 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
         |-
         | {{Ancestral Legacy
           | name = ${item.name}
-          | description = ${item.description.includes('DEPRECATED') ? item.description : item.description ? item.description.replace('#', item.stats.length > 0 ? `${parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 50)).toFixed(2))}` : '#') : ''}
+          | description = ${item.description.includes('DEPRECATED') ? item.description : item.description ? item.description.replace('#', item.stats.length > 0 ? `${item.stats.find(s => s.key === 'Benefit').equation.length > 0 ? parseFloat(eval(item.stats.find(s => s.key === 'Benefit').equation.replace('[AncestralData.Ancestral_Level]', 50)).toFixed(2)) : ''}` : '#') : ''}
           | level = 50
           | rarity = ${item.rarity.toLowerCase()}
           ${(item.ordinaries && item.ordinaries.length > 0) ? item.ordinaries.map((o, ind) => {

@@ -37,8 +37,13 @@
         "value": 0
       },
       {
-        "key": "Endurance",
-        "equation": "[Endurance]*1.3",
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]*1.3",
+        "value": 0
+      },
+      {
+        "key": "RateOfAttack",
+        "equation": "[RateOfAttack]*0.5",
         "value": 0
       }
     ],

@@ -4,7 +4,8 @@
     "alias": "Rare Crafting Material T5",
     "description": "The height of modern human ingenuity is built around the Mercurial Catalyst and its dynamic properties during crafting. This is a rare crafting component.",
     "premiumOffer": "MercurialCatalyst",
-    "price": 6,
+    "price": 12500,
+    "sellPrice": 125,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 10,
@@ -41,7 +42,7 @@
     ],
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Crystal",
+    "currency": "Gold",
     "modifierChance": 0.75,
     "craftingRarity": [
       0.2,
