@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Harbinger Spring Skin",
+    "alias": "Unlock Skin Harbinger Spring",
+    "description": "Harbinger Spring Skin",
+    "premiumOffer": "unlockHarbingerSkinSpring",
+    "price": 150,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "autoRedeem": true,
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "harbinger_bunny constume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 40,
+            "height": 43
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "bound": {
+      "soul": true
+    },
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Crystal",
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
+  }
+]

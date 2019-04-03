@@ -1,0 +1,17 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+{{:Loot table/CommonLoot T12}}'''Loot table: ([[Loot table/subboss_spirit_dryad_lava_t12|subboss_spirit_dryad_lava_t12]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Pyroclast Catalyst, Grade III}} || style="text-align:right" | 20% 
+|-
+| x1 || {{Icon|Primordial Eye of Obsidian (Endurance)}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Primordial Eye of Obsidian (Health)}} || style="text-align:right" | 10% 
+|-
+| x1 || {{Icon|Primordial Eye of Obsidian (Energy)}} || style="text-align:right" | 10% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/subboss_spirit_dryad_lava_t12}}
+[[Category:Loot table]]</noinclude>

@@ -219,6 +219,446 @@ boss_goliath={{Enemy
     {{!}}}
   }}
 |-|
+boss_goliath_t11={{Enemy
+  |title = Goliath
+  |image_original = {{CSS image crop|Image=Boss_Goliath phase 1.png|bSize=640|cWidth=137|cHeight=115|oBottom=23|oLeft=16}}
+  |caption = Description for Goliath
+  |location = 
+  |category = Infernal
+  |is_boss = Yes
+  |element = Ki
+  |tier = 11
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 2450000
+  |damage_bonus = 850
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |special_weapon_damage = 850
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 1.png|bSize=640|cWidth=42|cHeight=53|oBottom=656|oLeft=497}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+boss_goliath2_t11={{Enemy
+  |title = Goliath
+  |image_original = {{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=113|cHeight=92|oBottom=23|oLeft=32}}
+  |location = 
+  |category = Infernal
+  |is_boss = Yes
+  |element = Ki
+  |tier = 11
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 6125000
+  |damage_bonus = 950
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |special_weapon_damage = 950
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath2 projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=35|cHeight=34|oBottom=821|oLeft=500}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath2 projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=27|cHeight=48|oBottom=811|oLeft=584}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath trail projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+  }}
+|-|
+boss_goliath3_t11={{Enemy
+  |title = Goliath
+  |image_original = {{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=123|cHeight=104|oBottom=26|oLeft=21}}
+  |location = 
+  |category = Infernal
+  |is_boss = Yes
+  |element = Ki
+  |tier = 11
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 6125000
+  |experience = 550000
+  |damage_bonus = 850
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath3 projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath3 projectile1''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath3 projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath3 projectile3''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+  |drops = {{:Loot table/boss_goliath3_t11}}
+  }}
+|-|
+boss_goliath2_t12={{Enemy
+  |title = Goliath
+  |image_original = {{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=113|cHeight=92|oBottom=23|oLeft=32}}
+  |location = 
+  |category = Infernal
+  |is_boss = Yes
+  |element = Ki
+  |tier = 12
+  |level = 33
+  |max_health = {{Icon|Health|nolink=1}} 15000000
+  |damage_bonus = 1300
+  |accuracy = 585.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |special_weapon_damage = 1300
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath2 projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=35|cHeight=34|oBottom=821|oLeft=500}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 4
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 7
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath2 projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath Phase 2.png|bSize=640|cWidth=27|cHeight=48|oBottom=811|oLeft=584}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath trail projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+  }}
+|-|
+boss_goliath3_t12={{Enemy
+  |title = Goliath
+  |image_original = {{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=123|cHeight=104|oBottom=26|oLeft=21}}
+  |location = 
+  |category = Infernal
+  |is_boss = Yes
+  |element = Ki
+  |tier = 12
+  |level = 33
+  |max_health = {{Icon|Health|nolink=1}} 15000000
+  |experience = 600000
+  |damage_bonus = 1100
+  |accuracy = 585.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath3 projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath3 projectile1''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath3 projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath3 projectile3''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+  |drops = {{:Loot table/boss_goliath3_t12}}
+  }}
+|-|
+boss_goliath_t12={{Enemy
+  |title = Goliath
+  |image_original = {{CSS image crop|Image=Boss_Goliath phase 1.png|bSize=640|cWidth=137|cHeight=115|oBottom=23|oLeft=16}}
+  |caption = Description for Goliath
+  |location = 
+  |category = Infernal
+  |is_boss = Yes
+  |element = Ki
+  |tier = 12
+  |level = 33
+  |max_health = {{Icon|Health|nolink=1}} 15000000
+  |damage_bonus = 1100
+  |accuracy = 585.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |special_weapon_damage = 1100
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 1.png|bSize=640|cWidth=42|cHeight=53|oBottom=656|oLeft=497}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 10
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
 </tabber></div>
 <includeonly>
 [[Category:Monster]]

@@ -1,16 +1,17 @@
 {{Enemy
   |title = boss_dreadnought_body6
-  |image_original = {{CSS image crop|Image=Boss_dreadnought.png|bSize=512|cWidth=84|cHeight=68|oBottom=539|oLeft=25}}
+  |image_original = {{CSS image crop|Image=Boss_dreadnought.png|bSize=512|cWidth=72|cHeight=71|oBottom=539|oLeft=34}}
   |location = 
   |category = Agent
   |element = Ur
-  |max_health = {{Icon|Health|nolink=1}} 125000
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 367500
   |damage_bonus = 1
-  |accuracy = 150<br><small>([Level]x[Level])x0.4 + 150</small>
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-
-    {{!}} '''boss dreadnought pod projectile''' {{!!}} <center>{{CSS image crop|Image=Worm_01.png|bSize=128|cWidth=15|cHeight=23|oBottom=102|oLeft=8}}</center>
+    {{!}} '''boss dreadnought pod projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_dreadnought.png|bSize=512|cWidth=26|cHeight=45|oBottom=1166|oLeft=14}}</center>
     {{!}}-
     {{!}} Speed {{!!}} 6
     {{!}}-

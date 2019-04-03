@@ -878,6 +878,46 @@
             "y": 0
           }
         }
+      },
+      {
+        "offerID": "unlockInfiltratorSkinSpring",
+        "sprite": {
+          "name": "infiltrator_bunny constume",
+          "baseSize": {
+            "width": 192,
+            "height": 192
+          },
+          "textureRectangle": {
+            "x": 2,
+            "y": 144,
+            "width": 41,
+            "height": 38
+          },
+          "textureOffset": {
+            "x": 2,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockInfiltratorSkinBee",
+        "sprite": {
+          "name": "infiltrator_BEE costume",
+          "baseSize": {
+            "width": 192,
+            "height": 192
+          },
+          "textureRectangle": {
+            "x": 2,
+            "y": 144,
+            "width": 45,
+            "height": 36
+          },
+          "textureOffset": {
+            "x": 2,
+            "y": 0
+          }
+        }
       }
     ]
   }

@@ -4,7 +4,7 @@
     "alias": "Unlock Skin Alchemist Alt 4",
     "description": "The Alchemist ways are steeped in lore going back hundreds of years. But in the face of extinction, there are those that feel the old ways have already failed them.",
     "premiumOffer": "unlockAlchemistAltSkin4",
-    "price": 900,
+    "price": 225,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

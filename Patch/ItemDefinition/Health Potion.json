@@ -83,7 +83,7 @@
     "alias": "Consumable Potion Health Electrum",
     "description": "Potion Health Electrum",
     "premiumOffer": "PotionHealthElectrum",
-    "price": 15,
+    "price": 3,
     "consumableEffect": {
       "name": "Potion Health",
       "type": "Permanent",
@@ -152,7 +152,7 @@
       "Geomancer",
       "Druid"
     ],
-    "currency": "Platinum",
+    "currency": "Crystal",
     "coolDown": 0.5,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true

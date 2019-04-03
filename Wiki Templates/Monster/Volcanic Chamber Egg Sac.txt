@@ -36,6 +36,80 @@ boss_goliath_volcano_eggsac_death={{Enemy
     {{!}}}
   }}
 |-|
+boss_goliath_volcano_eggsac_death_t12={{Enemy
+  |title = Volcanic Chamber Egg Sac
+  |image = Volcanic Chamber Egg Sac.png
+  |location = 
+  |category = Beast
+  |is_set_piece_monster = Yes
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 1
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''volcano eggsac projectile''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  }}
+|-|
+boss_goliath_volcano_eggsac_death_t11={{Enemy
+  |title = Volcanic Chamber Egg Sac
+  |image = Volcanic Chamber Egg Sac.png
+  |location = 
+  |category = Beast
+  |is_set_piece_monster = Yes
+  |tier = 10
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 1
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''volcano eggsac projectile''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  }}
+|-|
 boss_goliath_volcano_eggsac={{Enemy
   |title = Volcanic Chamber Egg Sac
   |image_original = {{CSS image crop|Image=beast_spider_egg_FIRE.png|bSize=192|cWidth=34|cHeight=36|oBottom=12|oLeft=6}}
@@ -46,6 +120,80 @@ boss_goliath_volcano_eggsac={{Enemy
   |level = 31
   |max_health = {{Icon|Health|nolink=1}} 49000
   |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''volcano eggsac projectile''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  }}
+|-|
+boss_goliath_volcano_eggsac_t11={{Enemy
+  |title = Volcanic Chamber Egg Sac
+  |image_original = {{CSS image crop|Image=beast_spider_egg_FIRE.png|bSize=192|cWidth=34|cHeight=36|oBottom=12|oLeft=6}}
+  |caption = Description for Volcanic Chamber Egg Sac
+  |location = 
+  |category = Beast
+  |tier = 11
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 120000
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''volcano eggsac projectile''' {{!!}} <center>{{CSS image crop|Image=beast_lava_lizard.png|bSize=256|cWidth=13|cHeight=23|oBottom=69|oLeft=74}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}} Range {{!!}} 6
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  }}
+|-|
+boss_goliath_volcano_eggsac_t12={{Enemy
+  |title = Volcanic Chamber Egg Sac
+  |image_original = {{CSS image crop|Image=beast_spider_egg_FIRE.png|bSize=192|cWidth=34|cHeight=36|oBottom=12|oLeft=6}}
+  |caption = Description for Volcanic Chamber Egg Sac
+  |location = 
+  |category = Beast
+  |tier = 12
+  |level = 33
+  |max_health = {{Icon|Health|nolink=1}} 275000
+  |accuracy = 585.6<br><small>([Level]x[Level])x0.4 + 150</small>
   |weapons = ''
     {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
     {{!}}-

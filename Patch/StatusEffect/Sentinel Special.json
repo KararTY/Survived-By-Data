@@ -1,6 +1,44 @@
 [
   {
     "name": "Sentinel Special",
+    "alias": "Paladin Special Buff",
+    "type": "",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "HealthRegen",
+        "equation": "[HealthRegen]+([HealthRegen]*(0.4 + [@SourcePlayer.AuraHealthRegenIncrease])+5)",
+        "value": 0
+      },
+      {
+        "key": "DebuffDuration",
+        "equation": "[DebuffDuration]*0.5",
+        "value": 0
+      },
+      {
+        "key": "DamageReduction",
+        "equation": "[DamageReduction]+([DamageReduction]*(0.3 + [@SourcePlayer.AuraDamageReductionIncrease])+5)",
+        "value": 0
+      },
+      {
+        "key": "Tier",
+        "equation": "",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "_Unknown",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  },
+  {
+    "name": "Sentinel Special",
     "alias": "Paladin Special Monster Debuff",
     "type": "Poison",
     "duration": 0,

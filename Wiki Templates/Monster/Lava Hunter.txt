@@ -121,6 +121,250 @@ subboss_lavahunter={{Enemy
   |drops = {{:Loot table/subboss_lavahunter}}
   }}
 |-|
+subboss_lavahunter_ghost_t11={{Enemy
+  |title = Lava Hunter
+  |image_original = {{CSS image crop|Image=boss_mirage_hunter_FIRE.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 11
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 875000
+  |damage_bonus = 660
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=23|cHeight=59|oBottom=307|oLeft=107}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+subboss_lavahunter_ghost_t12={{Enemy
+  |title = Lava Hunter
+  |image_original = {{CSS image crop|Image=boss_mirage_hunter_FIRE.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 11
+  |level = 33
+  |max_health = {{Icon|Health|nolink=1}} 2100000
+  |damage_bonus = 900
+  |accuracy = 585.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=23|cHeight=59|oBottom=307|oLeft=107}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+subboss_lavahunter_t11={{Enemy
+  |title = Lava Hunter
+  |image_original = {{CSS image crop|Image=boss_mirage_hunter_FIRE.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
+  |caption = Description for Lava Hunter
+  |location = 
+  |category = Infernal
+  |is_boss = Yes
+  |element = Ki
+  |tier = 11
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 10500000
+  |experience = 110000
+  |damage_bonus = 750
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=23|cHeight=59|oBottom=307|oLeft=107}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile3''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile4''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+  |drops = {{:Loot table/subboss_lavahunter_t11}}
+  }}
+|-|
+subboss_lavahunter_t12={{Enemy
+  |title = Lava Hunter
+  |image_original = {{CSS image crop|Image=boss_mirage_hunter_FIRE.png|bSize=512|cWidth=81|cHeight=92|oBottom=36|oLeft=24}}
+  |caption = Description for Lava Hunter
+  |location = 
+  |category = Infernal
+  |is_boss = Yes
+  |element = Ki
+  |tier = 12
+  |level = 33
+  |max_health = {{Icon|Health|nolink=1}} 25000000
+  |experience = 120000
+  |damage_bonus = 1000
+  |accuracy = 585.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=23|cHeight=59|oBottom=307|oLeft=107}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile2''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile3''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''subboss lavahunter projectile4''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=55|cHeight=93|oBottom=838|oLeft=7}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 1
+    {{!}}-
+    {{!}} Range {{!!}} 30
+    {{!}}-
+    {{!}} Max hits {{!!}} 40
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+  |drops = {{:Loot table/subboss_lavahunter_t12}}
+  }}
+|-|
 </tabber></div>
 <includeonly>
 [[Category:Monster]]

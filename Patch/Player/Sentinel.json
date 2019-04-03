@@ -878,6 +878,46 @@
             "y": 0
           }
         }
+      },
+      {
+        "offerID": "unlockSentinelSkinSpring",
+        "sprite": {
+          "name": "sentinel_bunny costume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 96,
+            "width": 40,
+            "height": 46
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockSentinelSkinBee",
+        "sprite": {
+          "name": "sentinel_BEE costume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 96,
+            "width": 44,
+            "height": 44
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 0
+          }
+        }
       }
     ]
   }

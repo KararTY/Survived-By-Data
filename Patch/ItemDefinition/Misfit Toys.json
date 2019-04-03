@@ -4,7 +4,7 @@
     "alias": "it Attachment Holiday Toy Trail",
     "description": "Distract yourself from the encroaching peril of the Heartlands with one of these fun toys!",
     "premiumOffer": "UnlockAttachmentHolidayToyTrail",
-    "price": 1000,
+    "price": 250,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -48,7 +48,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75
   }
 ]

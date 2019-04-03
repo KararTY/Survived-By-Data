@@ -2,7 +2,7 @@
   {
     "name": "Quest Infiltrator2",
     "title": "Idol Curiosity",
-    "description": "Collect 15 Idols from Leo Magi",
+    "description": "Collect 8 Idols from Leo Magi",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
     "challengeTarget": {

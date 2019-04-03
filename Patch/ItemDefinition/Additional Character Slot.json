@@ -4,7 +4,7 @@
     "alias": "CharacterSlot",
     "description": "Increase the number of available character slots by 1.",
     "premiumOffer": "CharacterSlot",
-    "price": 600,
+    "price": 150,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

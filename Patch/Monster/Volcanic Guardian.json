@@ -44,7 +44,6 @@
               "lightScale": 1,
               "speed": 7,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 15,
               "useTargetForRange": true,
               "maxHits": 1,
@@ -101,7 +100,6 @@
               "alignToDirection": true,
               "speed": 8,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 15,
               "maxHits": 1,
               "arcSeparation": 5,
@@ -219,6 +217,482 @@
         "loot": {
           "lootTable": {
             "name": "monster_golem_lava_volcano"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Infernal",
+    "element": "Ki"
+  },
+  {
+    "name": "Volcanic Guardian",
+    "alias": "monster_golem_lava_volcano2",
+    "description": "Description for Volcanic Guardian",
+    "weapons": [
+      {
+        "name": "spirit_golem_lava_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_golem_lava",
+              "baseSize": {
+                "width": 384,
+                "height": 288
+              },
+              "textureRectangle": {
+                "x": 199,
+                "y": 148,
+                "width": 32,
+                "height": 35
+              },
+              "textureOffset": {
+                "x": 3,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "spirit_golem_lava_projectile",
+              "projectileName": "Projectile",
+              "rotationSpeed": 800,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "speed": 7,
+              "damage": 0,
+              "range": 15,
+              "useTargetForRange": true,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "color": {
+                "r": 0.88,
+                "g": 0.48,
+                "b": 0.05,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "spirit_golem_lava_projectile_blast",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_golem_lava",
+              "baseSize": {
+                "width": 384,
+                "height": 288
+              },
+              "textureRectangle": {
+                "x": 302,
+                "y": 106,
+                "width": 18,
+                "height": 26
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "spirit_golem_lava_projectile_blast",
+              "projectileName": "Projectile",
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1.25,
+              "alignToDirection": true,
+              "speed": 8,
+              "damage": 0,
+              "range": 15,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Burn",
+                "alias": "Burn T8",
+                "type": "Normal",
+                "duration": 6,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+131",
+                    "value": 65
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 8
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "trackedForChallenge": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.06,
+                "g": 0.13,
+                "b": 0.12,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "spirit_golem_lava",
+          "baseSize": {
+            "width": 384,
+            "height": 288
+          },
+          "textureRectangle": {
+            "x": 7,
+            "y": 199,
+            "width": 79,
+            "height": 86
+          },
+          "textureOffset": {
+            "x": 7,
+            "y": 7
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 31
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 215000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 610
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 11
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 1100
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "",
+            "value": 690
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "monster_golem_lava_volcano2"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Infernal",
+    "element": "Ki"
+  },
+  {
+    "name": "Volcanic Guardian",
+    "alias": "monster_golem_lava_volcano3",
+    "description": "Description for Volcanic Guardian",
+    "weapons": [
+      {
+        "name": "spirit_golem_lava_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_golem_lava",
+              "baseSize": {
+                "width": 384,
+                "height": 288
+              },
+              "textureRectangle": {
+                "x": 199,
+                "y": 148,
+                "width": 32,
+                "height": 35
+              },
+              "textureOffset": {
+                "x": 3,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "spirit_golem_lava_projectile",
+              "projectileName": "Projectile",
+              "rotationSpeed": 800,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "speed": 7,
+              "damage": 0,
+              "range": 15,
+              "useTargetForRange": true,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "color": {
+                "r": 0.88,
+                "g": 0.48,
+                "b": 0.05,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "spirit_golem_lava_projectile_blast",
+        "data": [
+          {
+            "sprite": {
+              "name": "spirit_golem_lava",
+              "baseSize": {
+                "width": 384,
+                "height": 288
+              },
+              "textureRectangle": {
+                "x": 302,
+                "y": 106,
+                "width": 18,
+                "height": 26
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "spirit_golem_lava_projectile_blast",
+              "projectileName": "Projectile",
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1.25,
+              "alignToDirection": true,
+              "speed": 8,
+              "damage": 0,
+              "range": 15,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Burn",
+                "alias": "Burn T8",
+                "type": "Normal",
+                "duration": 6,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+131",
+                    "value": 65
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 8
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "trackedForChallenge": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.06,
+                "g": 0.13,
+                "b": 0.12,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "spirit_golem_lava",
+          "baseSize": {
+            "width": 384,
+            "height": 288
+          },
+          "textureRectangle": {
+            "x": 7,
+            "y": 199,
+            "width": 79,
+            "height": 86
+          },
+          "textureOffset": {
+            "x": 7,
+            "y": 7
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bBlockedByLava": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 32
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 525000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 820
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 12
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 1200
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "",
+            "value": 930
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "monster_golem_lava_volcano3"
           }
         }
       },

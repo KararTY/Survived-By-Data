@@ -1,6 +1,55 @@
 [
   {
     "name": "Pyroclast Catalyst, Grade III",
+    "alias": "Rare Crafting Material T12",
+    "description": "The Infernals exist to destroy indiscriminately, trusting in the Great Tree to slowly heal from the damage that must to be done to eradicate the disease. Pyroclast is the raw molten material that the Infernals are composed of. This is a rare crafting component.",
+    "price": 500000,
+    "sellPrice": 5000,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 10,
+    "tier": 12,
+    "data": [
+      {
+        "sprite": {
+          "name": "Crafting Eldritch Catalyst",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 0,
+            "y": 0
+          },
+          "color": {
+            "r": 0.93,
+            "g": 0.65,
+            "b": 0.07,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Gold",
+    "modifierChance": 0.05,
+    "craftingRarity": [
+      0.2,
+      "Rare"
+    ]
+  },
+  {
+    "name": "Pyroclast Catalyst, Grade III",
     "alias": "z Crafting Material Rare T11 v1",
     "description": "The whispers heard by the Witnesses contained more than just madness. The secrets of the Eldritch Catalyst were one such boon, and it allowed the Witnesses to craft the most exceptional items the Heartland had ever seen. This is a rare crafting component.",
     "premiumOffer": "VolcanoCatalyst3",

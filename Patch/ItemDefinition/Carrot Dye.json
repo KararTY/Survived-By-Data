@@ -4,6 +4,52 @@
     "alias": "Unlock Dye 3 Bloodstone",
     "description": "A single use application of the Carrot Dye.",
     "premiumOffer": "unlockDye3Bloodstone",
+    "requiredLevel": 0,
+    "type": "Misc",
+    "autoRedeem": true,
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "dye_bottle",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 3,
+            "y": 0,
+            "width": 26,
+            "height": 30
+          },
+          "textureOffset": {
+            "x": 3,
+            "y": 0
+          },
+          "color": {
+            "r": 0.84,
+            "g": 0.29,
+            "b": 0.19,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "bound": {
+      "soul": true
+    },
+    "modifierChance": 0,
+    "doesNotCountTowardMax": true
+  },
+  {
+    "name": "Carrot Dye",
+    "alias": "Unlock Dye 3 Electrum",
+    "description": "Unlock Carrot Dye Permanently. A limited use version of this dye can be purchased from the Seamstress for Bloodstone.",
+    "premiumOffer": "unlockDye3Electrum",
     "price": 50,
     "requiredLevel": 0,
     "type": "Misc",
@@ -44,54 +90,6 @@
       "soul": true
     },
     "currency": "Crystal",
-    "modifierChance": 0,
-    "doesNotCountTowardMax": true
-  },
-  {
-    "name": "Carrot Dye",
-    "alias": "Unlock Dye 3 Electrum",
-    "description": "Unlock Carrot Dye Permanently. A limited use version of this dye can be purchased from the Seamstress for Bloodstone.",
-    "premiumOffer": "unlockDye3Electrum",
-    "price": 200,
-    "requiredLevel": 0,
-    "type": "Misc",
-    "autoRedeem": true,
-    "maxStack": 1,
-    "tier": 0,
-    "data": [
-      {
-        "sprite": {
-          "name": "dye_bottle",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 3,
-            "y": 0,
-            "width": 26,
-            "height": 30
-          },
-          "textureOffset": {
-            "x": 3,
-            "y": 0
-          },
-          "color": {
-            "r": 0.84,
-            "g": 0.29,
-            "b": 0.19,
-            "a": 1
-          }
-        }
-      }
-    ],
-    "experiencePerLevel": [
-      0
-    ],
-    "bound": {
-      "soul": true
-    },
-    "currency": "Platinum",
     "modifierChance": 0,
     "doesNotCountTowardMax": true
   }

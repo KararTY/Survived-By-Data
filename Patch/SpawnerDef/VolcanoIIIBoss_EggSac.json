@@ -1,0 +1,27 @@
+[
+  {
+    "name": "VolcanoIIIBoss_EggSac",
+    "biome": "DungeonVolcanoHardBoss",
+    "difficulty": {
+      "min": 0,
+      "max": 0
+    },
+    "spawnRadius": 0.1,
+    "spawnDelayed": true,
+    "quotaRadius": 0.1,
+    "rechargeTime": 0,
+    "isBoss": true,
+    "manuallyPlaced": true,
+    "spawnList": [
+      {
+        "monsterName": "Volcanic Chamber Egg Sac",
+        "monsterAlias": "boss_goliath_volcano_eggsac_t12",
+        "spawnChance": 1,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

@@ -4,7 +4,7 @@
     "alias": "Unlock Skin Sentinel Alt 2",
     "description": "The executioners are a dying breed. Human life is too important, even the life of heinous criminals. But their skills have proven very compatible in the ending of Chimeric life.",
     "premiumOffer": "unlockSentinelAltSkin2",
-    "price": 150,
+    "price": 37,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

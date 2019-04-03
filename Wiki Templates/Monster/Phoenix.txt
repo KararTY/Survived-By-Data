@@ -53,6 +53,114 @@ monster_beast_phoenix_rebirth={{Enemy
     {{!}}}
   }}
 |-|
+monster_beast_phoenix_volcano2={{Enemy
+  |title = Phoenix
+  |image_original = {{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=43|cHeight=95|oBottom=0|oLeft=53}}
+  |caption = Description for Phoenix
+  |location = 
+  |category = Beast
+  |tier = 11
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 215000
+  |experience = 1100
+  |damage_bonus = 610
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''bird projectile''' {{!!}} <center>{{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=18|cHeight=15|oBottom=148|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_beast_phoenix_volcano2}}
+  }}
+|-|
+monster_beast_phoenix_rebirth_volcano2={{Enemy
+  |title = Phoenix
+  |image_original = {{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=94|cHeight=96|oBottom=192|oLeft=96}}
+  |location = 
+  |category = Beast
+  |tier = 11
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 215000
+  |experience = 1100
+  |damage_bonus = 610
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''phoenix projectile2''' {{!!}} <center>{{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=19|cHeight=17|oBottom=210|oLeft=14}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
+monster_beast_phoenix_volcano3={{Enemy
+  |title = Phoenix
+  |image_original = {{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=43|cHeight=95|oBottom=0|oLeft=53}}
+  |caption = Description for Phoenix
+  |location = 
+  |category = Beast
+  |tier = 12
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 525000
+  |experience = 1200
+  |damage_bonus = 820
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''bird projectile''' {{!!}} <center>{{CSS image crop|Image=beast_ram.png|bSize=192|cWidth=18|cHeight=15|oBottom=148|oLeft=3}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_beast_phoenix_volcano3}}
+  }}
+|-|
+monster_beast_phoenix_rebirth_volcano3={{Enemy
+  |title = Phoenix
+  |image_original = {{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=94|cHeight=96|oBottom=192|oLeft=96}}
+  |location = 
+  |category = Beast
+  |tier = 12
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 525000
+  |experience = 1200
+  |damage_bonus = 820
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''phoenix projectile2''' {{!!}} <center>{{CSS image crop|Image=beast_Phoenix_FIRE.png|bSize=384|cWidth=19|cHeight=17|oBottom=210|oLeft=14}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  }}
+|-|
 </tabber></div>
 <includeonly>
 [[Category:Monster]]

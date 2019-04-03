@@ -2,7 +2,7 @@
   {
     "name": "Quest Sentinel2",
     "title": "Grave Concerns",
-    "description": "Place Flowers on 12 Graves",
+    "description": "Place Flowers on 6 Graves",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
     "challengeTarget": {
@@ -18,7 +18,7 @@
         }
       },
       {
-        "questText": "With the winter blooms collected, you should now lay them upon the graves of the great heroes of the order. All of the graves are in the Talon Mountains. Lay blooms at each tomb in the Talon Mountains.",
+        "questText": "With the winter blooms collected, you should now lay them upon the graves of the great heroes of the order. All of the graves are in the Talon Mountains. Lay two blooms at each tomb in the Talon Mountains.",
         "completeText": "No, the desecration you encountered is not part of the ordeal. This is a troubling turn of events."
       }
     ]

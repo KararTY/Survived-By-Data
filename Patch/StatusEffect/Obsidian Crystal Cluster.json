@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Obsidian Crystal Cluster",
+    "alias": "IdolVolcanoEasyBuff",
+    "type": "Normal",
+    "duration": 0,
+    "stats": [
+      {
+        "key": "Potency",
+        "equation": "[Potency]+[Potency]*([Player.NumIdolsActivated]*0.03)",
+        "value": 0
+      },
+      {
+        "key": "Endurance",
+        "equation": "[Endurance]+[Endurance]*([Player.NumIdolsActivated]*0.03)",
+        "value": 0
+      },
+      {
+        "key": "Focus",
+        "equation": "[Focus]+[Focus]*([Player.NumIdolsActivated]*0.03)",
+        "value": 0
+      },
+      {
+        "key": "Willpower",
+        "equation": "[Willpower]+[Willpower]*([Player.NumIdolsActivated]*0.03)",
+        "value": 0
+      },
+      {
+        "key": "Swiftness",
+        "equation": "[Swiftness]+[Swiftness]*([Player.NumIdolsActivated]*0.03)",
+        "value": 0
+      },
+      {
+        "key": "HealthMax",
+        "equation": "[HealthMax]+[HealthMax]*([Player.NumIdolsActivated]*0.03)",
+        "value": 0
+      },
+      {
+        "key": "ManaMax",
+        "equation": "[ManaMax]+[ManaMax]*([Player.NumIdolsActivated]*0.03)",
+        "value": 0
+      }
+    ],
+    "relatedLevelStat": "NumIdolsActivated",
+    "characterEffectPrefab": {
+      "name": "ce Generic Buff"
+    },
+    "doesNotStackWithSelf": true,
+    "hasLevels": true,
+    "trackedForChallenge": true,
+    "isBuff": true,
+    "noTimeOut": true,
+    "flashDuration": 2,
+    "isFullscreenFlash": false
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "VolcanoIIISubBoss01",
+    "biome": "DungeonVolcanoHardBoss",
+    "difficulty": {
+      "min": 99,
+      "max": 99
+    },
+    "spawnRadius": 2,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": true,
+    "manuallyPlaced": true,
+    "spawnList": [
+      {
+        "monsterName": "Lava Dryad",
+        "monsterAlias": "subboss_spirit_dryad_lava_t12",
+        "spawnChance": 1,
+        "spawnQuota": 1,
+        "timeOfDay": "All"
+      }
+    ],
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

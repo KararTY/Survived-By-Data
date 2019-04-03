@@ -878,6 +878,46 @@
             "y": 0
           }
         }
+      },
+      {
+        "offerID": "unlockAlchemistSkinSpring",
+        "sprite": {
+          "name": "alchemist_bunny costume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 4,
+            "y": 96,
+            "width": 39,
+            "height": 44
+          },
+          "textureOffset": {
+            "x": 4,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockAlchemistSkinBee",
+        "sprite": {
+          "name": "alchemist_BEE costume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 4,
+            "y": 96,
+            "width": 43,
+            "height": 44
+          },
+          "textureOffset": {
+            "x": 4,
+            "y": 0
+          }
+        }
       }
     ]
   }

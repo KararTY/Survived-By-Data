@@ -60,7 +60,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75
   },
   {
@@ -124,7 +124,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75
   },
   {
@@ -188,7 +188,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75
   }
 ]

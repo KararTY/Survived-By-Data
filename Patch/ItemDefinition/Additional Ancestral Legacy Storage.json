@@ -4,7 +4,7 @@
     "alias": "MoreAncestralSpace",
     "description": "Increases your Ancestral Legacy capacity by one. Ten of these can be earned by dying in the Well.",
     "premiumOffer": "MoreAncestralSpace",
-    "price": 60,
+    "price": 15,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

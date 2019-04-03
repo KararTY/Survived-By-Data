@@ -5,7 +5,7 @@
     "maximumItemCount": 0,
     "lootTable": [
       {
-        "item": "Mage T11 Weapon v1 Paradise",
+        "item": "Pyroclast Master (III) Staff",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -15,7 +15,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Amulet T11 v1",
+        "item": "Pyroclast Master (III) Amulet",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -25,7 +25,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Armor Heavy T11 v1",
+        "item": "Pyroclast Master (III) Plate Armor",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -35,7 +35,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Armor Light T11 v1 Paradise",
+        "item": "Pyroclast Master (III) Mantle",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -45,7 +45,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Armor Medium T11 v1",
+        "item": "Pyroclast Master (III) Leathers",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -55,7 +55,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Boots Heavy T11 v1",
+        "item": "Pyroclast Master (III) Sabatons",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -65,7 +65,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Boots Light T11 v1",
+        "item": "Pyroclast Master (III) Boots",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -75,7 +75,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Druid T11 Weapon v1 Paradise",
+        "item": "Pyroclast Master (II) Totem",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -85,7 +85,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Geomancer T11 Weapon v1 Paradise",
+        "item": "Pyroclast Master (III) Pick",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -95,7 +95,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Hunter T11 Weapon v1 Paradise",
+        "item": "Pyroclast Master (III) Bow",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -105,7 +105,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Rogue T11 Weapon v1 Paradise",
+        "item": "Pyroclast Master (III) Blades",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -115,7 +115,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Ring T11 v1",
+        "item": "Pyroclast Master (III) Ring",
         "count": {
           "dice": 0,
           "faces": 0,
@@ -125,7 +125,7 @@
         "allowModifiers": true
       },
       {
-        "item": "Paladin T11 Weapon Paradise",
+        "item": "Pyroclast Master (III) Sword",
         "count": {
           "dice": 0,
           "faces": 0,

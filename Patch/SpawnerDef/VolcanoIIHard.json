@@ -1,0 +1,59 @@
+[
+  {
+    "name": "VolcanoIIHard",
+    "biome": "DungeonVolcanoMedium",
+    "difficulty": {
+      "min": 0.5,
+      "max": 0.75
+    },
+    "spawnRadius": 16,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "spawnList": [
+      {
+        "monsterName": "Volcanic Spider",
+        "monsterAlias": "monster_spider_volcano2",
+        "spawnChance": 0.8,
+        "spawnQuota": 8,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcanic Spider Young",
+        "monsterAlias": "monster_spider_volcano_baby2",
+        "spawnChance": 0.8,
+        "spawnQuota": 3,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcano Egg Sac",
+        "monsterAlias": "monster_volcano_eggsac2",
+        "spawnChance": 0.8,
+        "spawnQuota": 10,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Phoenix",
+        "monsterAlias": "monster_beast_phoenix_volcano2",
+        "spawnChance": 0.5,
+        "spawnQuota": 5,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcanic Ooze",
+        "monsterAlias": "monster_ooze_volcano2",
+        "spawnChance": 0.5,
+        "spawnQuota": 5,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcanic Ooze Fragment",
+        "monsterAlias": "monster_ooze_small_volcano2",
+        "spawnChance": 0.5,
+        "spawnQuota": 5,
+        "timeOfDay": "All"
+      }
+    ],
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

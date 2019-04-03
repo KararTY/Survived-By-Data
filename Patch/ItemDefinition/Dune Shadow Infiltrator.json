@@ -4,7 +4,7 @@
     "alias": "Unlock Skin Infiltrator Alt 5",
     "description": "The origins of the Infiltrator can be traced back to the Expanse Tribes that used stealthy warriors to stalk the dunes on their border, protecting them from the unwholesome intentions of their neighbors.",
     "premiumOffer": "unlockInfiltratorAltSkin5",
-    "price": 435,
+    "price": 108,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

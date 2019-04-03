@@ -878,6 +878,46 @@
             "y": 0
           }
         }
+      },
+      {
+        "offerID": "unlockDruidSkinSpring",
+        "sprite": {
+          "name": "druid_bunny constume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 4,
+            "y": 96,
+            "width": 38,
+            "height": 44
+          },
+          "textureOffset": {
+            "x": 4,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockDruidSkinBee",
+        "sprite": {
+          "name": "druid_BEE costume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 4,
+            "y": 96,
+            "width": 42,
+            "height": 42
+          },
+          "textureOffset": {
+            "x": 4,
+            "y": 0
+          }
+        }
       }
     ]
   }

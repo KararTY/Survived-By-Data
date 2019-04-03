@@ -81,6 +81,88 @@ monster_spider_volcano_dangerous={{Enemy
   |drops = {{:Loot table/monster_spider_volcano_dangerous}}
   }}
 |-|
+monster_spider_volcano2={{Enemy
+  |title = Volcanic Spider
+  |image_original = {{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=48|cHeight=39|oBottom=6|oLeft=0}}
+  |caption = Description for Volcanic Spider
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 11
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 215000
+  |experience = 1100
+  |damage_bonus = 610
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider volcano projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=13|cHeight=20|oBottom=51|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_volcano2}}
+  }}
+|-|
+monster_spider_volcano3={{Enemy
+  |title = Volcanic Spider
+  |image_original = {{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=48|cHeight=39|oBottom=6|oLeft=0}}
+  |caption = Description for Volcanic Spider
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 12
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 525000
+  |experience = 1200
+  |damage_bonus = 820
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spider volcano projectile''' {{!!}} <center>{{CSS image crop|Image=beast_spider_FIRE.png|bSize=192|cWidth=13|cHeight=20|oBottom=51|oLeft=53}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 7
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 10
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Burn'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  |drops = {{:Loot table/monster_spider_volcano3}}
+  }}
+|-|
 </tabber></div>
 <includeonly>
 [[Category:Monster]]

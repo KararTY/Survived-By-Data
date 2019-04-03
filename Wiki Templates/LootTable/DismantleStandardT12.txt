@@ -1,0 +1,16 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+'''Loot table: ([[Loot table/DismantleStandardT12|DismantleStandardT12]])'''
+<br>Guaranteed drop amount: 1
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x4-6 || {{Icon|Composite Smoldering Alloy}} || style="text-align:right" | 50% 
+|-
+| x4-6 || {{Icon|Composite Smoldering Fabric}} || style="text-align:right" | 50% 
+|-
+| x4-6 || {{Icon|Composite Smoldering Grain}} || style="text-align:right" | 50% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/DismantleStandardT12}}
+[[Category:Loot table]]</noinclude>

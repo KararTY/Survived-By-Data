@@ -83,7 +83,7 @@
     "alias": "Consumable Potion Mana Electrum",
     "description": "Potion Mana hElectrum",
     "premiumOffer": "PotionManaElectrum",
-    "price": 15,
+    "price": 3,
     "consumableEffect": {
       "name": "Potion Mana",
       "type": "Permanent",
@@ -152,7 +152,7 @@
       "Geomancer",
       "Druid"
     ],
-    "currency": "Platinum",
+    "currency": "Crystal",
     "coolDown": 0.5,
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true

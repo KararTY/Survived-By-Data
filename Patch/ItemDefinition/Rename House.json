@@ -3,7 +3,7 @@
     "name": "Rename House",
     "description": "Rename House",
     "premiumOffer": "RenameHouse",
-    "price": 1500,
+    "price": 375,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 1,
@@ -43,7 +43,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

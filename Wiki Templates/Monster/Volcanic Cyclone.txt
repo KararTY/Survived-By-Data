@@ -1,4 +1,5 @@
-{{Enemy
+<div class="tabbertab-borderless"><tabber>
+monster_spirit_cyclone_fire_volcano={{Enemy
   |title = Volcanic Cyclone
   |image_original = {{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=83|cHeight=88|oBottom=8|oLeft=5}}
   |caption = Description for Volcanic Cyclone
@@ -50,6 +51,114 @@
     {{!}}}
   |drops = {{:Loot table/monster_spirit_cyclone_fire_volcano}}
   }}
+|-|
+monster_spirit_cyclone_fire_volcano2={{Enemy
+  |title = Volcanic Cyclone
+  |image_original = {{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=83|cHeight=88|oBottom=8|oLeft=5}}
+  |caption = Description for Volcanic Cyclone
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 11
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 215000
+  |experience = 1100
+  |damage_bonus = 610
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath trail projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit cyclone fire projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=23|cHeight=59|oBottom=307|oLeft=107}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_cyclone_fire_volcano2}}
+  }}
+|-|
+monster_spirit_cyclone_fire_volcano3={{Enemy
+  |title = Volcanic Cyclone
+  |image_original = {{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=83|cHeight=88|oBottom=8|oLeft=5}}
+  |caption = Description for Volcanic Cyclone
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 12
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 525000
+  |experience = 1200
+  |damage_bonus = 820
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''boss goliath trail projectile''' {{!!}} <center>{{CSS image crop|Image=Boss_Goliath phase 3.png|bSize=640|cWidth=51|cHeight=26|oBottom=412|oLeft=539}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 10
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Lava'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 100 & Damage over time: 250)<br><small>[DamageOverTime]+250 '''100'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''9'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''spirit cyclone fire projectile''' {{!!}} <center>{{CSS image crop|Image=spirit_cyclone_fire.png|bSize=384|cWidth=23|cHeight=59|oBottom=307|oLeft=107}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 5
+    {{!}}-
+    {{!}} Range {{!!}} 2
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/monster_spirit_cyclone_fire_volcano3}}
+  }}
+|-|
+</tabber></div>
 <includeonly>
 [[Category:Monster]]
 [[Category:Infernal]]

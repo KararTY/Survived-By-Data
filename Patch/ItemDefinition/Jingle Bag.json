@@ -4,7 +4,7 @@
     "alias": "it Attachment Holiday Toy Bag",
     "description": "You've been very good this year! The beasts prowling the Heartlands? Not so much.",
     "premiumOffer": "UnlockAttachmentHolidayToyBag",
-    "price": 1000,
+    "price": 250,
     "requiredLevel": 0,
     "type": "Misc",
     "maxStack": 0,
@@ -48,7 +48,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75
   }
 ]

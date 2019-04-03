@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Druid Bee Skin",
+    "alias": "Unlock Skin Druid Bee",
+    "description": "Druid Bee Skin",
+    "premiumOffer": "unlockDruidSkinBee",
+    "price": 375,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "autoRedeem": true,
+    "maxStack": 1,
+    "tier": 0,
+    "data": [
+      {
+        "sprite": {
+          "name": "druid_BEE costume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 4,
+            "y": 96,
+            "width": 42,
+            "height": 42
+          },
+          "textureOffset": {
+            "x": 4,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "experiencePerLevel": [
+      0
+    ],
+    "bound": {
+      "soul": true
+    },
+    "recoverCost": 100,
+    "insureCost": 35,
+    "currency": "Crystal",
+    "modifierChance": 0.75,
+    "doesNotCountTowardMax": true
+  }
+]

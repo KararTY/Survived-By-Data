@@ -4,7 +4,7 @@
     "alias": "Grave - Reaper",
     "description": "Don't fear the...",
     "premiumOffer": "UnlockGravestoneReaper",
-    "price": 550,
+    "price": 137,
     "requiredLevel": 0,
     "type": "None",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75
   }
 ]

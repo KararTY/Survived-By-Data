@@ -54,7 +54,7 @@
     "alias": "BonusBagSpace",
     "description": "More Bag Space",
     "premiumOffer": "BonusBagSpace",
-    "price": 250,
+    "price": 62,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -95,7 +95,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },
@@ -104,7 +104,7 @@
     "alias": "MoreBagSpace",
     "description": "Increases the size of your inventory by 10. Can be purchased up to 9 times.",
     "premiumOffer": "MoreBagSpace",
-    "price": 250,
+    "price": 62,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -145,7 +145,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

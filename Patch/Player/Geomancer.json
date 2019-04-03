@@ -878,6 +878,46 @@
             "y": 0
           }
         }
+      },
+      {
+        "offerID": "unlockGeomancerSkinSpring",
+        "sprite": {
+          "name": "geomancer_bunny constume",
+          "baseSize": {
+            "width": 192,
+            "height": 192
+          },
+          "textureRectangle": {
+            "x": 7,
+            "y": 144,
+            "width": 38,
+            "height": 41
+          },
+          "textureOffset": {
+            "x": 7,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockGeomancerSkinBee",
+        "sprite": {
+          "name": "geomancer_BEE costume",
+          "baseSize": {
+            "width": 192,
+            "height": 192
+          },
+          "textureRectangle": {
+            "x": 6,
+            "y": 144,
+            "width": 42,
+            "height": 39
+          },
+          "textureOffset": {
+            "x": 6,
+            "y": 0
+          }
+        }
       }
     ]
   }

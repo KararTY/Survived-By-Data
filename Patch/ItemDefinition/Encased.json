@@ -4,7 +4,7 @@
     "alias": "Grave - Encased",
     "description": "You aren't dead, just in perfect hibernation...",
     "premiumOffer": "UnlockGravestoneEncased",
-    "price": 750,
+    "price": 187,
     "requiredLevel": 0,
     "type": "None",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75
   }
 ]

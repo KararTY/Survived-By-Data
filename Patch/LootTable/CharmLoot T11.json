@@ -1,0 +1,409 @@
+[
+  {
+    "from": "CharmLoot T11",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 1,
+    "lootTable": [
+      {
+        "item": "An Elemental Affinity Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ea Elemental Affinity Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ki Elemental Affinity Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ur Elemental Affinity Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "An Elemental Affinity Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ea Elemental Affinity Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ki Elemental Affinity Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ur Elemental Affinity Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "An Elemental Affinity Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ea Elemental Affinity Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ki Elemental Affinity Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ur Elemental Affinity Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "An Elemental Affinity Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ea Elemental Affinity Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ki Elemental Affinity Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Ur Elemental Affinity Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Buff Duration Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Buff Duration Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "Buff Duration Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Buff Duration Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Critical Chance Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Critical Chance Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "Critical Chance Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Critical Chance Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Critical Damage Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Critical Damage Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "Critical Damage Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Critical Damage Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Health Regeneration Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Health Regeneration Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "Health Regeneration Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Health Regeneration Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Movement Speed Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Movement Speed Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "Movement Speed Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Movement Speed Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      },
+      {
+        "item": "Rate of Attack Charm III",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 5,
+        "allowModifiers": true
+      },
+      {
+        "item": "Rate of Attack Charm IV",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      },
+      {
+        "item": "Rate of Attack Charm V",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 3,
+        "allowModifiers": true
+      },
+      {
+        "item": "Rate of Attack Charm VI",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 2,
+        "allowModifiers": true
+      }
+    ]
+  }
+]

@@ -2,7 +2,7 @@
   {
     "name": "Quest Infiltrator1",
     "title": "Lion Around",
-    "description": "Kill 30 Leo Chimera",
+    "description": "Kill 24 Leo Chimera Warriors",
     "challengeType": "Stat",
     "challenge": "CurrentQuestProgress",
     "challengeTarget": {

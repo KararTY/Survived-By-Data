@@ -4,7 +4,7 @@
     "alias": "Unlock Skin Alchemist Alt 2",
     "description": "A people on the brink of genocide must be willing to take desperate measures for their survival. But even some responses are too abhorrent to consider, let alone deploy. Yet some do, alienating themselves from the very people they seek to save.",
     "premiumOffer": "unlockSkinmageRed",
-    "price": 150,
+    "price": 37,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

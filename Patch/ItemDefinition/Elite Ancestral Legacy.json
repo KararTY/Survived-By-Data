@@ -4,7 +4,7 @@
     "alias": "Card Pack Elite [Electrum]",
     "description": "One Ancestral Legacy with a rarity of Rare or Legendary",
     "premiumOffer": "CardPackEliteElectrum",
-    "price": 1400,
+    "price": 350,
     "requiredLevel": 0,
     "type": "None",
     "maxStack": 99,
@@ -45,7 +45,7 @@
     "bound": {
       "soul": true
     },
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   },

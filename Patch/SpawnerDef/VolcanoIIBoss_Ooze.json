@@ -1,0 +1,27 @@
+[
+  {
+    "name": "VolcanoIIBoss_Ooze",
+    "biome": "DungeonVolcanoMediumBoss",
+    "difficulty": {
+      "min": 0,
+      "max": 0
+    },
+    "spawnRadius": 2,
+    "spawnDelayed": true,
+    "quotaRadius": 4,
+    "rechargeTime": 0,
+    "isBoss": true,
+    "manuallyPlaced": true,
+    "spawnList": [
+      {
+        "monsterName": "Core Ooze",
+        "monsterAlias": "boss_goliath_ooze_t11",
+        "spawnChance": 1,
+        "spawnQuota": 2,
+        "timeOfDay": "All"
+      }
+    ],
+    "areaMax": 20,
+    "areaRadius": 100
+  }
+]

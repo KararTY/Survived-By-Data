@@ -4,7 +4,7 @@
     "alias": "Unlock Skin Infiltrator Alt 4",
     "description": "These Infiltrators move like wind upon the grass, their presence only marked by the gentle signs that belie the devastating intent.",
     "premiumOffer": "unlockInfiltratorAltSkin4",
-    "price": 900,
+    "price": 225,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

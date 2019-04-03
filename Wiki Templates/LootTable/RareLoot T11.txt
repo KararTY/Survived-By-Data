@@ -1,10 +1,14 @@
 <noinclude>'''{{PAGENAME}}'''</noinclude>
-'''Loot table: ([[Loot table/RareLoot T11|RareLoot T11]])'''
+{{:Loot table/CharmLoot T11}}'''Loot table: ([[Loot table/RareLoot T11|RareLoot T11]])'''
 {|class="sortable"
 |-
 ! Amount || Item || Chance
 |-
 | x50-130 || {{Icon|Silver}} || style="text-align:right" | 100% 
+|-
+| x4-5 || {{Icon|Blue Jade}} || style="text-align:right" | 8% 
+|-
+| x1 || {{Icon|Conduit of Fire Key (II)}} || style="text-align:right" | 5% 
 |}
 <noinclude><hr>
 {{Special:Whatlinkshere/Loot table/RareLoot T11}}

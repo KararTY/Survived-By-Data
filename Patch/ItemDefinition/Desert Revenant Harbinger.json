@@ -4,7 +4,7 @@
     "alias": "Unlock Skin Harbinger Sin",
     "description": "A great civilization once occupied the Cinder Valley, but now little remains except wreckage. Unlike the modern Harbinger, these favored curtains of chain armor over leathers.",
     "premiumOffer": "unlockHarbingerSkinSin",
-    "price": 725,
+    "price": 181,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

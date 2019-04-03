@@ -133,6 +133,140 @@ monster_scorpion_lava_volcano_dangerous={{Enemy
   |drops = {{:Loot table/monster_scorpion_lava_volcano_dangerous}}
   }}
 |-|
+monster_scorpion_lava_volcano2={{Enemy
+  |title = Volcanic Scorpion
+  |image_original = {{CSS image crop|Image=scorpion_lava.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |caption = Description for Volcanic Scorpion
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 11
+  |level = 31
+  |max_health = {{Icon|Health|nolink=1}} 215000
+  |experience = 1100
+  |damage_bonus = 610
+  |accuracy = 534.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''scorpion lava projectile''' {{!!}} <center>{{CSS image crop|Image=scorpion_lava.png|bSize=192|cWidth=11|cHeight=19|oBottom=51|oLeft=55}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''scorpion lava projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=38|cHeight=18|oBottom=124|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 4
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  |drops = {{:Loot table/monster_scorpion_lava_volcano2}}
+  }}
+|-|
+monster_scorpion_lava_volcano3={{Enemy
+  |title = Volcanic Scorpion
+  |image_original = {{CSS image crop|Image=scorpion_lava.png|bSize=192|cWidth=48|cHeight=48|oBottom=0|oLeft=0}}
+  |caption = Description for Volcanic Scorpion
+  |location = 
+  |category = Infernal
+  |element = Ki
+  |tier = 12
+  |level = 32
+  |max_health = {{Icon|Health|nolink=1}} 525000
+  |experience = 1200
+  |damage_bonus = 820
+  |accuracy = 559.6<br><small>([Level]x[Level])x0.4 + 150</small>
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''scorpion lava projectile''' {{!!}} <center>{{CSS image crop|Image=scorpion_lava.png|bSize=192|cWidth=11|cHeight=19|oBottom=51|oLeft=55}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 6
+    {{!}}-
+    {{!}}Use target for range {{!!}} Yes
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''scorpion lava projectile2''' {{!!}} <center>{{CSS image crop|Image=spirit_dryad_FIRE.png|bSize=192|cWidth=38|cHeight=18|oBottom=124|oLeft=6}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Range {{!!}} 15
+    {{!}}-
+    {{!}} Max hits {{!!}} 4
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Poison'''
+    {{!}}-
+    {{!}} Duration {{!!}} 6 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} DamageOverTime {{!!}} (Initial damage: 65 & Damage over time: 131)<br><small>[DamageOverTime]+131 '''65'''</small>
+    {{!}}-
+    {{!}} Tier {{!!}}  '''8'''
+    {{!}}}
+  |drops = {{:Loot table/monster_scorpion_lava_volcano3}}
+  }}
+|-|
 </tabber></div>
 <includeonly>
 [[Category:Monster]]

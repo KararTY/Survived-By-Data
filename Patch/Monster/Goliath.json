@@ -44,7 +44,6 @@
               "lightScale": 1,
               "speed": 6,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 15,
               "maxHits": 1,
               "rageMultiplier": 1,
@@ -128,7 +127,6 @@
               "maintainOrbitRange": true,
               "speed": 1,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 30,
               "maxHits": 40,
               "rageMultiplier": 1,
@@ -212,7 +210,6 @@
               "maintainOrbitRange": true,
               "speed": 1,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 30,
               "maxHits": 40,
               "rageMultiplier": 1,
@@ -296,7 +293,6 @@
               "maintainOrbitRange": true,
               "speed": 1,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 30,
               "maxHits": 40,
               "rageMultiplier": 1,
@@ -441,7 +437,7 @@
   },
   {
     "name": "Goliath",
-    "alias": "boss_goliath2",
+    "alias": "boss_goliath2_t12",
     "isBoss": true,
     "weapons": [
       {
@@ -486,7 +482,6 @@
               "tangentProjectileIndex": 2,
               "speed": 4,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 30,
               "maxHits": 1,
               "arcSeparation": 7,
@@ -567,7 +562,6 @@
               "alignToDirection": true,
               "speed": 10,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 15,
               "maxHits": 1,
               "rageMultiplier": 1,
@@ -647,7 +641,1136 @@
               "repeatHitTime": 1,
               "speed": 0,
               "damage": 0,
-              "damageMultiplier": 1,
+              "range": 0.01,
+              "maxHits": 10,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.91,
+                "g": 0.48,
+                "b": 0.15,
+                "a": 0.17
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boss_Goliath Phase 2",
+          "baseSize": {
+            "width": 640,
+            "height": 960
+          },
+          "textureRectangle": {
+            "x": 32,
+            "y": 845,
+            "width": 113,
+            "height": 92
+          },
+          "textureOffset": {
+            "x": 32,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bEnemy": true,
+        "bSkipWorld": true,
+        "bSlowedDownByWater": true,
+        "bFlying": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 33
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 15000000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 1300
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 12
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "",
+            "value": 1300
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "BossGoliathPain1",
+            "BossGoliathPain2",
+            "BossGoliathPain3",
+            "BossGoliathPain4",
+            "BossGoliathPain5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Infernal",
+    "element": "Ki"
+  },
+  {
+    "name": "Goliath",
+    "alias": "boss_goliath2_t11",
+    "isBoss": true,
+    "weapons": [
+      {
+        "name": "boss_goliath2_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath Phase 2",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 500,
+                "y": 105,
+                "width": 35,
+                "height": 34
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath2_projectile",
+              "projectileName": "HydraProjectile",
+              "rotationSpeed": 100,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "tangentProjectileFireRate": 0.25,
+              "tangentProjectileIndex": 2,
+              "speed": 4,
+              "damage": 0,
+              "range": 30,
+              "maxHits": 1,
+              "arcSeparation": 7,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath2_projectile2",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath Phase 2",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 584,
+                "y": 101,
+                "width": 27,
+                "height": 48
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath2_projectile2",
+              "projectileName": "HydraProjectile",
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "alignToDirection": true,
+              "speed": 10,
+              "damage": 0,
+              "range": 15,
+              "maxHits": 1,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath_trail_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 539,
+                "y": 522,
+                "width": 51,
+                "height": 26
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath_trail_projectile",
+              "projectileName": "Projectile",
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "repeatHitTime": 1,
+              "speed": 0,
+              "damage": 0,
+              "range": 0.01,
+              "maxHits": 10,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.91,
+                "g": 0.48,
+                "b": 0.15,
+                "a": 0.17
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boss_Goliath Phase 2",
+          "baseSize": {
+            "width": 640,
+            "height": 960
+          },
+          "textureRectangle": {
+            "x": 32,
+            "y": 845,
+            "width": 113,
+            "height": 92
+          },
+          "textureOffset": {
+            "x": 32,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bEnemy": true,
+        "bSkipWorld": true,
+        "bSlowedDownByWater": true,
+        "bFlying": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 32
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 6125000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 950
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 11
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "",
+            "value": 950
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "BossGoliathPain1",
+            "BossGoliathPain2",
+            "BossGoliathPain3",
+            "BossGoliathPain4",
+            "BossGoliathPain5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Infernal",
+    "element": "Ki"
+  },
+  {
+    "name": "Goliath",
+    "alias": "boss_goliath3_t12",
+    "isBoss": true,
+    "weapons": [
+      {
+        "name": "boss_goliath3_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 7,
+                "y": 29,
+                "width": 55,
+                "height": 93
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath3_projectile",
+              "projectileName": "HydraProjectile",
+              "rotationSpeed": 700,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "speed": 6,
+              "damage": 0,
+              "range": 15,
+              "maxHits": 1,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath3_projectile1",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 7,
+                "y": 29,
+                "width": 55,
+                "height": 93
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath3_projectile1",
+              "projectileName": "LavaHunterProjectile",
+              "orbitSpeed": 0.5,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "launchOffsetDistance": 1,
+              "lightScale": 1,
+              "repeatHitTime": 1,
+              "alignToDirection": true,
+              "maintainOrbitRange": true,
+              "speed": 1,
+              "damage": 0,
+              "range": 30,
+              "maxHits": 40,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath3_projectile2",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 7,
+                "y": 29,
+                "width": 55,
+                "height": 93
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath3_projectile2",
+              "projectileName": "LavaHunterProjectile",
+              "orbitSpeed": -0.5,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "launchOffsetDistance": 1.5,
+              "lightScale": 1,
+              "repeatHitTime": 1,
+              "alignToDirection": true,
+              "maintainOrbitRange": true,
+              "speed": 1,
+              "damage": 0,
+              "range": 30,
+              "maxHits": 40,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath3_projectile3",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 7,
+                "y": 29,
+                "width": 55,
+                "height": 93
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath3_projectile3",
+              "projectileName": "LavaHunterProjectile",
+              "orbitSpeed": 0.5,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "launchOffsetDistance": 2,
+              "lightScale": 1,
+              "repeatHitTime": 1,
+              "alignToDirection": true,
+              "maintainOrbitRange": true,
+              "speed": 1,
+              "damage": 0,
+              "range": 30,
+              "maxHits": 40,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boss_Goliath phase 3",
+          "baseSize": {
+            "width": 640,
+            "height": 960
+          },
+          "textureRectangle": {
+            "x": 21,
+            "y": 830,
+            "width": 123,
+            "height": 104
+          },
+          "textureOffset": {
+            "x": 21,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bFlying": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 33
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 15000000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 1100
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 12
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 600000
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "boss_goliath3_t12"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "BossGoliathPain1",
+            "BossGoliathPain2",
+            "BossGoliathPain3",
+            "BossGoliathPain4",
+            "BossGoliathPain5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Infernal",
+    "element": "Ki"
+  },
+  {
+    "name": "Goliath",
+    "alias": "boss_goliath2",
+    "isBoss": true,
+    "weapons": [
+      {
+        "name": "boss_goliath2_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath Phase 2",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 500,
+                "y": 105,
+                "width": 35,
+                "height": 34
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath2_projectile",
+              "projectileName": "HydraProjectile",
+              "rotationSpeed": 100,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "tangentProjectileFireRate": 0.25,
+              "tangentProjectileIndex": 2,
+              "speed": 4,
+              "damage": 0,
+              "range": 30,
+              "maxHits": 1,
+              "arcSeparation": 7,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath2_projectile2",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath Phase 2",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 584,
+                "y": 101,
+                "width": 27,
+                "height": 48
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath2_projectile2",
+              "projectileName": "HydraProjectile",
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "alignToDirection": true,
+              "speed": 10,
+              "damage": 0,
+              "range": 15,
+              "maxHits": 1,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath_trail_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 539,
+                "y": 522,
+                "width": 51,
+                "height": 26
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath_trail_projectile",
+              "projectileName": "Projectile",
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "repeatHitTime": 1,
+              "speed": 0,
+              "damage": 0,
               "range": 0.01,
               "maxHits": 10,
               "arcSeparation": 5,
@@ -791,6 +1914,602 @@
   },
   {
     "name": "Goliath",
+    "alias": "boss_goliath3_t11",
+    "isBoss": true,
+    "weapons": [
+      {
+        "name": "boss_goliath3_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 7,
+                "y": 29,
+                "width": 55,
+                "height": 93
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath3_projectile",
+              "projectileName": "HydraProjectile",
+              "rotationSpeed": 700,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "speed": 6,
+              "damage": 0,
+              "range": 15,
+              "maxHits": 1,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath3_projectile1",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 7,
+                "y": 29,
+                "width": 55,
+                "height": 93
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath3_projectile1",
+              "projectileName": "LavaHunterProjectile",
+              "orbitSpeed": 0.5,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "launchOffsetDistance": 1,
+              "lightScale": 1,
+              "repeatHitTime": 1,
+              "alignToDirection": true,
+              "maintainOrbitRange": true,
+              "speed": 1,
+              "damage": 0,
+              "range": 30,
+              "maxHits": 40,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath3_projectile2",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 7,
+                "y": 29,
+                "width": 55,
+                "height": 93
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath3_projectile2",
+              "projectileName": "LavaHunterProjectile",
+              "orbitSpeed": -0.5,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "launchOffsetDistance": 1.5,
+              "lightScale": 1,
+              "repeatHitTime": 1,
+              "alignToDirection": true,
+              "maintainOrbitRange": true,
+              "speed": 1,
+              "damage": 0,
+              "range": 30,
+              "maxHits": 40,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "boss_goliath3_projectile3",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 3",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 7,
+                "y": 29,
+                "width": 55,
+                "height": 93
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath3_projectile3",
+              "projectileName": "LavaHunterProjectile",
+              "orbitSpeed": 0.5,
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "launchOffsetDistance": 2,
+              "lightScale": 1,
+              "repeatHitTime": 1,
+              "alignToDirection": true,
+              "maintainOrbitRange": true,
+              "speed": 1,
+              "damage": 0,
+              "range": 30,
+              "maxHits": 40,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "statusEffect": {
+                "name": "Lava",
+                "alias": "Projectile Lava",
+                "type": "Normal",
+                "duration": 5,
+                "stats": [
+                  {
+                    "key": "DamageOverTime",
+                    "equation": "[DamageOverTime]+250",
+                    "value": 100
+                  },
+                  {
+                    "key": "Tier",
+                    "equation": "",
+                    "value": 9
+                  }
+                ],
+                "relatedLevelStat": "_Unknown",
+                "characterEffectPrefab": {
+                  "name": "ce Fire"
+                },
+                "doesNotStackWithSelf": true,
+                "flashDuration": 2,
+                "isFullscreenFlash": false
+              },
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boss_Goliath phase 3",
+          "baseSize": {
+            "width": 640,
+            "height": 960
+          },
+          "textureRectangle": {
+            "x": 21,
+            "y": 830,
+            "width": 123,
+            "height": 104
+          },
+          "textureOffset": {
+            "x": 21,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bSlide": true,
+        "bEnemy": true,
+        "bSlowedDownByWater": true,
+        "bFlying": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 32
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 6125000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 850
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 11
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 550000
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "loot": {
+          "lootTable": {
+            "name": "boss_goliath3_t11"
+          }
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "BossGoliathPain1",
+            "BossGoliathPain2",
+            "BossGoliathPain3",
+            "BossGoliathPain4",
+            "BossGoliathPain5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Infernal",
+    "element": "Ki"
+  },
+  {
+    "name": "Goliath",
+    "alias": "boss_goliath_t12",
+    "description": "Description for Goliath",
+    "isBoss": true,
+    "weapons": [
+      {
+        "name": "boss_goliath_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 1",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 497,
+                "y": 251,
+                "width": 42,
+                "height": 53
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath_projectile",
+              "projectileName": "HydraProjectile",
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "alignToDirection": true,
+              "speed": 10,
+              "damage": 0,
+              "range": 15,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boss_Goliath phase 1",
+          "baseSize": {
+            "width": 640,
+            "height": 960
+          },
+          "textureRectangle": {
+            "x": 16,
+            "y": 822,
+            "width": 137,
+            "height": 115
+          },
+          "textureOffset": {
+            "x": 16,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bEnemy": true,
+        "bSlowedDownByWater": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 33
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 15000000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 1100
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 12
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "",
+            "value": 1100
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "BossGoliathPain1",
+            "BossGoliathPain2",
+            "BossGoliathPain3",
+            "BossGoliathPain4",
+            "BossGoliathPain5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Infernal",
+    "element": "Ki"
+  },
+  {
+    "name": "Goliath",
     "alias": "boss_goliath",
     "description": "Description for Goliath",
     "isBoss": true,
@@ -835,7 +2554,6 @@
               "alignToDirection": true,
               "speed": 10,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 15,
               "maxHits": 1,
               "arcSeparation": 5,
@@ -913,6 +2631,166 @@
             "key": "SpecialWeaponDamage",
             "equation": "",
             "value": 630
+          },
+          {
+            "key": "Accuracy",
+            "equation": "([Level]*[Level])*0.4 + 150",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "EnemyImpactGeneral1",
+            "EnemyImpactGeneral2",
+            "EnemyImpactGeneral3",
+            "EnemyImpactGeneral4",
+            "EnemyImpactGeneral5"
+          ]
+        }
+      },
+      {
+        "sound": {
+          "soundType": "Impact",
+          "sounds": [
+            "BossGoliathPain1",
+            "BossGoliathPain2",
+            "BossGoliathPain3",
+            "BossGoliathPain4",
+            "BossGoliathPain5"
+          ]
+        }
+      }
+    ],
+    "zenithEffects": [],
+    "category": "Infernal",
+    "element": "Ki"
+  },
+  {
+    "name": "Goliath",
+    "alias": "boss_goliath_t11",
+    "description": "Description for Goliath",
+    "isBoss": true,
+    "weapons": [
+      {
+        "name": "boss_goliath_projectile",
+        "data": [
+          {
+            "sprite": {
+              "name": "Boss_Goliath phase 1",
+              "baseSize": {
+                "width": 640,
+                "height": 960
+              },
+              "textureRectangle": {
+                "x": 497,
+                "y": 251,
+                "width": 42,
+                "height": 53
+              },
+              "textureOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            }
+          },
+          {
+            "projectile": {
+              "name": "boss_goliath_projectile",
+              "projectileName": "HydraProjectile",
+              "launchOffset": {
+                "x": 0,
+                "y": 0
+              },
+              "lightScale": 1,
+              "alignToDirection": true,
+              "speed": 10,
+              "damage": 0,
+              "range": 15,
+              "maxHits": 1,
+              "arcSeparation": 5,
+              "rageMultiplier": 1,
+              "bounceBetweenEnemies": false,
+              "color": {
+                "r": 0.31,
+                "g": 0.09,
+                "b": 0.11,
+                "a": 0.13
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "data": [
+      {
+        "sprite": {
+          "name": "Boss_Goliath phase 1",
+          "baseSize": {
+            "width": 640,
+            "height": 960
+          },
+          "textureRectangle": {
+            "x": 16,
+            "y": 822,
+            "width": 137,
+            "height": 115
+          },
+          "textureOffset": {
+            "x": 16,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "bEnemy": true,
+        "bSlowedDownByWater": true
+      },
+      {
+        "stats": [
+          {
+            "key": "Level",
+            "equation": "",
+            "value": 32
+          },
+          {
+            "key": "HealthMax",
+            "equation": "",
+            "value": 2450000
+          },
+          {
+            "key": "DamageBonus",
+            "equation": "",
+            "value": 850
+          },
+          {
+            "key": "Tier",
+            "equation": "",
+            "value": 11
+          },
+          {
+            "key": "Experience",
+            "equation": "",
+            "value": 0
+          },
+          {
+            "key": "SpecialWeaponDamage",
+            "equation": "",
+            "value": 850
           },
           {
             "key": "Accuracy",

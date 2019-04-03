@@ -4,7 +4,7 @@
     "alias": "Unlock Skin Sentinel Sin",
     "description": "A great civilization once occupied the Cinder Valley, but now little remains except wreckage. Their defenders favored gear designed to find small weaknesses and rip them open.",
     "premiumOffer": "unlockSentinelSkinSin",
-    "price": 725,
+    "price": 181,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

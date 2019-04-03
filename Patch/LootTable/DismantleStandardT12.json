@@ -1,0 +1,36 @@
+[
+  {
+    "from": "DismantleStandardT12",
+    "guaranteeItemCount": 1,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Composite Smoldering Alloy",
+        "count": {
+          "dice": 1,
+          "faces": 6,
+          "add": 4
+        },
+        "chance": 50
+      },
+      {
+        "item": "Composite Smoldering Fabric",
+        "count": {
+          "dice": 1,
+          "faces": 6,
+          "add": 4
+        },
+        "chance": 50
+      },
+      {
+        "item": "Composite Smoldering Grain",
+        "count": {
+          "dice": 1,
+          "faces": 6,
+          "add": 4
+        },
+        "chance": 50
+      }
+    ]
+  }
+]

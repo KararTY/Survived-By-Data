@@ -1,0 +1,11 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+{{:Loot table/CommonLoot T5}}'''Loot table: ([[Loot table/boss_dreadnought_disabler|boss_dreadnought_disabler]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Raw Resin}} || style="text-align:right" | 20% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/boss_dreadnought_disabler}}
+[[Category:Loot table]]</noinclude>

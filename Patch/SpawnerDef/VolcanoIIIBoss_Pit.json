@@ -1,0 +1,17 @@
+[
+  {
+    "name": "VolcanoIIIBoss_Pit",
+    "biome": "DungeonVolcanoHardBoss",
+    "difficulty": {
+      "min": 0,
+      "max": 0
+    },
+    "spawnRadius": 0,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "isBoss": true,
+    "manuallyPlaced": true,
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

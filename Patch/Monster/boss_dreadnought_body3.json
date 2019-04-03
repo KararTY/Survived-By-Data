@@ -7,20 +7,20 @@
         "data": [
           {
             "sprite": {
-              "name": "Worm_01",
+              "name": "Boss_dreadnought",
               "baseSize": {
-                "width": 128,
-                "height": 128
+                "width": 512,
+                "height": 1280
               },
               "textureRectangle": {
-                "x": 8,
-                "y": 3,
-                "width": 15,
-                "height": 23
+                "x": 14,
+                "y": 69,
+                "width": 26,
+                "height": 45
               },
               "textureOffset": {
-                "x": 8,
-                "y": 3
+                "x": 0,
+                "y": 0
               },
               "color": {
                 "r": 1,
@@ -42,7 +42,6 @@
               "alignToDirection": true,
               "speed": 6,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 15,
               "maxHits": 1,
               "arcSeparation": 5,
@@ -65,17 +64,17 @@
           "name": "Boss_dreadnought",
           "baseSize": {
             "width": 512,
-            "height": 1152
+            "height": 1280
           },
           "textureRectangle": {
-            "x": 25,
-            "y": 545,
-            "width": 84,
-            "height": 68
+            "x": 34,
+            "y": 670,
+            "width": 72,
+            "height": 71
           },
           "textureOffset": {
-            "x": 25,
-            "y": 33
+            "x": 34,
+            "y": 30
           },
           "color": {
             "r": 1,
@@ -87,19 +86,21 @@
       },
       {
         "bSlide": true,
-        "bEnemy": true
+        "bEnemy": true,
+        "bSkipWorld": true,
+        "bFlying": true
       },
       {
         "stats": [
           {
             "key": "Level",
             "equation": "",
-            "value": 0
+            "value": 29
           },
           {
             "key": "HealthMax",
             "equation": "",
-            "value": 125000
+            "value": 367500
           },
           {
             "key": "DamageBonus",

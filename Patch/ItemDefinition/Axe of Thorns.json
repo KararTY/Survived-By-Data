@@ -4,7 +4,7 @@
     "alias": "Geomancer Heirloom Weapon",
     "description": "The thorns that cover these implements pierce the flesh of the wearer and feed upon the blood shed. But in return for this sacrifice this artifact gains in power as its bearer does. [This item is also a rare drop]",
     "premiumOffer": "HeirloomWeaponGeomancer",
-    "price": 750,
+    "price": 187,
     "requiredLevel": 0,
     "type": "Weapon",
     "maxStack": 1,
@@ -80,7 +80,7 @@
       "soul": true
     },
     "isHeirloom": true,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0
   }
 ]

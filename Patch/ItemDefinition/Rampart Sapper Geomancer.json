@@ -4,7 +4,7 @@
     "alias": "Unlock Skin Geomancer Alt 5",
     "description": "The invasion of fortified locations was a distant memory when the Chimera invaded. These Geomancers have recovered that knowledge and are specialized in undermining defenses from below.",
     "premiumOffer": "unlockGeomancerAltSkin5",
-    "price": 435,
+    "price": 108,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

@@ -4,7 +4,7 @@
     "alias": "Unlock Skin Druid Alt 2",
     "description": "The spirits of the snow covered lands to the East are perhaps the most sociable of those anywhere in the Heartland. Though they are slow to react, they are also slow to anger and a patient Druid can learn much from them.",
     "premiumOffer": "unlockDruidAltSkin2",
-    "price": 150,
+    "price": 37,
     "requiredLevel": 0,
     "type": "Misc",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 100,
     "insureCost": 35,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75,
     "doesNotCountTowardMax": true
   }

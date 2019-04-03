@@ -180,185 +180,6 @@
   },
   {
     "name": "Myrrha's Tear II",
-    "alias": "Relic Paradise II 10",
-    "description": "<insert cool lore here>",
-    "consumable": true,
-    "requiredLevel": 0,
-    "type": "Misc",
-    "maxStack": 1,
-    "tier": 11,
-    "data": [
-      {
-        "sprite": {
-          "name": "raid_II_myrrhs_tear",
-          "baseSize": {
-            "width": 32,
-            "height": 32
-          },
-          "textureRectangle": {
-            "x": 2,
-            "y": 0,
-            "width": 29,
-            "height": 32
-          },
-          "textureOffset": {
-            "x": 2,
-            "y": 0
-          },
-          "color": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
-            "a": 1
-          }
-        }
-      },
-      {
-        "prequisites": [
-          {
-            "alias": "Relic Paradise I 1"
-          },
-          {
-            "alias": "Relic Paradise I 2"
-          },
-          {
-            "alias": "Relic Paradise I 3"
-          },
-          {
-            "alias": "Relic Paradise I 4"
-          },
-          {
-            "alias": "Relic Paradise I 5"
-          }
-        ]
-      }
-    ],
-    "stats": [
-      {
-        "key": "Potency",
-        "equation": "[Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))",
-        "value": 38
-      },
-      {
-        "key": "Gear_Score",
-        "equation": "[$Tier]*100",
-        "value": 0
-      }
-    ],
-    "experiencePerLevel": [
-      0,
-      2,
-      3,
-      4,
-      5,
-      6,
-      8,
-      10,
-      12,
-      15,
-      18,
-      21,
-      25,
-      29,
-      34,
-      40,
-      47,
-      55,
-      64,
-      74,
-      85,
-      97,
-      109,
-      122,
-      136,
-      151,
-      167,
-      184,
-      202,
-      221,
-      241,
-      262,
-      284,
-      307,
-      331,
-      356,
-      382,
-      409,
-      437,
-      466,
-      496,
-      527,
-      559,
-      592,
-      626,
-      661,
-      697,
-      734,
-      772,
-      811,
-      851,
-      892,
-      934,
-      977,
-      1021,
-      1066,
-      1112,
-      1159,
-      1207,
-      1256,
-      1306,
-      1357,
-      1409,
-      1462,
-      1516,
-      1571,
-      1627,
-      1684,
-      1742,
-      1801,
-      1861,
-      1922,
-      1984,
-      2047,
-      2111,
-      2176,
-      2242,
-      2309,
-      2377,
-      2446,
-      2516,
-      2587,
-      2659,
-      2732,
-      2806,
-      2881,
-      2957,
-      3034,
-      3112,
-      3191,
-      3271,
-      3352,
-      3434,
-      3517,
-      3601,
-      3686,
-      3772,
-      3859,
-      3947
-    ],
-    "class": [
-      "Alchemist",
-      "Harbinger",
-      "Infiltrator",
-      "Sentinel",
-      "Geomancer",
-      "Druid"
-    ],
-    "currency": "Gold",
-    "modifierChance": 0.75
-  },
-  {
-    "name": "Myrrha's Tear II",
     "alias": "Relic Paradise II 2",
     "description": "<insert cool lore here>",
     "consumable": true,
@@ -1255,6 +1076,185 @@
   {
     "name": "Myrrha's Tear II",
     "alias": "Relic Paradise II 7",
+    "description": "<insert cool lore here>",
+    "consumable": true,
+    "requiredLevel": 0,
+    "type": "Misc",
+    "maxStack": 1,
+    "tier": 11,
+    "data": [
+      {
+        "sprite": {
+          "name": "raid_II_myrrhs_tear",
+          "baseSize": {
+            "width": 32,
+            "height": 32
+          },
+          "textureRectangle": {
+            "x": 2,
+            "y": 0,
+            "width": 29,
+            "height": 32
+          },
+          "textureOffset": {
+            "x": 2,
+            "y": 0
+          },
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        }
+      },
+      {
+        "prequisites": [
+          {
+            "alias": "Relic Paradise I 1"
+          },
+          {
+            "alias": "Relic Paradise I 2"
+          },
+          {
+            "alias": "Relic Paradise I 3"
+          },
+          {
+            "alias": "Relic Paradise I 4"
+          },
+          {
+            "alias": "Relic Paradise I 5"
+          }
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "key": "Potency",
+        "equation": "[Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))",
+        "value": 38
+      },
+      {
+        "key": "Gear_Score",
+        "equation": "[$Tier]*100",
+        "value": 0
+      }
+    ],
+    "experiencePerLevel": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      15,
+      18,
+      21,
+      25,
+      29,
+      34,
+      40,
+      47,
+      55,
+      64,
+      74,
+      85,
+      97,
+      109,
+      122,
+      136,
+      151,
+      167,
+      184,
+      202,
+      221,
+      241,
+      262,
+      284,
+      307,
+      331,
+      356,
+      382,
+      409,
+      437,
+      466,
+      496,
+      527,
+      559,
+      592,
+      626,
+      661,
+      697,
+      734,
+      772,
+      811,
+      851,
+      892,
+      934,
+      977,
+      1021,
+      1066,
+      1112,
+      1159,
+      1207,
+      1256,
+      1306,
+      1357,
+      1409,
+      1462,
+      1516,
+      1571,
+      1627,
+      1684,
+      1742,
+      1801,
+      1861,
+      1922,
+      1984,
+      2047,
+      2111,
+      2176,
+      2242,
+      2309,
+      2377,
+      2446,
+      2516,
+      2587,
+      2659,
+      2732,
+      2806,
+      2881,
+      2957,
+      3034,
+      3112,
+      3191,
+      3271,
+      3352,
+      3434,
+      3517,
+      3601,
+      3686,
+      3772,
+      3859,
+      3947
+    ],
+    "class": [
+      "Alchemist",
+      "Harbinger",
+      "Infiltrator",
+      "Sentinel",
+      "Geomancer",
+      "Druid"
+    ],
+    "currency": "Gold",
+    "modifierChance": 0.75
+  },
+  {
+    "name": "Myrrha's Tear II",
+    "alias": "Relic Paradise II 10",
     "description": "<insert cool lore here>",
     "consumable": true,
     "requiredLevel": 0,

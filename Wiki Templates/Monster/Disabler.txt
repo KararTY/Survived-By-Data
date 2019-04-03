@@ -226,6 +226,82 @@ monster_agent_disabler_dangerous={{Enemy
   |drops = {{:Loot table/monster_agent_disabler_dangerous}}
   }}
 |-|
+boss_dreadnought_disabler={{Enemy
+  |title = Disabler
+  |image_original = {{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=38|cHeight=35|oBottom=13|oLeft=5}}
+  |caption = Description for Disabler
+  |location = 
+  |category = Agent
+  |element = Ur
+  |tier = 9
+  |level = 29
+  |max_health = {{Icon|Health|nolink=1}} 5000
+  |experience = 400
+  |damage_bonus = 320
+  |accuracy = 486.4<br><small>([Level]x[Level])x0.4 + 150</small>
+  |special_weapon_damage = 315
+  |weapons = ''
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent disabler projectile''' {{!!}} <center>{{CSS image crop|Image=agent_processor.png|bSize=192|cWidth=10|cHeight=24|oBottom=193|oLeft=4}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 8
+    {{!}}-
+    {{!}} Range {{!!}} 5
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status
+    {{!}}-
+    {{!}} Effect name {{!!}} '''Hindered'''
+    {{!}}-
+    {{!}} Duration {{!!}} 5 seconds
+    {{!}}-
+    {{!}} colspan="2" {{!}} Status statistics
+    {{!}}-
+    {{!}} MovementSpeed {{!!}} (Movement speed decrease by <strong style="color:red;">25%</strong>)<br><small>[MovementSpeed]*0.75</small>
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent disabler trail projectile''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=96}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent disabler trail projectile2''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=128}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+    {{{!}}class="wikitable mw-collapsible mw-collapsed" style="text-align:left;width:100%!important;"
+    {{!}}-
+    {{!}} '''agent disabler trail projectile3''' {{!!}} <center>{{CSS image crop|Image=agent_disabler.png|bSize=192|cWidth=32|cHeight=26|oBottom=163|oLeft=160}}</center>
+    {{!}}-
+    {{!}} Speed {{!!}} 0
+    {{!}}-
+    {{!}} Range {{!!}} 0.01
+    {{!}}-
+    {{!}} Max hits {{!!}} 1
+    {{!}}-
+    {{!}} Arc Separation {{!!}} 5
+    {{!}}}
+  |drops = {{:Loot table/boss_dreadnought_disabler}}
+  }}
+|-|
 </tabber></div>
 <includeonly>
 [[Category:Monster]]

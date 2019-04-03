@@ -44,7 +44,6 @@
               "alignToDirection": true,
               "speed": 18,
               "damage": 0,
-              "damageMultiplier": 1,
               "range": 13,
               "maxHits": 5,
               "arcSeparation": 5,

@@ -880,6 +880,26 @@
         }
       },
       {
+        "offerID": "unlockHarbingerSkinSpring",
+        "sprite": {
+          "name": "harbinger_bunny constume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 40,
+            "height": 43
+          },
+          "textureOffset": {
+            "x": 5,
+            "y": 0
+          }
+        }
+      },
+      {
         "offerID": "unlockHarbingerSkinValentine",
         "sprite": {
           "name": "harbinger_valentine",
@@ -895,6 +915,26 @@
           },
           "textureOffset": {
             "x": 3,
+            "y": 0
+          }
+        }
+      },
+      {
+        "offerID": "unlockHarbingerSkinBee",
+        "sprite": {
+          "name": "harbinger_BEE costume",
+          "baseSize": {
+            "width": 192,
+            "height": 144
+          },
+          "textureRectangle": {
+            "x": 5,
+            "y": 96,
+            "width": 43,
+            "height": 41
+          },
+          "textureOffset": {
+            "x": 5,
             "y": 0
           }
         }

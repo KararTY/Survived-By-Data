@@ -1,0 +1,59 @@
+[
+  {
+    "name": "VolcanoIIVeryHard",
+    "biome": "DungeonVolcanoMedium",
+    "difficulty": {
+      "min": 0.75,
+      "max": 1
+    },
+    "spawnRadius": 16,
+    "quotaRadius": 30,
+    "rechargeTime": 0,
+    "spawnList": [
+      {
+        "monsterName": "Phoenix",
+        "monsterAlias": "monster_beast_phoenix_volcano2",
+        "spawnChance": 0.8,
+        "spawnQuota": 8,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcano Egg Sac",
+        "monsterAlias": "monster_volcano_eggsac2",
+        "spawnChance": 0.8,
+        "spawnQuota": 10,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcanic Cyclone",
+        "monsterAlias": "monster_spirit_cyclone_fire_volcano2",
+        "spawnChance": 0.8,
+        "spawnQuota": 10,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcanic Guardian",
+        "monsterAlias": "monster_golem_lava_volcano2",
+        "spawnChance": 0.8,
+        "spawnQuota": 10,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcanic Ooze",
+        "monsterAlias": "monster_ooze_volcano2",
+        "spawnChance": 0.4,
+        "spawnQuota": 10,
+        "timeOfDay": "All"
+      },
+      {
+        "monsterName": "Volcanic Ooze Fragment",
+        "monsterAlias": "monster_ooze_small_volcano2",
+        "spawnChance": 0.4,
+        "spawnQuota": 10,
+        "timeOfDay": "All"
+      }
+    ],
+    "areaMax": 0,
+    "areaRadius": 0
+  }
+]

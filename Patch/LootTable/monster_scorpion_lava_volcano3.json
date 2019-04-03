@@ -1,0 +1,20 @@
+[
+  {
+    "from": "monster_scorpion_lava_volcano3",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Enriched Obsidian",
+        "count": {
+          "dice": 0,
+          "faces": 0,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CommonLoot T12"
+  }
+]

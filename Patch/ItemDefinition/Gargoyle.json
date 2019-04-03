@@ -4,7 +4,7 @@
     "alias": "Grave - Gargoyle",
     "description": "Maybe best not to touch...",
     "premiumOffer": "UnlockGravestoneGargoyle",
-    "price": 400,
+    "price": 100,
     "requiredLevel": 0,
     "type": "None",
     "autoRedeem": true,
@@ -45,7 +45,7 @@
     },
     "recoverCost": 1,
     "insureCost": 1,
-    "currency": "Platinum",
+    "currency": "Crystal",
     "modifierChance": 0.75
   }
 ]

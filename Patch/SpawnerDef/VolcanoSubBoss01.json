@@ -1,14 +1,16 @@
 [
   {
     "name": "VolcanoSubBoss01",
-    "biome": "DungeonVolcano",
+    "biome": "DungeonVolcanoBoss",
     "difficulty": {
       "min": 99,
       "max": 99
     },
-    "spawnRadius": 16,
+    "spawnRadius": 2,
     "quotaRadius": 30,
     "rechargeTime": 0,
+    "isBoss": true,
+    "manuallyPlaced": true,
     "spawnList": [
       {
         "monsterName": "Lava Dryad",

@@ -85,8 +85,8 @@ module.exports = () => {
     let s = z ? z : require(path.join(folder['StatusEffect'], fileMap(f[mono]['0 PPtr<$StatusEffect> StatusEffect'][fileID]) + f[mono]['0 PPtr<$StatusEffect> StatusEffect'][pathID] + '.json'))
     let go = require(path.join(folder['Other'], fileMap(s[mono][ptrGameObject][fileID]) + s[mono][ptrGameObject][pathID] + '.json'))
     return {
-      name: s[mono]['1 string Name'].length > 0 ? s[mono]['1 string Name'] : go[game][stringName],
-      alias: (s[mono]['1 string Name'].length > 0 ? s[mono]['1 string Name'] : go[game][stringName]) !== go[game][stringName] ? go[game][stringName] : undefined,
+      name: s[mono]['1 string Name'].length > 0 ? (s[mono]['1 string Name'].startsWith('string') ? translate[s[mono]['1 string Name']] : s[mono]['1 string Name']) : go[game][stringName],
+      alias: (s[mono]['1 string Name'].length > 0 ? (s[mono]['1 string Name'].startsWith('string') ? translate[s[mono]['1 string Name']] : s[mono]['1 string Name']) : go[game][stringName]) !== go[game][stringName] ? go[game][stringName] : undefined,
       floatingText: s[mono]['1 string floatingText'] || undefined,
       type: Object.keys(statusEffectEnum).map(e => {
         if (statusEffectEnum[e] === s[mono]['0 int Type']) return e

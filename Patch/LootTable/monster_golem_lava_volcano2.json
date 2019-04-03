@@ -1,0 +1,30 @@
+[
+  {
+    "from": "monster_golem_lava_volcano2",
+    "guaranteeItemCount": 0,
+    "maximumItemCount": 0,
+    "lootTable": [
+      {
+        "item": "Obsidian",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 1
+        },
+        "chance": 20,
+        "allowModifiers": true
+      },
+      {
+        "item": "Enriched Obsidian",
+        "count": {
+          "dice": 1,
+          "faces": 3,
+          "add": 1
+        },
+        "chance": 4,
+        "allowModifiers": true
+      }
+    ],
+    "reference": "CommonLoot T11"
+  }
+]

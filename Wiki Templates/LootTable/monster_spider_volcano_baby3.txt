@@ -1,0 +1,11 @@
+<noinclude>'''{{PAGENAME}}'''</noinclude>
+{{:Loot table/CommonLoot T12}}'''Loot table: ([[Loot table/monster_spider_volcano_baby3|monster_spider_volcano_baby3]])'''
+{|class="sortable"
+|-
+! Amount || Item || Chance
+|-
+| x1 || {{Icon|Enriched Obsidian}} || style="text-align:right" | 5% 
+|}
+<noinclude><hr>
+{{Special:Whatlinkshere/Loot table/monster_spider_volcano_baby3}}
+[[Category:Loot table]]</noinclude>
