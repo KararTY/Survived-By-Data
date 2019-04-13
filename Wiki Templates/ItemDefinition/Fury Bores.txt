@@ -1,0 +1,22 @@
+{{Item
+  |title = Fury Bores
+  |image = FuryBores.png
+  |caption = The Fury that dig through the earth use natural bores that can be repurposed to rapidly deliver materials beneath the surface of the Heartland.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

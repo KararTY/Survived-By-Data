@@ -1,12 +1,11 @@
 {{Item
   |title = Touch of Ice
-  |image = Touch of Ice.png
+  |image = Rings 4.png
   |caption = Despite being composed of deep rime, the ring does not freeze the skin. Yet power channeled through it does become touched with the power of permafrost.
   |type = Ring
   |tier = 4
-  |bound = 
   |max_stack = 1
-  |buy_cost = 330 {{Icon|Silver}}
+  |buy_cost = 14000 {{Icon|Silver}}
   |sell_cost = 140 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
@@ -18,20 +17,12 @@
   |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 <br>'''2.2'''
   |materials = x8 {{Icon|Amber}}<br>x4 {{Icon|Metal}}<br>x1 {{Icon|Deep Rime Catalyst}}
   |silver_cost = 600 {{Icon|Silver|nolink=1}}
-  |time = 10 minutes
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
-  |dismantle_silver_cost = 154 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 7 minutes, 30 seconds
+  |time = 2 minutes
+  |dismantle_table = {{:Loot table/DismantleStandardT4}}
+  |dismantle_cost = 154 {{Icon|Silver}}
+  |dismantle_time = 1 minute, 30 seconds
 }}
-
+<includeonly>
 [[Category:Ring]]
 [[Category:Tier 4]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

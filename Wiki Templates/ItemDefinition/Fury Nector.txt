@@ -1,0 +1,22 @@
+{{Item
+  |title = Fury Nector
+  |image = FuryNector.png
+  |caption = The nector used to sustain a juvenile Locus comes from outside the World Tree, but once it leaves the Straits of the Deep (Hard) it's impossible to track.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

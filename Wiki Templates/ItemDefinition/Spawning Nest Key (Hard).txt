@@ -1,14 +1,11 @@
 {{Item
   |title = Spawning Nest Key (Hard)
-  |image = Spawning Nest Key (Hard).png
+  |image = Dungeon Keys 2.png
   |caption = Spawning Nest Key (Hard)
   |type = Misc
   |tier = 9
-  |bound = 
   |max_stack = 99
   |buy_cost = 15 {{Icon|Bloodstone}}
-  |sell_cost = 
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = x1000 {{Icon|Silver}}<br>x1 {{Icon|Skeleton Key}}
   |silver_cost = 
   |time = 10 minutes
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 9]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

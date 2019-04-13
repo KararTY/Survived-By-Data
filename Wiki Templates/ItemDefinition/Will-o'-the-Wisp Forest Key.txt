@@ -1,14 +1,11 @@
 {{Item
   |title = Will-o'-the-Wisp Forest Key
-  |image = Will-o'-the-Wisp Forest Key.png
+  |image = Dungeon Keys 7.png
   |caption = Used to gain access to the Will-o'-the-Wisp Forest. This dungeon is appropriate for characters level 25 who have gained a full set of Tier 6 equipment from the Straits of the Deep.
   |type = Misc
-  |tier = 
-  |bound = 
   |max_stack = 99
   |buy_cost = 2000 {{Icon|Silver}}
   |sell_cost = 1 {{Icon|Silver}}
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

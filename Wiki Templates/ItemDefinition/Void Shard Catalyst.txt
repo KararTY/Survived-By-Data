@@ -1,14 +1,12 @@
 {{Item
   |title = Void Shard Catalyst
-  |image = Void Shard Catalyst.png
+  |image = Crafting Void Shard Catalyst.png
   |caption = With the breaching of the World Tree, pieces of the bark of the tree now litter the islands near that breach. These Void Shards are a necessary component for working with Fury physiology. This is a rare crafting component.
   |type = Misc
   |tier = 6
-  |bound = 
   |max_stack = 10
-  |buy_cost = 8 {{Icon|Bloodstone}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 30000 {{Icon|Silver}}
+  |sell_cost = 300 {{Icon|Silver}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +17,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 20%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 6]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

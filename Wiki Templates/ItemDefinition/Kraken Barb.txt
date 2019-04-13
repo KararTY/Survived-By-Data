@@ -1,0 +1,22 @@
+{{Item
+  |title = Kraken Barb
+  |image = KrakenBarb.png
+  |caption = The Kraken (Hard) stands guard at the Breach, causing it to be bombarded with the essence born from outside the World Tree
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

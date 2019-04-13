@@ -1,14 +1,10 @@
 {{Item
   |title = Controller
-  |image = Controller.png
-  |caption = From the 16-Bit era, pay homage upon our death to one of the greatest game controllers of all time.
+  |image = Gravestone - Controller.png
+  |caption = From the 16-Bit era, pay homage upon death to one of the greatest game controllers of all time.
   |type = None
-  |tier = 
   |bound = Soul
-  |max_stack = 
-  |buy_cost = 750 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 187 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,12 +15,7 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

@@ -1,0 +1,23 @@
+{{Item
+  |title = Item Recovery Offering
+  |image = Offering_item recovery.png
+  |caption = At the boundary between this life and the next a guide awaits. Should you have an offering for him he could be convinced to task one of his minions to return an item to the Tree of the living where one of his allies may find it and return it to your next of kin. 
+  |type = Misc
+  |tier = 1
+  |bound = Account, Soul
+  |buy_cost = 8 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x10 {{Icon|Blue Jade}}<br>x1 {{Icon|Waystone Fragment}}
+  |silver_cost = 25 {{Icon|Silver|nolink=1}}
+  |time = 10 seconds
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 1]]
+</includeonly>

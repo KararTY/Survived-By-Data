@@ -1,0 +1,21 @@
+{{Item
+  |title = The No Sign Emoji.
+  |image = emojis.png
+  |caption = Emoji BrokenHeart
+  |type = Misc
+  |bound = Account, Soul
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

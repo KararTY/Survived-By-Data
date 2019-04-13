@@ -1,10 +1,9 @@
 {{Item
   |title = Sin Daggers
-  |image = Sin Daggers.png
+  |image = Infiltrator_Sin_Greater.png
   |caption = Though the Infiltrator needs little encouragement to feel at home in the shadows, these weapons become almost a natural extension of their limbs when untouched by the light of day.
   |type = Weapon
   |tier = 9
-  |bound = 
   |max_stack = 1
   |buy_cost = 1000 {{Icon|Silver}}
   |sell_cost = 500 {{Icon|Silver}}
@@ -19,14 +18,8 @@
   |materials = x3 {{Icon|Sin Barb}}<br>x5 {{Icon|Enriched Obsidian}}<br>x2 {{Icon|Enriched Metal}}<br>x4 {{Icon|Lapis Orb}}<br>x1 {{Icon|Sin Infused Daggers}}
   |silver_cost = 1000 {{Icon|Silver|nolink=1}}
   |time = 6 hours
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 9]]
-[[Category:Infiltrator]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

@@ -1,14 +1,9 @@
 {{Item
   |title = Stick Beehive
-  |image = Stick Beehive.png
-  |caption = 
+  |image = Attachment_Back_Stick Beehive_menu image.png
   |type = Misc
-  |tier = 
   |bound = Account, Soul
-  |max_stack = 
-  |buy_cost = 350 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 87 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +14,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

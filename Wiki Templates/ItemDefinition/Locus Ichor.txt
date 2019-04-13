@@ -1,0 +1,22 @@
+{{Item
+  |title = Locus Ichor
+  |image = LocusIchor.png
+  |caption = The blood that flows in the veins of the Locus (Hard) could hold the secrets for their creation.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

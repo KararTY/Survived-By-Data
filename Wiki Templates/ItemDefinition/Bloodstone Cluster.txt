@@ -1,0 +1,24 @@
+{{Item
+  |title = Bloodstone Cluster
+  |image = Bloodstone market.png
+  |caption = A material used in the crafting of Offerings. As a temporary solution to a bug, these won't be around for long so only buy exactly as many as you need just before crafting an Offering.
+  |type = Misc
+  |tier = 1
+  |bound = Soul
+  |max_stack = 99
+  |buy_cost = 25 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 1]]
+</includeonly>

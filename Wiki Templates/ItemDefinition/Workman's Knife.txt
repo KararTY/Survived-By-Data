@@ -1,10 +1,9 @@
 {{Item
   |title = Workman's Knife
-  |image = Workman's Knife.png
+  |image = Infiltrator 2.png
   |caption = Though sharp enough to be used as a weapon, this tool was rarely used for that purpose before now.
   |type = Weapon
   |tier = 2
-  |bound = 
   |max_stack = 1
   |buy_cost = 30 {{Icon|Silver}}
   |sell_cost = 20 {{Icon|Silver}}
@@ -19,14 +18,11 @@
   |materials = x1 {{Icon|Quartz}}<br>x1 {{Icon|Fire Sand}}<br>x1 {{Icon|Rosin Catalyst}}
   |silver_cost = 80 {{Icon|Silver|nolink=1}}
   |time = 40 seconds
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Embers}} 100%
-  |dismantle_silver_cost = 22 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT2}}
+  |dismantle_cost = 22 {{Icon|Silver}}
   |dismantle_time = 1 minute
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 2]]
-[[Category:Infiltrator]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

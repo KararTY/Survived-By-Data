@@ -1,10 +1,9 @@
 {{Item
   |title = Sin Infused Armor
-  |image = Sin Infused Armor.png
+  |image = Armor Leather_Sin_Lesser.png
   |caption = Embedding even a single Sin Barb into leather armor empowers it and infuses it with Umbral energy.
   |type = Armor
   |tier = 5
-  |bound = 
   |max_stack = 1
   |buy_cost = 50 {{Icon|Silver}}
   |sell_cost = 12 {{Icon|Silver}}
@@ -19,15 +18,8 @@
   |materials = x5 {{Icon|Raw Strands}}<br>x1 {{Icon|Leather}}<br>x2 {{Icon|Lapis Core}}
   |silver_cost = 25 {{Icon|Silver|nolink=1}}
   |time = 10 minutes
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 5]]
-[[Category:Harbinger]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

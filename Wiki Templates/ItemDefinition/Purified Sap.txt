@@ -1,0 +1,22 @@
+{{Item
+  |title = Purified Sap
+  |image = PurifiedSap.png
+  |caption = Impurities are constantly filtered out of the lifeblood of the flora Spirits.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

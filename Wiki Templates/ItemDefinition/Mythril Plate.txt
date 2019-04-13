@@ -1,12 +1,11 @@
 {{Item
   |title = Mythril Plate
-  |image = Mythril Plate.png
+  |image = Armor Plate 7.png
   |caption = The secrets of mythril allow for greater coverage and layering than any other material used for plate armor.
   |type = Armor
   |tier = 7
-  |bound = 
   |max_stack = 1
-  |buy_cost = 60 {{Icon|Silver}}
+  |buy_cost = 200000 {{Icon|Silver}}
   |sell_cost = 2000 {{Icon|Silver}}
   |class = {{Icon|Sentinel}}<br>{{Icon|Geomancer}}
   |max_health = 
@@ -19,15 +18,11 @@
   |materials = x10 {{Icon|Enriched Metal}}<br>x2 {{Icon|Enriched Cloth}}<br>x2 {{Icon|Enriched Obsidian}}<br>x1 {{Icon|Mythril Catalyst}}
   |silver_cost = 9000 {{Icon|Silver|nolink=1}}
   |time = 2 hours
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
-  |dismantle_silver_cost = 2200 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT7}}
+  |dismantle_cost = 2200 {{Icon|Silver}}
   |dismantle_time = 1 hour, 30 minutes
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 7]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

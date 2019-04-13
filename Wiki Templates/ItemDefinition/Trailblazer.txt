@@ -1,0 +1,22 @@
+{{Item
+  |title = Trailblazer
+  |image = Attachment_Winter_Back_expedition pack_menu image.png
+  |caption = You're prepared for anything, from freezing temperatures to Chimera invasions.
+  |type = Misc
+  |bound = Account, Soul
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

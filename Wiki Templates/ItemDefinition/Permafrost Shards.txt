@@ -1,0 +1,22 @@
+{{Item
+  |title = Permafrost Shards
+  |image = PermafrostShards.png
+  |caption = The Spirits of the Frozen Haven (Hard) generate hard and resilient shards of ice that make ideal implements for mining obsidian in the Cinder Valley.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -1,12 +1,11 @@
 {{Item
   |title = Scale Armor
-  |image = Scale Armor.png
+  |image = Armor Leather 6.png
   |caption = The segmented bodies of the Fury have a number of small scales that can be harvested and used for lightweight but effective armor.
   |type = Armor
   |tier = 6
-  |bound = 
   |max_stack = 1
-  |buy_cost = 40 {{Icon|Silver}}
+  |buy_cost = 70000 {{Icon|Silver}}
   |sell_cost = 700 {{Icon|Silver}}
   |class = {{Icon|Harbinger}}<br>{{Icon|Druid}}
   |max_health = 
@@ -18,16 +17,12 @@
   |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
   |materials = x5 {{Icon|Enriched Leather}}<br>x2 {{Icon|Enriched Metal}}<br>x2 {{Icon|Enriched Cloth}}<br>x1 {{Icon|Void Shard Catalyst}}
   |silver_cost = 3000 {{Icon|Silver|nolink=1}}
-  |time = 1 hour
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
-  |dismantle_silver_cost = 770 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 45 minutes
+  |time = 30 minutes
+  |dismantle_table = {{:Loot table/DismantleStandardT6}}
+  |dismantle_cost = 770 {{Icon|Silver}}
+  |dismantle_time = 22 minutes, 30 seconds
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 6]]
-[[Category:Harbinger]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

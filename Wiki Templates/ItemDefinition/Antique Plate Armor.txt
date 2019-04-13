@@ -1,10 +1,9 @@
 {{Item
   |title = Antique Plate Armor
-  |image = Antique Plate Armor.png
+  |image = Armor Plate 2.png
   |caption = Perhaps left over from the last war, this hasn't seen active use for generations.
   |type = Armor
   |tier = 2
-  |bound = 
   |max_stack = 1
   |buy_cost = 30 {{Icon|Silver}}
   |sell_cost = 20 {{Icon|Silver}}
@@ -19,15 +18,11 @@
   |materials = x2 {{Icon|Quartz}}
   |silver_cost = 80 {{Icon|Silver|nolink=1}}
   |time = 40 seconds
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Embers}} 100%
-  |dismantle_silver_cost = 22 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT2}}
+  |dismantle_cost = 22 {{Icon|Silver}}
   |dismantle_time = 1 minute
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 2]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

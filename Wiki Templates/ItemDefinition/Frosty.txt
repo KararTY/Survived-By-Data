@@ -1,0 +1,23 @@
+{{Item
+  |title = Frosty
+  |image = alchemist_Holiday_snowman.png
+  |caption = You may be made of snow, but your bullets will melt every enemy in your path!
+  |type = Misc
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Person Sized, Person Shaped Box}}
+  |silver_cost = 10 {{Icon|Silver|nolink=1}}
+  |time = 10 seconds
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

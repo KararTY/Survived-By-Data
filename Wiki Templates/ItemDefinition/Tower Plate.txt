@@ -1,10 +1,9 @@
 {{Item
   |title = Tower Plate
-  |image = Tower Plate.png
+  |image = Armor Plate 1.png
   |caption = Made of scavanged plates, the protection awarded by this armor is barely better than no armor at all.
   |type = Armor
   |tier = 1
-  |bound = 
   |max_stack = 1
   |buy_cost = 15 {{Icon|Silver}}
   |sell_cost = 8 {{Icon|Silver}}
@@ -18,16 +17,12 @@
   |focus = 
   |materials = x1 {{Icon|Quartz}}<br>x2 {{Icon|Raw Pelt}}
   |silver_cost = 10 {{Icon|Silver|nolink=1}}
-  |time = 20 seconds
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Embers}} 100%
-  |dismantle_silver_cost = 8 {{Icon|Silver|nolink=1}}
+  |time = 10 seconds
+  |dismantle_table = {{:Loot table/DismantleStandardT1}}
+  |dismantle_cost = 8 {{Icon|Silver}}
   |dismantle_time = 1 minute
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 1]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

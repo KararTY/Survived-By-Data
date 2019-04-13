@@ -1,11 +1,9 @@
 {{Item
   |title = Spears of the Harbinger (VI)
-  |image = Spears of the Harbinger (VI).png
+  |image = protoitemsprites.png
   |caption = Without the bow these weapons don't have the same kick, but on the plus side you don't need to carry a bow.
   |type = Consumable
   |tier = 1
-  |bound = 
-  |max_stack = 
   |buy_cost = 41 {{Icon|Silver}}
   |sell_cost = 20 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
@@ -19,19 +17,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Consumable]]
 [[Category:Tier 1]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

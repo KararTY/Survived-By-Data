@@ -1,0 +1,22 @@
+{{Item
+  |title = Whale Hide
+  |image = WhaleHide.png
+  |caption = Hide of the whale Chimera that live in the cold, deep waters in the West of the Talon Mountains.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

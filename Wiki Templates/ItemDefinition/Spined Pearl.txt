@@ -1,0 +1,22 @@
+{{Item
+  |title = Spined Pearl
+  |image = SpinedPearl.png
+  |caption = The foreign particles taken in by mollusks in the Straits of the Deep (Hard) are tainted by the essence of the void beyond the World Tree.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

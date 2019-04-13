@@ -1,37 +1,23 @@
 {{Item
   |title = Relic of the Mirage Hunter
-  |image = Relic of the Mirage Hunter.png
+  |image = hardmode_mirage_hunter.png
   |caption = The Mirage Hunter is fire upon the wind, and if a piece of its essence remains behind upon its defeat it can be used as a relic to increase the bearer's speed and agility.
   |type = Misc
   |tier = 9
-  |bound = 
-  |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
+  |max_stack = 10
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
   |potency = 
-  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+40 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+(416*([$Item_Level]+6)/([$Item_MaxLevel]+6))-4 
   |endurance = 
   |willpower = 
   |focus = 
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 9]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

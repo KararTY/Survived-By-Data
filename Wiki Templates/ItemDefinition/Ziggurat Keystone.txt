@@ -1,11 +1,10 @@
 {{Item
   |title = Ziggurat Keystone
-  |image = Ziggurat Keystone.png
+  |image = Sin_Keystone.png
   |caption = When used at the summit of the Cinder Valley's great ziggurat it will release the entity known as Sin.
   |type = Consumable
   |tier = 1
   |bound = Account, Soul
-  |max_stack = 
   |buy_cost = 3 {{Icon|Silver}}
   |sell_cost = 1 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
@@ -19,19 +18,8 @@
   |materials = x1 {{Icon|Abandoned Storage Cave Key}}<br>x1 {{Icon|Spawning Nest Key}}<br>x1 {{Icon|Burning Sands Key}}<br>x1 {{Icon|Frozen Haven Key}}<br>x1 {{Icon|Forge of Corruption Key}}<br>x1 {{Icon|Straits of the Deep Key}}<br>x1 {{Icon|Will-o'-the-Wisp Forest Key}}<br>x1 {{Icon|Monastery of the Rift Key}}
   |silver_cost = 25 {{Icon|Silver|nolink=1}}
   |time = 10 minutes
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Consumable]]
 [[Category:Tier 1]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

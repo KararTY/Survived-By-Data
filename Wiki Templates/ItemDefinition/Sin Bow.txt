@@ -1,10 +1,9 @@
 {{Item
   |title = Sin Bow
-  |image = Sin Bow.png
+  |image = Harbinger_Sin_Greater.png
   |caption = The energies of Sin harmonize with the form of the bow and arrow in a way that feels right... necessary...
   |type = Weapon
   |tier = 9
-  |bound = 
   |max_stack = 1
   |buy_cost = 1000 {{Icon|Silver}}
   |sell_cost = 500 {{Icon|Silver}}
@@ -19,14 +18,8 @@
   |materials = x3 {{Icon|Sin Barb}}<br>x5 {{Icon|Enriched Timber}}<br>x2 {{Icon|Enriched Obsidian}}<br>x4 {{Icon|Lapis Orb}}<br>x1 {{Icon|Sin Infused Bow}}
   |silver_cost = 1000 {{Icon|Silver|nolink=1}}
   |time = 6 hours
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 9]]
-[[Category:Harbinger]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

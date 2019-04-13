@@ -1,0 +1,22 @@
+{{Item
+  |title = Silk Filament
+  |image = SilkFilament.png
+  |caption = Most Fury are capable of excreting the silk used to construct a Locus growth chamber.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -3,12 +3,10 @@
   |image = Tome of Deep Rime Crafting.png
   |caption = Contains the secrets of using a Deep Rime Catalyst to craft exceptional equipment.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 10
   |buy_cost = 300 {{Icon|Silver}}
   |sell_cost = 60 {{Icon|Silver}}
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -18,41 +16,9 @@
   |focus = 
   |materials = x2 {{Icon|Timber}}
   |silver_cost = 700 {{Icon|Silver|nolink=1}}
-  |time = 5 minutes
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
+  |time = 1 minute
 }}
-
-{{Item
-  |title = Tome of Deep Rime Crafting
-  |image = Tome of Deep Rime Crafting.png
-  |caption = Contains the secrets of using a Deep Rime Catalyst to craft exceptional equipment.
-  |type = Misc
-  |tier = 
-  |bound = Soul
-  |max_stack = 10
-  |buy_cost = 300 {{Icon|Silver}}
-  |sell_cost = 60 {{Icon|Silver}}
-  |class = 
-  |max_health = 
-  |max_energy = 
-  |potency = 
-  |swiftness = 
-  |endurance = 
-  |willpower = 
-  |focus = 
-  |materials = 
-  |silver_cost = 
-  |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
-}}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

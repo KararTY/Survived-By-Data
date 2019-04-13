@@ -1,0 +1,22 @@
+{{Item
+  |title = Gorgon Journal
+  |image = GorgonJournal.png
+  |caption = The Gorgon (Hard) is one of, if not the most powerful Chimera to walk the Heartland and she has come to the Monastery of the Rift for a reason...
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -1,0 +1,22 @@
+{{Item
+  |title = Cocoon Remains
+  |image = CocoonRemains.png
+  |caption = Though a live Locus cocoon has never been observed, the remains have been found on the Fury that patrol the Forge of Corruption (Hard).
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

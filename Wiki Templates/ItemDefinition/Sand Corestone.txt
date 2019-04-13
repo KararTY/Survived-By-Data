@@ -1,0 +1,22 @@
+{{Item
+  |title = Sand Corestone
+  |image = SandCorestone.png
+  |caption = Found within Sand Golems deep within the Burning Sands (Hard), these corestones are ideal for filling and collapsing tunnels.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -1,0 +1,23 @@
+{{Item
+  |title = Clockwork Mechanism
+  |image = Holiday_Crafting_Mechanism.png
+  |type = Misc
+  |tier = 1
+  |max_stack = 99
+  |buy_cost = 10000 {{Icon|Silver}}
+  |sell_cost = 5000 {{Icon|Silver}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 1]]
+</includeonly>

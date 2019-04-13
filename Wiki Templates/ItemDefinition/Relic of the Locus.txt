@@ -1,17 +1,14 @@
 {{Item
   |title = Relic of the Locus
-  |image = Relic of the Locus.png
+  |image = hardmode_locus.png
   |caption = The gargantuan Locus is like a force of nature unto itself. Some of that power is accessible by the bearer of the relic it might leave behind on death.
   |type = Misc
   |tier = 9
-  |bound = 
-  |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
+  |max_stack = 10
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+40 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+(416*([$Item_Level]+6)/([$Item_MaxLevel]+6))-4 
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -19,19 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 9]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

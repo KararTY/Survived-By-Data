@@ -1,0 +1,22 @@
+{{Item
+  |title = Living Branches
+  |image = LivingBranches.png
+  |caption = Handles made from the limbs of the tree spirits found in the Will-o'-the-Wisp Forest (Hard) are exceptionally resilient.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -1,0 +1,22 @@
+{{Item
+  |title = Rose Projectile
+  |image = consumable_Valentine_rose projectile.png
+  |caption = Roses are red, violets are blue, I want to slay dungeon bosses with you! Increases silver dropped by 10% and replaces your projectiles with roses!
+  |type = Consumable
+  |max_stack = 10
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Consumable]]
+[[Category:Tier 0]]
+</includeonly>

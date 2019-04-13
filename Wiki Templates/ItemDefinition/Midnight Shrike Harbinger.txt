@@ -1,14 +1,11 @@
 {{Item
   |title = Midnight Shrike Harbinger
-  |image = Midnight Shrike Harbinger.png
+  |image = harbinger_alt5.png
   |caption = Preferring the embrace of the darkness, this Harbinger is a hunter of all threats that prowl during the night.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 435 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 108 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

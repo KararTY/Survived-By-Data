@@ -1,12 +1,11 @@
 {{Item
   |title = Estoc
-  |image = Estoc.png
-  |caption = The carapace of the Fury is like nothing else in the Heartland, and cutting through it is nearly impossible. But the long narrow blade of the estoc is capable of passing between the defensive plates.
+  |image = Sentinel 6.png
+  |caption = The carapace of the Fury is like nothing else in the Heartland, and cutting through it is nearly impossible. But the long narrow blade of an estoc is capable of passing between the defensive plates.
   |type = Weapon
   |tier = 6
-  |bound = 
   |max_stack = 1
-  |buy_cost = 50 {{Icon|Silver}}
+  |buy_cost = 70000 {{Icon|Silver}}
   |sell_cost = 700 {{Icon|Silver}}
   |class = {{Icon|Sentinel}}
   |max_health = 
@@ -18,15 +17,12 @@
   |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
   |materials = x4 {{Icon|Enriched Metal}}<br>x2 {{Icon|Enriched Leather}}<br>x1 {{Icon|Enriched Timber}}<br>x1 {{Icon|Void Shard Catalyst}}
   |silver_cost = 3000 {{Icon|Silver|nolink=1}}
-  |time = 1 hour
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
-  |dismantle_silver_cost = 770 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 45 minutes
+  |time = 30 minutes
+  |dismantle_table = {{:Loot table/DismantleStandardT6}}
+  |dismantle_cost = 770 {{Icon|Silver}}
+  |dismantle_time = 22 minutes, 30 seconds
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 6]]
-[[Category:Sentinel]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

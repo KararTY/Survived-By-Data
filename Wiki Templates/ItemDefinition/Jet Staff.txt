@@ -1,12 +1,11 @@
 {{Item
   |title = Jet Staff
-  |image = Jet Staff.png
+  |image = Alchemist 3.png
   |caption = Barely contained fire struggles to be freed from this weapon.
   |type = Weapon
   |tier = 3
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
+  |buy_cost = 7000 {{Icon|Silver}}
   |sell_cost = 70 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}
   |max_health = 
@@ -18,15 +17,12 @@
   |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*5+[$Item_Level] 
   |materials = x2 {{Icon|Timber}}<br>x1 {{Icon|Amber}}<br>x1 {{Icon|Obsidian}}<br>x1 {{Icon|Jet Catalyst}}
   |silver_cost = 280 {{Icon|Silver|nolink=1}}
-  |time = 2 minutes
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
-  |dismantle_silver_cost = 77 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 1 minute, 30 seconds
+  |time = 1 minute
+  |dismantle_table = {{:Loot table/DismantleStandardT3}}
+  |dismantle_cost = 77 {{Icon|Silver}}
+  |dismantle_time = 1 minute
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 3]]
-[[Category:Alchemist]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

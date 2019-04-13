@@ -1,0 +1,23 @@
+{{Item
+  |title = Pepperminer
+  |image = geomancer_Holiday_Yukon.png
+  |caption = The Pepperminers mint their own flavor of justice.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Person Sized, Person Shaped Box}}
+  |silver_cost = 10 {{Icon|Silver|nolink=1}}
+  |time = 10 seconds
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

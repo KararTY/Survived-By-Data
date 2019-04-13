@@ -1,0 +1,22 @@
+{{Item
+  |title = Jingle Bag
+  |image = Attachment_Holiday_Back_sack of presents.png
+  |caption = You've been very good this year! The beasts prowling the Heartlands? Not so much.
+  |type = Misc
+  |bound = Account, Soul
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -1,41 +1,12 @@
-{{Item
+<div class="tabbertab-borderless"><tabber>
+Unlock Dye 5 Electrum={{Item
   |title = Amber Dye
-  |image = Amber Dye.png
-  |caption = Unlock Amber Dye Permanently
+  |image = dye_bottle.png
+  |caption = Unlock Amber Dye Permanently. A limited use version of this dye can be purchased from the Seamstress for Bloodstone.
   |type = Misc
-  |tier = 
-  |bound = Soul
-  |max_stack = 1
-  |buy_cost = 200 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
-  |max_health = 
-  |max_energy = 
-  |potency = 
-  |swiftness = 
-  |endurance = 
-  |willpower = 
-  |focus = 
-  |materials = 
-  |silver_cost = 
-  |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
-}}
-
-{{Item
-  |title = Amber Dye
-  |image = Amber Dye.png
-  |caption = Unlock Amber Dye Temporarily
-  |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
   |buy_cost = 50 {{Icon|Bloodstone}}
-  |sell_cost = 
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -46,13 +17,29 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+|-|
+Unlock Dye 5 Bloodstone={{Item
+  |title = Amber Dye
+  |image = dye_bottle.png
+  |caption = A single use application of the Amber Dye.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+|-|
+</tabber></div>
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

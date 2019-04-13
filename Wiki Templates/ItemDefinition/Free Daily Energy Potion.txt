@@ -1,0 +1,22 @@
+{{Item
+  |title = Free Daily Energy Potion
+  |image = Potion yellow.png
+  |caption = Free Daily Energy Potion
+  |type = Consumable
+  |max_stack = 10
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Consumable]]
+[[Category:Tier 0]]
+</includeonly>

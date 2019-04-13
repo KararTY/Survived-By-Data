@@ -1,14 +1,13 @@
-{{Item
+<div class="tabbertab-borderless"><tabber>
+Crafting Material T1 Base Resin={{Item
   |title = Resin
-  |image = Resin.png
+  |image = Crafting Resin.png
   |caption = Resin is the substance excreted by the World Tree to heal its wounds.
   |type = Misc
   |tier = 1
-  |bound = 
   |max_stack = 99
-  |buy_cost = 
-  |sell_cost = 
-  |class = 
+  |buy_cost = 10 {{Icon|Silver}}
+  |sell_cost = 1 {{Icon|Silver}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -18,14 +17,30 @@
   |focus = 
   |materials = x5 {{Icon|Raw Resin}}
   |silver_cost = 1 {{Icon|Silver|nolink=1}}
-  |time = 10 seconds
-  |dismantle_chance = 50%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
+  |time = 2 seconds
 }}
-
+|-|
+QuestItem ResinNode={{Item
+  |title = Resin
+  |image = Quest Alchemist_Resin Droplet.png
+  |caption = Resin
+  |type = Misc
+  |tier = 1
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+|-|
+</tabber></div>
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 1]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

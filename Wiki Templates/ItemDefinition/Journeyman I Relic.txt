@@ -1,13 +1,11 @@
 {{Item
   |title = Journeyman I Relic
-  |image = Journeyman I Relic.png
+  |image = enhancement_journeyman.png
   |caption = This relic reduces crafting time by 1%. This bonus is cumulative with other Journeyman Relics.
   |type = Misc
   |tier = 1
-  |bound = 
   |max_stack = 1
   |buy_cost = 3 {{Icon|Bloodstone}}
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
@@ -19,19 +17,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 1]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

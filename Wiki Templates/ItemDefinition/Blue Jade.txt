@@ -1,0 +1,23 @@
+{{Item
+  |title = Blue Jade
+  |image = Crafting_Offering_blue jade.png
+  |caption = Jade of the palest blue, when polished it looks like a piece of the sky.
+  |type = Misc
+  |tier = 1
+  |max_stack = 99
+  |sell_cost = 1 {{Icon|Silver}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 1]]
+</includeonly>

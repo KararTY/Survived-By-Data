@@ -1,12 +1,11 @@
 {{Item
   |title = Seta Sabatons
-  |image = Seta Sabatons.png
+  |image = Boots Heavy 6.png
   |caption = The seta harvested from Fury can be woven into sabatons that provide both protection and stability.
   |type = Boots
   |tier = 6
-  |bound = 
   |max_stack = 1
-  |buy_cost = 40 {{Icon|Silver}}
+  |buy_cost = 70000 {{Icon|Silver}}
   |sell_cost = 700 {{Icon|Silver}}
   |class = {{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
@@ -18,17 +17,12 @@
   |focus = 
   |materials = x4 {{Icon|Enriched Metal}}<br>x4 {{Icon|Enriched Leather}}<br>x1 {{Icon|Enriched Obsidian}}<br>x1 {{Icon|Void Shard Catalyst}}
   |silver_cost = 3000 {{Icon|Silver|nolink=1}}
-  |time = 1 hour
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
-  |dismantle_silver_cost = 770 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 45 minutes
+  |time = 30 minutes
+  |dismantle_table = {{:Loot table/DismantleStandardT6}}
+  |dismantle_cost = 770 {{Icon|Silver}}
+  |dismantle_time = 22 minutes, 30 seconds
 }}
-
+<includeonly>
 [[Category:Boots]]
 [[Category:Tier 6]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

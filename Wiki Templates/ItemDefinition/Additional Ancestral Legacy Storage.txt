@@ -1,14 +1,11 @@
 {{Item
   |title = Additional Ancestral Legacy Storage
-  |image = Additional Ancestral Legacy Storage.png
-  |caption = Adds space to allow you to have more ancestral legacies.
+  |image = Ancestral Legacy Menu.png
+  |caption = Increases your Ancestral Legacy capacity by one. Ten of these can be earned by dying in the Well.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 60 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 15 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

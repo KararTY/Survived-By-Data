@@ -1,14 +1,12 @@
 {{Item
   |title = Composite Smoldering Fabric
-  |image = Composite Smoldering Fabric.png
-  |caption = Cloth interwoven with threads of embers
+  |image = Crafting T8 Composite_smoldering fabric.png
+  |caption = Cloth interwoven with threads of embers.
   |type = Misc
   |tier = 8
-  |bound = 
   |max_stack = 99
-  |buy_cost = 100 {{Icon|Silver}}
-  |sell_cost = 10 {{Icon|Silver}}
-  |class = 
+  |buy_cost = 500 {{Icon|Silver}}
+  |sell_cost = 50 {{Icon|Silver}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +17,8 @@
   |materials = x5 {{Icon|Enriched Embers}}<br>x5 {{Icon|Enriched Cloth}}
   |silver_cost = 500 {{Icon|Silver|nolink=1}}
   |time = 2 minutes
-  |dismantle_chance = 30%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 8]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

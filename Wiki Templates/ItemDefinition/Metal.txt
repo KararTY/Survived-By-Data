@@ -1,14 +1,12 @@
 {{Item
   |title = Metal
-  |image = Metal.png
+  |image = Crafting Metal.png
   |caption = Durable but heavy, Metal is smelted from shattered Quartz.
   |type = Misc
   |tier = 3
-  |bound = 
   |max_stack = 99
-  |buy_cost = 10 {{Icon|Silver}}
-  |sell_cost = 1 {{Icon|Silver}}
-  |class = 
+  |buy_cost = 20 {{Icon|Silver}}
+  |sell_cost = 2 {{Icon|Silver}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -16,16 +14,11 @@
   |endurance = 
   |willpower = 
   |focus = 
-  |materials = x5 {{Icon|Raw Quartz Vein}}
+  |materials = x5 {{Icon|Quartz}}
   |silver_cost = 20 {{Icon|Silver|nolink=1}}
-  |time = 40 seconds
-  |dismantle_chance = 40%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
+  |time = 10 seconds
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 3]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

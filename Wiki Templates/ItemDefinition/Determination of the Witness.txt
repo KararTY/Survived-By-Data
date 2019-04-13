@@ -1,12 +1,11 @@
 {{Item
   |title = Determination of the Witness
-  |image = Determination of the Witness.png
+  |image = Sentinel 8.png
   |caption = Forged of Electrum, this sword was a reservoir of the prayers of the Witness, prayers it could release to devastating effect.
   |type = Weapon
   |tier = 8
-  |bound = 
   |max_stack = 1
-  |buy_cost = 100 {{Icon|Silver}}
+  |buy_cost = 500000 {{Icon|Silver}}
   |sell_cost = 5000 {{Icon|Silver}}
   |class = {{Icon|Sentinel}}
   |max_health = 
@@ -19,14 +18,11 @@
   |materials = x2 {{Icon|Sable}}<br>x1 {{Icon|Reinfused Hardwood}}<br>x1 {{Icon|Eldritch Catalyst}}
   |silver_cost = 22000 {{Icon|Silver|nolink=1}}
   |time = 5 hours
-  |dismantle_chance = 
-  |dismantle_materials = {{Icon|Composite Smoldering Alloy}} 33%<br>{{Icon|Composite Smoldering Fabric}} 33%<br>{{Icon|Composite Smoldering Grain}} 33%
-  |dismantle_silver_cost = 5500 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT8}}
+  |dismantle_cost = 5500 {{Icon|Silver}}
   |dismantle_time = 3 hours, 45 minutes
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 8]]
-[[Category:Sentinel]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

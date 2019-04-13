@@ -1,14 +1,12 @@
 {{Item
   |title = Branding Parchment
-  |image = Branding Parchment.png
-  |caption = The material an Imprint is composed upon
+  |image = Crafting T10 Masterworks_Parchment.png
+  |caption = The material an Imprint is composed upon.
   |type = Misc
   |tier = 10
-  |bound = 
   |max_stack = 99
-  |buy_cost = 1000 {{Icon|Silver}}
-  |sell_cost = 100 {{Icon|Silver}}
-  |class = 
+  |buy_cost = 2000 {{Icon|Silver}}
+  |sell_cost = 200 {{Icon|Silver}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +17,8 @@
   |materials = x2 {{Icon|Reinfused Hardwood}}<br>x2 {{Icon|Composite Smoldering Fabric}}<br>x2 {{Icon|Composite Amber Sign}}
   |silver_cost = 2000 {{Icon|Silver|nolink=1}}
   |time = 10 minutes
-  |dismantle_chance = 30%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 10]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

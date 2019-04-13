@@ -1,13 +1,12 @@
 {{Item
   |title = Boots of Thorns
-  |image = Boots of Thorns.png
-  |caption = The Ziggurat was not the only ruin in the Cinder Valley to open with the Prophecies of Sin. And before they closed a number of unusual artifacts were recovered. These impliments of war are covered with thorns, meaning their bearer must feed these macabre tools their lifeblood to use them. But in return for this sacrifice these boots gains in power as its bearer does.
+  |image = Boots Heavy 11.png
+  |caption = The thorns that cover these implements pierce the flesh of the wearer and feed upon the blood shed. But in return for this sacrifice this artifact gains in power as its bearer does. [This item is also a rare drop]
   |type = Boots
   |tier = 1
-  |bound = 
+  |bound = Soul
   |max_stack = 1
-  |buy_cost = 750 {{Icon|Electrum}}
-  |sell_cost = 
+  |buy_cost = 187 {{Icon|Bloodstone}}
   |class = {{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
@@ -19,16 +18,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Boots]]
 [[Category:Tier 1]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

@@ -1,13 +1,11 @@
 {{Item
   |title = Legendary II Relic
-  |image = Legendary II Relic.png
+  |image = enhancement_legendary.png
   |caption = This relic increases Valr earned by 1%. This bonus is cumulative with other Legendary Relics.
   |type = Misc
   |tier = 1
-  |bound = 
   |max_stack = 1
   |buy_cost = 6 {{Icon|Bloodstone}}
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
@@ -19,19 +17,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 1]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

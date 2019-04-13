@@ -1,13 +1,9 @@
 {{Item
   |title = Drop Rate Increase Consumable I
-  |image = Drop Rate Increase Consumable I.png
-  |caption = Doubles drop rates for 2 hours for all characters. This benefit does not end on death.
+  |image = Consumables 11.png
+  |caption = Doubles drop rates for 2 hours for all characters. This benefit does not end on death but it will not stack with other versions of this consumable.
   |type = Consumable
-  |tier = 
-  |bound = 
   |max_stack = 10
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
@@ -19,19 +15,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Consumable]]
 [[Category:Tier 0]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

@@ -1,0 +1,25 @@
+{{Item
+  |title = Festive Enforcer
+  |image = consumable_Holiday_Minion_Golem snow.png
+  |caption = It knows who has been naughty and nice... and it doesn't care. Lasts 10 minutes and is lost upon loading into another map.
+  |type = Consumable
+  |tier = 1
+  |max_stack = 5
+  |buy_cost = 3 {{Icon|Silver}}
+  |sell_cost = 1 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Consumable]]
+[[Category:Tier 1]]
+</includeonly>

@@ -1,10 +1,9 @@
 {{Item
   |title = Hunter Leathers
-  |image = Hunter Leathers.png
+  |image = Armor Leather 2.png
   |caption = The hunters of the woods south of the Tower wore basic but effective leathers to protect themselves while on the trail.
   |type = Armor
   |tier = 2
-  |bound = 
   |max_stack = 1
   |buy_cost = 30 {{Icon|Silver}}
   |sell_cost = 20 {{Icon|Silver}}
@@ -19,15 +18,11 @@
   |materials = x2 {{Icon|Hide}}
   |silver_cost = 80 {{Icon|Silver|nolink=1}}
   |time = 40 seconds
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Embers}} 100%
-  |dismantle_silver_cost = 22 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT2}}
+  |dismantle_cost = 22 {{Icon|Silver}}
   |dismantle_time = 1 minute
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 2]]
-[[Category:Harbinger]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

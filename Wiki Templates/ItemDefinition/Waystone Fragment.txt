@@ -1,0 +1,23 @@
+{{Item
+  |title = Waystone Fragment
+  |image = Crafting_Offering_waystone fragment.png
+  |caption = Though no longer containing the energy necessary to transport someone along the Winds, a wisp of lingering power still remains.
+  |type = Misc
+  |tier = 1
+  |bound = Account, Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 1]]
+</includeonly>

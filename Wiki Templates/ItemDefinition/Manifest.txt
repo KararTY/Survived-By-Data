@@ -1,0 +1,22 @@
+{{Item
+  |title = Manifest
+  |image = Manifest.png
+  |caption = The Chimera of the Talon Mountains have begun to initiate trade among the settlements, enhancing their hold on the land.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

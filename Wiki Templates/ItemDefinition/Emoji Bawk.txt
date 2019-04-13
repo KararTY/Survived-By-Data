@@ -1,0 +1,21 @@
+{{Item
+  |title = Emoji Bawk
+  |image = emojis.png
+  |caption = The Chicken Emoji.
+  |type = Misc
+  |bound = Account, Soul
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

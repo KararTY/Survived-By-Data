@@ -3,12 +3,10 @@
   |image = Tome of Eldritch Crafting.png
   |caption = Contains the secrets of using an Eldritch Catalyst to craft exceptional equipment.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 10
   |buy_cost = 2000 {{Icon|Silver}}
   |sell_cost = 400 {{Icon|Silver}}
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,40 +17,8 @@
   |materials = x8 {{Icon|Enriched Amber}}
   |silver_cost = 20000 {{Icon|Silver|nolink=1}}
   |time = 1 hour
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
-  |title = Tome of Eldritch Crafting
-  |image = Tome of Eldritch Crafting.png
-  |caption = Contains the secrets of using an Eldritch Catalyst to craft exceptional equipment.
-  |type = Misc
-  |tier = 
-  |bound = Soul
-  |max_stack = 10
-  |buy_cost = 2000 {{Icon|Silver}}
-  |sell_cost = 400 {{Icon|Silver}}
-  |class = 
-  |max_health = 
-  |max_energy = 
-  |potency = 
-  |swiftness = 
-  |endurance = 
-  |willpower = 
-  |focus = 
-  |materials = 
-  |silver_cost = 
-  |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
-}}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

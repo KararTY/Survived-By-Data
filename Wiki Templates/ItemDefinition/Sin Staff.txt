@@ -1,10 +1,9 @@
 {{Item
   |title = Sin Staff
-  |image = Sin Staff.png
+  |image = Alchemist_Sin_Greater.png
   |caption = Faint but incomprehensible whispers torment most men, but this staff speaks in an unfamiliar voice, promising not madness but knowledge.
   |type = Weapon
   |tier = 9
-  |bound = 
   |max_stack = 1
   |buy_cost = 1000 {{Icon|Silver}}
   |sell_cost = 500 {{Icon|Silver}}
@@ -19,14 +18,8 @@
   |materials = x3 {{Icon|Sin Barb}}<br>x3 {{Icon|Enriched Obsidian}}<br>x3 {{Icon|Enriched Amber}}<br>x1 {{Icon|Enriched Timber}}<br>x4 {{Icon|Lapis Orb}}<br>x1 {{Icon|Sin Infused Staff}}
   |silver_cost = 1000 {{Icon|Silver|nolink=1}}
   |time = 6 hours
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 9]]
-[[Category:Alchemist]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

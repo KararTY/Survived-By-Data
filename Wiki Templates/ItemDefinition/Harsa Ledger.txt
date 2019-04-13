@@ -1,0 +1,22 @@
+{{Item
+  |title = Harsa Ledger
+  |image = HarsaLedger.png
+  |caption = Records of the passing of the Insane through and out of Harsa.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

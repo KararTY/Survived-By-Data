@@ -1,38 +1,24 @@
 {{Item
   |title = Eye of Obsidian (Swiftness)
-  |image = Eye of Obsidian (Swiftness).png
+  |image = raid_I_eye_of_obsidian.png
   |caption = There is no equal to the obsidian that is formed in the fiery heart of the World Tree.
 And though this is but a small piece, the power it contains is still formidable.
   |type = Misc
   |tier = 10
-  |bound = 
-  |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
+  |max_stack = 10
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
   |potency = 
-  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+50 <br>'''38'''
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+(624*([$Item_Level]+6)/([$Item_MaxLevel]+6))-6 <br>'''38'''
   |endurance = 
   |willpower = 
   |focus = 
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 10]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

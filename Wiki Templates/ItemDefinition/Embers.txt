@@ -1,14 +1,11 @@
 {{Item
   |title = Embers
-  |image = Embers.png
+  |image = Crafting T1 Base_Embers.png
   |caption = Imprints are no mere recipe, but a vessel for power. The embers the remain after burning an Imprint holds that same power, but unshaped.
   |type = Misc
   |tier = 1
-  |bound = 
   |max_stack = 99
-  |buy_cost = 
-  |sell_cost = 
-  |class = 
+  |sell_cost = 1 {{Icon|Silver}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 50%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 1]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

@@ -1,14 +1,11 @@
 {{Item
   |title = Exiled Alchemist
-  |image = Exiled Alchemist.png
+  |image = alchemist_alt2.png
   |caption = A people on the brink of genocide must be willing to take desperate measures for their survival. But even some responses are too abhorrent to consider, let alone deploy. Yet some do, alienating themselves from the very people they seek to save.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 150 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 37 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

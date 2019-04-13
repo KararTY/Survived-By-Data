@@ -1,0 +1,22 @@
+{{Item
+  |title = Hydra Glands
+  |image = HydraGlands.png
+  |caption = With the pheremones of the Hydra (Hard) it may be possible to foll the current one into thinking there is another.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

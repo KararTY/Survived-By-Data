@@ -1,14 +1,9 @@
-{{Item
+<div class="tabbertab-borderless"><tabber>
+Generic Charm Lv1={{Item
   |title = Random Charm
-  |image = Random Charm.png
-  |caption = Fuse together 5 charms of the same level to obtain a charm of the next highest level.
+  |image = Charm_01.png
   |type = Misc
-  |tier = 
-  |bound = Account, Soul
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +14,182 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+|-|
+Generic Charm Lv10={{Item
+  |title = Random Charm
+  |image = Charm_10.png
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}
+  |silver_cost = 1000 {{Icon|Silver|nolink=1}}
+  |time = 5 seconds
+}}
+|-|
+Generic Charm Lv2={{Item
+  |title = Random Charm
+  |image = Charm_02.png
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}
+  |silver_cost = 200 {{Icon|Silver|nolink=1}}
+  |time = 5 seconds
+}}
+|-|
+Generic Charm Lv3={{Item
+  |title = Random Charm
+  |image = Charm_03.png
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}
+  |silver_cost = 300 {{Icon|Silver|nolink=1}}
+  |time = 5 seconds
+}}
+|-|
+Generic Charm Lv4={{Item
+  |title = Random Charm
+  |image = Charm_04.png
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}
+  |silver_cost = 400 {{Icon|Silver|nolink=1}}
+  |time = 5 seconds
+}}
+|-|
+Generic Charm Lv5={{Item
+  |title = Random Charm
+  |image = Charm_05.png
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}
+  |silver_cost = 500 {{Icon|Silver|nolink=1}}
+  |time = 5 seconds
+}}
+|-|
+Generic Charm Lv6={{Item
+  |title = Random Charm
+  |image = Charm_06.png
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}
+  |silver_cost = 600 {{Icon|Silver|nolink=1}}
+  |time = 5 seconds
+}}
+|-|
+Generic Charm Lv7={{Item
+  |title = Random Charm
+  |image = Charm_07.png
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}
+  |silver_cost = 700 {{Icon|Silver|nolink=1}}
+  |time = 5 seconds
+}}
+|-|
+Generic Charm Lv8={{Item
+  |title = Random Charm
+  |image = Charm_08.png
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}
+  |silver_cost = 800 {{Icon|Silver|nolink=1}}
+  |time = 5 seconds
+}}
+|-|
+Generic Charm Lv9={{Item
+  |title = Random Charm
+  |image = Charm_09.png
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}<br>x1 {{Icon|Random Charm}}
+  |silver_cost = 900 {{Icon|Silver|nolink=1}}
+  |time = 5 seconds
+}}
+|-|
+RandomCharm={{Item
+  |title = Random Charm
+  |image = Parcel package icon.png
+  |caption = Fuse together 5 charms of the same level to obtain a charm of the next highest level.
+  |type = Misc
+  |bound = Account, Soul
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+|-|
+</tabber></div>
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

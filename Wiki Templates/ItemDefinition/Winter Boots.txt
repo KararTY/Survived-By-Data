@@ -1,12 +1,11 @@
 {{Item
   |title = Winter Boots
-  |image = Winter Boots.png
-  |caption = The cold environment adaptation of the Chimera this armor is made from allows a relatively thin sole that still protects from the cold.
+  |image = Boots Light 4.png
+  |caption = These boots are made from the skin of Chimera that have adapted to the cold of the region, allowing for a relatively thin sole that still protects from the harsh conditions.
   |type = Boots
   |tier = 4
-  |bound = 
   |max_stack = 1
-  |buy_cost = 270 {{Icon|Silver}}
+  |buy_cost = 14000 {{Icon|Silver}}
   |sell_cost = 140 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}
   |max_health = 
@@ -18,17 +17,12 @@
   |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
   |materials = x4 {{Icon|Leather}}<br>x4 {{Icon|Cloth}}<br>x1 {{Icon|Deep Rime Catalyst}}
   |silver_cost = 600 {{Icon|Silver|nolink=1}}
-  |time = 10 minutes
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
-  |dismantle_silver_cost = 154 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 7 minutes, 30 seconds
+  |time = 2 minutes
+  |dismantle_table = {{:Loot table/DismantleStandardT4}}
+  |dismantle_cost = 154 {{Icon|Silver}}
+  |dismantle_time = 1 minute, 30 seconds
 }}
-
+<includeonly>
 [[Category:Boots]]
 [[Category:Tier 4]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

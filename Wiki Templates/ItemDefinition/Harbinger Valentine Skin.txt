@@ -1,0 +1,22 @@
+{{Item
+  |title = Harbinger Valentine Skin
+  |image = harbinger_valentine.png
+  |caption = Unlock Harbinger Valentine Skin
+  |type = Misc
+  |bound = Soul
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -1,0 +1,22 @@
+{{Item
+  |title = Burrower Glands
+  |image = Burrower Glands.png
+  |caption = Birthed from the Hydra, the pheromone signature of the Cave Burrowers (Hard) likely affects the behavior of the Hydra.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

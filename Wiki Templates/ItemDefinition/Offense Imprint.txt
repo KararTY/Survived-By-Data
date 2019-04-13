@@ -1,14 +1,11 @@
 {{Item
   |title = Offense Imprint
-  |image = Offense Imprint.png
+  |image = Imprint_Icon.png
   |caption = This imprint reduces Endurance while the other attributes are increased. Requires T5+ equipment.
   |type = Misc
-  |tier = 
-  |bound = 
   |max_stack = 99
-  |buy_cost = 
+  |buy_cost = 3000 {{Icon|Silver}}
   |sell_cost = 30 {{Icon|Silver}}
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,9 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = {{Icon|Enriched Remnant}} 100%
-  |dismantle_silver_cost = 
-  |dismantle_time = 
+  |dismantle_table = {{:Loot table/DismantleImprintT5}}
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

@@ -1,0 +1,22 @@
+{{Item
+  |title = Stained Glass
+  |image = StainedGlass.png
+  |caption = The people of the Monastery of the Rift (Hard) told their stories in intricately stained glass windows. With enough samples perhaps the full truth can be unearthed.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

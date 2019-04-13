@@ -1,0 +1,22 @@
+{{Item
+  |title = Snow Day
+  |image = Attachment_Winter_Overhead_snow cloud_menu image.png
+  |caption = The World Tree weatherman reports a 100% chance that it's already snowing.
+  |type = Misc
+  |bound = Account, Soul
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -1,0 +1,28 @@
+{{Item
+  |title = Pyroclast Master (III) Ring
+  |image = Rings 12v.png
+  |caption = [description]
+  |type = Ring
+  |tier = 12
+  |max_stack = 1
+  |buy_cost = 10000 {{Icon|Silver}}
+  |sell_cost = 5000 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = {{Icon|Energy|nolink=1}} [ManaMax]+[$Tier]*10+[$Item_Level]*2 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = x1 {{Icon|Pyroclast Catalyst, Grade III}}<br>x1 {{Icon|Pyroclast Master (II) Ring}}<br>x4 {{Icon|Masterwork Ingot}}<br>x1 {{Icon|Masterwork Block}}
+  |silver_cost = 150000 {{Icon|Silver|nolink=1}}
+  |time = 24 hours
+  |dismantle_table = {{:Loot table/DismantleStandardT12}}
+  |dismantle_cost = 5500 {{Icon|Silver}}
+  |dismantle_time = 18 hours
+}}
+<includeonly>
+[[Category:Ring]]
+[[Category:Tier 12]]
+</includeonly>

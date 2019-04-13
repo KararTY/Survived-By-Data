@@ -1,0 +1,22 @@
+{{Item
+  |title = Regenerative Bark
+  |image = RegenerativeBark.png
+  |caption = The denizens of the Will-o'-the-Wisp Forest (Hard) often come in contact with the rapidly regenerating bark of those woods.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

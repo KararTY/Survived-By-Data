@@ -1,12 +1,11 @@
 {{Item
   |title = Vestments of the Witness
-  |image = Vestments of the Witness.png
+  |image = Armor Mantle 8.png
   |caption = The vestments worn by the Witnessess contained subtle inscriptions sewn in Electrum thread that were said to open the Third Eye.
   |type = Armor
   |tier = 8
-  |bound = 
   |max_stack = 1
-  |buy_cost = 80 {{Icon|Silver}}
+  |buy_cost = 500000 {{Icon|Silver}}
   |sell_cost = 5000 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Infiltrator}}
   |max_health = 
@@ -19,15 +18,11 @@
   |materials = x2 {{Icon|Quilted Leather}}<br>x1 {{Icon|Wrought Fibers}}<br>x1 {{Icon|Encased Obsidian}}<br>x1 {{Icon|Eldritch Catalyst}}
   |silver_cost = 22000 {{Icon|Silver|nolink=1}}
   |time = 5 hours
-  |dismantle_chance = 
-  |dismantle_materials = {{Icon|Composite Smoldering Alloy}} 33%<br>{{Icon|Composite Smoldering Fabric}} 33%<br>{{Icon|Composite Smoldering Grain}} 33%
-  |dismantle_silver_cost = 5500 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT8}}
+  |dismantle_cost = 5500 {{Icon|Silver}}
   |dismantle_time = 3 hours, 45 minutes
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 8]]
-[[Category:Alchemist]]
-[[Category:Infiltrator]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

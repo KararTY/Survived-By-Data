@@ -1,14 +1,12 @@
 {{Item
   |title = Pyroclast Catalyst, Grade II
-  |image = Pyroclast Catalyst, Grade II.png
-  |caption = The Infernals exist to destroy indiscriminately, trusting in the Great Tree to heal the damage done needed to eradicate the disease. Pyroclast is the raw molten material that the Infernals are composed of. This is a rare crafting component.
+  |image = Crafting Eldritch Catalyst.png
+  |caption = The Infernals exist to destroy indiscriminately, trusting in the Great Tree to slowly heal from the damage that must to be done to eradicate the disease. Pyroclast is the raw molten material that the Infernals are composed of. This is a rare crafting component.
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 10
-  |buy_cost = 300 {{Icon|Bloodstone}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 500000 {{Icon|Silver}}
+  |sell_cost = 5000 {{Icon|Silver}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +17,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 20%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 11]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

@@ -1,10 +1,9 @@
 {{Item
   |title = Forester Mantle
-  |image = Forester Mantle.png
+  |image = Armor Mantle 2.png
   |caption = Used throughout the woods south of the Tower, this mantle would turn aside most of the impacts and scratches that came from working the land.
   |type = Armor
   |tier = 2
-  |bound = 
   |max_stack = 1
   |buy_cost = 30 {{Icon|Silver}}
   |sell_cost = 20 {{Icon|Silver}}
@@ -19,15 +18,11 @@
   |materials = x2 {{Icon|Thread}}
   |silver_cost = 80 {{Icon|Silver|nolink=1}}
   |time = 40 seconds
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Embers}} 100%
-  |dismantle_silver_cost = 22 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT2}}
+  |dismantle_cost = 22 {{Icon|Silver}}
   |dismantle_time = 1 minute
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 2]]
-[[Category:Alchemist]]
-[[Category:Infiltrator]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

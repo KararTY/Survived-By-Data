@@ -1,0 +1,24 @@
+{{Item
+  |title = Long Range Ricochet Imprint
+  |image = Imprint_Icon.png
+  |caption = <description>
+  |type = Misc
+  |max_stack = 99
+  |buy_cost = 3000 {{Icon|Silver}}
+  |sell_cost = 30 {{Icon|Silver}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+  |dismantle_table = {{:Loot table/DismantleImprintT3}}
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

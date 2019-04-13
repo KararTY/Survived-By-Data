@@ -1,0 +1,22 @@
+{{Item
+  |title = Merry n' Bright
+  |image = Attachment_Holiday_Overhead_light bulb_menu image.png
+  |caption = Ooh... shiny...
+  |type = Misc
+  |bound = Account, Soul
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

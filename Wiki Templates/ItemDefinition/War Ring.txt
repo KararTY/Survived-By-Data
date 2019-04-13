@@ -1,12 +1,11 @@
 {{Item
   |title = War Ring
-  |image = War Ring.png
+  |image = Rings 5.png
   |caption = These wide band rings allowed for more inscriptions and, as a result, more focused channeling.
   |type = Ring
   |tier = 5
-  |bound = 
   |max_stack = 1
-  |buy_cost = 480 {{Icon|Silver}}
+  |buy_cost = 28000 {{Icon|Silver}}
   |sell_cost = 280 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
@@ -18,20 +17,12 @@
   |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 <br>'''1.7'''
   |materials = x2 {{Icon|Enriched Obsidian}}<br>x4 {{Icon|Enriched Metal}}<br>x1 {{Icon|Mercurial Catalyst}}
   |silver_cost = 1400 {{Icon|Silver|nolink=1}}
-  |time = 15 minutes
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
-  |dismantle_silver_cost = 308 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 11 minutes, 15 seconds
+  |time = 5 minutes
+  |dismantle_table = {{:Loot table/DismantleStandardT5}}
+  |dismantle_cost = 308 {{Icon|Silver}}
+  |dismantle_time = 3 minutes, 45 seconds
 }}
-
+<includeonly>
 [[Category:Ring]]
 [[Category:Tier 5]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

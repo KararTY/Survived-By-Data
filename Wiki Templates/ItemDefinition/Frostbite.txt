@@ -1,0 +1,22 @@
+{{Item
+  |title = Frostbite
+  |image = Attachment_Winter_Feet_ice spikes_menu image.png
+  |caption = Mind your step, thin ice is the least of your worries!
+  |type = Misc
+  |bound = Account, Soul
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -1,14 +1,11 @@
 {{Item
   |title = Witness of Determination
-  |image = Witness of Determination.png
+  |image = sentinel_alt3.png
   |caption = Though they have forsaken their eyes, her words guide their hands, to deflect and to strike, making certain that the determination of the Sentinels remains ceaseless.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 290 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 72 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

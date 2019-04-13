@@ -1,16 +1,11 @@
 {{Item
   |title = Health Regeneration Charm III
-  |image = Health Regeneration Charm III.png
+  |image = Charm_03.png
   |caption = Health Regeneration Charms increase the rate at which health is restored when out of combat.
 Fuse together 5 charms of the same level to obtain a charm of the next highest level.
 Charms can be placed into items with sockets, but the total level of all of the charms cannot exceed the level of the item.
   |type = Misc
-  |tier = 
-  |bound = 
   |max_stack = 50
-  |buy_cost = 
-  |sell_cost = 
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -21,13 +16,8 @@ Charms can be placed into items with sockets, but the total level of all of the 
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

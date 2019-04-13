@@ -1,10 +1,9 @@
 {{Item
   |title = Antique Amulet
-  |image = Antique Amulet.png
+  |image = Amulets 1.png
   |caption = Though it might have once been a powerful artifact, this amulet has not been enhanced by the passing of heroes for countless generations.
   |type = Amulet
   |tier = 1
-  |bound = 
   |max_stack = 1
   |buy_cost = 1 {{Icon|Silver}}
   |sell_cost = 1 {{Icon|Silver}}
@@ -19,19 +18,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Amulet]]
 [[Category:Tier 1]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

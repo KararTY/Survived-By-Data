@@ -1,14 +1,11 @@
 {{Item
   |title = Verdant Geomancer
-  |image = Verdant Geomancer.png
+  |image = geomancer_alt2.png
   |caption = Not all stone is created equal, and these Geomancers exploit the unusual properties of Earth flush with life.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 150 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 37 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

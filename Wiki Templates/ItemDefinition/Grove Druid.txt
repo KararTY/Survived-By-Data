@@ -1,13 +1,11 @@
 {{Item
   |title = Grove Druid
-  |image = Grove Druid.png
+  |image = druid_alt4.png
   |caption = Most druids find a sympathetic link to the spirit world through the skulls of the beasts they wear. But for the most powerful druids, to bear the mantle of the trees themselves provides a much stronger connection.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 900 {{Icon|Electrum}}
-  |sell_cost = 
+  |buy_cost = 225 {{Icon|Bloodstone}}
   |class = {{Icon|Druid}}
   |max_health = 
   |max_energy = 
@@ -19,14 +17,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

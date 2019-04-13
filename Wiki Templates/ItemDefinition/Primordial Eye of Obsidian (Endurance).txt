@@ -1,0 +1,24 @@
+{{Item
+  |title = Primordial Eye of Obsidian (Endurance)
+  |image = raid_III_eye_of_obsidian.png
+  |caption = There is no equal to the obsidian that is formed in the fiery heart of the World Tree.
+And though this is but a small piece, the power it contains is still formidable.
+  |type = Misc
+  |tier = 10
+  |max_stack = 10
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+(624*([$Item_Level]+6)/([$Item_MaxLevel]+6))-6 <br>'''38'''
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 10]]
+</includeonly>

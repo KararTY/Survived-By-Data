@@ -1,10 +1,9 @@
 {{Item
   |title = Sin Plate
-  |image = Sin Plate.png
+  |image = Armor Plate_Sin_Greater.png
   |caption = More than a simple infusion, this plate is constructed using techniques that allow multiple Sin Barbs to resonate and enfold the wearing in powerful Umbra energies.
   |type = Armor
   |tier = 9
-  |bound = 
   |max_stack = 1
   |buy_cost = 1000 {{Icon|Silver}}
   |sell_cost = 500 {{Icon|Silver}}
@@ -19,15 +18,8 @@
   |materials = x2 {{Icon|Sin Barb}}<br>x5 {{Icon|Enriched Metal}}<br>x2 {{Icon|Enriched Leather}}<br>x2 {{Icon|Lapis Orb}}<br>x1 {{Icon|Sin Infused Plate}}
   |silver_cost = 1000 {{Icon|Silver|nolink=1}}
   |time = 6 hours
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 9]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

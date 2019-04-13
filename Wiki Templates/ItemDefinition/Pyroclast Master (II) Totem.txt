@@ -1,0 +1,56 @@
+<div class="tabbertab-borderless"><tabber>
+Druid T11 Weapon={{Item
+  |title = Pyroclast Master (II) Totem
+  |image = Weapon_Druid 11v.png
+  |caption = [description]
+  |type = Weapon
+  |tier = 11
+  |max_stack = 1
+  |buy_cost = 5000 {{Icon|Silver}}
+  |sell_cost = 2500 {{Icon|Silver}}
+  |class = {{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*5+[$Item_Level] 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*15+[$Item_Level]*3 
+  |materials = x3 {{Icon|Pyroclast Catalyst, Grade II}}<br>x1 {{Icon|Pyroclast Master (I) Totem}}<br>x2 {{Icon|Masterwork Block}}
+  |silver_cost = 150000 {{Icon|Silver|nolink=1}}
+  |time = 24 hours
+  |dismantle_table = {{:Loot table/DismantleStandardT11}}
+  |dismantle_cost = 2750 {{Icon|Silver}}
+  |dismantle_time = 18 hours
+}}
+|-|
+Druid T12 Weapon={{Item
+  |title = Pyroclast Master (II) Totem
+  |image = Weapon_Druid 12v.png
+  |caption = [description]
+  |type = Weapon
+  |tier = 12
+  |max_stack = 1
+  |buy_cost = 10000 {{Icon|Silver}}
+  |sell_cost = 5000 {{Icon|Silver}}
+  |class = {{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*5+[$Item_Level] 
+  |endurance = 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*15+[$Item_Level]*3 
+  |materials = x3 {{Icon|Pyroclast Catalyst, Grade III}}<br>x1 {{Icon|Pyroclast Master (II) Totem}}<br>x2 {{Icon|Masterwork Block}}
+  |silver_cost = 150000 {{Icon|Silver|nolink=1}}
+  |time = 24 hours
+  |dismantle_table = {{:Loot table/DismantleStandardT12}}
+  |dismantle_cost = 5500 {{Icon|Silver}}
+  |dismantle_time = 18 hours
+}}
+|-|
+</tabber></div>
+<includeonly>
+[[Category:Weapon]]
+[[Category:Tier 11]]
+</includeonly>

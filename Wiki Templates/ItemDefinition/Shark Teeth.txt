@@ -1,0 +1,22 @@
+{{Item
+  |title = Shark Teeth
+  |image = SharkTeeth.png
+  |caption = A trophy taken from the shark Chimera of the Escalade Islands.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

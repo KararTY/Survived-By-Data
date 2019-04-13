@@ -1,14 +1,11 @@
 {{Item
   |title = Sentinel Electrum Skin
-  |image = Sentinel Electrum Skin.png
+  |image = sentinel_electrum.png
   |caption = Unlock the Sentinel Electrum Skin
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 250 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 62 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

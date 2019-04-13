@@ -1,0 +1,28 @@
+{{Item
+  |title = Pyroclast Master (II) Boots
+  |image = Boots Light 11v.png
+  |caption = [description]
+  |type = Boots
+  |tier = 11
+  |max_stack = 1
+  |buy_cost = 5000 {{Icon|Silver}}
+  |sell_cost = 2500 {{Icon|Silver}}
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*10+[$Item_Level]*2 
+  |willpower = 
+  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
+  |materials = x2 {{Icon|Pyroclast Catalyst, Grade II}}<br>x1 {{Icon|Pyroclast Master (I) Boots}}<br>x2 {{Icon|Masterwork Smooth Padding}}<br>x2 {{Icon|Masterwork Studded Padding}}
+  |silver_cost = 150000 {{Icon|Silver|nolink=1}}
+  |time = 24 hours
+  |dismantle_table = {{:Loot table/DismantleStandardT11}}
+  |dismantle_cost = 2750 {{Icon|Silver}}
+  |dismantle_time = 18 hours
+}}
+<includeonly>
+[[Category:Boots]]
+[[Category:Tier 11]]
+</includeonly>

@@ -1,0 +1,23 @@
+{{Item
+  |title = Druid Spring Skin
+  |image = druid_bunny constume.png
+  |caption = Druid Spring Skin
+  |type = Misc
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 375 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

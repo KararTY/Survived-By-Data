@@ -1,14 +1,11 @@
 {{Item
   |title = Burning Sands Key
-  |image = Burning Sands Key.png
+  |image = Dungeon Keys 3.png
   |caption = Used to gain access to the Burning Sands. This dungeon is appropriate for characters level 11 through 15.
   |type = Misc
-  |tier = 
-  |bound = 
   |max_stack = 99
   |buy_cost = 25 {{Icon|Silver}}
   |sell_cost = 1 {{Icon|Silver}}
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

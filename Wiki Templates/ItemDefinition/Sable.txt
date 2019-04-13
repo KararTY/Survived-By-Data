@@ -1,14 +1,12 @@
 {{Item
   |title = Sable
-  |image = Sable.png
+  |image = crafting advanced_sable.png
   |caption = During the forging process shards of obsidian are added to molten metal, giving the finished product a deep black appearance.
   |type = Misc
   |tier = 8
-  |bound = 
   |max_stack = 99
-  |buy_cost = 100 {{Icon|Silver}}
-  |sell_cost = 10 {{Icon|Silver}}
-  |class = 
+  |buy_cost = 500 {{Icon|Silver}}
+  |sell_cost = 50 {{Icon|Silver}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +17,8 @@
   |materials = x5 {{Icon|Enriched Metal}}<br>x5 {{Icon|Enriched Obsidian}}
   |silver_cost = 500 {{Icon|Silver|nolink=1}}
   |time = 2 minutes
-  |dismantle_chance = 30%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 8]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

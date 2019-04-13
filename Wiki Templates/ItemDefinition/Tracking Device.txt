@@ -1,0 +1,22 @@
+{{Item
+  |title = Tracking Device
+  |image = Quest tier 8 consumable sonic device.png
+  |type = Consumable
+  |tier = 1
+  |bound = Account, Soul
+  |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Consumable]]
+[[Category:Tier 1]]
+</includeonly>

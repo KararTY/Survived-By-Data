@@ -1,12 +1,11 @@
 {{Item
   |title = Treaded Boots
-  |image = Treaded Boots.png
+  |image = Boots Light 7.png
   |caption = The soles of these boots are set with a mesh of mythril treated treads that make them nearly impenetrable without impacting mobility.
   |type = Boots
   |tier = 7
-  |bound = 
   |max_stack = 1
-  |buy_cost = 60 {{Icon|Silver}}
+  |buy_cost = 200000 {{Icon|Silver}}
   |sell_cost = 2000 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}
   |max_health = 
@@ -19,16 +18,11 @@
   |materials = x7 {{Icon|Enriched Leather}}<br>x7 {{Icon|Enriched Cloth}}<br>x1 {{Icon|Mythril Catalyst}}
   |silver_cost = 9000 {{Icon|Silver|nolink=1}}
   |time = 2 hours
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
-  |dismantle_silver_cost = 2200 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT7}}
+  |dismantle_cost = 2200 {{Icon|Silver}}
   |dismantle_time = 1 hour, 30 minutes
 }}
-
+<includeonly>
 [[Category:Boots]]
 [[Category:Tier 7]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

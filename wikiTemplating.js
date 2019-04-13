@@ -311,55 +311,66 @@ module.exports = (() => {
     }).join('\n  |-\n  | colspan="3" style="border: none;" | <hr style="background-color:transparent;">\n  |-\n  ')}`.replace(/    /g, '  ')
   }
 
-//  let folder1 = 'ItemDefinition'
-//  if (folder[folder1]) {
-//    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', patchDate, folder1))) {
-//      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', patchDate, folder1))
-//    }
-//
-//    let count = {}
-//    fs.readdirSync(folder[folder1]).forEach(val => {
-//      var file = require(path.join(folder[folder1], val))
-//      var template = ``
-//      file.forEach(item => {
-//        template += `{{Item
-//  |title = ${item.name}
-//  |image = ${item.data.find(v => v.sprite).sprite.name}.png
-//  |caption = ${item.description || ''}
-//  |type = ${item.type}
-//  |tier = ${item.tier || ''}
-//  |bound = ${Object.keys(item.bound).map(v => {
-//          return item.bound[v] ? v.substr(0, 1).toUpperCase() + v.substr(1) : undefined
-//        }).filter(Boolean).join(', ')}
-//  |max_stack = ${item.maxStack || ''}
-//  |buy_cost = ${(item.currency && typeof item.price === 'number' && item.price) ? `${item.price} {{Icon|${item.currency === 'Gold' ? 'Silver' : item.currency === 'Platinum' ? 'Electrum' : item.currency === 'Fame' ? 'Valr' : item.currency === 'Crystal' ? 'Bloodstone' : item.currency}}}` : ''}
-//  |sell_cost = ${item.sellPrice ? `${item.sellPrice} {{Icon|Silver}}` : ''}
-//
-//  |class = ${item.class.map(c => `{{Icon|${c}}}`).join('<br>')}
-//  |max_health = ${item.stats ? item.stats.find(s => s.key === 'HealthMax') ? `{{Icon|Health|nolink=1}} ${item.stats.find(s => s.key === 'HealthMax').equation || item.stats.find(s => s.key === 'HealthMax').value} ${item.stats.find(s => s.key === 'HealthMax').equation && item.stats.find(s => s.key === 'HealthMax').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'HealthMax').value}'''` : ''}` : '' : ''}
-//  |max_energy = ${item.stats ? item.stats.find(s => s.key === 'ManaMax') ? `{{Icon|Energy|nolink=1}} ${item.stats.find(s => s.key === 'ManaMax').equation || item.stats.find(s => s.key === 'ManaMax').value} ${item.stats.find(s => s.key === 'ManaMax').equation && item.stats.find(s => s.key === 'ManaMax').value > 0 ? ` <br>'''${item.stats.find(s => s.key === 'ManaMax').value}'''` : ''}` : '' : ''}
-//  |potency = ${item.stats ? item.stats.find(s => s.key === 'Potency') ? (`{{Icon|Potency|nolink=1}} ${item.stats.find(s => s.key === 'Potency').equation || item.stats.find(s => s.key === 'Potency').value} ${item.stats.find(s => s.key === 'Potency').equation && item.stats.find(s => s.key === 'Potency').value > 0 ? ` <br>'''${item.stats.find(s => s.key === 'Potency').value}'''` : ''}`) : '' : ''}
-//  |swiftness = ${item.stats ? item.stats.find(s => s.key === 'Swiftness') ? (`{{Icon|Swiftness|nolink=1}} ${item.stats.find(s => s.key === 'Swiftness').equation || item.stats.find(s => s.key === 'Swiftness').value} ${item.stats.find(s => s.key === 'Swiftness').equation && item.stats.find(s => s.key === 'Swiftness').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'Swiftness').value}'''` : ''}`) : '' : ''}
-//  |endurance = ${item.stats ? item.stats.find(s => s.key === 'Endurance') ? (`{{Icon|Endurance|nolink=1}} ${item.stats.find(s => s.key === 'Endurance').equation || item.stats.find(s => s.key === 'Endurance').value} ${item.stats.find(s => s.key === 'Endurance').equation && item.stats.find(s => s.key === 'Endurance').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'Endurance').value}'''` : ''}`) : '' : ''}
-//  |willpower = ${item.stats ? item.stats.find(s => s.key === 'Willpower') ? (`{{Icon|Willpower|nolink=1}} ${item.stats.find(s => s.key === 'Willpower').equation || item.stats.find(s => s.key === 'Willpower').value} ${item.stats.find(s => s.key === 'Willpower').equation && item.stats.find(s => s.key === 'Willpower').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'Willpower').value}'''` : ''}`) : '' : ''}
-//  |focus = ${item.stats ? item.stats.find(s => s.key === 'Focus') ? (`{{Icon|Focus|nolink=1}} ${item.stats.find(s => s.key === 'Focus').equation || item.stats.find(s => s.key === 'Focus').value} ${item.stats.find(s => s.key === 'Focus').equation && item.stats.find(s => s.key === 'Focus').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'Focus').value}'''` : ''}`) : '' : ''}
-//
-//  |materials = ${!!item.data.find(s => s['crafting']) ? item.data.find(s => s['crafting']).crafting.requiredItems.map(i => `x${i.count} {{Icon|${i.name}}}`).join('<br>') : ''}
-//  |silver_cost = ${!!item.data.find(s => s['crafting']) ? item.data.find(s => s['crafting']).crafting.craftCost ? `${item.data.find(s => s['crafting']).crafting.craftCost} {{Icon|Silver|nolink=1}}` : '' : ''}
-//  |time = ${!!item.data.find(s => s['crafting']) ? moment.duration(Number(item.data.find(s => s['crafting']).crafting.craftingTime), 'seconds').format("h [hours], m [minutes], s [seconds]", { trim: 'both' }) : ''}
-//
-//  |dismantle_name = [[${(item['bonusDismantleLoot'].length > 0 ? item['bonusDismantleLoot'] : '')}]]
-//}}`.replace(/\r?\n+|\r+/g, '\n').trim()
-//        template += `\n\n`
-//      })
-//      template += `
-//${file[0].type.length > 0 && file[0].type !== 'None' && file[0].type !== 'All' ? `[[Category:${file[0].type}]]` : ''}
-//[[Category:Tier ${file[0].tier}]]
-//${file[0].class.length > 0 ? file[0].class.map(c => `[[Category:${c}]]`).join('\n') : ''}
-//{{stub}}
-//      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file[0].name.replace(/[\/\?\<\>\\\:\*\|\"]/g, '')}.txt`), template)
-//    })
-//  }
+  let folder1 = 'ItemDefinition'
+  if (folder[folder1]) {
+    if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder1))) {
+      fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder1))
+    }
+
+    fs.readdirSync(folder[folder1]).forEach(val => {
+      var file = require(path.join(folder[folder1], val)).filter(i => {
+        if (i.alias) {
+          if (i.alias && i.alias.startsWith('z ')) return false
+        } else if (i.name.startsWith('z ')) return false
+        return true
+      })
+      if (file.length === 0) return
+      var template = ``
+      var count = -1
+      file.sort((a, b) => {
+        return Number(gStatsData(a.data, 'Tier')) - Number(gStatsData(b.data, 'Tier'))
+      }).forEach((item, ind, arr) => {
+        count++
+        template += arr.length > 1 ? `${ind === 0 ? `<div class="tabbertab-borderless"><tabber>\n` : '\n'}${item.alias ? item.alias : `${item.name}_${ind + 1}`}=` : ''
+        template += `{{Item
+          |title = ${item.name}
+          ${item.data.length > 0 && item.data.find(v => v.sprite) ? `|image = ${item.data.find(v => v.sprite).sprite.name}.png` : ''}
+          ${item.description ? `|caption = ${item.description}` : ''}
+          |type = ${item.type}
+          ${item.tier ? `|tier = ${item.tier}` : ''}
+          ${item.bound ? `|bound = ${Object.keys(item.bound).map(v => {
+            return item.bound[v] ? v.substr(0, 1).toUpperCase() + v.substr(1) : undefined
+          }).filter(Boolean).join(', ')}` : ''}
+          ${item.maxStack ? `|max_stack = ${item.maxStack}` : ''}
+          ${(item.currency && typeof item.price === 'number' && item.price) ? `|buy_cost = ${item.price} {{Icon|${item.currency === 'Gold' ? 'Silver' : item.currency === 'Platinum' ? 'Electrum' : item.currency === 'Fame' ? 'Valr' : item.currency === 'Crystal' ? 'Bloodstone' : item.currency}}}` : ''}
+          ${item.sellPrice ? `|sell_cost = ${item.sellPrice} {{Icon|Silver}}` : ''}
+          ${item.class && item.class.length > 0 ? `|class = ${item.class.map(c => `{{Icon|${c}}}`).join('<br>')}` : ''}
+          |max_health = ${item.stats ? item.stats.find(s => s.key === 'HealthMax') ? `{{Icon|Health|nolink=1}} ${item.stats.find(s => s.key === 'HealthMax').equation || item.stats.find(s => s.key === 'HealthMax').value} ${item.stats.find(s => s.key === 'HealthMax').equation && item.stats.find(s => s.key === 'HealthMax').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'HealthMax').value}'''` : ''}` : '' : ''}
+          |max_energy = ${item.stats ? item.stats.find(s => s.key === 'ManaMax') ? `{{Icon|Energy|nolink=1}} ${item.stats.find(s => s.key === 'ManaMax').equation || item.stats.find(s => s.key === 'ManaMax').value} ${item.stats.find(s => s.key === 'ManaMax').equation && item.stats.find(s => s.key === 'ManaMax').value > 0 ? ` <br>'''${item.stats.find(s => s.key === 'ManaMax').value}'''` : ''}` : '' : ''}
+          |potency = ${item.stats ? item.stats.find(s => s.key === 'Potency') ? (`{{Icon|Potency|nolink=1}} ${item.stats.find(s => s.key === 'Potency').equation || item.stats.find(s => s.key === 'Potency').value} ${item.stats.find(s => s.key === 'Potency').equation && item.stats.find(s => s.key === 'Potency').value > 0 ? ` <br>'''${item.stats.find(s => s.key === 'Potency').value}'''` : ''}`) : '' : ''}
+          |swiftness = ${item.stats ? item.stats.find(s => s.key === 'Swiftness') ? (`{{Icon|Swiftness|nolink=1}} ${item.stats.find(s => s.key === 'Swiftness').equation || item.stats.find(s => s.key === 'Swiftness').value} ${item.stats.find(s => s.key === 'Swiftness').equation && item.stats.find(s => s.key === 'Swiftness').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'Swiftness').value}'''` : ''}`) : '' : ''}
+          |endurance = ${item.stats ? item.stats.find(s => s.key === 'Endurance') ? (`{{Icon|Endurance|nolink=1}} ${item.stats.find(s => s.key === 'Endurance').equation || item.stats.find(s => s.key === 'Endurance').value} ${item.stats.find(s => s.key === 'Endurance').equation && item.stats.find(s => s.key === 'Endurance').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'Endurance').value}'''` : ''}`) : '' : ''}
+          |willpower = ${item.stats ? item.stats.find(s => s.key === 'Willpower') ? (`{{Icon|Willpower|nolink=1}} ${item.stats.find(s => s.key === 'Willpower').equation || item.stats.find(s => s.key === 'Willpower').value} ${item.stats.find(s => s.key === 'Willpower').equation && item.stats.find(s => s.key === 'Willpower').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'Willpower').value}'''` : ''}`) : '' : ''}
+          |focus = ${item.stats ? item.stats.find(s => s.key === 'Focus') ? (`{{Icon|Focus|nolink=1}} ${item.stats.find(s => s.key === 'Focus').equation || item.stats.find(s => s.key === 'Focus').value} ${item.stats.find(s => s.key === 'Focus').equation && item.stats.find(s => s.key === 'Focus').value > 0 ? `<br>'''${item.stats.find(s => s.key === 'Focus').value}'''` : ''}`) : '' : ''}
+          |materials = ${!!item.data.find(s => s['crafting']) ? item.data.find(s => s['crafting']).crafting.requiredItems.map(i => `x${i.count} {{Icon|${i.name}}}`).join('<br>') : ''}
+          |silver_cost = ${!!item.data.find(s => s['crafting']) ? item.data.find(s => s['crafting']).crafting.craftCost ? `${item.data.find(s => s['crafting']).crafting.craftCost} {{Icon|Silver|nolink=1}}` : '' : ''}
+          |time = ${!!item.data.find(s => s['crafting']) ? moment.duration(Number(item.data.find(s => s['crafting']).crafting.craftingTime), 'seconds').format("h [hours], m [minutes], s [seconds]", { trim: 'both' }) : ''}
+          ${item.bonusDismantleLoot ? `|dismantle_table = {{:Loot table/${(item['bonusDismantleLoot'].length > 0 ? item['bonusDismantleLoot'] : '')}}}
+          ${item.data.find(s => s['crafting']) ? `|dismantle_cost = ${Math.floor(item.sellPrice * 1.1).toFixed(0)} {{Icon|Silver}}` : ''}
+          ${item.data.find(s => s['crafting']) ? `|dismantle_time = ${moment.duration(Math.max((Number(item.data.find(s => s['crafting']).crafting.craftingTime) * 0.75), 60), 'seconds').format("h [hours], m [minutes], s [seconds]", { trim: 'both'})}` : ''}` : ''}
+        }}`
+        template += arr.length > 1 ? `\n|-|` : ''
+      })
+      template += count > 0 ? `\n</tabber></div>\n` : '\n\n'
+      template += `<includeonly>\n`
+      template += `
+        ${file[0].type.length > 0 && file[0].type !== 'None' && file[0].type !== 'All' ? `[[Category:${file[0].type}]]` : ''}
+        [[Category:Tier ${file[0].tier}]]`
+      template += `\n</includeonly>`
+      template = template.replace(/        /g, '').replace(/  \n/g, '\n').replace(/\r?\n+|\r+/g, '\n').trim()
+      fs.writeFileSync(path.join(__dirname, 'Wiki Templates', folder1, `${file[0].name.replace(/[\/\?\<\>\\\:\*\|\"]/g, '')}.txt`), template)
+    })
+  }
 
   let folder2 = 'Monster'
   if (folder[folder2]) {
@@ -367,7 +378,13 @@ module.exports = (() => {
       fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder2))
     }
     fs.readdirSync(folder[folder2]).forEach((val, ind) => {
-      var file = require(path.join(folder[folder2], val))
+      var file = require(path.join(folder[folder2], val)).filter(i => {
+        if (i.alias) {
+          if (i.alias && i.alias.startsWith('z ')) return false
+        } else if (i.name.startsWith('z ')) return false
+        return true
+      })
+      if (file.length === 0) return
       var template = ``
       var count = -1
       file.sort((a, b) => {
@@ -422,7 +439,13 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
       fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder3))
     }
     fs.readdirSync(folder[folder3]).forEach((val, ind) => {
-      var file = require(path.join(folder[folder3], val))
+      var file = require(path.join(folder[folder3], val)).filter(i => {
+        if (i.alias) {
+          if (i.alias && i.alias.startsWith('z ')) return false
+        } else if (i.from.startsWith('z ')) return false
+        return true
+      })
+      if (file.length === 0) return
       var template = `<noinclude>'''{{PAGENAME}}'''</noinclude>\n`
       var count = 0
       file.sort((a, b) => {
@@ -448,7 +471,13 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     }
     fs.readdirSync(folder[folder4]).forEach((val, ind) => {
       if (val === 'Set bonuses') return
-      var file = require(path.join(folder[folder4], val))
+      var file = require(path.join(folder[folder4], val)).filter(i => {
+        if (i.alias) {
+          if (i.alias && i.alias.startsWith('z ')) return false
+        } else if (i.name.startsWith('z ')) return false
+        return true
+      })
+      if (file.length === 0) return
       var template = `{{stub}}\n\n`
       var count = 0
       file.sort((a, b) => {
@@ -628,23 +657,18 @@ ${file[0].isSetPieceMonster ? '[[Category:Set Piece Monster]]' : ''}`.replace(/\
     })
   }
   let folder7 = 'Challenge'
-  /**
-   * {| class="infoboxtable"
-   * ! colspan="2" class="infoboxdetails" | <div>${item.title}</div>
-   * |-
-   * ! colspan="2" class="infoboxdetails" | <div>Loot</div>
-   * |-
-   * |{{:Loot table/Reach Level 1}}
-   * |-
-   * | <div>Prerequisites</div> || [[Complete Daily Challenges (III)]]
-   * |}
-   */
   if (folder[folder7]) {
     if (!fs.existsSync(path.join(__dirname, 'Wiki Templates', folder7))) {
       fs.mkdirSync(path.join(__dirname, 'Wiki Templates', folder7))
     }
     fs.readdirSync(folder[folder7]).forEach((val, ind) => {
-      var file = require(path.join(folder[folder7], val))
+      var file = require(path.join(folder[folder7], val)).filter(i => {
+        if (i.alias) {
+          if (i.alias && i.alias.startsWith('z ')) return false
+        } else if (i.name.startsWith('z ')) return false
+        return true
+      })
+      if (file.length === 0) return
       var template = ``
       template += `{| class="infoboxtable"
       ! colspan="2" class="infoboxdetails" | <div>${file[0].title}</div>

@@ -1,0 +1,24 @@
+{{Item
+  |title = Person Sized, Person Shaped Box
+  |image = Holiday_Crafting_Scaffolding.png
+  |caption = Well, this isn't ominous at all. Maybe the craftsman can break it open so you can see what's inside. Is that tinsel sticking out through the seam? Maybe you don't want to see what is inside...
+  |type = Misc
+  |tier = 1
+  |max_stack = 99
+  |buy_cost = 10000 {{Icon|Silver}}
+  |sell_cost = 5000 {{Icon|Silver}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 1]]
+</includeonly>

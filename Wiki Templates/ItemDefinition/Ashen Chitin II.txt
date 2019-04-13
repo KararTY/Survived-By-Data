@@ -1,17 +1,15 @@
-{{Item
+<div class="tabbertab-borderless"><tabber>
+Relic Void II 1={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -19,26 +17,19 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
+|-|
+Relic Void II 2={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -46,26 +37,19 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
+|-|
+Relic Void II 3={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -73,26 +57,19 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
+|-|
+Relic Void II 4={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -100,26 +77,19 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
+|-|
+Relic Void II 5={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -127,26 +97,19 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
+|-|
+Relic Void II 6={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -154,26 +117,19 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
+|-|
+Relic Void II 7={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -181,26 +137,19 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
+|-|
+Relic Void II 10={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -208,26 +157,19 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
+|-|
+Relic Void II 8={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -235,26 +177,19 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
-{{Item
+|-|
+Relic Void II 9={{Item
   |title = Ashen Chitin II
-  |image = Ashen Chitin II.png
+  |image = raid_II_ashen_chitin.png
   |caption = <insert cool lore here>
   |type = Misc
   |tier = 11
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*5  <br>'''38'''
+  |potency = {{Icon|Potency|nolink=1}} [Potency]+([$Tier]*5*([$Item_Level]+1)/([$Item_MaxLevel]+1))  <br>'''38'''
   |swiftness = 
   |endurance = 
   |willpower = 
@@ -262,19 +197,10 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+|-|
+</tabber></div>
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 11]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

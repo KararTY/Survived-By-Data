@@ -1,16 +1,11 @@
 {{Item
   |title = Ea Elemental Affinity Charm VII
-  |image = Ea Elemental Affinity Charm VII.png
+  |image = Charm_07.png
   |caption = Ea, also known as Zephyr, is the element of the storm; air and lightning. It can decrease a target's movement speed, but no known creature is directly vulnerable to it.
 Fuse together 5 charms of the same level to obtain a charm of the next highest level.
 Charms can be placed into items with sockets, but the total level of all of the charms cannot exceed the level of the item.
   |type = Misc
-  |tier = 
-  |bound = 
   |max_stack = 50
-  |buy_cost = 
-  |sell_cost = 
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -21,13 +16,8 @@ Charms can be placed into items with sockets, but the total level of all of the 
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

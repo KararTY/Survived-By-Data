@@ -1,0 +1,22 @@
+{{Item
+  |title = Meat
+  |image = Quest_Harbinger_Meat Drop.png
+  |caption = Meat
+  |type = Misc
+  |tier = 1
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 1]]
+</includeonly>

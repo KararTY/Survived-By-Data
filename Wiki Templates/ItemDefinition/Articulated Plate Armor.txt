@@ -1,12 +1,11 @@
 {{Item
   |title = Articulated Plate Armor
-  |image = Articulated Plate Armor.png
+  |image = Armor Plate 5.png
   |caption = The height of human technology, this armor provided unparalleled protection while still providing enough mobility to take the fight to the enemy.
   |type = Armor
   |tier = 5
-  |bound = 
   |max_stack = 1
-  |buy_cost = 450 {{Icon|Silver}}
+  |buy_cost = 28000 {{Icon|Silver}}
   |sell_cost = 280 {{Icon|Silver}}
   |class = {{Icon|Sentinel}}<br>{{Icon|Geomancer}}
   |max_health = 
@@ -18,16 +17,12 @@
   |focus = 
   |materials = x2 {{Icon|Enriched Metal}}<br>x2 {{Icon|Enriched Leather}}<br>x2 {{Icon|Obsidian}}<br>x1 {{Icon|Mercurial Catalyst}}
   |silver_cost = 1400 {{Icon|Silver|nolink=1}}
-  |time = 15 minutes
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
-  |dismantle_silver_cost = 308 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 11 minutes, 15 seconds
+  |time = 5 minutes
+  |dismantle_table = {{:Loot table/DismantleStandardT5}}
+  |dismantle_cost = 308 {{Icon|Silver}}
+  |dismantle_time = 3 minutes, 45 seconds
 }}
-
+<includeonly>
 [[Category:Armor]]
 [[Category:Tier 5]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

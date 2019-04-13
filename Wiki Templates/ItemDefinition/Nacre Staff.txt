@@ -1,12 +1,11 @@
 {{Item
   |title = Nacre Staff
-  |image = Nacre Staff.png
+  |image = Alchemist 6.png
   |caption = The similarities between Amber and Pearl are not insignificant, and when used in conjunction the capabilities of a weapon are greatly enhanced.
   |type = Weapon
   |tier = 6
-  |bound = 
   |max_stack = 1
-  |buy_cost = 50 {{Icon|Silver}}
+  |buy_cost = 70000 {{Icon|Silver}}
   |sell_cost = 700 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}
   |max_health = 
@@ -18,15 +17,12 @@
   |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*5+[$Item_Level] 
   |materials = x4 {{Icon|Enriched Timber}}<br>x2 {{Icon|Enriched Amber}}<br>x1 {{Icon|Enriched Obsidian}}<br>x1 {{Icon|Void Shard Catalyst}}
   |silver_cost = 3000 {{Icon|Silver|nolink=1}}
-  |time = 1 hour
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
-  |dismantle_silver_cost = 770 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 45 minutes
+  |time = 30 minutes
+  |dismantle_table = {{:Loot table/DismantleStandardT6}}
+  |dismantle_cost = 770 {{Icon|Silver}}
+  |dismantle_time = 22 minutes, 30 seconds
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 6]]
-[[Category:Alchemist]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

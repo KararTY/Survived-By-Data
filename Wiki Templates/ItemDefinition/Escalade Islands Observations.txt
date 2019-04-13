@@ -1,0 +1,22 @@
+{{Item
+  |title = Escalade Islands Observations
+  |image = EscaladeIslandsObservations.png
+  |caption = We have lost good men and women in the Escalade Islands who were searching for the key to the Locus creation. But perhaps their notes still exist.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

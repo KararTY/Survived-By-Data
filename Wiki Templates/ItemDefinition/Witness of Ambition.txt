@@ -1,14 +1,11 @@
 {{Item
   |title = Witness of Ambition
-  |image = Witness of Ambition.png
+  |image = infiltrator_alt3.png
   |caption = Though they have forsaken their eyes, due to their training within the shadows of the Heartland the ambition of the Infiltrators remains undisturbed.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 290 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 72 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

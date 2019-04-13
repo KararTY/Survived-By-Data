@@ -1,13 +1,10 @@
 {{Item
   |title = Expansion Aura Stone
-  |image = Expansion Aura Stone.png
-  |caption = Once activated, for three hours this stone provides an increase in experience gained and a decrease in fast travel cost of 30%. This benefit ends on death.
+  |image = enhancement_honing.png
+  |caption = Once activated, for three hours this stone provides an increase in experience gained and a decrease in fast travel cost of 30%. This benefit ends on death and does not stack with any other Aura Stone.
   |type = Consumable
-  |tier = 
-  |bound = 
   |max_stack = 10
-  |buy_cost = 1 {{Icon|Bloodstone}}
-  |sell_cost = 20 {{Icon|Silver}}
+  |buy_cost = 20 {{Icon|Bloodstone}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
@@ -19,19 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Consumable]]
 [[Category:Tier 0]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

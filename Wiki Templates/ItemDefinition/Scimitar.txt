@@ -1,39 +1,11 @@
 {{Item
   |title = Scimitar
-  |image = Scimitar.png
-  |caption = [Deprecated]
-  |type = Weapon
-  |tier = 5
-  |bound = 
-  |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 11 {{Icon|Silver}}
-  |class = {{Icon|Sentinel}}
-  |max_health = 
-  |max_energy = 
-  |potency = 
-  |swiftness = 
-  |endurance = 
-  |willpower = 
-  |focus = 
-  |materials = 
-  |silver_cost = 
-  |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
-}}
-
-{{Item
-  |title = Scimitar
-  |image = Scimitar.png
+  |image = Sentinel 3.png
   |caption = The massive curved blade would have been ideal for a riding warrior, but the mounts these people must have once rode are as lost as the rest of their settlement.
   |type = Weapon
   |tier = 3
-  |bound = 
   |max_stack = 1
-  |buy_cost = 
+  |buy_cost = 7000 {{Icon|Silver}}
   |sell_cost = 70 {{Icon|Silver}}
   |class = {{Icon|Sentinel}}
   |max_health = 
@@ -45,15 +17,12 @@
   |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
   |materials = x2 {{Icon|Metal}}<br>x1 {{Icon|Timber}}<br>x1 {{Icon|Jet Catalyst}}<br>x1 {{Icon|Obsidian}}
   |silver_cost = 280 {{Icon|Silver|nolink=1}}
-  |time = 2 minutes
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Core Embers}} 100%
-  |dismantle_silver_cost = 77 {{Icon|Silver|nolink=1}}
-  |dismantle_time = 1 minute, 30 seconds
+  |time = 1 minute
+  |dismantle_table = {{:Loot table/DismantleStandardT3}}
+  |dismantle_cost = 77 {{Icon|Silver}}
+  |dismantle_time = 1 minute
 }}
-
+<includeonly>
 [[Category:Weapon]]
-[[Category:Tier 5]]
-[[Category:Sentinel]]
-{{stub}}
-'''{{PAGENAME}}'''
+[[Category:Tier 3]]
+</includeonly>

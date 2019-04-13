@@ -1,14 +1,10 @@
 {{Item
   |title = Clothing Scraps
-  |image = Clothing Scraps.png
+  |image = tattered_cloth.png
   |caption = Clothing Scrap
   |type = Misc
   |tier = 1
-  |bound = 
   |max_stack = 99
-  |buy_cost = 
-  |sell_cost = 
-  |class = 
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +15,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 50%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 1]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

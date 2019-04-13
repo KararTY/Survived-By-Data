@@ -1,14 +1,11 @@
 {{Item
   |title = Rampart Sapper Geomancer
-  |image = Rampart Sapper Geomancer.png
+  |image = geomancer_alt5.png
   |caption = The invasion of fortified locations was a distant memory when the Chimera invaded. These Geomancers have recovered that knowledge and are specialized in undermining defenses from below.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 435 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 108 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

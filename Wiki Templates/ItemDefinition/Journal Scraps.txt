@@ -1,0 +1,21 @@
+{{Item
+  |title = Journal Scraps
+  |image = Quest_Alchemist_Journal_Scrap.png
+  |caption = [description]
+  |type = Misc
+  |max_stack = 1
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

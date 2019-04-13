@@ -1,0 +1,28 @@
+{{Item
+  |title = Logger Sabatons
+  |image = Boots Heavy 2.png
+  |caption = Often worn by lumberjacks, these sabatons would protect from both falling logs and glancing axe blows.
+  |type = Boots
+  |tier = 2
+  |max_stack = 1
+  |buy_cost = 30 {{Icon|Silver}}
+  |sell_cost = 20 {{Icon|Silver}}
+  |class = {{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*10+[$Item_Level]*2 <br>'''79.6'''
+  |endurance = {{Icon|Endurance|nolink=1}} [Endurance]+[$Tier]*10+[$Item_Level]*2 <br>'''79.6'''
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 <br>'''79.6'''
+  |focus = 
+  |materials = x1 {{Icon|Hide}}<br>x1 {{Icon|Quartz}}
+  |silver_cost = 80 {{Icon|Silver|nolink=1}}
+  |time = 40 seconds
+  |dismantle_table = {{:Loot table/DismantleStandardT2}}
+  |dismantle_cost = 22 {{Icon|Silver}}
+  |dismantle_time = 1 minute
+}}
+<includeonly>
+[[Category:Boots]]
+[[Category:Tier 2]]
+</includeonly>

@@ -1,0 +1,22 @@
+{{Item
+  |title = Misfit Toys
+  |image = Attachment_Holiday_Feet_toy trail_menu image.png
+  |caption = Distract yourself from the encroaching peril of the Heartlands with one of these fun toys!
+  |type = Misc
+  |bound = Account, Soul
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

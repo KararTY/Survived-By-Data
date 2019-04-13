@@ -1,14 +1,11 @@
 {{Item
   |title = Median Alchemist
-  |image = Median Alchemist.png
+  |image = alchemist_alt5.png
   |caption = For most of their history, Alchemists were a scholastic profession. The Median Alchemist has been the fastest to react, taking the field and applying their tenants more decisively than some of their elders.
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 435 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 108 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

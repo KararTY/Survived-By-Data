@@ -1,0 +1,23 @@
+{{Item
+  |title = Hans
+  |image = sentinel_Holiday_nutcracker.png
+  |caption = Aim with the mouse and crack some skulls in this nutty costume.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Person Sized, Person Shaped Box}}
+  |silver_cost = 10 {{Icon|Silver|nolink=1}}
+  |time = 10 seconds
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

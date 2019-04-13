@@ -1,17 +1,14 @@
 {{Item
   |title = Eye of Obsidian (Energy)
-  |image = Eye of Obsidian (Energy).png
+  |image = raid_I_eye_of_obsidian.png
   |caption = There is no equal to the obsidian that is formed in the fiery heart of the World Tree.
 And though this is but a small piece, the power it contains is still formidable.
   |type = Misc
   |tier = 10
-  |bound = 
-  |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
+  |max_stack = 10
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
-  |max_energy = {{Icon|Energy|nolink=1}} [ManaMax]+25  <br>'''38'''
+  |max_energy = {{Icon|Energy|nolink=1}} [ManaMax]+(312*([$Item_Level]+6)/([$Item_MaxLevel]+6))-3  <br>'''38'''
   |potency = 
   |swiftness = 
   |endurance = 
@@ -20,19 +17,8 @@ And though this is but a small piece, the power it contains is still formidable.
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 10]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

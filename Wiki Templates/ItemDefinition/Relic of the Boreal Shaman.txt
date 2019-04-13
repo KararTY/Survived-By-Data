@@ -1,37 +1,23 @@
 {{Item
   |title = Relic of the Boreal Shaman
-  |image = Relic of the Boreal Shaman.png
-  |caption = The old Boreal Shaman has broken free of the control of the Fury, so it is not surprising that if a piece of his essence is left behind upon his death in infuses the bearer with strength of will.
+  |image = hardmode_boreal_shaman.png
+  |caption = The old Boreal Shaman has broken free of the control of the Fury, so it is not surprising that if a piece of his essence is left behind upon his death it infuses the bearer with strength of will.
   |type = Misc
   |tier = 9
-  |bound = 
-  |max_stack = 1
-  |buy_cost = 
-  |sell_cost = 
+  |max_stack = 10
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
   |max_health = 
   |max_energy = 
   |potency = 
   |swiftness = 
   |endurance = 
-  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+40 
+  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+(416*([$Item_Level]+6)/([$Item_MaxLevel]+6))-4 
   |focus = 
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 9]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

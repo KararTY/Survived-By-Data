@@ -1,12 +1,11 @@
 {{Item
   |title = Sword of the Antecedent
-  |image = Sword of the Antecedent.png
+  |image = Sentinel 8_5.png
   |caption = An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, its true strength lies in being the foundation for an even greater power.
   |type = Weapon
   |tier = 9
-  |bound = 
   |max_stack = 1
-  |buy_cost = 450 {{Icon|Silver}}
+  |buy_cost = 1000000 {{Icon|Silver}}
   |sell_cost = 10000 {{Icon|Silver}}
   |class = {{Icon|Sentinel}}
   |max_health = 
@@ -19,68 +18,11 @@
   |materials = x1 {{Icon|Enriched Eldritch Catalyst}}<br>x6 {{Icon|Sable}}<br>x1 {{Icon|Molded Leather}}<br>x1 {{Icon|Encased Obsidian}}<br>x1 {{Icon|Enriched Deep Rime Catalyst}}<br>x1 {{Icon|Enriched Void Shard Catalyst}}
   |silver_cost = 60000 {{Icon|Silver|nolink=1}}
   |time = 12 hours
-  |dismantle_chance = 
-  |dismantle_materials = {{Icon|Composite Smoldering Alloy}} 50%<br>{{Icon|Composite Smoldering Fabric}} 50%<br>{{Icon|Composite Smoldering Grain}} 50%
-  |dismantle_silver_cost = 11000 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT9}}
+  |dismantle_cost = 11000 {{Icon|Silver}}
   |dismantle_time = 9 hours
 }}
-
-{{Item
-  |title = Sword of the Antecedent
-  |image = Sword of the Antecedent.png
-  |caption = An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.
-  |type = Weapon
-  |tier = 9
-  |bound = 
-  |max_stack = 1
-  |buy_cost = 1000 {{Icon|Silver}}
-  |sell_cost = 500 {{Icon|Silver}}
-  |class = {{Icon|Sentinel}}
-  |max_health = 
-  |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
-  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*15+[$Item_Level]*3 
-  |endurance = 
-  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 
-  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
-  |materials = 
-  |silver_cost = 
-  |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
-}}
-
-{{Item
-  |title = Sword of the Antecedent
-  |image = Sword of the Antecedent.png
-  |caption = An antecedent is a precursor, a forerunner, a predecessor. Though powerful on its own, it's true strength lies in being the foundation for an even greater power.
-  |type = Weapon
-  |tier = 9
-  |bound = 
-  |max_stack = 1
-  |buy_cost = 1000 {{Icon|Silver}}
-  |sell_cost = 500 {{Icon|Silver}}
-  |class = {{Icon|Sentinel}}
-  |max_health = 
-  |max_energy = 
-  |potency = {{Icon|Potency|nolink=1}} [Potency]+[$Tier]*20+[$Item_Level]*4 
-  |swiftness = {{Icon|Swiftness|nolink=1}} [Swiftness]+[$Tier]*15+[$Item_Level]*3 
-  |endurance = 
-  |willpower = {{Icon|Willpower|nolink=1}} [Willpower]+[$Tier]*10+[$Item_Level]*2 
-  |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*10+[$Item_Level]*2 
-  |materials = 
-  |silver_cost = 
-  |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
-}}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 9]]
-[[Category:Sentinel]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

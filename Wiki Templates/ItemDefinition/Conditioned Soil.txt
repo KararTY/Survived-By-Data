@@ -1,0 +1,22 @@
+{{Item
+  |title = Conditioned Soil
+  |image = ConditionedSoil.png
+  |caption = The soil of the Demense of the Unseen is particularly fertile and can be found clinging to most beasts that live there.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

@@ -1,0 +1,23 @@
+{{Item
+  |title = Slay Bells
+  |image = druid_Holiday_rudolph.png
+  |caption = Donning this skin will have you dashing, prancing, and blitzing through the Heartlands.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 1
+  |buy_cost = 250 {{Icon|Bloodstone}}
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = x1 {{Icon|Person Sized, Person Shaped Box}}
+  |silver_cost = 10 {{Icon|Silver|nolink=1}}
+  |time = 10 seconds
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

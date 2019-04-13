@@ -1,14 +1,11 @@
 {{Item
   |title = Alchemist Ancestral Spirit Skin
-  |image = Alchemist Ancestral Spirit Skin.png
+  |image = alchemist_ancestral spirit.png
   |caption = Unlock the Alchemist Ancestral Spirit Skin
   |type = Misc
-  |tier = 
   |bound = Soul
   |max_stack = 1
-  |buy_cost = 200 {{Icon|Electrum}}
-  |sell_cost = 
-  |class = 
+  |buy_cost = 50 {{Icon|Bloodstone}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +16,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 0]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

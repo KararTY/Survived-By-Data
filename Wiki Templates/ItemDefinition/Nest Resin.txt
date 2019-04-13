@@ -1,0 +1,22 @@
+{{Item
+  |title = Nest Resin
+  |image = NestResin.png
+  |caption = The Fury of the Forge of Corruption (Hard) work with a resin that can be found nowhere else.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

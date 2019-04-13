@@ -1,14 +1,12 @@
 {{Item
   |title = Branding Ink
-  |image = Branding Ink.png
-  |caption = The material the text of an Imprint is composed of
+  |image = Crafting T10 Masterworks_Ink.png
+  |caption = The material the text of an Imprint is composed of.
   |type = Misc
   |tier = 10
-  |bound = 
   |max_stack = 99
-  |buy_cost = 1000 {{Icon|Silver}}
-  |sell_cost = 100 {{Icon|Silver}}
-  |class = 
+  |buy_cost = 2000 {{Icon|Silver}}
+  |sell_cost = 200 {{Icon|Silver}}
   |max_health = 
   |max_energy = 
   |potency = 
@@ -19,13 +17,8 @@
   |materials = x2 {{Icon|Encased Obsidian}}<br>x2 {{Icon|Composite Smoldering Grain}}<br>x2 {{Icon|Composite Obsidian Sign}}
   |silver_cost = 2000 {{Icon|Silver|nolink=1}}
   |time = 10 minutes
-  |dismantle_chance = 30%
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Misc]]
 [[Category:Tier 10]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

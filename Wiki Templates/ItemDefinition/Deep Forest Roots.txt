@@ -1,0 +1,22 @@
+{{Item
+  |title = Deep Forest Roots
+  |image = DeepForestRoots.png
+  |caption = The will of the Heart of the Forest is passed through its domain (Hard) by the great roots that reach into all of the inhabitants.
+  |type = Misc
+  |bound = Soul
+  |max_stack = 99
+  |max_health = 
+  |max_energy = 
+  |potency = 
+  |swiftness = 
+  |endurance = 
+  |willpower = 
+  |focus = 
+  |materials = 
+  |silver_cost = 
+  |time = 
+}}
+<includeonly>
+[[Category:Misc]]
+[[Category:Tier 0]]
+</includeonly>

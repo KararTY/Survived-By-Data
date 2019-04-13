@@ -1,12 +1,11 @@
 {{Item
   |title = Mythril Arrow
-  |image = Mythril Arrow.png
+  |image = Harbinger 7.png
   |caption = Mythril is of little use in the construction of a bow given how rigid it is, but it is an exceptional material for lightweight and powerful arrows.
   |type = Weapon
   |tier = 7
-  |bound = 
   |max_stack = 1
-  |buy_cost = 75 {{Icon|Silver}}
+  |buy_cost = 200000 {{Icon|Silver}}
   |sell_cost = 2000 {{Icon|Silver}}
   |class = {{Icon|Harbinger}}
   |max_health = 
@@ -19,14 +18,11 @@
   |materials = x4 {{Icon|Enriched Timber}}<br>x4 {{Icon|Enriched Leather}}<br>x4 {{Icon|Enriched Metal}}<br>x1 {{Icon|Mythril Catalyst}}
   |silver_cost = 9000 {{Icon|Silver|nolink=1}}
   |time = 2 hours
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Enriched Embers}} 100%
-  |dismantle_silver_cost = 2200 {{Icon|Silver|nolink=1}}
+  |dismantle_table = {{:Loot table/DismantleStandardT7}}
+  |dismantle_cost = 2200 {{Icon|Silver}}
   |dismantle_time = 1 hour, 30 minutes
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 7]]
-[[Category:Harbinger]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

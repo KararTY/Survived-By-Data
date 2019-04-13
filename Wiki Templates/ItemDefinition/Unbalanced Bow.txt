@@ -1,10 +1,9 @@
 {{Item
   |title = Unbalanced Bow
-  |image = Unbalanced Bow.png
+  |image = Harbinger 1.png
   |caption = The survivors can't afford to be picky with their weapons, leading them to rely on gear that would normally be declared defective.
   |type = Weapon
   |tier = 1
-  |bound = 
   |max_stack = 1
   |buy_cost = 15 {{Icon|Silver}}
   |sell_cost = 8 {{Icon|Silver}}
@@ -18,15 +17,12 @@
   |focus = {{Icon|Focus|nolink=1}} [Focus]+[$Tier]*15+[$Item_Level]*3 
   |materials = x1 {{Icon|Wood}}<br>x2 {{Icon|Raw Strands}}
   |silver_cost = 10 {{Icon|Silver|nolink=1}}
-  |time = 20 seconds
-  |dismantle_chance = 
-  |dismantle_materials = x1 {{Icon|Embers}} 100%
-  |dismantle_silver_cost = 8 {{Icon|Silver|nolink=1}}
+  |time = 10 seconds
+  |dismantle_table = {{:Loot table/DismantleStandardT1}}
+  |dismantle_cost = 8 {{Icon|Silver}}
   |dismantle_time = 1 minute
 }}
-
+<includeonly>
 [[Category:Weapon]]
 [[Category:Tier 1]]
-[[Category:Harbinger]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

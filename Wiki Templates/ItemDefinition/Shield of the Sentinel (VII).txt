@@ -1,11 +1,9 @@
 {{Item
   |title = Shield of the Sentinel (VII)
-  |image = Shield of the Sentinel (VII).png
+  |image = Ac_Medal04.png
   |caption = Conviction is necessary to gain the most from this artifact, but even without it's still a big ol' slab of metal.
   |type = Consumable
   |tier = 1
-  |bound = 
-  |max_stack = 
   |buy_cost = 53 {{Icon|Silver}}
   |sell_cost = 26 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
@@ -19,19 +17,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Consumable]]
 [[Category:Tier 1]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

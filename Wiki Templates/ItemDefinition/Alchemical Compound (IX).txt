@@ -1,11 +1,9 @@
 {{Item
   |title = Alchemical Compound (IX)
-  |image = Alchemical Compound (IX).png
+  |image = Consumables 10.png
   |caption = The works of the Alchemists are delicate and nuanced, but if you just want to blow something up grab that third vial from the left.
   |type = Consumable
   |tier = 1
-  |bound = 
-  |max_stack = 
   |buy_cost = 80 {{Icon|Silver}}
   |sell_cost = 40 {{Icon|Silver}}
   |class = {{Icon|Alchemist}}<br>{{Icon|Harbinger}}<br>{{Icon|Infiltrator}}<br>{{Icon|Sentinel}}<br>{{Icon|Geomancer}}<br>{{Icon|Druid}}
@@ -19,19 +17,8 @@
   |materials = 
   |silver_cost = 
   |time = 
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Consumable]]
 [[Category:Tier 1]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>

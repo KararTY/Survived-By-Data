@@ -1,10 +1,9 @@
 {{Item
   |title = Fragment of the Heart of Sin
-  |image = Fragment of the Heart of Sin.png
+  |image = Amulets_Sin_Lesser.png
   |caption = This is an incomplete amulet, but it contains power nevertheless 
   |type = Amulet
   |tier = 5
-  |bound = 
   |max_stack = 1
   |buy_cost = 50 {{Icon|Silver}}
   |sell_cost = 12 {{Icon|Silver}}
@@ -19,19 +18,8 @@
   |materials = x6 {{Icon|Raw Resin}}<br>x3 {{Icon|Raw Quartz Vein}}<br>x1 {{Icon|Lapis Core}}
   |silver_cost = 25 {{Icon|Silver|nolink=1}}
   |time = 10 minutes
-  |dismantle_chance = 
-  |dismantle_materials = 
-  |dismantle_silver_cost = 
-  |dismantle_time = 
 }}
-
+<includeonly>
 [[Category:Amulet]]
 [[Category:Tier 5]]
-[[Category:Alchemist]]
-[[Category:Harbinger]]
-[[Category:Infiltrator]]
-[[Category:Sentinel]]
-[[Category:Geomancer]]
-[[Category:Druid]]
-{{stub}}
-'''{{PAGENAME}}'''
+</includeonly>
